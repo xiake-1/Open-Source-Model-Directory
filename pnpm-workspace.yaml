@@ -3,6 +3,9 @@
 # 因此在受限环境里关掉它的构建脚本不影响使用。
 allowBuilds:
   esbuild: false
+  # wrangler 依赖 workerd，它的 postinstall 需要放行；
+  # 不放行时 pnpm 11 会直接报 [ERR_PNPM_IGNORED_BUILDS] 让构建/部署失败。
+  workerd: true
 
 # 用扁平的 node_modules（和 npm 一样是真实目录，不建符号链接/junction）。
 # 这样在任何沙箱或受限环境里，Node 的模块解析都不会因为跳转链接而出错。

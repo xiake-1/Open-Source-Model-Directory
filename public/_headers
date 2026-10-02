@@ -1,4 +1,4 @@
-# Cloudflare Pages 会读取这个文件设置响应头
+# Cloudflare 读取这个文件设置响应头（Pages 和 Workers 静态资源都支持，构建后位于 dist/_headers）
 /*
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
@@ -12,3 +12,8 @@
 # 搜索索引随每次部署变化，短缓存
 /search.json
   Cache-Control: public, max-age=3600
+
+# 可选：不想让默认的 *.workers.dev 地址被搜索引擎当成重复内容收录时，取消下面两行注释。
+# :worker / :subdomain 分别对应 <worker>.<账号子域>.workers.dev
+# https://:worker.:subdomain.workers.dev/*
+#   X-Robots-Tag: noindex

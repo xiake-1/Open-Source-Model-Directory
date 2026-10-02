@@ -1,0 +1,15 @@
+{
+  // Workers 静态资源站配置：dist/ 由 astro build 产出，wrangler deploy 直接把整个目录作为静态资源发布。
+  // 没有 main / 没有 adapter —— 纯静态站不需要 Worker 脚本，也不需要 @astrojs/cloudflare。
+  // name 必须与 Cloudflare 面板里的 Worker 名字一致，否则会新建一个 Worker 而不是更新现有的。
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "open-source-model-directory",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./dist",
+    // 目录式路径（/llm/xxx/ → /llm/xxx/index.html，/llm/xxx → 308 跳转到带斜杠）
+    "html_handling": "auto-trailing-slash",
+    // 命中不到文件时返回 dist/404.html，并使用真正的 404 状态码
+    "not_found_handling": "404-page"
+  }
+}
