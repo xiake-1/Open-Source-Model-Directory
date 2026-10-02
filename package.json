@@ -2,6 +2,7 @@
   "name": "open-model-radar",
   "version": "0.1.0",
   "private": true,
+  "packageManager": "pnpm@11.7.0",
   "type": "module",
   "scripts": {
     "dev": "astro dev",
