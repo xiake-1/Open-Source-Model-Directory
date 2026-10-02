@@ -1,0 +1,14 @@
+# Cloudflare Pages 会读取这个文件设置响应头
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Frame-Options: SAMEORIGIN
+  Permissions-Policy: geolocation=(), microphone=(), camera=()
+
+# 构建产物带哈希，可以长缓存
+/_astro/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# 搜索索引随每次部署变化，短缓存
+/search.json
+  Cache-Control: public, max-age=3600

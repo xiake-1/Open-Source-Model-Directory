@@ -1,0 +1,70 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import EntryList from '../components/EntryList.astro';
+import { allEntries, tagCounts, recent, recentlyAdded, COLLECTIONS } from '../lib/entries';
+import { SITE_DESC } from '../lib/site';
+
+const entries = await allEntries();
+const latest = entries.slice(0, 8);
+const fresh = recent(entries, 30);
+const added = recentlyAdded(entries, 30);
+const tags = tagCounts(entries).slice(0, 16);
+const allTags = tagCounts(entries).length;
+const countOf = (name: string) => entries.filter((e) => e.collection === name).length;
+---
+
+<BaseLayout title="首页">
+  <section class="hero">
+    <h1>开源模型雷达</h1>
+    <p>{SITE_DESC}</p>
+    <div class="stats">
+      <div><b>{entries.length}</b>条收录</div>
+      <div><b>{fresh.length}</b>最近 30 天发布</div>
+      <div><b>{added.length}</b>最近 30 天收录</div>
+      <div><b>{allTags}</b>个标签</div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>分板块</h2>
+    <div class="cards">
+      {
+        COLLECTIONS.map((c) => (
+          <article class="entry">
+            <div class="entry-head">
+              <a class="entry-title" href={c.path}>
+                {c.label}
+              </a>
+              <span class="entry-time">{countOf(c.name)} 条</span>
+            </div>
+            <p class="entry-summary">{c.desc}</p>
+          </article>
+        ))
+      }
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>最近发布</h2>
+    <p class="section-note">按模型的官方发布时间倒序，不分板块混排 —— 一眼看到这个月出了什么。</p>
+    <EntryList entries={latest} showCollection />
+    <p class="section-note" style="margin-top:14px">
+      <a href="/recent/">查看最近 30 天的全部新条目 →</a>
+    </p>
+  </section>
+
+  {
+    tags.length > 0 && (
+      <section class="section">
+        <h2>热门标签</h2>
+        <div class="tags">
+          {tags.map((t) => (
+            <a class="tag" href={`/tags/${encodeURIComponent(t.tag)}/`}>
+              #{t.tag} · {t.count}
+            </a>
+          ))}
+        </div>
+      </section>
+    )
+  }
+</BaseLayout>

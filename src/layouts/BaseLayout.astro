@@ -1,0 +1,171 @@
+---
+import '../styles/global.css';
+import { SITE_TITLE, SITE_DESC } from '../lib/site';
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = SITE_DESC } = Astro.props;
+const path = Astro.url.pathname;
+const canonical = Astro.site ? new URL(path, Astro.site).href : path;
+const fullTitle = title === '首页' ? SITE_TITLE : `${title} · ${SITE_TITLE}`;
+
+const nav = [
+  { href: '/', label: '首页' },
+  { href: '/llm/', label: 'LLM' },
+  { href: '/aigc/', label: 'AIGC' },
+  { href: '/deploy/', label: '部署方案' },
+  { href: '/recent/', label: '近期' },
+  { href: '/tags/', label: '标签' },
+  { href: '/about/', label: '关于' },
+];
+const isCurrent = (href: string) => (href === '/' ? path === '/' : path.startsWith(href));
+---
+
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="alternate" type="application/rss+xml" title={SITE_TITLE} href="/rss.xml" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta name="twitter:card" content="summary" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap">
+        <a class="brand" href="/">开源模型<span>雷达</span></a>
+        <nav class="site-nav">
+          {
+            nav.map((item) => (
+              <a href={item.href} aria-current={isCurrent(item.href) ? 'page' : undefined}>
+                {item.label}
+              </a>
+            ))
+          }
+        </nav>
+        <div class="search">
+          <input
+            id="site-search"
+            type="search"
+            placeholder="搜索模型 / 方案…"
+            autocomplete="off"
+            aria-label="站内搜索"
+          />
+          <div class="search-results" id="search-results" data-open="false"></div>
+        </div>
+      </div>
+    </header>
+
+    <main class="wrap">
+      <slot />
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <span>© {new Date().getFullYear()} {SITE_TITLE}</span>
+        <a href="/rss.xml">RSS 订阅</a>
+        <a href="/about/">收录标准</a>
+        <span>本站只存链接与简介，模型与代码版权归原作者所有</span>
+      </div>
+    </footer>
+
+    <script is:inline>
+      // 1) 相对时间：静态站不会天天重建，所以"3 天前"在浏览器里算，不写死在 HTML 里
+      const rtf = new Intl.RelativeTimeFormat('zh-CN', { numeric: 'auto' });
+      const toDays = (iso) => Math.floor((Date.now() - new Date(iso + 'T00:00:00Z').getTime()) / 86400000);
+      const humanize = (days) => {
+        if (days <= 0) return '今天';
+        if (days === 1) return '昨天';
+        if (days < 30) return `${days} 天前`;
+        if (days < 365) return rtf.format(-Math.round(days / 30), 'month');
+        return rtf.format(-Math.floor(days / 365), 'year');
+      };
+      for (const el of document.querySelectorAll('time[data-relative]')) {
+        const iso = el.getAttribute('datetime');
+        if (iso) el.textContent = humanize(toDays(iso));
+      }
+      // 2) NEW 标记：最近 14 天发布的条目自动加角标
+      for (const card of document.querySelectorAll('.entry[data-released]')) {
+        const days = toDays(card.getAttribute('data-released'));
+        if (days < 0 || days > 14) continue;
+        const title = card.querySelector('.entry-title');
+        if (!title || card.querySelector('.badge-new')) continue;
+        const badge = document.createElement('span');
+        badge.className = 'badge badge-new';
+        badge.textContent = 'NEW';
+        title.insertAdjacentElement('afterend', badge);
+      }
+      // 3) 站内搜索：索引在首次输入时才拉取，列表页保持零请求
+      const input = document.getElementById('site-search');
+      const box = document.getElementById('search-results');
+      let index = null;
+      const loadIndex = async () => {
+        if (!index) index = await fetch('/search.json').then((r) => r.json());
+        return index;
+      };
+      // 结果里的字段来自你自己的 Markdown，但一律转义，避免标题里带 HTML 时被注入
+      const esc = (s) =>
+        String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
+      const score = (item, q) => {
+        const t = item.t.toLowerCase();
+        const o = item.o.toLowerCase();
+        if (t.startsWith(q)) return 100;
+        if (t.includes(q)) return 80;
+        if (o.includes(q)) return 60;
+        if (item.g.some((g) => g.toLowerCase().includes(q))) return 40;
+        if (item.s.toLowerCase().includes(q)) return 20;
+        if (item.b && item.b.toLowerCase().includes(q)) return 5;
+        return 0;
+      };
+      const render = (hits) => {
+        if (!hits.length) {
+          box.innerHTML = '<div class="sr-empty">没有匹配的条目</div>';
+        } else {
+          box.innerHTML = hits
+            .map(
+              (h) =>
+                `<a href="${esc(h.h)}"><div class="sr-title">${esc(h.t)}</div><div class="sr-meta">${esc(h.c)} · ${esc(h.o)} · ${esc(h.d)}</div></a>`
+            )
+            .join('');
+        }
+        box.dataset.open = 'true';
+      };
+      if (input && box) {
+        input.addEventListener('input', async () => {
+          const q = input.value.trim().toLowerCase();
+          if (!q) {
+            box.dataset.open = 'false';
+            return;
+          }
+          const data = await loadIndex();
+          const hits = data
+            .map((item) => ({ item, s: score(item, q) }))
+            .filter((x) => x.s > 0)
+            .sort((a, b) => b.s - a.s)
+            .slice(0, 20)
+            .map((x) => x.item);
+          render(hits);
+        });
+        input.addEventListener('focus', () => {
+          if (input.value.trim()) box.dataset.open = 'true';
+        });
+        document.addEventListener('click', (e) => {
+          if (e.target !== input && !box.contains(e.target)) box.dataset.open = 'false';
+        });
+        document.addEventListener('keydown', (e) => {
+          if (e.key === 'Escape') box.dataset.open = 'false';
+        });
+      }
+    </script>
+  </body>
+</html>

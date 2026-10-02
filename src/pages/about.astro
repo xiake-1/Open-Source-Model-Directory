@@ -1,0 +1,81 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { REPO_URL, SITE_TITLE } from '../lib/site';
+import { allEntries, COLLECTIONS } from '../lib/entries';
+
+const entries = await allEntries();
+const countOf = (name: string) => entries.filter((e) => e.collection === name).length;
+---
+
+<BaseLayout title="关于" description={`${SITE_TITLE} 是什么、收录什么、不收录什么`}>
+  <h1 class="page-title">关于这个站</h1>
+  <p class="page-desc">一个给自己用的开源模型与部署方案索引。</p>
+
+  <div class="prose">
+    <h2>它解决什么问题</h2>
+    <p>
+      新模型和新的部署方案出得太快，收藏夹和聊天记录里散落的链接最后都会变成垃圾堆。这里把它们压成统一格式：
+      <strong>官方链接 + 发布时间 + 一句话简介 + 几个关键参数</strong>，然后按时间线排好。归属只有两个板块 —— LLM 和 AIGC，
+      部署 / 加速方案单独成一块，可以和具体模型互相引用。
+    </p>
+
+    <h2>收录什么</h2>
+    <ul>
+      <li><strong>LLM</strong>（{countOf('llm')} 条）：开放权重、可以自己部署的语言模型。</li>
+      <li><strong>AIGC</strong>（{countOf('aigc')} 条）：图像 / 视频 / 音频 / 3D 生成模型。</li>
+      <li><strong>部署方案</strong>（{countOf('deploy')} 条）：推理引擎、量化、微调、服务化工具，重点是"能不能真的跑起来"。</li>
+    </ul>
+
+    <h2>不收录什么</h2>
+    <ul>
+      <li>只有 API、不放权重的闭源服务（没有可自部署的部分就不记）。</li>
+      <li>个人微调 / 换皮的小模型、空仓库、论文只有预印本没有代码的。</li>
+      <li>纯资讯和新闻 —— 这里只做索引，不做媒体。</li>
+    </ul>
+
+    <h2>每条都包含什么</h2>
+    <ul>
+      <li><strong>发布</strong>：官方首次放权重 / 放代码的时间，列表排序的依据。</li>
+      <li><strong>收录</strong>：我把它记进来的时间。两个时间分开，是为了让"补录老模型"和"真的出了新东西"能被区分开。</li>
+      <li><strong>一句话简介</strong>：写不清"是什么 + 凭什么值得看"的条目不会入库（构建时会被 schema 拒掉）。</li>
+      <li><strong>链接</strong>：HuggingFace / GitHub / 论文 / 在线体验 / 文档，至少有一个。</li>
+      <li><strong>关键参数</strong>：参数量、上下文、推荐显存、许可证这些"决定你能不能上手"的信息。</li>
+    </ul>
+
+    <h2>数据长什么样</h2>
+    <p>
+      整站是纯静态的，数据就是仓库里的 Markdown 文件，一个条目一个文件，放在
+      <code>src/content/llm</code>、<code>src/content/aigc</code>、<code>src/content/deploy</code>。
+      字段由 Astro 的 schema 强校验：日期写错、链接写错、简介太短都会直接让构建失败，不会悄悄上线一个坏条目。
+    </p>
+
+    <h2>投稿与纠错</h2>
+    <p>
+      发现条目信息过期（链接失效、许可证变更、显存要求不对）或者想补充一条收录，欢迎直接提 issue / PR。
+      {REPO_URL ? <a href={REPO_URL}>仓库地址在这里</a> : '把仓库地址填进 src/lib/site.ts 的 REPO_URL 就会显示在这里。'}
+    </p>
+
+    <h2>免责声明</h2>
+    <p>
+      本站只存链接和一句话简介，不镜像任何模型权重和代码；模型、代码、商标的版权归原作者所有。
+      许可证字段只是转述官方说明，用于商用前请自行核对原始许可证文件。
+    </p>
+
+    <h2>板块入口</h2>
+    <p>
+      {COLLECTIONS.map((c, i) => (
+        <>
+          {i > 0 && ' · '}
+          <a href={c.path}>{c.label}</a>
+        </>
+      ))}
+    </p>
+  </div>
+
+  <section class="section">
+    <h2>订阅</h2>
+    <p class="section-note">
+      <a href="/rss.xml">RSS</a> —— 这类站的价值在于"持续更新"，订阅比收藏夹可靠。
+    </p>
+  </section>
+</BaseLayout>

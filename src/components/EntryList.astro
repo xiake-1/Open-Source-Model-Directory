@@ -1,0 +1,24 @@
+---
+import type { Entry } from '../lib/entries';
+import EntryCard from './EntryCard.astro';
+
+interface Props {
+  entries: Entry[];
+  showCollection?: boolean;
+  empty?: string;
+}
+
+const { entries, showCollection = false, empty = '这里还没有条目。' } = Astro.props;
+---
+
+{
+  entries.length === 0 ? (
+    <p class="page-desc">{empty}</p>
+  ) : (
+    <div class="cards">
+      {entries.map((entry) => (
+        <EntryCard entry={entry} showCollection={showCollection} />
+      ))}
+    </div>
+  )
+}

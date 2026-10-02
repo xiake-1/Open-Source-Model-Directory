@@ -1,0 +1,142 @@
+---
+import { getCollection, getEntry, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import EntryList from '../../components/EntryList.astro';
+import {
+  COLLECTIONS,
+  COLLECTION_LABELS,
+  allEntries,
+  toEntry,
+  type CollectionName,
+} from '../../lib/entries';
+import { formatDate, LINK_LABELS, STATUS_LABELS, MODALITY_LABELS, OUTPUT_LABELS } from '../../lib/format';
+
+export async function getStaticPaths() {
+  const paths: any[] = [];
+  for (const c of COLLECTIONS) {
+    const items = await getCollection(c.name);
+    for (const entry of items) {
+      paths.push({
+        params: { collection: c.name, slug: entry.id },
+        props: { collection: c.name, entry },
+      });
+    }
+  }
+  return paths;
+}
+
+const { collection, entry } = Astro.props as { collection: CollectionName; entry: any };
+const data = entry.data;
+const { Content } = await render(entry);
+const released = formatDate(data.released);
+const added = formatDate(data.added ?? data.released);
+const links = Object.entries(data.links ?? {}).filter(([, url]) => Boolean(url)) as [string, string][];
+const tags: string[] = data.tags ?? [];
+
+// 关联的部署 / 加速方案（schema 里用 reference('deploy') 做的强关联，写错文件名会直接构建失败）
+const deployRefs = (data.deploys ?? []) as { collection: string; id: string }[];
+const deploys = (await Promise.all(deployRefs.map((ref) => getEntry(ref as any))))
+  .filter(Boolean)
+  .map((d) => toEntry('deploy', d as any));
+
+// 相关条目：同板块 + 标签有交集
+const others = (await allEntries())
+  .filter((e) => e.collection === collection && e.id !== entry.id)
+  .map((e) => ({ e, overlap: e.tags.filter((t) => tags.includes(t)).length }))
+  .filter((x) => x.overlap > 0)
+  .sort((a, b) => b.overlap - a.overlap)
+  .slice(0, 4)
+  .map((x) => x.e);
+
+const kv: [string, string][] = [];
+if (collection === 'llm') {
+  if (data.params) kv.push(['参数量', data.params]);
+  if (data.context) kv.push(['上下文', data.context]);
+  if (data.vram) kv.push(['硬件', data.vram]);
+  if (data.modalities?.length) {
+    kv.push(['模态', data.modalities.map((m: string) => MODALITY_LABELS[m] ?? m).join(' / ')]);
+  }
+} else if (collection === 'aigc') {
+  kv.push(['输出类型', OUTPUT_LABELS[data.output] ?? data.output]);
+  if (data.architecture) kv.push(['架构', data.architecture]);
+  if (data.vram) kv.push(['硬件', data.vram]);
+} else {
+  kv.push(['类型', data.kind]);
+  if (data.supports?.length) kv.push(['支持', data.supports.join(' · ')]);
+  if (data.pain) kv.push(['上手难点', data.pain]);
+}
+if (data.license) kv.push(['许可', data.license]);
+kv.push(['发布', released]);
+kv.push(['收录', added]);
+---
+
+<BaseLayout title={data.title} description={data.summary}>
+  <article>
+    <header class="detail-head">
+      <h1>{data.title}</h1>
+      <div class="detail-meta">
+        <span class="badge badge-cat">{COLLECTION_LABELS[collection]}</span>
+        <span>{data.org}</span>
+        <time datetime={released} data-relative>{released}</time>
+        {data.status !== 'active' && <span class="badge badge-dead">{STATUS_LABELS[data.status]}</span>}
+      </div>
+    </header>
+
+    <p class="entry-summary" style="font-size:16px">{data.summary}</p>
+
+    <div class="link-buttons">
+      {
+        links.map(([key, url]) => (
+          <a href={url} target="_blank" rel="noopener noreferrer">
+            {LINK_LABELS[key] ?? key} ↗
+          </a>
+        ))
+      }
+    </div>
+
+    <dl class="kv">
+      {
+        kv.map(([k, v]) => (
+          <>
+            <dt>{k}</dt>
+            <dd>{v}</dd>
+          </>
+        ))
+      }
+    </dl>
+
+    {
+      tags.length > 0 && (
+        <div class="tags" style="margin-left:0">
+          {tags.map((tag) => (
+            <a class="tag" href={`/tags/${encodeURIComponent(tag)}/`}>
+              #{tag}
+            </a>
+          ))}
+        </div>
+      )
+    }
+
+    <div class="prose">
+      <Content />
+    </div>
+
+    {
+      deploys.length > 0 && (
+        <section class="section">
+          <h2>可用的部署 / 加速方案</h2>
+          <EntryList entries={deploys} />
+        </section>
+      )
+    }
+
+    {
+      others.length > 0 && (
+        <section class="section">
+          <h2>相关条目</h2>
+          <EntryList entries={others} />
+        </section>
+      )
+    }
+  </article>
+</BaseLayout>

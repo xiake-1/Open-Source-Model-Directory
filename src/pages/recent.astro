@@ -1,0 +1,28 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import EntryList from '../components/EntryList.astro';
+import { allEntries, recent, recentlyAdded } from '../lib/entries';
+
+const entries = await allEntries();
+const fresh = recent(entries, 30);
+const added = recentlyAdded(entries, 30);
+---
+
+<BaseLayout title="近期" description="最近 30 天发布与收录的开源模型、部署方案">
+  <h1 class="page-title">近期</h1>
+  <p class="page-desc">
+    "发布"是官方放权重的时间，"收录"是我把它记进来的时间 —— 两者分开看，才知道这个站有没有在更新。
+  </p>
+
+  <section class="section">
+    <h2>最近 30 天发布（{fresh.length}）</h2>
+    <p class="section-note">按发布时间倒序，跨板块混排。</p>
+    <EntryList entries={fresh} showCollection empty="最近 30 天没有新条目。" />
+  </section>
+
+  <section class="section">
+    <h2>最近 30 天收录（{added.length}）</h2>
+    <p class="section-note">包括补录的老模型、老项目。</p>
+    <EntryList entries={added} showCollection empty="最近 30 天没有补录。" />
+  </section>
+</BaseLayout>

@@ -1,0 +1,28 @@
+---
+import type { Entry } from '../lib/entries';
+import { groupByMonth } from '../lib/entries';
+import EntryList from './EntryList.astro';
+
+interface Props {
+  entries: Entry[];
+  showCollection?: boolean;
+}
+
+const { entries, showCollection = false } = Astro.props;
+const groups = groupByMonth(entries);
+const label = (key: string) => {
+  const [y, m] = key.split('-');
+  return `${y} 年 ${Number(m)} 月`;
+};
+---
+
+{
+  groups.map((group) => (
+    <section class="section">
+      <h2>
+        {label(group.key)} <span class="fact">{group.items.length}</span>
+      </h2>
+      <EntryList entries={group.items} showCollection={showCollection} />
+    </section>
+  ))
+}

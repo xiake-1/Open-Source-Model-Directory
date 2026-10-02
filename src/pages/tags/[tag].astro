@@ -1,0 +1,24 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import EntryList from '../../components/EntryList.astro';
+import { allEntries, byTag, tagCounts } from '../../lib/entries';
+
+export async function getStaticPaths() {
+  const entries = await allEntries();
+  return tagCounts(entries).map(({ tag, count }) => ({
+    params: { tag },
+    props: { tag, count },
+  }));
+}
+
+const { tag, count } = Astro.props;
+const entries = byTag(await allEntries(), tag);
+---
+
+<BaseLayout title={`#${tag}`} description={`标签 ${tag} 下的 ${count} 条开源模型与部署方案`}>
+  <h1 class="page-title">#{tag}</h1>
+  <p class="page-desc">
+    共 {count} 条 · <a href="/tags/">全部标签</a>
+  </p>
+  <EntryList entries={entries} showCollection />
+</BaseLayout>
