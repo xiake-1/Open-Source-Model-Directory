@@ -218,7 +218,7 @@ main { padding: 32px 0 72px; }
   align-items: center;
   gap: 8px;
 }
-/* 首页的分区标题：LLM / AIGC 就是这一页最大的字 —— 比下面的月份小标题（.month-sub，14px）大一档，
+/* 首页的分区标题：LLM 近期模型 / AIGC 近期模型 就是这一页最大的字（下面直接是卡片，不再有月份小标题），
    标题本身就是"看全部"的入口（原来那行说明文字已经删掉）。
    选择器要比 .section > h2 更具体，才能盖住分组标题那套灰色小字 */
 .section > h2.home-title {
@@ -259,7 +259,7 @@ main { padding: 32px 0 72px; }
 }
 .month:first-child { margin-top: 26px; }
 
-/* 首页把"近 2 个月"拆成两个月份小节，这里的月份标题比分区标题轻一档 */
+/* 列表页的月份分组标题（首页已不按月拆小节） */
 .month-sub {
   font-size: 14px;
   font-weight: 600;
@@ -273,9 +273,9 @@ main { padding: 32px 0 72px; }
 
 /* 首页现在直接从"本月"分区开始，首屏不需要额外留白 */
 
-/* 首页里"这个月还没有新的 LLM / AIGC"的提示：比列表页的说明段落大一档、用正文色。
+/* 首页里"最近 30 天还没有新的 LLM / AIGC"的提示：比列表页的说明段落大一档、用正文色。
    列表页的 .page-desc 不动 —— 那边的"没有符合条件的模型"是筛选结果，属于次要信息 */
-.home-section .section.month > .page-desc {
+.home-section .page-desc {
   font-size: 17px;
   color: var(--text);
   margin: 0 0 16px;

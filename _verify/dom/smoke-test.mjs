@@ -10,6 +10,8 @@ import { dirname, resolve } from 'node:path';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const DIST = resolve(HERE, '../../dist');
+// 与 src/pages/index.astro 的 HOME_WINDOW_DAYS 保持一致（改首页窗口时两边一起改）
+const HOME_WINDOW_DAYS = 30;
 const chunkName = readdirSync(`${DIST}/_astro`).find((f) => f.startsWith('TagFilter') && f.endsWith('.js'));
 const chunk = readFileSync(`${DIST}/_astro/${chunkName}`, 'utf8');
 
@@ -99,31 +101,33 @@ for (const page of pages) {
 
 console.log(`\n结果：通过 ${pass}、失败 ${fail}`);
 
-// 首页：近 2 个月（本月 + 上个月各一个小节），且不再写"新的在前"
+// 首页：近 30 天（日历天）窗口，条目直接平铺、没有月份小节，且不再写"新的在前"
 {
-  console.log('\n=== /（首页：近 2 个月窗口） ===');
+  console.log(`\n=== /（首页：近 ${HOME_WINDOW_DAYS} 天窗口） ===`);
   const doc = new JSDOM(readFileSync(`${DIST}/index.html`, 'utf8')).window.document;
-  const keys = [...doc.querySelectorAll('.section.month[data-month]')].map((el) => el.getAttribute('data-month'));
-  // 每个分区各一份月份小节，所以去重后应该正好是本月与上个月
-  const now = new Date();
-  const expected = [0, 1].map((back) => {
-    const d = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth() - back, 1));
-    return `${d.getUTCFullYear()}-${String(d.getUTCMonth() + 1).padStart(2, '0')}`;
-  });
-  check('月份小节（去重）', [...new Set(keys)].sort(), [...expected].sort());
-  check('分区数 × 月份数', keys.length, 4);
+  check('没有月份小节（不再按月拆）', doc.querySelectorAll('.section.month').length, 0);
+  check('没有月份日期小标题', doc.querySelectorAll('.month-sub').length, 0);
   check('没有"新的在前"字样', doc.body.textContent.includes('新的在前'), false);
-  // 分区标题上的计数从内容现算：窗口内（本月 + 上个月）发布的条目数
-  const windowRe = new RegExp(`^released: ["']?(${expected.join('|')})`, 'm');
-  // 分区标题（LLM / AIGC）就是"看全部"的入口，标题下面那行说明文字已经删掉
+  // 分区标题上的计数从内容现算：窗口内（最近 30 个日历天）发布的条目数
+  const countWindow = (dir) => {
+    const cutoff = Date.now() - HOME_WINDOW_DAYS * 86_400_000;
+    return readdirSync(resolve(HERE, `../../src/content/${dir}`))
+      .filter((f) => f.endsWith('.md'))
+      .map((f) => readFileSync(resolve(HERE, `../../src/content/${dir}/${f}`), 'utf8'))
+      .filter((t) => {
+        const m = t.match(/^released: ["']?(\d{4}-\d{2}-\d{2})/m);
+        return m && new Date(`${m[1]}T00:00:00Z`).getTime() >= cutoff;
+      }).length;
+  };
+  // 分区标题（LLM 近期模型 / AIGC 近期模型）就是"看全部"的入口，标题下面那行说明文字已经删掉
   check(
     '分区标题是链接',
     [...doc.querySelectorAll('.home-title a')].map((a) => a.getAttribute('href')),
     ['/llm/models/', '/aigc/image/']
   );
   check('分区标题文本（型号 + 计数 + 箭头）', [...doc.querySelectorAll('.home-title')].map((h) => h.textContent.replace(/\s+/g, '')), [
-    `LLM${countMd('llm', windowRe)}→`,
-    `AIGC${countMd('aigc', windowRe)}→`,
+    `LLM近期模型${countWindow('llm')}→`,
+    `AIGC近期模型${countWindow('aigc')}→`,
   ]);
   check('标题下面不再有说明段落', doc.querySelectorAll('.section-note').length, 0);
   check(

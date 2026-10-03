@@ -44,12 +44,14 @@ for (const f of readdirSync(CONTENT).filter((x) => x.endsWith('.md'))) {
   const ctx = get('context').match(/^\s*(\d+(?:\.\d+)?)\s*([KM])/i);
   const pm = get('params').match(/(\d+(?:\.\d+)?)\s*([BT])/i);
   const totalB = pm ? Number(pm[1]) * (pm[2].toUpperCase() === 'T' ? 1000 : 1) : null;
+  // 侧栏「上下文」按分档展示（与 lib/taxonomy.ts 的 contextBucketOf 同口径：128K 算中、512K 仍是中）
+  const ctxK = ctx ? Number(ctx[1]) * (ctx[2].toUpperCase() === 'M' ? 1024 : 1) : null;
   rows.push({
     title: get('title'),
     family: get('family'),
     month: get('released').slice(0, 7),
     tags,
-    contextTag: ctx ? `${ctx[1]}${ctx[2].toUpperCase()}` : '',
+    contextTag: ctxK == null ? '' : ctxK < 128 ? '低 0-128K' : ctxK <= 512 ? '中 128K-512K' : '高 >512K',
     sizeTag: totalB == null ? '' : totalB < 100 ? '低 ≤100B' : totalB < 500 ? '中 100-500B' : '高 ≥500B',
     popularityTag: popularityTagOf(DOWNLOADS[hfRepoOf(txt)]?.downloads),
   });
@@ -305,23 +307,23 @@ console.log('\n=== 17. 上下文 / 参数量标签可以筛选 ===');
 window.location.hash = '';
 window.dispatchEvent(new window.Event('hashchange'));
 check('先清空所有条件', [visible().length, hash()], [TOTAL, '']);
-const C1M = titlesOf((r) => r.contextTag === '1M');
-click(tagLink('1M'));
-check(`上下文 1M → ${C1M.length} 条`, visible().length, C1M.length);
-check('hash', hash(), '#tag=1M');
-check('「筛选」标题显示 1M', text('[data-tag-label]'), '1M');
+const C_HIGH = titlesOf((r) => r.contextTag === '高 >512K');
+click(tagLink('高 >512K'));
+check(`上下文 高 >512K → ${C_HIGH.length} 条`, visible().length, C_HIGH.length);
+check('hash', hash(), '#tag=' + encodeURIComponent('高 >512K'));
+check('「筛选」标题显示 高 >512K', text('[data-tag-label]'), '高 >512K');
 const HIGH = titlesOf((r) => r.sizeTag === '高 ≥500B');
 click(tagLink('高 ≥500B'));
 check(`参数量 高 ≥500B → ${HIGH.length} 条`, visible().length, HIGH.length);
 check('hash', hash(), '#tag=' + encodeURIComponent('高 ≥500B'));
-check('标签仍是单选（上下文被顶掉）', tagLink('1M').classList.contains('is-active'), false);
+check('标签仍是单选（上下文被顶掉）', tagLink('高 >512K').classList.contains('is-active'), false);
 const LOW = titlesOf((r) => r.sizeTag === '低 ≤100B');
 click(tagLink('低 ≤100B'));
 check(`参数量 低 ≤100B → ${LOW.length} 条`, visible().length, LOW.length);
-const C256 = titlesOf((r) => r.contextTag === '256K');
-click(tagLink('256K'));
-check(`上下文 256K → ${C256.length} 条`, visible().length, C256.length);
-check('条目明细', titles().sort(), C256);
+const C_MID = titlesOf((r) => r.contextTag === '中 128K-512K');
+click(tagLink('中 128K-512K'));
+check(`上下文 中 128K-512K → ${C_MID.length} 条`, visible().length, C_MID.length);
+check('条目明细', titles().sort(), C_MID);
 click(tagLink(''));
 check('「全部」回到全部条目', [visible().length, hash(), text('[data-tag-label]')], [TOTAL, '', '全部']);
 

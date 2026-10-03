@@ -302,7 +302,13 @@ export function inMonth(entries: Entry[], key: string): Entry[] {
   return entries.filter((e) => ym(e.released) === key);
 }
 
-/** 从本月往前数 count 个自然月，新的在前（首页用它取"近 N 个月"的窗口） */
+/** 最近 days 个自然日内发布的条目（从当前时间往前数、含今天），首页"近期模型"用它取窗口 */
+export function releasedWithinDays(entries: Entry[], days: number, now = new Date()): Entry[] {
+  const cutoff = now.getTime() - days * 86_400_000;
+  return entries.filter((e) => e.released.getTime() >= cutoff);
+}
+
+/** 从本月往前数 count 个自然月，新的在前 */
 export function recentMonthKeys(count: number, now = new Date()): string[] {
   const keys: string[] = [];
   for (let i = 0; i < count; i++) {
