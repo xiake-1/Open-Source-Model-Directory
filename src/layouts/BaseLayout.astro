@@ -56,6 +56,9 @@ const inSection = (href: string) => (href === '/' ? path === '/' : path.startsWi
     <script is:inline>
       // 在首次绘制前定好主题，避免深色用户看到一闪而过的白屏。
       // 没有手动选择过时跟随系统（CSS 里的 prefers-color-scheme 负责）。
+      // 同时给 <html> 挂上 js：窄屏导航的"抽屉"形态只在有 JS 时启用，
+      // 脚本没跑起来时退回可见的平铺导航，不至于整块导航消失。
+      document.documentElement.classList.add('js');
       try {
         var saved = localStorage.getItem('theme');
         if (saved === 'dark' || saved === 'light') {
@@ -70,10 +73,12 @@ const inSection = (href: string) => (href === '/' ? path === '/' : path.startsWi
     <header class="site-header">
       <div class="wrap header-inner">
         <a class="brand" href="/">{SITE_TITLE}</a>
-        <nav class="site-nav">
+        <nav class="site-nav" id="site-nav" aria-label="主导航">
           {
             nav.map((item) => (
               <div class="nav-item" data-has-menu={item.children.length > 0 ? 'true' : undefined}>
+                {/* 窄屏抽屉里的分组名；宽屏由父项链接自己承担，这个不显示 */}
+                {item.children.length > 0 && <span class="nav-group">{item.label}</span>}
                 <a
                   class={item.children.length > 0 ? 'nav-parent' : undefined}
                   href={item.href}
@@ -106,6 +111,18 @@ const inSection = (href: string) => (href === '/' ? path === '/' : path.startsWi
           />
           <div class="search-results" id="search-results" data-open="false"></div>
         </div>
+        <button
+          id="nav-toggle"
+          class="nav-toggle"
+          type="button"
+          aria-label="打开导航菜单"
+          aria-expanded="false"
+          aria-controls="site-nav"
+        >
+          <span class="nt-bar"></span>
+          <span class="nt-bar"></span>
+          <span class="nt-bar"></span>
+        </button>
         <button id="theme-toggle" class="theme-toggle" type="button" aria-label="切换深色 / 浅色" title="切换深色 / 浅色">
           <span class="tt-icon" data-theme-icon></span>
         </button>
@@ -238,6 +255,59 @@ const inSection = (href: string) => (href === '/' ? path === '/' : path.startsWi
           paintIcon();
         });
       }
+      // 5) 窄屏导航抽屉：头部只留一行，四项导航与搜索都收进汉堡里。
+      //    宽屏形态不变（悬停下拉 + 头部内联搜索），所以这里只管窄屏。
+      const navEl = document.getElementById('site-nav');
+      const navToggle = document.getElementById('nav-toggle');
+      const headerInner = document.querySelector('.header-inner');
+      const searchEl = document.querySelector('.search');
+      const narrow = window.matchMedia ? window.matchMedia('(max-width: 860px)') : null;
+      const isNarrow = () => !!(narrow && narrow.matches);
+      const closeNav = () => {
+        if (!navEl || !navToggle) return;
+        navEl.removeAttribute('data-open');
+        navToggle.setAttribute('aria-expanded', 'false');
+        navToggle.setAttribute('aria-label', '打开导航菜单');
+        document.body.removeAttribute('data-nav-open');
+      };
+      // 窄屏把搜索框搬进抽屉（占满一行）；回到宽屏再放回汉堡按钮前面原位
+      const syncSearch = () => {
+        if (!navEl || !searchEl || !navToggle || !headerInner) return;
+        if (isNarrow()) {
+          if (searchEl.parentElement !== navEl) navEl.insertBefore(searchEl, navEl.firstChild);
+        } else if (searchEl.parentElement === navEl) {
+          headerInner.insertBefore(searchEl, navToggle);
+        }
+      };
+      if (navEl && navToggle) {
+        navToggle.addEventListener('click', () => {
+          if (navEl.getAttribute('data-open') === 'true') {
+            closeNav();
+            return;
+          }
+          navEl.setAttribute('data-open', 'true');
+          navToggle.setAttribute('aria-expanded', 'true');
+          navToggle.setAttribute('aria-label', '关闭导航菜单');
+          document.body.setAttribute('data-nav-open', 'true');
+        });
+        // 点任意一项就走（含点到当前页的情况），顺手把抽屉收起来
+        navEl.addEventListener('click', (e) => {
+          if (e.target.closest && e.target.closest('a')) closeNav();
+        });
+        document.addEventListener('keydown', (e) => {
+          if (e.key === 'Escape') closeNav();
+        });
+        // 转屏 / 拉宽窗口跨过断点时别留着半开的抽屉
+        if (narrow) {
+          const onBreakpoint = () => {
+            if (!isNarrow()) closeNav();
+            syncSearch();
+          };
+          if (narrow.addEventListener) narrow.addEventListener('change', onBreakpoint);
+          else if (narrow.addListener) narrow.addListener(onBreakpoint);
+        }
+      }
+      syncSearch();
     </script>
   </body>
 </html>

@@ -344,10 +344,11 @@ const tagGroups = groups.filter((group) => group.label !== FAMILY_GROUP_LABEL);
     gap: 30px;
     align-items: start;
   }
-  /* 左列整列粘住：时间 / 所属 / 筛选三张卡片一起跟着滚动 */
+  /* 左列整列粘住：时间 / 所属 / 筛选三张卡片一起跟着滚动。
+     偏移量跟着 --header-h 走：头部高度一改，这里自动跟上 */
   .listing-side {
     position: sticky;
-    top: 78px;
+    top: calc(var(--header-h) + 20px);
     display: flex;
     flex-direction: column;
     gap: 12px;

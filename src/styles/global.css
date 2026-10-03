@@ -10,6 +10,8 @@
   --dead: #9aa0a6;
   --radius: 12px;
   --maxw: 1000px;
+  /* 头部高度：sticky 侧栏与窄屏抽屉都按它对齐，别再各写一个魔数 */
+  --header-h: 58px;
   --font: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB",
     "Microsoft YaHei", "Noto Sans SC", Roboto, Helvetica, Arial, sans-serif;
   --mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
@@ -86,7 +88,7 @@ a:hover { text-decoration: underline; }
   display: flex;
   align-items: center;
   gap: 20px;
-  min-height: 58px;
+  min-height: var(--header-h);
 }
 .brand {
   font-weight: 700;
@@ -160,6 +162,41 @@ a:hover { text-decoration: underline; }
 .nav-menu a[aria-current="page"] .nm-label { color: var(--accent); }
 .nm-label { display: block; font-size: 14px; font-weight: 600; }
 .nm-desc { display: block; font-size: 12px; color: var(--text-dim); line-height: 1.45; }
+
+/* 窄屏抽屉里的分组标题（LLM / AIGC），宽屏不出现 */
+.nav-group { display: none; }
+
+/* 汉堡开关：只在"窄屏 + 有 JS"时出现，样式基础放这里，图标由三条杠拼 */
+.nav-toggle {
+  display: none;
+  flex: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--bg-elev);
+  color: var(--text);
+  cursor: pointer;
+}
+.nav-toggle:hover { border-color: var(--accent); color: var(--accent); }
+.nav-toggle:focus-visible { outline: 2px solid var(--accent-soft); border-color: var(--accent); }
+.nt-bar {
+  display: block;
+  width: 18px;
+  height: 2px;
+  border-radius: 2px;
+  background: currentColor;
+  transition: transform 0.18s ease, opacity 0.18s ease;
+}
+/* 展开时变成 ✕，收起再变回来 */
+.nav-toggle[aria-expanded='true'] .nt-bar:nth-child(1) { transform: translateY(6px) rotate(45deg); }
+.nav-toggle[aria-expanded='true'] .nt-bar:nth-child(2) { opacity: 0; }
+.nav-toggle[aria-expanded='true'] .nt-bar:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
 
 /* ---------- search ---------- */
 .search { position: relative; margin-left: auto; }
@@ -509,7 +546,13 @@ main { padding: 32px 0 72px; }
 }
 .site-footer .wrap { display: flex; gap: 16px; flex-wrap: wrap; }
 
+/* ================= 窄屏顶部导航 =================
+   宽屏：四项 + 悬停下拉。
+   窄屏有 JS：头部锁成一行（品牌 / 汉堡 / 主题开关），导航进抽屉 —— 原先那套
+   "子项全部平铺、头部折成两行"的写法会让 sticky 头部在手机上吃掉小半个屏幕。
+   窄屏没有 JS：退化成下面那套平铺布局，所有入口照旧点得到（只是没有抽屉）。 */
 @media (max-width: 860px) {
+  /* --- 无 JS 兜底：与改造前一致 --- */
   .header-inner { gap: 12px; flex-wrap: wrap; padding-bottom: 8px; }
   .site-nav { order: 3; width: 100%; justify-content: flex-start; }
   .search input { width: 150px; }
@@ -532,9 +575,102 @@ main { padding: 32px 0 72px; }
   .nm-desc { display: none; }
   .nav-menu a { padding: 4px 8px; font-weight: 400; white-space: nowrap; }
   .nav-item > a { padding: 4px 8px; white-space: nowrap; }
+
+  /* --- 有 JS：汉堡抽屉 --- */
+  html.js .header-inner { flex-wrap: nowrap; gap: 10px; padding-bottom: 0; }
+  html.js .nav-toggle { display: inline-flex; margin-left: auto; }
+  /* 头部在窄屏改成不透明：一是手机上少一层毛玻璃更省，二是 backdrop-filter 会给
+     position: fixed 的子元素另造一个包含块（抽屉就会按头部的高度算，被压成几十像素）。 */
+  html.js .site-header { background: var(--bg); backdrop-filter: none; }
+
+  html.js .site-nav {
+    position: fixed;
+    left: 0;
+    right: 0;
+    /* 顶部让给 sticky 头部 */
+    top: var(--header-h);
+    /* 高度显式写出来，不靠 bottom: 0 —— 免得以后哪个祖先再加 transform / filter 时又被压扁。
+       先用 vh 兜底，再交给 dvh（手机地址栏收放时才算得准）。 */
+    height: calc(100vh - var(--header-h));
+    height: calc(100dvh - var(--header-h));
+    z-index: 15;
+    display: none;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    gap: 0;
+    width: auto;
+    padding: 4px 20px calc(28px + env(safe-area-inset-bottom, 0px));
+    font-size: 16px;
+    background: var(--bg);
+    border-top: 1px solid var(--line);
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
+  }
+  html.js .site-nav[data-open='true'] { display: flex; }
+  /* 抽屉打开时锁住页面滚动，免得手指在抽屉上滑动把底下的列表带着滚 */
+  body[data-nav-open='true'] { overflow: hidden; }
+
+  html.js .nav-item { display: block; }
+  html.js .nav-item + .nav-item { border-top: 1px solid var(--line); }
+  html.js .nav-group {
+    display: block;
+    padding: 16px 10px 2px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+  }
+  /* 抽屉里的每一行都按触控目标做够高（≥44px），别再是原来那种 20 来像素的小链接 */
+  html.js .site-nav .nav-item > a {
+    display: flex;
+    align-items: center;
+    min-height: 48px;
+    padding: 0 10px;
+    font-size: 16px;
+    white-space: normal;
+    border-radius: 10px;
+  }
+  /* 有子项的父项在窄屏不出现（与子项同义），分组名由上面的 .nav-group 承担 */
+  html.js .site-nav .nav-item > a.nav-parent { display: none; }
+  html.js .site-nav .nav-menu {
+    position: static;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    padding: 0 0 10px;
+    background: none;
+    border: none;
+    box-shadow: none;
+    min-width: 0;
+  }
+  html.js .site-nav .nav-menu a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 48px;
+    padding: 8px 10px 8px 22px;
+    font-weight: 400;
+    white-space: normal;
+    border-radius: 10px;
+  }
+  html.js .site-nav .nm-label { font-size: 15px; }
+  html.js .site-nav .nm-desc { display: block; }
+
+  /* 搜索框：窄屏由脚本从头部搬进抽屉（占满一行），宽屏仍留在头部 */
+  html.js .site-nav .search {
+    margin: 10px 0 4px;
+    padding: 0 10px 14px;
+    border-bottom: 1px solid var(--line);
+  }
+  html.js .site-nav .search input { width: 100%; padding: 12px 14px; font-size: 15px; }
+  html.js .site-nav .search-results { left: 10px; right: 10px; width: auto; }
 }
 
 @media (max-width: 520px) {
+  /* 无 JS 兜底那一套的收窄；有 JS 时搜索框在抽屉里，不受这里的固定宽度影响 */
   .nm-label { font-size: 13px; }
   .nav-menu a { padding: 3px 6px; }
   .nav-item > a { padding: 3px 6px; }
