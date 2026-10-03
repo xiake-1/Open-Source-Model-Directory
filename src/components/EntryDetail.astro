@@ -1,0 +1,117 @@
+---
+import { getCollection, getEntry, render } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import EntryList from '../components/EntryList.astro';
+import { toEntry, COLLECTION_LABELS, type CollectionName } from '../lib/entries';
+import { formatDate, LINK_LABELS, STATUS_LABELS, MODALITY_LABELS, OUTPUT_LABELS } from '../lib/format';
+
+/**
+ * 条目详情页的唯一模板，四个板块共用：
+ *   /llm/<slug>/   /aigc/<slug>/   /projects/<slug>/   /deploy/<slug>/
+ * 页面文件只负责提供 getStaticPaths。
+ */
+interface Props {
+  collection: CollectionName;
+  entry: any;
+}
+
+const { collection, entry } = Astro.props;
+const data = entry.data;
+const { Content } = await render(entry);
+const released = formatDate(data.released);
+const added = formatDate(data.added ?? data.released);
+const links = Object.entries(data.links ?? {}).filter(([, url]) => Boolean(url)) as [string, string][];
+// 模型页（LLM / AIGC）与项目 / 部署页共用这个模板，只有模型页写"模型简介"
+const isModel = collection === 'llm' || collection === 'aigc';
+// 模型页的正文已经精简掉了（为什么值得看 / 部署要点 / 配套部署方式），空正文不再渲染 prose 块
+const hasBody = Boolean(entry.body && entry.body.trim());
+
+// 关联的部署方式（schema 里用 reference('deploy') 做的强关联，写错文件名会直接构建失败）
+const deployRefs = (data.deploys ?? []) as { collection: string; id: string }[];
+const deploys = (await Promise.all(deployRefs.map((ref) => getEntry(ref as any))))
+  .filter(Boolean)
+  .map((d) => toEntry('deploy', d as any));
+
+const kv: [string, string][] = [];
+if (collection === 'llm') {
+  if (data.params) kv.push(['参数量', data.params]);
+  if (data.context) kv.push(['上下文', data.context]);
+  if (data.vram) kv.push(['硬件', data.vram]);
+  if (data.family) kv.push(['所属', data.family]);
+  kv.push(['类型', (data.modalities ?? ['text']).map((m: string) => MODALITY_LABELS[m] ?? m).join(' / ')]);
+  if (data.commercial) kv.push(['商用', data.commercial]);
+} else if (collection === 'aigc') {
+  kv.push(['输出类型', OUTPUT_LABELS[data.output] ?? data.output]);
+  if (data.architecture) kv.push(['架构', data.architecture]);
+  if (data.params) kv.push(['参数量', data.params]);
+  if (data.vram) kv.push(['硬件', data.vram]);
+  if (data.family) kv.push(['所属', data.family]);
+  if (data.commercial) kv.push(['商用', data.commercial]);
+} else if (collection === 'projects') {
+  if (data.params) kv.push(['项目形态', data.params]);
+  if (data.family) kv.push(['所属', data.family]);
+} else {
+  kv.push(['类型', data.kind]);
+  if (data.supports?.length) kv.push(['支持', data.supports.join(' · ')]);
+  if (data.pain) kv.push(['上手难点', data.pain]);
+}
+if (data.license) kv.push(['许可', data.license]);
+kv.push(['发布', released]);
+kv.push(['收录', added]);
+---
+
+<BaseLayout title={data.title} description={data.summary}>
+  <article>
+    <header class="detail-head">
+      <h1>{data.title}</h1>
+      <div class="detail-meta">
+        <span class="badge badge-cat">{COLLECTION_LABELS[collection]}</span>
+        <span>{data.org}</span>
+        <time datetime={released} data-relative>{released}</time>
+        {data.status !== 'active' && <span class="badge badge-dead">{STATUS_LABELS[data.status]}</span>}
+      </div>
+    </header>
+
+    {isModel && <h2 class="detail-h2">模型简介</h2>}
+
+    <p class="entry-summary" style="font-size:16px">{data.summary}</p>
+
+    <div class="link-buttons">
+      {
+        links.map(([key, url]) => (
+          <a href={url} target="_blank" rel="noopener noreferrer">
+            {LINK_LABELS[key] ?? key} ↗
+          </a>
+        ))
+      }
+    </div>
+
+    <dl class="kv">
+      {
+        kv.map(([k, v]) => (
+          <>
+            <dt>{k}</dt>
+            <dd>{v}</dd>
+          </>
+        ))
+      }
+    </dl>
+
+    {
+      hasBody && (
+        <div class="prose">
+          <Content />
+        </div>
+      )
+    }
+
+    {
+      deploys.length > 0 && (
+        <section class="section">
+          <h2 class="detail-h2">可用的部署方式</h2>
+          <EntryList entries={deploys} variant="deploy" />
+        </section>
+      )
+    }
+  </article>
+</BaseLayout>

@@ -6,7 +6,8 @@ added: 2026-10-02
 summary: 纯 C/C++ 的推理实现，把大模型塞进 CPU、Mac 统一内存和各种边缘设备，GGUF 量化格式的事实标准。
 tags: [量化, 本地部署, CPU 可跑, 跨平台, 边缘设备]
 license: MIT
-kind: 量化
+kind: 推理框架 / 服务引擎
+stars: 130185
 supports: [GGUF, CPU / Metal / CUDA / Vulkan, 1.5~8bit 量化, 无 Python 依赖]
 pain: 上游更新极快，围绕它做的二方封装经常与主干不兼容
 links:

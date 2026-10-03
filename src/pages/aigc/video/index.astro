@@ -1,0 +1,28 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import TagFilter from '../../../components/TagFilter.astro';
+import { aigcOf, tagCounts, facetCounts } from '../../../lib/entries';
+import { AIGC_TAG_GROUPS, facetGroups, popularityGroup, visibleGroups } from '../../../lib/taxonomy';
+
+const basePath = '/aigc/video/';
+const entries = await aigcOf('video');
+// 「热度」排在「架构」上面（与生图 / LLM 页同一套顺序）
+const counts = Object.fromEntries(
+  tagCounts(entries).concat(facetCounts(entries)).map((t) => [t.tag, t.count])
+);
+const groups = visibleGroups(
+  [popularityGroup(entries), ...AIGC_TAG_GROUPS, ...facetGroups(entries)],
+  new Set(Object.keys(counts))
+);
+---
+
+<BaseLayout title="生视频" description="开源视频生成模型（按发布时间倒序，左侧可按时间与架构筛选）">
+  <TagFilter
+    entries={entries}
+    groups={groups}
+    counts={counts}
+    basePath={basePath}
+    showMonths
+    empty="没有符合条件的生视频模型。"
+  />
+</BaseLayout>

@@ -1,0 +1,80 @@
+[
+ {
+  "id": "upstage/solar-pro4-tokenizer",
+  "createdAt": "2026-09-21T03:08:04.000Z",
+  "downloads": 0,
+  "likes": 2,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "upstage/Solar-Open2-250B",
+  "createdAt": "2026-07-22T02:40:42.000Z",
+  "downloads": 3461,
+  "likes": 755,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "upstage/TinySolar-187m-4k",
+  "createdAt": "2026-05-27T03:11:31.000Z",
+  "downloads": 67,
+  "likes": 6,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "upstage/TinySolar-111m-4k",
+  "createdAt": "2026-05-27T03:11:21.000Z",
+  "downloads": 55,
+  "likes": 4,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "upstage/solar-pro3-tokenizer",
+  "createdAt": "2026-01-23T08:41:27.000Z",
+  "downloads": 0,
+  "likes": 2,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "upstage/Solar-Open-100B",
+  "createdAt": "2025-12-10T01:10:35.000Z",
+  "downloads": 12590,
+  "likes": 497,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "upstage/TFLOP",
+  "createdAt": "2025-11-06T06:45:38.000Z",
+  "downloads": 52,
+  "likes": 3,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "upstage/solar-pro2-tokenizer",
+  "createdAt": "2025-07-08T03:31:42.000Z",
+  "downloads": 0,
+  "likes": 2,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ }
+]

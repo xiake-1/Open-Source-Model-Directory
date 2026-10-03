@@ -1,0 +1,96 @@
+[
+ {
+  "id": "Tele-AI/TeleStyleV2",
+  "createdAt": "2026-06-10T07:53:31.000Z",
+  "downloads": 0,
+  "likes": 40,
+  "pipeline": "any-to-any",
+  "tags": [
+   "any-to-any"
+  ],
+  "gated": false
+ },
+ {
+  "id": "Tele-AI/TeleChat3-Coder-36B-Thinking",
+  "createdAt": "2026-01-29T09:59:29.000Z",
+  "downloads": 69,
+  "likes": 4,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "Tele-AI/TeleStyle",
+  "createdAt": "2026-01-27T05:38:38.000Z",
+  "downloads": 0,
+  "likes": 64,
+  "pipeline": "any-to-any",
+  "tags": [
+   "any-to-any"
+  ],
+  "gated": false
+ },
+ {
+  "id": "Tele-AI/TeleChat3-36B-Thinking",
+  "createdAt": "2025-12-24T01:19:38.000Z",
+  "downloads": 2722,
+  "likes": 19,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "Tele-AI/MMPL",
+  "createdAt": "2025-10-21T02:20:27.000Z",
+  "downloads": 0,
+  "likes": 2,
+  "pipeline": "text-to-image",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "Tele-AI/TeleChat2.5-35B",
+  "createdAt": "2025-05-10T10:26:27.000Z",
+  "downloads": 38,
+  "likes": 3,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "Tele-AI/TeleChat2.5-115B",
+  "createdAt": "2025-05-10T10:18:56.000Z",
+  "downloads": 28,
+  "likes": 1,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "Tele-AI/T1-115B",
+  "createdAt": "2025-04-28T11:32:25.000Z",
+  "downloads": 34,
+  "likes": 3,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "Tele-AI/T1-35B",
+  "createdAt": "2025-04-28T09:56:33.000Z",
+  "downloads": 23,
+  "likes": 2,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "Tele-AI/TeleChat2-7B-32K",
+  "createdAt": "2025-02-12T01:24:53.000Z",
+  "downloads": 38,
+  "likes": 3,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ }
+]

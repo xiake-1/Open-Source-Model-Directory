@@ -6,7 +6,8 @@ added: 2026-10-02
 summary: 生产环境部署 LLM 的默认答案：PagedAttention 把 KV cache 碎片化问题解决掉，吞吐比朴素实现高一个量级。
 tags: [推理引擎, 高吞吐, 量化, OpenAI 兼容, 生产可用]
 license: Apache-2.0
-kind: 推理引擎
+kind: 推理框架 / 服务引擎
+stars: 93094
 supports: [PagedAttention, 张量并行, FP8/AWQ/GPTQ, OpenAI 兼容 API, 多模态]
 pain: 版本迭代快，参数名和模型支持列表跨版本变化大，务必锁定版本再上生产
 links:

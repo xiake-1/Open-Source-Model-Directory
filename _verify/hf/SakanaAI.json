@@ -1,0 +1,331 @@
+[
+ {
+  "id": "SakanaAI/fwpkm-l12-gdn-pkm6-fwpkm2_10",
+  "createdAt": "2026-07-27T09:28:31.000Z",
+  "downloads": 24,
+  "likes": 2,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "SakanaAI/fwpkm-l12-gdn_fa-pkm6-fwpkm2_10-pswa0.9",
+  "createdAt": "2026-07-27T09:28:01.000Z",
+  "downloads": 26,
+  "likes": 0,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "SakanaAI/fwpkm-l12-gdn_swa-pkm6-fwpkm2_10",
+  "createdAt": "2026-07-27T09:27:12.000Z",
+  "downloads": 28,
+  "likes": 0,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "SakanaAI/fwpkm-l12-gdn_swa-pkm2_6_10",
+  "createdAt": "2026-07-27T09:26:44.000Z",
+  "downloads": 20,
+  "likes": 0,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "SakanaAI/fwpkm-l12-gdn_fa-pkm2_6_10",
+  "createdAt": "2026-07-27T09:25:35.000Z",
+  "downloads": 23,
+  "likes": 0,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "SakanaAI/fwpkm-l12-gdn-pkm2_6_10",
+  "createdAt": "2026-07-27T09:25:02.000Z",
+  "downloads": 19,
+  "likes": 0,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "SakanaAI/fwpkm-l12-fa-pkm6-fwpkm2_10-pswa0.9",
+  "createdAt": "2026-07-27T09:23:39.000Z",
+  "downloads": 35,
+  "likes": 0,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "SakanaAI/fwpkm-l12-fa-pkm2_6_10",
+  "createdAt": "2026-07-27T09:21:17.000Z",
+  "downloads": 20,
+  "likes": 1,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "SakanaAI/gpt-oss-120b-sft-aimo3-fishmath",
+  "createdAt": "2026-04-27T02:29:39.000Z",
+  "downloads": 27,
+  "likes": 0,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "SakanaAI/DreamCubed2MHuman",
+  "createdAt": "2026-04-24T21:47:47.000Z",
+  "downloads": 0,
+  "likes": 0,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "SakanaAI/DreamCubed2M",
+  "createdAt": "2026-04-17T20:54:08.000Z",
+  "downloads": 0,
+  "likes": 0,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "SakanaAI/DreamCubedCP2",
+  "createdAt": "2026-04-14T13:06:03.000Z",
+  "downloads": 83,
+  "likes": 0,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "SakanaAI/DreamCubedDP2",
+  "createdAt": "2026-04-14T13:04:46.000Z",
+  "downloads": 83,
+  "likes": 0,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "SakanaAI/DreamCubedDP4",
+  "createdAt": "2026-04-14T13:01:40.000Z",
+  "downloads": 112,
+  "likes": 1,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "SakanaAI/kame",
+  "createdAt": "2026-04-09T04:39:40.000Z",
+  "downloads": 412,
+  "likes": 42,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "SakanaAI/RePo-OLMo2-7B-stage2-L10",
+  "createdAt": "2026-04-01T02:06:58.000Z",
+  "downloads": 108,
+  "likes": 1,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "SakanaAI/SparseLM2B",
+  "createdAt": "2026-03-23T15:11:56.000Z",
+  "downloads": 131,
+  "likes": 1,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "SakanaAI/SparseLM1B",
+  "createdAt": "2026-03-23T15:11:22.000Z",
+  "downloads": 90,
+  "likes": 0,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "SakanaAI/SparseLM1.5B",
+  "createdAt": "2026-03-23T15:10:59.000Z",
+  "downloads": 95,
+  "likes": 0,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "SakanaAI/SparseLM0.5B",
+  "createdAt": "2026-03-23T15:09:45.000Z",
+  "downloads": 107,
+  "likes": 0,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "SakanaAI/doc-to-lora",
+  "createdAt": "2026-02-12T06:03:13.000Z",
+  "downloads": 0,
+  "likes": 15,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "SakanaAI/Llama-2-7b-hf-DroPE",
+  "createdAt": "2026-01-06T06:55:14.000Z",
+  "downloads": 106,
+  "likes": 2,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "SakanaAI/RePo-OLMo2-1B-stage2-L5",
+  "createdAt": "2025-12-14T00:23:13.000Z",
+  "downloads": 127,
+  "likes": 2,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "SakanaAI/ctm-maze-large",
+  "createdAt": "2025-10-13T08:06:37.000Z",
+  "downloads": 321,
+  "likes": 2,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "SakanaAI/ctm-imagenet",
+  "createdAt": "2025-10-13T03:38:49.000Z",
+  "downloads": 181,
+  "likes": 8,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "SakanaAI/RLT-32B",
+  "createdAt": "2025-06-22T00:50:20.000Z",
+  "downloads": 94,
+  "likes": 7,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "SakanaAI/RLT-7B",
+  "createdAt": "2025-06-21T09:50:04.000Z",
+  "downloads": 115,
+  "likes": 19,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "SakanaAI/text-to-lora",
+  "createdAt": "2025-05-22T12:46:08.000Z",
+  "downloads": 0,
+  "likes": 10,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "SakanaAI/Llama-3-Karamaru-v1",
+  "createdAt": "2025-03-19T07:11:59.000Z",
+  "downloads": 112,
+  "likes": 19,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "SakanaAI/TinySwallow-1.5B-Instruct-GGUF",
+  "createdAt": "2025-01-29T01:01:27.000Z",
+  "downloads": 1386,
+  "likes": 30,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "SakanaAI/TinySwallow-1.5B-Instruct-q4f32_1-MLC",
+  "createdAt": "2025-01-24T02:44:38.000Z",
+  "downloads": 0,
+  "likes": 3,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "SakanaAI/TinySwallow-1.5B-Instruct",
+  "createdAt": "2025-01-07T23:42:59.000Z",
+  "downloads": 3957,
+  "likes": 61,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "SakanaAI/TinySwallow-1.5B",
+  "createdAt": "2024-12-26T06:19:51.000Z",
+  "downloads": 283,
+  "likes": 34,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ }
+]

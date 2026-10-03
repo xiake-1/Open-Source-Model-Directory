@@ -1,35 +1,97 @@
 ---
 import type { Entry } from '../lib/entries';
-import { COLLECTION_LABELS } from '../lib/entries';
-import { formatDate, LINK_LABELS, STATUS_LABELS } from '../lib/format';
+import { LINK_LABELS, formatDate, formatDay } from '../lib/format';
 
 interface Props {
   entry: Entry;
-  /** 跨集合列表（首页 / 标签 / 近期）需要标出它属于哪个板块 */
-  showCollection?: boolean;
+  /**
+   * 卡片形态：
+   *  - model   LLM / AIGC 模型：正文只放 参数量 这类要点，链接只留 HuggingFace + GitHub
+   *  - project GitHub 社区项目
+   *  - deploy  部署方式（按方案大类分组）
+   */
+  variant?: 'model' | 'project' | 'deploy';
+  /** 覆盖默认链接白名单，例如详情页不受限制 */
+  linkKeys?: string[];
+  /** 标签小胶囊要跳去的列表页路径（默认当前路径） */
+  tagBase?: string;
 }
 
-const { entry, showCollection = false } = Astro.props;
-const links = Object.entries(entry.links).filter(([, url]) => Boolean(url)) as [string, string][];
+const { entry, variant = 'model', linkKeys, tagBase = Astro.url.pathname } = Astro.props;
+
+const DEFAULT_KEYS: Record<string, string[]> = {
+  model: ['hf', 'github'],
+  project: ['github', 'hf'],
+  deploy: ['github', 'hf'],
+};
+const allowed = linkKeys ?? DEFAULT_KEYS[variant];
+const links = allowed
+  .map((key) => [key, entry.links[key]] as [string, string | undefined])
+  .filter((pair): pair is [string, string] => Boolean(pair[1]));
+
 const released = formatDate(entry.released);
+const day = formatDay(entry.released);
+const meta = [entry.org, entry.family && entry.family !== entry.org ? entry.family : null].filter(Boolean);
+// 卡片上的小胶囊：结构 / 类型标签 + 上下文长度 + 参数量 + 是否可商用
+// （所属已经在标题旁的组织行里，不重复放）
+// 上下文与参数量胶囊都放**原文**（例如 `1M`、`235B (激活 22B)`），替代原来的分档文案：
+// 只作展示，点不了、也不进 data-tags；分档筛选仍留在侧栏「筛选」下拉里
+type Pill = { text: string; href?: string };
+const pillHref = (tag: string) => `${tagBase}#tag=${encodeURIComponent(tag)}`;
+const pills: Pill[] =
+  variant === 'model'
+    ? [
+        ...entry.tags.map((tag): Pill => ({ text: tag, href: pillHref(tag) })),
+        // 上下文与参数量一样：卡片放原文只作展示，分档筛选在侧栏「筛选」下拉里
+        entry.contextValue && { text: entry.contextValue },
+        entry.params && { text: entry.params },
+        entry.commercial && { text: entry.commercial, href: pillHref(entry.commercial) },
+      ].filter((pill): pill is Pill => Boolean(pill))
+    : [];
+// 筛选用的值要带上派生的"所属 / 上下文 / 参数量 / 商用"（都是分档标签），否则左侧按 Qwen / 高 >512K / 高 ≥500B 筛时卡片对不上
+const filterKeys = [...entry.tags, ...entry.facets];
 ---
 
-<article class="entry" data-status={entry.status} data-released={released}>
+<article
+  class="entry"
+  data-status={entry.status}
+  data-released={released}
+  data-tags={filterKeys.join('|')}
+>
   <div class="entry-head">
-    <a class="entry-title" href={entry.href}>{entry.title}</a>
-    {showCollection && <span class="badge badge-cat">{COLLECTION_LABELS[entry.collection]}</span>}
-    <span class="entry-org">{entry.org}</span>
-    <time class="entry-time" datetime={released} data-relative title={`发布：${released}`}>{released}</time>
+    {/* 四类条目都统一在**新窗口**打开详情页：列表页不被顶掉，方便连着对比几条 */}
+    <a class="entry-title" href={entry.href} target="_blank" rel="noopener" title="在新窗口打开详情页">{entry.title}</a>
+    <span class="entry-org">{meta.join(' · ')}</span>
+    <time class="entry-time" datetime={released} data-relative title={`发布：${released}`}>{day}</time>
   </div>
 
   <p class="entry-summary">{entry.summary}</p>
 
   {
-    entry.facts.length > 0 && (
+    variant !== 'model' && entry.facts.length > 0 && (
       <div class="entry-facts">
         {entry.facts.map((fact) => (
           <span class="fact">{fact}</span>
         ))}
+      </div>
+    )
+  }
+
+  {
+    pills.length > 0 && variant === 'model' && (
+      <div class="tag-filter">
+        {pills.map((pill) =>
+          pill.href ? (
+            // 相对链接在 /llm/models/ 下会解析成 /llm/models/?tag=…，点下去就是整页刷新。
+            // 这里用带路径的 hash，让页内脚本就地过滤。
+            <a href={pill.href} data-tag={pill.text} rel="nofollow">
+              #{pill.text}
+            </a>
+          ) : (
+            // 原文胶囊（上下文 / 参数量）：只作展示，不是筛选入口
+            <span class="value-chip">{pill.text}</span>
+          )
+        )}
       </div>
     )
   }
@@ -44,17 +106,5 @@ const released = formatDate(entry.released);
         ))
       }
     </span>
-    {entry.status !== 'active' && <span class="badge badge-dead">{STATUS_LABELS[entry.status]}</span>}
-    {
-      entry.tags.length > 0 && (
-        <span class="tags">
-          {entry.tags.map((tag) => (
-            <a class="tag" href={`/tags/${encodeURIComponent(tag)}/`}>
-              #{tag}
-            </a>
-          ))}
-        </span>
-      )
-    }
   </div>
 </article>

@@ -1,0 +1,367 @@
+---
+import type { Entry } from '../lib/entries';
+import { monthGroups } from '../lib/entries';
+import type { TagGroup } from '../lib/taxonomy';
+import { FAMILY_GROUP_LABEL } from '../lib/taxonomy';
+import EntryTimeline from './EntryTimeline.astro';
+import MonthFilter from './MonthFilter.astro';
+import FamilyFilter from './FamilyFilter.astro';
+import TagSidebar from './TagSidebar.astro';
+
+/**
+ * 列表页主体：左侧栏 + 右侧时间线（按 年-月 分组，组内新的在前）。
+ *
+ * 左侧栏是**三张独立的卡片**，整体粘在视口左侧，三张都是**点击才展开**的下拉（`.dd-*`）：
+ *   1. 时间：按 年-月 多选（`MonthFilter.astro`），在最上面；
+ *   2. 所属：家族 / 发布方多选（`FamilyFilter.astro`）；
+ *   3. 筛选：其余标签分组（`TagSidebar.astro`）——热度 / 结构 / 类型 / 上下文 / 参数量 / 商用，
+ *      选中项是高亮的普通链接；没有标签的页面（社区项目）只有第一张。
+ *
+ * 三张卡片是"手风琴"关系：展开一张会把另外两张收起来，否则三张全开时左列会高过视口，
+ * 而整列是 sticky 的，底部那张会被截掉看不见。收起来不等于清空，标题上仍然显示当前选择。
+ *
+ * 三个条件是叠加的，状态都存在 URL hash 里：`#months=2026-02,2026-01&family=Kimi&tag=MoE`。
+ * 页内脚本监听变化后就地过滤，所以点击不会整页刷新。关掉 JS 只是不过滤，仍然能看到全部条目。
+ */
+interface Props {
+  entries: Entry[];
+  /** 标签分组；社区项目这类没有标签的页面传空数组 */
+  groups?: TagGroup[];
+  counts?: Record<string, number>;
+  basePath: string;
+  /** 过滤后没有任何条目时的提示 */
+  empty?: string;
+  /** 左侧是否加"时间"多选下拉（按 年-月），只有按时间分组的页面才该开 */
+  showMonths?: boolean;
+  /** 卡片形态：LLM / AIGC 用 model，社区项目用 project */
+  variant?: 'model' | 'project';
+}
+
+const {
+  entries,
+  groups = [],
+  counts = {},
+  basePath,
+  empty = '这里还没有条目。',
+  showMonths = false,
+  variant = 'model',
+} = Astro.props;
+const years = showMonths ? monthGroups(entries) : [];
+// 「所属」从 groups 里拆出来，单独渲染成一张下拉卡片：家族名会随收录一条条长出来，
+// 平铺成标签会把「筛选」卡片撑得很长。拆分只做在这一处，页面照旧传完整分组。
+const familyGroup = groups.find((group) => group.label === FAMILY_GROUP_LABEL);
+const tagGroups = groups.filter((group) => group.label !== FAMILY_GROUP_LABEL);
+---
+
+<div class="listing">
+  <div class="listing-side">
+    {years.length > 0 && <MonthFilter years={years} />}
+    {familyGroup && <FamilyFilter families={familyGroup.tags} counts={counts} />}
+    {tagGroups.length > 0 && <TagSidebar groups={tagGroups} counts={counts} basePath={basePath} />}
+  </div>
+  <div class="listing-main">
+    <p class="filter-note" data-filter-note data-empty={empty} hidden></p>
+    <div class="timeline" data-timeline>
+      <EntryTimeline entries={entries} variant={variant} tagBase={basePath} empty={empty} />
+    </div>
+  </div>
+</div>
+
+<script>
+  // 就地过滤：URL hash 同时承载"时间""所属""标签"三个条件，
+  // 形如 #months=2026-02,2026-01&family=Kimi,GLM&tag=MoE。
+  // 用 hash 而不是查询串：静态主机不按查询串路由，?tag= 只会整页重载
+  // 并照常返回全部条目，看起来就是"点了没反应"。
+  // 关掉 JS 时只是不过滤（仍然能看到全部条目），不会白屏。
+  function initFilters() {
+    var timeline = document.querySelector('[data-timeline]');
+    if (!timeline) return;
+    var note = document.querySelector('[data-filter-note]');
+    var monthLabel = document.querySelector('[data-month-label]');
+    var familyLabel = document.querySelector('[data-family-label]');
+    var tagLabel = document.querySelector('[data-tag-label]');
+
+    var cards = Array.prototype.slice.call(timeline.querySelectorAll('.entry'));
+    var monthSections = Array.prototype.slice.call(timeline.querySelectorAll('[data-month]'));
+    // 两张下拉卡片里的复选框：限定在卡片内部，免得把时间线上的 <section data-month> 也算进来
+    var monthBoxes = Array.prototype.slice.call(
+      document.querySelectorAll('[data-month-filter] [data-month]')
+    );
+    var allBox = document.querySelector('[data-month-all]');
+    var familyBoxes = Array.prototype.slice.call(
+      document.querySelectorAll('[data-family-filter] [data-family]')
+    );
+    var familyAllBox = document.querySelector('[data-family-all]');
+    var dropdowns = Array.prototype.slice.call(
+      document.querySelectorAll('[data-month-details], [data-family-details], [data-tag-details]')
+    );
+    var tagLinks = Array.prototype.slice.call(document.querySelectorAll('[data-tag]'));
+
+    /** 卡片上的 data-released 是 YYYY-MM-DD，取前 7 位就是分组用的 年-月 */
+    function monthOf(card) {
+      return (card.getAttribute('data-released') || '').slice(0, 7);
+    }
+
+    function readState() {
+      var state = { tag: '', months: [], families: [] };
+      var raw = location.hash.replace(/^#/, '');
+      if (!raw) return state;
+      var parts = raw.split('&');
+      for (var i = 0; i < parts.length; i++) {
+        var eq = parts[i].indexOf('=');
+        if (eq < 0) continue;
+        var key = parts[i].slice(0, eq);
+        var value = parts[i].slice(eq + 1);
+        try {
+          value = decodeURIComponent(value);
+        } catch (err) {
+          /* 保持原样即可 */
+        }
+        if (key === 'tag') state.tag = value;
+        else if (key === 'months') {
+          state.months = value.split(',').filter(Boolean);
+        } else if (key === 'family') {
+          state.families = value.split(',').filter(Boolean);
+        }
+      }
+      return state;
+    }
+
+    function hashOf(state) {
+      var parts = [];
+      if (state.months.length) parts.push('months=' + state.months.map(encodeURIComponent).join(','));
+      if (state.families.length) parts.push('family=' + state.families.map(encodeURIComponent).join(','));
+      if (state.tag) parts.push('tag=' + encodeURIComponent(state.tag));
+      return parts.length ? '#' + parts.join('&') : '';
+    }
+
+    function replaceState(state) {
+      history.replaceState(null, '', location.pathname + location.search + hashOf(state));
+    }
+
+    /** 下拉标题上要写的文案：完整写法存在选项的 data-*-text 上，避免两处各写一份格式化 */
+    function optionTextOf(boxes, attr, key) {
+      for (var i = 0; i < boxes.length; i++) {
+        if (boxes[i].value !== key) continue;
+        var item = boxes[i].closest('.dd-item');
+        var text = item && item.getAttribute(attr);
+        if (text) return text;
+      }
+      return key;
+    }
+
+    function paintSummary(activeMonths) {
+      if (!monthLabel) return;
+      if (activeMonths.length === 0) monthLabel.textContent = '全部时间';
+      else if (activeMonths.length === 1)
+        monthLabel.textContent = optionTextOf(monthBoxes, 'data-month-text', activeMonths[0]);
+      else monthLabel.textContent = '已选 ' + activeMonths.length + ' 个月';
+    }
+
+    function paintFamilySummary(activeFamilies) {
+      if (!familyLabel) return;
+      if (activeFamilies.length === 0) familyLabel.textContent = '全部所属';
+      else if (activeFamilies.length === 1)
+        familyLabel.textContent = optionTextOf(familyBoxes, 'data-family-text', activeFamilies[0]);
+      else familyLabel.textContent = '已选 ' + activeFamilies.length + ' 个所属';
+    }
+
+    /** 「筛选」下拉的标题：标签是单选，直接写标签名 */
+    function paintTagSummary(activeTag) {
+      if (!tagLabel) return;
+      tagLabel.textContent = activeTag || '全部';
+    }
+
+    function apply(state) {
+      var activeTag = state.tag;
+      var activeMonths = state.months;
+      var activeFamilies = state.families;
+
+      // 每次都从干净状态开始，避免来回切换后残留上一次的隐藏
+      for (var i = 0; i < cards.length; i++) cards[i].removeAttribute('data-filtered');
+      for (var j = 0; j < monthSections.length; j++) monthSections[j].removeAttribute('data-filtered');
+      timeline.removeAttribute('data-filtered');
+
+      for (var k = 0; k < tagLinks.length; k++) {
+        var link = tagLinks[k];
+        var isActive = activeTag !== '' && (link.getAttribute('data-tag') || '') === activeTag;
+        link.classList.toggle('is-active', isActive);
+        if (isActive) link.setAttribute('aria-current', 'true');
+        else link.removeAttribute('aria-current');
+      }
+      paintTagSummary(activeTag);
+
+      for (var m = 0; m < monthBoxes.length; m++) {
+        monthBoxes[m].checked = activeMonths.indexOf(monthBoxes[m].value) !== -1;
+      }
+      if (allBox) allBox.checked = activeMonths.length === 0;
+      paintSummary(activeMonths);
+
+      for (var f = 0; f < familyBoxes.length; f++) {
+        familyBoxes[f].checked = activeFamilies.indexOf(familyBoxes[f].value) !== -1;
+      }
+      if (familyAllBox) familyAllBox.checked = activeFamilies.length === 0;
+      paintFamilySummary(activeFamilies);
+
+      if (!activeTag && activeMonths.length === 0 && activeFamilies.length === 0) {
+        if (note) note.hidden = true;
+        return;
+      }
+
+      // 时间 / 所属 / 标签三个条件是"与"的关系：都满足才留下。
+      // 所属允许同时勾多个家族，命中其中任意一个就算过（一条条目只有一个 family）。
+      var shown = 0;
+      for (var n = 0; n < cards.length; n++) {
+        var card = cards[n];
+        var cardTags = (card.getAttribute('data-tags') || '').split('|');
+        var byTag = !activeTag || cardTags.indexOf(activeTag) !== -1;
+        var byMonth = activeMonths.length === 0 || activeMonths.indexOf(monthOf(card)) !== -1;
+        var byFamily =
+          activeFamilies.length === 0 ||
+          activeFamilies.some(function (name) {
+            return cardTags.indexOf(name) !== -1;
+          });
+        if (byTag && byMonth && byFamily) shown += 1;
+        else card.setAttribute('data-filtered', '');
+      }
+      for (var p = 0; p < monthSections.length; p++) {
+        var section = monthSections[p];
+        if (!section.querySelector('.entry:not([data-filtered])')) section.setAttribute('data-filtered', '');
+      }
+
+      timeline.setAttribute('data-filtered', 'true');
+      if (note) {
+        note.hidden = shown > 0;
+        if (shown === 0) {
+          note.textContent = (note.getAttribute('data-empty') || '') + ' · 清空左侧筛选看所有条目';
+        }
+      }
+    }
+
+    // 只改一个条件、保留另一个：选了月份之后点标签，不会把月份清掉
+    function setTag(tag) {
+      var state = readState();
+      state.tag = tag;
+      replaceState(state);
+      apply(state);
+    }
+
+    // 点侧栏/卡片上的标签是同文档导航，只触发 hashchange；这里直接接管更省事，
+    // 也能把已经选好的"时间""所属"一起写回 hash。
+    for (var q = 0; q < tagLinks.length; q++) {
+      tagLinks[q].addEventListener('click', function (event) {
+        var tag = this.getAttribute('data-tag') || '';
+        // 本来就没筛选时，"全部"当普通链接用，不留多余的 history 记录
+        if (this.hasAttribute('data-tag-all') && readState().tag === '') return;
+        event.preventDefault();
+        setTag(tag);
+      });
+    }
+
+    /** 下拉里的复选框：勾上/取消都写回 hash 里对应的那个字段（months / families） */
+    function bindBoxes(boxes, key) {
+      for (var i = 0; i < boxes.length; i++) {
+        boxes[i].addEventListener('change', function () {
+          var state = readState();
+          var value = this.value;
+          if (this.checked) {
+            if (state[key].indexOf(value) === -1) state[key].push(value);
+          } else {
+            state[key] = state[key].filter(function (item) {
+              return item !== value;
+            });
+          }
+          if (key === 'months') state.months.sort().reverse(); // 新的月份排在前面
+          replaceState(state);
+          apply(state);
+        });
+      }
+    }
+
+    /** "全部 XX"：只能被勾选具体项顶掉，不允许手动取消成"什么都不选" */
+    function bindAll(box, key) {
+      if (!box) return;
+      box.addEventListener('change', function () {
+        if (!this.checked) {
+          this.checked = true;
+          return;
+        }
+        var state = readState();
+        state[key] = [];
+        replaceState(state);
+        apply(state);
+      });
+    }
+
+    bindBoxes(monthBoxes, 'months');
+    bindBoxes(familyBoxes, 'families');
+    bindAll(allBox, 'months');
+    bindAll(familyAllBox, 'families');
+
+    // 点外面 / 按 Esc 收起下拉；菜单本身在文档流里，展开不会盖住下面的内容
+    if (dropdowns.length) {
+      document.addEventListener('click', function (event) {
+        for (var i = 0; i < dropdowns.length; i++) {
+          if (dropdowns[i].open && !dropdowns[i].contains(event.target)) dropdowns[i].open = false;
+        }
+      });
+      document.addEventListener('keydown', function (event) {
+        if (event.key !== 'Escape') return;
+        for (var i = 0; i < dropdowns.length; i++) dropdowns[i].open = false;
+      });
+
+      // 手风琴：展开一张就收起另外两张。左列是 sticky 的，三张全开会高过视口，
+      // 底部那张会被截掉；收起只影响展开状态，选择结果仍然写在卡片标题上。
+      for (var x = 0; x < dropdowns.length; x++) {
+        dropdowns[x].addEventListener('toggle', function () {
+          if (!this.open) return;
+          for (var i = 0; i < dropdowns.length; i++) {
+            if (dropdowns[i] !== this) dropdowns[i].open = false;
+          }
+        });
+      }
+    }
+
+    // 浏览器前进 / 后退改的是 hash，需要跟着重新过滤
+    window.addEventListener('hashchange', function () {
+      apply(readState());
+    });
+
+    apply(readState());
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initFilters, { once: true });
+  } else {
+    initFilters();
+  }
+</script>
+
+<style is:global>
+  .listing {
+    display: grid;
+    grid-template-columns: 186px minmax(0, 1fr);
+    gap: 30px;
+    align-items: start;
+  }
+  /* 左列整列粘住：时间 / 所属 / 筛选三张卡片一起跟着滚动 */
+  .listing-side {
+    position: sticky;
+    top: 78px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .filter-note { color: var(--text-dim); font-size: 14px; margin: 0 0 16px; }
+
+  /* 筛选：被过滤掉的卡片与整月分组一起隐藏 */
+  .timeline .entry[data-filtered],
+  .timeline [data-month][data-filtered] { display: none; }
+
+  @media (max-width: 720px) {
+    .listing { grid-template-columns: 1fr; gap: 18px; }
+    .listing-side { position: static; }
+    /* grid 子项默认 min-width: auto，会被竖栏内容撑破，导致整页横向溢出 */
+    .listing > * { min-width: 0; }
+  }
+</style>

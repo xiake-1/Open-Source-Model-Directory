@@ -4,11 +4,13 @@ import EntryCard from './EntryCard.astro';
 
 interface Props {
   entries: Entry[];
-  showCollection?: boolean;
+  variant?: 'model' | 'project' | 'deploy';
   empty?: string;
+  /** 标签小胶囊要跳去的列表页路径 */
+  tagBase?: string;
 }
 
-const { entries, showCollection = false, empty = '这里还没有条目。' } = Astro.props;
+const { entries, variant = 'model', empty = '这里还没有条目。', tagBase } = Astro.props;
 ---
 
 {
@@ -17,7 +19,7 @@ const { entries, showCollection = false, empty = '这里还没有条目。' } = 
   ) : (
     <div class="cards">
       {entries.map((entry) => (
-        <EntryCard entry={entry} showCollection={showCollection} />
+        <EntryCard entry={entry} variant={variant} tagBase={tagBase} />
       ))}
     </div>
   )

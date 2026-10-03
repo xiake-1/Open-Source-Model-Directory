@@ -1,0 +1,52 @@
+[
+ {
+  "id": "RekaAI/Reka-Inverse-Dynamics-Model",
+  "createdAt": "2026-10-01T00:24:56.000Z",
+  "downloads": 0,
+  "likes": 3,
+  "pipeline": "video-classification",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "RekaAI/reka-edge-2603",
+  "createdAt": "2026-03-11T12:53:50.000Z",
+  "downloads": 583,
+  "likes": 133,
+  "pipeline": "image-text-to-text",
+  "tags": [
+   "image-text-to-text",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "RekaAI/reka-flash-3.1-rekaquant-q3_k_s",
+  "createdAt": "2025-05-30T14:20:48.000Z",
+  "downloads": 14,
+  "likes": 24,
+  "pipeline": "",
+  "tags": [
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "RekaAI/reka-flash-3.1",
+  "createdAt": "2025-05-28T16:16:20.000Z",
+  "downloads": 226,
+  "likes": 101,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "RekaAI/reka-flash-3",
+  "createdAt": "2025-03-11T01:03:00.000Z",
+  "downloads": 663,
+  "likes": 389,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ }
+]

@@ -1,0 +1,131 @@
+[
+ {
+  "id": "ai21labs/AI21-Jamba2-Mini-FP8",
+  "createdAt": "2026-01-06T12:10:22.000Z",
+  "downloads": 128,
+  "likes": 8,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "ai21labs/AI21-Jamba2-3B",
+  "createdAt": "2026-01-06T08:19:07.000Z",
+  "downloads": 9110,
+  "likes": 50,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "ai21labs/AI21-Jamba2-Mini",
+  "createdAt": "2026-01-06T08:18:34.000Z",
+  "downloads": 692,
+  "likes": 57,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "ai21labs/AI21-Jamba-Reasoning-3B-GGUF",
+  "createdAt": "2025-10-05T11:02:28.000Z",
+  "downloads": 836,
+  "likes": 38,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "ai21labs/AI21-Jamba-Reasoning-3B",
+  "createdAt": "2025-10-05T09:43:05.000Z",
+  "downloads": 12489,
+  "likes": 140,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "ai21labs/AI21-Jamba-Large-1.7-FP8",
+  "createdAt": "2025-07-02T11:46:38.000Z",
+  "downloads": 7,
+  "likes": 4,
+  "pipeline": "",
+  "tags": [],
+  "gated": "auto"
+ },
+ {
+  "id": "ai21labs/AI21-Jamba-Large-1.7",
+  "createdAt": "2025-07-02T07:07:10.000Z",
+  "downloads": 42,
+  "likes": 34,
+  "pipeline": "",
+  "tags": [],
+  "gated": "auto"
+ },
+ {
+  "id": "ai21labs/AI21-Jamba-Mini-1.7-FP8",
+  "createdAt": "2025-07-01T12:50:43.000Z",
+  "downloads": 0,
+  "likes": 2,
+  "pipeline": "",
+  "tags": [],
+  "gated": "auto"
+ },
+ {
+  "id": "ai21labs/AI21-Jamba-Mini-1.7",
+  "createdAt": "2025-07-01T10:46:27.000Z",
+  "downloads": 201,
+  "likes": 44,
+  "pipeline": "",
+  "tags": [],
+  "gated": "auto"
+ },
+ {
+  "id": "ai21labs/AI21-Jamba-Mini-1.6",
+  "createdAt": "2025-02-27T16:01:34.000Z",
+  "downloads": 35,
+  "likes": 58,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": "auto"
+ },
+ {
+  "id": "ai21labs/AI21-Jamba-Large-1.6",
+  "createdAt": "2025-02-27T16:00:42.000Z",
+  "downloads": 35,
+  "likes": 73,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": "auto"
+ },
+ {
+  "id": "ai21labs/Jamba-tiny-reward-dev",
+  "createdAt": "2024-12-05T14:57:37.000Z",
+  "downloads": 2804,
+  "likes": 2,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ }
+]

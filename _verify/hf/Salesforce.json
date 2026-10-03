@@ -1,0 +1,580 @@
+[
+ {
+  "id": "Salesforce/RetailSim-GRPO-4B",
+  "createdAt": "2026-06-16T01:23:50.000Z",
+  "downloads": 16,
+  "likes": 1,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "Salesforce/ST-Evidence-7B",
+  "createdAt": "2026-03-16T20:47:40.000Z",
+  "downloads": 47,
+  "likes": 0,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "Salesforce/ST-Evidence-3B",
+  "createdAt": "2026-03-16T20:45:08.000Z",
+  "downloads": 38,
+  "likes": 1,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "Salesforce/GPA-GUI-Detector",
+  "createdAt": "2026-02-26T06:57:37.000Z",
+  "downloads": 247,
+  "likes": 22,
+  "pipeline": "object-detection",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "Salesforce/moirai-agent",
+  "createdAt": "2025-12-29T05:57:58.000Z",
+  "downloads": 135,
+  "likes": 16,
+  "pipeline": "time-series-forecasting",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "Salesforce/FOFPred",
+  "createdAt": "2025-12-09T20:49:45.000Z",
+  "downloads": 80,
+  "likes": 4,
+  "pipeline": "image-to-image",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "Salesforce/UniDoc-Bench",
+  "createdAt": "2025-11-09T02:59:03.000Z",
+  "downloads": 0,
+  "likes": 0,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "Salesforce/BLIP3o-NEXT-EDIT-ENSEMBLE-DATASETS",
+  "createdAt": "2025-11-04T21:41:30.000Z",
+  "downloads": 0,
+  "likes": 0,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "Salesforce/BLIP3o-NEXT-SFT-3B",
+  "createdAt": "2025-11-04T03:47:51.000Z",
+  "downloads": 39,
+  "likes": 1,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "Salesforce/BLIP3o-NEXT-edit-VAE",
+  "createdAt": "2025-11-02T23:42:09.000Z",
+  "downloads": 33,
+  "likes": 2,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "Salesforce/BLIP3o-NEXT-Pretrain-3B",
+  "createdAt": "2025-11-02T23:41:45.000Z",
+  "downloads": 0,
+  "likes": 2,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "Salesforce/BLIP3o-NEXT-GRPO-TexT-3B",
+  "createdAt": "2025-11-02T23:41:29.000Z",
+  "downloads": 26,
+  "likes": 2,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "Salesforce/BLIP3o-NEXT-GRPO-Geneval-3B",
+  "createdAt": "2025-11-02T23:41:10.000Z",
+  "downloads": 28,
+  "likes": 2,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "Salesforce/xRouter",
+  "createdAt": "2025-10-30T16:30:56.000Z",
+  "downloads": 150,
+  "likes": 16,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "Salesforce/Llama-Fin-8b",
+  "createdAt": "2025-10-22T00:22:44.000Z",
+  "downloads": 63,
+  "likes": 6,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "Salesforce/FARE-8B",
+  "createdAt": "2025-10-21T00:50:20.000Z",
+  "downloads": 49,
+  "likes": 3,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "Salesforce/FARE-20B",
+  "createdAt": "2025-10-15T18:41:43.000Z",
+  "downloads": 50,
+  "likes": 4,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "Salesforce/GTA1-7B",
+  "createdAt": "2025-10-01T11:16:15.000Z",
+  "downloads": 188,
+  "likes": 3,
+  "pipeline": "image-text-to-text",
+  "tags": [
+   "image-text-to-text",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "Salesforce/CoDA-v0-Instruct",
+  "createdAt": "2025-09-25T07:06:01.000Z",
+  "downloads": 589,
+  "likes": 59,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "Salesforce/CoDA-v0-Base",
+  "createdAt": "2025-09-25T06:59:12.000Z",
+  "downloads": 198,
+  "likes": 11,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "Salesforce/GTA1-7B-2507",
+  "createdAt": "2025-09-25T06:30:05.000Z",
+  "downloads": 300,
+  "likes": 3,
+  "pipeline": "image-text-to-text",
+  "tags": [
+   "image-text-to-text",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "Salesforce/GTA1-32B",
+  "createdAt": "2025-09-25T06:08:58.000Z",
+  "downloads": 101,
+  "likes": 6,
+  "pipeline": "image-text-to-text",
+  "tags": [
+   "image-text-to-text",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "Salesforce/moirai-2.0-R-small",
+  "createdAt": "2025-08-06T14:03:58.000Z",
+  "downloads": 206876,
+  "likes": 50,
+  "pipeline": "time-series-forecasting",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "Salesforce/moirai-1.5-llama-kvcache",
+  "createdAt": "2025-06-26T09:31:01.000Z",
+  "downloads": 0,
+  "likes": 0,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": "manual"
+ },
+ {
+  "id": "Salesforce/SweRankLLM-Large",
+  "createdAt": "2025-06-24T16:57:52.000Z",
+  "downloads": 62,
+  "likes": 2,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "Salesforce/SweRankLLM-Small",
+  "createdAt": "2025-06-24T16:55:37.000Z",
+  "downloads": 114,
+  "likes": 2,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "Salesforce/SweRankEmbed-Large",
+  "createdAt": "2025-06-24T16:47:53.000Z",
+  "downloads": 1608,
+  "likes": 2,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "Salesforce/SweRankEmbed-Small",
+  "createdAt": "2025-06-24T16:43:40.000Z",
+  "downloads": 1888,
+  "likes": 4,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "Salesforce/E1-AceReason-14B",
+  "createdAt": "2025-05-30T06:34:05.000Z",
+  "downloads": 70,
+  "likes": 13,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "Salesforce/E1-Math-7B",
+  "createdAt": "2025-05-25T07:47:36.000Z",
+  "downloads": 112,
+  "likes": 4,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "Salesforce/Elastic-Reasoning",
+  "createdAt": "2025-05-20T02:17:58.000Z",
+  "downloads": 0,
+  "likes": 8,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "Salesforce/E1-Code-14B",
+  "createdAt": "2025-05-19T15:04:36.000Z",
+  "downloads": 78,
+  "likes": 7,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "Salesforce/xgen-small-9B-instruct-r",
+  "createdAt": "2025-05-09T06:53:57.000Z",
+  "downloads": 75,
+  "likes": 11,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "Salesforce/xgen-small-4B-instruct-r",
+  "createdAt": "2025-05-09T06:05:42.000Z",
+  "downloads": 70,
+  "likes": 4,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "Salesforce/xgen-small-9B-base-r",
+  "createdAt": "2025-05-09T05:35:34.000Z",
+  "downloads": 76,
+  "likes": 2,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "Salesforce/xgen-small-4B-base-r",
+  "createdAt": "2025-05-09T05:04:19.000Z",
+  "downloads": 70,
+  "likes": 3,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "Salesforce/E1-Math-1.5B",
+  "createdAt": "2025-05-07T16:32:53.000Z",
+  "downloads": 91,
+  "likes": 6,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "Salesforce/xgen-small-r",
+  "createdAt": "2025-04-30T01:26:41.000Z",
+  "downloads": 0,
+  "likes": 13,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "Salesforce/WQRM",
+  "createdAt": "2025-04-15T23:12:59.000Z",
+  "downloads": 322,
+  "likes": 6,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "Salesforce/WQRM-PRE",
+  "createdAt": "2025-04-15T23:02:41.000Z",
+  "downloads": 194,
+  "likes": 4,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "Salesforce/Llama-xLAM-2-8b-fc-r-gguf",
+  "createdAt": "2025-03-28T23:24:10.000Z",
+  "downloads": 6183,
+  "likes": 26,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "Salesforce/xLAM-2-1b-fc-r-gguf",
+  "createdAt": "2025-03-28T23:23:44.000Z",
+  "downloads": 1505,
+  "likes": 6,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "Salesforce/xLAM-2-3b-fc-r-gguf",
+  "createdAt": "2025-03-28T23:23:18.000Z",
+  "downloads": 1876,
+  "likes": 7,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "Salesforce/xLAM-2-1b-fc-r",
+  "createdAt": "2025-03-27T21:54:38.000Z",
+  "downloads": 2117,
+  "likes": 14,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "Salesforce/xLAM-2-3b-fc-r",
+  "createdAt": "2025-03-27T21:54:23.000Z",
+  "downloads": 1900,
+  "likes": 16,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "Salesforce/xLAM-2-32b-fc-r",
+  "createdAt": "2025-03-27T21:54:09.000Z",
+  "downloads": 289,
+  "likes": 35,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "Salesforce/Llama-xLAM-2-8b-fc-r",
+  "createdAt": "2025-03-27T21:52:47.000Z",
+  "downloads": 82775,
+  "likes": 64,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "Salesforce/Llama-xLAM-2-70b-fc-r",
+  "createdAt": "2025-03-25T17:31:40.000Z",
+  "downloads": 124,
+  "likes": 51,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "Salesforce/cogalign-internvl2_5-mpo-4b",
+  "createdAt": "2025-02-17T16:43:23.000Z",
+  "downloads": 40,
+  "likes": 1,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "Salesforce/cogalign-internvl2_5-mpo-1b",
+  "createdAt": "2025-02-17T16:42:48.000Z",
+  "downloads": 22,
+  "likes": 1,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "Salesforce/cogalign-llava-ov-0_5b",
+  "createdAt": "2025-02-17T16:39:39.000Z",
+  "downloads": 31,
+  "likes": 4,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "Salesforce/SFR-Embedding-Code-2B_R",
+  "createdAt": "2025-01-17T01:34:00.000Z",
+  "downloads": 1795,
+  "likes": 51,
+  "pipeline": "feature-extraction",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "Salesforce/SFR-Embedding-Code-400M_R",
+  "createdAt": "2025-01-16T22:11:19.000Z",
+  "downloads": 11977,
+  "likes": 36,
+  "pipeline": "feature-extraction",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "Salesforce/xgen-mm-vid-phi3-mini-r-v1.5-32tokens-8frames",
+  "createdAt": "2025-01-15T17:19:18.000Z",
+  "downloads": 83,
+  "likes": 4,
+  "pipeline": "image-text-to-text",
+  "tags": [
+   "image-text-to-text",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "Salesforce/xgen-mm-vid-phi3-mini-r-v1.5-128tokens-8frames",
+  "createdAt": "2024-12-18T02:56:09.000Z",
+  "downloads": 184,
+  "likes": 11,
+  "pipeline": "image-text-to-text",
+  "tags": [
+   "image-text-to-text",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "Salesforce/qwen2-siglip-llava-ov-taco-7b",
+  "createdAt": "2024-12-04T03:09:09.000Z",
+  "downloads": 19,
+  "likes": 6,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ }
+]

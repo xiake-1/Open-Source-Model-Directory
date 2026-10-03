@@ -16,7 +16,13 @@ jobs:
           version: 11
       - uses: actions/setup-node@v4
         with:
-          node-version: 22
+          # 24：check:links 的代理支持依赖 fetch 读取 NODE_USE_ENV_PROXY
+          node-version: 24
           cache: pnpm
       - run: pnpm install --frozen-lockfile
+      # GitHub 的 runner 直连 huggingface.co 没问题，一般不需要代理。
+      # 若你的 runner 需要走代理，取消下面两行的注释并在仓库里配置 HTTPS_PROXY secret；
+      # 不需要代理时**不要**配这个 secret，否则脚本会误以为该走代理。
+      # env:
+      #   HTTPS_PROXY: ${{ secrets.HTTPS_PROXY }}
       - run: pnpm check:links

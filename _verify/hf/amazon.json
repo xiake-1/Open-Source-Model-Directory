@@ -1,0 +1,191 @@
+[
+ {
+  "id": "amazon/poiss-bge-m3-reranker",
+  "createdAt": "2026-09-18T00:54:42.000Z",
+  "downloads": 26,
+  "likes": 1,
+  "pipeline": "text-classification",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "amazon/poiss-bge-m3-retriever",
+  "createdAt": "2026-09-18T00:53:24.000Z",
+  "downloads": 46,
+  "likes": 0,
+  "pipeline": "sentence-similarity",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "amazon/Qwen3-Coder-30B-A3B-Instruct-P-EAGLE-long-context",
+  "createdAt": "2026-05-14T23:50:24.000Z",
+  "downloads": 174,
+  "likes": 1,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "amazon/gpt-oss-20b-p-eagle-long-context",
+  "createdAt": "2026-05-14T23:11:10.000Z",
+  "downloads": 115,
+  "likes": 5,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "amazon/gpt-oss-120b-p-eagle-long-context",
+  "createdAt": "2026-05-14T17:52:34.000Z",
+  "downloads": 89,
+  "likes": 2,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "amazon/GDN-primed-HQwen3-32B-Instruct",
+  "createdAt": "2026-03-31T17:55:09.000Z",
+  "downloads": 333,
+  "likes": 3,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "amazon/Mamba2-primed-HQwen3-8B-Instruct",
+  "createdAt": "2026-03-31T17:51:01.000Z",
+  "downloads": 428,
+  "likes": 9,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "amazon/GKA-primed-HQwen3-8B-Instruct",
+  "createdAt": "2026-03-31T17:49:35.000Z",
+  "downloads": 379,
+  "likes": 2,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "amazon/GDN-primed-HQwen3-8B-Instruct",
+  "createdAt": "2026-03-31T17:48:43.000Z",
+  "downloads": 535,
+  "likes": 2,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "amazon/BMOJOF-primed-HQwen3-8B-Instruct",
+  "createdAt": "2026-03-31T17:48:17.000Z",
+  "downloads": 306,
+  "likes": 2,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "amazon/GKA-primed-HQwen3-32B-Instruct",
+  "createdAt": "2026-03-31T17:47:35.000Z",
+  "downloads": 322,
+  "likes": 2,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "amazon/GKA-primed-HQwen3-32B-Reasoner",
+  "createdAt": "2026-03-31T17:46:09.000Z",
+  "downloads": 286,
+  "likes": 3,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "amazon/GDN-primed-HQwen3-8B-Reasoner",
+  "createdAt": "2026-03-31T17:43:05.000Z",
+  "downloads": 97,
+  "likes": 2,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "amazon/GKA-primed-HQwen3-8B-Reasoner",
+  "createdAt": "2026-03-31T17:37:59.000Z",
+  "downloads": 415,
+  "likes": 5,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "amazon/GPT-OSS-20B-P-EAGLE",
+  "createdAt": "2026-02-20T17:22:04.000Z",
+  "downloads": 425,
+  "likes": 2,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "amazon/Qwen3-Coder-30B-A3B-Instruct-P-EAGLE",
+  "createdAt": "2026-02-11T14:17:49.000Z",
+  "downloads": 78,
+  "likes": 3,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "amazon/gpt-oss-120b-p-eagle",
+  "createdAt": "2026-02-09T21:23:11.000Z",
+  "downloads": 188,
+  "likes": 9,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "amazon/chronos-2",
+  "createdAt": "2025-10-30T14:54:39.000Z",
+  "downloads": 22865413,
+  "likes": 503,
+  "pipeline": "time-series-forecasting",
+  "tags": [],
+  "gated": false
+ }
+]

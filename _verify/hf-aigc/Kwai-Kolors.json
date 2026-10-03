@@ -1,0 +1,27 @@
+[
+ {
+  "id": "Kwai-Kolors/MetaView",
+  "createdAt": "2026-07-11T13:33:13.000Z",
+  "downloads": 0,
+  "likes": 13,
+  "pipeline": "",
+  "library": "",
+  "gated": false,
+  "tags": []
+ },
+ {
+  "id": "Kwai-Kolors/CoTyle",
+  "createdAt": "2025-10-15T10:48:58.000Z",
+  "downloads": 46,
+  "likes": 23,
+  "pipeline": "text-to-image",
+  "library": "diffusers",
+  "gated": false,
+  "tags": [
+   "diffusers",
+   "safetensors",
+   "art",
+   "text-to-image"
+  ]
+ }
+]

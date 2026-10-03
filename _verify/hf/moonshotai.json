@@ -1,0 +1,221 @@
+[
+ {
+  "id": "moonshotai/Kimi-K3",
+  "createdAt": "2026-06-13T06:42:57.000Z",
+  "downloads": 1204766,
+  "likes": 11575,
+  "pipeline": "image-text-to-text",
+  "tags": [
+   "conversational",
+   "image-text-to-text"
+  ],
+  "gated": false
+ },
+ {
+  "id": "moonshotai/Kimi-K2.7-Code",
+  "createdAt": "2026-06-11T07:51:47.000Z",
+  "downloads": 106076,
+  "likes": 1407,
+  "pipeline": "image-text-to-text",
+  "tags": [
+   "image-text-to-text",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "moonshotai/Kimi-K2.6",
+  "createdAt": "2026-04-14T04:23:36.000Z",
+  "downloads": 472523,
+  "likes": 1612,
+  "pipeline": "image-text-to-text",
+  "tags": [
+   "image-text-to-text",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "moonshotai/Kimi-K2.5",
+  "createdAt": "2026-01-01T06:06:03.000Z",
+  "downloads": 318752,
+  "likes": 2876,
+  "pipeline": "image-text-to-text",
+  "tags": [
+   "image-text-to-text",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "moonshotai/Kimi-K2-Thinking",
+  "createdAt": "2025-11-04T08:25:31.000Z",
+  "downloads": 64347,
+  "likes": 1716,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "moonshotai/Kimi-Linear-48B-A3B-Base",
+  "createdAt": "2025-10-30T12:39:14.000Z",
+  "downloads": 125079,
+  "likes": 84,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "moonshotai/Kimi-Linear-48B-A3B-Instruct",
+  "createdAt": "2025-10-30T12:37:31.000Z",
+  "downloads": 202024,
+  "likes": 603,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "moonshotai/Kimi-K2-Instruct-0905",
+  "createdAt": "2025-09-03T03:34:36.000Z",
+  "downloads": 69303,
+  "likes": 789,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "moonshotai/Kimi-K2-Instruct",
+  "createdAt": "2025-07-11T00:55:12.000Z",
+  "downloads": 310502,
+  "likes": 2990,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "moonshotai/Kimi-K2-Base",
+  "createdAt": "2025-07-03T12:49:14.000Z",
+  "downloads": 10789,
+  "likes": 306,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "moonshotai/Kimi-VL-A3B-Thinking-2506",
+  "createdAt": "2025-06-21T09:40:28.000Z",
+  "downloads": 7562,
+  "likes": 386,
+  "pipeline": "image-text-to-text",
+  "tags": [
+   "image-text-to-text",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "moonshotai/Kimi-Dev-72B",
+  "createdAt": "2025-06-16T11:40:59.000Z",
+  "downloads": 6659,
+  "likes": 393,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "moonshotai/Kimi-Audio-7B",
+  "createdAt": "2025-04-25T12:22:40.000Z",
+  "downloads": 222,
+  "likes": 96,
+  "pipeline": "text-to-speech",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "moonshotai/Kimi-Audio-7B-Instruct",
+  "createdAt": "2025-04-25T08:05:10.000Z",
+  "downloads": 14948,
+  "likes": 419,
+  "pipeline": "text-to-speech",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "moonshotai/MoonViT-SO-400M",
+  "createdAt": "2025-04-10T10:02:35.000Z",
+  "downloads": 6398,
+  "likes": 96,
+  "pipeline": "image-feature-extraction",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "moonshotai/Kimi-VL-A3B-Thinking",
+  "createdAt": "2025-04-09T08:13:53.000Z",
+  "downloads": 14061,
+  "likes": 454,
+  "pipeline": "image-text-to-text",
+  "tags": [
+   "image-text-to-text",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "moonshotai/Kimi-VL-A3B-Instruct",
+  "createdAt": "2025-04-09T08:07:06.000Z",
+  "downloads": 210331,
+  "likes": 284,
+  "pipeline": "image-text-to-text",
+  "tags": [
+   "image-text-to-text",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "moonshotai/Moonlight-16B-A3B-Instruct",
+  "createdAt": "2025-02-22T04:15:17.000Z",
+  "downloads": 31863,
+  "likes": 206,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "moonshotai/Moonlight-16B-A3B",
+  "createdAt": "2025-02-22T04:14:40.000Z",
+  "downloads": 11142,
+  "likes": 117,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ }
+]

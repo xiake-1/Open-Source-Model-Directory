@@ -4,34 +4,87 @@
  *
  *   pnpm new llm "Qwen3-235B-A22B"
  *   pnpm new aigc "FLUX.2" flux-2 --dry-run
+ *   pnpm new projects "Strata" strata
  *
  * 需要终端交互（不支持用管道喂答案）。要批量生成请直接 import scripts/lib/entry-file.mjs。
  * 这里的校验和 src/content.config.ts 的 schema 一致，让你在写文件之前就发现漏填。
  */
 import { createInterface } from 'node:readline/promises';
 import { stdin, stdout } from 'node:process';
-import { mkdir, writeFile, readdir } from 'node:fs/promises';
+import { mkdir, writeFile, readdir, readFile } from 'node:fs/promises';
 import path from 'node:path';
-import { LINK_KEYS, slugify, yamlStr, buildEntryFile, validate } from './lib/entry-file.mjs';
+import { slugify, yamlStr, buildEntryFile, validate, LINK_KEYS } from './lib/entry-file.mjs';
 
 const DRY_RUN = process.argv.includes('--dry-run');
 const ROOT = process.cwd();
+
+/**
+ * 标签与部署类型的枚举定义在 src/lib/taxonomy.ts（页面和 schema 都从那里取）。
+ * 这里直接解析那个文件，避免两边各存一份、改了一处忘了另一处。
+ * 解析失败时只影响提示与过滤，不阻塞新增条目。
+ */
+async function readTaxonomy() {
+  const file = path.join(ROOT, 'src/lib/taxonomy.ts');
+  let source = '';
+  try {
+    source = await readFile(file, 'utf8');
+  } catch {
+    console.warn(`[提示] 读不到 ${file}，标签提示会缺失（不影响写入）。`);
+    return {};
+  }
+  const parse = (name) => {
+    const match = source.match(new RegExp(`export const ${name}\\s*=\\s*\\[([^\\]]*)\\]`));
+    if (!match) return [];
+    return match[1]
+      .split(',')
+      .map((item) => item.trim().replace(/^['"]|['"]$/g, ''))
+      .filter(Boolean);
+  };
+  return {
+    llm: parse('LLM_TAGS'),
+    aigc: parse('AIGC_TAGS'),
+    deployKinds: parse('DEPLOY_KINDS'),
+    commercial: parse('COMMERCIAL_VALUES'),
+  };
+}
+
+const TAXONOMY = await readTaxonomy();
+if (TAXONOMY.llm?.length === 0 || TAXONOMY.deployKinds?.length === 0) {
+  console.warn('[提示] 没能从 src/lib/taxonomy.ts 解析出标签枚举，将不校验标签。');
+}
 
 const COLLECTIONS = {
   llm: {
     dir: 'src/content/llm',
     label: 'LLM（语言模型）',
+    linkKeys: ['hf', 'github', 'paper', 'demo', 'docs'],
+    // 标签是固定枚举，写错会被 schema 拒绝
+    tagChoices: TAXONOMY.llm ?? [],
+    // 是否可商用也是固定枚举（schema 里是必填），左侧「商用」筛选就看它
+    commercialChoices: TAXONOMY.commercial ?? [],
     modalities: ['text', 'image', 'audio', 'code'],
   },
   aigc: {
     dir: 'src/content/aigc',
-    label: 'AIGC（图像 / 视频 / 音频 / 3D 生成模型）',
-    outputs: ['image', 'video', 'audio', '3d'],
+    label: 'AIGC（生图 / 生视频模型）',
+    linkKeys: ['hf', 'github', 'paper', 'demo', 'docs'],
+    tagChoices: TAXONOMY.aigc ?? [],
+    commercialChoices: TAXONOMY.commercial ?? [],
+    outputs: ['image', 'video'],
+  },
+  projects: {
+    dir: 'src/content/projects',
+    label: '社区项目',
+    // 页面上的卡片只展示 HuggingFace 与 GitHub，所以这里也只问这两个
+    linkKeys: ['github', 'hf'],
+    tagChoices: [],
   },
   deploy: {
     dir: 'src/content/deploy',
-    label: '部署 / 加速方案',
-    kinds: ['推理引擎', '量化', '微调', '服务化', '分布式', '工具链'],
+    label: '部署方式（和 LLM 相关）',
+    linkKeys: ['github', 'hf', 'paper', 'docs'],
+    tagChoices: [],
+    kinds: TAXONOMY.deployKinds ?? [],
   },
 };
 
@@ -115,23 +168,38 @@ async function main() {
   }
 
   const org = await ask('发布方（机构 / 团队）', { required: true });
+  const family = await ask('所属（家族 / 公司，例如 Qwen / Meta / DeepSeek）', { def: '' });
   const released = await ask('首次公开发布日期', { def: today(), validate: isDate });
   const added = await ask('收录日期', { def: today(), validate: isDate });
   const summary = await ask('一句话简介', {
     required: true,
     validate: (v) => (v.length >= 10 ? null : '至少 10 个字：说清"是什么 + 凭什么值得看"'),
   });
-  const tags = splitList(await ask('标签（逗号分隔）', { def: '' }));
+  const tags = meta.tagChoices.length
+    ? splitList(
+        await ask(`标签（固定可选：${meta.tagChoices.join(' / ')}，逗号分隔）`, { def: '' })
+      ).filter((t) => {
+        const ok = meta.tagChoices.includes(t);
+        if (!ok) console.log(`  ↳ 忽略非法标签 "${t}"（不在枚举里，否则构建会失败）`);
+        return ok;
+      })
+    : [];
   const license = await ask('许可证', { def: '' });
+  // LLM / AIGC 的 commercial 是 schema 必填项，漏了构建会失败，所以在这里就问清楚
+  const commercial = meta.commercialChoices?.length
+    ? await ask('是否可商用', { required: true, choices: meta.commercialChoices })
+    : '';
 
   console.log('\n链接（至少填一个）：');
   const links = {};
-  for (const key of LINK_KEYS) {
+  for (const key of meta.linkKeys) {
     const url = await ask(`  ${key}`, { def: '' });
     if (url) links[key] = url;
   }
 
   const extra = [];
+  if (family) extra.push(['family', yamlStr(family)]);
+  if (commercial) extra.push(['commercial', yamlStr(commercial)]);
 
   if (collection === 'llm') {
     const params = await ask('参数量', { def: '' });
@@ -149,10 +217,17 @@ async function main() {
   if (collection === 'aigc') {
     const output = await ask('输出类型', { required: true, choices: meta.outputs, def: 'image' });
     const architecture = await ask('架构', { def: '' });
+    const params = await ask('参数量', { def: '' });
     const vram = await ask('推荐显存', { def: '' });
     extra.push(['output', yamlStr(output)]);
     if (architecture) extra.push(['architecture', yamlStr(architecture)]);
+    if (params) extra.push(['params', yamlStr(params)]);
     if (vram) extra.push(['vram', yamlStr(vram)]);
+  }
+
+  if (collection === 'projects') {
+    const shape = await ask('项目形态（例如 推理加速 / KV cache 压缩）', { def: '' });
+    if (shape) extra.push(['params', yamlStr(shape)]);
   }
 
   if (collection === 'deploy') {
@@ -164,11 +239,11 @@ async function main() {
     if (pain) extra.push(['pain', yamlStr(pain)]);
   }
 
-  // 模型可以关联部署方案（schema 里是 reference，写错 slug 会直接构建失败，所以这里先过滤）
+  // 模型可以关联部署方式（schema 里是 reference，写错 slug 会直接构建失败，所以这里先过滤）
   if (collection !== 'deploy') {
     const deploySlugs = await listSlugs(COLLECTIONS.deploy.dir);
     if (deploySlugs.length) {
-      const refs = splitList(await ask('关联的部署方案（可选，逗号分隔）', { def: '' }));
+      const refs = splitList(await ask('关联的部署方式（可选，逗号分隔）', { def: '' }));
       const bad = refs.filter((r) => !deploySlugs.includes(r));
       if (bad.length) console.log(`  ↳ 这些 slug 在 src/content/deploy 里不存在，已忽略：${bad.join(', ')}`);
       const good = refs.filter((r) => deploySlugs.includes(r));
@@ -183,7 +258,11 @@ async function main() {
     process.exit(1);
   }
 
-  const content = buildEntryFile(fields);
+  const content = buildEntryFile({
+    ...fields,
+    // 模型页的正文已经精简掉了，只有社区项目与部署方式还写正文
+    withBody: collection === 'projects' || collection === 'deploy',
+  });
   const file = path.join(ROOT, meta.dir, `${slug}.md`);
 
   if (DRY_RUN) {

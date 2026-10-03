@@ -1,0 +1,1127 @@
+{
+ "deepseek-ai/DeepSeek-V4.1-Flash": {
+  "file": "LICENSE",
+  "first": "MIT License / Copyright (c) 2023 DeepSeek / Permission is hereby granted, free of charge, to any person obtaining a copy",
+  "inline": "MIT"
+ },
+ "deepseek-ai/DeepSeek-OCR": {
+  "file": "LICENSE",
+  "first": "MIT License / Copyright (c) 2023 DeepSeek / Permission is hereby granted, free of charge, to any person obtaining a copy",
+  "inline": "MIT"
+ },
+ "deepseek-ai/DeepSeek-V3.2-Exp": {
+  "file": "LICENSE",
+  "first": "MIT License / Copyright (c) 2023 DeepSeek / Permission is hereby granted, free of charge, to any person obtaining a copy",
+  "inline": "MIT"
+ },
+ "deepseek-ai/DeepSeek-Math-V2": {
+  "file": "LICENSE",
+  "first": "Apache License / Version 2.0, January 2004 / http://www.apache.org/licenses/",
+  "inline": "Apache-2.0"
+ },
+ "deepseek-ai/DeepSeek-Prover-V2-671B": {
+  "file": "LICENSE",
+  "first": "MIT License / Copyright (c) 2023 DeepSeek / Permission is hereby granted, free of charge, to any person obtaining a copy",
+  "inline": "MIT"
+ },
+ "deepseek-ai/DeepSeek-V4-Flash-0731": {
+  "file": "LICENSE",
+  "first": "MIT License / Copyright (c) 2023 DeepSeek / Permission is hereby granted, free of charge, to any person obtaining a copy",
+  "inline": "MIT"
+ },
+ "Qwen/Qwen2.5-VL-72B-Instruct": {
+  "file": "LICENSE",
+  "first": "Qwen LICENSE AGREEMENT / Qwen LICENSE AGREEMENT Release Date: September 19, 2024 / By clicking to agree or by using or d",
+  "inline": null
+ },
+ "Qwen/Qwen3-235B-A22B-Instruct-2507": {
+  "file": "LICENSE",
+  "first": "Apache License / Version 2.0, January 2004 / http://www.apache.org/licenses/",
+  "inline": "Apache-2.0"
+ },
+ "Qwen/Qwen3-32B": {
+  "file": "LICENSE",
+  "first": "Apache License / Version 2.0, January 2004 / http://www.apache.org/licenses/",
+  "inline": "Apache-2.0"
+ },
+ "Qwen/QwQ-32B": {
+  "file": "LICENSE",
+  "first": "Apache License / Version 2.0, January 2004 / http://www.apache.org/licenses/",
+  "inline": "Apache-2.0"
+ },
+ "Qwen/Qwen3-Coder-30B-A3B-Instruct": {
+  "file": "LICENSE",
+  "first": "Apache License / Version 2.0, January 2004 / http://www.apache.org/licenses/",
+  "inline": "Apache-2.0"
+ },
+ "Qwen/Qwen3-30B-A3B": {
+  "file": "LICENSE",
+  "first": "Apache License / Version 2.0, January 2004 / http://www.apache.org/licenses/",
+  "inline": "Apache-2.0"
+ },
+ "Qwen/Qwen3-Coder-480B-A35B-Instruct": {
+  "file": "LICENSE",
+  "first": "Apache License / Version 2.0, January 2004 / http://www.apache.org/licenses/",
+  "inline": "Apache-2.0"
+ },
+ "Qwen/Qwen3-Next-80B-A3B-Instruct": {
+  "file": "LICENSE",
+  "first": "Apache License / Version 2.0, January 2004 / http://www.apache.org/licenses/",
+  "inline": "Apache-2.0"
+ },
+ "Qwen/Qwen3.5-35B-A3B": {
+  "file": "LICENSE",
+  "first": "Apache License / Version 2.0, January 2004 / http://www.apache.org/licenses/",
+  "inline": "Apache-2.0"
+ },
+ "Qwen/Qwen3.5-122B-A10B": {
+  "file": "LICENSE",
+  "first": "Apache License / Version 2.0, January 2004 / http://www.apache.org/licenses/",
+  "inline": "Apache-2.0"
+ },
+ "Qwen/Qwen3.5-27B": {
+  "file": "LICENSE",
+  "first": "Apache License / Version 2.0, January 2004 / http://www.apache.org/licenses/",
+  "inline": "Apache-2.0"
+ },
+ "Qwen/Qwen3.6-27B": {
+  "file": "LICENSE",
+  "first": "Apache License / Version 2.0, January 2004 / http://www.apache.org/licenses/",
+  "inline": "Apache-2.0"
+ },
+ "Qwen/Qwen3.8-2.4T-A95B": {
+  "file": "LICENSE",
+  "first": "Qwen3.8-Max License / Copyright (c) 2026 Qwen / Permission is hereby granted, free of charge, to any person obtaining a ",
+  "inline": "MIT"
+ },
+ "Qwen/Qwen3.8-27B": {
+  "file": "LICENSE",
+  "first": "Apache License / Version 2.0, January 2004 / http://www.apache.org/licenses/",
+  "inline": "Apache-2.0"
+ },
+ "zai-org/GLM-Z1-32B-0414": {
+  "file": "LICENSE",
+  "first": "MIT License / Copyright (c) 2025 Zhipu AI / Permission is hereby granted, free of charge, to any person obtaining a copy",
+  "inline": "MIT"
+ },
+ "Qwen/Qwen3-VL-235B-A22B-Instruct": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "Qwen/Qwen3-Coder-Next": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "Qwen/Qwen3-VL-8B-Instruct": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "zai-org/GLM-4.5-Air": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "zai-org/GLM-4.5V": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "zai-org/GLM-5.1": {
+  "file": "LICENSE",
+  "first": "MIT License / Copyright (c) 2026 Zhipu AI / Permission is hereby granted, free of charge, to any person obtaining a copy",
+  "inline": "MIT"
+ },
+ "zai-org/GLM-5.3-Flash": {
+  "file": "LICENSE",
+  "first": "MIT License / Copyright (c) 2026 Z.AI Co., Ltd / Permission is hereby granted, free of charge, to any person obtaining a",
+  "inline": "MIT"
+ },
+ "zai-org/GLM-4.6": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "zai-org/GLM-4.6V": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "zai-org/GLM-4.7-Flash": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "moonshotai/Kimi-K2-Instruct-0905": {
+  "file": "LICENSE",
+  "first": "Modified MIT License / Copyright (c) 2025 Moonshot AI / Permission is hereby granted, free of charge, to any person obta",
+  "inline": "MIT"
+ },
+ "moonshotai/Kimi-K2.7-Code": {
+  "file": "LICENSE",
+  "first": "Modified MIT License / Copyright (c) 2026 Moonshot AI / Permission is hereby granted, free of charge, to any person obta",
+  "inline": "MIT"
+ },
+ "MiniMaxAI/MiniMax-M1-80k": {
+  "file": "LICENSE",
+  "first": "Apache License / Version 2.0, January 2004 / http://www.apache.org/licenses/",
+  "inline": "Apache-2.0"
+ },
+ "moonshotai/Moonlight-16B-A3B-Instruct": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "moonshotai/Kimi-VL-A3B-Instruct": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "MiniMaxAI/MiniMax-Text-01": {
+  "file": "LICENSE-MODEL",
+  "first": "MINIMAX MODEL LICENSE / Model Release Date: 15 January 2025 / 1. Definitions",
+  "inline": null
+ },
+ "tencent/Hunyuan-A13B-Instruct": {
+  "file": "LICENSE",
+  "first": "TENCENT HUNYUAN COMMUNITY LICENSE AGREEMENT / Tencent Hunyuan A13B Release Date: June 27, 2025 / THIS LICENSE AGREEMENT ",
+  "inline": null
+ },
+ "moonshotai/Kimi-Linear-48B-A3B-Instruct": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "tencent/Hy4-preview": {
+  "file": "LICENSE",
+  "first": "Tencent is pleased to support the open source community by making Tencent Hy4 preview available. / Copyright (C) 2026 Te",
+  "inline": "Apache-2.0"
+ },
+ "MiniMaxAI/MiniMax-VL-01": {
+  "file": "LICENSE-MODEL",
+  "first": "MINIMAX MODEL LICENSE / Model Release Date: 15 January 2025 / 1. Definitions",
+  "inline": null
+ },
+ "tencent/Hy3": {
+  "file": "LICENSE",
+  "first": "Tencent is pleased to support the open source community by making Tencent Hy3 available. / Copyright (C) 2026 Tencent.  ",
+  "inline": "Apache-2.0"
+ },
+ "openpangu/openPangu-2.0-Pro": {
+  "file": "LICENSE",
+  "first": "OpenPangu Model License Agreement Version 2.0 / This OpenPangu Model License Agreement Version 2.0 (the \"Agreement\") is ",
+  "inline": null
+ },
+ "openpangu/openPangu-Ultra-MoE-718B-V1.1": {
+  "file": "LICENSE",
+  "first": "OPENPANGU MODEL LICENSE AGREEMENT VERSION 1.0 / This OPENPANGU MODEL LICENSE AGREEMENT VERSION 1.0 (the \"Agreement\") is ",
+  "inline": null
+ },
+ "MiniMaxAI/MiniMax-M2.5": {
+  "file": "LICENSE-MODEL",
+  "first": "MINIMAX MODEL LICENSE / MiniMax-M2.5 Version Release Date: 2026-02-13 / 1. Definitions",
+  "inline": null
+ },
+ "MiniMaxAI/MiniMax-M2": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "inclusionAI/Ling-lite-1.5": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "inclusionAI/Ring-flash-2.0": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "inclusionAI/Ling-flash-2.0": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "meituan-longcat/LongCat-Flash-Chat": {
+  "file": "LICENSE",
+  "first": "MIT License / Copyright (c) 2025 Meituan / Permission is hereby granted, free of charge, to any person obtaining a copy",
+  "inline": "MIT"
+ },
+ "inclusionAI/Ling-1T": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "meituan-longcat/LongCat-Flash-Thinking": {
+  "file": "LICENSE",
+  "first": "MIT License / Copyright (c) 2025 Meituan / Permission is hereby granted, free of charge, to any person obtaining a copy",
+  "inline": "MIT"
+ },
+ "meituan-longcat/LongCat-2.0": {
+  "file": "LICENSE",
+  "first": "MIT License / Copyright (c) 2026 Meituan / Permission is hereby granted, free of charge, to any person obtaining a copy",
+  "inline": "MIT"
+ },
+ "stepfun-ai/step3": {
+  "file": "LICENSE",
+  "first": "Apache License / Version 2.0, January 2004 / http://www.apache.org/licenses/",
+  "inline": "Apache-2.0"
+ },
+ "inclusionAI/Ring-1T": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "inclusionAI/Ling-3.0-flash": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "stepfun-ai/Step-3.5-Flash": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "stepfun-ai/Step-3.7-Flash": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "XiaomiMiMo/MiMo-7B-RL": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "XiaomiMiMo/MiMo-VL-7B-RL": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "XiaomiMiMo/MiMo-V2-Flash": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "ByteDance-Seed/Seed-OSS-36B-Base": {
+  "file": "LICENSE.txt",
+  "first": "Apache License / Version 2.0, January 2004 / http://www.apache.org/licenses/",
+  "inline": "Apache-2.0"
+ },
+ "baidu/ERNIE-4.5-21B-A3B-PT": {
+  "file": "LICENSE",
+  "first": "Apache License / Version 2.0, January 2004 / http://www.apache.org/licenses/",
+  "inline": "Apache-2.0"
+ },
+ "XiaomiMiMo/MiMo-V2.5-Pro": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "baidu/ERNIE-4.5-VL-424B-A47B-PT": {
+  "file": "LICENSE",
+  "first": "Apache License / Version 2.0, January 2004 / http://www.apache.org/licenses/",
+  "inline": "Apache-2.0"
+ },
+ "rednote-hilab/dots.llm1.inst": {
+  "file": "LICENSE",
+  "first": "MIT License / Copyright (c) 2025 rednote-hilab / Permission is hereby granted, free of charge, to any person obtaining a",
+  "inline": "MIT"
+ },
+ "XiaomiMiMo/MiMo-V2.6-Pro-RL": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "ByteDance-Seed/Seed-Coder-8B-Instruct": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "internlm/Intern-S1": {
+  "file": "LICENSE.txt",
+  "first": "Apache License / Version 2.0, January 2004 / http://www.apache.org/licenses/",
+  "inline": "Apache-2.0"
+ },
+ "internlm/Intern-S2-397B": {
+  "file": "LICENSE",
+  "first": "Apache License / Version 2.0, January 2004 / http://www.apache.org/licenses/",
+  "inline": "Apache-2.0"
+ },
+ "OpenGVLab/InternVL3_5-38B": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "openbmb/MiniCPM4-8B": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "openbmb/MiniCPM5-1B": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "openbmb/MiniCPM-V-4_5": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "Tele-AI/TeleChat3-36B-Thinking": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "google/gemma-3-12b-it": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "meta-llama/Llama-4-Scout-17B-16E-Instruct": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "google/gemma-3n-E4B-it": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "google/medgemma-27b-it": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "google/gemma-3-270m": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "microsoft/Phi-4-mini-instruct": {
+  "file": "LICENSE",
+  "first": "Microsoft. / Copyright (c) Microsoft Corporation. / MIT License",
+  "inline": "MIT"
+ },
+ "microsoft/Phi-4-multimodal-instruct": {
+  "file": "LICENSE",
+  "first": "MIT License / Copyright (c) Microsoft Corporation. / Permission is hereby granted, free of charge, to any person obtaini",
+  "inline": "MIT"
+ },
+ "microsoft/Phi-4-reasoning": {
+  "file": "LICENSE",
+  "first": "Microsoft. / Copyright (c) Microsoft Corporation. / MIT License",
+  "inline": "MIT"
+ },
+ "google/gemma-4-31B-it": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "google/gemma-4-12B-it": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16": {
+  "file": "LICENSE",
+  "first": "Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved. / OpenMDW License Agreement, version 1.1 (OpenM",
+  "inline": null
+ },
+ "google/diffusiongemma-26B-A4B-it": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "nvidia/NVIDIA-Nemotron-Nano-9B-v2": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "ibm-granite/granite-4.0-h-1b": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "ibm-granite/granite-4.1-8b": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "ibm-granite/granite-4.2-30b": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "allenai/OLMo-2-0325-32B-Instruct": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "allenai/Olmo-3-1025-7B": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "mistralai/Mistral-Small-3.2-24B-Instruct-2506": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "mistralai/Magistral-Small-2506": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "mistralai/Voxtral-Small-24B-2507": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "openai/gpt-oss-20b": {
+  "file": "LICENSE",
+  "first": "Apache License / Version 2.0, January 2004 / http://www.apache.org/licenses/",
+  "inline": "Apache-2.0"
+ },
+ "mistralai/Ministral-3-8B-Instruct-2512": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "mistralai/Mistral-Large-3-675B-Instruct-2512": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "LGAI-EXAONE/EXAONE-4.0-32B": {
+  "file": "LICENSE",
+  "first": "EXAONE AI Model License Agreement 1.2 - NC / This License Agreement (“Agreement”) is entered into between you (“Licensee",
+  "inline": null
+ },
+ "mistralai/Devstral-Small-2507": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "swiss-ai/Apertus-70B-Instruct-2509": {
+  "file": "LICENSE.txt",
+  "first": "Copyright 2025 - The Swiss AI team. / Apache License / Version 2.0, January 2004",
+  "inline": "Apache-2.0"
+ },
+ "upstage/Solar-Open-100B": {
+  "file": "LICENSE",
+  "first": "# Upstage Solar License / # Preamble / The 'Upstage Solar License' (hereinafter referred to as \"this License\") was estab",
+  "inline": null
+ },
+ "LGAI-EXAONE/K-EXAONE-236B-A23B": {
+  "file": "LICENSE",
+  "first": "K-EXAONE AI Model License Agreement / This License Agreement (\"Agreement\") is entered into between LG Management / Devel",
+  "inline": null
+ },
+ "tiiuae/Falcon-H1-34B-Instruct": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "tiiuae/Falcon-H1R-7B": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "HuggingFaceTB/SmolLM3-3B": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "CohereLabs/tiny-aya-global": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "ai21labs/AI21-Jamba-Reasoning-3B": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "CohereLabs/command-a-plus-05-2026-bf16": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "CohereLabs/North-Mini-Code-1.0": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "Qwen/Qwen3.5-4B": {
+  "file": "LICENSE",
+  "first": "Apache License / Version 2.0, January 2004 / http://www.apache.org/licenses/",
+  "inline": "Apache-2.0"
+ },
+ "Qwen/Qwen3.6-35B-A3B": {
+  "file": "LICENSE",
+  "first": "Apache License / Version 2.0, January 2004 / http://www.apache.org/licenses/",
+  "inline": "Apache-2.0"
+ },
+ "Qwen/Qwen3.5-9B": {
+  "file": "LICENSE",
+  "first": "Apache License / Version 2.0, January 2004 / http://www.apache.org/licenses/",
+  "inline": "Apache-2.0"
+ },
+ "Qwen/Qwen3.8-Flash-Next": {
+  "file": "LICENSE",
+  "first": "Qwen Community License 1.0 / Copyright (c) 2026 Qwen / Permission is hereby granted, free of charge, to any person obtai",
+  "inline": "MIT"
+ },
+ "Qwen/Qwen3-VL-32B-Instruct": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "Qwen/Qwen3-VL-8B-Thinking": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "Qwen/Qwen3-VL-30B-A3B-Instruct": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "Qwen/Qwen3-VL-4B-Thinking": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "Qwen/Qwen3-VL-4B-Instruct": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "Qwen/Qwen3-235B-A22B-Thinking-2507": {
+  "file": "LICENSE",
+  "first": "Apache License / Version 2.0, January 2004 / http://www.apache.org/licenses/",
+  "inline": "Apache-2.0"
+ },
+ "Qwen/Qwen3-30B-A3B-Instruct-2507": {
+  "file": "LICENSE",
+  "first": "Apache License / Version 2.0, January 2004 / http://www.apache.org/licenses/",
+  "inline": "Apache-2.0"
+ },
+ "Qwen/Qwen3-30B-A3B-Thinking-2507": {
+  "file": "LICENSE",
+  "first": "Apache License / Version 2.0, January 2004 / http://www.apache.org/licenses/",
+  "inline": "Apache-2.0"
+ },
+ "Qwen/Qwen3-4B-Instruct-2507": {
+  "file": "LICENSE",
+  "first": "Apache License / Version 2.0, January 2004 / http://www.apache.org/licenses/",
+  "inline": "Apache-2.0"
+ },
+ "Qwen/Qwen3-4B-Thinking-2507": {
+  "file": "LICENSE",
+  "first": "Apache License / Version 2.0, January 2004 / http://www.apache.org/licenses/",
+  "inline": "Apache-2.0"
+ },
+ "Qwen/Qwen3-14B": {
+  "file": "LICENSE",
+  "first": "Apache License / Version 2.0, January 2004 / http://www.apache.org/licenses/",
+  "inline": "Apache-2.0"
+ },
+ "Qwen/Qwen3-8B": {
+  "file": "LICENSE",
+  "first": "Apache License / Version 2.0, January 2004 / http://www.apache.org/licenses/",
+  "inline": "Apache-2.0"
+ },
+ "Qwen/Qwen3-4B": {
+  "file": "LICENSE",
+  "first": "Apache License / Version 2.0, January 2004 / http://www.apache.org/licenses/",
+  "inline": "Apache-2.0"
+ },
+ "Qwen/Qwen2.5-Omni-7B": {
+  "file": "LICENSE",
+  "first": "Apache License / Version 2.0, January 2004 / http://www.apache.org/licenses/",
+  "inline": "Apache-2.0"
+ },
+ "Qwen/Qwen3-VL-30B-A3B-Thinking": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "Qwen/Qwen3-VL-235B-A22B-Thinking": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "Qwen/Qwen3-Omni-30B-A3B-Thinking": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "Qwen/Qwen2.5-VL-3B-Instruct": {
+  "file": "LICENSE",
+  "first": "Qwen RESEARCH LICENSE AGREEMENT / Qwen RESEARCH LICENSE AGREEMENT Release Date: September 19, 2024 / By clicking to agre",
+  "inline": null
+ },
+ "Qwen/Qwen2.5-VL-7B-Instruct": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "Qwen/Qwen2.5-VL-32B-Instruct": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "microsoft/Phi-4-reasoning-plus": {
+  "file": "LICENSE",
+  "first": "Microsoft. / Copyright (c) Microsoft Corporation. / MIT License",
+  "inline": "MIT"
+ },
+ "google/gemma-3-4b-it": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "microsoft/Phi-4-mini-reasoning": {
+  "file": "LICENSE",
+  "first": "Microsoft. / Copyright (c) Microsoft Corporation. / MIT License",
+  "inline": "MIT"
+ },
+ "microsoft/Phi-4-mini-flash-reasoning": {
+  "file": "LICENSE",
+  "first": "Microsoft. / Copyright (c) Microsoft Corporation. / MIT License",
+  "inline": "MIT"
+ },
+ "google/gemma-4-31B": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "google/gemma-4-26B-A4B": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "google/gemma-4-E4B-it": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "microsoft/Phi-4-reasoning-vision-15B": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "nvidia/NVIDIA-Nemotron-Nano-12B-v2": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "nvidia/NVIDIA-Nemotron-Nano-9B-v2-Japanese": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "nvidia/Nemotron-Cascade-2-30B-A3B": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "nvidia/NVIDIA-Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "nvidia/Nemotron-Labs-Diffusion-14B": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "mistralai/Mistral-Medium-3.5-128B": {
+  "file": "LICENSE",
+  "first": "Modified MIT License / Attribution notice: 2026 - Mistral AI / Permission is hereby granted, free of charge, to any pers",
+  "inline": "MIT"
+ },
+ "meta-llama/Llama-4-Scout-17B-16E": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "mistralai/Devstral-2-123B-Instruct-2512": {
+  "file": "LICENSE",
+  "first": "Modified MIT License / Attribution notice: 2025 - Mistral AI / Permission is hereby granted, free of charge, to any pers",
+  "inline": "MIT"
+ },
+ "mistralai/Mistral-Small-24B-Instruct-2501": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "mistralai/Mistral-Small-4-119B-2603": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "mistralai/Devstral-Small-2-24B-Instruct-2512": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "mistralai/Ministral-3-14B-Instruct-2512": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "mistralai/Ministral-3-14B-Reasoning-2512": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "mistralai/Magistral-Small-2509": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "ibm-granite/granite-3.2-8b-instruct": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "ibm-granite/granite-3.3-8b-instruct": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "ibm-granite/granite-4.2-8b": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "ibm-granite/granite-4.1-30b": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "ibm-granite/granite-vision-4.1-4b": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "deepseek-ai/DeepSeek-V3-0324": {
+  "file": "LICENSE",
+  "first": "MIT License / Copyright (c) 2023 DeepSeek / Permission is hereby granted, free of charge, to any person obtaining a copy",
+  "inline": "MIT"
+ },
+ "deepseek-ai/DeepSeek-R1-0528": {
+  "file": "LICENSE",
+  "first": "MIT License / Copyright (c) 2023 DeepSeek / Permission is hereby granted, free of charge, to any person obtaining a copy",
+  "inline": "MIT"
+ },
+ "deepseek-ai/DeepSeek-V3.1-Terminus": {
+  "file": "LICENSE",
+  "first": "MIT License / Copyright (c) 2023 DeepSeek / Permission is hereby granted, free of charge, to any person obtaining a copy",
+  "inline": "MIT"
+ },
+ "allenai/Olmo-3-7B-Think": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "deepseek-ai/DeepSeek-V3.2-Speciale": {
+  "file": "LICENSE",
+  "first": "MIT License / Copyright (c) 2023 DeepSeek / Permission is hereby granted, free of charge, to any person obtaining a copy",
+  "inline": "MIT"
+ },
+ "deepseek-ai/DeepSeek-V4-Pro-0813": {
+  "file": "LICENSE",
+  "first": "MIT License / Copyright (c) 2023 DeepSeek / Permission is hereby granted, free of charge, to any person obtaining a copy",
+  "inline": "MIT"
+ },
+ "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp": {
+  "file": "LICENSE",
+  "first": "MIT License / Copyright (c) 2023 DeepSeek / Permission is hereby granted, free of charge, to any person obtaining a copy",
+  "inline": "MIT"
+ },
+ "allenai/Olmo-3-7B-Instruct": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "allenai/Olmo-3-1125-32B": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "zai-org/GLM-4-32B-0414": {
+  "file": "LICENSE",
+  "first": "MIT License / Copyright (c) 2025 Zhipu AI / Permission is hereby granted, free of charge, to any person obtaining a copy",
+  "inline": "MIT"
+ },
+ "allenai/Olmo-3.1-32B-Think": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "deepseek-ai/DeepSeek-R1-Zero": {
+  "file": "LICENSE",
+  "first": "MIT License / Copyright (c) 2023 DeepSeek / Permission is hereby granted, free of charge, to any person obtaining a copy",
+  "inline": "MIT"
+ },
+ "zai-org/GLM-Z1-Rumination-32B-0414": {
+  "file": "LICENSE",
+  "first": "MIT License / Copyright (c) 2025 Zhipu AI / Permission is hereby granted, free of charge, to any person obtaining a copy",
+  "inline": "MIT"
+ },
+ "MiniMaxAI/MiniMax-M2.7": {
+  "file": "LICENSE",
+  "first": "NON-COMMERCIAL LICENSE / Non-commercial use permitted based on MIT-style terms; commercial use requires prior written au",
+  "inline": null
+ },
+ "tencent/Hy3-preview": {
+  "file": "LICENSE",
+  "first": "TENCENT HY COMMUNITY LICENSE AGREEMENT / Tencent Hy3 preview Release Date: April 23, 2026 / THIS LICENSE AGREEMENT DOES ",
+  "inline": null
+ },
+ "tencent/Hunyuan-7B-Instruct": {
+  "file": "LICENSE",
+  "first": "TENCENT HUNYUAN COMMUNITY LICENSE AGREEMENT / Tencent Hunyuan 7B Release Date: August 4, 2025 / THIS LICENSE AGREEMENT D",
+  "inline": null
+ },
+ "deepseek-ai/Janus-Pro-7B": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "tencent/Youtu-VL-4B-Instruct": {
+  "file": "LICENSE.txt",
+  "first": "Tencent is pleased to support the community by making Youtu-VL available. / Copyright (C)  2026 Tencent.  All rights res",
+  "inline": "MIT"
+ },
+ "inclusionAI/Ring-mini-2.0": {
+  "file": "LICENSE",
+  "first": "MIT License / Copyright (c) 2025 inclusionAI / Permission is hereby granted, free of charge, to any person obtaining a c",
+  "inline": "MIT"
+ },
+ "zai-org/GLM-4.6V-Flash": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "MiniMaxAI/MiniMax-M2.1": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "zai-org/GLM-4.1V-9B-Thinking": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "inclusionAI/Ling-mini-2.0": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "inclusionAI/Ling-2.5-1T": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "inclusionAI/Ring-2.5-1T": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "inclusionAI/Ling-2.6-flash": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "inclusionAI/Ling-2.6-1T": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "internlm/internlm3-8b-instruct": {
+  "file": "LICENSE.txt",
+  "first": "Apache License / Version 2.0, January 2004 / http://www.apache.org/licenses/",
+  "inline": "Apache-2.0"
+ },
+ "internlm/Intern-S1-Pro": {
+  "file": "LICENSE.txt",
+  "first": "Apache License / Version 2.0, January 2004 / http://www.apache.org/licenses/",
+  "inline": "Apache-2.0"
+ },
+ "inclusionAI/Ring-2.6-1T": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "internlm/Intern-S2-Preview": {
+  "file": "LICENSE",
+  "first": "Apache License / Version 2.0, January 2004 / http://www.apache.org/licenses/",
+  "inline": "Apache-2.0"
+ },
+ "inclusionAI/Ling-3.0-flash-VL": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "inclusionAI/Ling-3.0-tiny": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "inclusionAI/LLaDA2.0-mini": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "baidu/ERNIE-4.5-21B-A3B-Thinking": {
+  "file": "LICENSE",
+  "first": "Apache License / Version 2.0, January 2004 / http://www.apache.org/licenses/",
+  "inline": "Apache-2.0"
+ },
+ "baidu/ERNIE-4.5-VL-28B-A3B-PT": {
+  "file": "LICENSE",
+  "first": "Apache License / Version 2.0, January 2004 / http://www.apache.org/licenses/",
+  "inline": "Apache-2.0"
+ },
+ "xai-org/grok-2": {
+  "file": "LICENSE",
+  "first": "xAI Community License Agreement / Last Updated:  November 4, 2025 / 1. Background and Definitions",
+  "inline": null
+ },
+ "upstage/Solar-Open2-250B": {
+  "file": "LICENSE",
+  "first": "# Upstage Solar License / # Preamble / The 'Upstage Solar License' (hereinafter referred to as \"this License\") was estab",
+  "inline": null
+ },
+ "stepfun-ai/Step3-VL-10B": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "internlm/Atria-Dawn-Preview": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "baidu/ERNIE-4.5-VL-28B-A3B-Thinking": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "ByteDance-Seed/BAGEL-7B-MoT": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "LGAI-EXAONE/K-EXAONE-2.0-750B-A37B": {
+  "file": "LICENSE",
+  "first": "Apache 2.0 / Copyright © 2026 LG AI Research / Licensed under the Apache License, Version 2.0 (the \"License\");",
+  "inline": "Apache-2.0"
+ },
+ "swiss-ai/Apertus-8B-Instruct-2509": {
+  "file": "LICENSE.txt",
+  "first": "Copyright 2025 - The Swiss AI team. / Apache License / Version 2.0, January 2004",
+  "inline": "Apache-2.0"
+ },
+ "LGAI-EXAONE/EXAONE-4.5-33B": {
+  "file": "LICENSE",
+  "first": "EXAONE AI Model License Agreement 1.2 - NC / This License Agreement (“Agreement”) is entered into between you (“Licensee",
+  "inline": null
+ },
+ "utter-project/EuroLLM-22B-Instruct-2512": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "LGAI-EXAONE/EXAONE-Deep-32B": {
+  "file": "LICENSE",
+  "first": "EXAONE AI Model License Agreement 1.1 - NC / This License Agreement (“Agreement”) is entered into between you (“Licensee",
+  "inline": null
+ },
+ "swiss-ai/Apertus-v1.5-8B": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "swiss-ai/Apertus-v1.5-70B": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "CohereLabs/command-a-reasoning-08-2025": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "CohereLabs/aya-vision-32b": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "CohereLabs/aya-vision-8b": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "RekaAI/reka-edge-2603": {
+  "file": "LICENSE",
+  "first": "# Reka Edge 2603: License / # **Business Source License 1.1** / Licensor: REKA",
+  "inline": null
+ },
+ "CohereLabs/c4ai-command-a-03-2025": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "apple/FastVLM-7B": {
+  "file": "LICENSE",
+  "first": "Disclaimer: IMPORTANT: This Apple Machine Learning Research Model is / specifically developed and released by Apple Inc.",
+  "inline": null
+ },
+ "apple/LensVLM-9B": {
+  "file": "LICENSE",
+  "first": "Disclaimer: IMPORTANT: This Apple Machine Learning Research Model is / specifically developed and released by Apple Inc.",
+  "inline": null
+ },
+ "CohereLabs/North-Micro-Vision-Instruct": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "RekaAI/reka-flash-3": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "Zyphra/ZAYA1-8B": {
+  "file": null,
+  "first": null,
+  "inline": null
+ },
+ "apple/DiffuCoder-7B-cpGRPO": {
+  "file": null,
+  "first": null,
+  "inline": null
+ }
+}

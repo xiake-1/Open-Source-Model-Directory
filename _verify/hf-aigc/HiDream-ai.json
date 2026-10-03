@@ -1,0 +1,221 @@
+[
+ {
+  "id": "HiDream-ai/Prompt-Refine",
+  "createdAt": "2026-05-13T18:50:44.000Z",
+  "downloads": 255,
+  "likes": 19,
+  "pipeline": "image-text-to-text",
+  "library": "transformers",
+  "gated": false,
+  "tags": [
+   "transformers",
+   "safetensors",
+   "gemma4",
+   "image-text-to-text",
+   "conversational",
+   "endpoints_compatible"
+  ]
+ },
+ {
+  "id": "HiDream-ai/HiDream-O1-Image-Dev-2604",
+  "createdAt": "2026-05-13T15:12:13.000Z",
+  "downloads": 434,
+  "likes": 95,
+  "pipeline": "image-text-to-image",
+  "library": "transformers",
+  "gated": false,
+  "tags": [
+   "transformers",
+   "safetensors",
+   "qwen3_vl",
+   "image-text-to-text",
+   "image-text-to-image",
+   "endpoints_compatible"
+  ]
+ },
+ {
+  "id": "HiDream-ai/HiDream-O1-Image-Dev",
+  "createdAt": "2026-05-08T13:09:29.000Z",
+  "downloads": 815,
+  "likes": 126,
+  "pipeline": "image-text-to-image",
+  "library": "transformers",
+  "gated": false,
+  "tags": [
+   "transformers",
+   "safetensors",
+   "qwen3_vl",
+   "image-text-to-text",
+   "image-text-to-image",
+   "endpoints_compatible"
+  ]
+ },
+ {
+  "id": "HiDream-ai/HiDream-O1-Image",
+  "createdAt": "2026-05-08T13:06:04.000Z",
+  "downloads": 5295,
+  "likes": 551,
+  "pipeline": "image-text-to-image",
+  "library": "transformers",
+  "gated": false,
+  "tags": [
+   "transformers",
+   "safetensors",
+   "qwen3_vl",
+   "image-text-to-text",
+   "image-text-to-image",
+   "endpoints_compatible"
+  ]
+ },
+ {
+  "id": "HiDream-ai/ReCo",
+  "createdAt": "2025-12-17T07:18:54.000Z",
+  "downloads": 0,
+  "likes": 22,
+  "pipeline": "",
+  "library": "",
+  "gated": false,
+  "tags": [
+   "Video-Text-to-Video",
+   "Video-to-Video",
+   "Video",
+   "Video Edit"
+  ]
+ },
+ {
+  "id": "HiDream-ai/VAREdit",
+  "createdAt": "2025-08-14T07:27:09.000Z",
+  "downloads": 0,
+  "likes": 22,
+  "pipeline": "image-to-image",
+  "library": "",
+  "gated": false,
+  "tags": [
+   "safetensors",
+   "image-editing",
+   "HiDream.ai",
+   "image-to-image",
+   "en"
+  ]
+ },
+ {
+  "id": "HiDream-ai/HiDream-E1-1",
+  "createdAt": "2025-07-16T14:27:03.000Z",
+  "downloads": 279,
+  "likes": 217,
+  "pipeline": "any-to-any",
+  "library": "diffusers",
+  "gated": false,
+  "tags": [
+   "diffusers",
+   "safetensors",
+   "image-editing",
+   "HiDream.ai",
+   "any-to-any",
+   "en"
+  ]
+ },
+ {
+  "id": "HiDream-ai/Hi-MAR",
+  "createdAt": "2025-05-22T13:28:08.000Z",
+  "downloads": 0,
+  "likes": 8,
+  "pipeline": "",
+  "library": "",
+  "gated": false,
+  "tags": []
+ },
+ {
+  "id": "HiDream-ai/HiDream-E1-Full",
+  "createdAt": "2025-04-27T01:54:09.000Z",
+  "downloads": 298,
+  "likes": 217,
+  "pipeline": "any-to-any",
+  "library": "diffusers",
+  "gated": false,
+  "tags": [
+   "diffusers",
+   "safetensors",
+   "image-editing",
+   "HiDream.ai",
+   "any-to-any",
+   "en"
+  ]
+ },
+ {
+  "id": "HiDream-ai/HiDream-I1-Fast",
+  "createdAt": "2025-04-06T14:18:51.000Z",
+  "downloads": 53444,
+  "likes": 107,
+  "pipeline": "text-to-image",
+  "library": "diffusers",
+  "gated": false,
+  "tags": [
+   "diffusers",
+   "safetensors",
+   "image-generation",
+   "HiDream.ai",
+   "text-to-image",
+   "en"
+  ]
+ },
+ {
+  "id": "HiDream-ai/HiDream-I1-Full",
+  "createdAt": "2025-04-06T14:18:31.000Z",
+  "downloads": 874,
+  "likes": 1000,
+  "pipeline": "text-to-image",
+  "library": "diffusers",
+  "gated": false,
+  "tags": [
+   "diffusers",
+   "safetensors",
+   "image-generation",
+   "HiDream.ai",
+   "text-to-image",
+   "en"
+  ]
+ },
+ {
+  "id": "HiDream-ai/HiDream-I1-Dev",
+  "createdAt": "2025-04-06T07:46:12.000Z",
+  "downloads": 363,
+  "likes": 173,
+  "pipeline": "text-to-image",
+  "library": "diffusers",
+  "gated": false,
+  "tags": [
+   "diffusers",
+   "safetensors",
+   "image-generation",
+   "HiDream.ai",
+   "text-to-image",
+   "en"
+  ]
+ },
+ {
+  "id": "HiDream-ai/MotionPro",
+  "createdAt": "2025-03-25T09:42:39.000Z",
+  "downloads": 0,
+  "likes": 90,
+  "pipeline": "image-to-video",
+  "library": "",
+  "gated": false,
+  "tags": [
+   "image-to-video"
+  ]
+ },
+ {
+  "id": "HiDream-ai/SPM-Diff",
+  "createdAt": "2025-03-03T05:15:51.000Z",
+  "downloads": 0,
+  "likes": 8,
+  "pipeline": "",
+  "library": "diffusers",
+  "gated": false,
+  "tags": [
+   "diffusers",
+   "safetensors"
+  ]
+ }
+]

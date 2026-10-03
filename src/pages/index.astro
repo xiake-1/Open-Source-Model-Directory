@@ -1,70 +1,68 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import EntryList from '../components/EntryList.astro';
-import { allEntries, tagCounts, recent, recentlyAdded, COLLECTIONS } from '../lib/entries';
-import { SITE_DESC } from '../lib/site';
+import { allEntries, inMonth, monthKeyLabel, recentMonthKeys } from '../lib/entries';
 
+/**
+ * 首页看「近 2 个月出了什么」：按 LLM / AIGC 分开，每月一个小标题；不写站点介绍。
+ *
+ * 分区标题本身就是入口：点 **LLM** 进 /llm/models/、点 **AIGC** 进 /aigc/image/
+ * （与顶部导航"直接点 AIGC 打开生图"一致），原来标题下面那行
+ * 「2026 年 9–10 月 发布的开放权重语言模型。 看全部模型 →」已经删掉 ——
+ * 窗口宽度由下面的月份小标题自己说明。
+ */
+const WINDOW_MONTHS = 2;
 const entries = await allEntries();
-const latest = entries.slice(0, 8);
-const fresh = recent(entries, 30);
-const added = recentlyAdded(entries, 30);
-const tags = tagCounts(entries).slice(0, 16);
-const allTags = tagCounts(entries).length;
-const countOf = (name: string) => entries.filter((e) => e.collection === name).length;
+const months = recentMonthKeys(WINDOW_MONTHS);
+
+const sections = [
+  {
+    title: 'LLM',
+    link: '/llm/models/',
+    hint: '看全部 LLM 模型',
+    pool: entries.filter((e) => e.collection === 'llm'),
+  },
+  {
+    title: 'AIGC',
+    link: '/aigc/image/',
+    hint: '看全部生图模型（生视频在顶部 AIGC 菜单里）',
+    pool: entries.filter((e) => e.collection === 'aigc'),
+  },
+].map((s) => ({
+  ...s,
+  total: months.reduce((n, key) => n + inMonth(s.pool, key).length, 0),
+}));
 ---
 
 <BaseLayout title="首页">
-  <section class="hero">
-    <h1>开源模型雷达</h1>
-    <p>{SITE_DESC}</p>
-    <div class="stats">
-      <div><b>{entries.length}</b>条收录</div>
-      <div><b>{fresh.length}</b>最近 30 天发布</div>
-      <div><b>{added.length}</b>最近 30 天收录</div>
-      <div><b>{allTags}</b>个标签</div>
-    </div>
-  </section>
-
-  <section class="section">
-    <h2>分板块</h2>
-    <div class="cards">
-      {
-        COLLECTIONS.map((c) => (
-          <article class="entry">
-            <div class="entry-head">
-              <a class="entry-title" href={c.path}>
-                {c.label}
-              </a>
-              <span class="entry-time">{countOf(c.name)} 条</span>
-            </div>
-            <p class="entry-summary">{c.desc}</p>
-          </article>
-        ))
-      }
-    </div>
-  </section>
-
-  <section class="section">
-    <h2>最近发布</h2>
-    <p class="section-note">按模型的官方发布时间倒序，不分板块混排 —— 一眼看到这个月出了什么。</p>
-    <EntryList entries={latest} showCollection />
-    <p class="section-note" style="margin-top:14px">
-      <a href="/recent/">查看最近 30 天的全部新条目 →</a>
-    </p>
-  </section>
-
   {
-    tags.length > 0 && (
-      <section class="section">
-        <h2>热门标签</h2>
-        <div class="tags">
-          {tags.map((t) => (
-            <a class="tag" href={`/tags/${encodeURIComponent(t.tag)}/`}>
-              #{t.tag} · {t.count}
-            </a>
-          ))}
-        </div>
+    sections.map((section) => (
+      <section class="section home-section">
+        <h2 class="home-title">
+          <a href={section.link} title={section.hint}>
+            {section.title}
+            <span class="fact">{section.total}</span>
+            <span class="home-arrow" aria-hidden="true">
+              →
+            </span>
+          </a>
+        </h2>
+        {months.map((key) => {
+          const items = inMonth(section.pool, key);
+          return (
+            <section class="section month" data-month={key}>
+              <h3 class="month-sub">
+                {monthKeyLabel(key)} <span class="fact">{items.length}</span>
+              </h3>
+              <EntryList
+                entries={items}
+                variant="model"
+                empty={`${monthKeyLabel(key)}还没有新的${section.title === 'LLM' ? ' LLM' : ' AIGC 模型'}。`}
+              />
+            </section>
+          );
+        })}
       </section>
-    )
+    ))
   }
 </BaseLayout>

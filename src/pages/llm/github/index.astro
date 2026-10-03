@@ -1,0 +1,12 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import TagFilter from '../../../components/TagFilter.astro';
+import { entriesOf } from '../../../lib/entries';
+
+const basePath = '/llm/github/';
+const entries = await entriesOf('projects');
+---
+
+<BaseLayout title="社区项目" description="社区围绕开源模型做的各种方案（按发布时间倒序，左侧可按时间筛选）">
+  <TagFilter entries={entries} basePath={basePath} variant="project" showMonths empty="没有符合条件的项目。" />
+</BaseLayout>

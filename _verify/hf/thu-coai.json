@@ -1,0 +1,113 @@
+[
+ {
+  "id": "thu-coai/SeTox-Qwen2.5-7B",
+  "createdAt": "2026-07-01T17:36:13.000Z",
+  "downloads": 18,
+  "likes": 1,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "thu-coai/SeTox-Qwen2.5-3B",
+  "createdAt": "2026-07-01T16:52:20.000Z",
+  "downloads": 30,
+  "likes": 1,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "thu-coai/CogFlow-8B",
+  "createdAt": "2026-04-21T08:23:11.000Z",
+  "downloads": 0,
+  "likes": 0,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "thu-coai/IF-CRITIC-Checklist-Generator-14B",
+  "createdAt": "2026-02-02T16:09:08.000Z",
+  "downloads": 17,
+  "likes": 0,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "thu-coai/IF-CRITIC-14B",
+  "createdAt": "2026-02-02T15:20:31.000Z",
+  "downloads": 29,
+  "likes": 2,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "thu-coai/ShieldVLM-7B-qwen",
+  "createdAt": "2025-07-19T07:03:33.000Z",
+  "downloads": 27,
+  "likes": 1,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "thu-coai/Crispers-14B-v1",
+  "createdAt": "2025-04-24T17:34:43.000Z",
+  "downloads": 28,
+  "likes": 2,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "thu-coai/Crispers-7B-v1",
+  "createdAt": "2025-04-24T17:34:08.000Z",
+  "downloads": 49,
+  "likes": 3,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "thu-coai/Attacker-v0.1",
+  "createdAt": "2025-04-13T08:35:04.000Z",
+  "downloads": 0,
+  "likes": 3,
+  "pipeline": "",
+  "tags": [],
+  "gated": "manual"
+ },
+ {
+  "id": "thu-coai/CharacterJudge",
+  "createdAt": "2025-03-22T14:33:05.000Z",
+  "downloads": 33,
+  "likes": 4,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "thu-coai/ShieldAgent",
+  "createdAt": "2025-02-20T04:49:19.000Z",
+  "downloads": 282,
+  "likes": 5,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ }
+]

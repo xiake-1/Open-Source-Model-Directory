@@ -1,0 +1,510 @@
+[
+ {
+  "id": "meituan-longcat/LongCat-Flash-Lite-Sparse",
+  "createdAt": "2026-07-31T09:53:45.000Z",
+  "downloads": 877,
+  "likes": 90,
+  "pipeline": "text-generation",
+  "library": "LongCat-Flash-Lite-Sparse",
+  "gated": false,
+  "tags": [
+   "LongCat-Flash-Lite-Sparse",
+   "safetensors",
+   "transformers",
+   "text-generation",
+   "conversational"
+  ]
+ },
+ {
+  "id": "meituan-longcat/LongCat-2.0",
+  "createdAt": "2026-07-05T00:07:44.000Z",
+  "downloads": 1954,
+  "likes": 279,
+  "pipeline": "text-generation",
+  "library": "LongCat-2.0",
+  "gated": false,
+  "tags": [
+   "LongCat-2.0",
+   "safetensors",
+   "transformers",
+   "text-generation",
+   "conversational",
+   "eval-results"
+  ]
+ },
+ {
+  "id": "meituan-longcat/LongCat-2.0-INT8",
+  "createdAt": "2026-07-03T08:56:16.000Z",
+  "downloads": 429,
+  "likes": 21,
+  "pipeline": "text-generation",
+  "library": "LongCat-2.0",
+  "gated": false,
+  "tags": [
+   "LongCat-2.0",
+   "safetensors",
+   "transformers",
+   "text-generation",
+   "conversational",
+   "8-bit"
+  ]
+ },
+ {
+  "id": "meituan-longcat/LongCat-2.0-FP8",
+  "createdAt": "2026-07-03T08:47:31.000Z",
+  "downloads": 584,
+  "likes": 32,
+  "pipeline": "text-generation",
+  "library": "LongCat-2.0",
+  "gated": false,
+  "tags": [
+   "LongCat-2.0",
+   "safetensors",
+   "transformers",
+   "text-generation",
+   "conversational",
+   "fp8"
+  ]
+ },
+ {
+  "id": "meituan-longcat/WBench-weights",
+  "createdAt": "2026-05-22T08:12:09.000Z",
+  "downloads": 0,
+  "likes": 11,
+  "pipeline": "other",
+  "library": "",
+  "gated": false,
+  "tags": [
+   "safetensors",
+   "video-evaluation",
+   "world-model",
+   "benchmark",
+   "other"
+  ]
+ },
+ {
+  "id": "meituan-longcat/LongCat-Video-Avatar-1.5",
+  "createdAt": "2026-05-21T09:05:55.000Z",
+  "downloads": 2283,
+  "likes": 840,
+  "pipeline": "",
+  "library": "longcat-video-avatar-1.5",
+  "gated": false,
+  "tags": [
+   "longcat-video-avatar-1.5",
+   "onnx",
+   "diffusers",
+   "safetensors",
+   "audio-text-to-video",
+   "audio-image-text-to-video",
+   "audio-driven-video-continuation",
+   "transformers",
+   "avatar",
+   "video-generation",
+   "en",
+   "zh"
+  ]
+ },
+ {
+  "id": "meituan-longcat/LongCat-AudioDiT-3.5B",
+  "createdAt": "2026-03-30T06:03:21.000Z",
+  "downloads": 1720,
+  "likes": 78,
+  "pipeline": "",
+  "library": "",
+  "gated": false,
+  "tags": [
+   "safetensors",
+   "audiodit",
+   "zh",
+   "en"
+  ]
+ },
+ {
+  "id": "meituan-longcat/LongCat-AudioDiT-1B",
+  "createdAt": "2026-03-30T03:25:12.000Z",
+  "downloads": 1853,
+  "likes": 46,
+  "pipeline": "",
+  "library": "",
+  "gated": false,
+  "tags": [
+   "safetensors",
+   "audiodit",
+   "zh",
+   "en"
+  ]
+ },
+ {
+  "id": "meituan-longcat/LongCat-Next",
+  "createdAt": "2026-03-25T13:18:39.000Z",
+  "downloads": 360,
+  "likes": 213,
+  "pipeline": "any-to-any",
+  "library": "LongCat-Next",
+  "gated": false,
+  "tags": [
+   "LongCat-Next",
+   "safetensors",
+   "longcat_next",
+   "text-generation",
+   "transformers",
+   "multimodal",
+   "any-to-any",
+   "custom_code"
+  ]
+ },
+ {
+  "id": "meituan-longcat/LongCat-Flash-Prover",
+  "createdAt": "2026-03-20T04:04:15.000Z",
+  "downloads": 217,
+  "likes": 35,
+  "pipeline": "text-generation",
+  "library": "transformers",
+  "gated": false,
+  "tags": [
+   "transformers",
+   "safetensors",
+   "text-generation",
+   "conversational",
+   "custom_code",
+   "endpoints_compatible"
+  ]
+ },
+ {
+  "id": "meituan-longcat/LongCat-Flash-Lite-FP8",
+  "createdAt": "2026-02-06T07:32:27.000Z",
+  "downloads": 6297,
+  "likes": 9,
+  "pipeline": "text-generation",
+  "library": "LongCat-Flash-Lite",
+  "gated": false,
+  "tags": [
+   "LongCat-Flash-Lite",
+   "safetensors",
+   "text-generation",
+   "transformers",
+   "conversational",
+   "custom_code",
+   "fp8"
+  ]
+ },
+ {
+  "id": "meituan-longcat/LongCat-Image-Edit-Turbo",
+  "createdAt": "2026-02-03T09:46:53.000Z",
+  "downloads": 23292,
+  "likes": 72,
+  "pipeline": "image-to-image",
+  "library": "transformers",
+  "gated": false,
+  "tags": [
+   "transformers",
+   "diffusers",
+   "safetensors",
+   "image-to-image",
+   "en",
+   "zh",
+   "endpoints_compatible"
+  ]
+ },
+ {
+  "id": "meituan-longcat/LongCat-Flash-Lite",
+  "createdAt": "2026-01-27T08:03:21.000Z",
+  "downloads": 5660,
+  "likes": 208,
+  "pipeline": "text-generation",
+  "library": "LongCat-Flash-Lite",
+  "gated": false,
+  "tags": [
+   "LongCat-Flash-Lite",
+   "safetensors",
+   "text-generation",
+   "transformers",
+   "conversational",
+   "custom_code",
+   "eval-results"
+  ]
+ },
+ {
+  "id": "meituan-longcat/LongCat-Flash-Thinking-ZigZag",
+  "createdAt": "2026-01-23T02:50:13.000Z",
+  "downloads": 222,
+  "likes": 32,
+  "pipeline": "text-generation",
+  "library": "LongCat-Flash-Thinking-ZigZag",
+  "gated": false,
+  "tags": [
+   "LongCat-Flash-Thinking-ZigZag",
+   "safetensors",
+   "transformers",
+   "text-generation",
+   "conversational",
+   "custom_code"
+  ]
+ },
+ {
+  "id": "meituan-longcat/LongCat-Flash-Thinking-2601-FP8",
+  "createdAt": "2026-01-14T13:47:45.000Z",
+  "downloads": 142,
+  "likes": 13,
+  "pipeline": "text-generation",
+  "library": "LongCat-Flash-Thinking-2601",
+  "gated": false,
+  "tags": [
+   "LongCat-Flash-Thinking-2601",
+   "safetensors",
+   "transformers",
+   "text-generation",
+   "conversational",
+   "custom_code",
+   "fp8"
+  ]
+ },
+ {
+  "id": "meituan-longcat/LongCat-HeavyMode-Summary",
+  "createdAt": "2026-01-14T10:44:57.000Z",
+  "downloads": 178,
+  "likes": 13,
+  "pipeline": "text-generation",
+  "library": "LongCat-HeavyMode-Summary",
+  "gated": false,
+  "tags": [
+   "LongCat-HeavyMode-Summary",
+   "safetensors",
+   "transformers",
+   "text-generation",
+   "conversational",
+   "custom_code"
+  ]
+ },
+ {
+  "id": "meituan-longcat/LongCat-Flash-Thinking-2601",
+  "createdAt": "2026-01-14T07:04:05.000Z",
+  "downloads": 2577,
+  "likes": 118,
+  "pipeline": "text-generation",
+  "library": "LongCat-Flash-Thinking-2601",
+  "gated": false,
+  "tags": [
+   "LongCat-Flash-Thinking-2601",
+   "safetensors",
+   "transformers",
+   "text-generation",
+   "conversational",
+   "custom_code",
+   "eval-results"
+  ]
+ },
+ {
+  "id": "meituan-longcat/LongCat-Video-Avatar",
+  "createdAt": "2025-12-13T09:03:08.000Z",
+  "downloads": 115,
+  "likes": 266,
+  "pipeline": "",
+  "library": "diffusers",
+  "gated": false,
+  "tags": [
+   "diffusers",
+   "onnx",
+   "safetensors",
+   "audio-text-to-video",
+   "audio-image-text-to-video",
+   "audio-driven-video-continuation",
+   "transformers",
+   "avatar",
+   "video-generation",
+   "en",
+   "zh"
+  ]
+ },
+ {
+  "id": "meituan-longcat/LongCat-Image-Edit",
+  "createdAt": "2025-12-05T07:34:53.000Z",
+  "downloads": 20097,
+  "likes": 187,
+  "pipeline": "image-to-image",
+  "library": "transformers",
+  "gated": false,
+  "tags": [
+   "transformers",
+   "diffusers",
+   "safetensors",
+   "image-to-image",
+   "en",
+   "zh",
+   "endpoints_compatible"
+  ]
+ },
+ {
+  "id": "meituan-longcat/LongCat-Image-Dev",
+  "createdAt": "2025-12-04T13:02:03.000Z",
+  "downloads": 1752,
+  "likes": 50,
+  "pipeline": "text-to-image",
+  "library": "transformers",
+  "gated": false,
+  "tags": [
+   "transformers",
+   "diffusers",
+   "safetensors",
+   "text-to-image",
+   "en",
+   "zh",
+   "endpoints_compatible"
+  ]
+ },
+ {
+  "id": "meituan-longcat/LongCat-Image",
+  "createdAt": "2025-12-04T12:38:12.000Z",
+  "downloads": 13586,
+  "likes": 249,
+  "pipeline": "text-to-image",
+  "library": "transformers",
+  "gated": false,
+  "tags": [
+   "transformers",
+   "diffusers",
+   "safetensors",
+   "text-to-image",
+   "en",
+   "zh",
+   "endpoints_compatible"
+  ]
+ },
+ {
+  "id": "meituan-longcat/LongCat-Video",
+  "createdAt": "2025-10-24T16:04:08.000Z",
+  "downloads": 1804,
+  "likes": 570,
+  "pipeline": "text-to-video",
+  "library": "diffusers",
+  "gated": false,
+  "tags": [
+   "diffusers",
+   "safetensors",
+   "transformers",
+   "image-to-video",
+   "video-continuation",
+   "text-to-video",
+   "en",
+   "zh",
+   "eval-results"
+  ]
+ },
+ {
+  "id": "meituan-longcat/LongCat-Flash-Omni-FP8",
+  "createdAt": "2025-10-24T00:48:24.000Z",
+  "downloads": 130,
+  "likes": 16,
+  "pipeline": "text-generation",
+  "library": "LongCat-Flash-Omni",
+  "gated": false,
+  "tags": [
+   "LongCat-Flash-Omni",
+   "safetensors",
+   "text-generation",
+   "transformers",
+   "conversational",
+   "custom_code",
+   "fp8"
+  ]
+ },
+ {
+  "id": "meituan-longcat/LongCat-Flash-Omni",
+  "createdAt": "2025-10-23T09:42:24.000Z",
+  "downloads": 288,
+  "likes": 116,
+  "pipeline": "any-to-any",
+  "library": "transformers",
+  "gated": false,
+  "tags": [
+   "transformers",
+   "safetensors",
+   "text-generation",
+   "any-to-any",
+   "custom_code",
+   "endpoints_compatible"
+  ]
+ },
+ {
+  "id": "meituan-longcat/LongCat-Audio-Codec",
+  "createdAt": "2025-10-17T03:09:13.000Z",
+  "downloads": 0,
+  "likes": 43,
+  "pipeline": "",
+  "library": "",
+  "gated": false,
+  "tags": []
+ },
+ {
+  "id": "meituan-longcat/LongCat-Flash-Thinking-FP8",
+  "createdAt": "2025-09-21T08:54:31.000Z",
+  "downloads": 81,
+  "likes": 8,
+  "pipeline": "text-generation",
+  "library": "LongCat-Flash-Chat",
+  "gated": false,
+  "tags": [
+   "LongCat-Flash-Chat",
+   "safetensors",
+   "text-generation",
+   "transformers",
+   "conversational",
+   "custom_code",
+   "fp8"
+  ]
+ },
+ {
+  "id": "meituan-longcat/LongCat-Flash-Thinking",
+  "createdAt": "2025-09-21T07:46:09.000Z",
+  "downloads": 290,
+  "likes": 148,
+  "pipeline": "text-generation",
+  "library": "LongCat-Flash-Chat",
+  "gated": false,
+  "tags": [
+   "LongCat-Flash-Chat",
+   "safetensors",
+   "text-generation",
+   "transformers",
+   "conversational",
+   "custom_code"
+  ]
+ },
+ {
+  "id": "meituan-longcat/LongCat-Flash-Chat-FP8",
+  "createdAt": "2025-08-29T09:16:40.000Z",
+  "downloads": 170,
+  "likes": 25,
+  "pipeline": "text-generation",
+  "library": "LongCat-Flash-Chat",
+  "gated": false,
+  "tags": [
+   "LongCat-Flash-Chat",
+   "safetensors",
+   "text-generation",
+   "transformers",
+   "conversational",
+   "custom_code",
+   "fp8"
+  ]
+ },
+ {
+  "id": "meituan-longcat/LongCat-Flash-Chat",
+  "createdAt": "2025-08-29T07:39:50.000Z",
+  "downloads": 23269,
+  "likes": 537,
+  "pipeline": "text-generation",
+  "library": "LongCat-Flash-Chat",
+  "gated": false,
+  "tags": [
+   "LongCat-Flash-Chat",
+   "safetensors",
+   "text-generation",
+   "transformers",
+   "conversational",
+   "custom_code",
+   "eval-results"
+  ]
+ }
+]

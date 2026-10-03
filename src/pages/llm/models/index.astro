@@ -1,0 +1,29 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import TagFilter from '../../../components/TagFilter.astro';
+import { entriesOf, tagCounts, facetCounts } from '../../../lib/entries';
+import { LLM_TAG_GROUPS, facetGroups, popularityGroup, visibleGroups } from '../../../lib/taxonomy';
+
+const basePath = '/llm/models/';
+const entries = await entriesOf('llm');
+// 标签是 schema 里的固定枚举，所属 / 上下文 / 参数量 / 商用 / 热度 是从内容字段派生的，两组一起进侧栏。
+// 「热度」排在结构 / 类型**上面**：先看值不值得点开，再看是什么结构
+const counts = Object.fromEntries(
+  tagCounts(entries).concat(facetCounts(entries)).map((t) => [t.tag, t.count])
+);
+const groups = visibleGroups(
+  [popularityGroup(entries), ...LLM_TAG_GROUPS, ...facetGroups(entries)],
+  new Set(Object.keys(counts))
+);
+---
+
+<BaseLayout title="开源模型" description="开源 LLM 搜索引擎（按发布时间倒序，左侧可按时间与标签筛选）">
+  <TagFilter
+    entries={entries}
+    groups={groups}
+    counts={counts}
+    basePath={basePath}
+    showMonths
+    empty="没有符合条件的模型。"
+  />
+</BaseLayout>

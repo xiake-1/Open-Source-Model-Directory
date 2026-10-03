@@ -1,0 +1,31 @@
+# DOM 验证脚本
+
+用 [jsdom](https://github.com/jsdom/jsdom) 把 `dist/` 里的**构建产物真的跑起来**，模拟勾选与点击，
+验证那些构建期查不出来的行为（`pnpm build` 只能保证字段与 schema 正确，管不了页内脚本）。
+
+| 文件 | 覆盖什么 |
+| --- | --- |
+| `filter-test.mjs` | 左侧三张卡片（时间 / 所属 / 筛选）的顺序与形态；「筛选」里的分组顺序（热度在最上面）与热度口径小字；所属多选、时间多选、标签单选（含热度分档），以及三者的"与"关系；hash 格式 `#months=…&family=…&tag=…`；时间线分组折叠；点外面与 Esc 收起下拉；深链接进入；旧的 `#tag=家族` 链接仍能过滤 |
+| `search-test.mjs` | 顶部搜索的结果链接是否带 `target="_blank" rel="noopener"`；命中条数、空结果提示、清空输入后收起 |
+| `smoke-test.mjs` | 没有筛选的页面（`/llm/github/`、`/llm/deploy/`）与内容为空的页面（`/aigc/*/`）不报错，卡片数符合预期；首页的"近 2 个月"月份小节、分区标题是链接且标题下面没有说明段落、以及正文里不再出现「新的在前」 |
+| `relative-time-demo.mjs` | 演示卡片右侧的「x 天前」是构建期只输出日期、浏览器里再算出来的（构建产物里没有"天前"字样） |
+
+## 怎么跑
+
+```bash
+pnpm build            # 先生成 dist/，脚本读的是构建产物
+cd _verify/dom
+npm install           # 只装 jsdom；node_modules 已被根目录 .gitignore 覆盖
+node run-all.mjs
+```
+
+三个套件都会打印逐条 `ok` / `FAIL`，末尾汇总，有任何失败则退出码非 0。
+
+## 两个坑记在这里
+
+1. **jsdom 不执行 `type="module"` 脚本**，而 Astro 会把组件的 `<script>` 打包成外部 module chunk。
+   所以脚本里先正常解析页面，再把那个 chunk 的内容当普通脚本注入（该 chunk 没有 `import`/`export`，
+   可以直接跑）。副作用是：**换 Astro 大版本后如果 chunk 名或产物结构变了**，
+   `filter-test.mjs` / `smoke-test.mjs` 里"按 `TagFilter` 前缀找 chunk"的那行要跟着改。
+2. **jsdom 没有 `matchMedia`**，而主题切换脚本会用到，所以要 `beforeParse` 补一个空实现，
+   否则页面脚本会在初始化时抛错。

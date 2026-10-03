@@ -1,0 +1,346 @@
+[
+ {
+  "id": "HuggingFaceTB/nanowhale-100m-base",
+  "createdAt": "2026-04-24T13:33:34.000Z",
+  "downloads": 918,
+  "likes": 24,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "HuggingFaceTB/nanowhale-100m",
+  "createdAt": "2026-04-24T11:54:36.000Z",
+  "downloads": 647,
+  "likes": 68,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "HuggingFaceTB/SmolLM3-3B-GSM8K-SFT",
+  "createdAt": "2026-04-03T01:31:15.000Z",
+  "downloads": 358,
+  "likes": 2,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "HuggingFaceTB/qwen3-1.7b-gsm8k-sft",
+  "createdAt": "2026-03-25T00:40:49.000Z",
+  "downloads": 4411,
+  "likes": 4,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "HuggingFaceTB/SmolLM3-3B-checkpoints",
+  "createdAt": "2025-07-20T22:34:45.000Z",
+  "downloads": 5176,
+  "likes": 25,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "HuggingFaceTB/SmolLM3-3B-ONNX",
+  "createdAt": "2025-07-08T15:12:29.000Z",
+  "downloads": 421,
+  "likes": 27,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "HuggingFaceTB/SmolLM3-3B",
+  "createdAt": "2025-07-08T10:11:45.000Z",
+  "downloads": 616933,
+  "likes": 1040,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "HuggingFaceTB/SmolLM3-3B-Base",
+  "createdAt": "2025-06-19T11:33:11.000Z",
+  "downloads": 154551,
+  "likes": 174,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "HuggingFaceTB/SmolVLM2-2.2B-Base",
+  "createdAt": "2025-04-14T12:19:55.000Z",
+  "downloads": 1526,
+  "likes": 11,
+  "pipeline": "image-text-to-text",
+  "tags": [
+   "image-text-to-text",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "HuggingFaceTB/SmolLM2-135M-intermediate-checkpoints",
+  "createdAt": "2025-02-26T18:15:17.000Z",
+  "downloads": 338,
+  "likes": 2,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "HuggingFaceTB/SmolLM2-360M-intermediate-checkpoints",
+  "createdAt": "2025-02-26T17:31:38.000Z",
+  "downloads": 1295,
+  "likes": 1,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "HuggingFaceTB/SmolLM2-1.7B-intermediate-checkpoints",
+  "createdAt": "2025-02-26T12:08:37.000Z",
+  "downloads": 2040,
+  "likes": 4,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "HuggingFaceTB/SmolLM2-1.7B-Instruct-16k",
+  "createdAt": "2025-02-21T12:36:45.000Z",
+  "downloads": 510,
+  "likes": 10,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "HuggingFaceTB/smolvlm-app-config",
+  "createdAt": "2025-02-18T16:13:58.000Z",
+  "downloads": 550,
+  "likes": 0,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "HuggingFaceTB/SmolVLM2-500M-Video-Instruct",
+  "createdAt": "2025-02-11T07:06:38.000Z",
+  "downloads": 1234943,
+  "likes": 180,
+  "pipeline": "image-text-to-text",
+  "tags": [
+   "image-text-to-text",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "HuggingFaceTB/SmolVLM2-256M-Video-Instruct",
+  "createdAt": "2025-02-11T07:06:01.000Z",
+  "downloads": 42958,
+  "likes": 115,
+  "pipeline": "image-text-to-text",
+  "tags": [
+   "image-text-to-text",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "HuggingFaceTB/SmolVLM2-2.2B-Instruct",
+  "createdAt": "2025-02-08T19:18:45.000Z",
+  "downloads": 151368,
+  "likes": 335,
+  "pipeline": "image-text-to-text",
+  "tags": [
+   "image-text-to-text",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "HuggingFaceTB/SmolVLM-500M-Instruct",
+  "createdAt": "2025-01-20T14:24:51.000Z",
+  "downloads": 150913,
+  "likes": 198,
+  "pipeline": "image-text-to-text",
+  "tags": [
+   "image-text-to-text",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "HuggingFaceTB/SmolVLM-256M-Instruct",
+  "createdAt": "2025-01-17T15:40:24.000Z",
+  "downloads": 444889,
+  "likes": 417,
+  "pipeline": "image-text-to-text",
+  "tags": [
+   "image-text-to-text",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "HuggingFaceTB/SmolVLM-500M-Base",
+  "createdAt": "2025-01-13T13:48:57.000Z",
+  "downloads": 384,
+  "likes": 12,
+  "pipeline": "image-text-to-text",
+  "tags": [
+   "image-text-to-text",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "HuggingFaceTB/SmolVLM-256M-Base",
+  "createdAt": "2025-01-10T16:53:18.000Z",
+  "downloads": 514,
+  "likes": 24,
+  "pipeline": "image-text-to-text",
+  "tags": [
+   "image-text-to-text",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "HuggingFaceTB/FineMath-Llama-3B",
+  "createdAt": "2025-01-06T14:14:11.000Z",
+  "downloads": 101,
+  "likes": 23,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "HuggingFaceTB/finemath-ablation-3plus-160B",
+  "createdAt": "2024-12-19T08:03:26.000Z",
+  "downloads": 38,
+  "likes": 0,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "HuggingFaceTB/finemath-ablation-4plus-160B",
+  "createdAt": "2024-12-19T07:51:25.000Z",
+  "downloads": 43,
+  "likes": 0,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "HuggingFaceTB/finemath-ablation-fwedu",
+  "createdAt": "2024-12-19T07:28:19.000Z",
+  "downloads": 40,
+  "likes": 0,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "HuggingFaceTB/finemath-ablation-finemath-4plus",
+  "createdAt": "2024-12-19T07:02:53.000Z",
+  "downloads": 46,
+  "likes": 1,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "HuggingFaceTB/finemath-ablation-owm",
+  "createdAt": "2024-12-18T17:30:58.000Z",
+  "downloads": 38,
+  "likes": 0,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "HuggingFaceTB/finemath-ablation-infiwebmath-4plus",
+  "createdAt": "2024-12-18T17:30:54.000Z",
+  "downloads": 39,
+  "likes": 2,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "HuggingFaceTB/finemath-ablation-finemath-3plus",
+  "createdAt": "2024-12-18T17:27:30.000Z",
+  "downloads": 42,
+  "likes": 0,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "HuggingFaceTB/finemath-ablation-infiwebmath",
+  "createdAt": "2024-12-18T17:27:26.000Z",
+  "downloads": 47,
+  "likes": 0,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "HuggingFaceTB/finemath-ablation-infiwebmath-3plus",
+  "createdAt": "2024-12-18T17:10:09.000Z",
+  "downloads": 39,
+  "likes": 0,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "HuggingFaceTB/finemath-ablation-finemath-infimath-3plus",
+  "createdAt": "2024-12-14T23:23:36.000Z",
+  "downloads": 44,
+  "likes": 0,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "HuggingFaceTB/finemath-ablation-finemath-infimath-4plus",
+  "createdAt": "2024-12-13T23:10:42.000Z",
+  "downloads": 44,
+  "likes": 2,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ }
+]

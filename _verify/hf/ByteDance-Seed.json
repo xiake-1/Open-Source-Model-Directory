@@ -1,0 +1,619 @@
+[
+ {
+  "id": "ByteDance-Seed/PAR",
+  "createdAt": "2026-07-03T00:07:55.000Z",
+  "downloads": 0,
+  "likes": 7,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "ByteDance-Seed/TaskMem",
+  "createdAt": "2026-06-02T03:10:24.000Z",
+  "downloads": 116,
+  "likes": 4,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "ByteDance-Seed/SimArt",
+  "createdAt": "2026-05-19T08:55:39.000Z",
+  "downloads": 0,
+  "likes": 4,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "ByteDance-Seed/Cola-DLM",
+  "createdAt": "2026-05-15T07:55:26.000Z",
+  "downloads": 108,
+  "likes": 46,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "ByteDance-Seed/Stable-DiffCoder-8B-Instruct",
+  "createdAt": "2026-01-15T07:49:01.000Z",
+  "downloads": 539,
+  "likes": 143,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "ByteDance-Seed/Stable-DiffCoder-8B-Base",
+  "createdAt": "2026-01-15T07:48:10.000Z",
+  "downloads": 344,
+  "likes": 21,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "ByteDance-Seed/VINCIE-7B",
+  "createdAt": "2026-01-06T05:59:42.000Z",
+  "downloads": 0,
+  "likes": 12,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "ByteDance-Seed/cryofm-v2",
+  "createdAt": "2025-12-24T03:19:32.000Z",
+  "downloads": 21,
+  "likes": 6,
+  "pipeline": "other",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "ByteDance-Seed/cryofm-v1",
+  "createdAt": "2025-12-23T15:41:52.000Z",
+  "downloads": 26,
+  "likes": 6,
+  "pipeline": "other",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "ByteDance-Seed/Adversarial-Flow-Models",
+  "createdAt": "2025-12-02T06:03:23.000Z",
+  "downloads": 0,
+  "likes": 15,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "ByteDance-Seed/ConfRover-interp-20M-v1.0",
+  "createdAt": "2025-12-01T12:23:15.000Z",
+  "downloads": 0,
+  "likes": 6,
+  "pipeline": "other",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "ByteDance-Seed/ConfRover-base-20M-v1.0",
+  "createdAt": "2025-12-01T11:41:17.000Z",
+  "downloads": 0,
+  "likes": 4,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "ByteDance-Seed/AHN-Mamba2-for-Qwen-2.5-Instruct-14B",
+  "createdAt": "2025-10-08T07:23:59.000Z",
+  "downloads": 186,
+  "likes": 16,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "ByteDance-Seed/AHN-Mamba2-for-Qwen-2.5-Instruct-7B",
+  "createdAt": "2025-10-08T07:23:28.000Z",
+  "downloads": 159,
+  "likes": 6,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "ByteDance-Seed/AHN-Mamba2-for-Qwen-2.5-Instruct-3B",
+  "createdAt": "2025-10-08T07:22:45.000Z",
+  "downloads": 194,
+  "likes": 9,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "ByteDance-Seed/AHN-GDN-for-Qwen-2.5-Instruct-14B",
+  "createdAt": "2025-10-08T07:21:07.000Z",
+  "downloads": 133,
+  "likes": 6,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "ByteDance-Seed/AHN-GDN-for-Qwen-2.5-Instruct-7B",
+  "createdAt": "2025-10-08T07:20:53.000Z",
+  "downloads": 122,
+  "likes": 1,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "ByteDance-Seed/AHN-GDN-for-Qwen-2.5-Instruct-3B",
+  "createdAt": "2025-10-08T07:20:34.000Z",
+  "downloads": 200,
+  "likes": 1,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "ByteDance-Seed/AHN-DN-for-Qwen-2.5-Instruct-14B",
+  "createdAt": "2025-10-08T07:20:11.000Z",
+  "downloads": 131,
+  "likes": 3,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "ByteDance-Seed/AHN-DN-for-Qwen-2.5-Instruct-7B",
+  "createdAt": "2025-10-08T07:19:54.000Z",
+  "downloads": 109,
+  "likes": 1,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "ByteDance-Seed/AHN-DN-for-Qwen-2.5-Instruct-3B",
+  "createdAt": "2025-10-08T07:18:51.000Z",
+  "downloads": 120,
+  "likes": 1,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "ByteDance-Seed/BFS-Prover-V2-7B",
+  "createdAt": "2025-10-06T05:22:52.000Z",
+  "downloads": 378,
+  "likes": 7,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "ByteDance-Seed/BFS-Prover-V2-32B",
+  "createdAt": "2025-09-30T00:05:39.000Z",
+  "downloads": 153,
+  "likes": 13,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "ByteDance-Seed/byteff2",
+  "createdAt": "2025-08-26T02:29:56.000Z",
+  "downloads": 0,
+  "likes": 6,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "ByteDance-Seed/bamboo_mixer",
+  "createdAt": "2025-08-26T00:44:02.000Z",
+  "downloads": 0,
+  "likes": 11,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "ByteDance-Seed/Seed-OSS-36B-Instruct",
+  "createdAt": "2025-08-20T15:03:26.000Z",
+  "downloads": 53558,
+  "likes": 505,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "ByteDance-Seed/Seed-OSS-36B-Base-woSyn",
+  "createdAt": "2025-08-20T14:49:52.000Z",
+  "downloads": 636,
+  "likes": 54,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "ByteDance-Seed/Seed-OSS-36B-Base",
+  "createdAt": "2025-08-20T13:57:44.000Z",
+  "downloads": 47107,
+  "likes": 68,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "ByteDance-Seed/M3-Agent-Memorization",
+  "createdAt": "2025-08-12T11:06:59.000Z",
+  "downloads": 211,
+  "likes": 16,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "ByteDance-Seed/M3-Agent-Control",
+  "createdAt": "2025-08-12T11:05:07.000Z",
+  "downloads": 126,
+  "likes": 50,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "ByteDance-Seed/cudaLLM-8B",
+  "createdAt": "2025-08-03T00:40:02.000Z",
+  "downloads": 226,
+  "likes": 29,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "ByteDance-Seed/Seed-X-PPO-7B-AWQ-Int4",
+  "createdAt": "2025-07-28T09:37:01.000Z",
+  "downloads": 113,
+  "likes": 12,
+  "pipeline": "translation",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "ByteDance-Seed/Seed-X-PPO-7B-GPTQ-Int8",
+  "createdAt": "2025-07-28T09:35:31.000Z",
+  "downloads": 160,
+  "likes": 11,
+  "pipeline": "translation",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "ByteDance-Seed/Seed-X-RM-7B",
+  "createdAt": "2025-07-16T13:47:13.000Z",
+  "downloads": 96,
+  "likes": 32,
+  "pipeline": "translation",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "ByteDance-Seed/Seed-X-Instruct-7B",
+  "createdAt": "2025-07-16T13:46:09.000Z",
+  "downloads": 1219,
+  "likes": 129,
+  "pipeline": "translation",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "ByteDance-Seed/Seed-X-PPO-7B",
+  "createdAt": "2025-07-16T12:34:59.000Z",
+  "downloads": 1828,
+  "likes": 303,
+  "pipeline": "translation",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "ByteDance-Seed/VINCIE-3B",
+  "createdAt": "2025-07-02T06:09:02.000Z",
+  "downloads": 71,
+  "likes": 42,
+  "pipeline": "image-to-image",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "ByteDance-Seed/Tar-TA-Tok",
+  "createdAt": "2025-07-02T05:51:16.000Z",
+  "downloads": 0,
+  "likes": 7,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "ByteDance-Seed/Tar-1.5B",
+  "createdAt": "2025-07-02T05:47:40.000Z",
+  "downloads": 89,
+  "likes": 23,
+  "pipeline": "any-to-any",
+  "tags": [
+   "any-to-any"
+  ],
+  "gated": false
+ },
+ {
+  "id": "ByteDance-Seed/Tar-7B",
+  "createdAt": "2025-07-02T05:45:55.000Z",
+  "downloads": 107,
+  "likes": 41,
+  "pipeline": "any-to-any",
+  "tags": [
+   "any-to-any"
+  ],
+  "gated": false
+ },
+ {
+  "id": "ByteDance-Seed/SeedVR-3B",
+  "createdAt": "2025-06-11T12:44:21.000Z",
+  "downloads": 2650,
+  "likes": 7,
+  "pipeline": "video-to-video",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "ByteDance-Seed/SeedVR-7B",
+  "createdAt": "2025-06-11T12:38:53.000Z",
+  "downloads": 132,
+  "likes": 13,
+  "pipeline": "video-to-video",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "ByteDance-Seed/SeedVR2-7B",
+  "createdAt": "2025-06-11T12:37:31.000Z",
+  "downloads": 13475,
+  "likes": 155,
+  "pipeline": "video-to-video",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "ByteDance-Seed/SeedVR2-3B",
+  "createdAt": "2025-06-10T15:59:52.000Z",
+  "downloads": 16983,
+  "likes": 140,
+  "pipeline": "video-to-video",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "ByteDance-Seed/BM-Model",
+  "createdAt": "2025-05-27T06:38:40.000Z",
+  "downloads": 0,
+  "likes": 5,
+  "pipeline": "image-to-image",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "ByteDance-Seed/BAGEL-7B-MoT",
+  "createdAt": "2025-05-19T23:27:50.000Z",
+  "downloads": 947,
+  "likes": 1223,
+  "pipeline": "any-to-any",
+  "tags": [
+   "any-to-any"
+  ],
+  "gated": false
+ },
+ {
+  "id": "ByteDance-Seed/Seed-Coder-8B-Reasoning-bf16",
+  "createdAt": "2025-05-13T02:20:17.000Z",
+  "downloads": 193,
+  "likes": 23,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "ByteDance-Seed/SAIL-7B",
+  "createdAt": "2025-05-07T06:42:31.000Z",
+  "downloads": 235,
+  "likes": 15,
+  "pipeline": "image-text-to-text",
+  "tags": [
+   "text-generation",
+   "image-text-to-text"
+  ],
+  "gated": false
+ },
+ {
+  "id": "ByteDance-Seed/Seed-Coder-8B-Reasoning",
+  "createdAt": "2025-04-27T07:52:58.000Z",
+  "downloads": 462,
+  "likes": 154,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "ByteDance-Seed/Seed-Coder-8B-Instruct",
+  "createdAt": "2025-04-27T07:52:37.000Z",
+  "downloads": 3165,
+  "likes": 119,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "ByteDance-Seed/Seed-Coder-8B-Base",
+  "createdAt": "2025-04-27T03:53:38.000Z",
+  "downloads": 591,
+  "likes": 74,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "ByteDance-Seed/UI-TARS-1.5-7B",
+  "createdAt": "2025-04-16T09:40:50.000Z",
+  "downloads": 565457,
+  "likes": 607,
+  "pipeline": "image-text-to-text",
+  "tags": [
+   "image-text-to-text",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "ByteDance-Seed/academic-ds-9B",
+  "createdAt": "2025-04-09T13:02:51.000Z",
+  "downloads": 18904,
+  "likes": 16,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "ByteDance-Seed/BFS-Prover-V1-7B",
+  "createdAt": "2025-02-23T23:11:13.000Z",
+  "downloads": 220,
+  "likes": 26,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "ByteDance-Seed/UI-TARS-72B-DPO",
+  "createdAt": "2025-01-22T08:26:41.000Z",
+  "downloads": 592,
+  "likes": 159,
+  "pipeline": "image-text-to-text",
+  "tags": [
+   "image-text-to-text",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "ByteDance-Seed/UI-TARS-7B-DPO",
+  "createdAt": "2025-01-22T08:26:26.000Z",
+  "downloads": 1399,
+  "likes": 233,
+  "pipeline": "image-text-to-text",
+  "tags": [
+   "image-text-to-text",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "ByteDance-Seed/UI-TARS-72B-SFT",
+  "createdAt": "2025-01-20T03:24:42.000Z",
+  "downloads": 178,
+  "likes": 25,
+  "pipeline": "image-text-to-text",
+  "tags": [
+   "image-text-to-text",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "ByteDance-Seed/UI-TARS-7B-SFT",
+  "createdAt": "2025-01-20T03:20:33.000Z",
+  "downloads": 1223,
+  "likes": 181,
+  "pipeline": "image-text-to-text",
+  "tags": [
+   "image-text-to-text",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "ByteDance-Seed/UI-TARS-2B-SFT",
+  "createdAt": "2025-01-20T02:23:35.000Z",
+  "downloads": 3792,
+  "likes": 39,
+  "pipeline": "image-text-to-text",
+  "tags": [
+   "image-text-to-text",
+   "conversational"
+  ],
+  "gated": false
+ }
+]

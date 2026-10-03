@@ -1,0 +1,150 @@
+[
+ {
+  "id": "naver/blast3r-depth",
+  "createdAt": "2026-09-03T08:23:05.000Z",
+  "downloads": 203,
+  "likes": 0,
+  "pipeline": "depth-estimation",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "naver/blast3r-matcher",
+  "createdAt": "2026-09-03T08:22:44.000Z",
+  "downloads": 223,
+  "likes": 0,
+  "pipeline": "image-to-3d",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "naver/v-splade-quality",
+  "createdAt": "2026-07-01T02:20:04.000Z",
+  "downloads": 222,
+  "likes": 22,
+  "pipeline": "feature-extraction",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "naver/v-splade-efficient",
+  "createdAt": "2026-07-01T02:19:46.000Z",
+  "downloads": 209,
+  "likes": 10,
+  "pipeline": "feature-extraction",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "naver/splade-code-06B",
+  "createdAt": "2026-02-24T14:28:17.000Z",
+  "downloads": 500,
+  "likes": 11,
+  "pipeline": "feature-extraction",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "naver/splade-code-8B",
+  "createdAt": "2026-02-24T13:25:30.000Z",
+  "downloads": 78,
+  "likes": 13,
+  "pipeline": "feature-extraction",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "naver/xprovence-reranker-bgem3-v2",
+  "createdAt": "2025-11-25T16:57:57.000Z",
+  "downloads": 223,
+  "likes": 18,
+  "pipeline": "text-ranking",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "naver/xprovence-reranker-bgem3-v1",
+  "createdAt": "2025-09-04T11:16:51.000Z",
+  "downloads": 192,
+  "likes": 18,
+  "pipeline": "text-ranking",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "naver/modernReranker",
+  "createdAt": "2025-06-03T09:31:34.000Z",
+  "downloads": 24,
+  "likes": 1,
+  "pipeline": "text-ranking",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "naver/oscar-mistral-small-24b",
+  "createdAt": "2025-03-14T17:10:25.000Z",
+  "downloads": 91,
+  "likes": 2,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "naver/oscar-qwen2-7B",
+  "createdAt": "2025-03-14T16:48:12.000Z",
+  "downloads": 71,
+  "likes": 3,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "naver/oscar-mistral-7B",
+  "createdAt": "2025-03-14T15:24:21.000Z",
+  "downloads": 125,
+  "likes": 4,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "naver/pisco-llama",
+  "createdAt": "2024-12-22T16:19:21.000Z",
+  "downloads": 211,
+  "likes": 3,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "naver/pisco-solar",
+  "createdAt": "2024-12-22T15:17:27.000Z",
+  "downloads": 114,
+  "likes": 4,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "naver/pisco-mistral",
+  "createdAt": "2024-12-21T23:09:17.000Z",
+  "downloads": 727,
+  "likes": 10,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "naver/provence-reranker-debertav3-v1",
+  "createdAt": "2024-12-11T10:14:17.000Z",
+  "downloads": 1295,
+  "likes": 73,
+  "pipeline": "text-ranking",
+  "tags": [],
+  "gated": false
+ }
+]

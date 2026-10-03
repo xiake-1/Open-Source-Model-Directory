@@ -1,0 +1,110 @@
+[
+ {
+  "id": "Sony/ctm-lsun-bedroom",
+  "createdAt": "2026-06-19T11:08:40.000Z",
+  "downloads": 0,
+  "likes": 1,
+  "pipeline": "unconditional-image-generation",
+  "library": "PyTorch",
+  "gated": false,
+  "tags": [
+   "PyTorch",
+   "ctm",
+   "diffusion",
+   "image-generation",
+   "consistency-trajectory-models",
+   "unconditional-image-generation"
+  ]
+ },
+ {
+  "id": "Sony/Phonological-Tokenizer",
+  "createdAt": "2026-04-09T04:07:53.000Z",
+  "downloads": 0,
+  "likes": 8,
+  "pipeline": "",
+  "library": "",
+  "gated": false,
+  "tags": [
+   "en"
+  ]
+ },
+ {
+  "id": "Sony/VIRTUE-2B-SCaR",
+  "createdAt": "2026-02-03T07:15:29.000Z",
+  "downloads": 17,
+  "likes": 2,
+  "pipeline": "image-text-to-text",
+  "library": "transformers",
+  "gated": false,
+  "tags": [
+   "transformers",
+   "pytorch",
+   "qwen2_vl",
+   "image-text-to-text",
+   "Embedding",
+   "en",
+   "text-generation-inference",
+   "endpoints_compatible"
+  ]
+ },
+ {
+  "id": "Sony/VIRTUE-7B-SCaR",
+  "createdAt": "2026-02-03T06:23:15.000Z",
+  "downloads": 8,
+  "likes": 2,
+  "pipeline": "image-text-to-text",
+  "library": "transformers",
+  "gated": false,
+  "tags": [
+   "transformers",
+   "pytorch",
+   "qwen2_vl",
+   "image-text-to-text",
+   "Embedding",
+   "en",
+   "text-generation-inference",
+   "endpoints_compatible"
+  ]
+ },
+ {
+  "id": "Sony/AKI-4B-phi-3.5-mini",
+  "createdAt": "2025-03-12T05:44:23.000Z",
+  "downloads": 109,
+  "likes": 27,
+  "pipeline": "image-text-to-text",
+  "library": "",
+  "gated": false,
+  "tags": [
+   "safetensors",
+   "image-text-to-text",
+   "conversational",
+   "en"
+  ]
+ },
+ {
+  "id": "Sony/humangif",
+  "createdAt": "2025-02-25T07:12:45.000Z",
+  "downloads": 0,
+  "likes": 1,
+  "pipeline": "",
+  "library": "diffusers",
+  "gated": false,
+  "tags": [
+   "diffusers",
+   "onnx",
+   "safetensors"
+  ]
+ },
+ {
+  "id": "Sony/MoLA",
+  "createdAt": "2025-02-12T07:47:47.000Z",
+  "downloads": 0,
+  "likes": 1,
+  "pipeline": "",
+  "library": "",
+  "gated": false,
+  "tags": [
+   "Text-to-Motion"
+  ]
+ }
+]

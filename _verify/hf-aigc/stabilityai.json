@@ -1,0 +1,492 @@
+[
+ {
+  "id": "stabilityai/stable-audio-3-optimized",
+  "createdAt": "2026-05-18T19:38:34.000Z",
+  "downloads": 21150,
+  "likes": 51,
+  "pipeline": "text-to-audio",
+  "library": "stable-audio-3",
+  "gated": false,
+  "tags": [
+   "stable-audio-3",
+   "tflite",
+   "onnx",
+   "audio-generation",
+   "music",
+   "sound-effects",
+   "diffusion",
+   "text-to-audio",
+   "en"
+  ]
+ },
+ {
+  "id": "stabilityai/SAME-L",
+  "createdAt": "2026-05-17T02:18:14.000Z",
+  "downloads": 18170,
+  "likes": 26,
+  "pipeline": "",
+  "library": "stable-audio-3",
+  "gated": false,
+  "tags": [
+   "stable-audio-3",
+   "safetensors",
+   "music",
+   "sound-effects",
+   "audio",
+   "autoencoder",
+   "en"
+  ]
+ },
+ {
+  "id": "stabilityai/SAME-S",
+  "createdAt": "2026-05-17T02:17:58.000Z",
+  "downloads": 2526,
+  "likes": 15,
+  "pipeline": "",
+  "library": "stable-audio-3",
+  "gated": false,
+  "tags": [
+   "stable-audio-3",
+   "safetensors",
+   "music",
+   "sound-effects",
+   "audio",
+   "autoencoder",
+   "en"
+  ]
+ },
+ {
+  "id": "stabilityai/stable-audio-3-small-music",
+  "createdAt": "2026-05-17T01:51:33.000Z",
+  "downloads": 17252,
+  "likes": 164,
+  "pipeline": "text-to-audio",
+  "library": "stable-audio-3",
+  "gated": "auto",
+  "tags": [
+   "stable-audio-3",
+   "safetensors",
+   "audio-generation",
+   "music",
+   "diffusion",
+   "text-to-audio",
+   "en"
+  ]
+ },
+ {
+  "id": "stabilityai/stable-audio-3-small-sfx",
+  "createdAt": "2026-05-17T01:51:16.000Z",
+  "downloads": 31673,
+  "likes": 171,
+  "pipeline": "text-to-audio",
+  "library": "stable-audio-3",
+  "gated": "auto",
+  "tags": [
+   "stable-audio-3",
+   "safetensors",
+   "audio-generation",
+   "sound-effects",
+   "diffusion",
+   "text-to-audio",
+   "en"
+  ]
+ },
+ {
+  "id": "stabilityai/stable-audio-3-medium",
+  "createdAt": "2026-05-17T01:50:14.000Z",
+  "downloads": 65524,
+  "likes": 367,
+  "pipeline": "text-to-audio",
+  "library": "stable-audio-3",
+  "gated": "auto",
+  "tags": [
+   "stable-audio-3",
+   "safetensors",
+   "audio-generation",
+   "music",
+   "sound-effects",
+   "diffusion",
+   "text-to-audio",
+   "en"
+  ]
+ },
+ {
+  "id": "stabilityai/stable-audio-3-medium-base",
+  "createdAt": "2026-05-17T01:44:44.000Z",
+  "downloads": 8565,
+  "likes": 26,
+  "pipeline": "text-to-audio",
+  "library": "stable-audio-3",
+  "gated": false,
+  "tags": [
+   "stable-audio-3",
+   "safetensors",
+   "audio-generation",
+   "music",
+   "sound-effects",
+   "diffusion",
+   "text-to-audio",
+   "en"
+  ]
+ },
+ {
+  "id": "stabilityai/stable-audio-3-small-sfx-base",
+  "createdAt": "2026-05-17T01:05:35.000Z",
+  "downloads": 1322,
+  "likes": 11,
+  "pipeline": "text-to-audio",
+  "library": "stable-audio-3",
+  "gated": false,
+  "tags": [
+   "stable-audio-3",
+   "safetensors",
+   "audio-generation",
+   "sound-effects",
+   "diffusion",
+   "text-to-audio",
+   "en"
+  ]
+ },
+ {
+  "id": "stabilityai/stable-audio-3-small-music-base",
+  "createdAt": "2026-05-16T23:40:30.000Z",
+  "downloads": 2682,
+  "likes": 24,
+  "pipeline": "text-to-audio",
+  "library": "stable-audio-3",
+  "gated": false,
+  "tags": [
+   "stable-audio-3",
+   "safetensors",
+   "audio-generation",
+   "music",
+   "diffusion",
+   "text-to-audio",
+   "en"
+  ]
+ },
+ {
+  "id": "stabilityai/stable-diffusion-3.5-medium-amdnpu",
+  "createdAt": "2026-05-01T16:08:27.000Z",
+  "downloads": 0,
+  "likes": 2,
+  "pipeline": "text-to-image",
+  "library": "diffusers",
+  "gated": false,
+  "tags": [
+   "diffusers",
+   "onnx",
+   "text-to-image",
+   "stable-diffusion",
+   "en"
+  ]
+ },
+ {
+  "id": "stabilityai/stable-diffusion-3-medium-amdnpu",
+  "createdAt": "2026-05-01T16:08:06.000Z",
+  "downloads": 34,
+  "likes": 1,
+  "pipeline": "text-to-image",
+  "library": "diffusion-single-file",
+  "gated": false,
+  "tags": [
+   "diffusion-single-file",
+   "onnx",
+   "text-to-image",
+   "stable-diffusion",
+   "en"
+  ]
+ },
+ {
+  "id": "stabilityai/sdxl-base-amdnpu",
+  "createdAt": "2026-02-25T22:54:01.000Z",
+  "downloads": 0,
+  "likes": 2,
+  "pipeline": "text-to-image",
+  "library": "",
+  "gated": false,
+  "tags": [
+   "onnx",
+   "safetensors",
+   "stable-diffusion",
+   "sdxl",
+   "text-to-image",
+   "en"
+  ]
+ },
+ {
+  "id": "stabilityai/sdxl-turbo-amdnpu",
+  "createdAt": "2026-02-25T22:40:42.000Z",
+  "downloads": 0,
+  "likes": 2,
+  "pipeline": "text-to-image",
+  "library": "",
+  "gated": false,
+  "tags": [
+   "onnx",
+   "safetensors",
+   "stable-diffusion",
+   "text-to-image",
+   "en"
+  ]
+ },
+ {
+  "id": "stabilityai/sd-turbo-amdnpu",
+  "createdAt": "2026-02-25T22:12:01.000Z",
+  "downloads": 0,
+  "likes": 3,
+  "pipeline": "text-to-image",
+  "library": "",
+  "gated": false,
+  "tags": [
+   "onnx",
+   "safetensors",
+   "stable-diffusion",
+   "text-to-image",
+   "en"
+  ]
+ },
+ {
+  "id": "stabilityai/sp4d",
+  "createdAt": "2025-11-03T21:43:28.000Z",
+  "downloads": 65,
+  "likes": 15,
+  "pipeline": "",
+  "library": "diffusers",
+  "gated": false,
+  "tags": [
+   "diffusers",
+   "video-to-4d",
+   "stable-diffusion"
+  ]
+ },
+ {
+  "id": "stabilityai/stable-diffusion-3.5-controlnets-tensorrt",
+  "createdAt": "2025-08-07T18:36:32.000Z",
+  "downloads": 511,
+  "likes": 9,
+  "pipeline": "text-to-image",
+  "library": "tensorrt",
+  "gated": "auto",
+  "tags": [
+   "tensorrt",
+   "onnx",
+   "sd3.5-large",
+   "text-to-image",
+   "depth",
+   "canny",
+   "blur",
+   "controlnet",
+   "fp8",
+   "en"
+  ]
+ },
+ {
+  "id": "stabilityai/stable-diffusion-3.5-medium-tensorrt",
+  "createdAt": "2025-08-07T17:30:35.000Z",
+  "downloads": 1,
+  "likes": 13,
+  "pipeline": "text-to-image",
+  "library": "tensorrt",
+  "gated": "auto",
+  "tags": [
+   "tensorrt",
+   "onnx",
+   "sd3.5-medium",
+   "text-to-image",
+   "en"
+  ]
+ },
+ {
+  "id": "stabilityai/stable-diffusion-3.5-large-tensorrt",
+  "createdAt": "2025-05-16T08:29:43.000Z",
+  "downloads": 5061,
+  "likes": 74,
+  "pipeline": "text-to-image",
+  "library": "tensorrt",
+  "gated": "auto",
+  "tags": [
+   "tensorrt",
+   "onnx",
+   "sd3.5-large",
+   "text-to-image",
+   "model-optimizer",
+   "fp8",
+   "quantization",
+   "en"
+  ]
+ },
+ {
+  "id": "stabilityai/stable-audio-open-small",
+  "createdAt": "2025-05-12T16:04:07.000Z",
+  "downloads": 2513,
+  "likes": 297,
+  "pipeline": "text-to-audio",
+  "library": "stable-audio-tools",
+  "gated": "auto",
+  "tags": [
+   "stable-audio-tools",
+   "safetensors",
+   "text-to-audio",
+   "en"
+  ]
+ },
+ {
+  "id": "stabilityai/stable-diffusion-3.5-medium_amdgpu",
+  "createdAt": "2025-04-09T20:54:02.000Z",
+  "downloads": 0,
+  "likes": 15,
+  "pipeline": "text-to-image",
+  "library": "diffusers",
+  "gated": false,
+  "tags": [
+   "diffusers",
+   "onnx",
+   "text-to-image"
+  ]
+ },
+ {
+  "id": "stabilityai/sdxl-turbo_amdgpu",
+  "createdAt": "2025-02-28T15:08:31.000Z",
+  "downloads": 0,
+  "likes": 6,
+  "pipeline": "text-to-image",
+  "library": "diffusers",
+  "gated": false,
+  "tags": [
+   "diffusers",
+   "onnx",
+   "text-to-image"
+  ]
+ },
+ {
+  "id": "stabilityai/stable-diffusion-3.5-large-turbo_amdgpu",
+  "createdAt": "2025-02-28T15:08:14.000Z",
+  "downloads": 0,
+  "likes": 15,
+  "pipeline": "text-to-image",
+  "library": "diffusers",
+  "gated": false,
+  "tags": [
+   "diffusers",
+   "onnx",
+   "text-to-image"
+  ]
+ },
+ {
+  "id": "stabilityai/stable-diffusion-3.5-large_amdgpu",
+  "createdAt": "2025-02-28T15:08:08.000Z",
+  "downloads": 0,
+  "likes": 10,
+  "pipeline": "text-to-image",
+  "library": "diffusers",
+  "gated": false,
+  "tags": [
+   "diffusers",
+   "onnx",
+   "text-to-image"
+  ]
+ },
+ {
+  "id": "stabilityai/stable-diffusion-3-medium_amdgpu",
+  "createdAt": "2025-02-28T15:07:27.000Z",
+  "downloads": 0,
+  "likes": 15,
+  "pipeline": "text-to-image",
+  "library": "diffusers",
+  "gated": false,
+  "tags": [
+   "diffusers",
+   "onnx",
+   "text-to-image"
+  ]
+ },
+ {
+  "id": "stabilityai/sv4d2.0",
+  "createdAt": "2025-02-20T17:34:22.000Z",
+  "downloads": 2226,
+  "likes": 72,
+  "pipeline": "",
+  "library": "diffusers",
+  "gated": false,
+  "tags": [
+   "diffusers",
+   "video-to-4d",
+   "stable-diffusion"
+  ]
+ },
+ {
+  "id": "stabilityai/stable-virtual-camera",
+  "createdAt": "2025-02-19T18:38:59.000Z",
+  "downloads": 6514,
+  "likes": 239,
+  "pipeline": "image-to-video",
+  "library": "",
+  "gated": "auto",
+  "tags": [
+   "safetensors",
+   "image-to-video",
+   "novel-view-synthesis"
+  ]
+ },
+ {
+  "id": "stabilityai/stable-codec-speech-16k-base",
+  "createdAt": "2025-01-14T12:38:27.000Z",
+  "downloads": 18,
+  "likes": 3,
+  "pipeline": "audio-to-audio",
+  "library": "stable-audio-tools",
+  "gated": "auto",
+  "tags": [
+   "stable-audio-tools",
+   "safetensors",
+   "audio-to-audio",
+   "en"
+  ]
+ },
+ {
+  "id": "stabilityai/stable-codec-speech-16k",
+  "createdAt": "2025-01-10T09:41:05.000Z",
+  "downloads": 359,
+  "likes": 24,
+  "pipeline": "audio-to-audio",
+  "library": "stable-audio-tools",
+  "gated": "auto",
+  "tags": [
+   "stable-audio-tools",
+   "safetensors",
+   "audio-to-audio",
+   "en"
+  ]
+ },
+ {
+  "id": "stabilityai/stable-point-aware-3d",
+  "createdAt": "2024-12-28T16:19:25.000Z",
+  "downloads": 9035,
+  "likes": 401,
+  "pipeline": "image-to-3d",
+  "library": "",
+  "gated": "auto",
+  "tags": [
+   "safetensors",
+   "image-to-3d"
+  ]
+ },
+ {
+  "id": "stabilityai/sdxl-turbo-ryzen-ai",
+  "createdAt": "2024-12-06T15:37:37.000Z",
+  "downloads": 338,
+  "likes": 13,
+  "pipeline": "text-to-image",
+  "library": "",
+  "gated": false,
+  "tags": [
+   "onnx",
+   "text-to-image",
+   "AMD",
+   "sdxl",
+   "sdxl-turbo",
+   "en"
+  ]
+ }
+]

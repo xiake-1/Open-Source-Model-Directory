@@ -1,0 +1,49 @@
+---
+/**
+ * 所属筛选：家族 / 发布方（Qwen、Meta、Kimi、GLM…）的多选下拉。
+ *
+ * 为什么单独拎出来：家族名会随收录一条条长出来（现在已经 17 个），
+ * 平铺成标签会把「筛选」卡片撑得很长，所以参照「时间」卡片做成同样的一张下拉卡片，
+ * 两张卡片并排在侧栏上面，剩下的固定枚举与「商用」留在「筛选」里。
+ *
+ * - 外观复用 `global.css` 的 `.dd-*`，与 `MonthFilter.astro` 完全一致。
+ * - 勾选写进 URL hash 的 `family=`（多选逗号分隔），与时间、标签是"与"的关系：
+ *   `#months=2026-06&family=Kimi,GLM&tag=MoE`
+ * - 真正的就地过滤在列表页脚本里（`TagFilter.astro`）。
+ */
+interface Props {
+  /** 家族名，已按条数从多到少排好 */
+  families: string[];
+  /** 每个家族下有多少条，作为角标 */
+  counts: Record<string, number>;
+}
+
+const { families, counts } = Astro.props;
+const total = families.reduce((sum, name) => sum + (counts[name] ?? 0), 0);
+---
+
+<div class="dd" data-family-filter>
+  <details class="dd-details" data-family-details>
+    <summary class="dd-summary">
+      <span class="dd-key">所属</span>
+      <span class="dd-value" data-family-label>全部所属</span>
+      <span class="dd-chev" aria-hidden="true"></span>
+    </summary>
+    <div class="dd-menu" role="group" aria-label="按所属筛选">
+      <label class="dd-item dd-item-all">
+        <input type="checkbox" data-family-all />
+        <span class="dd-text">全部所属</span>
+        <span class="dd-count">{total}</span>
+      </label>
+      {
+        families.map((name) => (
+          <label class="dd-item" data-family-text={name}>
+            <input type="checkbox" data-family value={name} />
+            <span class="dd-text">{name}</span>
+            <span class="dd-count">{counts[name] ?? 0}</span>
+          </label>
+        ))
+      }
+    </div>
+  </details>
+</div>

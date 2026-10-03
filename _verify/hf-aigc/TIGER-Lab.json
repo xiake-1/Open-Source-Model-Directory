@@ -1,0 +1,1090 @@
+[
+ {
+  "id": "TIGER-Lab/FIM-Mid-8B",
+  "createdAt": "2026-07-14T07:11:55.000Z",
+  "downloads": 22,
+  "likes": 2,
+  "pipeline": "text-generation",
+  "library": "transformers",
+  "gated": false,
+  "tags": [
+   "transformers",
+   "safetensors",
+   "qwen3",
+   "text-generation",
+   "code",
+   "software-engineering",
+   "fim",
+   "conversational",
+   "text-generation-inference",
+   "endpoints_compatible"
+  ]
+ },
+ {
+  "id": "TIGER-Lab/FIM-Mid-14B",
+  "createdAt": "2026-07-14T06:53:52.000Z",
+  "downloads": 13,
+  "likes": 0,
+  "pipeline": "text-generation",
+  "library": "transformers",
+  "gated": false,
+  "tags": [
+   "transformers",
+   "safetensors",
+   "qwen2",
+   "text-generation",
+   "code",
+   "software-engineering",
+   "fim",
+   "conversational",
+   "text-generation-inference",
+   "endpoints_compatible"
+  ]
+ },
+ {
+  "id": "TIGER-Lab/FIM-Mid-7B",
+  "createdAt": "2026-07-14T06:51:31.000Z",
+  "downloads": 19,
+  "likes": 0,
+  "pipeline": "text-generation",
+  "library": "transformers",
+  "gated": false,
+  "tags": [
+   "transformers",
+   "safetensors",
+   "qwen2",
+   "text-generation",
+   "code",
+   "software-engineering",
+   "fim",
+   "conversational",
+   "text-generation-inference",
+   "endpoints_compatible"
+  ]
+ },
+ {
+  "id": "TIGER-Lab/FIM-8B",
+  "createdAt": "2026-07-14T05:20:20.000Z",
+  "downloads": 42,
+  "likes": 3,
+  "pipeline": "text-generation",
+  "library": "transformers",
+  "gated": false,
+  "tags": [
+   "transformers",
+   "safetensors",
+   "qwen3",
+   "text-generation",
+   "code",
+   "software-engineering",
+   "agent",
+   "conversational",
+   "text-generation-inference",
+   "endpoints_compatible"
+  ]
+ },
+ {
+  "id": "TIGER-Lab/FIM-7B",
+  "createdAt": "2026-07-14T04:46:31.000Z",
+  "downloads": 30,
+  "likes": 3,
+  "pipeline": "text-generation",
+  "library": "transformers",
+  "gated": false,
+  "tags": [
+   "transformers",
+   "safetensors",
+   "qwen2",
+   "text-generation",
+   "code",
+   "software-engineering",
+   "agent",
+   "conversational",
+   "text-generation-inference",
+   "endpoints_compatible"
+  ]
+ },
+ {
+  "id": "TIGER-Lab/FIM-14B",
+  "createdAt": "2026-07-14T04:33:48.000Z",
+  "downloads": 40,
+  "likes": 1,
+  "pipeline": "text-generation",
+  "library": "transformers",
+  "gated": false,
+  "tags": [
+   "transformers",
+   "safetensors",
+   "qwen2",
+   "text-generation",
+   "code",
+   "software-engineering",
+   "agent",
+   "conversational",
+   "text-generation-inference",
+   "endpoints_compatible"
+  ]
+ },
+ {
+  "id": "TIGER-Lab/RationalRewards-8B-Edit",
+  "createdAt": "2026-04-10T14:03:11.000Z",
+  "downloads": 167,
+  "likes": 5,
+  "pipeline": "image-to-text",
+  "library": "transformers",
+  "gated": false,
+  "tags": [
+   "transformers",
+   "safetensors",
+   "qwen3_vl",
+   "image-text-to-text",
+   "text-to-image",
+   "image-to-image",
+   "edit",
+   "reasoning",
+   "reward",
+   "image-to-text",
+   "en",
+   "endpoints_compatible"
+  ]
+ },
+ {
+  "id": "TIGER-Lab/RationalRewards-8B-T2I",
+  "createdAt": "2026-04-10T03:50:56.000Z",
+  "downloads": 73,
+  "likes": 6,
+  "pipeline": "image-to-text",
+  "library": "transformers",
+  "gated": false,
+  "tags": [
+   "transformers",
+   "safetensors",
+   "qwen3_vl",
+   "image-text-to-text",
+   "text-to-image",
+   "image-to-image",
+   "edit",
+   "reasoning",
+   "reward",
+   "image-to-text",
+   "en",
+   "endpoints_compatible"
+  ]
+ },
+ {
+  "id": "TIGER-Lab/SWE-Next-14B",
+  "createdAt": "2026-04-02T07:46:17.000Z",
+  "downloads": 47,
+  "likes": 0,
+  "pipeline": "text-generation",
+  "library": "transformers",
+  "gated": false,
+  "tags": [
+   "transformers",
+   "safetensors",
+   "qwen2",
+   "text-generation",
+   "conversational",
+   "en",
+   "text-generation-inference",
+   "endpoints_compatible"
+  ]
+ },
+ {
+  "id": "TIGER-Lab/SWE-Next-7B",
+  "createdAt": "2026-04-02T07:46:17.000Z",
+  "downloads": 46,
+  "likes": 0,
+  "pipeline": "text-generation",
+  "library": "transformers",
+  "gated": false,
+  "tags": [
+   "transformers",
+   "safetensors",
+   "qwen2",
+   "text-generation",
+   "conversational",
+   "en",
+   "text-generation-inference",
+   "endpoints_compatible"
+  ]
+ },
+ {
+  "id": "TIGER-Lab/VisCoder2-32B",
+  "createdAt": "2025-10-29T01:28:19.000Z",
+  "downloads": 19,
+  "likes": 1,
+  "pipeline": "image-text-to-text",
+  "library": "transformers",
+  "gated": false,
+  "tags": [
+   "transformers",
+   "safetensors",
+   "qwen2",
+   "text-generation",
+   "code",
+   "image-text-to-text",
+   "conversational",
+   "en",
+   "text-generation-inference",
+   "endpoints_compatible"
+  ]
+ },
+ {
+  "id": "TIGER-Lab/VisCoder2-14B",
+  "createdAt": "2025-10-29T01:22:35.000Z",
+  "downloads": 30,
+  "likes": 2,
+  "pipeline": "image-text-to-text",
+  "library": "transformers",
+  "gated": false,
+  "tags": [
+   "transformers",
+   "safetensors",
+   "qwen2",
+   "text-generation",
+   "code",
+   "image-text-to-text",
+   "conversational",
+   "en",
+   "text-generation-inference",
+   "endpoints_compatible"
+  ]
+ },
+ {
+  "id": "TIGER-Lab/VisCoder2-7B",
+  "createdAt": "2025-10-29T01:21:34.000Z",
+  "downloads": 43,
+  "likes": 5,
+  "pipeline": "image-text-to-text",
+  "library": "transformers",
+  "gated": false,
+  "tags": [
+   "transformers",
+   "safetensors",
+   "qwen2",
+   "text-generation",
+   "code",
+   "image-text-to-text",
+   "conversational",
+   "en",
+   "text-generation-inference",
+   "endpoints_compatible"
+  ]
+ },
+ {
+  "id": "TIGER-Lab/VisCoder2-3B",
+  "createdAt": "2025-10-29T01:20:32.000Z",
+  "downloads": 42,
+  "likes": 3,
+  "pipeline": "text-generation",
+  "library": "transformers",
+  "gated": false,
+  "tags": [
+   "transformers",
+   "safetensors",
+   "qwen2",
+   "text-generation",
+   "code",
+   "conversational",
+   "en",
+   "text-generation-inference",
+   "endpoints_compatible"
+  ]
+ },
+ {
+  "id": "TIGER-Lab/BrowserAgent-RFT",
+  "createdAt": "2025-10-17T13:00:38.000Z",
+  "downloads": 104,
+  "likes": 4,
+  "pipeline": "",
+  "library": "",
+  "gated": false,
+  "tags": [
+   "safetensors",
+   "agent",
+   "browser",
+   "web",
+   "rft",
+   "en"
+  ]
+ },
+ {
+  "id": "TIGER-Lab/BrowserAgent-SFT",
+  "createdAt": "2025-10-17T12:51:33.000Z",
+  "downloads": 46,
+  "likes": 3,
+  "pipeline": "",
+  "library": "",
+  "gated": false,
+  "tags": [
+   "safetensors",
+   "agent",
+   "browser",
+   "web",
+   "sft",
+   "en"
+  ]
+ },
+ {
+  "id": "TIGER-Lab/EditReward-Qwen2.5-VL-7B",
+  "createdAt": "2025-10-06T13:03:23.000Z",
+  "downloads": 298,
+  "likes": 5,
+  "pipeline": "image-text-to-text",
+  "library": "transformers",
+  "gated": false,
+  "tags": [
+   "transformers",
+   "safetensors",
+   "qwen2_5_vl",
+   "image-text-to-text",
+   "edit",
+   "reward",
+   "en",
+   "text-generation-inference",
+   "endpoints_compatible"
+  ]
+ },
+ {
+  "id": "TIGER-Lab/EditReward-MiMo-VL-7B-SFT-2508",
+  "createdAt": "2025-10-06T12:56:35.000Z",
+  "downloads": 109,
+  "likes": 1,
+  "pipeline": "image-to-text",
+  "library": "transformers",
+  "gated": false,
+  "tags": [
+   "transformers",
+   "safetensors",
+   "qwen2_5_vl",
+   "image-text-to-text",
+   "editing",
+   "reward",
+   "image-to-text",
+   "en",
+   "text-generation-inference",
+   "endpoints_compatible"
+  ]
+ },
+ {
+  "id": "TIGER-Lab/Critique-Coder-8B",
+  "createdAt": "2025-09-30T14:46:12.000Z",
+  "downloads": 31,
+  "likes": 3,
+  "pipeline": "",
+  "library": "",
+  "gated": false,
+  "tags": [
+   "safetensors",
+   "qwen3",
+   "code",
+   "en"
+  ]
+ },
+ {
+  "id": "TIGER-Lab/Critique-Coder-4B",
+  "createdAt": "2025-09-30T14:42:47.000Z",
+  "downloads": 27,
+  "likes": 0,
+  "pipeline": "",
+  "library": "",
+  "gated": false,
+  "tags": [
+   "safetensors",
+   "qwen3",
+   "code",
+   "en"
+  ]
+ },
+ {
+  "id": "TIGER-Lab/VideoScore2",
+  "createdAt": "2025-09-19T03:19:16.000Z",
+  "downloads": 4135,
+  "likes": 5,
+  "pipeline": "visual-question-answering",
+  "library": "",
+  "gated": false,
+  "tags": [
+   "safetensors",
+   "qwen2_5_vl",
+   "visual-question-answering",
+   "en"
+  ]
+ },
+ {
+  "id": "TIGER-Lab/VideoScore2-RL-no-SFT",
+  "createdAt": "2025-09-17T17:46:49.000Z",
+  "downloads": 20,
+  "likes": 1,
+  "pipeline": "visual-question-answering",
+  "library": "",
+  "gated": false,
+  "tags": [
+   "safetensors",
+   "qwen2_5_vl",
+   "visual-question-answering",
+   "en"
+  ]
+ },
+ {
+  "id": "TIGER-Lab/VideoScore2-SFT",
+  "createdAt": "2025-09-17T02:42:58.000Z",
+  "downloads": 31,
+  "likes": 0,
+  "pipeline": "visual-question-answering",
+  "library": "",
+  "gated": false,
+  "tags": [
+   "safetensors",
+   "qwen2_5_vl",
+   "visual-question-answering",
+   "en"
+  ]
+ },
+ {
+  "id": "TIGER-Lab/VisCoder-7B",
+  "createdAt": "2025-06-04T11:50:13.000Z",
+  "downloads": 55,
+  "likes": 8,
+  "pipeline": "text-generation",
+  "library": "transformers",
+  "gated": false,
+  "tags": [
+   "transformers",
+   "safetensors",
+   "qwen2",
+   "text-generation",
+   "code",
+   "conversational",
+   "en",
+   "text-generation-inference",
+   "endpoints_compatible"
+  ]
+ },
+ {
+  "id": "TIGER-Lab/VisCoder-3B",
+  "createdAt": "2025-06-04T11:47:51.000Z",
+  "downloads": 27,
+  "likes": 3,
+  "pipeline": "text-generation",
+  "library": "transformers",
+  "gated": false,
+  "tags": [
+   "transformers",
+   "safetensors",
+   "qwen2",
+   "text-generation",
+   "code",
+   "conversational",
+   "en",
+   "text-generation-inference",
+   "endpoints_compatible"
+  ]
+ },
+ {
+  "id": "TIGER-Lab/One-Shot-CFT-Math-Qwen-14B",
+  "createdAt": "2025-06-04T02:49:40.000Z",
+  "downloads": 18,
+  "likes": 2,
+  "pipeline": "text-generation",
+  "library": "transformers",
+  "gated": false,
+  "tags": [
+   "transformers",
+   "safetensors",
+   "qwen2",
+   "text-generation",
+   "One-Shot-CFT",
+   "conversational",
+   "en",
+   "text-generation-inference",
+   "endpoints_compatible"
+  ]
+ },
+ {
+  "id": "TIGER-Lab/One-Shot-CFT-Math-Qwen-1.5B",
+  "createdAt": "2025-06-04T02:27:49.000Z",
+  "downloads": 19,
+  "likes": 0,
+  "pipeline": "text-generation",
+  "library": "transformers",
+  "gated": false,
+  "tags": [
+   "transformers",
+   "safetensors",
+   "qwen2",
+   "text-generation",
+   "One-Shot-CFT",
+   "conversational",
+   "en",
+   "text-generation-inference",
+   "endpoints_compatible"
+  ]
+ },
+ {
+  "id": "TIGER-Lab/One-Shot-CFT-Math-Qwen-7B",
+  "createdAt": "2025-06-04T02:27:37.000Z",
+  "downloads": 24,
+  "likes": 2,
+  "pipeline": "text-generation",
+  "library": "transformers",
+  "gated": false,
+  "tags": [
+   "transformers",
+   "safetensors",
+   "qwen2",
+   "text-generation",
+   "One-Shot-CFT",
+   "conversational",
+   "en",
+   "text-generation-inference",
+   "endpoints_compatible"
+  ]
+ },
+ {
+  "id": "TIGER-Lab/General-Reasoner-Qwen3-4B",
+  "createdAt": "2025-05-20T23:23:47.000Z",
+  "downloads": 93,
+  "likes": 4,
+  "pipeline": "question-answering",
+  "library": "",
+  "gated": false,
+  "tags": [
+   "safetensors",
+   "qwen3",
+   "question-answering"
+  ]
+ },
+ {
+  "id": "TIGER-Lab/General-Reasoner-Qwen3-14B",
+  "createdAt": "2025-05-18T17:23:44.000Z",
+  "downloads": 49,
+  "likes": 6,
+  "pipeline": "question-answering",
+  "library": "",
+  "gated": false,
+  "tags": [
+   "safetensors",
+   "qwen3",
+   "question-answering",
+   "eval-results"
+  ]
+ },
+ {
+  "id": "TIGER-Lab/PixelReasoner-RL-v1",
+  "createdAt": "2025-05-18T16:13:30.000Z",
+  "downloads": 239,
+  "likes": 11,
+  "pipeline": "image-text-to-text",
+  "library": "transformers",
+  "gated": false,
+  "tags": [
+   "transformers",
+   "safetensors",
+   "qwen2_5_vl",
+   "image-text-to-text",
+   "conversational",
+   "en",
+   "text-generation-inference",
+   "endpoints_compatible"
+  ]
+ },
+ {
+  "id": "TIGER-Lab/AceCoder-Qwen2.5-Coder-7B-Ins-V1.1",
+  "createdAt": "2025-05-16T01:36:06.000Z",
+  "downloads": 24,
+  "likes": 1,
+  "pipeline": "",
+  "library": "",
+  "gated": false,
+  "tags": [
+   "safetensors",
+   "qwen2",
+   "acecoder",
+   "code",
+   "Qwen",
+   "en"
+  ]
+ },
+ {
+  "id": "TIGER-Lab/PixelReasoner-WarmStart",
+  "createdAt": "2025-05-15T04:39:49.000Z",
+  "downloads": 39,
+  "likes": 6,
+  "pipeline": "image-text-to-text",
+  "library": "transformers",
+  "gated": false,
+  "tags": [
+   "transformers",
+   "safetensors",
+   "qwen2_5_vl",
+   "image-text-to-text",
+   "conversational",
+   "en",
+   "text-generation-inference",
+   "endpoints_compatible"
+  ]
+ },
+ {
+  "id": "TIGER-Lab/VL-Rethinker-32B",
+  "createdAt": "2025-05-05T13:12:47.000Z",
+  "downloads": 6,
+  "likes": 1,
+  "pipeline": "",
+  "library": "",
+  "gated": false,
+  "tags": [
+   "safetensors",
+   "qwen2_5_vl"
+  ]
+ },
+ {
+  "id": "TIGER-Lab/VL-Reasoner-7B",
+  "createdAt": "2025-04-15T06:39:17.000Z",
+  "downloads": 21,
+  "likes": 1,
+  "pipeline": "visual-question-answering",
+  "library": "transformers",
+  "gated": false,
+  "tags": [
+   "transformers",
+   "safetensors",
+   "qwen2_5_vl",
+   "image-text-to-text",
+   "multimodal",
+   "visual-question-answering",
+   "en",
+   "text-generation-inference",
+   "endpoints_compatible"
+  ]
+ },
+ {
+  "id": "TIGER-Lab/VL-Rethinker-7B",
+  "createdAt": "2025-04-13T02:08:29.000Z",
+  "downloads": 1519,
+  "likes": 15,
+  "pipeline": "image-text-to-text",
+  "library": "transformers",
+  "gated": false,
+  "tags": [
+   "transformers",
+   "safetensors",
+   "qwen2_5_vl",
+   "image-text-to-text",
+   "multimodal",
+   "conversational",
+   "en",
+   "text-generation-inference",
+   "endpoints_compatible"
+  ]
+ },
+ {
+  "id": "TIGER-Lab/General-Reasoner-Qwen2.5-14B",
+  "createdAt": "2025-04-11T19:56:51.000Z",
+  "downloads": 20,
+  "likes": 5,
+  "pipeline": "text-generation",
+  "library": "transformers",
+  "gated": false,
+  "tags": [
+   "transformers",
+   "safetensors",
+   "qwen2",
+   "text-generation",
+   "conversational",
+   "en",
+   "text-generation-inference",
+   "endpoints_compatible"
+  ]
+ },
+ {
+  "id": "TIGER-Lab/VL-Rethinker-72B",
+  "createdAt": "2025-04-11T05:45:53.000Z",
+  "downloads": 22,
+  "likes": 5,
+  "pipeline": "visual-question-answering",
+  "library": "transformers",
+  "gated": false,
+  "tags": [
+   "transformers",
+   "safetensors",
+   "qwen2_5_vl",
+   "image-text-to-text",
+   "multimodal",
+   "visual-question-answering",
+   "en",
+   "text-generation-inference",
+   "endpoints_compatible"
+  ]
+ },
+ {
+  "id": "TIGER-Lab/general-verifier",
+  "createdAt": "2025-04-10T18:33:17.000Z",
+  "downloads": 600,
+  "likes": 21,
+  "pipeline": "question-answering",
+  "library": "transformers",
+  "gated": false,
+  "tags": [
+   "transformers",
+   "safetensors",
+   "qwen2",
+   "text-generation",
+   "verifier",
+   "question-answering",
+   "en",
+   "text-generation-inference",
+   "endpoints_compatible"
+  ]
+ },
+ {
+  "id": "TIGER-Lab/General-Reasoner-Qwen2.5-7B",
+  "createdAt": "2025-04-06T20:32:08.000Z",
+  "downloads": 48,
+  "likes": 3,
+  "pipeline": "",
+  "library": "",
+  "gated": false,
+  "tags": [
+   "safetensors",
+   "qwen2",
+   "General-Reasoner-7B",
+   "zho",
+   "eng",
+   "fra",
+   "spa",
+   "por",
+   "deu",
+   "ita",
+   "rus",
+   "jpn"
+  ]
+ },
+ {
+  "id": "TIGER-Lab/VL-Reasoner-72B",
+  "createdAt": "2025-04-02T16:31:48.000Z",
+  "downloads": 32,
+  "likes": 3,
+  "pipeline": "visual-question-answering",
+  "library": "transformers",
+  "gated": false,
+  "tags": [
+   "transformers",
+   "safetensors",
+   "qwen2_5_vl",
+   "image-text-to-text",
+   "multimodal",
+   "visual-question-answering",
+   "en",
+   "text-generation-inference",
+   "endpoints_compatible"
+  ]
+ },
+ {
+  "id": "TIGER-Lab/Vamba-Qwen2-VL-7B",
+  "createdAt": "2025-03-13T22:53:33.000Z",
+  "downloads": 46,
+  "likes": 21,
+  "pipeline": "video-text-to-text",
+  "library": "transformers",
+  "gated": false,
+  "tags": [
+   "transformers",
+   "safetensors",
+   "qwen2_vl",
+   "image-text-to-text",
+   "video-text-to-text",
+   "text-generation-inference",
+   "endpoints_compatible"
+  ]
+ },
+ {
+  "id": "TIGER-Lab/MAmmoTH-VL2",
+  "createdAt": "2025-03-08T00:44:26.000Z",
+  "downloads": 79,
+  "likes": 13,
+  "pipeline": "image-text-to-text",
+  "library": "transformers",
+  "gated": false,
+  "tags": [
+   "transformers",
+   "safetensors",
+   "qwen2",
+   "text-generation",
+   "image-text-to-text",
+   "conversational",
+   "en",
+   "text-generation-inference",
+   "endpoints_compatible"
+  ]
+ },
+ {
+  "id": "TIGER-Lab/VLM2Vec-Qwen2VL-2B",
+  "createdAt": "2025-03-06T05:50:40.000Z",
+  "downloads": 120,
+  "likes": 3,
+  "pipeline": "image-text-to-text",
+  "library": "transformers",
+  "gated": false,
+  "tags": [
+   "transformers",
+   "qwen2_vl",
+   "image-text-to-text",
+   "conversational",
+   "en",
+   "endpoints_compatible"
+  ]
+ },
+ {
+  "id": "TIGER-Lab/ABC-Qwen2VL-Instruct",
+  "createdAt": "2025-02-24T22:32:38.000Z",
+  "downloads": 14,
+  "likes": 0,
+  "pipeline": "image-text-to-text",
+  "library": "peft",
+  "gated": false,
+  "tags": [
+   "peft",
+   "safetensors",
+   "LLM",
+   "VLM",
+   "Embedding",
+   "Multimodal",
+   "image-text-to-text",
+   "conversational",
+   "en"
+  ]
+ },
+ {
+  "id": "TIGER-Lab/ABC-Qwen2VL-Pretrain",
+  "createdAt": "2025-02-24T22:15:41.000Z",
+  "downloads": 16,
+  "likes": 1,
+  "pipeline": "image-text-to-text",
+  "library": "peft",
+  "gated": false,
+  "tags": [
+   "peft",
+   "safetensors",
+   "image-text-to-text",
+   "conversational"
+  ]
+ },
+ {
+  "id": "TIGER-Lab/VLM2Vec-Qwen2VL-7B",
+  "createdAt": "2025-02-24T09:08:38.000Z",
+  "downloads": 274,
+  "likes": 12,
+  "pipeline": "image-text-to-text",
+  "library": "transformers",
+  "gated": false,
+  "tags": [
+   "transformers",
+   "pytorch",
+   "qwen2_vl",
+   "image-text-to-text",
+   "conversational",
+   "en",
+   "text-generation-inference",
+   "endpoints_compatible"
+  ]
+ },
+ {
+  "id": "TIGER-Lab/AceCoder-Qwen2.5-Coder-7B-Ins-RM",
+  "createdAt": "2025-02-04T02:39:20.000Z",
+  "downloads": 21,
+  "likes": 0,
+  "pipeline": "",
+  "library": "",
+  "gated": false,
+  "tags": [
+   "safetensors",
+   "qwen2",
+   "acecoder",
+   "code",
+   "Qwen",
+   "en"
+  ]
+ },
+ {
+  "id": "TIGER-Lab/AceCoder-Qwen2.5-Coder-7B-Ins-Rule",
+  "createdAt": "2025-02-04T02:34:04.000Z",
+  "downloads": 238,
+  "likes": 1,
+  "pipeline": "",
+  "library": "",
+  "gated": false,
+  "tags": [
+   "safetensors",
+   "qwen2",
+   "acecoder",
+   "code",
+   "Qwen",
+   "en"
+  ]
+ },
+ {
+  "id": "TIGER-Lab/AceCodeRM-32B",
+  "createdAt": "2025-02-04T00:49:15.000Z",
+  "downloads": 27,
+  "likes": 8,
+  "pipeline": "",
+  "library": "transformers",
+  "gated": false,
+  "tags": [
+   "transformers",
+   "safetensors",
+   "qwen2",
+   "reward",
+   "RM",
+   "Code",
+   "AceCode",
+   "AceCoder",
+   "en",
+   "text-generation-inference",
+   "endpoints_compatible"
+  ]
+ },
+ {
+  "id": "TIGER-Lab/AceCodeRM-7B",
+  "createdAt": "2025-02-03T23:51:27.000Z",
+  "downloads": 200,
+  "likes": 6,
+  "pipeline": "",
+  "library": "transformers",
+  "gated": false,
+  "tags": [
+   "transformers",
+   "safetensors",
+   "qwen2",
+   "reward",
+   "RM",
+   "Code",
+   "AceCode",
+   "AceCoder",
+   "en",
+   "text-generation-inference",
+   "endpoints_compatible"
+  ]
+ },
+ {
+  "id": "TIGER-Lab/Qwen2.5-32B-Instruct-CFT",
+  "createdAt": "2025-01-30T02:32:41.000Z",
+  "downloads": 33,
+  "likes": 6,
+  "pipeline": "text-generation",
+  "library": "transformers",
+  "gated": false,
+  "tags": [
+   "transformers",
+   "safetensors",
+   "qwen2",
+   "text-generation",
+   "cft",
+   "math",
+   "reasoning",
+   "conversational",
+   "en",
+   "text-generation-inference",
+   "endpoints_compatible"
+  ]
+ },
+ {
+  "id": "TIGER-Lab/Qwen2.5-Math-7B-CFT",
+  "createdAt": "2025-01-30T02:05:51.000Z",
+  "downloads": 53,
+  "likes": 8,
+  "pipeline": "text-generation",
+  "library": "transformers",
+  "gated": false,
+  "tags": [
+   "transformers",
+   "safetensors",
+   "qwen2",
+   "text-generation",
+   "cft",
+   "math",
+   "reasoning",
+   "conversational",
+   "en",
+   "text-generation-inference",
+   "endpoints_compatible"
+  ]
+ },
+ {
+  "id": "TIGER-Lab/VLM2Vec-LLaVa-Next",
+  "createdAt": "2024-12-11T04:46:02.000Z",
+  "downloads": 105,
+  "likes": 1,
+  "pipeline": "image-text-to-text",
+  "library": "transformers",
+  "gated": false,
+  "tags": [
+   "transformers",
+   "safetensors",
+   "llava_next",
+   "image-text-to-text",
+   "conversational",
+   "en",
+   "text-generation-inference",
+   "endpoints_compatible"
+  ]
+ },
+ {
+  "id": "TIGER-Lab/ScholarCopilot-v1",
+  "createdAt": "2024-12-07T16:16:49.000Z",
+  "downloads": 38,
+  "likes": 10,
+  "pipeline": "",
+  "library": "",
+  "gated": false,
+  "tags": [
+   "safetensors",
+   "qwen2",
+   "en"
+  ]
+ },
+ {
+  "id": "TIGER-Lab/VISTA-VideoLLaVA",
+  "createdAt": "2024-12-02T23:41:01.000Z",
+  "downloads": 13,
+  "likes": 0,
+  "pipeline": "video-text-to-text",
+  "library": "",
+  "gated": false,
+  "tags": [
+   "safetensors",
+   "video_llava",
+   "video-text-to-text"
+  ]
+ },
+ {
+  "id": "TIGER-Lab/VISTA-Mantis",
+  "createdAt": "2024-12-02T23:40:48.000Z",
+  "downloads": 17,
+  "likes": 1,
+  "pipeline": "video-text-to-text",
+  "library": "",
+  "gated": false,
+  "tags": [
+   "safetensors",
+   "idefics2",
+   "video-text-to-text"
+  ]
+ },
+ {
+  "id": "TIGER-Lab/VISTA-LongVA",
+  "createdAt": "2024-12-02T23:40:32.000Z",
+  "downloads": 14,
+  "likes": 2,
+  "pipeline": "video-text-to-text",
+  "library": "",
+  "gated": false,
+  "tags": [
+   "safetensors",
+   "llava_qwen",
+   "video-text-to-text"
+  ]
+ }
+]

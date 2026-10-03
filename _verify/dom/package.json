@@ -1,0 +1,9 @@
+{
+  "name": "dsh-verify-dom",
+  "private": true,
+  "type": "module",
+  "description": "用 jsdom 跑构建产物里的列表页筛选与搜索，属于验证脚本，不参与站点构建",
+  "devDependencies": {
+    "jsdom": "^30.1.1"
+  }
+}

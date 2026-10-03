@@ -1,0 +1,247 @@
+[
+ {
+  "id": "RWKV/RWKV7-G1k-1.5B-20260930",
+  "createdAt": "2026-09-30T15:30:49.000Z",
+  "downloads": 168,
+  "likes": 1,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "RWKV/RWKV7-G1k-13.3B-20260930",
+  "createdAt": "2026-09-30T15:12:25.000Z",
+  "downloads": 122,
+  "likes": 3,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "RWKV/RWKV7-G1k-7.2B-20260930",
+  "createdAt": "2026-09-30T12:02:42.000Z",
+  "downloads": 178,
+  "likes": 1,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "RWKV/RWKV7-G1k-2.9B-20260930",
+  "createdAt": "2026-09-30T11:01:33.000Z",
+  "downloads": 236,
+  "likes": 1,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "RWKV/RWKV7-G1j-13.3B-20260831",
+  "createdAt": "2026-09-02T12:01:22.000Z",
+  "downloads": 2974,
+  "likes": 4,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "RWKV/RWKV7-G1j-7.2B-20260831",
+  "createdAt": "2026-09-02T11:10:04.000Z",
+  "downloads": 842,
+  "likes": 0,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "RWKV/RWKV7-G1j-2.9B-20260831",
+  "createdAt": "2026-09-02T09:13:21.000Z",
+  "downloads": 1824,
+  "likes": 2,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "RWKV/RWKV7-G1j-1.5B-20260831",
+  "createdAt": "2026-09-02T07:54:54.000Z",
+  "downloads": 1532,
+  "likes": 5,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "RWKV/RWKV7-13.3B-20260805",
+  "createdAt": "2026-08-06T10:36:28.000Z",
+  "downloads": 158,
+  "likes": 2,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "RWKV/RWKV7-7.2B-20260805",
+  "createdAt": "2026-08-06T10:35:14.000Z",
+  "downloads": 198,
+  "likes": 2,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "RWKV/RWKV7-2.9B-20260805",
+  "createdAt": "2026-08-06T10:34:37.000Z",
+  "downloads": 186,
+  "likes": 4,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "RWKV/RWKV7-1.5B-20260805",
+  "createdAt": "2026-08-06T10:34:06.000Z",
+  "downloads": 321,
+  "likes": 8,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "RWKV/RWKV7-Goose-Pile-1.47B-HF",
+  "createdAt": "2025-03-17T00:14:34.000Z",
+  "downloads": 104,
+  "likes": 0,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "RWKV/RWKV7-Goose-Pile-421M-HF",
+  "createdAt": "2025-03-17T00:14:18.000Z",
+  "downloads": 102,
+  "likes": 0,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "RWKV/RWKV7-Goose-Pile-168M-HF",
+  "createdAt": "2025-03-17T00:14:04.000Z",
+  "downloads": 35,
+  "likes": 2,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "RWKV/RWKV7-Goose-World2.8-0.1B-HF",
+  "createdAt": "2025-03-17T00:11:49.000Z",
+  "downloads": 381,
+  "likes": 3,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "RWKV/RWKV7-Goose-World2.9-0.4B-HF",
+  "createdAt": "2025-03-17T00:10:39.000Z",
+  "downloads": 277,
+  "likes": 1,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "RWKV/RWKV7-Goose-World3-1.5B-HF",
+  "createdAt": "2025-03-17T00:09:52.000Z",
+  "downloads": 2019,
+  "likes": 4,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "RWKV/RWKV7-Goose-World3-2.9B-HF",
+  "createdAt": "2025-03-17T00:06:51.000Z",
+  "downloads": 220,
+  "likes": 19,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "RWKV/RWKV7-Goose-World-PTH",
+  "createdAt": "2025-03-16T21:47:09.000Z",
+  "downloads": 42,
+  "likes": 0,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "RWKV/RWKV7-Goose-Pile-PTH",
+  "createdAt": "2025-03-16T21:44:32.000Z",
+  "downloads": 0,
+  "likes": 0,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ }
+]

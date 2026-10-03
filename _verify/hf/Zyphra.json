@@ -1,0 +1,240 @@
+[
+ {
+  "id": "Zyphra/ZONOS1-GGUF",
+  "createdAt": "2026-07-15T08:21:20.000Z",
+  "downloads": 224,
+  "likes": 3,
+  "pipeline": "text-to-speech",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "Zyphra/ZUNA1.1",
+  "createdAt": "2026-07-13T17:56:13.000Z",
+  "downloads": 3334,
+  "likes": 34,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "Zyphra/ZAYA1-8B-MXFP4-Experts",
+  "createdAt": "2026-07-02T22:01:38.000Z",
+  "downloads": 55,
+  "likes": 3,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "Zyphra/ZAYA1-8B-FP8-Experts",
+  "createdAt": "2026-07-02T21:57:19.000Z",
+  "downloads": 26,
+  "likes": 0,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "Zyphra/ZAYA1-74B-preview-legacy",
+  "createdAt": "2026-06-26T01:40:45.000Z",
+  "downloads": 337,
+  "likes": 0,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "Zyphra/ZAYA1-8B-legacy",
+  "createdAt": "2026-06-26T01:38:19.000Z",
+  "downloads": 316,
+  "likes": 0,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "Zyphra/ZONOS2-GGUF",
+  "createdAt": "2026-06-18T23:36:00.000Z",
+  "downloads": 10919,
+  "likes": 4,
+  "pipeline": "text-to-speech",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "Zyphra/ZONOS2",
+  "createdAt": "2026-06-11T02:20:46.000Z",
+  "downloads": 2301,
+  "likes": 148,
+  "pipeline": "text-to-speech",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "Zyphra/Zamba2-VL-1.2B",
+  "createdAt": "2026-05-17T20:58:01.000Z",
+  "downloads": 166,
+  "likes": 7,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "Zyphra/Zamba2-VL-2.7B",
+  "createdAt": "2026-05-17T20:50:15.000Z",
+  "downloads": 380,
+  "likes": 8,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "Zyphra/Zamba2-VL-7B",
+  "createdAt": "2026-05-16T15:10:50.000Z",
+  "downloads": 265,
+  "likes": 11,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "Zyphra/ZAYA1-74B-preview",
+  "createdAt": "2026-05-05T23:12:08.000Z",
+  "downloads": 528,
+  "likes": 51,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "Zyphra/ZAYA1-8B",
+  "createdAt": "2026-05-04T19:45:38.000Z",
+  "downloads": 12465,
+  "likes": 593,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "Zyphra/ZAYA1-VL-8B",
+  "createdAt": "2026-04-20T00:55:32.000Z",
+  "downloads": 43691,
+  "likes": 42,
+  "pipeline": "image-text-to-text",
+  "tags": [
+   "text-generation",
+   "image-text-to-text",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "Zyphra/ZUNA",
+  "createdAt": "2026-02-04T21:35:14.000Z",
+  "downloads": 1855,
+  "likes": 160,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "Zyphra/ZAYA1-reasoning-base",
+  "createdAt": "2025-11-19T03:31:47.000Z",
+  "downloads": 183,
+  "likes": 22,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "Zyphra/ZAYA1-base",
+  "createdAt": "2025-11-19T03:30:49.000Z",
+  "downloads": 748,
+  "likes": 45,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "Zyphra/ZR1-1.5B",
+  "createdAt": "2025-04-07T07:20:25.000Z",
+  "downloads": 10538,
+  "likes": 77,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "Zyphra/Zamba2-1.2B-Instruct-v2",
+  "createdAt": "2025-03-07T18:24:05.000Z",
+  "downloads": 308,
+  "likes": 3,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "Zyphra/Zamba2-2.7B-Instruct-v2",
+  "createdAt": "2025-03-07T18:23:23.000Z",
+  "downloads": 238,
+  "likes": 3,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "Zyphra/Zamba2-7B-Instruct-v2",
+  "createdAt": "2025-02-11T18:07:58.000Z",
+  "downloads": 193,
+  "likes": 5,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "Zyphra/Zonos-v0.1-speaker-embedding",
+  "createdAt": "2025-02-09T01:22:48.000Z",
+  "downloads": 0,
+  "likes": 31,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "Zyphra/Zonos-v0.1-hybrid",
+  "createdAt": "2025-02-06T22:35:07.000Z",
+  "downloads": 1122,
+  "likes": 1109,
+  "pipeline": "text-to-speech",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "Zyphra/Zonos-v0.1-transformer",
+  "createdAt": "2025-02-06T22:32:45.000Z",
+  "downloads": 80338,
+  "likes": 435,
+  "pipeline": "text-to-speech",
+  "tags": [],
+  "gated": false
+ }
+]

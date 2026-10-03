@@ -3,6 +3,7 @@
  * 被 scripts/new-entry.mjs 调用，也可以直接在脚本里 import 用来批量生成条目。
  */
 
+/** links 里允许出现的键（页面上的卡片只展示 hf / github，其余键留在详情页） */
 export const LINK_KEYS = ['hf', 'github', 'paper', 'demo', 'docs'];
 
 /** 生成文件名 slug：保留 ASCII 与中文，其余字符变连字符 */
@@ -31,9 +32,21 @@ export function yamlStr(value) {
  * @param {string} [fields.license]
  * @param {[string, string][]} [fields.extra]  集合专属字段：[键, 已序列化的 YAML 值]
  * @param {Record<string, string>} [fields.links]
+ * @param {boolean} [fields.withBody]  是否带正文骨架。LLM / AIGC 的详情页不留正文，传 false
  * @returns {string} 完整的 Markdown 文件内容
  */
-export function buildEntryFile({ title, org, released, added, summary, tags = [], license, extra = [], links = {} }) {
+export function buildEntryFile({
+  title,
+  org,
+  released,
+  added,
+  summary,
+  tags = [],
+  license,
+  extra = [],
+  links = {},
+  withBody = true,
+}) {
   const lines = [
     '---',
     `title: ${yamlStr(title)}`,
@@ -47,8 +60,9 @@ export function buildEntryFile({ title, org, released, added, summary, tags = []
   for (const [key, value] of extra) lines.push(`${key}: ${value}`);
   lines.push('links:');
   for (const [key, url] of Object.entries(links)) lines.push(`  ${key}: ${yamlStr(url)}`);
+  lines.push('---');
+  if (!withBody) return lines.join('\n');
   lines.push(
-    '---',
     '',
     '## 为什么值得看',
     '',

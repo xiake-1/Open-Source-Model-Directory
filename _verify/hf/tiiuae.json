@@ -1,0 +1,1152 @@
+[
+ {
+  "id": "tiiuae/Falcon3-10B-Base-1.58bit-prequantized",
+  "createdAt": "2026-04-30T09:47:17.000Z",
+  "downloads": 425,
+  "likes": 2,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon-E-3B-Base-prequantized",
+  "createdAt": "2026-04-22T13:00:53.000Z",
+  "downloads": 338,
+  "likes": 0,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon-Perception-300M",
+  "createdAt": "2026-04-03T11:41:24.000Z",
+  "downloads": 520,
+  "likes": 14,
+  "pipeline": "object-detection",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/siglino-30M",
+  "createdAt": "2026-03-18T07:24:30.000Z",
+  "downloads": 114,
+  "likes": 7,
+  "pipeline": "image-feature-extraction",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/siglino-70M",
+  "createdAt": "2026-03-11T13:55:08.000Z",
+  "downloads": 167,
+  "likes": 6,
+  "pipeline": "image-feature-extraction",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/siglino-0.6B",
+  "createdAt": "2026-03-11T13:28:51.000Z",
+  "downloads": 215,
+  "likes": 17,
+  "pipeline": "image-feature-extraction",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/siglino-moe-0.15-0.6B",
+  "createdAt": "2026-03-11T13:09:15.000Z",
+  "downloads": 154,
+  "likes": 8,
+  "pipeline": "image-feature-extraction",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon-OCR",
+  "createdAt": "2026-02-22T11:17:53.000Z",
+  "downloads": 6770,
+  "likes": 158,
+  "pipeline": "image-to-text",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon-Perception",
+  "createdAt": "2026-02-22T10:31:50.000Z",
+  "downloads": 11881,
+  "likes": 146,
+  "pipeline": "mask-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon-H1R-7B-FP8",
+  "createdAt": "2026-01-28T10:00:17.000Z",
+  "downloads": 242,
+  "likes": 4,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon-H1-Tiny-Coder-90M",
+  "createdAt": "2026-01-13T07:57:20.000Z",
+  "downloads": 321,
+  "likes": 11,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon-H1-Tiny-R-90M-GGUF",
+  "createdAt": "2026-01-13T06:54:17.000Z",
+  "downloads": 848,
+  "likes": 12,
+  "pipeline": "",
+  "tags": [
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon-H1-Tiny-R-0.6B-GGUF",
+  "createdAt": "2026-01-13T06:53:58.000Z",
+  "downloads": 1267,
+  "likes": 12,
+  "pipeline": "",
+  "tags": [
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon-H1-Tiny-Tool-Calling-90M-GGUF",
+  "createdAt": "2026-01-13T06:53:37.000Z",
+  "downloads": 1348,
+  "likes": 9,
+  "pipeline": "",
+  "tags": [
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon-H1-Tiny-Coder-90M-GGUF",
+  "createdAt": "2026-01-13T06:53:19.000Z",
+  "downloads": 690,
+  "likes": 19,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon-H1-Tiny-90M-Instruct-GGUF",
+  "createdAt": "2026-01-13T06:52:57.000Z",
+  "downloads": 4988,
+  "likes": 21,
+  "pipeline": "",
+  "tags": [
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon-H1-Tiny-R-0.6B-pre-GRPO",
+  "createdAt": "2026-01-12T13:16:02.000Z",
+  "downloads": 279,
+  "likes": 4,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon-H1-Tiny-R-0.6B",
+  "createdAt": "2026-01-12T13:15:46.000Z",
+  "downloads": 1072,
+  "likes": 16,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon-H1-Tiny-R-90M",
+  "createdAt": "2026-01-12T13:15:30.000Z",
+  "downloads": 411,
+  "likes": 27,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon-H1-Tiny-Multilingual-100M-Instruct",
+  "createdAt": "2026-01-12T13:14:19.000Z",
+  "downloads": 1349,
+  "likes": 13,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon-H1-Tiny-Multilingual-100M-Base",
+  "createdAt": "2026-01-12T13:14:00.000Z",
+  "downloads": 455,
+  "likes": 5,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon-H1-Tiny-Tool-Calling-90M",
+  "createdAt": "2026-01-12T13:13:45.000Z",
+  "downloads": 413,
+  "likes": 17,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon-H1-Tiny-90M-Instruct-Curriculum-pre-DPO",
+  "createdAt": "2026-01-12T13:10:16.000Z",
+  "downloads": 238,
+  "likes": 1,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon-H1-Tiny-90M-Base",
+  "createdAt": "2026-01-12T13:08:22.000Z",
+  "downloads": 828,
+  "likes": 16,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon-H1-Tiny-90M-Instruct",
+  "createdAt": "2026-01-12T13:05:20.000Z",
+  "downloads": 1223,
+  "likes": 48,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon-H1-Tiny-90M-Instruct-pre-DPO",
+  "createdAt": "2026-01-12T13:04:50.000Z",
+  "downloads": 261,
+  "likes": 3,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon-H1-Tiny-90M-Instruct-Curriculum",
+  "createdAt": "2026-01-12T13:02:56.000Z",
+  "downloads": 240,
+  "likes": 2,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/siglino-moe-0.3-0.6B",
+  "createdAt": "2025-12-24T10:27:44.000Z",
+  "downloads": 100,
+  "likes": 7,
+  "pipeline": "image-feature-extraction",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon-H1R-7B-GGUF",
+  "createdAt": "2025-11-28T10:59:26.000Z",
+  "downloads": 8227,
+  "likes": 77,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon-H1R-7B",
+  "createdAt": "2025-10-29T13:00:11.000Z",
+  "downloads": 1779,
+  "likes": 222,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/dense-500m-arch2",
+  "createdAt": "2025-07-22T17:48:34.000Z",
+  "downloads": 0,
+  "likes": 0,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/dense-3b-arch2",
+  "createdAt": "2025-07-22T16:14:14.000Z",
+  "downloads": 0,
+  "likes": 0,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/dense-1b-arch2",
+  "createdAt": "2025-07-22T15:40:17.000Z",
+  "downloads": 0,
+  "likes": 0,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/dense-500m-arch1",
+  "createdAt": "2025-06-19T12:02:37.000Z",
+  "downloads": 0,
+  "likes": 2,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/dense-3b-arch1",
+  "createdAt": "2025-06-16T09:55:06.000Z",
+  "downloads": 0,
+  "likes": 0,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/dense-1b-arch1",
+  "createdAt": "2025-06-16T09:55:05.000Z",
+  "downloads": 0,
+  "likes": 0,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon-H1-34B-Instruct-GGUF",
+  "createdAt": "2025-05-13T17:13:53.000Z",
+  "downloads": 5590,
+  "likes": 17,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon-H1-7B-Instruct-GGUF",
+  "createdAt": "2025-05-13T15:59:29.000Z",
+  "downloads": 3094,
+  "likes": 23,
+  "pipeline": "",
+  "tags": [
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon-H1-3B-Instruct-GGUF",
+  "createdAt": "2025-05-13T14:36:15.000Z",
+  "downloads": 1594,
+  "likes": 18,
+  "pipeline": "",
+  "tags": [
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon-H1-1.5B-Deep-Instruct-GGUF",
+  "createdAt": "2025-05-13T14:20:13.000Z",
+  "downloads": 1825,
+  "likes": 23,
+  "pipeline": "",
+  "tags": [
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon-H1-1.5B-Instruct-GGUF",
+  "createdAt": "2025-05-13T14:03:46.000Z",
+  "downloads": 2750,
+  "likes": 15,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon-H1-0.5B-Instruct-GGUF",
+  "createdAt": "2025-05-13T13:56:54.000Z",
+  "downloads": 1943,
+  "likes": 12,
+  "pipeline": "",
+  "tags": [
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon-H1-34B-Instruct-GPTQ-Int8",
+  "createdAt": "2025-05-12T12:15:21.000Z",
+  "downloads": 183,
+  "likes": 4,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon-H1-34B-Instruct-GPTQ-Int4",
+  "createdAt": "2025-05-12T12:15:06.000Z",
+  "downloads": 221,
+  "likes": 2,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon-H1-7B-Instruct-GPTQ-Int8",
+  "createdAt": "2025-05-12T12:13:59.000Z",
+  "downloads": 144,
+  "likes": 2,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon-H1-7B-Instruct-GPTQ-Int4",
+  "createdAt": "2025-05-12T12:13:37.000Z",
+  "downloads": 226,
+  "likes": 0,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon-H1-3B-Instruct-GPTQ-Int8",
+  "createdAt": "2025-05-12T12:12:48.000Z",
+  "downloads": 173,
+  "likes": 0,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon-H1-3B-Instruct-GPTQ-Int4",
+  "createdAt": "2025-05-12T12:12:33.000Z",
+  "downloads": 179,
+  "likes": 0,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon-H1-1.5B-Deep-Instruct-GPTQ-Int8",
+  "createdAt": "2025-05-12T12:09:49.000Z",
+  "downloads": 143,
+  "likes": 0,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon-H1-1.5B-Deep-Instruct-GPTQ-Int4",
+  "createdAt": "2025-05-12T12:09:31.000Z",
+  "downloads": 140,
+  "likes": 0,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon-H1-1.5B-Instruct-GPTQ-Int8",
+  "createdAt": "2025-05-12T12:08:44.000Z",
+  "downloads": 152,
+  "likes": 0,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon-H1-1.5B-Instruct-GPTQ-Int4",
+  "createdAt": "2025-05-12T12:08:22.000Z",
+  "downloads": 153,
+  "likes": 0,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon-H1-0.5B-Instruct-GPTQ-Int8",
+  "createdAt": "2025-05-12T12:01:47.000Z",
+  "downloads": 167,
+  "likes": 0,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon-H1-0.5B-Instruct-GPTQ-Int4",
+  "createdAt": "2025-05-12T12:01:10.000Z",
+  "downloads": 168,
+  "likes": 0,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon-H1-34B-Instruct",
+  "createdAt": "2025-05-01T15:44:45.000Z",
+  "downloads": 1936,
+  "likes": 52,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon-H1-7B-Instruct",
+  "createdAt": "2025-05-01T15:44:30.000Z",
+  "downloads": 32883,
+  "likes": 36,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon-H1-3B-Instruct",
+  "createdAt": "2025-05-01T15:44:14.000Z",
+  "downloads": 6851,
+  "likes": 15,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon-H1-1.5B-Deep-Instruct",
+  "createdAt": "2025-05-01T15:43:57.000Z",
+  "downloads": 10539,
+  "likes": 40,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon-H1-1.5B-Instruct",
+  "createdAt": "2025-05-01T15:43:29.000Z",
+  "downloads": 1891,
+  "likes": 17,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon-H1-0.5B-Instruct",
+  "createdAt": "2025-05-01T15:43:03.000Z",
+  "downloads": 8859,
+  "likes": 35,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon-H1-34B-Base",
+  "createdAt": "2025-05-01T05:10:32.000Z",
+  "downloads": 604,
+  "likes": 13,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon-H1-7B-Base",
+  "createdAt": "2025-05-01T05:10:01.000Z",
+  "downloads": 2769,
+  "likes": 17,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon-H1-3B-Base",
+  "createdAt": "2025-05-01T05:09:28.000Z",
+  "downloads": 10090,
+  "likes": 7,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon-H1-1.5B-Deep-Base",
+  "createdAt": "2025-05-01T05:09:11.000Z",
+  "downloads": 338,
+  "likes": 6,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon-H1-1.5B-Base",
+  "createdAt": "2025-05-01T05:08:51.000Z",
+  "downloads": 11769,
+  "likes": 3,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon-H1-0.5B-Base",
+  "createdAt": "2025-05-01T05:08:29.000Z",
+  "downloads": 64863,
+  "likes": 17,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon-E-1B-Instruct-GGUF",
+  "createdAt": "2025-04-16T18:54:04.000Z",
+  "downloads": 407,
+  "likes": 6,
+  "pipeline": "",
+  "tags": [
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon-E-3B-Instruct-GGUF",
+  "createdAt": "2025-04-16T18:51:48.000Z",
+  "downloads": 89,
+  "likes": 16,
+  "pipeline": "",
+  "tags": [
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon-E-3B-Instruct",
+  "createdAt": "2025-04-16T13:37:08.000Z",
+  "downloads": 844,
+  "likes": 39,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon-E-1B-Instruct",
+  "createdAt": "2025-04-16T13:36:56.000Z",
+  "downloads": 671,
+  "likes": 10,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon-E-3B-Base",
+  "createdAt": "2025-04-16T13:36:20.000Z",
+  "downloads": 804,
+  "likes": 15,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon-E-1B-Base",
+  "createdAt": "2025-04-10T23:48:03.000Z",
+  "downloads": 885,
+  "likes": 10,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon3-3B-Instruct-1.58bit-GGUF",
+  "createdAt": "2024-12-19T11:10:24.000Z",
+  "downloads": 91,
+  "likes": 1,
+  "pipeline": "",
+  "tags": [
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon3-1B-Instruct-1.58bit-GGUF",
+  "createdAt": "2024-12-19T10:53:32.000Z",
+  "downloads": 91,
+  "likes": 2,
+  "pipeline": "",
+  "tags": [
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon3-10B-Instruct-1.58bit-GGUF",
+  "createdAt": "2024-12-19T10:08:33.000Z",
+  "downloads": 241,
+  "likes": 7,
+  "pipeline": "",
+  "tags": [
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon3-7B-Instruct-1.58bit-GGUF",
+  "createdAt": "2024-12-19T10:05:54.000Z",
+  "downloads": 257,
+  "likes": 7,
+  "pipeline": "",
+  "tags": [
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon3-10B-Base-1.58bit",
+  "createdAt": "2024-12-16T15:50:19.000Z",
+  "downloads": 268,
+  "likes": 11,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon3-1B-Instruct-1.58bit",
+  "createdAt": "2024-12-16T15:32:43.000Z",
+  "downloads": 431,
+  "likes": 10,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon3-10B-Instruct-1.58bit",
+  "createdAt": "2024-12-16T14:42:51.000Z",
+  "downloads": 411,
+  "likes": 27,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon3-Mamba-7B-Instruct-GGUF",
+  "createdAt": "2024-12-16T06:57:21.000Z",
+  "downloads": 459,
+  "likes": 19,
+  "pipeline": "",
+  "tags": [
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon3-Mamba-7B-Base-GGUF",
+  "createdAt": "2024-12-16T06:57:04.000Z",
+  "downloads": 259,
+  "likes": 5,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon3-3B-Instruct-GGUF",
+  "createdAt": "2024-12-14T09:48:13.000Z",
+  "downloads": 859,
+  "likes": 8,
+  "pipeline": "",
+  "tags": [
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon3-1B-Instruct-GGUF",
+  "createdAt": "2024-12-14T09:48:04.000Z",
+  "downloads": 685,
+  "likes": 15,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon3-10B-Instruct-GGUF",
+  "createdAt": "2024-12-14T09:47:55.000Z",
+  "downloads": 801,
+  "likes": 24,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon3-7B-Instruct-GGUF",
+  "createdAt": "2024-12-14T09:42:13.000Z",
+  "downloads": 522,
+  "likes": 15,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon3-1B-Instruct-GPTQ-Int8",
+  "createdAt": "2024-12-14T09:36:32.000Z",
+  "downloads": 139,
+  "likes": 1,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon3-1B-Instruct-GPTQ-Int4",
+  "createdAt": "2024-12-14T09:36:01.000Z",
+  "downloads": 149,
+  "likes": 0,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon3-3B-Instruct-GPTQ-Int4",
+  "createdAt": "2024-12-14T09:22:22.000Z",
+  "downloads": 134,
+  "likes": 0,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon3-3B-Instruct-GPTQ-Int8",
+  "createdAt": "2024-12-14T09:21:41.000Z",
+  "downloads": 133,
+  "likes": 1,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon3-3B-Instruct-AWQ",
+  "createdAt": "2024-12-14T09:20:56.000Z",
+  "downloads": 161,
+  "likes": 0,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon3-1B-Instruct-AWQ",
+  "createdAt": "2024-12-14T09:19:28.000Z",
+  "downloads": 160,
+  "likes": 0,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon3-7B-Instruct-AWQ",
+  "createdAt": "2024-12-14T09:18:25.000Z",
+  "downloads": 164,
+  "likes": 0,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon3-10B-Instruct-AWQ",
+  "createdAt": "2024-12-14T09:17:51.000Z",
+  "downloads": 195,
+  "likes": 1,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon3-10B-Instruct-GPTQ-Int4",
+  "createdAt": "2024-12-14T09:17:06.000Z",
+  "downloads": 240,
+  "likes": 0,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon3-10B-Instruct-GPTQ-Int8",
+  "createdAt": "2024-12-14T09:16:26.000Z",
+  "downloads": 115,
+  "likes": 2,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon3-7B-Instruct-GPTQ-Int4",
+  "createdAt": "2024-12-14T09:15:50.000Z",
+  "downloads": 153,
+  "likes": 1,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon3-7B-Instruct-GPTQ-Int8",
+  "createdAt": "2024-12-14T09:14:54.000Z",
+  "downloads": 217,
+  "likes": 0,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon3-3B-Instruct",
+  "createdAt": "2024-12-14T06:03:53.000Z",
+  "downloads": 7252,
+  "likes": 28,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon3-1B-Instruct",
+  "createdAt": "2024-12-14T05:43:18.000Z",
+  "downloads": 8578,
+  "likes": 46,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon3-10B-Instruct",
+  "createdAt": "2024-12-14T05:17:25.000Z",
+  "downloads": 11214,
+  "likes": 117,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon3-1B-Base",
+  "createdAt": "2024-12-13T12:00:46.000Z",
+  "downloads": 6225,
+  "likes": 31,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon3-Mamba-7B-Instruct",
+  "createdAt": "2024-12-13T10:39:14.000Z",
+  "downloads": 2684,
+  "likes": 34,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon3-3B-Base",
+  "createdAt": "2024-12-13T08:05:46.000Z",
+  "downloads": 1815,
+  "likes": 16,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon3-Mamba-7B-Base",
+  "createdAt": "2024-12-11T13:10:53.000Z",
+  "downloads": 324,
+  "likes": 25,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "tiiuae/Falcon3-10B-Base",
+  "createdAt": "2024-12-03T05:45:34.000Z",
+  "downloads": 1503,
+  "likes": 42,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ }
+]

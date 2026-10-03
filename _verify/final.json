@@ -1,0 +1,517 @@
+﻿[
+  {
+    "title": "DeepSeek-R1",
+    "org": "DeepSeek（深度求索）",
+    "family": "DeepSeek",
+    "released": "2025-01-20",
+    "params": "671B (激活 37B)",
+    "context": "128K",
+    "license": "MIT",
+    "commercial": "可商用",
+    "architecture_tag": "MoE",
+    "type_tag": "纯文本",
+    "summary_zh": "DeepSeek 首个完全开源的推理模型，671B MoE 仅激活 37B，用纯强化学习达到接近 OpenAI o1 的数学与代码推理水平，并以 MIT 许可开放权重与蒸馏模型，直接引爆了 2025 年开源推理模型浪潮。",
+    "links": {
+      "hf": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
+      "github": "https://github.com/deepseek-ai/DeepSeek-R1",
+      "paper": "https://github.com/deepseek-ai/DeepSeek-R1/blob/main/DeepSeek_R1.pdf",
+      "demo": "https://chat.deepseek.com"
+    },
+    "evidence": [
+      "https://api-docs.deepseek.com/news/news250120/",
+      "https://github.com/deepseek-ai/DeepSeek-R1",
+      "https://raw.githubusercontent.com/deepseek-ai/DeepSeek-R1/main/README.md",
+      "https://huggingface.co/api/models/deepseek-ai/DeepSeek-R1"
+    ],
+    "notes": "官方发布页明确写入 MIT 许可、可自由蒸馏与商用；671B/37B、128K 来自官方仓库 README 参数表；HF 仓库创建时间 2025-01-20，与发布日一致。"
+  },
+  {
+    "title": "Qwen2.5-VL-7B-Instruct",
+    "org": "阿里巴巴通义千问（Qwen Team）",
+    "family": "Qwen",
+    "released": "2025-01-26 (官方博客页面标注 January 26, 2025；部分第三方资料写作 2025-01-28)",
+    "params": "7B (Dense)",
+    "context": "128K",
+    "license": "Apache-2.0",
+    "commercial": "可商用",
+    "architecture_tag": "Dense",
+    "type_tag": "可识别图像",
+    "summary_zh": "通义千问 Qwen2.5-VL 系列的 7B 视觉语言模型，支持文档解析、视觉定位、长视频理解与结构化输出，Apache-2.0 完全开放，是 2025 上半年最容易本地部署的开源多模态模型之一。",
+    "links": {
+      "hf": "https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct"
+    },
+    "evidence": [
+      "https://qwenlm.github.io/blog/qwen2.5-vl/",
+      "https://huggingface.co/api/models/Qwen/Qwen2.5-VL-7B-Instruct",
+      "https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct/raw/main/config.json"
+    ],
+    "notes": "发布日期有分歧：官方博客页头与 HF 仓库创建时间均为 2025-01-26，但不少媒体记为 1 月 28 日；同系列 72B 为 Qwen 自有许可（license:other），7B/32B 才是 Apache-2.0，本条目只针对 7B。"
+  },
+  {
+    "title": "Phi-4-multimodal-instruct",
+    "org": "Microsoft（微软）",
+    "family": "Phi",
+    "released": "2025-02-26 (模型卡只写 Release date: February 2025，仅到月份；微软官方博客为 2025-02-26)",
+    "params": "5.6B (Dense)",
+    "context": "128K",
+    "license": "MIT",
+    "commercial": "可商用",
+    "architecture_tag": "Dense",
+    "type_tag": "可识别图像",
+    "summary_zh": "微软首个多模态小模型，5.6B 参数用 mixture-of-LoRAs 同时处理文本、图像与语音并支持 128K 上下文，MIT 许可开放，把多模态能力压到端侧可部署的量级。",
+    "links": {
+      "hf": "https://huggingface.co/microsoft/Phi-4-multimodal-instruct"
+    },
+    "evidence": [
+      "https://aka.ms/phi4-feb2025",
+      "https://huggingface.co/microsoft/Phi-4-multimodal-instruct/raw/main/README.md",
+      "https://huggingface.co/api/models/microsoft/Phi-4-multimodal-instruct"
+    ],
+    "notes": "模型卡自身只标注到月份（February 2025），故日期存在月份级不确定性；微软官方博客《Empowering innovation: The next generation of the Phi family》发布日期为 2025-02-26。上下文 128K 与 5.6B 参数见模型卡。"
+  },
+  {
+    "title": "IBM Granite 3.2 8B Instruct",
+    "org": "IBM",
+    "family": "Granite",
+    "released": "2025-02-26",
+    "params": "8B (Dense)",
+    "context": "128K",
+    "license": "Apache-2.0",
+    "commercial": "可商用",
+    "architecture_tag": "Dense",
+    "type_tag": "纯文本",
+    "summary_zh": "IBM 面向企业场景的 8B 开源模型，在 Granite 3.1 基础上加入 thinking 推理模式与更长上下文，Apache-2.0 全开放并附训练透明度说明，适合私有化企业部署与合规审查。",
+    "links": {
+      "hf": "https://huggingface.co/ibm-granite/granite-3.2-8b-instruct"
+    },
+    "evidence": [
+      "https://newsroom.ibm.com/2025-02-26-IBM-expands-granite-model-family-with-new-multi-modal-and-reasoning-ai-built-for-the-enterprise",
+      "https://huggingface.co/ibm-granite/granite-3.2-8b-instruct/raw/main/README.md",
+      "https://huggingface.co/ibm-granite/granite-3.2-8b-instruct/raw/main/config.json"
+    ],
+    "notes": "IBM 新闻稿日期 2025-02-26；模型卡写明 Apache 2.0；128K 上下文由 config.json 的 max_position_embeddings=131072 与模型卡长上下文说明共同确认。"
+  },
+  {
+    "title": "QwQ-32B",
+    "org": "阿里巴巴通义千问（Qwen Team）",
+    "family": "Qwen",
+    "released": "2025-03-06",
+    "params": "32B (Dense)",
+    "context": "128K",
+    "license": "Apache-2.0",
+    "commercial": "可商用",
+    "architecture_tag": "Dense",
+    "type_tag": "纯文本",
+    "summary_zh": "阿里用强化学习把 32B 稠密模型推到接近 DeepSeek-R1 的推理水平，并首次以 Apache-2.0 完全开放推理权重，证明中等规模模型也能具备强推理能力，是小参数推理模型的标杆。",
+    "links": {
+      "hf": "https://huggingface.co/Qwen/QwQ-32B"
+    },
+    "evidence": [
+      "https://qwenlm.github.io/blog/qwq-32b/",
+      "https://huggingface.co/api/models/Qwen/QwQ-32B"
+    ],
+    "notes": "官方博客日期 March 6, 2025，HF 仓库创建于 2025-03-05；许可 Apache-2.0 由 HF API 标签确认。"
+  },
+  {
+    "title": "Gemma 3 27B IT",
+    "org": "Google DeepMind",
+    "family": "Gemma",
+    "released": "2025-03-12",
+    "params": "27B (Dense)",
+    "context": "128K",
+    "license": "Gemma Terms of Use（Gemma 许可）",
+    "commercial": "有条件可商用",
+    "architecture_tag": "Dense",
+    "type_tag": "可识别图像",
+    "summary_zh": "Google 基于 Gemini 2.0 技术推出的开放权重模型，27B 版本单卡或单 TPU 即可运行，支持 128K 上下文、图像输入与函数调用，以 Gemma 使用条款开放，是欧美大厂开放权重阵营的重要一员。",
+    "links": {
+      "hf": "https://huggingface.co/google/gemma-3-27b-it"
+    },
+    "evidence": [
+      "https://blog.google/technology/developers/gemma-3/",
+      "https://huggingface.co/api/models/google/gemma-3-27b-it"
+    ],
+    "notes": "HF 仓库为 gated，raw 模型卡抓取返回 401；许可证为 Gemma Terms of Use（HF 标签 license:gemma），允许商用但须遵守禁止使用政策，因此归为“有条件可商用”；128K 上下文与 27B 规模来自 Google 官方博客。"
+  },
+  {
+    "title": "OLMo 2 32B Instruct",
+    "org": "Allen Institute for AI (Ai2)",
+    "family": "OLMo",
+    "released": "2025-03-13",
+    "params": "32B (Dense)",
+    "context": "4K (config.json max_position_embeddings=4096)",
+    "license": "Apache-2.0",
+    "commercial": "可商用",
+    "architecture_tag": "Dense",
+    "type_tag": "纯文本",
+    "summary_zh": "艾伦研究所发布的完全开放模型，32B 权重连同训练数据、训练代码与日志一并公开，性能首次在开源模型中超越 GPT-3.5 与 GPT-4o mini，是可复现研究的标杆，但上下文仅 4K。",
+    "links": {
+      "hf": "https://huggingface.co/allenai/OLMo-2-0325-32B-Instruct"
+    },
+    "evidence": [
+      "https://allenai.org/blog/olmo2-32b",
+      "https://huggingface.co/allenai/OLMo-2-0325-32B-Instruct/raw/main/README.md",
+      "https://huggingface.co/allenai/OLMo-2-0325-32B-Instruct/raw/main/config.json"
+    ],
+    "notes": "官方博客日期 March 13, 2025，HF 仓库创建 2025-03-12；上下文长度只有 4096（config.json 确认），明显短于同期模型，使用时需注意。"
+  },
+  {
+    "title": "Command A",
+    "org": "Cohere（Cohere Labs）",
+    "family": "Command",
+    "released": "2025-03-13",
+    "params": "111B (Dense)",
+    "context": "256K (256,000 tokens)",
+    "license": "CC-BY-NC-4.0",
+    "commercial": "不可商用",
+    "architecture_tag": "Dense",
+    "type_tag": "纯文本",
+    "summary_zh": "Cohere 面向企业智能体场景的 111B 开放权重模型，支持 256K 上下文、工具调用与多语言，仅需两张 GPU 即可部署且吞吐较前代提升 150%，但 CC-BY-NC-4.0 许可禁止商业使用。",
+    "links": {
+      "hf": "https://huggingface.co/CohereLabs/c4ai-command-a-03-2025"
+    },
+    "evidence": [
+      "https://cohere.com/blog/command-a",
+      "https://docs.cohere.com/docs/command-a",
+      "https://huggingface.co/api/models/CohereLabs/c4ai-command-a-03-2025"
+    ],
+    "notes": "HF 仓库为 gated，raw 模型卡抓取返回 401，故参数与上下文取自 Cohere 官方文档页（111B、256K），许可证取自 HF API 标签 license:cc-by-nc-4.0（不可商用）；官方抓取页面未显式写出稠密/MoE 字样，架构按 Cohere 技术报告归为 Dense。"
+  },
+  {
+    "title": "Mistral Small 3.1 24B Instruct",
+    "org": "Mistral AI",
+    "family": "Mistral",
+    "released": "2025-03-17",
+    "params": "24B (Dense)",
+    "context": "128K",
+    "license": "Apache-2.0",
+    "commercial": "可商用",
+    "architecture_tag": "Dense",
+    "type_tag": "可识别图像",
+    "summary_zh": "Mistral 的 24B 多模态小模型，把视觉理解、多语言与 128K 上下文压进单张 32GB 显卡可跑的体量，并以 Apache-2.0 完全开放，是本地部署与端侧应用的性价比标杆。",
+    "links": {
+      "hf": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+    },
+    "evidence": [
+      "https://mistral.ai/news/mistral-small-3-1",
+      "https://huggingface.co/api/models/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+    ],
+    "notes": "官方博客日期 March 17, 2025 并写明 128k 上下文、多模态与开源（Apache-2.0）；同期还发布了预训练基座权重。"
+  },
+  {
+    "title": "EXAONE Deep 32B",
+    "org": "LG AI Research",
+    "family": "EXAONE",
+    "released": "2025-03-18",
+    "params": "32B (Dense，不含 embedding 为 30.95B)",
+    "context": "32K (32,768 tokens)",
+    "license": "EXAONE AI Model License Agreement 1.1 - NC",
+    "commercial": "不可商用",
+    "architecture_tag": "Dense",
+    "type_tag": "纯文本",
+    "summary_zh": "LG AI Research 开源的高性能推理模型，32B 参数在 AIME、CSAT 数学与代码推理基准上超过大量更大模型，但其许可证为 1.1-NC 禁止商业使用，是韩国大模型开放成果的代表。",
+    "links": {
+      "hf": "https://huggingface.co/LGAI-EXAONE/EXAONE-Deep-32B"
+    },
+    "evidence": [
+      "https://www.lgresearch.ai/blog/view?seq=543",
+      "https://huggingface.co/LGAI-EXAONE/EXAONE-Deep-32B/raw/main/README.md",
+      "https://huggingface.co/api/models/LGAI-EXAONE/EXAONE-Deep-32B"
+    ],
+    "notes": "LG 官方博客（英文版）标注 2025.03.18，HF 仓库创建于 2025-03-12；模型卡明确写有 “EXAONE AI Model License Agreement 1.1 - NC”，NC 即不可商用；上下文 32,768 见模型卡。"
+  },
+  {
+    "title": "DeepSeek-V3-0324",
+    "org": "DeepSeek（深度求索）",
+    "family": "DeepSeek",
+    "released": "2025-03-25",
+    "params": "671B (激活 37B，沿用 DeepSeek-V3 架构)",
+    "context": "128K",
+    "license": "MIT",
+    "commercial": "可商用",
+    "architecture_tag": "MoE",
+    "type_tag": "纯文本",
+    "summary_zh": "DeepSeek-V3 的 3 月升级版，推理、数学与前端代码能力大幅提升，同时保持 MIT 许可开放 671B MoE 权重，是当时最强的开源非推理通用模型之一，被广泛用作基座与蒸馏教师。",
+    "links": {
+      "hf": "https://huggingface.co/deepseek-ai/DeepSeek-V3-0324"
+    },
+    "evidence": [
+      "https://api-docs.deepseek.com/news/news250325/",
+      "https://huggingface.co/deepseek-ai/DeepSeek-V3-0324/raw/main/README.md",
+      "https://huggingface.co/api/models/deepseek-ai/DeepSeek-V3-0324"
+    ],
+    "notes": "官方新闻页标题即 “DeepSeek-V3-0324 Release 2025/03/25”，HF 仓库创建于 2025-03-24；该版本模型卡只重申 MIT 许可，未重述参数量，671B/37B 与 128K 沿用 DeepSeek-V3 技术报告，属架构级推定。"
+  },
+  {
+    "title": "Llama 4 Maverick 17B-128E Instruct",
+    "org": "Meta",
+    "family": "Llama",
+    "released": "2025-04-05",
+    "params": "400B (激活 17B，128 专家)",
+    "context": "1M (UNVERIFIED：官方博客只明确 Scout 为 10M)",
+    "license": "Llama 4 Community License",
+    "commercial": "有条件可商用",
+    "architecture_tag": "MoE",
+    "type_tag": "可识别图像",
+    "summary_zh": "Meta 首批原生多模态 MoE 开放权重模型，Maverick 以 400B 总参数、17B 激活对标 GPT-4o 与 Gemini 2.0，采用 Llama 4 社区许可并附月活等附加条款，代表美国大厂继续走开放权重路线。",
+    "links": {
+      "hf": "https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct"
+    },
+    "evidence": [
+      "https://ai.meta.com/blog/llama-4-multimodal-intelligence/",
+      "https://huggingface.co/api/models/meta-llama/Llama-4-Maverick-17B-128E-Instruct"
+    ],
+    "notes": "HF 仓库为 gated，raw 模型卡抓取返回 401；400B 总参数/17B 激活与 2025-04-05 发布日来自 Meta 官方博客，Scout 的 10M 上下文亦由该博客确认，但 Maverick 自身上下文长度未能在打开的官方页面确认，故标 UNVERIFIED；许可证为 Llama 4 Community License（HF 标签 license:other），含可接受使用政策与 7 亿月活条款。"
+  },
+  {
+    "title": "GLM-4-32B-0414",
+    "org": "智谱 Zhipu AI / Z.ai",
+    "family": "GLM",
+    "released": "2025-04-14",
+    "params": "32B (Dense)",
+    "context": "32K (config.json max_position_embeddings=32768)",
+    "license": "MIT",
+    "commercial": "可商用",
+    "architecture_tag": "Dense",
+    "type_tag": "纯文本",
+    "summary_zh": "智谱 0414 系列的 32B 稠密基座模型，中文、代码与工具调用能力对齐同期一流模型，以 MIT 许可完全放开商用，是国产中型开源模型的重要选择。",
+    "links": {
+      "hf": "https://huggingface.co/zai-org/GLM-4-32B-0414",
+      "github": "https://github.com/zai-org/GLM-4"
+    },
+    "evidence": [
+      "https://github.com/zai-org/GLM-4",
+      "https://huggingface.co/zai-org/GLM-4-32B-0414/raw/main/README.md",
+      "https://huggingface.co/zai-org/GLM-4-32B-0414/raw/main/config.json"
+    ],
+    "notes": "官方 GitHub News 条目写明 “2025/04/14: We are releasing the GLM-4-32B-0414 series models”；HF 仓库创建于 2025-04-07；模型卡为 license:mit；上下文 32K 由 config.json 确认（README 提到未使用 YaRN 扩展）。"
+  },
+  {
+    "title": "GLM-Z1-32B-0414",
+    "org": "智谱 Zhipu AI / Z.ai",
+    "family": "GLM",
+    "released": "2025-04-14",
+    "params": "32B (Dense)",
+    "context": "32K (config.json max_position_embeddings=32768)",
+    "license": "MIT",
+    "commercial": "可商用",
+    "architecture_tag": "Dense",
+    "type_tag": "纯文本",
+    "summary_zh": "智谱同期开源的 32B 推理模型，通过强化学习与推理蒸馏在数学、代码等任务上媲美规模大得多的模型，MIT 许可可商用，是国产开源推理模型的重要代表。",
+    "links": {
+      "hf": "https://huggingface.co/zai-org/GLM-Z1-32B-0414",
+      "github": "https://github.com/zai-org/GLM-4"
+    },
+    "evidence": [
+      "https://github.com/zai-org/GLM-4",
+      "https://huggingface.co/api/models/zai-org/GLM-Z1-32B-0414",
+      "https://huggingface.co/zai-org/GLM-Z1-32B-0414/raw/main/config.json"
+    ],
+    "notes": "与 GLM-4-32B-0414 同属 2025/04/14 发布的 0414 系列；HF 仓库创建于 2025-04-08；MIT 许可由 HF API 标签确认，32K 上下文由 config.json 确认。"
+  },
+  {
+    "title": "Kimi-VL-A3B-Thinking",
+    "org": "月之暗面 Moonshot AI",
+    "family": "Kimi",
+    "released": "2025-04 (仅月份：HF 仓库创建于 2025-04-09，官方 README 未标注首发日)",
+    "params": "16B (激活 3B)",
+    "context": "128K",
+    "license": "MIT",
+    "commercial": "可商用",
+    "architecture_tag": "MoE",
+    "type_tag": "可识别图像",
+    "summary_zh": "月之暗面开源的 MoE 视觉语言模型，16B 总参数仅激活 3B 即可完成长链式多模态推理与长上下文理解，MIT 许可开放，展示了小激活参数 VLM 的高效路线。",
+    "links": {
+      "hf": "https://huggingface.co/moonshotai/Kimi-VL-A3B-Thinking",
+      "github": "https://github.com/MoonshotAI/Kimi-VL"
+    },
+    "evidence": [
+      "https://github.com/MoonshotAI/Kimi-VL",
+      "https://raw.githubusercontent.com/MoonshotAI/Kimi-VL/main/README.md",
+      "https://huggingface.co/moonshotai/Kimi-VL-A3B-Thinking/raw/main/README.md",
+      "https://huggingface.co/api/models/moonshotai/Kimi-VL-A3B-Thinking"
+    ],
+    "notes": "日期只能精确到月份：官方 README 的 News 段最早只记录 2025.04.14 的社区支持事件，没有首发日期，HF 仓库创建时间为 2025-04-09；16B/3B、128K、MIT 均由模型卡确认；同系列 2506 版本（2025.06.21）不在本条目范围。"
+  },
+  {
+    "title": "Qwen3-235B-A22B",
+    "org": "阿里巴巴通义千问（Qwen Team）",
+    "family": "Qwen",
+    "released": "2025-04-29",
+    "params": "235B (激活 22B)",
+    "context": "128K (原生 32K，可用 YaRN 扩展至 131072)",
+    "license": "Apache-2.0",
+    "commercial": "可商用",
+    "architecture_tag": "MoE",
+    "type_tag": "纯文本",
+    "summary_zh": "通义千问首个混合推理 MoE 旗舰，235B 总参数仅激活 22B，支持 thinking 与非 thinking 双模式并可控制思考预算，覆盖 119 种语言，以 Apache-2.0 开放全部 8 个尺寸。",
+    "links": {
+      "hf": "https://huggingface.co/Qwen/Qwen3-235B-A22B",
+      "github": "https://github.com/QwenLM/Qwen3",
+      "demo": "https://huggingface.co/spaces/Qwen/Qwen3-Demo"
+    },
+    "evidence": [
+      "https://qwenlm.github.io/blog/qwen3/",
+      "https://huggingface.co/api/models/Qwen/Qwen3-235B-A22B",
+      "https://huggingface.co/Qwen/Qwen3-235B-A22B/raw/main/config.json"
+    ],
+    "notes": "官方博客日期 April 29, 2025（HF 仓库创建 2025-04-27），博客明确写 “under Apache 2.0 license”、235B/22B 与 128K 上下文；config.json 的 max_position_embeddings=40960 是原生长度，128K 需 YaRN 配置。"
+  },
+  {
+    "title": "Phi-4-reasoning",
+    "org": "Microsoft（微软）",
+    "family": "Phi",
+    "released": "2025-04-30",
+    "params": "14B (Dense)",
+    "context": "32K",
+    "license": "MIT",
+    "commercial": "可商用",
+    "architecture_tag": "Dense",
+    "type_tag": "纯文本",
+    "summary_zh": "微软基于 Phi-4 打造的 14B 推理模型，以极小体积在数学与逻辑推理上逼近数十倍参数的开源模型，MIT 许可完全开放，是小模型推理能力研究的重要参考。",
+    "links": {
+      "hf": "https://huggingface.co/microsoft/Phi-4-reasoning"
+    },
+    "evidence": [
+      "https://azure.microsoft.com/en-us/blog/one-year-of-phi-small-language-models-making-big-leaps-in-ai/",
+      "https://huggingface.co/microsoft/Phi-4-reasoning/raw/main/README.md"
+    ],
+    "notes": "模型卡字段直接写明 “Release date: April 30, 2025” 与 “License: MIT”，架构 14B 稠密、上下文 32k 同样来自模型卡；微软 Azure 博客同日发布并说明其推理优化。"
+  },
+  {
+    "title": "Falcon-H1-34B-Instruct",
+    "org": "TII（阿联酋技术创新研究院）",
+    "family": "Falcon",
+    "released": "2025-05-20",
+    "params": "34B (Dense，混合头架构)",
+    "context": "256K (config.json max_position_embeddings=262144)",
+    "license": "Falcon-LLM License",
+    "commercial": "可商用",
+    "architecture_tag": "Dense",
+    "type_tag": "纯文本",
+    "summary_zh": "阿联酋 TII 发布的 Falcon-H1 系列 34B 模型，采用 Transformer 与状态空间混合头架构，支持 256K 超长上下文并覆盖多语言，是中东地区开放权重大模型的代表。",
+    "links": {
+      "hf": "https://huggingface.co/tiiuae/Falcon-H1-34B-Instruct"
+    },
+    "evidence": [
+      "https://falcon-lm.github.io/blog/falcon-h1/",
+      "https://huggingface.co/tiiuae/Falcon-H1-34B-Instruct/raw/main/README.md",
+      "https://huggingface.co/tiiuae/Falcon-H1-34B-Instruct/raw/main/config.json"
+    ],
+    "notes": "官方 Falcon 博客日期 May 20, 2025（HF 仓库创建于 2025-05-01，属提前上传）；许可证为 TII 的 Falcon-LLM License（HF 标签 license:other，license_name: falcon-llm-license），按该许可可商用但需遵守可接受使用政策；256K 上下文由 config.json 与系列说明确认。"
+  },
+  {
+    "title": "Devstral Small 1.0 (2505)",
+    "org": "Mistral AI（与 All Hands AI 合作）",
+    "family": "Mistral",
+    "released": "2025-05-21",
+    "params": "24B (Dense)",
+    "context": "128K",
+    "license": "Apache-2.0",
+    "commercial": "可商用",
+    "architecture_tag": "Dense",
+    "type_tag": "纯文本",
+    "summary_zh": "Mistral 与 All Hands AI 合作的代码智能体模型，24B 稠密权重在 SWE-bench Verified 上超越体量大得多的模型，Apache-2.0 开源，专为软件工程 agent 与工具调用场景优化。",
+    "links": {
+      "hf": "https://huggingface.co/mistralai/Devstral-Small-2505"
+    },
+    "evidence": [
+      "https://mistral.ai/news/devstral",
+      "https://huggingface.co/api/models/mistralai/Devstral-Small-2505",
+      "https://huggingface.co/mistralai/Devstral-Small-2505/raw/main/config.json"
+    ],
+    "notes": "官方博客日期 May 21, 2025，Apache-2.0 由 HF API 标签确认；128K 上下文由 config.json（max_position_embeddings=131072）确认。"
+  },
+  {
+    "title": "Magistral Small 1.0 (2506)",
+    "org": "Mistral AI",
+    "family": "Mistral",
+    "released": "2025-06-10",
+    "params": "24B (Dense)",
+    "context": "40K (config.json max_position_embeddings=40960)",
+    "license": "Apache-2.0",
+    "commercial": "可商用",
+    "architecture_tag": "Dense",
+    "type_tag": "纯文本",
+    "summary_zh": "Mistral 首个推理模型的开源版本，24B 稠密权重支持多语言链式思考、可追溯推理轨迹与领域专精，以 Apache-2.0 发布，是欧洲开放权重推理模型的重要一步。",
+    "links": {
+      "hf": "https://huggingface.co/mistralai/Magistral-Small-2506"
+    },
+    "evidence": [
+      "https://mistral.ai/news/magistral",
+      "https://huggingface.co/api/models/mistralai/Magistral-Small-2506",
+      "https://huggingface.co/mistralai/Magistral-Small-2506/raw/main/config.json"
+    ],
+    "notes": "官方博客日期 June 10, 2025，明确 Magistral 为 Mistral 首个推理模型并同时发布开源与企业版本；上下文长度取自 config.json（40960），Mistral 博客未在抓取文本中明确写出该数值。"
+  },
+  {
+    "title": "MiniMax-M1 (80k)",
+    "org": "MiniMax（名之梦）",
+    "family": "MiniMax",
+    "released": "2025-06-16 (官方新闻页未显示日期；arXiv 于 2025-06-16 提交，HF 仓库创建于 2025-06-13)",
+    "params": "456B (激活 45.9B)",
+    "context": "1M (原生百万级；config.json max_position_embeddings=10240000 含扩展)",
+    "license": "Apache-2.0",
+    "commercial": "可商用",
+    "architecture_tag": "MoE",
+    "type_tag": "纯文本",
+    "summary_zh": "MiniMax 开源的大规模混合注意力推理模型，456B 总参数仅激活 45.9B 并原生支持百万级上下文，以 Apache-2.0 发布，把长上下文推理的开放水平推到新高度。",
+    "links": {
+      "hf": "https://huggingface.co/MiniMaxAI/MiniMax-M1-80k",
+      "paper": "https://arxiv.org/abs/2506.13585",
+      "demo": "https://www.minimax.io/news/minimaxm1"
+    },
+    "evidence": [
+      "https://www.minimax.io/news/minimaxm1",
+      "https://arxiv.org/abs/2506.13585",
+      "https://huggingface.co/MiniMaxAI/MiniMax-M1-80k/raw/main/README.md",
+      "https://huggingface.co/api/models/MiniMaxAI/MiniMax-M1-80k"
+    ],
+    "notes": "官方新闻页（minimax.io/news/minimaxm1）可打开但为前端渲染、未显示发布日期，因此日期以官方论文 arXiv 2506.13585 的 “[Submitted on 16 Jun 2025]” 与 HF 仓库创建时间 2025-06-13 为依据；模型卡确认 456B/45.9B、百万 token 上下文与 Apache-2.0；demo 链接实为官方发布新闻页而非交互 demo。"
+  },
+  {
+    "title": "Hunyuan-A13B-Instruct",
+    "org": "腾讯（Tencent Hunyuan）",
+    "family": "Hunyuan",
+    "released": "2025-06-27",
+    "params": "80B (激活 13B)",
+    "context": "256K（默认配置 32K，需调整 max_position_embeddings 才能启用 256K）",
+    "license": "Tencent Hunyuan Community License (tencent-hunyuan-a13b)",
+    "commercial": "有条件可商用",
+    "architecture_tag": "MoE",
+    "type_tag": "纯文本",
+    "summary_zh": "腾讯开源的细粒度 MoE 模型，80B 总参数仅激活 13B，原生支持 256K 超长上下文并同时提供 FP8、GPTQ-Int4 量化版本，采用混元社区许可，对部分地区商用有限制。",
+    "links": {
+      "hf": "https://huggingface.co/tencent/Hunyuan-A13B-Instruct",
+      "github": "https://github.com/Tencent-Hunyuan/Hunyuan-A13B"
+    },
+    "evidence": [
+      "https://github.com/Tencent-Hunyuan/Hunyuan-A13B",
+      "https://huggingface.co/tencent/Hunyuan-A13B-Instruct/raw/main/README.md",
+      "https://huggingface.co/tencent/Hunyuan-A13B-Instruct/raw/main/config.json"
+    ],
+    "notes": "模型卡更新日志写明 “2025.6.27 We have open-sourced Hunyuan-A13B-Pretrain / -Instruct / -FP8 / -GPTQ-Int4”（HF 仓库创建 2025-06-25）；80B/13B 与 256K 上下文见模型卡，config.json 默认 32768；许可为腾讯混元社区许可，含地域等附加限制，具体条款未逐条核对。"
+  },
+  {
+    "title": "ERNIE-4.5-300B-A47B-PT",
+    "org": "百度（Baidu）",
+    "family": "ERNIE",
+    "released": "2025-06-30",
+    "params": "300B (激活 47B)",
+    "context": "128K (131072)",
+    "license": "Apache-2.0",
+    "commercial": "可商用",
+    "architecture_tag": "MoE",
+    "type_tag": "纯文本",
+    "summary_zh": "百度首次大规模开源文心大模型，300B 总参数、47B 激活的异构 MoE 基座以 Apache-2.0 发布并允许商用，标志国产头部厂商正式加入开放权重阵营。",
+    "links": {
+      "hf": "https://huggingface.co/baidu/ERNIE-4.5-300B-A47B-PT"
+    },
+    "evidence": [
+      "https://ernie.baidu.com/blog/posts/ernie4.5",
+      "https://huggingface.co/baidu/ERNIE-4.5-300B-A47B-PT/raw/main/README.md",
+      "https://huggingface.co/baidu/ERNIE-4.5-300B-A47B-PT/raw/main/config.json"
+    ],
+    "notes": "百度官方博客日期 June 30, 2025，并写明 “All models are publicly accessible under Apache 2.0 … permits commercial use”（HF 仓库创建 2025-06-28）；模型卡确认 300B/47B、Context Length 131072；此处为该系列文本 MoE 版本，同系列另有 A3B 与多模态版本。"
+  }
+]

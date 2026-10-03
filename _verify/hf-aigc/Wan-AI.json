@@ -1,0 +1,449 @@
+[
+ {
+  "id": "Wan-AI/Wan2.2-Animate-2-14B-Distilled-Diffusers",
+  "createdAt": "2026-08-06T06:12:58.000Z",
+  "downloads": 4392,
+  "likes": 14,
+  "pipeline": "",
+  "library": "diffusers",
+  "gated": false,
+  "tags": [
+   "diffusers",
+   "safetensors"
+  ]
+ },
+ {
+  "id": "Wan-AI/Wan2.2-Animate-2-14B-Diffusers",
+  "createdAt": "2026-08-06T06:09:59.000Z",
+  "downloads": 781,
+  "likes": 16,
+  "pipeline": "",
+  "library": "diffusers",
+  "gated": false,
+  "tags": [
+   "diffusers",
+   "safetensors"
+  ]
+ },
+ {
+  "id": "Wan-AI/Wan2.2-Animate-2-14B",
+  "createdAt": "2026-07-14T09:16:12.000Z",
+  "downloads": 0,
+  "likes": 283,
+  "pipeline": "",
+  "library": "",
+  "gated": false,
+  "tags": []
+ },
+ {
+  "id": "Wan-AI/Wan-Dancer-14B",
+  "createdAt": "2026-07-10T08:41:49.000Z",
+  "downloads": 16962,
+  "likes": 188,
+  "pipeline": "image-to-video",
+  "library": "diffusers",
+  "gated": false,
+  "tags": [
+   "diffusers",
+   "safetensors",
+   "i2v",
+   "video",
+   "video genration",
+   "music-to-dance",
+   "image-to-video",
+   "en",
+   "zh"
+  ]
+ },
+ {
+  "id": "Wan-AI/Wan2.2-Animate-14B-Diffusers",
+  "createdAt": "2025-11-12T01:42:39.000Z",
+  "downloads": 2828,
+  "likes": 22,
+  "pipeline": "",
+  "library": "diffusers",
+  "gated": false,
+  "tags": [
+   "diffusers",
+   "safetensors"
+  ]
+ },
+ {
+  "id": "Wan-AI/Wan2.2-Animate-14B",
+  "createdAt": "2025-09-11T12:53:31.000Z",
+  "downloads": 122582,
+  "likes": 1269,
+  "pipeline": "video-to-video",
+  "library": "diffusers",
+  "gated": false,
+  "tags": [
+   "diffusers",
+   "onnx",
+   "safetensors",
+   "video-to-video"
+  ]
+ },
+ {
+  "id": "Wan-AI/Wan2.2-S2V-14B",
+  "createdAt": "2025-08-25T02:38:55.000Z",
+  "downloads": 16918,
+  "likes": 483,
+  "pipeline": "image-to-video",
+  "library": "diffusers",
+  "gated": false,
+  "tags": [
+   "diffusers",
+   "safetensors",
+   "s2v",
+   "image-to-video",
+   "es"
+  ]
+ },
+ {
+  "id": "Wan-AI/Wan2.2-I2V-A14B-Diffusers",
+  "createdAt": "2025-07-28T09:05:18.000Z",
+  "downloads": 145470,
+  "likes": 309,
+  "pipeline": "image-to-video",
+  "library": "diffusers",
+  "gated": false,
+  "tags": [
+   "diffusers",
+   "safetensors",
+   "image-to-video",
+   "en",
+   "zh"
+  ]
+ },
+ {
+  "id": "Wan-AI/Wan2.2-T2V-A14B-Diffusers",
+  "createdAt": "2025-07-28T09:04:28.000Z",
+  "downloads": 136146,
+  "likes": 160,
+  "pipeline": "text-to-video",
+  "library": "diffusers",
+  "gated": false,
+  "tags": [
+   "diffusers",
+   "safetensors",
+   "text-to-video"
+  ]
+ },
+ {
+  "id": "Wan-AI/Wan2.2-TI2V-5B-Diffusers",
+  "createdAt": "2025-07-28T09:03:29.000Z",
+  "downloads": 158707,
+  "likes": 167,
+  "pipeline": "text-to-video",
+  "library": "diffusers",
+  "gated": false,
+  "tags": [
+   "diffusers",
+   "safetensors",
+   "text-to-video",
+   "en",
+   "zh"
+  ]
+ },
+ {
+  "id": "Wan-AI/Wan2.2-T2V-A14B",
+  "createdAt": "2025-07-24T15:07:15.000Z",
+  "downloads": 4360,
+  "likes": 575,
+  "pipeline": "text-to-video",
+  "library": "wan2.2",
+  "gated": false,
+  "tags": [
+   "wan2.2",
+   "diffusers",
+   "safetensors",
+   "text-to-video"
+  ]
+ },
+ {
+  "id": "Wan-AI/Wan2.2-I2V-A14B",
+  "createdAt": "2025-07-24T07:51:43.000Z",
+  "downloads": 12191,
+  "likes": 868,
+  "pipeline": "image-to-video",
+  "library": "wan2.2",
+  "gated": false,
+  "tags": [
+   "wan2.2",
+   "diffusers",
+   "safetensors",
+   "image-to-video",
+   "en",
+   "zh"
+  ]
+ },
+ {
+  "id": "Wan-AI/Wan2.2-TI2V-5B",
+  "createdAt": "2025-07-18T09:35:44.000Z",
+  "downloads": 23955,
+  "likes": 796,
+  "pipeline": "text-to-video",
+  "library": "wan2.2",
+  "gated": false,
+  "tags": [
+   "wan2.2",
+   "diffusers",
+   "safetensors",
+   "ti2v",
+   "text-to-video",
+   "en",
+   "zh"
+  ]
+ },
+ {
+  "id": "Wan-AI/Wan2.1-VACE-1.3B-diffusers",
+  "createdAt": "2025-06-04T12:31:40.000Z",
+  "downloads": 18240,
+  "likes": 32,
+  "pipeline": "image-to-video",
+  "library": "diffusers",
+  "gated": false,
+  "tags": [
+   "diffusers",
+   "safetensors",
+   "video generation",
+   "video-to-video editing",
+   "refernce-to-video",
+   "image-to-video",
+   "en",
+   "zh"
+  ]
+ },
+ {
+  "id": "Wan-AI/Wan2.1-VACE-14B-diffusers",
+  "createdAt": "2025-06-04T12:31:03.000Z",
+  "downloads": 2862,
+  "likes": 34,
+  "pipeline": "image-to-video",
+  "library": "diffusers",
+  "gated": false,
+  "tags": [
+   "diffusers",
+   "safetensors",
+   "video generation",
+   "video-to-video editing",
+   "refernce-to-video",
+   "image-to-video",
+   "en",
+   "zh"
+  ]
+ },
+ {
+  "id": "Wan-AI/Wan2.1-VACE-14B",
+  "createdAt": "2025-05-13T07:40:37.000Z",
+  "downloads": 66338,
+  "likes": 514,
+  "pipeline": "image-to-video",
+  "library": "diffusers",
+  "gated": false,
+  "tags": [
+   "diffusers",
+   "safetensors",
+   "vace",
+   "video generation",
+   "video-to-video editing",
+   "refernce-to-video",
+   "image-to-video",
+   "en",
+   "zh"
+  ]
+ },
+ {
+  "id": "Wan-AI/Wan2.1-VACE-1.3B",
+  "createdAt": "2025-05-13T07:38:10.000Z",
+  "downloads": 20175,
+  "likes": 148,
+  "pipeline": "image-to-video",
+  "library": "diffusers",
+  "gated": false,
+  "tags": [
+   "diffusers",
+   "safetensors",
+   "vace",
+   "video generation",
+   "video-to-video editing",
+   "refernce-to-video",
+   "image-to-video",
+   "en",
+   "zh"
+  ]
+ },
+ {
+  "id": "Wan-AI/Wan2.1-FLF2V-14B-720P-diffusers",
+  "createdAt": "2025-04-18T08:31:43.000Z",
+  "downloads": 1280,
+  "likes": 30,
+  "pipeline": "",
+  "library": "diffusers",
+  "gated": false,
+  "tags": [
+   "diffusers",
+   "safetensors"
+  ]
+ },
+ {
+  "id": "Wan-AI/Wan2.1-FLF2V-14B-720P",
+  "createdAt": "2025-04-17T03:11:33.000Z",
+  "downloads": 7439,
+  "likes": 229,
+  "pipeline": "",
+  "library": "diffusers",
+  "gated": false,
+  "tags": [
+   "diffusers",
+   "safetensors",
+   "flf2v"
+  ]
+ },
+ {
+  "id": "Wan-AI/Wan2.1-I2V-14B-480P-Diffusers",
+  "createdAt": "2025-03-01T08:40:44.000Z",
+  "downloads": 73752,
+  "likes": 64,
+  "pipeline": "image-to-video",
+  "library": "diffusers",
+  "gated": false,
+  "tags": [
+   "diffusers",
+   "safetensors",
+   "video",
+   "video-generation",
+   "image-to-video",
+   "en",
+   "zh"
+  ]
+ },
+ {
+  "id": "Wan-AI/Wan2.1-I2V-14B-720P-Diffusers",
+  "createdAt": "2025-03-01T08:40:19.000Z",
+  "downloads": 83984,
+  "likes": 60,
+  "pipeline": "image-to-video",
+  "library": "diffusers",
+  "gated": false,
+  "tags": [
+   "diffusers",
+   "safetensors",
+   "video",
+   "video genration",
+   "image-to-video",
+   "en",
+   "zh"
+  ]
+ },
+ {
+  "id": "Wan-AI/Wan2.1-T2V-14B-Diffusers",
+  "createdAt": "2025-03-01T08:39:52.000Z",
+  "downloads": 81414,
+  "likes": 54,
+  "pipeline": "text-to-video",
+  "library": "diffusers",
+  "gated": false,
+  "tags": [
+   "diffusers",
+   "safetensors",
+   "video generation",
+   "text-to-video",
+   "en",
+   "zh"
+  ]
+ },
+ {
+  "id": "Wan-AI/Wan2.1-T2V-1.3B-Diffusers",
+  "createdAt": "2025-03-01T08:39:07.000Z",
+  "downloads": 254010,
+  "likes": 158,
+  "pipeline": "text-to-video",
+  "library": "diffusers",
+  "gated": false,
+  "tags": [
+   "diffusers",
+   "safetensors",
+   "video",
+   "video-generation",
+   "text-to-video",
+   "en",
+   "zh"
+  ]
+ },
+ {
+  "id": "Wan-AI/Wan2.1-T2V-1.3B",
+  "createdAt": "2025-02-25T11:13:48.000Z",
+  "downloads": 45381,
+  "likes": 595,
+  "pipeline": "text-to-video",
+  "library": "diffusers",
+  "gated": false,
+  "tags": [
+   "diffusers",
+   "safetensors",
+   "t2v",
+   "video",
+   "video-generation",
+   "text-to-video",
+   "en",
+   "zh"
+  ]
+ },
+ {
+  "id": "Wan-AI/Wan2.1-I2V-14B-720P",
+  "createdAt": "2025-02-25T07:57:27.000Z",
+  "downloads": 18259,
+  "likes": 611,
+  "pipeline": "image-to-video",
+  "library": "diffusers",
+  "gated": false,
+  "tags": [
+   "diffusers",
+   "safetensors",
+   "i2v",
+   "video",
+   "video genration",
+   "image-to-video",
+   "en",
+   "zh"
+  ]
+ },
+ {
+  "id": "Wan-AI/Wan2.1-I2V-14B-480P",
+  "createdAt": "2025-02-25T07:56:55.000Z",
+  "downloads": 67339,
+  "likes": 237,
+  "pipeline": "image-to-video",
+  "library": "diffusers",
+  "gated": false,
+  "tags": [
+   "diffusers",
+   "safetensors",
+   "i2v",
+   "video",
+   "video-generation",
+   "image-to-video",
+   "en",
+   "zh"
+  ]
+ },
+ {
+  "id": "Wan-AI/Wan2.1-T2V-14B",
+  "createdAt": "2025-02-25T07:26:34.000Z",
+  "downloads": 65437,
+  "likes": 1567,
+  "pipeline": "text-to-video",
+  "library": "diffusers",
+  "gated": false,
+  "tags": [
+   "diffusers",
+   "safetensors",
+   "t2v",
+   "video generation",
+   "text-to-video",
+   "en",
+   "zh"
+  ]
+ }
+]

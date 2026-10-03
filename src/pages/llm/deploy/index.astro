@@ -1,0 +1,37 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import EntryList from '../../../components/EntryList.astro';
+import { DEPLOY_KINDS } from '../../../lib/taxonomy';
+import { entriesOf } from '../../../lib/entries';
+
+const entries = await entriesOf('deploy');
+/**
+ * 部署方式按方案大类分组，不做时间线。
+ * 大类按**条目数从少到多**排（条数相同按 DEPLOY_KINDS 顺序）；
+ * 大类内按 `stars`（GitHub star 热度）从高到低排，没写 star 的排最后。
+ */
+const groups = DEPLOY_KINDS.map((kind) => ({
+  kind,
+  items: entries
+    .filter((entry) => entry.kind === kind)
+    .sort((a, b) => (b.stars ?? -1) - (a.stars ?? -1) || b.released.getTime() - a.released.getTime()),
+})).filter((group) => group.items.length > 0);
+groups.sort((a, b) => a.items.length - b.items.length);
+---
+
+<BaseLayout title="部署方式" description="本地部署 LLM 的工具与框架，按方案大类分组：大类按条数从少到多，类内按 GitHub star 热度从高到低">
+  {
+    groups.length === 0 ? (
+      <p class="page-desc">这里还没有方案。</p>
+    ) : (
+      groups.map((group) => (
+        <section class="section">
+          <h2>
+            {group.kind} <span class="fact">{group.items.length}</span>
+          </h2>
+          <EntryList entries={group.items} variant="deploy" />
+        </section>
+      ))
+    )
+  }
+</BaseLayout>

@@ -1,0 +1,47 @@
+[
+ {
+  "id": "IDEA-Research/Rex-Omni-AWQ",
+  "createdAt": "2025-10-31T02:22:31.000Z",
+  "downloads": 13248,
+  "likes": 5,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "IDEA-Research/Rex-Omni",
+  "createdAt": "2025-10-09T10:41:00.000Z",
+  "downloads": 12247,
+  "likes": 64,
+  "pipeline": "image-text-to-text",
+  "tags": [
+   "image-text-to-text",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "IDEA-Research/Rex-Thinker-GRPO-7B",
+  "createdAt": "2025-05-23T04:01:02.000Z",
+  "downloads": 3510,
+  "likes": 11,
+  "pipeline": "zero-shot-object-detection",
+  "tags": [
+   "image-text-to-text"
+  ],
+  "gated": false
+ },
+ {
+  "id": "IDEA-Research/RexSeek-3B",
+  "createdAt": "2025-03-10T02:05:05.000Z",
+  "downloads": 279,
+  "likes": 10,
+  "pipeline": "image-text-to-text",
+  "tags": [
+   "text-generation",
+   "image-text-to-text",
+   "conversational"
+  ],
+  "gated": false
+ }
+]

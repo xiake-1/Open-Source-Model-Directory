@@ -1,0 +1,2062 @@
+[
+ {
+  "id": "microsoft/rho-roboeval",
+  "createdAt": "2026-09-21T19:13:53.000Z",
+  "downloads": 0,
+  "likes": 3,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/VibeVoice-ASR-Streaming-1.5B",
+  "createdAt": "2026-09-02T15:51:38.000Z",
+  "downloads": 12222,
+  "likes": 58,
+  "pipeline": "automatic-speech-recognition",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/VibeVoice-ASR-Streaming-7B",
+  "createdAt": "2026-09-02T15:46:22.000Z",
+  "downloads": 7048,
+  "likes": 251,
+  "pipeline": "automatic-speech-recognition",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/rho-libero",
+  "createdAt": "2026-08-28T23:17:11.000Z",
+  "downloads": 0,
+  "likes": 2,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/SQuadGen",
+  "createdAt": "2026-08-27T04:53:22.000Z",
+  "downloads": 0,
+  "likes": 4,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/rho-yam-box",
+  "createdAt": "2026-08-26T21:10:42.000Z",
+  "downloads": 0,
+  "likes": 3,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/rho-ur-ai-trainer",
+  "createdAt": "2026-08-26T21:10:08.000Z",
+  "downloads": 0,
+  "likes": 2,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/rho-fr3-duo",
+  "createdAt": "2026-08-26T21:09:30.000Z",
+  "downloads": 0,
+  "likes": 2,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Mage-ViT",
+  "createdAt": "2026-07-26T04:22:45.000Z",
+  "downloads": 254,
+  "likes": 37,
+  "pipeline": "image-feature-extraction",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Mage-VL",
+  "createdAt": "2026-07-25T08:29:09.000Z",
+  "downloads": 11506,
+  "likes": 414,
+  "pipeline": "image-text-to-text",
+  "tags": [
+   "image-text-to-text",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/VibeVoice-ASR-BitNet",
+  "createdAt": "2026-07-24T06:03:05.000Z",
+  "downloads": 61271,
+  "likes": 202,
+  "pipeline": "automatic-speech-recognition",
+  "tags": [
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Fara1.5-27B",
+  "createdAt": "2026-07-17T20:09:59.000Z",
+  "downloads": 1956,
+  "likes": 292,
+  "pipeline": "image-text-to-text",
+  "tags": [
+   "image-text-to-text",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Fara1.5-4B",
+  "createdAt": "2026-07-17T19:59:47.000Z",
+  "downloads": 1632,
+  "likes": 47,
+  "pipeline": "image-text-to-text",
+  "tags": [
+   "image-text-to-text",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/bitnet-embedding-0.6b",
+  "createdAt": "2026-07-15T09:38:59.000Z",
+  "downloads": 1452,
+  "likes": 27,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/bitnet-embedding-270m",
+  "createdAt": "2026-07-15T09:25:12.000Z",
+  "downloads": 1016,
+  "likes": 19,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/HARC-Qwen2.5-7B-Instruct",
+  "createdAt": "2026-07-02T05:50:15.000Z",
+  "downloads": 560,
+  "likes": 2,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/HARC-Llama-3.1-8B-Instruct",
+  "createdAt": "2026-07-02T05:50:14.000Z",
+  "downloads": 533,
+  "likes": 2,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/GELab-Zero-4B-preview-Sico-Evolution",
+  "createdAt": "2026-06-30T12:46:05.000Z",
+  "downloads": 1,
+  "likes": 57,
+  "pipeline": "image-text-to-text",
+  "tags": [
+   "image-text-to-text",
+   "conversational"
+  ],
+  "gated": "auto"
+ },
+ {
+  "id": "microsoft/rho-base",
+  "createdAt": "2026-06-11T09:48:57.000Z",
+  "downloads": 0,
+  "likes": 5,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/HARC",
+  "createdAt": "2026-06-02T02:33:07.000Z",
+  "downloads": 0,
+  "likes": 10,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/MuseVLA",
+  "createdAt": "2026-06-01T01:15:48.000Z",
+  "downloads": 0,
+  "likes": 3,
+  "pipeline": "robotics",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/vermeer-XL-CA",
+  "createdAt": "2026-05-26T17:55:46.000Z",
+  "downloads": 0,
+  "likes": 1,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/vermeer-XL",
+  "createdAt": "2026-05-26T17:55:37.000Z",
+  "downloads": 0,
+  "likes": 2,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/vermeer-L-AP",
+  "createdAt": "2026-05-26T17:55:01.000Z",
+  "downloads": 0,
+  "likes": 1,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/vermeer-L",
+  "createdAt": "2026-05-26T17:54:56.000Z",
+  "downloads": 0,
+  "likes": 2,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/MagenticBrain",
+  "createdAt": "2026-05-12T20:48:55.000Z",
+  "downloads": 724,
+  "likes": 32,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/GridSFM_Open",
+  "createdAt": "2026-05-12T19:04:04.000Z",
+  "downloads": 0,
+  "likes": 29,
+  "pipeline": "graph-ml",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Fara1.5-9B",
+  "createdAt": "2026-05-12T16:31:18.000Z",
+  "downloads": 4585,
+  "likes": 46,
+  "pipeline": "image-text-to-text",
+  "tags": [
+   "image-text-to-text",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Phi-Ground-Any",
+  "createdAt": "2026-05-07T05:00:37.000Z",
+  "downloads": 295,
+  "likes": 18,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Dayhoff-3b-UR90-30000",
+  "createdAt": "2026-04-14T00:33:33.000Z",
+  "downloads": 328,
+  "likes": 1,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Dayhoff-3b-UR90-20350",
+  "createdAt": "2026-04-14T00:30:50.000Z",
+  "downloads": 333,
+  "likes": 1,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Dayhoff-3b-UR90-10000",
+  "createdAt": "2026-04-14T00:27:13.000Z",
+  "downloads": 327,
+  "likes": 1,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Dayhoff-3b-UR90-10",
+  "createdAt": "2026-04-14T00:23:43.000Z",
+  "downloads": 335,
+  "likes": 1,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/skala-baselines",
+  "createdAt": "2026-04-13T09:08:29.000Z",
+  "downloads": 1336,
+  "likes": 7,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/skala-1.0",
+  "createdAt": "2026-04-13T08:45:00.000Z",
+  "downloads": 4194,
+  "likes": 7,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/skala-1.1",
+  "createdAt": "2026-04-13T08:31:48.000Z",
+  "downloads": 26928,
+  "likes": 12,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/vermeer-B",
+  "createdAt": "2026-04-06T15:49:36.000Z",
+  "downloads": 0,
+  "likes": 3,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Dayhoff-170M-GRS-SS-134000",
+  "createdAt": "2026-04-03T22:16:56.000Z",
+  "downloads": 293,
+  "likes": 2,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Dayhoff-170M-GRS-SS-122000",
+  "createdAt": "2026-04-03T22:16:27.000Z",
+  "downloads": 299,
+  "likes": 3,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Dayhoff-170M-GRS-SS-110000",
+  "createdAt": "2026-04-03T22:15:59.000Z",
+  "downloads": 265,
+  "likes": 0,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Dayhoff-170M-GRS-SS-98000",
+  "createdAt": "2026-04-03T22:15:31.000Z",
+  "downloads": 247,
+  "likes": 0,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Dayhoff-170M-GRS-SS-86000",
+  "createdAt": "2026-04-03T22:15:01.000Z",
+  "downloads": 256,
+  "likes": 0,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Dayhoff-170M-GRS-SS-74000",
+  "createdAt": "2026-04-03T22:14:33.000Z",
+  "downloads": 259,
+  "likes": 0,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Dayhoff-170M-GRS-SS-62000",
+  "createdAt": "2026-04-03T22:14:05.000Z",
+  "downloads": 257,
+  "likes": 0,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Dayhoff-170M-GRS-SS-50000",
+  "createdAt": "2026-04-03T22:13:36.000Z",
+  "downloads": 265,
+  "likes": 0,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Dayhoff-170M-GRS-SS-38000",
+  "createdAt": "2026-04-03T22:13:01.000Z",
+  "downloads": 269,
+  "likes": 0,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Dayhoff-170M-GRS-SS-26000",
+  "createdAt": "2026-04-03T22:12:29.000Z",
+  "downloads": 264,
+  "likes": 0,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Dayhoff-170M-GRS-SS-14000",
+  "createdAt": "2026-04-03T22:11:59.000Z",
+  "downloads": 252,
+  "likes": 0,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Dayhoff-170M-UR90-HL-48000",
+  "createdAt": "2026-04-02T01:46:06.000Z",
+  "downloads": 266,
+  "likes": 1,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Dayhoff-170M-UR90-HL-46000",
+  "createdAt": "2026-04-02T01:45:34.000Z",
+  "downloads": 254,
+  "likes": 0,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Dayhoff-170M-UR90-HL-44000",
+  "createdAt": "2026-04-02T01:45:12.000Z",
+  "downloads": 258,
+  "likes": 0,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Dayhoff-170M-UR90-HL-42000",
+  "createdAt": "2026-04-02T01:44:50.000Z",
+  "downloads": 265,
+  "likes": 0,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Dayhoff-170M-UR90-HL-40000",
+  "createdAt": "2026-04-02T01:44:28.000Z",
+  "downloads": 262,
+  "likes": 0,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Dayhoff-170M-UR90-HL-38000",
+  "createdAt": "2026-04-02T01:44:06.000Z",
+  "downloads": 253,
+  "likes": 0,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Dayhoff-170M-UR90-HL-36000",
+  "createdAt": "2026-04-02T01:43:42.000Z",
+  "downloads": 266,
+  "likes": 0,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Dayhoff-170M-UR90-HL-34000",
+  "createdAt": "2026-04-02T01:43:10.000Z",
+  "downloads": 261,
+  "likes": 0,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Dayhoff-170M-UR90-HL-32000",
+  "createdAt": "2026-04-02T01:42:38.000Z",
+  "downloads": 283,
+  "likes": 0,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Dayhoff-170M-UR90-HL-30000",
+  "createdAt": "2026-04-02T01:42:06.000Z",
+  "downloads": 229,
+  "likes": 0,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Dayhoff-170M-UR90-HL-28000",
+  "createdAt": "2026-04-02T01:41:34.000Z",
+  "downloads": 222,
+  "likes": 0,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Dayhoff-170M-UR90-HL-26000",
+  "createdAt": "2026-04-02T01:41:12.000Z",
+  "downloads": 215,
+  "likes": 0,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Dayhoff-170M-UR90-HL-24000",
+  "createdAt": "2026-04-02T01:40:50.000Z",
+  "downloads": 225,
+  "likes": 0,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Dayhoff-170M-UR90-HL-22000",
+  "createdAt": "2026-04-02T01:40:18.000Z",
+  "downloads": 222,
+  "likes": 0,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Dayhoff-170M-UR90-HL-20000",
+  "createdAt": "2026-04-02T01:39:56.000Z",
+  "downloads": 232,
+  "likes": 0,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Dayhoff-170M-UR90-HL-18000",
+  "createdAt": "2026-04-02T01:39:34.000Z",
+  "downloads": 211,
+  "likes": 0,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Dayhoff-170M-UR90-HL-16000",
+  "createdAt": "2026-04-02T01:39:12.000Z",
+  "downloads": 230,
+  "likes": 0,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Dayhoff-170M-UR90-HL-14000",
+  "createdAt": "2026-04-02T01:38:40.000Z",
+  "downloads": 230,
+  "likes": 0,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Dayhoff-170M-UR90-HL-12000",
+  "createdAt": "2026-04-02T01:38:17.000Z",
+  "downloads": 205,
+  "likes": 0,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Dayhoff-170M-UR90-HL-10000",
+  "createdAt": "2026-04-02T01:37:55.000Z",
+  "downloads": 229,
+  "likes": 0,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Dayhoff-170M-UR90-HL-8000",
+  "createdAt": "2026-04-02T01:37:33.000Z",
+  "downloads": 212,
+  "likes": 0,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Dayhoff-170M-UR90-HL-6000",
+  "createdAt": "2026-04-02T01:36:59.000Z",
+  "downloads": 220,
+  "likes": 0,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Dayhoff-170M-UR90-HL-4000",
+  "createdAt": "2026-04-02T01:36:37.000Z",
+  "downloads": 219,
+  "likes": 0,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Dayhoff-170M-UR90-HL-2000",
+  "createdAt": "2026-04-02T01:36:05.000Z",
+  "downloads": 225,
+  "likes": 0,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/harrier-oss-v1-27b",
+  "createdAt": "2026-03-30T08:01:43.000Z",
+  "downloads": 5568,
+  "likes": 161,
+  "pipeline": "feature-extraction",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/harrier-oss-v1-0.6b",
+  "createdAt": "2026-03-30T08:00:39.000Z",
+  "downloads": 300795,
+  "likes": 314,
+  "pipeline": "feature-extraction",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/harrier-oss-v1-270m",
+  "createdAt": "2026-03-30T07:20:02.000Z",
+  "downloads": 223615,
+  "likes": 201,
+  "pipeline": "feature-extraction",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/UniRG-CXR",
+  "createdAt": "2026-03-19T23:19:27.000Z",
+  "downloads": 504,
+  "likes": 2,
+  "pipeline": "image-text-to-text",
+  "tags": [
+   "image-text-to-text",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/psirnet",
+  "createdAt": "2026-03-18T21:55:51.000Z",
+  "downloads": 0,
+  "likes": 5,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/SchGen",
+  "createdAt": "2026-03-18T00:51:15.000Z",
+  "downloads": 250,
+  "likes": 33,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/VibeVoice-ASR-HF",
+  "createdAt": "2026-03-02T02:48:09.000Z",
+  "downloads": 59230,
+  "likes": 182,
+  "pipeline": "audio-text-to-text",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Dayhoff-170M-GRS-76000",
+  "createdAt": "2026-02-24T01:51:47.000Z",
+  "downloads": 222,
+  "likes": 2,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Dayhoff-170M-GRS-50000",
+  "createdAt": "2026-02-24T01:51:26.000Z",
+  "downloads": 222,
+  "likes": 0,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Dayhoff-170M-GRS-26000",
+  "createdAt": "2026-02-24T01:51:07.000Z",
+  "downloads": 229,
+  "likes": 1,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Dayhoff-170M-GRS-112000",
+  "createdAt": "2026-02-24T01:50:49.000Z",
+  "downloads": 240,
+  "likes": 1,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Dayhoff-170M-GRS-2000",
+  "createdAt": "2026-02-24T01:50:20.000Z",
+  "downloads": 222,
+  "likes": 0,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/VibeVoice-AcousticTokenizer",
+  "createdAt": "2026-02-06T03:33:31.000Z",
+  "downloads": 534,
+  "likes": 16,
+  "pipeline": "feature-extraction",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Dayhoff-3b-GR-HM-1000",
+  "createdAt": "2026-02-04T00:22:48.000Z",
+  "downloads": 222,
+  "likes": 2,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Dayhoff-170M-GR-1000",
+  "createdAt": "2026-02-04T00:21:00.000Z",
+  "downloads": 216,
+  "likes": 2,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Dayhoff-170M-UR90-1000",
+  "createdAt": "2026-02-04T00:20:41.000Z",
+  "downloads": 209,
+  "likes": 0,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/X-Reasoner-7B",
+  "createdAt": "2026-02-03T17:48:16.000Z",
+  "downloads": 463,
+  "likes": 10,
+  "pipeline": "image-text-to-text",
+  "tags": [
+   "image-text-to-text",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/InfoAgent",
+  "createdAt": "2026-01-30T03:06:10.000Z",
+  "downloads": 0,
+  "likes": 15,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Dayhoff-170M-GR-61000",
+  "createdAt": "2026-01-24T19:28:54.000Z",
+  "downloads": 213,
+  "likes": 0,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Dayhoff-170M-GR-46000",
+  "createdAt": "2026-01-24T19:28:32.000Z",
+  "downloads": 218,
+  "likes": 1,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Dayhoff-170M-GR-31000",
+  "createdAt": "2026-01-24T19:28:13.000Z",
+  "downloads": 244,
+  "likes": 0,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Dayhoff-170M-GR-16000",
+  "createdAt": "2026-01-24T19:27:52.000Z",
+  "downloads": 205,
+  "likes": 0,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Dayhoff-3b-GR-HM-41000",
+  "createdAt": "2026-01-24T18:24:36.000Z",
+  "downloads": 218,
+  "likes": 2,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Dayhoff-3b-GR-HM-31000",
+  "createdAt": "2026-01-24T18:21:28.000Z",
+  "downloads": 217,
+  "likes": 0,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Dayhoff-3b-GR-HM-21000",
+  "createdAt": "2026-01-24T18:18:47.000Z",
+  "downloads": 228,
+  "likes": 0,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Dayhoff-3b-GR-HM-11000",
+  "createdAt": "2026-01-24T18:15:57.000Z",
+  "downloads": 228,
+  "likes": 1,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Dayhoff-170M-UR90-61000",
+  "createdAt": "2026-01-24T18:14:08.000Z",
+  "downloads": 242,
+  "likes": 0,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Dayhoff-170M-UR90-46000",
+  "createdAt": "2026-01-24T18:13:47.000Z",
+  "downloads": 215,
+  "likes": 0,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Dayhoff-170M-UR90-31000",
+  "createdAt": "2026-01-24T18:13:26.000Z",
+  "downloads": 210,
+  "likes": 0,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Dayhoff-170M-UR90-16000",
+  "createdAt": "2026-01-24T18:13:04.000Z",
+  "downloads": 219,
+  "likes": 0,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Dayhoff-170M-UR-90-31000",
+  "createdAt": "2026-01-24T17:55:03.000Z",
+  "downloads": 210,
+  "likes": 0,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Phi-4-reasoning-vision-15B",
+  "createdAt": "2026-01-23T18:37:34.000Z",
+  "downloads": 2872,
+  "likes": 179,
+  "pipeline": "image-text-to-text",
+  "tags": [
+   "image-text-to-text",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/VibeVoice-ASR",
+  "createdAt": "2026-01-21T15:04:18.000Z",
+  "downloads": 727907,
+  "likes": 1302,
+  "pipeline": "automatic-speech-recognition",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/colipri",
+  "createdAt": "2026-01-14T10:36:04.000Z",
+  "downloads": 2737,
+  "likes": 65,
+  "pipeline": "zero-shot-image-classification",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/FrogMini-14B-2510",
+  "createdAt": "2026-01-09T16:43:09.000Z",
+  "downloads": 308,
+  "likes": 64,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/paza-whisper-large-v3-turbo",
+  "createdAt": "2026-01-08T07:41:57.000Z",
+  "downloads": 695,
+  "likes": 11,
+  "pipeline": "automatic-speech-recognition",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/paza-Phi-4-multimodal-instruct",
+  "createdAt": "2026-01-07T13:00:47.000Z",
+  "downloads": 263,
+  "likes": 6,
+  "pipeline": "automatic-speech-recognition",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/FrogBoss-32B-2510",
+  "createdAt": "2026-01-05T21:08:54.000Z",
+  "downloads": 394,
+  "likes": 38,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/simpoly",
+  "createdAt": "2025-12-18T09:34:16.000Z",
+  "downloads": 0,
+  "likes": 1,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/OptiMind-SFT",
+  "createdAt": "2025-12-10T21:02:04.000Z",
+  "downloads": 6677,
+  "likes": 104,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/VITRA-VLA-3B",
+  "createdAt": "2025-12-09T08:05:18.000Z",
+  "downloads": 107,
+  "likes": 16,
+  "pipeline": "robotics",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/VibeVoice-Realtime-0.5B",
+  "createdAt": "2025-12-04T05:32:08.000Z",
+  "downloads": 174583,
+  "likes": 1297,
+  "pipeline": "text-to-speech",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Fara-7B-onnx",
+  "createdAt": "2025-12-03T23:38:50.000Z",
+  "downloads": 130,
+  "likes": 1,
+  "pipeline": "image-text-to-text",
+  "tags": [
+   "image-text-to-text"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/TRELLIS.2-4B",
+  "createdAt": "2025-12-01T02:25:40.000Z",
+  "downloads": 1653451,
+  "likes": 1274,
+  "pipeline": "image-to-3d",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/SNRAware",
+  "createdAt": "2025-11-07T04:04:32.000Z",
+  "downloads": 0,
+  "likes": 2,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Fara-7B",
+  "createdAt": "2025-10-30T18:56:59.000Z",
+  "downloads": 10059,
+  "likes": 621,
+  "pipeline": "image-text-to-text",
+  "tags": [
+   "image-text-to-text",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/STELLAR",
+  "createdAt": "2025-10-28T18:23:10.000Z",
+  "downloads": 307,
+  "likes": 13,
+  "pipeline": "image-feature-extraction",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/UserLM-8b",
+  "createdAt": "2025-09-30T20:42:21.000Z",
+  "downloads": 1054,
+  "likes": 389,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/VibeVoice-1.5B",
+  "createdAt": "2025-08-25T13:46:48.000Z",
+  "downloads": 725889,
+  "likes": 2488,
+  "pipeline": "text-to-speech",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/chatbench-mistral-7b",
+  "createdAt": "2025-08-23T02:30:35.000Z",
+  "downloads": 21,
+  "likes": 5,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/chatbench-llama3-8b",
+  "createdAt": "2025-08-23T02:10:15.000Z",
+  "downloads": 20,
+  "likes": 6,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/chatbench-distilgpt2",
+  "createdAt": "2025-08-23T00:21:56.000Z",
+  "downloads": 394,
+  "likes": 4,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Phi-Ground",
+  "createdAt": "2025-08-15T02:28:45.000Z",
+  "downloads": 254,
+  "likes": 21,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/MediPhi-Instruct",
+  "createdAt": "2025-07-11T19:28:15.000Z",
+  "downloads": 1563,
+  "likes": 70,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/CAD-Editor",
+  "createdAt": "2025-07-09T12:48:04.000Z",
+  "downloads": 0,
+  "likes": 17,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Dayhoff-170m-UR90",
+  "createdAt": "2025-07-04T18:22:54.000Z",
+  "downloads": 250,
+  "likes": 1,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Dayhoff-3b-UR90",
+  "createdAt": "2025-07-04T18:20:27.000Z",
+  "downloads": 265,
+  "likes": 2,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Dayhoff-170m-UR50-BRn",
+  "createdAt": "2025-07-04T18:19:55.000Z",
+  "downloads": 220,
+  "likes": 1,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Dayhoff-3b-GR-HM",
+  "createdAt": "2025-07-04T18:17:24.000Z",
+  "downloads": 223,
+  "likes": 2,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Dayhoff-170m-UR50-BRu",
+  "createdAt": "2025-07-04T18:16:44.000Z",
+  "downloads": 223,
+  "likes": 1,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Dayhoff-170m-UR50-BRq",
+  "createdAt": "2025-07-04T18:16:11.000Z",
+  "downloads": 227,
+  "likes": 1,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Dayhoff-170m-GR",
+  "createdAt": "2025-07-04T18:15:40.000Z",
+  "downloads": 249,
+  "likes": 2,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/skala",
+  "createdAt": "2025-07-04T18:14:19.000Z",
+  "downloads": 0,
+  "likes": 8,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Dayhoff-3b-GR-HM-c",
+  "createdAt": "2025-07-04T18:13:18.000Z",
+  "downloads": 674,
+  "likes": 6,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Dayhoff-170m-UR50",
+  "createdAt": "2025-07-04T18:12:37.000Z",
+  "downloads": 261,
+  "likes": 5,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/villa-x",
+  "createdAt": "2025-07-03T07:49:21.000Z",
+  "downloads": 0,
+  "likes": 11,
+  "pipeline": "robotics",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/maira-2-sae",
+  "createdAt": "2025-06-25T09:50:28.000Z",
+  "downloads": 0,
+  "likes": 9,
+  "pipeline": "feature-extraction",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/latent-zoning-networks",
+  "createdAt": "2025-06-24T19:22:46.000Z",
+  "downloads": 0,
+  "likes": 18,
+  "pipeline": "image-feature-extraction",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Phi-tiny-MoE-instruct",
+  "createdAt": "2025-06-23T00:22:56.000Z",
+  "downloads": 74333,
+  "likes": 43,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Phi-mini-MoE-instruct",
+  "createdAt": "2025-06-23T00:18:08.000Z",
+  "downloads": 32752,
+  "likes": 42,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Phi-4-mini-flash-reasoning",
+  "createdAt": "2025-06-19T23:40:57.000Z",
+  "downloads": 1286,
+  "likes": 285,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/CADFusion",
+  "createdAt": "2025-06-13T11:33:06.000Z",
+  "downloads": 0,
+  "likes": 49,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/NatureLM-8x7B-Inst",
+  "createdAt": "2025-06-06T02:36:23.000Z",
+  "downloads": 255,
+  "likes": 26,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/NatureLM-8x7B",
+  "createdAt": "2025-06-06T02:36:16.000Z",
+  "downloads": 196,
+  "likes": 24,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/GUI-Actor-Verifier-2B",
+  "createdAt": "2025-06-03T05:11:36.000Z",
+  "downloads": 281,
+  "likes": 13,
+  "pipeline": "image-text-to-text",
+  "tags": [
+   "image-text-to-text",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/GUI-Actor-3B-Qwen2.5-VL",
+  "createdAt": "2025-06-01T23:25:32.000Z",
+  "downloads": 1010,
+  "likes": 10,
+  "pipeline": "image-text-to-text",
+  "tags": [
+   "image-text-to-text",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/GUI-Actor-2B-Qwen2-VL",
+  "createdAt": "2025-06-01T23:23:30.000Z",
+  "downloads": 530,
+  "likes": 21,
+  "pipeline": "image-text-to-text",
+  "tags": [
+   "image-text-to-text",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/GUI-Actor-7B-Qwen2-VL",
+  "createdAt": "2025-06-01T22:54:59.000Z",
+  "downloads": 309,
+  "likes": 39,
+  "pipeline": "image-text-to-text",
+  "tags": [
+   "image-text-to-text",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/GUI-Actor-7B-Qwen2.5-VL",
+  "createdAt": "2025-06-01T22:53:18.000Z",
+  "downloads": 403,
+  "likes": 25,
+  "pipeline": "image-text-to-text",
+  "tags": [
+   "image-text-to-text",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/MediPhi-MedWiki",
+  "createdAt": "2025-05-30T19:27:52.000Z",
+  "downloads": 233,
+  "likes": 6,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/MediPhi-Guidelines",
+  "createdAt": "2025-05-30T14:37:35.000Z",
+  "downloads": 374,
+  "likes": 8,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/MediPhi-Clinical",
+  "createdAt": "2025-05-29T20:40:05.000Z",
+  "downloads": 578,
+  "likes": 17,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/MediPhi-MedCode",
+  "createdAt": "2025-05-29T14:05:30.000Z",
+  "downloads": 265,
+  "likes": 7,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/MediPhi-PubMed",
+  "createdAt": "2025-05-28T19:37:28.000Z",
+  "downloads": 544,
+  "likes": 13,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/elem2design",
+  "createdAt": "2025-05-27T10:31:19.000Z",
+  "downloads": 141,
+  "likes": 7,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/renderformer-v1.1-swin-large",
+  "createdAt": "2025-05-15T07:40:29.000Z",
+  "downloads": 2554,
+  "likes": 28,
+  "pipeline": "image-to-image",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/renderformer-v1-base",
+  "createdAt": "2025-05-15T07:35:48.000Z",
+  "downloads": 215,
+  "likes": 8,
+  "pipeline": "image-to-image",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/NextCoder-32B",
+  "createdAt": "2025-05-03T08:15:01.000Z",
+  "downloads": 661,
+  "likes": 71,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/NextCoder-14B",
+  "createdAt": "2025-05-03T07:54:50.000Z",
+  "downloads": 295,
+  "likes": 20,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/NextCoder-7B",
+  "createdAt": "2025-05-03T06:34:06.000Z",
+  "downloads": 538,
+  "likes": 36,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Phi-4-reasoning-plus-onnx",
+  "createdAt": "2025-05-02T16:49:39.000Z",
+  "downloads": 231,
+  "likes": 5,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Phi-4-reasoning-onnx",
+  "createdAt": "2025-05-02T16:49:20.000Z",
+  "downloads": 211,
+  "likes": 4,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Phi-4-mini-reasoning-onnx",
+  "createdAt": "2025-05-01T22:26:07.000Z",
+  "downloads": 224,
+  "likes": 5,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Phi-4-mini-reasoning",
+  "createdAt": "2025-04-29T19:15:55.000Z",
+  "downloads": 58621,
+  "likes": 240,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Phi-4-reasoning-plus",
+  "createdAt": "2025-04-17T20:51:32.000Z",
+  "downloads": 10171,
+  "likes": 348,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/MAI-DS-R1-FP8",
+  "createdAt": "2025-04-16T22:00:46.000Z",
+  "downloads": 195,
+  "likes": 28,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/MAI-DS-R1",
+  "createdAt": "2025-04-16T19:37:19.000Z",
+  "downloads": 629,
+  "likes": 310,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/FlexCAD",
+  "createdAt": "2025-04-15T08:47:50.000Z",
+  "downloads": 0,
+  "likes": 10,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/bitnet-b1.58-2B-4T-gguf",
+  "createdAt": "2025-04-15T04:25:42.000Z",
+  "downloads": 16122,
+  "likes": 296,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/bitnet-b1.58-2B-4T",
+  "createdAt": "2025-04-15T04:25:13.000Z",
+  "downloads": 20483,
+  "likes": 1496,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/bitnet-b1.58-2B-4T-bf16",
+  "createdAt": "2025-04-15T04:23:53.000Z",
+  "downloads": 4185,
+  "likes": 46,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Phi-4-reasoning",
+  "createdAt": "2025-04-09T21:11:28.000Z",
+  "downloads": 30497,
+  "likes": 227,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/TRELLIS-text-xlarge",
+  "createdAt": "2025-03-24T12:44:58.000Z",
+  "downloads": 15165,
+  "likes": 80,
+  "pipeline": "text-to-3d",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/TRELLIS-text-large",
+  "createdAt": "2025-03-24T12:44:15.000Z",
+  "downloads": 3559,
+  "likes": 19,
+  "pipeline": "text-to-3d",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/TRELLIS-text-base",
+  "createdAt": "2025-03-24T12:43:57.000Z",
+  "downloads": 1624,
+  "likes": 22,
+  "pipeline": "text-to-3d",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/llava-rad",
+  "createdAt": "2025-03-20T18:38:07.000Z",
+  "downloads": 906,
+  "likes": 26,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/LLM2CLIP-Llama3.1-8B-siglip2-so400m-patch14-224",
+  "createdAt": "2025-03-12T10:02:48.000Z",
+  "downloads": 0,
+  "likes": 10,
+  "pipeline": "zero-shot-classification",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/vidtwin",
+  "createdAt": "2025-02-27T03:45:23.000Z",
+  "downloads": 0,
+  "likes": 2,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/phi-4-onnx",
+  "createdAt": "2025-02-25T05:58:14.000Z",
+  "downloads": 209,
+  "likes": 20,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Phi-4-multimodal-instruct-onnx",
+  "createdAt": "2025-02-25T05:57:33.000Z",
+  "downloads": 214,
+  "likes": 92,
+  "pipeline": "automatic-speech-recognition",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Phi-4-mini-instruct-onnx",
+  "createdAt": "2025-02-25T05:57:02.000Z",
+  "downloads": 849,
+  "likes": 48,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Phi-4-multimodal-instruct",
+  "createdAt": "2025-02-24T22:33:32.000Z",
+  "downloads": 258630,
+  "likes": 1615,
+  "pipeline": "automatic-speech-recognition",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Magma-8B",
+  "createdAt": "2025-02-23T03:10:37.000Z",
+  "downloads": 882,
+  "likes": 417,
+  "pipeline": "robotics",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/bioemu",
+  "createdAt": "2025-02-19T16:07:03.000Z",
+  "downloads": 0,
+  "likes": 24,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/Phi-4-mini-instruct",
+  "createdAt": "2025-02-19T01:00:58.000Z",
+  "downloads": 379184,
+  "likes": 846,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/OmniParser-v2.0",
+  "createdAt": "2025-02-12T01:03:38.000Z",
+  "downloads": 4777,
+  "likes": 1359,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/wham",
+  "createdAt": "2025-02-11T15:09:59.000Z",
+  "downloads": 170,
+  "likes": 272,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/MediPhi",
+  "createdAt": "2025-02-03T16:54:41.000Z",
+  "downloads": 948,
+  "likes": 24,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/mattergen",
+  "createdAt": "2025-01-27T08:34:48.000Z",
+  "downloads": 0,
+  "likes": 56,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/distilled_decoding",
+  "createdAt": "2025-01-11T01:58:18.000Z",
+  "downloads": 0,
+  "likes": 5,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/phi-4-gguf",
+  "createdAt": "2025-01-08T19:55:31.000Z",
+  "downloads": 10935,
+  "likes": 201,
+  "pipeline": "text-generation",
+  "tags": [
+   "conversational",
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/LLM2CLIP-Llama3.2-1B-EVA02-L-14-336",
+  "createdAt": "2024-12-11T13:27:10.000Z",
+  "downloads": 0,
+  "likes": 12,
+  "pipeline": "zero-shot-image-classification",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/phi-4",
+  "createdAt": "2024-12-11T11:47:29.000Z",
+  "downloads": 490688,
+  "likes": 2316,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/VidTok",
+  "createdAt": "2024-12-08T10:29:14.000Z",
+  "downloads": 0,
+  "likes": 43,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "microsoft/TRELLIS-image-large",
+  "createdAt": "2024-12-02T13:02:21.000Z",
+  "downloads": 2088621,
+  "likes": 687,
+  "pipeline": "image-to-3d",
+  "tags": [],
+  "gated": false
+ }
+]

@@ -12,16 +12,30 @@ const path = Astro.url.pathname;
 const canonical = Astro.site ? new URL(path, Astro.site).href : path;
 const fullTitle = title === '首页' ? SITE_TITLE : `${title} · ${SITE_TITLE}`;
 
+/** 顶部只保留四项：首页 / LLM / AIGC / 关于。LLM 与 AIGC 悬停出子选项。 */
 const nav = [
-  { href: '/', label: '首页' },
-  { href: '/llm/', label: 'LLM' },
-  { href: '/aigc/', label: 'AIGC' },
-  { href: '/deploy/', label: '部署方案' },
-  { href: '/recent/', label: '近期' },
-  { href: '/tags/', label: '标签' },
-  { href: '/about/', label: '关于' },
+  { href: '/', label: '首页', children: [] as { href: string; label: string; desc: string }[] },
+  {
+    href: '/llm/models/',
+    label: 'LLM',
+    children: [
+      { href: '/llm/models/', label: '开源模型', desc: '按时间看新出的开放权重模型' },
+      { href: '/llm/github/', label: '社区项目', desc: '社区围绕开源模型做的方案' },
+      { href: '/llm/deploy/', label: '部署方式', desc: '本地部署工具，按方案大类分组' },
+    ],
+  },
+  {
+    href: '/aigc/image/',
+    label: 'AIGC',
+    children: [
+      { href: '/aigc/image/', label: '生图', desc: '图像生成模型' },
+      { href: '/aigc/video/', label: '生视频', desc: '视频生成模型' },
+    ],
+  },
+  { href: '/about/', label: '关于', children: [] as { href: string; label: string; desc: string }[] },
 ];
-const isCurrent = (href: string) => (href === '/' ? path === '/' : path.startsWith(href));
+/** 父项高亮：子页面里只要路径对得上就点亮父级菜单 */
+const inSection = (href: string) => (href === '/' ? path === '/' : path.startsWith(href.split('/').slice(0, 2).join('/') + '/'));
 ---
 
 <!doctype html>
@@ -39,17 +53,46 @@ const isCurrent = (href: string) => (href === '/' ? path === '/' : path.startsWi
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonical} />
     <meta name="twitter:card" content="summary" />
+    <script is:inline>
+      // 在首次绘制前定好主题，避免深色用户看到一闪而过的白屏。
+      // 没有手动选择过时跟随系统（CSS 里的 prefers-color-scheme 负责）。
+      try {
+        var saved = localStorage.getItem('theme');
+        if (saved === 'dark' || saved === 'light') {
+          document.documentElement.setAttribute('data-theme', saved);
+        }
+      } catch (err) {
+        /* 隐私模式下 localStorage 可能不可用，忽略即可 */
+      }
+    </script>
   </head>
   <body>
     <header class="site-header">
-      <div class="wrap">
-        <a class="brand" href="/">开源模型<span>雷达</span></a>
+      <div class="wrap header-inner">
+        <a class="brand" href="/">{SITE_TITLE}</a>
         <nav class="site-nav">
           {
             nav.map((item) => (
-              <a href={item.href} aria-current={isCurrent(item.href) ? 'page' : undefined}>
-                {item.label}
-              </a>
+              <div class="nav-item" data-has-menu={item.children.length > 0 ? 'true' : undefined}>
+                <a
+                  class={item.children.length > 0 ? 'nav-parent' : undefined}
+                  href={item.href}
+                  aria-current={path === item.href ? 'page' : undefined}
+                  data-active={inSection(item.href) ? 'true' : undefined}
+                >
+                  {item.label}
+                </a>
+                {item.children.length > 0 && (
+                  <div class="nav-menu">
+                    {item.children.map((child) => (
+                      <a href={child.href} aria-current={path === child.href ? 'page' : undefined}>
+                        <span class="nm-label">{child.label}</span>
+                        <span class="nm-desc">{child.desc}</span>
+                      </a>
+                    ))}
+                  </div>
+                )}
+              </div>
             ))
           }
         </nav>
@@ -57,12 +100,15 @@ const isCurrent = (href: string) => (href === '/' ? path === '/' : path.startsWi
           <input
             id="site-search"
             type="search"
-            placeholder="搜索模型 / 方案…"
+            placeholder="搜索模型 / 项目 / 方案…"
             autocomplete="off"
             aria-label="站内搜索"
           />
           <div class="search-results" id="search-results" data-open="false"></div>
         </div>
+        <button id="theme-toggle" class="theme-toggle" type="button" aria-label="切换深色 / 浅色" title="切换深色 / 浅色">
+          <span class="tt-icon" data-theme-icon></span>
+        </button>
       </div>
     </header>
 
@@ -74,7 +120,7 @@ const isCurrent = (href: string) => (href === '/' ? path === '/' : path.startsWi
       <div class="wrap">
         <span>© {new Date().getFullYear()} {SITE_TITLE}</span>
         <a href="/rss.xml">RSS 订阅</a>
-        <a href="/about/">收录标准</a>
+        <a href="/about/">关于本站</a>
         <span>本站只存链接与简介，模型与代码版权归原作者所有</span>
       </div>
     </footer>
@@ -131,10 +177,11 @@ const isCurrent = (href: string) => (href === '/' ? path === '/' : path.startsWi
         if (!hits.length) {
           box.innerHTML = '<div class="sr-empty">没有匹配的条目</div>';
         } else {
+          // 结果一律在新窗口打开：搜索常常是在列表页上进行的，别把当前列表顶掉
           box.innerHTML = hits
             .map(
               (h) =>
-                `<a href="${esc(h.h)}"><div class="sr-title">${esc(h.t)}</div><div class="sr-meta">${esc(h.c)} · ${esc(h.o)} · ${esc(h.d)}</div></a>`
+                `<a href="${esc(h.h)}" target="_blank" rel="noopener"><div class="sr-title">${esc(h.t)}</div><div class="sr-meta">${esc(h.c)} · ${esc(h.o)} · ${esc(h.d)}</div></a>`
             )
             .join('');
         }
@@ -164,6 +211,31 @@ const isCurrent = (href: string) => (href === '/' ? path === '/' : path.startsWi
         });
         document.addEventListener('keydown', (e) => {
           if (e.key === 'Escape') box.dataset.open = 'false';
+        });
+      }
+      // 4) 深色 / 浅色开关：手动选择写进 localStorage，覆盖系统偏好
+      const themeToggle = document.getElementById('theme-toggle');
+      const themeIcon = themeToggle && themeToggle.querySelector('[data-theme-icon]');
+      const systemDark = () => window.matchMedia('(prefers-color-scheme: dark)').matches;
+      const currentTheme = () => {
+        const set = document.documentElement.getAttribute('data-theme');
+        if (set === 'dark' || set === 'light') return set;
+        return systemDark() ? 'dark' : 'light';
+      };
+      const paintIcon = () => {
+        if (themeIcon) themeIcon.textContent = currentTheme() === 'dark' ? '☾' : '☀';
+      };
+      if (themeToggle) {
+        paintIcon();
+        themeToggle.addEventListener('click', () => {
+          const next = currentTheme() === 'dark' ? 'light' : 'dark';
+          document.documentElement.setAttribute('data-theme', next);
+          try {
+            localStorage.setItem('theme', next);
+          } catch (err) {
+            /* 忽略：不能持久化也能用 */
+          }
+          paintIcon();
         });
       }
     </script>

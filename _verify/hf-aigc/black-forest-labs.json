@@ -1,0 +1,531 @@
+[
+ {
+  "id": "black-forest-labs/flux-3-action-droid",
+  "createdAt": "2026-09-22T10:39:28.000Z",
+  "downloads": 831,
+  "likes": 32,
+  "pipeline": "robotics",
+  "library": "lerobot",
+  "gated": false,
+  "tags": [
+   "lerobot",
+   "safetensors",
+   "robotics",
+   "droid",
+   "franka",
+   "flux",
+   "world-action-model",
+   "world-model",
+   "robot-learning",
+   "black-forest-labs",
+   "flux-3"
+  ]
+ },
+ {
+  "id": "black-forest-labs/flux-3-action-so101",
+  "createdAt": "2026-09-22T10:39:06.000Z",
+  "downloads": 1025,
+  "likes": 48,
+  "pipeline": "robotics",
+  "library": "lerobot",
+  "gated": false,
+  "tags": [
+   "lerobot",
+   "safetensors",
+   "robotics",
+   "so101",
+   "flux",
+   "world-action-model",
+   "world-model",
+   "robot-learning",
+   "black-forest-labs",
+   "flux-3"
+  ]
+ },
+ {
+  "id": "black-forest-labs/flux-3-action-base",
+  "createdAt": "2026-09-22T10:36:43.000Z",
+  "downloads": 90,
+  "likes": 121,
+  "pipeline": "robotics",
+  "library": "lerobot",
+  "gated": false,
+  "tags": [
+   "lerobot",
+   "safetensors",
+   "robotics",
+   "flux",
+   "world-action-model",
+   "world-model",
+   "robot-learning",
+   "black-forest-labs",
+   "flux-3"
+  ]
+ },
+ {
+  "id": "black-forest-labs/FLUX.2-small-decoder",
+  "createdAt": "2026-04-06T16:08:58.000Z",
+  "downloads": 200015,
+  "likes": 179,
+  "pipeline": "image-to-image",
+  "library": "diffusers",
+  "gated": false,
+  "tags": [
+   "diffusers",
+   "safetensors",
+   "text-to-image",
+   "image-editing",
+   "flux",
+   "diffusion-single-file",
+   "image-to-image",
+   "en"
+  ]
+ },
+ {
+  "id": "black-forest-labs/FLUX.2-klein-9b-kv-fp8",
+  "createdAt": "2026-03-09T17:39:43.000Z",
+  "downloads": 51796,
+  "likes": 98,
+  "pipeline": "image-to-image",
+  "library": "diffusers",
+  "gated": false,
+  "tags": [
+   "diffusers",
+   "image-generation",
+   "image-editing",
+   "flux",
+   "diffusion-single-file",
+   "image-to-image",
+   "en"
+  ]
+ },
+ {
+  "id": "black-forest-labs/FLUX.2-klein-9b-kv",
+  "createdAt": "2026-03-09T17:39:05.000Z",
+  "downloads": 104032,
+  "likes": 229,
+  "pipeline": "image-to-image",
+  "library": "diffusers",
+  "gated": "auto",
+  "tags": [
+   "diffusers",
+   "safetensors",
+   "image-generation",
+   "image-editing",
+   "flux",
+   "diffusion-single-file",
+   "image-to-image",
+   "en"
+  ]
+ },
+ {
+  "id": "black-forest-labs/FLUX.2-klein-base-4b-nvfp4",
+  "createdAt": "2026-01-14T22:32:45.000Z",
+  "downloads": 3137,
+  "likes": 22,
+  "pipeline": "image-to-image",
+  "library": "diffusion-single-file",
+  "gated": false,
+  "tags": [
+   "diffusion-single-file",
+   "text-to-image",
+   "image-editing",
+   "flux",
+   "image-to-image",
+   "en"
+  ]
+ },
+ {
+  "id": "black-forest-labs/FLUX.2-klein-4b-nvfp4",
+  "createdAt": "2026-01-14T22:32:45.000Z",
+  "downloads": 6456,
+  "likes": 46,
+  "pipeline": "image-to-image",
+  "library": "diffusion-single-file",
+  "gated": false,
+  "tags": [
+   "diffusion-single-file",
+   "text-to-image",
+   "image-editing",
+   "flux",
+   "image-to-image",
+   "en"
+  ]
+ },
+ {
+  "id": "black-forest-labs/FLUX.2-klein-9b-nvfp4",
+  "createdAt": "2026-01-14T22:32:44.000Z",
+  "downloads": 2292,
+  "likes": 84,
+  "pipeline": "image-to-image",
+  "library": "diffusers",
+  "gated": "auto",
+  "tags": [
+   "diffusers",
+   "image-generation",
+   "image-editing",
+   "flux",
+   "diffusion-single-file",
+   "image-to-image",
+   "en"
+  ]
+ },
+ {
+  "id": "black-forest-labs/FLUX.2-klein-9b-fp8",
+  "createdAt": "2026-01-14T22:32:43.000Z",
+  "downloads": 58992,
+  "likes": 685,
+  "pipeline": "image-to-image",
+  "library": "diffusers",
+  "gated": "auto",
+  "tags": [
+   "diffusers",
+   "image-generation",
+   "image-editing",
+   "flux",
+   "diffusion-single-file",
+   "image-to-image",
+   "en"
+  ]
+ },
+ {
+  "id": "black-forest-labs/FLUX.2-klein-4b-fp8",
+  "createdAt": "2026-01-14T22:32:43.000Z",
+  "downloads": 275613,
+  "likes": 88,
+  "pipeline": "image-to-image",
+  "library": "diffusion-single-file",
+  "gated": false,
+  "tags": [
+   "diffusion-single-file",
+   "text-to-image",
+   "image-editing",
+   "flux",
+   "image-to-image",
+   "en"
+  ]
+ },
+ {
+  "id": "black-forest-labs/FLUX.2-klein-base-9b-nvfp4",
+  "createdAt": "2026-01-14T22:32:42.000Z",
+  "downloads": 441,
+  "likes": 29,
+  "pipeline": "image-to-image",
+  "library": "diffusers",
+  "gated": "auto",
+  "tags": [
+   "diffusers",
+   "image-generation",
+   "image-editing",
+   "flux",
+   "diffusion-single-file",
+   "image-to-image",
+   "en"
+  ]
+ },
+ {
+  "id": "black-forest-labs/FLUX.2-klein-base-9b-fp8",
+  "createdAt": "2026-01-14T22:32:42.000Z",
+  "downloads": 37956,
+  "likes": 1033,
+  "pipeline": "image-to-image",
+  "library": "diffusers",
+  "gated": "auto",
+  "tags": [
+   "diffusers",
+   "image-generation",
+   "image-editing",
+   "flux",
+   "diffusion-single-file",
+   "image-to-image",
+   "en"
+  ]
+ },
+ {
+  "id": "black-forest-labs/FLUX.2-klein-base-4b-fp8",
+  "createdAt": "2026-01-14T22:32:41.000Z",
+  "downloads": 95490,
+  "likes": 53,
+  "pipeline": "image-to-image",
+  "library": "diffusion-single-file",
+  "gated": false,
+  "tags": [
+   "diffusion-single-file",
+   "text-to-image",
+   "image-editing",
+   "flux",
+   "image-to-image",
+   "en"
+  ]
+ },
+ {
+  "id": "black-forest-labs/FLUX.2-klein-4B",
+  "createdAt": "2026-01-14T13:42:59.000Z",
+  "downloads": 400725,
+  "likes": 998,
+  "pipeline": "image-to-image",
+  "library": "diffusers",
+  "gated": false,
+  "tags": [
+   "diffusers",
+   "safetensors",
+   "text-to-image",
+   "image-editing",
+   "flux",
+   "diffusion-single-file",
+   "image-to-image",
+   "en"
+  ]
+ },
+ {
+  "id": "black-forest-labs/FLUX.2-klein-base-4B",
+  "createdAt": "2026-01-14T13:42:28.000Z",
+  "downloads": 300777,
+  "likes": 174,
+  "pipeline": "image-to-image",
+  "library": "diffusers",
+  "gated": false,
+  "tags": [
+   "diffusers",
+   "safetensors",
+   "text-to-image",
+   "image-editing",
+   "flux",
+   "diffusion-single-file",
+   "image-to-image",
+   "en"
+  ]
+ },
+ {
+  "id": "black-forest-labs/FLUX.2-klein-base-9B",
+  "createdAt": "2026-01-14T13:40:35.000Z",
+  "downloads": 80565,
+  "likes": 362,
+  "pipeline": "image-to-image",
+  "library": "diffusers",
+  "gated": "auto",
+  "tags": [
+   "diffusers",
+   "safetensors",
+   "image-generation",
+   "image-editing",
+   "flux",
+   "diffusion-single-file",
+   "image-to-image",
+   "en"
+  ]
+ },
+ {
+  "id": "black-forest-labs/FLUX.2-klein-9B",
+  "createdAt": "2026-01-14T13:24:26.000Z",
+  "downloads": 192473,
+  "likes": 1590,
+  "pipeline": "image-to-image",
+  "library": "diffusers",
+  "gated": "auto",
+  "tags": [
+   "diffusers",
+   "safetensors",
+   "image-generation",
+   "image-editing",
+   "flux",
+   "diffusion-single-file",
+   "image-to-image",
+   "en"
+  ]
+ },
+ {
+  "id": "black-forest-labs/FLUX.1-Kontext-dev-NVFP4",
+  "createdAt": "2026-01-01T15:09:54.000Z",
+  "downloads": 142,
+  "likes": 12,
+  "pipeline": "image-to-image",
+  "library": "diffusers",
+  "gated": "auto",
+  "tags": [
+   "diffusers",
+   "image-generation",
+   "flux",
+   "diffusion-single-file",
+   "image-to-image",
+   "en"
+  ]
+ },
+ {
+  "id": "black-forest-labs/FLUX.1-dev-FP8",
+  "createdAt": "2026-01-01T15:08:52.000Z",
+  "downloads": 0,
+  "likes": 146,
+  "pipeline": "text-to-image",
+  "library": "",
+  "gated": "auto",
+  "tags": [
+   "text-to-image",
+   "image-generation",
+   "flux"
+  ]
+ },
+ {
+  "id": "black-forest-labs/FLUX.1-dev-NVFP4",
+  "createdAt": "2026-01-01T15:05:22.000Z",
+  "downloads": 0,
+  "likes": 17,
+  "pipeline": "text-to-image",
+  "library": "",
+  "gated": "auto",
+  "tags": [
+   "text-to-image",
+   "image-generation",
+   "flux"
+  ]
+ },
+ {
+  "id": "black-forest-labs/FLUX.2-dev-NVFP4",
+  "createdAt": "2025-12-31T08:58:30.000Z",
+  "downloads": 30875,
+  "likes": 106,
+  "pipeline": "image-to-image",
+  "library": "diffusers",
+  "gated": false,
+  "tags": [
+   "diffusers",
+   "image-generation",
+   "image-editing",
+   "flux",
+   "diffusion-single-file",
+   "image-to-image",
+   "en"
+  ]
+ },
+ {
+  "id": "black-forest-labs/FLUX.2-dev",
+  "createdAt": "2025-11-22T15:07:08.000Z",
+  "downloads": 410755,
+  "likes": 2359,
+  "pipeline": "image-to-image",
+  "library": "diffusers",
+  "gated": "auto",
+  "tags": [
+   "diffusers",
+   "safetensors",
+   "image-generation",
+   "image-editing",
+   "flux",
+   "diffusion-single-file",
+   "image-to-image",
+   "en"
+  ]
+ },
+ {
+  "id": "black-forest-labs/FLUX.1-Krea-dev",
+  "createdAt": "2025-07-07T10:39:11.000Z",
+  "downloads": 49541,
+  "likes": 930,
+  "pipeline": "text-to-image",
+  "library": "diffusers",
+  "gated": "auto",
+  "tags": [
+   "diffusers",
+   "safetensors",
+   "text-to-image",
+   "image-generation",
+   "flux",
+   "en",
+   "endpoints_compatible"
+  ]
+ },
+ {
+  "id": "black-forest-labs/FLUX.1-Kontext-dev-onnx",
+  "createdAt": "2025-06-25T04:46:38.000Z",
+  "downloads": 0,
+  "likes": 101,
+  "pipeline": "",
+  "library": "diffusion-single-file",
+  "gated": "auto",
+  "tags": [
+   "diffusion-single-file",
+   "onnx",
+   "image-generation",
+   "flux",
+   "en"
+  ]
+ },
+ {
+  "id": "black-forest-labs/FLUX.1-Kontext-dev",
+  "createdAt": "2025-05-28T22:23:43.000Z",
+  "downloads": 357773,
+  "likes": 2863,
+  "pipeline": "image-to-image",
+  "library": "diffusers",
+  "gated": "auto",
+  "tags": [
+   "diffusers",
+   "safetensors",
+   "image-generation",
+   "flux",
+   "diffusion-single-file",
+   "image-to-image",
+   "en"
+  ]
+ },
+ {
+  "id": "black-forest-labs/FLUX.1-Depth-dev-onnx",
+  "createdAt": "2025-01-28T00:16:53.000Z",
+  "downloads": 0,
+  "likes": 21,
+  "pipeline": "",
+  "library": "diffusion-single-file",
+  "gated": "auto",
+  "tags": [
+   "diffusion-single-file",
+   "onnx",
+   "image-generation",
+   "flux"
+  ]
+ },
+ {
+  "id": "black-forest-labs/FLUX.1-Canny-dev-onnx",
+  "createdAt": "2025-01-28T00:16:13.000Z",
+  "downloads": 0,
+  "likes": 11,
+  "pipeline": "",
+  "library": "diffusion-single-file",
+  "gated": "auto",
+  "tags": [
+   "diffusion-single-file",
+   "onnx",
+   "image-generation",
+   "flux"
+  ]
+ },
+ {
+  "id": "black-forest-labs/FLUX.1-schnell-onnx",
+  "createdAt": "2025-01-28T00:14:17.000Z",
+  "downloads": 0,
+  "likes": 54,
+  "pipeline": "text-to-image",
+  "library": "",
+  "gated": "auto",
+  "tags": [
+   "onnx",
+   "text-to-image",
+   "image-generation",
+   "flux"
+  ]
+ },
+ {
+  "id": "black-forest-labs/FLUX.1-dev-onnx",
+  "createdAt": "2025-01-18T01:59:38.000Z",
+  "downloads": 0,
+  "likes": 108,
+  "pipeline": "text-to-image",
+  "library": "",
+  "gated": "auto",
+  "tags": [
+   "onnx",
+   "text-to-image",
+   "image-generation",
+   "flux"
+  ]
+ }
+]

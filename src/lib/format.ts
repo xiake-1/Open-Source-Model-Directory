@@ -8,29 +8,27 @@ export function formatDate(date: Date): string {
   return `${y}-${m}-${d}`;
 }
 
+/** 带 "/" 的日期，卡片时间戳用 */
+export function formatDay(date: Date): string {
+  return formatDate(date).replace(/-/g, '/');
+}
+
 export function daysBetween(a: Date, b: Date): number {
   const ua = Date.UTC(a.getUTCFullYear(), a.getUTCMonth(), a.getUTCDate());
   const ub = Date.UTC(b.getUTCFullYear(), b.getUTCMonth(), b.getUTCDate());
   return Math.floor((ub - ua) / DAY);
 }
 
-/** 构建期使用：判断"是否近期发布"，用于首页/列表页的初版标记 */
-export function isRecent(date: Date, days: number, now = new Date()): boolean {
-  return daysBetween(date, now) <= days;
-}
-
 export const MODALITY_LABELS: Record<string, string> = {
-  text: '文本',
-  image: '图像',
+  text: '纯文本',
+  image: '可识别图像',
   audio: '音频',
   code: '代码',
 };
 
 export const OUTPUT_LABELS: Record<string, string> = {
-  image: '图像生成',
-  video: '视频生成',
-  audio: '音频生成',
-  '3d': '3D 生成',
+  image: '生图',
+  video: '生视频',
 };
 
 export const LINK_LABELS: Record<string, string> = {

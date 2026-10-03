@@ -6,7 +6,8 @@ added: 2026-10-02
 summary: 把"下载模型 + 量化 + 起服务"压成一条命令的工具，底层基于 llama.cpp，适合快速验证和个人本地使用。
 tags: [服务化, 本地部署, 易用, 快速上手, 桌面端]
 license: MIT
-kind: 服务化
+kind: 一体化本地运行工具
+stars: 182078
 supports: [一行命令拉模型, Modelfile 自定义, OpenAI 兼容 API, GGUF, 跨平台]
 pain: 默认参数偏保守，性能调优空间小；服务端能力弱于专业推理引擎
 links:

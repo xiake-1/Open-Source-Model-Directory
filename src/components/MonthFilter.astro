@@ -1,0 +1,55 @@
+---
+import type { YearGroup } from '../lib/entries';
+
+/**
+ * 时间筛选：按"年-月"多选的下拉列表（可同时勾多个月）。
+ *
+ * - 它自己就是**一张独立的小卡片**，放在侧栏最上面，不塞进「筛选」（标签）卡片里。
+ * - 用原生 `<details>` 开合，所以不依赖 JS 也能展开；勾选之后的过滤由列表页脚本处理
+ *   （状态写进 URL hash，形如 `#months=2026-02,2026-01`）。
+ * - 列表按**年**分组，每年一个小标题；下拉本身在文档流里展开，展开时把下面的卡片往下推，
+ *   永远不会盖住「所属」和「筛选」两张卡片。
+ * - 外观与「所属」下拉共用 `global.css` 里的 `.dd-*`，见那一节。
+ */
+interface Props {
+  /** 有内容的年份分组，年与月都是新的在前 */
+  years: YearGroup[];
+}
+
+const { years } = Astro.props;
+const total = years.reduce((sum, group) => sum + group.count, 0);
+---
+
+<div class="dd" data-month-filter>
+  <details class="dd-details" data-month-details>
+    <summary class="dd-summary">
+      <span class="dd-key">时间</span>
+      <span class="dd-value" data-month-label>全部时间</span>
+      <span class="dd-chev" aria-hidden="true"></span>
+    </summary>
+    <div class="dd-menu" role="group" aria-label="按时间筛选">
+      <label class="dd-item dd-item-all">
+        <input type="checkbox" data-month-all />
+        <span class="dd-text">全部时间</span>
+        <span class="dd-count">{total}</span>
+      </label>
+      {
+        years.map((group) => (
+          <div class="dd-group">
+            <div class="dd-group-title dd-year-title">
+              {group.year} 年
+              <span class="dd-count">{group.count}</span>
+            </div>
+            {group.months.map((month) => (
+              <label class="dd-item" data-month-text={month.label}>
+                <input type="checkbox" data-month value={month.key} />
+                <span class="dd-text">{month.short}</span>
+                <span class="dd-count">{month.count}</span>
+              </label>
+            ))}
+          </div>
+        ))
+      }
+    </div>
+  </details>
+</div>

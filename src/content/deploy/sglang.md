@@ -6,7 +6,8 @@ added: 2026-10-02
 summary: 用 RadixAttention 做前缀缓存复用的推理引擎，多轮对话和批量同前缀请求的吞吐明显优于通用方案。
 tags: [推理引擎, 前缀缓存, 高吞吐, 结构化输出, 生产可用]
 license: Apache-2.0
-kind: 推理引擎
+kind: 推理框架 / 服务引擎
+stars: 36739
 supports: [RadixAttention, 前缀缓存, 结构化输出, 多卡并行, OpenAI 兼容 API]
 pain: 生态与文档比 vLLM 薄，冷门模型支持滞后，出问题时要自己读源码
 links:

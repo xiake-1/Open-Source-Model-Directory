@@ -1,0 +1,318 @@
+[
+ {
+  "id": "utter-project/EuroLLM-9B-Instruct-2512",
+  "createdAt": "2026-01-26T14:21:22.000Z",
+  "downloads": 27407,
+  "likes": 16,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "utter-project/EuroMoE-2.6B-A0.6B-Instruct-2512",
+  "createdAt": "2025-12-15T11:43:20.000Z",
+  "downloads": 1129,
+  "likes": 14,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "utter-project/EuroLLM-22B-Instruct-2512",
+  "createdAt": "2025-12-05T02:33:37.000Z",
+  "downloads": 382940,
+  "likes": 85,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "utter-project/EuroLLM-22B-2512",
+  "createdAt": "2025-11-24T20:57:02.000Z",
+  "downloads": 2033,
+  "likes": 21,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "utter-project/eurollm-22b-mcore-phase1",
+  "createdAt": "2025-10-21T21:34:02.000Z",
+  "downloads": 0,
+  "likes": 0,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "utter-project/eurollm-22b-mcore-phase3-long-context",
+  "createdAt": "2025-10-21T20:50:20.000Z",
+  "downloads": 0,
+  "likes": 0,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "utter-project/eurollm-22b-mcore-phase2",
+  "createdAt": "2025-10-21T20:48:25.000Z",
+  "downloads": 0,
+  "likes": 0,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "utter-project/eurollm-9b-mcore-phase3",
+  "createdAt": "2025-10-21T15:10:06.000Z",
+  "downloads": 0,
+  "likes": 0,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "utter-project/eurollm-9b-mcore-phase2",
+  "createdAt": "2025-10-21T15:09:41.000Z",
+  "downloads": 0,
+  "likes": 0,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "utter-project/eurollm-9b-mcore-phase3-long-context",
+  "createdAt": "2025-10-21T15:09:29.000Z",
+  "downloads": 0,
+  "likes": 0,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "utter-project/eurollm-9b-mcore-phase1",
+  "createdAt": "2025-10-21T14:51:34.000Z",
+  "downloads": 0,
+  "likes": 0,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "utter-project/eurollm-1.7b-mcore-phase1",
+  "createdAt": "2025-10-21T12:59:04.000Z",
+  "downloads": 0,
+  "likes": 0,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "utter-project/eurollm-1.7b-mcore-phase2",
+  "createdAt": "2025-10-21T12:58:37.000Z",
+  "downloads": 0,
+  "likes": 0,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "utter-project/eurollm-1.7b-mcore-phase2-long-context",
+  "createdAt": "2025-10-21T12:58:35.000Z",
+  "downloads": 0,
+  "likes": 0,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "utter-project/TowerVideo-9B",
+  "createdAt": "2025-10-14T09:50:46.000Z",
+  "downloads": 117,
+  "likes": 5,
+  "pipeline": "video-text-to-text",
+  "tags": [
+   "image-text-to-text"
+  ],
+  "gated": false
+ },
+ {
+  "id": "utter-project/TowerVideo-2B",
+  "createdAt": "2025-10-14T09:31:40.000Z",
+  "downloads": 121,
+  "likes": 3,
+  "pipeline": "video-text-to-text",
+  "tags": [
+   "image-text-to-text"
+  ],
+  "gated": false
+ },
+ {
+  "id": "utter-project/TowerVision-9B",
+  "createdAt": "2025-08-20T08:59:19.000Z",
+  "downloads": 128,
+  "likes": 4,
+  "pipeline": "image-text-to-text",
+  "tags": [
+   "image-text-to-text",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "utter-project/TowerVision-2B",
+  "createdAt": "2025-08-11T16:10:00.000Z",
+  "downloads": 166,
+  "likes": 6,
+  "pipeline": "image-text-to-text",
+  "tags": [
+   "image-text-to-text",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "utter-project/EuroLLM-22B-Preview",
+  "createdAt": "2025-06-09T20:10:27.000Z",
+  "downloads": 199,
+  "likes": 8,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "utter-project/EuroMoE-2.6B-A0.6B-Instruct-Preview",
+  "createdAt": "2025-06-09T20:08:42.000Z",
+  "downloads": 1861,
+  "likes": 11,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "utter-project/EuroMoE-2.6B-A0.6B-2512",
+  "createdAt": "2025-06-09T20:04:07.000Z",
+  "downloads": 266,
+  "likes": 14,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "utter-project/EuroLLM-22B-Instruct-Preview",
+  "createdAt": "2025-06-09T19:10:39.000Z",
+  "downloads": 2154,
+  "likes": 8,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "utter-project/EuroVLM-1.7B-Preview",
+  "createdAt": "2025-06-09T12:08:44.000Z",
+  "downloads": 202,
+  "likes": 7,
+  "pipeline": "image-text-to-text",
+  "tags": [
+   "image-text-to-text",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "utter-project/EuroVLM-9B-Preview",
+  "createdAt": "2025-06-09T10:57:09.000Z",
+  "downloads": 448,
+  "likes": 6,
+  "pipeline": "image-text-to-text",
+  "tags": [
+   "image-text-to-text",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "utter-project/EuroLLM-9B-2512",
+  "createdAt": "2025-06-07T15:35:44.000Z",
+  "downloads": 1093,
+  "likes": 4,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "utter-project/SpireKMeans",
+  "createdAt": "2025-03-14T11:58:06.000Z",
+  "downloads": 0,
+  "likes": 0,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "utter-project/TowerFull",
+  "createdAt": "2025-03-11T16:14:09.000Z",
+  "downloads": 89,
+  "likes": 1,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "utter-project/SpireNoPseudo",
+  "createdAt": "2025-03-11T16:03:59.000Z",
+  "downloads": 87,
+  "likes": 0,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "utter-project/SpireNoBlocks",
+  "createdAt": "2025-03-11T15:51:51.000Z",
+  "downloads": 93,
+  "likes": 0,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "utter-project/SpireBase",
+  "createdAt": "2025-03-11T15:42:09.000Z",
+  "downloads": 93,
+  "likes": 4,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "utter-project/SpireFull",
+  "createdAt": "2025-03-11T15:19:11.000Z",
+  "downloads": 100,
+  "likes": 2,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ }
+]

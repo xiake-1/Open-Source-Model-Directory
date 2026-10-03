@@ -1,0 +1,65 @@
+---
+import type { TagGroup } from '../lib/taxonomy';
+
+/**
+ * 列表页左侧的「筛选」下拉：标签分组（热度 / 结构 / 类型 / 上下文 / 参数量 / 商用）。
+ *
+ * - 与另外两张卡片一样，它是**点击才展开**的 `<details>` 下拉（样式共用 `global.css` 的 `.dd-*`），
+ *   默认收起，展开时把下面的内容往下推，不会盖住时间线。
+ * - 分组顺序由页面给定的 `groups` 决定：「热度」在**架构 / 结构上面**
+ *   （先看值不值得点开，再看是什么结构），由 `taxonomy.ts` 的 `popularityGroup()` 生成，
+ *   其余分组来自 `LLM_TAG_GROUPS` / `AIGC_TAG_GROUPS` 与 `facetGroups()`。
+ * - 分组里的每一项是普通链接（`#tag=MoE`），点击由列表页脚本接管做就地过滤，
+ *   所以选完不刷新页面；标题上会同步显示当前选中的标签。
+ * - 时间与所属不在这里：它们是上面两张独立的下拉卡片（`MonthFilter.astro` / `FamilyFilter.astro`），
+ *   所属由 `TagFilter.astro` 按 `FAMILY_GROUP_LABEL` 拆走。
+ */
+interface Props {
+  /** 已按"有内容"过滤过的标签分组 */
+  groups: TagGroup[];
+  /** 每个标签下有多少条，作为角标 */
+  counts: Record<string, number>;
+  /** 当前列表页路径，标签链接会拼成 path#tag=xx */
+  basePath: string;
+  /** 卡片标题，例如"筛选" */
+  title?: string;
+}
+
+const { groups, counts, basePath, title = '筛选' } = Astro.props;
+
+// 用 hash 而不是查询串：静态主机不按查询串路由，
+// ?tag= 只会整页重载并照常返回全部内容，看起来就是"点了没反应"。
+// hash 由页内脚本处理，点了就地过滤、不刷新，也不进 sitemap。
+const tagHref = (tag: string) => `${basePath}#tag=${encodeURIComponent(tag)}`;
+---
+
+<div class="dd" data-tag-filter>
+  <details class="dd-details" data-tag-details>
+    <summary class="dd-summary">
+      <span class="dd-key">{title}</span>
+      <span class="dd-value" data-tag-label>全部</span>
+      <span class="dd-chev" aria-hidden="true"></span>
+    </summary>
+    <div class="dd-menu" role="group" aria-label="按标签筛选">
+      <a class="dd-item dd-link dd-item-all is-active" href={basePath} data-tag="" data-tag-all="true">
+        <span class="dd-text">全部</span>
+      </a>
+      {
+        groups.map((group) => (
+          <div class="dd-group">
+            <div class="dd-group-title">
+              {group.label}
+              {group.note && <span class="dd-note">{group.note}</span>}
+            </div>
+            {group.tags.map((tag) => (
+              <a class="dd-item dd-link" href={tagHref(tag)} data-tag={tag}>
+                <span class="dd-text">{tag}</span>
+                <span class="dd-count">{counts[tag] ?? 0}</span>
+              </a>
+            ))}
+          </div>
+        ))
+      }
+    </div>
+  </details>
+</div>

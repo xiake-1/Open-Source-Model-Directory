@@ -9,14 +9,14 @@
   --warn: #b45309;
   --dead: #9aa0a6;
   --radius: 12px;
-  --maxw: 960px;
+  --maxw: 1000px;
   --font: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB",
     "Microsoft YaHei", "Noto Sans SC", Roboto, Helvetica, Arial, sans-serif;
   --mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-theme='light']) {
     --bg: #16181c;
     --bg-elev: #1d2025;
     --text: #e8eaed;
@@ -27,6 +27,32 @@
     --warn: #fbbf24;
     --dead: #6b7075;
   }
+}
+
+/* 手动开关优先于系统偏好；用属性选择器而不是 :root 覆盖，才能压过上面那段 */
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --bg: #16181c;
+  --bg-elev: #1d2025;
+  --text: #e8eaed;
+  --text-dim: #9aa0a6;
+  --line: #2c3036;
+  --accent: #7aa2f7;
+  --accent-soft: #20293c;
+  --warn: #fbbf24;
+  --dead: #6b7075;
+}
+:root[data-theme='light'] {
+  color-scheme: light;
+  --bg: #fbfbfd;
+  --bg-elev: #ffffff;
+  --text: #1c1d21;
+  --text-dim: #6b6f76;
+  --line: #e6e7ea;
+  --accent: #2f6feb;
+  --accent-soft: #eaf1ff;
+  --warn: #b45309;
+  --dead: #9aa0a6;
 }
 
 * { box-sizing: border-box; }
@@ -56,25 +82,89 @@ a:hover { text-decoration: underline; }
   backdrop-filter: saturate(180%) blur(12px);
   border-bottom: 1px solid var(--line);
 }
-.site-header .wrap {
+.header-inner {
   display: flex;
   align-items: center;
-  gap: 18px;
+  gap: 20px;
   min-height: 58px;
-  flex-wrap: wrap;
 }
-.brand { font-weight: 700; font-size: 17px; color: var(--text); letter-spacing: -0.01em; }
-.brand:hover { text-decoration: none; }
-.brand span { color: var(--accent); }
-.site-nav { display: flex; gap: 14px; font-size: 14px; flex-wrap: wrap; }
-.site-nav a { color: var(--text-dim); }
-.site-nav a:hover, .site-nav a[aria-current="page"] { color: var(--text); text-decoration: none; }
-.site-nav a[aria-current="page"] { font-weight: 600; }
+.brand {
+  font-weight: 700;
+  font-size: 21px;
+  color: var(--text);
+  letter-spacing: -0.02em;
+  white-space: nowrap;
+}
+.brand:hover { color: var(--text); text-decoration: none; }
+
+/* 深色 / 浅色开关 */
+.theme-toggle {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  padding: 0;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--bg-elev);
+  color: var(--text);
+  font-size: 15px;
+  line-height: 1;
+  cursor: pointer;
+}
+.theme-toggle:hover { border-color: var(--accent); color: var(--accent); }
+.theme-toggle:focus-visible { outline: 2px solid var(--accent-soft); border-color: var(--accent); }
+
+/* 顶部四项：首页 / LLM / AIGC / 关于；后两项里带子菜单 */
+.site-nav { display: flex; align-items: center; gap: 4px; font-size: 14px; }
+.nav-item { position: relative; }
+.nav-item > a {
+  display: block;
+  padding: 6px 10px;
+  border-radius: 8px;
+  color: var(--text-dim);
+  white-space: nowrap;
+}
+.nav-item > a:hover { color: var(--text); background: var(--accent-soft); text-decoration: none; }
+.nav-item > a[data-active="true"] { color: var(--text); font-weight: 600; }
+.nav-item > a[aria-current="page"] { color: var(--accent); }
+
+.nav-menu {
+  position: absolute;
+  left: 0;
+  top: calc(100% + 6px);
+  min-width: 208px;
+  padding: 6px;
+  background: var(--bg-elev);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: 0 14px 34px rgb(0 0 0 / 12%);
+  display: none;
+  z-index: 30;
+}
+.nav-menu::before {
+  /* 悬停时鼠标从父项移到菜单之间的那道缝不能断，否则菜单会闪 */
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -8px;
+  height: 8px;
+}
+.nav-item:hover .nav-menu,
+.nav-item:focus-within .nav-menu { display: block; }
+.nav-menu a { display: block; padding: 7px 10px; border-radius: 8px; color: var(--text); }
+.nav-menu a:hover { background: var(--accent-soft); text-decoration: none; }
+.nav-menu a[aria-current="page"] .nm-label { color: var(--accent); }
+.nm-label { display: block; font-size: 14px; font-weight: 600; }
+.nm-desc { display: block; font-size: 12px; color: var(--text-dim); line-height: 1.45; }
 
 /* ---------- search ---------- */
 .search { position: relative; margin-left: auto; }
 .search input {
-  width: 220px;
+  width: 200px;
   padding: 7px 11px;
   font: inherit;
   font-size: 14px;
@@ -114,6 +204,7 @@ a:hover { text-decoration: underline; }
 main { padding: 32px 0 72px; }
 .page-title { font-size: 26px; margin: 0 0 6px; letter-spacing: -0.02em; }
 .page-desc { color: var(--text-dim); margin: 0 0 26px; font-size: 15px; }
+.page-desc strong { color: var(--text); }
 
 .section { margin: 34px 0 0; }
 .section > h2 {
@@ -123,14 +214,72 @@ main { padding: 32px 0 72px; }
   color: var(--text-dim);
   margin: 0 0 12px;
   font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
-.section-note { color: var(--text-dim); font-size: 14px; margin: -6px 0 14px; }
+/* 首页的分区标题：LLM / AIGC 就是这一页最大的字 —— 比下面的月份小标题（.month-sub，14px）大一档，
+   标题本身就是"看全部"的入口（原来那行说明文字已经删掉）。
+   选择器要比 .section > h2 更具体，才能盖住分组标题那套灰色小字 */
+.section > h2.home-title {
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  text-transform: none;
+  color: var(--text);
+  margin: 0 0 14px;
+}
+.home-title > a {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  color: inherit;
+}
+.home-title > a:hover { color: var(--accent); text-decoration: none; }
+.section > h2.home-title .fact { font-size: 13px; padding: 2px 9px; }
+/* 箭头只做"这行是链接"的提示，别抢标题 */
+.home-title .home-arrow {
+  font-size: 0.68em;
+  opacity: 0.5;
+  transition: transform 0.15s ease, opacity 0.15s ease;
+}
+.home-title > a:hover .home-arrow { opacity: 1; transform: translateX(3px); }
 
-.hero { padding: 22px 0 6px; }
-.hero h1 { font-size: 30px; margin: 0 0 10px; letter-spacing: -0.025em; }
-.hero p { color: var(--text-dim); margin: 0 0 18px; max-width: 62ch; }
-.stats { display: flex; gap: 22px; flex-wrap: wrap; font-size: 14px; color: var(--text-dim); }
-.stats b { color: var(--text); font-size: 20px; display: block; line-height: 1.2; }
+/* 详情页的小标题：模型简介 / 可用的部署方式。
+   两者字号一致（15px），比列表页的分组标题更"黑"——用正文色 + 700 字重。
+   选择器要比 .section > h2 更具体，才能盖住分组标题那套灰色小字 */
+.detail-h2,
+.section > h2.detail-h2 {
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  text-transform: none;
+  color: var(--text);
+  margin: 0 0 6px;
+}
+.month:first-child { margin-top: 26px; }
+
+/* 首页把"近 2 个月"拆成两个月份小节，这里的月份标题比分区标题轻一档 */
+.month-sub {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--text-dim);
+  margin: 0 0 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* 首页现在直接从"本月"分区开始，首屏不需要额外留白 */
+
+/* 首页里"这个月还没有新的 LLM / AIGC"的提示：比列表页的说明段落大一档、用正文色。
+   列表页的 .page-desc 不动 —— 那边的"没有符合条件的模型"是筛选结果，属于次要信息 */
+.home-section .section.month > .page-desc {
+  font-size: 17px;
+  color: var(--text);
+  margin: 0 0 16px;
+}
 
 .cards { display: grid; gap: 12px; }
 
@@ -139,7 +288,7 @@ main { padding: 32px 0 72px; }
   border: 1px solid var(--line);
   border-radius: var(--radius);
   padding: 14px 16px;
-  transition: border-color 0.15s ease, transform 0.15s ease;
+  transition: border-color 0.15s ease;
 }
 .entry:hover { border-color: color-mix(in srgb, var(--accent) 45%, var(--line)); }
 .entry[data-status="dead"], .entry[data-status="deprecated"] { opacity: 0.62; }
@@ -159,11 +308,20 @@ main { padding: 32px 0 72px; }
   padding: 1px 7px;
   font-family: var(--mono);
 }
+/* 标题行上的计数用中性小标签，不带等宽字体 */
+.section > h2 .fact, .page-title .fact {
+  font-family: var(--font);
+  text-transform: none;
+  letter-spacing: 0;
+}
 .entry-foot { margin: 10px 0 0; display: flex; gap: 12px; align-items: center; flex-wrap: wrap; font-size: 13px; }
-.entry-foot .links { display: flex; gap: 10px; flex-wrap: wrap; }
+.entry-foot .links { display: flex; gap: 12px; flex-wrap: wrap; }
 .entry-foot .links a { font-size: 13px; }
-.tags { display: flex; gap: 6px; flex-wrap: wrap; margin-left: auto; }
-.tag {
+.entry-kind { margin-left: auto; font-size: 12px; color: var(--text-dim); }
+
+/* 卡片上的标签：点一下就地过滤（跳 #tag=xx，由 TagFilter 的脚本处理） */
+.tag-filter { margin: 9px 0 0; display: flex; gap: 6px; flex-wrap: wrap; }
+.tag-filter a {
   font-size: 12px;
   color: var(--text-dim);
   background: var(--bg);
@@ -171,7 +329,18 @@ main { padding: 32px 0 72px; }
   border-radius: 999px;
   padding: 1px 9px;
 }
-.tag:hover { color: var(--accent); border-color: var(--accent); text-decoration: none; }
+.tag-filter a:hover { color: var(--accent); border-color: var(--accent); text-decoration: none; }
+/* 原文胶囊（上下文 / 参数量）：只作展示、点不了（分档筛选仍走侧栏的低 / 中 / 高），
+   形状跟筛选胶囊一致但没有 hover 交互 */
+.tag-filter .value-chip {
+  font-size: 12px;
+  color: var(--text-dim);
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 1px 9px;
+  white-space: nowrap;
+}
 
 .badge {
   font-size: 11.5px;
@@ -184,6 +353,104 @@ main { padding: 32px 0 72px; }
 .badge-dead { background: transparent; border: 1px solid var(--line); color: var(--dead); }
 .badge-cat { background: transparent; border: 1px solid var(--line); color: var(--text-dim); }
 .badge-new { background: var(--accent); color: #fff; }
+
+/* ---------- 侧栏下拉卡片（时间 / 所属） ---------- */
+/* 两张卡片共用这一套外观：标题行本身就是开合按钮，展开后在卡片内部出现一条细分隔线。
+   菜单在文档流里展开（不是浮层），所以永远不会盖住下面的「筛选」卡片。
+   组件：MonthFilter.astro（按年分组）、FamilyFilter.astro（所属，平铺） */
+.dd {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--bg-elev);
+}
+.dd-summary {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 9px 12px;
+  font-size: 13.5px;
+  color: var(--text);
+  cursor: pointer;
+  list-style: none;
+}
+/* 去掉各家的默认三角，改用自定义箭头 */
+.dd-summary::-webkit-details-marker { display: none; }
+.dd-summary::marker { content: ""; }
+.dd-summary:hover { color: var(--accent); }
+.dd-summary:focus-visible { outline: 2px solid var(--accent-soft); }
+.dd-details[open] .dd-summary { border-bottom: 1px solid var(--line); }
+.dd-key { color: var(--text-dim); font-size: 12px; flex: none; }
+.dd-value { font-weight: 600; }
+.dd-chev {
+  margin-left: auto;
+  width: 0;
+  height: 0;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 5px solid currentColor;
+  opacity: 0.55;
+  transition: transform 0.15s ease;
+}
+.dd-details[open] .dd-chev { transform: rotate(180deg); }
+.dd-menu { padding: 6px; max-height: 300px; overflow: auto; }
+.dd-group + .dd-group { margin-top: 10px; }
+/* 下拉内部的"分割字"：时间里的年份（2026 年 / 2025 年）、筛选里的分组名（热度 / 结构 / 类型…）。
+   比下面的选项（.dd-item，13px）大一档，但**不加粗、用灰色** —— 和卡片标题上的「筛选」两字同色，
+   一眼能分清"这是分割线，不是选项"，也不会因为加粗而在窄栏里糊成一团。
+   分割字一律**居中对齐**：时间卡里的年份行右侧条数改为绝对定位，不再用 auto margin 把年份挤到左边 */
+.dd-group-title {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 6px;
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--text-dim);
+  letter-spacing: 0.01em;
+  margin: 8px 0 4px;
+}
+.dd-group:first-child .dd-group-title { margin-top: 2px; }
+/* 时间卡里的年份行：年份文字居中，右侧条数绝对定位保持右对齐（不参与 flex 布局，
+   否则 auto margin 会把年份挤回左边） */
+.dd-year-title { position: relative; }
+.dd-year-title .dd-count {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  margin-left: 0;
+}
+/* 分割字后面的口径说明（例如「热度」标注 HF 下载量）：再小一档，只解释不抢眼 */
+.dd-note {
+  font-size: 11px;
+  color: var(--text-dim);
+  letter-spacing: 0.02em;
+}
+.dd-item {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 4px 6px;
+  border-radius: 7px;
+  font-size: 13px;
+  cursor: pointer;
+}
+.dd-item:hover { background: var(--accent-soft); }
+.dd-item input { flex: none; margin: 0; accent-color: var(--accent); }
+.dd-text { white-space: nowrap; }
+.dd-count {
+  margin-left: auto;
+  color: var(--text-dim);
+  font-size: 12px;
+  font-family: var(--mono);
+}
+.dd-item-all .dd-text { font-weight: 600; }
+/* 「筛选」下拉里的标签是普通链接（不是复选框），单独给一套颜色与选中态 */
+.dd-link { color: var(--text); }
+.dd-link:hover { background: var(--accent-soft); text-decoration: none; }
+.dd-link.is-active { background: var(--accent-soft); color: var(--accent); font-weight: 600; }
 
 /* ---------- detail ---------- */
 .detail-head { border-bottom: 1px solid var(--line); padding-bottom: 18px; margin-bottom: 22px; }
@@ -242,9 +509,34 @@ main { padding: 32px 0 72px; }
 }
 .site-footer .wrap { display: flex; gap: 16px; flex-wrap: wrap; }
 
-@media (max-width: 620px) {
-  .entry-time { margin-left: 0; }
-  .tags { margin-left: 0; }
-  .search { margin-left: 0; width: 100%; }
-  .search input { width: 100%; }
+@media (max-width: 860px) {
+  .header-inner { gap: 12px; flex-wrap: wrap; padding-bottom: 8px; }
+  .site-nav { order: 3; width: 100%; justify-content: flex-start; }
+  .search input { width: 150px; }
+  /* 触屏上悬停不可靠：子项直接展开成一排 */
+  .nav-item { display: flex; align-items: center; gap: 2px; }
+  /* 窄屏没有"悬停"这回事：父项与子项同义，直接隐藏父项，只留子项，省一行空间 */
+  .nav-item > a.nav-parent { display: none; }
+  .nav-menu {
+    position: static;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    background: none;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    min-width: 0;
+  }
+  .nav-menu::before { display: none; }
+  .nm-desc { display: none; }
+  .nav-menu a { padding: 4px 8px; font-weight: 400; white-space: nowrap; }
+  .nav-item > a { padding: 4px 8px; white-space: nowrap; }
+}
+
+@media (max-width: 520px) {
+  .nm-label { font-size: 13px; }
+  .nav-menu a { padding: 3px 6px; }
+  .nav-item > a { padding: 3px 6px; }
+  .search input { width: 130px; }
 }
