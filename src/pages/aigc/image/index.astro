@@ -11,7 +11,7 @@ const counts = Object.fromEntries(
   tagCounts(entries).concat(facetCounts(entries)).map((t) => [t.tag, t.count])
 );
 const groups = visibleGroups(
-  [popularityGroup(entries), ...AIGC_TAG_GROUPS, ...facetGroups(entries)],
+  [popularityGroup('aigc', entries), ...AIGC_TAG_GROUPS, ...facetGroups(entries)],
   new Set(Object.keys(counts))
 );
 ---

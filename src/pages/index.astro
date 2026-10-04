@@ -1,7 +1,9 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import EntryList from '../components/EntryList.astro';
-import { allEntries, releasedWithinDays } from '../lib/entries';
+import { allEntries, releasedWithinDays, COLLECTION_LABELS, type Entry } from '../lib/entries';
+import { formatDate, formatDay, formatDownloads } from '../lib/format';
+import { highPopularityRange, isHighPopularity } from '../lib/taxonomy';
 
 /**
  * 首页看「最近 30 天出了什么」：按 LLM / AIGC 分开，各列出窗口内（最近 30 个日历天）
@@ -9,9 +11,36 @@ import { allEntries, releasedWithinDays } from '../lib/entries';
  *
  * 分区标题本身就是入口：点 **LLM 近期模型** 进 /llm/models/、点 **AIGC 近期模型** 进 /aigc/image/
  * （与顶部导航"直接点 AIGC 打开生图"一致）。
+ *
+ * 最上面还有一块 **近期热门**，两组内容：
+ *   1. **热度「高」的模型** —— LLM 与 AIGC 混排，只收**近两个月**内发布、且热度标签为「高」的条目
+ *      （门槛按各自集合算：LLM ≥100万 / AIGC ≥50万，见 `lib/taxonomy.ts`）。
+ *   2. **近 30 天的社区项目** —— 社区项目没有 HF 下载量，进不了上面那条榜，按发布窗口单列。
+ * 两组窗口不同：模型是近两个月，社区项目是近 30 天（各自的 `HOT_WINDOW_DAYS` / `HOME_WINDOW_DAYS`）。
+ * 这一块**不是入口** —— 热门没有独立列表页，所以标题是纯文字、不带箭头；
+ * 条目本身照常点开各自详情页。
  */
 const HOME_WINDOW_DAYS = 30;
+/** 「热度「高」的模型」的发布窗口：近两个月 */
+const HOT_WINDOW_DAYS = 60;
+/** 「热度「高」的模型」最多排多少条（够格的不止这些时取下载量最高的前 N 条） */
+const HOT_LIMIT = 10;
+
 const entries = await allEntries();
+
+// 热门模型：近两个月内发布 + 热度标签为「高」，按 HF 下载量从高到低
+const isHotModel = (e: Entry) =>
+  (e.collection === 'llm' || e.collection === 'aigc') && isHighPopularity(e.collection, e.downloads);
+const hotPool = releasedWithinDays(entries.filter(isHotModel), HOT_WINDOW_DAYS).sort(
+  (a, b) => (b.downloads ?? 0) - (a.downloads ?? 0) || b.released.getTime() - a.released.getTime()
+);
+const hotModels = hotPool.slice(0, HOT_LIMIT);
+
+// 近期社区项目：社区项目没有下载量，只能按发布时间取窗口
+const hotProjects = releasedWithinDays(
+  entries.filter((e) => e.collection === 'projects'),
+  HOME_WINDOW_DAYS
+);
 
 const sections = [
   {
@@ -35,6 +64,88 @@ const sections = [
 ---
 
 <BaseLayout title="首页">
+  <section class="section home-section">
+    {/* 热门没有独立列表页：标题就是纯文字，不做成入口，也没有那个"→" */}
+    <h2 class="home-title hot-title">
+      近期热门
+      <span class="fact">{hotModels.length + hotProjects.length}</span>
+    </h2>
+
+    <h3 class="hot-sub">
+      热度「高」的模型
+      <span class="fact">
+        {hotModels.length}{hotPool.length > hotModels.length ? ` / ${hotPool.length}` : ''}
+      </span>
+      <span class="hot-note">
+        近两个月 · LLM {highPopularityRange('llm')} / AIGC {highPopularityRange('aigc')} · HF 下载量
+      </span>
+    </h3>
+    {
+      hotModels.length === 0 ? (
+        <p class="page-desc">还没有取到「高」热度的模型。</p>
+      ) : (
+        <ol class="hot-list">
+          {hotModels.map((entry, index) => (
+            <li class="hot-item">
+              <span class="hot-rank">{index + 1}</span>
+              <span class="hot-kind">{COLLECTION_LABELS[entry.collection]}</span>
+              {/* 与卡片一致：详情页在新窗口打开，首页不被顶掉 */}
+              <a
+                class="hot-name"
+                href={entry.href}
+                target="_blank"
+                rel="noopener"
+                title="在新窗口打开详情页"
+              >
+                {entry.title}
+              </a>
+              <span class="hot-org">{entry.org}</span>
+              <span
+                class="hot-heat"
+                title={`HuggingFace 近 30 天下载量：${entry.downloads}｜发布：${formatDate(entry.released)}`}
+              >
+                {formatDownloads(entry.downloads ?? 0)}
+              </span>
+            </li>
+          ))}
+        </ol>
+      )
+    }
+
+    <h3 class="hot-sub">
+      近 {HOME_WINDOW_DAYS} 天的社区项目
+      <span class="fact">{hotProjects.length}</span>
+    </h3>
+    {
+      hotProjects.length === 0 ? (
+        <p class="page-desc">最近 30 天还没有新的社区项目。</p>
+      ) : (
+        <ul class="hot-list">
+          {hotProjects.map((entry) => (
+            <li class="hot-item">
+              {/* 社区项目没有热度可排，名次列留空 —— 只为和上面的模型榜对齐 */}
+              <span class="hot-rank" aria-hidden="true" />
+              <span class="hot-kind">项目</span>
+              <a
+                class="hot-name"
+                href={entry.href}
+                target="_blank"
+                rel="noopener"
+                title="在新窗口打开详情页"
+              >
+                {entry.title}
+              </a>
+              <span class="hot-org">{entry.org}</span>
+              <span class="hot-date" title={`发布：${formatDate(entry.released)}`}>
+                {formatDay(entry.released)}
+              </span>
+            </li>
+          ))}
+        </ul>
+      )
+    }
+  </section>
+
   {
     sections.map((section) => (
       <section class="section home-section">

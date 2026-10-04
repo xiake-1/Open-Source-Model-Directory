@@ -39,6 +39,19 @@ export const LINK_LABELS: Record<string, string> = {
   docs: '文档',
 };
 
+/**
+ * 热度数字（HuggingFace 下载量）的显示写法：
+ * 到 1 万就折成「8.4万 / 76.8万 / 1234万」——与热度分档的「10万 / 100万」同一口径，
+ * 免得首页热门榜上写一长串「767,871」；不到 1 万给原数带千分位。
+ */
+export function formatDownloads(n: number): string {
+  if (n >= 10_000) {
+    const w = n / 10_000;
+    return `${w >= 100 ? Math.round(w) : w.toFixed(1)}万`;
+  }
+  return n.toLocaleString('en-US');
+}
+
 export const STATUS_LABELS: Record<string, string> = {
   active: '可用',
   dead: '链接已失效',

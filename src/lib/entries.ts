@@ -1,7 +1,7 @@
 import { getCollection } from 'astro:content';
 import hfDownloads from '../data/hf-downloads.json';
 import { OUTPUT_LABELS } from './format';
-import { SIZE_BUCKETS, contextBucketOf, popularityTagOf } from './taxonomy';
+import { SIZE_BUCKETS, contextBucketOf, popularityTagOf, type PopularityCollection } from './taxonomy';
 
 export type CollectionName = 'llm' | 'aigc' | 'projects' | 'deploy';
 
@@ -145,9 +145,10 @@ function normalize(collection: CollectionName, entry: { id: string; data: any; b
   const contextValue = context?.value;
   const contextTag = context ? contextBucketOf(context.k) : undefined;
   const sizeTag = isModel ? sizeTagOf(d.params) : undefined;
-  // 热度：HF 下载量 → 分档标签。快照里没有这个仓库时保持 undefined，条目只是不出现在热度筛选里
+  // 热度：HF 下载量 → 分档标签。**LLM 与 AIGC 是两套阈值**（见 taxonomy），
+  // 所以要把集合传进去；快照里没有这个仓库时保持 undefined，条目只是不出现在热度筛选里
   const downloads = isModel ? downloadsOf(d.links?.hf) : undefined;
-  const popularityTag = isModel ? popularityTagOf(downloads) : undefined;
+  const popularityTag = isModel ? popularityTagOf(downloads, collection as PopularityCollection) : undefined;
   return {
     collection,
     id: entry.id,

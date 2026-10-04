@@ -44,6 +44,76 @@ export const COMMERCIAL_GROUP_LABEL = '商用';
 /** 「热度」：按 HuggingFace 下载量分档，不来自内容字段，来自 `src/data/hf-downloads.json` 快照 */
 export const POPULARITY_GROUP_LABEL = '热度';
 
+/** 有热度这一说的只有两个集合：社区项目与部署方式没有 HF 下载量，不参与热度分档 */
+export type PopularityCollection = 'llm' | 'aigc';
+
+export interface PopularityBucket {
+  /** 档位名：低 / 中 / 高 */
+  level: string;
+  /** 这一档的下限（HF 近 30 天下载量），算 `downloads >= min`；最低档就是 0 */
+  min: number;
+  /** 区间文案，例如 `≥100万`。侧栏标签与首页热门榜的口径行都用它拼，别再手写一遍 */
+  range: string;
+}
+
+/** 侧栏「筛选」里这一档怎么写：`高 ≥100万` */
+export function popularityLabel(bucket: PopularityBucket): string {
+  return `${bucket.level} ${bucket.range}`;
+}
+
+/**
+ * LLM 的热度分档：低 <10万 / 中 10万-100万 / 高 ≥100万。
+ * 阈值取整（10 万 / 100 万）而不是分位数：分位数每月都会飘，文档和用户都对不上账。
+ */
+export const LLM_POPULARITY_BUCKETS: PopularityBucket[] = [
+  { level: '低', min: 0, range: '<10万' },
+  { level: '中', min: 100_000, range: '10万-100万' },
+  { level: '高', min: 1_000_000, range: '≥100万' },
+];
+
+/**
+ * AIGC 的热度分档：低 <10万 / 中 10万-50万 / 高 ≥50万。
+ * 生图 / 生视频的下载量整体比 LLM 低一档（权重文件大、跑起来门槛高），
+ * 所以「高」的门槛只到 50 万 —— 拿 LLM 那把尺子量，整个 AIGC 几乎没有「高」。
+ */
+export const AIGC_POPULARITY_BUCKETS: PopularityBucket[] = [
+  { level: '低', min: 0, range: '<10万' },
+  { level: '中', min: 100_000, range: '10万-50万' },
+  { level: '高', min: 500_000, range: '≥50万' },
+];
+
+/** 哪个集合用哪套分档 —— 分档函数都从这里取，别再各写一份阈值 */
+export const POPULARITY_BUCKETS: Record<PopularityCollection, PopularityBucket[]> = {
+  llm: LLM_POPULARITY_BUCKETS,
+  aigc: AIGC_POPULARITY_BUCKETS,
+};
+
+/** 下载量落到这个集合的哪一档；没有下载量数据（仓库没取到）时返回 undefined —— 不参与热度筛选 */
+export function popularityTagOf(downloads: number | undefined, collection: PopularityCollection): string | undefined {
+  if (typeof downloads !== 'number' || !Number.isFinite(downloads) || downloads < 0) return undefined;
+  const buckets = POPULARITY_BUCKETS[collection];
+  for (let i = buckets.length - 1; i >= 0; i--) {
+    if (downloads >= buckets[i].min) return popularityLabel(buckets[i]);
+  }
+  return undefined;
+}
+
+/** 这个集合「高」那一档的区间文案（`≥100万` / `≥50万`），首页热门榜的口径行用它 */
+export function highPopularityRange(collection: PopularityCollection): string {
+  const buckets = POPULARITY_BUCKETS[collection];
+  return buckets[buckets.length - 1].range;
+}
+
+/**
+ * 这条模型算不算「高」热度 —— 首页「近期热门」按它挑，门槛两个集合不同。
+ * 没有下载量数据的一律不算（宁可少收，也不让没数据的条目挂上"高"）。
+ */
+export function isHighPopularity(collection: PopularityCollection, downloads?: number): boolean {
+  if (typeof downloads !== 'number' || !Number.isFinite(downloads)) return false;
+  const buckets = POPULARITY_BUCKETS[collection];
+  return downloads >= buckets[buckets.length - 1].min;
+}
+
 /**
  * 参数量分档：标签文案自带区间，卡片胶囊上单独看也能懂。
  * 边界按「低 0-100B / 中 100-500B / 高 500B 以上」：正好 100B 算中、正好 500B 算高。
@@ -53,25 +123,6 @@ export const SIZE_BUCKETS = [
   { label: '中 100-500B', max: 500 },
   { label: '高 ≥500B', max: Infinity },
 ] as const;
-
-/**
- * 热度分档：按 HuggingFace 的**近 30 天下载量**切三档，文案自带区间，卡片/侧栏上单独看也能懂。
- * 阈值取整（10 万 / 100 万）而不是分位数：分位数每月都会飘，文档和用户都对不上账。
- */
-export const POPULARITY_BUCKETS = [
-  { label: '低 <10万', min: 0 },
-  { label: '中 10万-100万', min: 100_000 },
-  { label: '高 ≥100万', min: 1_000_000 },
-] as const;
-
-/** 下载量落到哪一档；没有下载量数据（仓库没取到）时返回 undefined —— 不参与热度筛选 */
-export function popularityTagOf(downloads?: number): string | undefined {
-  if (typeof downloads !== 'number' || !Number.isFinite(downloads) || downloads < 0) return undefined;
-  for (let i = POPULARITY_BUCKETS.length - 1; i >= 0; i--) {
-    if (downloads >= POPULARITY_BUCKETS[i].min) return POPULARITY_BUCKETS[i].label;
-  }
-  return undefined;
-}
 
 /**
  * 上下文长度分档：标签文案自带区间，卡片 / 侧栏上单独看也能懂。
@@ -109,15 +160,20 @@ export const AIGC_TAG_GROUPS: TagGroup[] = [{ label: '架构', tags: [...AIGC_TA
 
 /**
  * 「热度」分组：按 HuggingFace 下载量分档（分档在 `entries.ts` 里由快照算出来）。
+ * **LLM 与 AIGC 用两套阈值**，所以要把集合传进来 —— 列表页显示的是自己那套标签，
+ * 拿错集合会让「高 ≥50万」出现在 LLM 页上。
  * 它排在**所有标签分组之前**（列表页把它放在「架构 / 结构」上面），
  * 因为它回答的是"这条值不值得点开"，比结构/类型更靠前。
  * 没有任何条目取到下载量时返回空标签数组，调用方的 `visibleGroups()` 会把整组丢掉。
  */
-export function popularityGroup(entries: { popularityTag?: string }[]): TagGroup {
+export function popularityGroup(
+  collection: PopularityCollection,
+  entries: { popularityTag?: string }[]
+): TagGroup {
   const used = new Set(entries.map((e) => e.popularityTag).filter((t): t is string => Boolean(t)));
   return {
     label: POPULARITY_GROUP_LABEL,
-    tags: POPULARITY_BUCKETS.map((b) => b.label).filter((label) => used.has(label)),
+    tags: POPULARITY_BUCKETS[collection].map(popularityLabel).filter((label) => used.has(label)),
     note: 'HF 下载量',
   };
 }
