@@ -1,18 +1,356 @@
 [
  {
-  "id": "IndexTeam/Index-Translate-35B-A3B-preview-backup",
-  "createdAt": "2026-10-01T17:15:22.000Z",
-  "downloads": 12,
+  "id": "IndexTeam/Index-Echo-S2ST-9B-FP4",
+  "createdAt": "2026-10-03T19:23:44.000Z",
+  "downloads": 0,
+  "likes": 0,
+  "pipeline": "translation",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "IndexTeam/Index-Echo-S2ST-2B-FP4",
+  "createdAt": "2026-10-03T19:23:43.000Z",
+  "downloads": 0,
+  "likes": 0,
+  "pipeline": "translation",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "IndexTeam/Index-Echo-S2TT-9B-FP4",
+  "createdAt": "2026-10-03T19:23:43.000Z",
+  "downloads": 0,
+  "likes": 0,
+  "pipeline": "translation",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "IndexTeam/Index-Echo-S2TT-2B-FP4",
+  "createdAt": "2026-10-03T19:23:42.000Z",
+  "downloads": 0,
+  "likes": 0,
+  "pipeline": "translation",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "IndexTeam/Index-Nailong-9B-FP4",
+  "createdAt": "2026-10-03T19:23:42.000Z",
+  "downloads": 0,
+  "likes": 0,
+  "pipeline": "translation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "IndexTeam/Index-Homura-9B-FP4",
+  "createdAt": "2026-10-03T19:23:41.000Z",
+  "downloads": 0,
+  "likes": 0,
+  "pipeline": "translation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "IndexTeam/Index-Nailong-2B-FP4",
+  "createdAt": "2026-10-03T19:23:41.000Z",
+  "downloads": 0,
+  "likes": 0,
+  "pipeline": "translation",
+  "tags": [
+   "image-text-to-text"
+  ],
+  "gated": false
+ },
+ {
+  "id": "IndexTeam/Index-Homura-2B-FP4",
+  "createdAt": "2026-10-03T19:23:40.000Z",
+  "downloads": 0,
+  "likes": 0,
+  "pipeline": "translation",
+  "tags": [
+   "image-text-to-text"
+  ],
+  "gated": false
+ },
+ {
+  "id": "IndexTeam/Index-Translate-9B-FP4",
+  "createdAt": "2026-10-03T19:23:39.000Z",
+  "downloads": 0,
+  "likes": 0,
+  "pipeline": "translation",
+  "tags": [
+   "image-text-to-text"
+  ],
+  "gated": false
+ },
+ {
+  "id": "IndexTeam/Index-Translate-35B-A3B-preview-FP4",
+  "createdAt": "2026-10-03T19:23:39.000Z",
+  "downloads": 0,
+  "likes": 1,
+  "pipeline": "translation",
+  "tags": [
+   "image-text-to-text"
+  ],
+  "gated": false
+ },
+ {
+  "id": "IndexTeam/Index-Translate-2B-FP4",
+  "createdAt": "2026-10-03T19:23:38.000Z",
+  "downloads": 0,
+  "likes": 0,
+  "pipeline": "translation",
+  "tags": [
+   "image-text-to-text"
+  ],
+  "gated": false
+ },
+ {
+  "id": "IndexTeam/Index-Echo-S2ST-9B-GGUF",
+  "createdAt": "2026-10-02T22:52:12.000Z",
+  "downloads": 129,
+  "likes": 0,
+  "pipeline": "translation",
+  "tags": [
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "IndexTeam/Index-Echo-S2ST-9B-FP8",
+  "createdAt": "2026-10-02T22:52:12.000Z",
+  "downloads": 2,
   "likes": 1,
   "pipeline": "translation",
   "tags": [],
   "gated": false
  },
  {
+  "id": "IndexTeam/Index-Echo-S2ST-2B-FP8",
+  "createdAt": "2026-10-02T22:52:11.000Z",
+  "downloads": 5,
+  "likes": 0,
+  "pipeline": "translation",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "IndexTeam/Index-Echo-S2ST-2B-GGUF",
+  "createdAt": "2026-10-02T22:52:11.000Z",
+  "downloads": 314,
+  "likes": 1,
+  "pipeline": "translation",
+  "tags": [
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "IndexTeam/Index-Echo-S2TT-9B-GGUF",
+  "createdAt": "2026-10-02T22:52:10.000Z",
+  "downloads": 122,
+  "likes": 0,
+  "pipeline": "translation",
+  "tags": [
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "IndexTeam/Index-Echo-S2TT-9B-FP8",
+  "createdAt": "2026-10-02T22:52:10.000Z",
+  "downloads": 0,
+  "likes": 0,
+  "pipeline": "translation",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "IndexTeam/Index-Echo-S2TT-2B-FP8",
+  "createdAt": "2026-10-02T22:52:09.000Z",
+  "downloads": 0,
+  "likes": 1,
+  "pipeline": "translation",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "IndexTeam/Index-Echo-S2TT-2B-GGUF",
+  "createdAt": "2026-10-02T22:52:09.000Z",
+  "downloads": 348,
+  "likes": 1,
+  "pipeline": "translation",
+  "tags": [
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "IndexTeam/Index-Nailong-9B-GGUF",
+  "createdAt": "2026-10-02T22:52:08.000Z",
+  "downloads": 96,
+  "likes": 0,
+  "pipeline": "translation",
+  "tags": [
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "IndexTeam/Index-Nailong-9B-FP8",
+  "createdAt": "2026-10-02T22:52:08.000Z",
+  "downloads": 22,
+  "likes": 0,
+  "pipeline": "translation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "IndexTeam/Index-Nailong-2B-GGUF",
+  "createdAt": "2026-10-02T22:52:07.000Z",
+  "downloads": 159,
+  "likes": 0,
+  "pipeline": "translation",
+  "tags": [
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "IndexTeam/Index-Nailong-2B-FP8",
+  "createdAt": "2026-10-02T22:52:07.000Z",
+  "downloads": 11,
+  "likes": 0,
+  "pipeline": "translation",
+  "tags": [
+   "image-text-to-text"
+  ],
+  "gated": false
+ },
+ {
+  "id": "IndexTeam/Index-Homura-9B-GGUF",
+  "createdAt": "2026-10-02T22:52:06.000Z",
+  "downloads": 142,
+  "likes": 0,
+  "pipeline": "translation",
+  "tags": [
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "IndexTeam/Index-Homura-9B-FP8",
+  "createdAt": "2026-10-02T22:52:06.000Z",
+  "downloads": 18,
+  "likes": 0,
+  "pipeline": "translation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "IndexTeam/Index-Homura-2B-FP8",
+  "createdAt": "2026-10-02T22:52:05.000Z",
+  "downloads": 12,
+  "likes": 0,
+  "pipeline": "translation",
+  "tags": [
+   "image-text-to-text"
+  ],
+  "gated": false
+ },
+ {
+  "id": "IndexTeam/Index-Homura-2B-GGUF",
+  "createdAt": "2026-10-02T22:52:04.000Z",
+  "downloads": 343,
+  "likes": 0,
+  "pipeline": "translation",
+  "tags": [
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "IndexTeam/Index-Translate-35B-A3B-preview-FP8",
+  "createdAt": "2026-10-02T21:10:38.000Z",
+  "downloads": 28,
+  "likes": 0,
+  "pipeline": "translation",
+  "tags": [
+   "image-text-to-text"
+  ],
+  "gated": false
+ },
+ {
+  "id": "IndexTeam/Index-Translate-9B-FP8",
+  "createdAt": "2026-10-02T21:10:36.000Z",
+  "downloads": 28,
+  "likes": 0,
+  "pipeline": "translation",
+  "tags": [
+   "image-text-to-text"
+  ],
+  "gated": false
+ },
+ {
+  "id": "IndexTeam/Index-Translate-2B-FP8",
+  "createdAt": "2026-10-02T21:10:34.000Z",
+  "downloads": 18,
+  "likes": 0,
+  "pipeline": "translation",
+  "tags": [
+   "image-text-to-text"
+  ],
+  "gated": false
+ },
+ {
+  "id": "IndexTeam/Index-Translate-35B-A3B-preview-GGUF",
+  "createdAt": "2026-10-02T21:10:32.000Z",
+  "downloads": 545,
+  "likes": 7,
+  "pipeline": "translation",
+  "tags": [
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "IndexTeam/Index-Translate-9B-GGUF",
+  "createdAt": "2026-10-02T21:10:30.000Z",
+  "downloads": 684,
+  "likes": 3,
+  "pipeline": "translation",
+  "tags": [
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "IndexTeam/Index-Translate-2B-GGUF",
+  "createdAt": "2026-10-02T21:10:16.000Z",
+  "downloads": 706,
+  "likes": 2,
+  "pipeline": "translation",
+  "tags": [
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
   "id": "IndexTeam/Index-Translate-35B-A3B-preview",
-  "createdAt": "2026-09-30T09:08:05.000Z",
-  "downloads": 81,
-  "likes": 11,
+  "createdAt": "2026-10-02T19:48:31.000Z",
+  "downloads": 148,
+  "likes": 2,
   "pipeline": "translation",
   "tags": [],
   "gated": false
@@ -20,7 +358,7 @@
  {
   "id": "IndexTeam/Index-Echo-S2TT-9B",
   "createdAt": "2026-09-28T09:03:59.000Z",
-  "downloads": 0,
+  "downloads": 15,
   "likes": 7,
   "pipeline": "",
   "tags": [],
@@ -29,7 +367,7 @@
  {
   "id": "IndexTeam/Index-Echo-S2TT-2B",
   "createdAt": "2026-09-28T09:03:56.000Z",
-  "downloads": 0,
+  "downloads": 12,
   "likes": 5,
   "pipeline": "",
   "tags": [],
@@ -38,8 +376,8 @@
  {
   "id": "IndexTeam/Index-Echo-S2ST-9B",
   "createdAt": "2026-09-28T08:55:52.000Z",
-  "downloads": 62,
-  "likes": 10,
+  "downloads": 80,
+  "likes": 11,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -47,7 +385,7 @@
  {
   "id": "IndexTeam/Index-Echo-S2ST-2B",
   "createdAt": "2026-09-28T08:55:49.000Z",
-  "downloads": 87,
+  "downloads": 113,
   "likes": 6,
   "pipeline": "",
   "tags": [],
@@ -56,7 +394,7 @@
  {
   "id": "IndexTeam/Index-Homura-9B",
   "createdAt": "2026-09-28T08:09:58.000Z",
-  "downloads": 80,
+  "downloads": 100,
   "likes": 5,
   "pipeline": "translation",
   "tags": [],
@@ -65,7 +403,7 @@
  {
   "id": "IndexTeam/Index-Homura-2B",
   "createdAt": "2026-09-28T08:09:56.000Z",
-  "downloads": 75,
+  "downloads": 104,
   "likes": 5,
   "pipeline": "translation",
   "tags": [],
@@ -74,7 +412,7 @@
  {
   "id": "IndexTeam/Index-Nailong-2B",
   "createdAt": "2026-09-28T08:09:55.000Z",
-  "downloads": 88,
+  "downloads": 101,
   "likes": 6,
   "pipeline": "translation",
   "tags": [],
@@ -83,8 +421,8 @@
  {
   "id": "IndexTeam/Index-Nailong-9B",
   "createdAt": "2026-09-28T08:09:54.000Z",
-  "downloads": 193,
-  "likes": 8,
+  "downloads": 208,
+  "likes": 9,
   "pipeline": "translation",
   "tags": [],
   "gated": false
@@ -92,8 +430,8 @@
  {
   "id": "IndexTeam/Index-Translate-9B",
   "createdAt": "2026-09-28T08:09:53.000Z",
-  "downloads": 330,
-  "likes": 30,
+  "downloads": 461,
+  "likes": 31,
   "pipeline": "translation",
   "tags": [],
   "gated": false
@@ -101,8 +439,8 @@
  {
   "id": "IndexTeam/Index-Translate-2B",
   "createdAt": "2026-09-28T08:09:52.000Z",
-  "downloads": 255,
-  "likes": 28,
+  "downloads": 415,
+  "likes": 32,
   "pipeline": "translation",
   "tags": [],
   "gated": false
@@ -110,8 +448,8 @@
  {
   "id": "IndexTeam/IndexTTS-2.5",
   "createdAt": "2026-08-10T07:49:03.000Z",
-  "downloads": 13966,
-  "likes": 228,
+  "downloads": 14103,
+  "likes": 230,
   "pipeline": "text-to-speech",
   "tags": [],
   "gated": false
@@ -119,7 +457,7 @@
  {
   "id": "IndexTeam/MEDEA",
   "createdAt": "2026-06-03T06:32:29.000Z",
-  "downloads": 40,
+  "downloads": 42,
   "likes": 15,
   "pipeline": "visual-question-answering",
   "tags": [],
@@ -128,7 +466,7 @@
  {
   "id": "IndexTeam/IndexTTS-2",
   "createdAt": "2025-06-18T05:36:01.000Z",
-  "downloads": 11611,
+  "downloads": 11801,
   "likes": 788,
   "pipeline": "text-to-speech",
   "tags": [],
@@ -137,7 +475,7 @@
  {
   "id": "IndexTeam/IndexTTS-1.5",
   "createdAt": "2025-05-13T06:39:43.000Z",
-  "downloads": 2111,
+  "downloads": 2077,
   "likes": 80,
   "pipeline": "",
   "tags": [],
@@ -155,7 +493,7 @@
  {
   "id": "IndexTeam/Index-TTS",
   "createdAt": "2025-03-25T05:04:24.000Z",
-  "downloads": 85,
+  "downloads": 81,
   "likes": 155,
   "pipeline": "text-to-speech",
   "tags": [],

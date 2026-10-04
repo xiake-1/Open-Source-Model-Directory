@@ -8,7 +8,7 @@ summary: "Apertus 1.5 的 70B 版本，权重与训练配方继续全公开。"
 tags: [Dense, 可识别图像]
 license: "Apache-2.0"
 commercial: 可商用
-params: "72B"
+params: "70B"
 context: "64K"
 modalities: [text, image]
 deploys: [vllm, sglang]

@@ -141,8 +141,8 @@ console.log(`\n结果：通过 ${pass}、失败 ${fail}`);
     [`热度「高」的模型`, `近 ${HOME_WINDOW_DAYS} 天的社区项目`]
   );
 
-  /* ---- 模型榜：从内容 + 热度快照现算（门槛与 lib/taxonomy.ts 一致：LLM ≥100万 / AIGC ≥50万） ---- */
-  const HIGH_MIN = { llm: 1_000_000, aigc: 500_000 };
+  /* ---- 模型榜：从内容 + 热度快照现算（门槛与 lib/taxonomy.ts 一致：LLM ≥100万 / AIGC ≥5万） ---- */
+  const HIGH_MIN = { llm: 1_000_000, aigc: 50_000 };
   const readRows = (dir, collection) =>
     readdirSync(resolve(HERE, `../../src/content/${dir}`))
       .filter((f) => f.endsWith('.md'))
@@ -180,6 +180,11 @@ console.log(`\n结果：通过 ${pass}、失败 ${fail}`);
     `${hotModelItems.length}${highModels.length > hotModelItems.length ? `/${highModels.length}` : ''}`
   );
   check('模型榜的口径小字写了"近两个月"', doc.querySelector('.hot-sub .hot-note').textContent.includes('近两个月'), true);
+  check(
+    '模型榜的口径小字写了各自的「高」门槛（LLM ≥100万 / AIGC ≥5万）',
+    doc.querySelector('.hot-sub .hot-note').textContent.replace(/\s+/g, ''),
+    '近两个月·LLM≥100万/AIGC≥5万·HF下载量'
+  );
   check(
     '模型榜名次从 1 开始连着排',
     hotModelItems.map((li) => li.querySelector('.hot-rank').textContent),
@@ -259,24 +264,39 @@ console.log(`\n结果：通过 ${pass}、失败 ${fail}`);
   );
 }
 
-// 热度分档 **LLM 与 AIGC 是两套阈值**（LLM 高 ≥100万 / AIGC 高 ≥50万），
-// 侧栏「热度」标签必须跟着页面走 —— 拿错集合最典型的症状就是 AIGC 页上冒出「100万」
+// 派生筛选面的分档 **LLM 与 AIGC 各一套**：
+// 热度 —— LLM 高 ≥100万 / AIGC 高 ≥5万；参数量 —— LLM 100B/500B / AIGC 8B/32B。
+// 侧栏标签必须跟着页面走 —— 拿错集合最典型的症状就是 AIGC 页上冒出「100万」或「≤100B」
 {
-  console.log('\n=== 侧栏「热度」标签按集合取阈值 ===');
+  console.log('\n=== 侧栏分档按集合取阈值 ===');
   const heatTagsOf = (file) => {
     const dom = new JSDOM(readFileSync(`${DIST}/${file}`, 'utf8')).window.document;
     return [...dom.querySelectorAll('[data-tag-filter] [data-tag]')]
-      .map((a) => a.getAttribute('data-tag'))
-      .filter((t) => /^[低中高] /.test(t));
+      .map((el) => el.getAttribute('data-tag'))
+      .filter((t) => /^[低中高] /.test(t) && (t.includes('万')));
+  };
+  const sizeTagsOf = (file) => {
+    const dom = new JSDOM(readFileSync(`${DIST}/${file}`, 'utf8')).window.document;
+    const group = [...dom.querySelectorAll('[data-tag-filter] .dd-group')].find((g) =>
+      g.querySelector('.dd-group-title')?.textContent.trim().startsWith('参数量')
+    );
+    return [...(group?.querySelectorAll('[data-tag]') ?? [])].map((el) => el.getAttribute('data-tag'));
   };
   const llmTags = heatTagsOf('llm/models/index.html');
   const aigcTags = heatTagsOf('aigc/image/index.html');
   check('LLM 页有热度分档', llmTags.length > 0, true);
   check('AIGC 页有热度分档', aigcTags.length > 0, true);
-  check('LLM 页不出现 AIGC 的「50万」', llmTags.some((t) => t.includes('50万')), false);
+  check('LLM 页不出现 AIGC 的「5万」', llmTags.some((t) => t.includes('5万')), false);
   check('AIGC 页不出现 LLM 的「100万」', aigcTags.some((t) => t.includes('100万')), false);
   check('LLM 页「高」的门槛是 ≥100万', llmTags.includes('高 ≥100万'), true);
-  check('AIGC 页「高」的门槛是 ≥50万', aigcTags.includes('高 ≥50万'), true);
+  check('AIGC 页「高」的门槛是 ≥5万', aigcTags.includes('高 ≥5万'), true);
+  check('AIGC 页的热度三档是 低<1万 / 中1万-5万 / 高≥5万', aigcTags, ['低 <1万', '中 1万-5万', '高 ≥5万']);
+  check('AIGC 页的参数量分档是 低 0-8B / 中 8-32B / 高 ≥32B',
+    sizeTagsOf('aigc/image/index.html'), ['低 0-8B', '中 8-32B', '高 ≥32B']);
+  check('生视频页也用同一套 AIGC 参数量分档',
+    sizeTagsOf('aigc/video/index.html'), ['低 0-8B', '中 8-32B', '高 ≥32B']);
+  check('LLM 页的参数量分档仍是 低 ≤100B / 中 100-500B / 高 ≥500B',
+    sizeTagsOf('llm/models/index.html'), ['低 ≤100B', '中 100-500B', '高 ≥500B']);
 }
 
 console.log(`\n总计：通过 ${pass}、失败 ${fail}`);

@@ -11,7 +11,7 @@
  {
   "id": "ByteDance-Seed/TaskMem",
   "createdAt": "2026-06-02T03:10:24.000Z",
-  "downloads": 116,
+  "downloads": 121,
   "likes": 4,
   "pipeline": "",
   "tags": [],
@@ -29,7 +29,7 @@
  {
   "id": "ByteDance-Seed/Cola-DLM",
   "createdAt": "2026-05-15T07:55:26.000Z",
-  "downloads": 108,
+  "downloads": 110,
   "likes": 46,
   "pipeline": "text-generation",
   "tags": [
@@ -40,7 +40,7 @@
  {
   "id": "ByteDance-Seed/Stable-DiffCoder-8B-Instruct",
   "createdAt": "2026-01-15T07:49:01.000Z",
-  "downloads": 539,
+  "downloads": 542,
   "likes": 143,
   "pipeline": "text-generation",
   "tags": [
@@ -52,7 +52,7 @@
  {
   "id": "ByteDance-Seed/Stable-DiffCoder-8B-Base",
   "createdAt": "2026-01-15T07:48:10.000Z",
-  "downloads": 344,
+  "downloads": 341,
   "likes": 21,
   "pipeline": "text-generation",
   "tags": [
@@ -81,7 +81,7 @@
  {
   "id": "ByteDance-Seed/cryofm-v1",
   "createdAt": "2025-12-23T15:41:52.000Z",
-  "downloads": 26,
+  "downloads": 28,
   "likes": 6,
   "pipeline": "other",
   "tags": [],
@@ -117,7 +117,7 @@
  {
   "id": "ByteDance-Seed/AHN-Mamba2-for-Qwen-2.5-Instruct-14B",
   "createdAt": "2025-10-08T07:23:59.000Z",
-  "downloads": 186,
+  "downloads": 179,
   "likes": 16,
   "pipeline": "text-generation",
   "tags": [
@@ -128,7 +128,7 @@
  {
   "id": "ByteDance-Seed/AHN-Mamba2-for-Qwen-2.5-Instruct-7B",
   "createdAt": "2025-10-08T07:23:28.000Z",
-  "downloads": 159,
+  "downloads": 160,
   "likes": 6,
   "pipeline": "text-generation",
   "tags": [
@@ -139,7 +139,7 @@
  {
   "id": "ByteDance-Seed/AHN-Mamba2-for-Qwen-2.5-Instruct-3B",
   "createdAt": "2025-10-08T07:22:45.000Z",
-  "downloads": 194,
+  "downloads": 188,
   "likes": 9,
   "pipeline": "text-generation",
   "tags": [
@@ -150,7 +150,7 @@
  {
   "id": "ByteDance-Seed/AHN-GDN-for-Qwen-2.5-Instruct-14B",
   "createdAt": "2025-10-08T07:21:07.000Z",
-  "downloads": 133,
+  "downloads": 129,
   "likes": 6,
   "pipeline": "text-generation",
   "tags": [
@@ -161,7 +161,7 @@
  {
   "id": "ByteDance-Seed/AHN-GDN-for-Qwen-2.5-Instruct-7B",
   "createdAt": "2025-10-08T07:20:53.000Z",
-  "downloads": 122,
+  "downloads": 121,
   "likes": 1,
   "pipeline": "text-generation",
   "tags": [
@@ -172,7 +172,7 @@
  {
   "id": "ByteDance-Seed/AHN-GDN-for-Qwen-2.5-Instruct-3B",
   "createdAt": "2025-10-08T07:20:34.000Z",
-  "downloads": 200,
+  "downloads": 186,
   "likes": 1,
   "pipeline": "text-generation",
   "tags": [
@@ -183,7 +183,7 @@
  {
   "id": "ByteDance-Seed/AHN-DN-for-Qwen-2.5-Instruct-14B",
   "createdAt": "2025-10-08T07:20:11.000Z",
-  "downloads": 131,
+  "downloads": 130,
   "likes": 3,
   "pipeline": "text-generation",
   "tags": [
@@ -194,7 +194,7 @@
  {
   "id": "ByteDance-Seed/AHN-DN-for-Qwen-2.5-Instruct-7B",
   "createdAt": "2025-10-08T07:19:54.000Z",
-  "downloads": 109,
+  "downloads": 107,
   "likes": 1,
   "pipeline": "text-generation",
   "tags": [
@@ -205,7 +205,7 @@
  {
   "id": "ByteDance-Seed/AHN-DN-for-Qwen-2.5-Instruct-3B",
   "createdAt": "2025-10-08T07:18:51.000Z",
-  "downloads": 120,
+  "downloads": 118,
   "likes": 1,
   "pipeline": "text-generation",
   "tags": [
@@ -216,7 +216,7 @@
  {
   "id": "ByteDance-Seed/BFS-Prover-V2-7B",
   "createdAt": "2025-10-06T05:22:52.000Z",
-  "downloads": 378,
+  "downloads": 441,
   "likes": 7,
   "pipeline": "text-generation",
   "tags": [
@@ -228,7 +228,7 @@
  {
   "id": "ByteDance-Seed/BFS-Prover-V2-32B",
   "createdAt": "2025-09-30T00:05:39.000Z",
-  "downloads": 153,
+  "downloads": 161,
   "likes": 13,
   "pipeline": "text-generation",
   "tags": [
@@ -257,7 +257,7 @@
  {
   "id": "ByteDance-Seed/Seed-OSS-36B-Instruct",
   "createdAt": "2025-08-20T15:03:26.000Z",
-  "downloads": 53558,
+  "downloads": 48843,
   "likes": 505,
   "pipeline": "text-generation",
   "tags": [
@@ -269,7 +269,7 @@
  {
   "id": "ByteDance-Seed/Seed-OSS-36B-Base-woSyn",
   "createdAt": "2025-08-20T14:49:52.000Z",
-  "downloads": 636,
+  "downloads": 648,
   "likes": 54,
   "pipeline": "text-generation",
   "tags": [
@@ -281,8 +281,8 @@
  {
   "id": "ByteDance-Seed/Seed-OSS-36B-Base",
   "createdAt": "2025-08-20T13:57:44.000Z",
-  "downloads": 47107,
-  "likes": 68,
+  "downloads": 47067,
+  "likes": 69,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -293,7 +293,7 @@
  {
   "id": "ByteDance-Seed/M3-Agent-Memorization",
   "createdAt": "2025-08-12T11:06:59.000Z",
-  "downloads": 211,
+  "downloads": 228,
   "likes": 16,
   "pipeline": "",
   "tags": [],
@@ -302,7 +302,7 @@
  {
   "id": "ByteDance-Seed/M3-Agent-Control",
   "createdAt": "2025-08-12T11:05:07.000Z",
-  "downloads": 126,
+  "downloads": 131,
   "likes": 50,
   "pipeline": "",
   "tags": [],
@@ -311,7 +311,7 @@
  {
   "id": "ByteDance-Seed/cudaLLM-8B",
   "createdAt": "2025-08-03T00:40:02.000Z",
-  "downloads": 226,
+  "downloads": 228,
   "likes": 29,
   "pipeline": "text-generation",
   "tags": [
@@ -323,7 +323,7 @@
  {
   "id": "ByteDance-Seed/Seed-X-PPO-7B-AWQ-Int4",
   "createdAt": "2025-07-28T09:37:01.000Z",
-  "downloads": 113,
+  "downloads": 121,
   "likes": 12,
   "pipeline": "translation",
   "tags": [],
@@ -332,7 +332,7 @@
  {
   "id": "ByteDance-Seed/Seed-X-PPO-7B-GPTQ-Int8",
   "createdAt": "2025-07-28T09:35:31.000Z",
-  "downloads": 160,
+  "downloads": 164,
   "likes": 11,
   "pipeline": "translation",
   "tags": [],
@@ -341,7 +341,7 @@
  {
   "id": "ByteDance-Seed/Seed-X-RM-7B",
   "createdAt": "2025-07-16T13:47:13.000Z",
-  "downloads": 96,
+  "downloads": 97,
   "likes": 32,
   "pipeline": "translation",
   "tags": [],
@@ -350,7 +350,7 @@
  {
   "id": "ByteDance-Seed/Seed-X-Instruct-7B",
   "createdAt": "2025-07-16T13:46:09.000Z",
-  "downloads": 1219,
+  "downloads": 1447,
   "likes": 129,
   "pipeline": "translation",
   "tags": [],
@@ -359,7 +359,7 @@
  {
   "id": "ByteDance-Seed/Seed-X-PPO-7B",
   "createdAt": "2025-07-16T12:34:59.000Z",
-  "downloads": 1828,
+  "downloads": 1913,
   "likes": 303,
   "pipeline": "translation",
   "tags": [],
@@ -368,7 +368,7 @@
  {
   "id": "ByteDance-Seed/VINCIE-3B",
   "createdAt": "2025-07-02T06:09:02.000Z",
-  "downloads": 71,
+  "downloads": 66,
   "likes": 42,
   "pipeline": "image-to-image",
   "tags": [],
@@ -386,7 +386,7 @@
  {
   "id": "ByteDance-Seed/Tar-1.5B",
   "createdAt": "2025-07-02T05:47:40.000Z",
-  "downloads": 89,
+  "downloads": 88,
   "likes": 23,
   "pipeline": "any-to-any",
   "tags": [
@@ -408,7 +408,7 @@
  {
   "id": "ByteDance-Seed/SeedVR-3B",
   "createdAt": "2025-06-11T12:44:21.000Z",
-  "downloads": 2650,
+  "downloads": 3348,
   "likes": 7,
   "pipeline": "video-to-video",
   "tags": [],
@@ -417,7 +417,7 @@
  {
   "id": "ByteDance-Seed/SeedVR-7B",
   "createdAt": "2025-06-11T12:38:53.000Z",
-  "downloads": 132,
+  "downloads": 135,
   "likes": 13,
   "pipeline": "video-to-video",
   "tags": [],
@@ -426,7 +426,7 @@
  {
   "id": "ByteDance-Seed/SeedVR2-7B",
   "createdAt": "2025-06-11T12:37:31.000Z",
-  "downloads": 13475,
+  "downloads": 10857,
   "likes": 155,
   "pipeline": "video-to-video",
   "tags": [],
@@ -435,7 +435,7 @@
  {
   "id": "ByteDance-Seed/SeedVR2-3B",
   "createdAt": "2025-06-10T15:59:52.000Z",
-  "downloads": 16983,
+  "downloads": 18174,
   "likes": 140,
   "pipeline": "video-to-video",
   "tags": [],
@@ -453,7 +453,7 @@
  {
   "id": "ByteDance-Seed/BAGEL-7B-MoT",
   "createdAt": "2025-05-19T23:27:50.000Z",
-  "downloads": 947,
+  "downloads": 960,
   "likes": 1223,
   "pipeline": "any-to-any",
   "tags": [
@@ -464,7 +464,7 @@
  {
   "id": "ByteDance-Seed/Seed-Coder-8B-Reasoning-bf16",
   "createdAt": "2025-05-13T02:20:17.000Z",
-  "downloads": 193,
+  "downloads": 188,
   "likes": 23,
   "pipeline": "text-generation",
   "tags": [
@@ -476,7 +476,7 @@
  {
   "id": "ByteDance-Seed/SAIL-7B",
   "createdAt": "2025-05-07T06:42:31.000Z",
-  "downloads": 235,
+  "downloads": 245,
   "likes": 15,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -488,7 +488,7 @@
  {
   "id": "ByteDance-Seed/Seed-Coder-8B-Reasoning",
   "createdAt": "2025-04-27T07:52:58.000Z",
-  "downloads": 462,
+  "downloads": 444,
   "likes": 154,
   "pipeline": "text-generation",
   "tags": [
@@ -500,7 +500,7 @@
  {
   "id": "ByteDance-Seed/Seed-Coder-8B-Instruct",
   "createdAt": "2025-04-27T07:52:37.000Z",
-  "downloads": 3165,
+  "downloads": 2609,
   "likes": 119,
   "pipeline": "text-generation",
   "tags": [
@@ -512,7 +512,7 @@
  {
   "id": "ByteDance-Seed/Seed-Coder-8B-Base",
   "createdAt": "2025-04-27T03:53:38.000Z",
-  "downloads": 591,
+  "downloads": 626,
   "likes": 74,
   "pipeline": "text-generation",
   "tags": [
@@ -523,7 +523,7 @@
  {
   "id": "ByteDance-Seed/UI-TARS-1.5-7B",
   "createdAt": "2025-04-16T09:40:50.000Z",
-  "downloads": 565457,
+  "downloads": 538570,
   "likes": 607,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -535,7 +535,7 @@
  {
   "id": "ByteDance-Seed/academic-ds-9B",
   "createdAt": "2025-04-09T13:02:51.000Z",
-  "downloads": 18904,
+  "downloads": 19503,
   "likes": 16,
   "pipeline": "text-generation",
   "tags": [
@@ -547,7 +547,7 @@
  {
   "id": "ByteDance-Seed/BFS-Prover-V1-7B",
   "createdAt": "2025-02-23T23:11:13.000Z",
-  "downloads": 220,
+  "downloads": 224,
   "likes": 26,
   "pipeline": "text-generation",
   "tags": [
@@ -559,7 +559,7 @@
  {
   "id": "ByteDance-Seed/UI-TARS-72B-DPO",
   "createdAt": "2025-01-22T08:26:41.000Z",
-  "downloads": 592,
+  "downloads": 627,
   "likes": 159,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -571,7 +571,7 @@
  {
   "id": "ByteDance-Seed/UI-TARS-7B-DPO",
   "createdAt": "2025-01-22T08:26:26.000Z",
-  "downloads": 1399,
+  "downloads": 1362,
   "likes": 233,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -583,7 +583,7 @@
  {
   "id": "ByteDance-Seed/UI-TARS-72B-SFT",
   "createdAt": "2025-01-20T03:24:42.000Z",
-  "downloads": 178,
+  "downloads": 195,
   "likes": 25,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -595,7 +595,7 @@
  {
   "id": "ByteDance-Seed/UI-TARS-7B-SFT",
   "createdAt": "2025-01-20T03:20:33.000Z",
-  "downloads": 1223,
+  "downloads": 1350,
   "likes": 181,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -607,7 +607,7 @@
  {
   "id": "ByteDance-Seed/UI-TARS-2B-SFT",
   "createdAt": "2025-01-20T02:23:35.000Z",
-  "downloads": 3792,
+  "downloads": 3906,
   "likes": 39,
   "pipeline": "image-text-to-text",
   "tags": [

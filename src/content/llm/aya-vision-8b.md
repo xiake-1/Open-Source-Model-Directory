@@ -8,7 +8,7 @@ summary: "Aya Vision 的 8B 版本，端侧做多语言图文理解。"
 tags: [Dense, 可识别图像]
 license: "CC-BY-NC-4.0"
 commercial: 不可商用
-params: "8.6B"
+params: "8B"
 context: "128K"
 modalities: [text, image]
 deploys: [vllm, llama-cpp]

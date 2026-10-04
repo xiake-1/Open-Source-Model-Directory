@@ -8,7 +8,7 @@ summary: "同 28B-A3B 的视觉思考版，把推理链接进多模态输入。"
 tags: [MoE, 可识别图像]
 license: "Apache-2.0"
 commercial: 可商用
-params: "29.7B"
+params: "28B"
 context: "128K"
 modalities: [text, image]
 deploys: [vllm, sglang]

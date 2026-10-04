@@ -8,7 +8,7 @@ summary: "OLMo 3 的小尺寸版本，把完整训练流程与 Dolma 3 数据一
 tags: [Dense, 纯文本]
 license: "Apache-2.0"
 commercial: 可商用
-params: "7.3B"
+params: "7B"
 context: "64K"
 modalities: [text]
 deploys: [vllm, sglang, llama-cpp]

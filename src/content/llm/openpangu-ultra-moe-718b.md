@@ -8,7 +8,7 @@ summary: "华为盘古的 718B 开源 MoE（权重实测 734B），全流程在�
 tags: [MoE, 纯文本]
 license: "OpenPangu Model License 1.0"
 commercial: 有条件可商用
-params: "734B"
+params: "718B"
 context: "128K"
 modalities: [text]
 deploys: [vllm, sglang]

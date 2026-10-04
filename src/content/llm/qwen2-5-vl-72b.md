@@ -8,7 +8,7 @@ summary: "Qwen2.5-VL 最大的开源尺寸，能读长视频与文档里的表�
 tags: [Dense, 可识别图像]
 license: "Qwen LICENSE AGREEMENT"
 commercial: 有条件可商用
-params: "73.4B"
+params: "72B"
 context: "128K"
 modalities: [text, image]
 deploys: [vllm, sglang]

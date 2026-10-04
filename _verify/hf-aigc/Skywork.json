@@ -2,7 +2,7 @@
  {
   "id": "Skywork/Matrix-Game-3.0",
   "createdAt": "2026-03-27T03:23:47.000Z",
-  "downloads": 205,
+  "downloads": 209,
   "likes": 135,
   "pipeline": "image-text-to-video",
   "library": "diffusers",
@@ -18,7 +18,7 @@
  {
   "id": "Skywork/SkyReels-V3-A2V-19B",
   "createdAt": "2026-01-19T08:14:59.000Z",
-  "downloads": 1633,
+  "downloads": 1644,
   "likes": 98,
   "pipeline": "image-to-video",
   "library": "diffusers",
@@ -33,7 +33,7 @@
  {
   "id": "Skywork/SkyReels-V3-R2V-14B",
   "createdAt": "2026-01-19T08:14:33.000Z",
-  "downloads": 469,
+  "downloads": 456,
   "likes": 45,
   "pipeline": "image-to-video",
   "library": "diffusers",
@@ -61,7 +61,7 @@
  {
   "id": "Skywork/Unipic3",
   "createdAt": "2026-01-13T08:54:23.000Z",
-  "downloads": 68,
+  "downloads": 65,
   "likes": 23,
   "pipeline": "any-to-any",
   "library": "transformers",
@@ -84,7 +84,7 @@
  {
   "id": "Skywork/Unipic3-DMD",
   "createdAt": "2026-01-12T10:41:37.000Z",
-  "downloads": 55,
+  "downloads": 53,
   "likes": 11,
   "pipeline": "any-to-any",
   "library": "transformers",
@@ -106,7 +106,7 @@
  {
   "id": "Skywork/Unipic3-Consistency-Model",
   "createdAt": "2026-01-12T06:47:03.000Z",
-  "downloads": 31,
+  "downloads": 33,
   "likes": 8,
   "pipeline": "any-to-any",
   "library": "transformers",
@@ -151,7 +151,7 @@
  {
   "id": "Skywork/UniPic2-Metaquery-GRPO-Flash",
   "createdAt": "2025-08-13T07:46:57.000Z",
-  "downloads": 22,
+  "downloads": 23,
   "likes": 5,
   "pipeline": "any-to-any",
   "library": "transformers",
@@ -174,7 +174,7 @@
  {
   "id": "Skywork/UniPic2-SD3.5M-Kontext-GRPO-2B",
   "createdAt": "2025-08-13T07:04:28.000Z",
-  "downloads": 35,
+  "downloads": 32,
   "likes": 11,
   "pipeline": "any-to-any",
   "library": "transformers",
@@ -220,7 +220,7 @@
  {
   "id": "Skywork/UniPic2-Metaquery-Flash",
   "createdAt": "2025-08-12T11:38:43.000Z",
-  "downloads": 28,
+  "downloads": 30,
   "likes": 6,
   "pipeline": "any-to-any",
   "library": "transformers",
@@ -243,7 +243,7 @@
  {
   "id": "Skywork/UniPic2-SD3.5M-Kontext-2B",
   "createdAt": "2025-08-12T02:53:45.000Z",
-  "downloads": 49,
+  "downloads": 53,
   "likes": 25,
   "pipeline": "any-to-any",
   "library": "transformers",
@@ -266,7 +266,7 @@
  {
   "id": "Skywork/UniPic2-Metaquery-9B",
   "createdAt": "2025-08-11T09:37:19.000Z",
-  "downloads": 45,
+  "downloads": 44,
   "likes": 20,
   "pipeline": "any-to-any",
   "library": "transformers",
@@ -289,7 +289,7 @@
  {
   "id": "Skywork/Matrix-Game-2.0",
   "createdAt": "2025-08-08T05:48:53.000Z",
-  "downloads": 266,
+  "downloads": 246,
   "likes": 301,
   "pipeline": "image-to-video",
   "library": "diffusers",
@@ -305,7 +305,7 @@
  {
   "id": "Skywork/MindLink-72B-0801",
   "createdAt": "2025-08-01T12:52:49.000Z",
-  "downloads": 59,
+  "downloads": 68,
   "likes": 33,
   "pipeline": "text-generation",
   "library": "",
@@ -321,7 +321,7 @@
  {
   "id": "Skywork/MindLink-32B-0801",
   "createdAt": "2025-08-01T12:51:33.000Z",
-  "downloads": 62,
+  "downloads": 74,
   "likes": 37,
   "pipeline": "text-generation",
   "library": "",
@@ -337,7 +337,7 @@
  {
   "id": "Skywork/Skywork-UniPic-1.5B",
   "createdAt": "2025-07-29T06:34:02.000Z",
-  "downloads": 84,
+  "downloads": 77,
   "likes": 116,
   "pipeline": "any-to-any",
   "library": "transformers",
@@ -360,7 +360,7 @@
  {
   "id": "Skywork/Skywork-R1V3-38B-GGUF",
   "createdAt": "2025-07-15T08:34:45.000Z",
-  "downloads": 219,
+  "downloads": 210,
   "likes": 7,
   "pipeline": "",
   "library": "",
@@ -374,7 +374,7 @@
  {
   "id": "Skywork/Skywork-R1V3-38B-AWQ",
   "createdAt": "2025-07-13T10:21:32.000Z",
-  "downloads": 27,
+  "downloads": 28,
   "likes": 5,
   "pipeline": "image-text-to-text",
   "library": "transformers",
@@ -392,7 +392,7 @@
  {
   "id": "Skywork/Skywork-R1V3-38B",
   "createdAt": "2025-07-06T02:05:05.000Z",
-  "downloads": 208,
+  "downloads": 228,
   "likes": 90,
   "pipeline": "image-text-to-text",
   "library": "transformers",
@@ -412,7 +412,7 @@
  {
   "id": "Skywork/Skywork-Reward-V2-Llama-3.1-8B-40M",
   "createdAt": "2025-06-26T04:07:08.000Z",
-  "downloads": 1952,
+  "downloads": 1562,
   "likes": 25,
   "pipeline": "text-classification",
   "library": "transformers",
@@ -429,7 +429,7 @@
  {
   "id": "Skywork/Skywork-Reward-V2-Llama-3.1-8B",
   "createdAt": "2025-06-26T04:06:09.000Z",
-  "downloads": 12204,
+  "downloads": 12476,
   "likes": 50,
   "pipeline": "text-classification",
   "library": "transformers",
@@ -446,7 +446,7 @@
  {
   "id": "Skywork/Skywork-Reward-V2-Llama-3.2-3B",
   "createdAt": "2025-06-26T04:05:34.000Z",
-  "downloads": 1259,
+  "downloads": 1219,
   "likes": 5,
   "pipeline": "text-classification",
   "library": "transformers",
@@ -463,7 +463,7 @@
  {
   "id": "Skywork/Skywork-Reward-V2-Llama-3.2-1B",
   "createdAt": "2025-06-26T04:04:27.000Z",
-  "downloads": 5514,
+  "downloads": 5486,
   "likes": 9,
   "pipeline": "text-classification",
   "library": "transformers",
@@ -480,7 +480,7 @@
  {
   "id": "Skywork/Skywork-Reward-V2-Qwen3-8B",
   "createdAt": "2025-06-26T04:03:52.000Z",
-  "downloads": 2156,
+  "downloads": 2172,
   "likes": 25,
   "pipeline": "text-classification",
   "library": "transformers",
@@ -500,7 +500,7 @@
  {
   "id": "Skywork/Skywork-Reward-V2-Qwen3-4B",
   "createdAt": "2025-06-26T04:03:41.000Z",
-  "downloads": 2228,
+  "downloads": 2085,
   "likes": 11,
   "pipeline": "text-classification",
   "library": "transformers",
@@ -517,8 +517,8 @@
  {
   "id": "Skywork/Skywork-Reward-V2-Qwen3-1.7B",
   "createdAt": "2025-06-26T04:03:27.000Z",
-  "downloads": 4244,
-  "likes": 7,
+  "downloads": 4012,
+  "likes": 8,
   "pipeline": "text-classification",
   "library": "transformers",
   "gated": false,
@@ -534,7 +534,7 @@
  {
   "id": "Skywork/Skywork-Reward-V2-Qwen3-0.6B",
   "createdAt": "2025-06-26T04:03:07.000Z",
-  "downloads": 97300,
+  "downloads": 93440,
   "likes": 14,
   "pipeline": "text-classification",
   "library": "transformers",
@@ -567,7 +567,7 @@
  {
   "id": "Skywork/SkyReels-V2-I2V-14B-720P-Diffusers",
   "createdAt": "2025-06-14T07:58:15.000Z",
-  "downloads": 95,
+  "downloads": 94,
   "likes": 6,
   "pipeline": "image-to-video",
   "library": "diffusers",
@@ -601,7 +601,7 @@
  {
   "id": "Skywork/SkyReels-V2-I2V-1.3B-540P-Diffusers",
   "createdAt": "2025-06-14T07:54:02.000Z",
-  "downloads": 130,
+  "downloads": 152,
   "likes": 4,
   "pipeline": "image-to-video",
   "library": "diffusers",
@@ -635,7 +635,7 @@
  {
   "id": "Skywork/SkyReels-V2-T2V-14B-540P-Diffusers",
   "createdAt": "2025-06-14T07:50:01.000Z",
-  "downloads": 68,
+  "downloads": 69,
   "likes": 2,
   "pipeline": "text-to-video",
   "library": "diffusers",
@@ -652,7 +652,7 @@
  {
   "id": "Skywork/SkyReels-V2-DF-14B-720P-Diffusers",
   "createdAt": "2025-06-14T07:48:19.000Z",
-  "downloads": 56,
+  "downloads": 54,
   "likes": 5,
   "pipeline": "text-to-video",
   "library": "diffusers",
@@ -669,7 +669,7 @@
  {
   "id": "Skywork/SkyReels-V2-DF-14B-540P-Diffusers",
   "createdAt": "2025-06-14T07:45:59.000Z",
-  "downloads": 133,
+  "downloads": 117,
   "likes": 4,
   "pipeline": "text-to-video",
   "library": "diffusers",
@@ -686,7 +686,7 @@
  {
   "id": "Skywork/SkyReels-V2-DF-1.3B-540P-Diffusers",
   "createdAt": "2025-06-14T07:30:13.000Z",
-  "downloads": 516,
+  "downloads": 415,
   "likes": 3,
   "pipeline": "text-to-video",
   "library": "diffusers",
@@ -703,7 +703,7 @@
  {
   "id": "Skywork/Skywork-SWE-32B",
   "createdAt": "2025-06-11T06:21:51.000Z",
-  "downloads": 79,
+  "downloads": 91,
   "likes": 80,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -722,7 +722,7 @@
  {
   "id": "Skywork/Skywork-OR1-32B",
   "createdAt": "2025-05-13T07:33:38.000Z",
-  "downloads": 219,
+  "downloads": 232,
   "likes": 22,
   "pipeline": "",
   "library": "",
@@ -735,7 +735,7 @@
  {
   "id": "Skywork/Skywork-OR1-7B",
   "createdAt": "2025-05-13T07:33:24.000Z",
-  "downloads": 1147,
+  "downloads": 1148,
   "likes": 14,
   "pipeline": "",
   "library": "",
@@ -748,7 +748,7 @@
  {
   "id": "Skywork/Matrix-Game",
   "createdAt": "2025-05-07T08:31:36.000Z",
-  "downloads": 107,
+  "downloads": 104,
   "likes": 48,
   "pipeline": "image-to-video",
   "library": "diffusers",
@@ -763,7 +763,7 @@
  {
   "id": "Skywork/Skywork-R1V2-38B-AWQ",
   "createdAt": "2025-04-27T08:38:45.000Z",
-  "downloads": 89,
+  "downloads": 94,
   "likes": 12,
   "pipeline": "image-text-to-text",
   "library": "transformers",
@@ -781,7 +781,7 @@
  {
   "id": "Skywork/SkyReels-V2-I2V-14B-720P",
   "createdAt": "2025-04-24T09:56:53.000Z",
-  "downloads": 789,
+  "downloads": 733,
   "likes": 39,
   "pipeline": "image-to-video",
   "library": "diffusers",
@@ -796,7 +796,7 @@
  {
   "id": "Skywork/Skywork-R1V2-38B",
   "createdAt": "2025-04-22T09:05:50.000Z",
-  "downloads": 143,
+  "downloads": 153,
   "likes": 126,
   "pipeline": "image-text-to-text",
   "library": "transformers",
@@ -814,7 +814,7 @@
  {
   "id": "Skywork/SkyReels-V2-I2V-1.3B-540P",
   "createdAt": "2025-04-20T06:37:07.000Z",
-  "downloads": 223,
+  "downloads": 224,
   "likes": 47,
   "pipeline": "image-to-video",
   "library": "",
@@ -828,7 +828,7 @@
  {
   "id": "Skywork/SkyReels-V2-T2V-14B-720P",
   "createdAt": "2025-04-18T13:55:51.000Z",
-  "downloads": 1453,
+  "downloads": 1443,
   "likes": 42,
   "pipeline": "text-to-video",
   "library": "diffusers",
@@ -843,7 +843,7 @@
  {
   "id": "Skywork/SkyReels-V2-DF-14B-720P",
   "createdAt": "2025-04-18T13:34:52.000Z",
-  "downloads": 985,
+  "downloads": 993,
   "likes": 33,
   "pipeline": "text-to-video",
   "library": "diffusers",
@@ -858,7 +858,7 @@
  {
   "id": "Skywork/SkyReels-V2-T2V-14B-540P",
   "createdAt": "2025-04-18T13:29:51.000Z",
-  "downloads": 80,
+  "downloads": 83,
   "likes": 25,
   "pipeline": "text-to-video",
   "library": "",
@@ -872,7 +872,7 @@
  {
   "id": "Skywork/SkyReels-V2-DF-14B-540P",
   "createdAt": "2025-04-18T13:20:40.000Z",
-  "downloads": 70,
+  "downloads": 67,
   "likes": 21,
   "pipeline": "text-to-video",
   "library": "",
@@ -886,7 +886,7 @@
  {
   "id": "Skywork/SkyReels-V2-DF-1.3B-540P",
   "createdAt": "2025-04-18T13:15:28.000Z",
-  "downloads": 433,
+  "downloads": 428,
   "likes": 55,
   "pipeline": "text-to-video",
   "library": "",
@@ -918,7 +918,7 @@
  {
   "id": "Skywork/SkyReels-V2-I2V-14B-540P",
   "createdAt": "2025-04-18T03:14:18.000Z",
-  "downloads": 76,
+  "downloads": 75,
   "likes": 95,
   "pipeline": "image-to-video",
   "library": "",
@@ -932,7 +932,7 @@
  {
   "id": "Skywork/Skywork-VL-Reward-7B",
   "createdAt": "2025-04-14T07:20:24.000Z",
-  "downloads": 2945,
+  "downloads": 3150,
   "likes": 48,
   "pipeline": "image-text-to-text",
   "library": "transformers",
@@ -952,7 +952,7 @@
  {
   "id": "Skywork/Skywork-OR1-7B-Preview",
   "createdAt": "2025-04-13T08:49:45.000Z",
-  "downloads": 148,
+  "downloads": 156,
   "likes": 13,
   "pipeline": "",
   "library": "",
@@ -965,7 +965,7 @@
  {
   "id": "Skywork/Skywork-OR1-32B-Preview",
   "createdAt": "2025-04-13T08:49:29.000Z",
-  "downloads": 61,
+  "downloads": 70,
   "likes": 68,
   "pipeline": "",
   "library": "",
@@ -978,7 +978,7 @@
  {
   "id": "Skywork/Skywork-OR1-Math-7B",
   "createdAt": "2025-04-12T09:00:27.000Z",
-  "downloads": 2113,
+  "downloads": 2175,
   "likes": 19,
   "pipeline": "",
   "library": "",
@@ -991,7 +991,7 @@
  {
   "id": "Skywork/SkyReels-A2",
   "createdAt": "2025-03-30T02:51:45.000Z",
-  "downloads": 36,
+  "downloads": 35,
   "likes": 139,
   "pipeline": "",
   "library": "diffusers",
@@ -1004,7 +1004,7 @@
  {
   "id": "Skywork/Skywork-R1V-38B-AWQ",
   "createdAt": "2025-03-28T05:15:43.000Z",
-  "downloads": 31,
+  "downloads": 32,
   "likes": 8,
   "pipeline": "image-text-to-text",
   "library": "transformers",
@@ -1022,7 +1022,7 @@
  {
   "id": "Skywork/Skywork-R1V-38B",
   "createdAt": "2025-03-17T13:00:09.000Z",
-  "downloads": 15100,
+  "downloads": 14743,
   "likes": 128,
   "pipeline": "image-text-to-text",
   "library": "transformers",
@@ -1040,7 +1040,7 @@
  {
   "id": "Skywork/SkyworkVL-2B",
   "createdAt": "2025-03-16T14:46:22.000Z",
-  "downloads": 34,
+  "downloads": 36,
   "likes": 8,
   "pipeline": "image-text-to-text",
   "library": "",
@@ -1057,7 +1057,7 @@
  {
   "id": "Skywork/SkyworkVL-38B",
   "createdAt": "2025-03-05T07:33:59.000Z",
-  "downloads": 127,
+  "downloads": 138,
   "likes": 12,
   "pipeline": "image-text-to-text",
   "library": "",
@@ -1074,7 +1074,7 @@
  {
   "id": "Skywork/SkyReels-V1-Hunyuan-I2V",
   "createdAt": "2025-02-17T03:52:30.000Z",
-  "downloads": 509,
+  "downloads": 650,
   "likes": 281,
   "pipeline": "image-to-video",
   "library": "diffusers",
@@ -1089,7 +1089,7 @@
  {
   "id": "Skywork/SkyReels-V1-Hunyuan-T2V",
   "createdAt": "2025-02-13T08:19:54.000Z",
-  "downloads": 804,
+  "downloads": 818,
   "likes": 92,
   "pipeline": "text-to-video",
   "library": "diffusers",
@@ -1104,7 +1104,7 @@
  {
   "id": "Skywork/SkyReels-A1",
   "createdAt": "2025-02-13T02:41:57.000Z",
-  "downloads": 54,
+  "downloads": 53,
   "likes": 67,
   "pipeline": "image-to-video",
   "library": "diffusers",

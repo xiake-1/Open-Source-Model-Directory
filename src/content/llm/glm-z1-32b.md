@@ -8,7 +8,7 @@ summary: "智谱第一代开源推理模型，32B 稠密靠 RL 把数学与代�
 tags: [Dense, 纯文本]
 license: "MIT"
 commercial: 可商用
-params: "32.6B"
+params: "32B"
 context: "128K"
 modalities: [text]
 deploys: [vllm, sglang]

@@ -2,7 +2,7 @@
  {
   "id": "baichuan-inc/Baichuan-M3-235B-Q4_K_M-GGUF",
   "createdAt": "2026-02-06T11:44:20.000Z",
-  "downloads": 81,
+  "downloads": 80,
   "likes": 7,
   "pipeline": "text-generation",
   "tags": [
@@ -14,7 +14,7 @@
  {
   "id": "baichuan-inc/Baichuan-M2-32B-Q4_K_M-GGUF",
   "createdAt": "2026-02-06T11:43:48.000Z",
-  "downloads": 6229,
+  "downloads": 6243,
   "likes": 3,
   "pipeline": "text-generation",
   "tags": [
@@ -26,7 +26,7 @@
  {
   "id": "baichuan-inc/Baichuan-M3-235B-FP8",
   "createdAt": "2026-01-21T13:34:52.000Z",
-  "downloads": 136,
+  "downloads": 132,
   "likes": 3,
   "pipeline": "text-generation",
   "tags": [
@@ -38,7 +38,7 @@
  {
   "id": "baichuan-inc/Baichuan-M3-235B-GPTQ-INT4",
   "createdAt": "2026-01-13T02:18:45.000Z",
-  "downloads": 390,
+  "downloads": 387,
   "likes": 11,
   "pipeline": "text-generation",
   "tags": [
@@ -50,7 +50,7 @@
  {
   "id": "baichuan-inc/Baichuan-M3-235B",
   "createdAt": "2026-01-13T02:15:51.000Z",
-  "downloads": 470,
+  "downloads": 474,
   "likes": 104,
   "pipeline": "text-generation",
   "tags": [
@@ -62,7 +62,7 @@
  {
   "id": "baichuan-inc/Baichuan-M2-32B-GPTQ-Int4",
   "createdAt": "2025-08-10T09:51:53.000Z",
-  "downloads": 315,
+  "downloads": 313,
   "likes": 12,
   "pipeline": "text-generation",
   "tags": [
@@ -74,7 +74,7 @@
  {
   "id": "baichuan-inc/Baichuan-M2-32B",
   "createdAt": "2025-08-10T06:40:13.000Z",
-  "downloads": 1355,
+  "downloads": 1291,
   "likes": 126,
   "pipeline": "text-generation",
   "tags": [
@@ -86,7 +86,7 @@
  {
   "id": "baichuan-inc/BaichuanMed-OCR-7B",
   "createdAt": "2025-04-07T08:47:14.000Z",
-  "downloads": 226,
+  "downloads": 203,
   "likes": 12,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -98,7 +98,7 @@
  {
   "id": "baichuan-inc/BaichuanMed-OCR-72B",
   "createdAt": "2025-04-02T08:21:06.000Z",
-  "downloads": 77,
+  "downloads": 81,
   "likes": 8,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -110,7 +110,7 @@
  {
   "id": "baichuan-inc/Baichuan-Audio-Instruct",
   "createdAt": "2025-02-24T02:19:20.000Z",
-  "downloads": 99,
+  "downloads": 106,
   "likes": 17,
   "pipeline": "",
   "tags": [],
@@ -119,7 +119,7 @@
  {
   "id": "baichuan-inc/Baichuan-Audio-Base",
   "createdAt": "2025-02-21T07:45:57.000Z",
-  "downloads": 89,
+  "downloads": 94,
   "likes": 12,
   "pipeline": "",
   "tags": [],
@@ -128,7 +128,7 @@
  {
   "id": "baichuan-inc/Baichuan-Omni-1d5-Base",
   "createdAt": "2025-01-24T07:30:38.000Z",
-  "downloads": 135,
+  "downloads": 110,
   "likes": 11,
   "pipeline": "",
   "tags": [],
@@ -137,7 +137,7 @@
  {
   "id": "baichuan-inc/Baichuan-Omni-1d5",
   "createdAt": "2025-01-24T07:30:12.000Z",
-  "downloads": 188,
+  "downloads": 181,
   "likes": 48,
   "pipeline": "",
   "tags": [],
@@ -146,7 +146,7 @@
  {
   "id": "baichuan-inc/Baichuan-M1-14B-Base",
   "createdAt": "2025-01-23T16:48:20.000Z",
-  "downloads": 185,
+  "downloads": 183,
   "likes": 31,
   "pipeline": "",
   "tags": [],
@@ -155,7 +155,7 @@
  {
   "id": "baichuan-inc/Baichuan-M1-14B-Instruct",
   "createdAt": "2025-01-23T08:19:01.000Z",
-  "downloads": 630,
+  "downloads": 634,
   "likes": 67,
   "pipeline": "",
   "tags": [],

@@ -8,7 +8,7 @@ summary: "百度 ERNIE 4.5 开源家族里的中量级 MoE，21B 激活 3B，Apa
 tags: [MoE, 纯文本]
 license: "Apache-2.0"
 commercial: 可商用
-params: "21.9B (激活 3B)"
+params: "21B (激活 3B)"
 context: "128K"
 modalities: [text]
 deploys: [vllm, sglang]

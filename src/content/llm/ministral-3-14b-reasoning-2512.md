@@ -8,7 +8,7 @@ summary: "Ministral 3 的 14B 思考版，小尺寸上做多步推理。"
 tags: [Dense, 可识别图像]
 license: "Apache-2.0"
 commercial: 可商用
-params: "13.9B"
+params: "14B"
 context: "128K"
 modalities: [text, image]
 deploys: [vllm, llama-cpp]

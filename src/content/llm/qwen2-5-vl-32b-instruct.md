@@ -8,7 +8,7 @@ summary: "Qwen2.5-VL 补上的 32B 中量级尺寸，效果逼近 72B 而显存�
 tags: [Dense, 可识别图像]
 license: "Apache-2.0"
 commercial: 可商用
-params: "33.5B"
+params: "32B"
 context: "128K"
 modalities: [text, image]
 deploys: [vllm, sglang]

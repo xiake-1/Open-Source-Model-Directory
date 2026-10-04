@@ -2,7 +2,7 @@
  {
   "id": "mistralai/Shieldstral-1.0-3B",
   "createdAt": "2026-07-16T10:24:13.000Z",
-  "downloads": 38020,
+  "downloads": 38028,
   "likes": 284,
   "pipeline": "",
   "tags": [],
@@ -11,7 +11,7 @@
  {
   "id": "mistralai/Leanstral-1.5-119B-A6B",
   "createdAt": "2026-07-01T16:43:19.000Z",
-  "downloads": 303,
+  "downloads": 306,
   "likes": 219,
   "pipeline": "",
   "tags": [],
@@ -20,7 +20,7 @@
  {
   "id": "mistralai/Mistral-Medium-3.5-128B-EAGLE",
   "createdAt": "2026-04-27T13:35:34.000Z",
-  "downloads": 187,
+  "downloads": 188,
   "likes": 62,
   "pipeline": "",
   "tags": [],
@@ -29,7 +29,7 @@
  {
   "id": "mistralai/Mistral-Medium-3.5-128B",
   "createdAt": "2026-03-31T09:50:20.000Z",
-  "downloads": 126863,
+  "downloads": 118113,
   "likes": 461,
   "pipeline": "",
   "tags": [],
@@ -38,7 +38,7 @@
  {
   "id": "mistralai/Leanstral-2603",
   "createdAt": "2026-03-11T14:01:29.000Z",
-  "downloads": 129,
+  "downloads": 125,
   "likes": 168,
   "pipeline": "",
   "tags": [],
@@ -47,7 +47,7 @@
  {
   "id": "mistralai/Mistral-Small-4-119B-2603-eagle",
   "createdAt": "2026-03-04T16:38:14.000Z",
-  "downloads": 328,
+  "downloads": 342,
   "likes": 62,
   "pipeline": "",
   "tags": [],
@@ -56,7 +56,7 @@
  {
   "id": "mistralai/Mistral-Small-4-119B-2603-NVFP4",
   "createdAt": "2026-03-03T10:51:08.000Z",
-  "downloads": 1463,
+  "downloads": 1498,
   "likes": 133,
   "pipeline": "",
   "tags": [],
@@ -65,8 +65,8 @@
  {
   "id": "mistralai/Mistral-Small-4-119B-2603",
   "createdAt": "2026-01-23T13:14:14.000Z",
-  "downloads": 54732,
-  "likes": 430,
+  "downloads": 54290,
+  "likes": 432,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -74,8 +74,8 @@
  {
   "id": "mistralai/Voxtral-Mini-4B-Realtime-2602",
   "createdAt": "2026-01-21T17:22:02.000Z",
-  "downloads": 1931692,
-  "likes": 998,
+  "downloads": 1894483,
+  "likes": 999,
   "pipeline": "automatic-speech-recognition",
   "tags": [],
   "gated": false
@@ -92,7 +92,7 @@
  {
   "id": "mistralai/Mistral-Large-3-675B-Instruct-2512",
   "createdAt": "2025-11-28T18:05:12.000Z",
-  "downloads": 1707,
+  "downloads": 1700,
   "likes": 252,
   "pipeline": "",
   "tags": [],
@@ -101,8 +101,8 @@
  {
   "id": "mistralai/Mistral-Large-3-675B-Instruct-2512-NVFP4",
   "createdAt": "2025-11-28T17:57:04.000Z",
-  "downloads": 11798,
-  "likes": 78,
+  "downloads": 11470,
+  "likes": 79,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -110,7 +110,7 @@
  {
   "id": "mistralai/Devstral-2-123B-Instruct-2512",
   "createdAt": "2025-11-28T17:32:09.000Z",
-  "downloads": 8682,
+  "downloads": 7671,
   "likes": 342,
   "pipeline": "",
   "tags": [],
@@ -119,7 +119,7 @@
  {
   "id": "mistralai/Devstral-Small-2-24B-Instruct-2512",
   "createdAt": "2025-11-28T11:27:11.000Z",
-  "downloads": 316355,
+  "downloads": 323414,
   "likes": 673,
   "pipeline": "",
   "tags": [],
@@ -128,7 +128,7 @@
  {
   "id": "mistralai/Ministral-3-3B-Instruct-2512-ONNX",
   "createdAt": "2025-11-24T08:49:49.000Z",
-  "downloads": 507,
+  "downloads": 527,
   "likes": 33,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -140,8 +140,8 @@
  {
   "id": "mistralai/Voxtral-4B-TTS-2603",
   "createdAt": "2025-11-17T17:06:57.000Z",
-  "downloads": 1668,
-  "likes": 919,
+  "downloads": 1702,
+  "likes": 920,
   "pipeline": "text-to-speech",
   "tags": [],
   "gated": false
@@ -149,7 +149,7 @@
  {
   "id": "mistralai/Mistral-Large-3-675B-Instruct-2512-Eagle",
   "createdAt": "2025-11-10T07:41:02.000Z",
-  "downloads": 167,
+  "downloads": 163,
   "likes": 30,
   "pipeline": "",
   "tags": [],
@@ -158,7 +158,7 @@
  {
   "id": "mistralai/Ministral-3-14B-Reasoning-2512-GGUF",
   "createdAt": "2025-10-31T08:47:40.000Z",
-  "downloads": 7865,
+  "downloads": 7727,
   "likes": 51,
   "pipeline": "",
   "tags": [
@@ -169,7 +169,7 @@
  {
   "id": "mistralai/Ministral-3-14B-Instruct-2512-GGUF",
   "createdAt": "2025-10-31T08:47:30.000Z",
-  "downloads": 42039,
+  "downloads": 42866,
   "likes": 76,
   "pipeline": "",
   "tags": [
@@ -180,7 +180,7 @@
  {
   "id": "mistralai/Ministral-3-8B-Reasoning-2512-GGUF",
   "createdAt": "2025-10-31T08:46:38.000Z",
-  "downloads": 4527,
+  "downloads": 4614,
   "likes": 44,
   "pipeline": "",
   "tags": [
@@ -191,8 +191,8 @@
  {
   "id": "mistralai/Ministral-3-8B-Instruct-2512-GGUF",
   "createdAt": "2025-10-31T08:46:24.000Z",
-  "downloads": 29409,
-  "likes": 77,
+  "downloads": 30852,
+  "likes": 78,
   "pipeline": "",
   "tags": [
    "conversational"
@@ -213,7 +213,7 @@
  {
   "id": "mistralai/Ministral-3-3B-Instruct-2512-GGUF",
   "createdAt": "2025-10-31T08:45:13.000Z",
-  "downloads": 39133,
+  "downloads": 39543,
   "likes": 85,
   "pipeline": "",
   "tags": [
@@ -224,8 +224,8 @@
  {
   "id": "mistralai/Ministral-3-3B-Instruct-2512",
   "createdAt": "2025-10-31T08:43:46.000Z",
-  "downloads": 114626,
-  "likes": 292,
+  "downloads": 113672,
+  "likes": 294,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -233,7 +233,7 @@
  {
   "id": "mistralai/Ministral-3-8B-Instruct-2512",
   "createdAt": "2025-10-31T08:43:35.000Z",
-  "downloads": 122628,
+  "downloads": 120480,
   "likes": 206,
   "pipeline": "",
   "tags": [],
@@ -242,8 +242,8 @@
  {
   "id": "mistralai/Ministral-3-14B-Instruct-2512",
   "createdAt": "2025-10-31T08:43:24.000Z",
-  "downloads": 269476,
-  "likes": 329,
+  "downloads": 230848,
+  "likes": 331,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -251,7 +251,7 @@
  {
   "id": "mistralai/Ministral-3-14B-Reasoning-2512",
   "createdAt": "2025-10-31T08:42:28.000Z",
-  "downloads": 75187,
+  "downloads": 75341,
   "likes": 156,
   "pipeline": "",
   "tags": [],
@@ -260,7 +260,7 @@
  {
   "id": "mistralai/Ministral-3-14B-Instruct-2512-BF16",
   "createdAt": "2025-10-31T08:42:04.000Z",
-  "downloads": 83750,
+  "downloads": 89463,
   "likes": 32,
   "pipeline": "",
   "tags": [],
@@ -269,7 +269,7 @@
  {
   "id": "mistralai/Ministral-3-14B-Base-2512",
   "createdAt": "2025-10-31T08:41:49.000Z",
-  "downloads": 3710,
+  "downloads": 3658,
   "likes": 64,
   "pipeline": "",
   "tags": [],
@@ -278,7 +278,7 @@
  {
   "id": "mistralai/Ministral-3-8B-Reasoning-2512",
   "createdAt": "2025-10-31T08:41:36.000Z",
-  "downloads": 11202,
+  "downloads": 12008,
   "likes": 105,
   "pipeline": "",
   "tags": [],
@@ -287,7 +287,7 @@
  {
   "id": "mistralai/Ministral-3-8B-Instruct-2512-BF16",
   "createdAt": "2025-10-31T08:41:17.000Z",
-  "downloads": 48410,
+  "downloads": 45592,
   "likes": 25,
   "pipeline": "",
   "tags": [],
@@ -296,7 +296,7 @@
  {
   "id": "mistralai/Ministral-3-8B-Base-2512",
   "createdAt": "2025-10-31T08:40:56.000Z",
-  "downloads": 13567,
+  "downloads": 11598,
   "likes": 54,
   "pipeline": "",
   "tags": [],
@@ -305,7 +305,7 @@
  {
   "id": "mistralai/Ministral-3-3B-Reasoning-2512",
   "createdAt": "2025-10-31T08:39:58.000Z",
-  "downloads": 27898,
+  "downloads": 21256,
   "likes": 121,
   "pipeline": "",
   "tags": [],
@@ -314,7 +314,7 @@
  {
   "id": "mistralai/Ministral-3-3B-Instruct-2512-BF16",
   "createdAt": "2025-10-31T08:39:19.000Z",
-  "downloads": 67496,
+  "downloads": 63548,
   "likes": 38,
   "pipeline": "",
   "tags": [],
@@ -323,7 +323,7 @@
  {
   "id": "mistralai/Ministral-3-3B-Base-2512",
   "createdAt": "2025-10-31T08:38:59.000Z",
-  "downloads": 15123,
+  "downloads": 14711,
   "likes": 78,
   "pipeline": "",
   "tags": [],
@@ -332,7 +332,7 @@
  {
   "id": "mistralai/Mistral-Large-3-675B-Instruct-2512-BF16",
   "createdAt": "2025-09-28T23:11:04.000Z",
-  "downloads": 51,
+  "downloads": 50,
   "likes": 14,
   "pipeline": "",
   "tags": [],
@@ -341,7 +341,7 @@
  {
   "id": "mistralai/Magistral-Small-2509-GGUF",
   "createdAt": "2025-09-12T09:45:52.000Z",
-  "downloads": 3027,
+  "downloads": 3231,
   "likes": 75,
   "pipeline": "",
   "tags": [],
@@ -350,7 +350,7 @@
  {
   "id": "mistralai/Magistral-Small-2509",
   "createdAt": "2025-09-12T09:45:10.000Z",
-  "downloads": 5697,
+  "downloads": 5916,
   "likes": 306,
   "pipeline": "",
   "tags": [],
@@ -359,7 +359,7 @@
  {
   "id": "mistralai/Magistral-Small-2507-GGUF",
   "createdAt": "2025-07-23T21:15:44.000Z",
-  "downloads": 281,
+  "downloads": 289,
   "likes": 14,
   "pipeline": "text-generation",
   "tags": [
@@ -370,7 +370,7 @@
  {
   "id": "mistralai/Magistral-Small-2507",
   "createdAt": "2025-07-18T08:14:36.000Z",
-  "downloads": 4596,
+  "downloads": 4600,
   "likes": 104,
   "pipeline": "",
   "tags": [],
@@ -379,7 +379,7 @@
  {
   "id": "mistralai/Devstral-Small-2507_gguf",
   "createdAt": "2025-07-07T12:22:38.000Z",
-  "downloads": 3491,
+  "downloads": 3492,
   "likes": 51,
   "pipeline": "text-generation",
   "tags": [
@@ -391,8 +391,8 @@
  {
   "id": "mistralai/Devstral-Small-2507",
   "createdAt": "2025-07-04T14:23:44.000Z",
-  "downloads": 31028,
-  "likes": 369,
+  "downloads": 14855,
+  "likes": 368,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -400,8 +400,8 @@
  {
   "id": "mistralai/Voxtral-Small-24B-2507",
   "createdAt": "2025-07-01T14:11:59.000Z",
-  "downloads": 23996,
-  "likes": 528,
+  "downloads": 24585,
+  "likes": 529,
   "pipeline": "audio-text-to-text",
   "tags": [],
   "gated": false
@@ -409,7 +409,7 @@
  {
   "id": "mistralai/Voxtral-Mini-3B-2507",
   "createdAt": "2025-07-01T14:11:46.000Z",
-  "downloads": 190706,
+  "downloads": 179324,
   "likes": 675,
   "pipeline": "",
   "tags": [],
@@ -418,7 +418,7 @@
  {
   "id": "mistralai/Mistral-Small-3.2-24B-Instruct-2506",
   "createdAt": "2025-06-19T17:41:13.000Z",
-  "downloads": 254948,
+  "downloads": 255950,
   "likes": 622,
   "pipeline": "",
   "tags": [],
@@ -427,7 +427,7 @@
  {
   "id": "mistralai/Magistral-Small-2506_gguf",
   "createdAt": "2025-06-09T09:25:46.000Z",
-  "downloads": 661,
+  "downloads": 720,
   "likes": 71,
   "pipeline": "",
   "tags": [
@@ -438,7 +438,7 @@
  {
   "id": "mistralai/Magistral-Small-2506",
   "createdAt": "2025-06-04T10:51:21.000Z",
-  "downloads": 71873,
+  "downloads": 72535,
   "likes": 610,
   "pipeline": "",
   "tags": [],
@@ -447,7 +447,7 @@
  {
   "id": "mistralai/Devstral-Small-2505_gguf",
   "createdAt": "2025-05-19T16:34:03.000Z",
-  "downloads": 2354,
+  "downloads": 2281,
   "likes": 81,
   "pipeline": "",
   "tags": [
@@ -458,7 +458,7 @@
  {
   "id": "mistralai/Devstral-Small-2505",
   "createdAt": "2025-05-12T21:49:21.000Z",
-  "downloads": 1868,
+  "downloads": 1779,
   "likes": 868,
   "pipeline": "",
   "tags": [],
@@ -467,7 +467,7 @@
  {
   "id": "mistralai/Mistral-Nemo-Instruct-FP8-2407",
   "createdAt": "2025-03-21T14:24:45.000Z",
-  "downloads": 157,
+  "downloads": 150,
   "likes": 26,
   "pipeline": "",
   "tags": [],
@@ -476,7 +476,7 @@
  {
   "id": "mistralai/Mistral-Small-3.1-24B-Base-2503",
   "createdAt": "2025-03-16T23:31:11.000Z",
-  "downloads": 2513,
+  "downloads": 2526,
   "likes": 276,
   "pipeline": "",
   "tags": [],
@@ -485,7 +485,7 @@
  {
   "id": "mistralai/Mistral-Small-3.1-24B-Instruct-2503",
   "createdAt": "2025-03-11T17:04:58.000Z",
-  "downloads": 541053,
+  "downloads": 539274,
   "likes": 1383,
   "pipeline": "",
   "tags": [],
@@ -494,7 +494,7 @@
  {
   "id": "mistralai/Mistral-Small-24B-Instruct-2501",
   "createdAt": "2025-01-28T13:30:13.000Z",
-  "downloads": 55623,
+  "downloads": 58350,
   "likes": 970,
   "pipeline": "",
   "tags": [],
@@ -503,7 +503,7 @@
  {
   "id": "mistralai/Mistral-Small-24B-Base-2501",
   "createdAt": "2025-01-23T14:13:54.000Z",
-  "downloads": 5856,
+  "downloads": 4941,
   "likes": 269,
   "pipeline": "",
   "tags": [],

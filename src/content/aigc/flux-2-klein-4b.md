@@ -10,7 +10,7 @@ license: "Apache-2.0"
 commercial: 可商用
 output: image
 architecture: "Rectified Flow Transformer（klein 蒸馏版）"
-params: "3.9B"
+params: "4B"
 links:
   hf: "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B"
   github: "https://github.com/black-forest-labs/flux2"

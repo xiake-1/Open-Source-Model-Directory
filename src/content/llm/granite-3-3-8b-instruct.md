@@ -8,7 +8,7 @@ summary: "Granite 3.3 的 8B 版本，工具调用与 RAG 场景专门加强。"
 tags: [Dense, 纯文本]
 license: "Apache-2.0"
 commercial: 可商用
-params: "8.2B"
+params: "8B"
 context: "128K"
 modalities: [text]
 deploys: [vllm, llama-cpp, ollama]

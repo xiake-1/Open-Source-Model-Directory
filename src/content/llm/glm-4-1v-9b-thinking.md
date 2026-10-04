@@ -8,7 +8,7 @@ summary: "GLM-4.1V 的 9B 视觉思考版，小尺寸做图表与界面推理。
 tags: [Dense, 可识别图像]
 license: "MIT"
 commercial: 可商用
-params: "10.3B"
+params: "9B"
 context: "64K"
 modalities: [text, image]
 deploys: [vllm, llama-cpp]

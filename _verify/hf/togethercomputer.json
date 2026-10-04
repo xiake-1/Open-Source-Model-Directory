@@ -2,8 +2,8 @@
  {
   "id": "togethercomputer/Tev1-0.8B-experimental",
   "createdAt": "2026-09-25T17:19:54.000Z",
-  "downloads": 1234,
-  "likes": 17,
+  "downloads": 1370,
+  "likes": 18,
   "pipeline": "text-generation",
   "tags": [
    "image-text-to-text",
@@ -15,7 +15,7 @@
  {
   "id": "togethercomputer/Tev1-4B-experimental",
   "createdAt": "2026-09-23T18:00:57.000Z",
-  "downloads": 3053,
+  "downloads": 3223,
   "likes": 28,
   "pipeline": "text-generation",
   "tags": [
@@ -28,7 +28,7 @@
  {
   "id": "togethercomputer/Aurora-Spec-Minimax-M2.5",
   "createdAt": "2026-02-19T20:32:12.000Z",
-  "downloads": 16072,
+  "downloads": 15925,
   "likes": 6,
   "pipeline": "text-generation",
   "tags": [
@@ -39,7 +39,7 @@
  {
   "id": "togethercomputer/Aurora-Spec-Minimax-M2.1",
   "createdAt": "2026-02-04T23:02:09.000Z",
-  "downloads": 262,
+  "downloads": 267,
   "likes": 3,
   "pipeline": "text-generation",
   "tags": [
@@ -50,7 +50,7 @@
  {
   "id": "togethercomputer/Aurora-Spec-Qwen3-Coder-Next-FP8",
   "createdAt": "2026-02-03T05:16:50.000Z",
-  "downloads": 337,
+  "downloads": 342,
   "likes": 22,
   "pipeline": "text-generation",
   "tags": [
@@ -61,7 +61,7 @@
  {
   "id": "togethercomputer/M1-3B",
   "createdAt": "2025-05-02T04:30:50.000Z",
-  "downloads": 258,
+  "downloads": 261,
   "likes": 9,
   "pipeline": "text-generation",
   "tags": [
@@ -73,7 +73,7 @@
  {
   "id": "togethercomputer/qwen2_vl_7b_instruct-biomedical-stage2",
   "createdAt": "2025-01-21T18:16:55.000Z",
-  "downloads": 85,
+  "downloads": 95,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -82,7 +82,7 @@
  {
   "id": "togethercomputer/gemma-2-9b-it-MoAA-DPO",
   "createdAt": "2024-12-06T01:28:39.000Z",
-  "downloads": 84,
+  "downloads": 85,
   "likes": 0,
   "pipeline": "text-generation",
   "tags": [

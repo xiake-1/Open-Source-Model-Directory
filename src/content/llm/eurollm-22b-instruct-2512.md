@@ -8,7 +8,7 @@ summary: "欧盟资助的 EuroLLM 22B 版本，覆盖全部官方语言的开源
 tags: [Dense, 纯文本]
 license: "Apache-2.0"
 commercial: 可商用
-params: "22.6B"
+params: "22B"
 context: "32K"
 modalities: [text]
 deploys: [vllm, sglang]

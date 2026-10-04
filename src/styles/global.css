@@ -452,7 +452,9 @@ main { padding: 32px 0 72px; }
 .entry-foot .links a { font-size: 13px; }
 .entry-kind { margin-left: auto; font-size: 12px; color: var(--text-dim); }
 
-/* 卡片上的标签：点一下就地过滤（跳 #tag=xx，由 TagFilter 的脚本处理） */
+/* 卡片上的标签：点一下就地过滤（跳 #tag=xx，由 TagFilter 的脚本处理）。
+   标签是多选的，所以一个胶囊点下去是"加入 / 移出当前选择"，选中时高亮（.is-active），
+   与侧栏「筛选」下拉里勾中的那几项是一回事 */
 .tag-filter { margin: 9px 0 0; display: flex; gap: 6px; flex-wrap: wrap; }
 .tag-filter a {
   font-size: 12px;
@@ -463,6 +465,12 @@ main { padding: 32px 0 72px; }
   padding: 1px 9px;
 }
 .tag-filter a:hover { color: var(--accent); border-color: var(--accent); text-decoration: none; }
+.tag-filter a.is-active {
+  color: var(--accent);
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  font-weight: 600;
+}
 /* 原文胶囊（上下文 / 参数量）：只作展示、点不了（分档筛选仍走侧栏的低 / 中 / 高），
    形状跟筛选胶囊一致但没有 hover 交互 */
 .tag-filter .value-chip {
@@ -580,10 +588,6 @@ main { padding: 32px 0 72px; }
   font-family: var(--mono);
 }
 .dd-item-all .dd-text { font-weight: 600; }
-/* 「筛选」下拉里的标签是普通链接（不是复选框），单独给一套颜色与选中态 */
-.dd-link { color: var(--text); }
-.dd-link:hover { background: var(--accent-soft); text-decoration: none; }
-.dd-link.is-active { background: var(--accent-soft); color: var(--accent); font-weight: 600; }
 
 /* ---------- detail ---------- */
 .detail-head { border-bottom: 1px solid var(--line); padding-bottom: 18px; margin-bottom: 22px; }

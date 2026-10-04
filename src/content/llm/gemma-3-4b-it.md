@@ -8,7 +8,7 @@ summary: "Gemma 3 的 4B 多模态版本，笔记本与单张消费卡就能跑�
 tags: [Dense, 可识别图像]
 license: "Gemma Terms of Use"
 commercial: 有条件可商用
-params: "4.3B"
+params: "4B"
 context: "128K"
 modalities: [text, image]
 deploys: [llama-cpp, ollama]

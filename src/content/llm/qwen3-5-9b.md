@@ -8,7 +8,7 @@ summary: "Qwen3.5 代的 9B 稠密版，单张 24G 卡可跑的多模态助手�
 tags: [Dense, 可识别图像]
 license: "Apache-2.0"
 commercial: 可商用
-params: "9.7B"
+params: "9B"
 context: "256K"
 modalities: [text, image]
 deploys: [vllm, llama-cpp, ollama]

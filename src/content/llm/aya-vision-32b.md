@@ -8,7 +8,7 @@ summary: "Aya Vision 的 32B 版本，覆盖 23 种语言的多模态开源模�
 tags: [Dense, 可识别图像]
 license: "CC-BY-NC-4.0"
 commercial: 不可商用
-params: "33.1B"
+params: "32B"
 context: "128K"
 modalities: [text, image]
 deploys: [vllm, sglang]

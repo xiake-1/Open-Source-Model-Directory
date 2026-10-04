@@ -11,7 +11,7 @@
  {
   "id": "upstage/Solar-Open2-250B",
   "createdAt": "2026-07-22T02:40:42.000Z",
-  "downloads": 3461,
+  "downloads": 3594,
   "likes": 755,
   "pipeline": "text-generation",
   "tags": [
@@ -32,7 +32,7 @@
  {
   "id": "upstage/TinySolar-111m-4k",
   "createdAt": "2026-05-27T03:11:21.000Z",
-  "downloads": 55,
+  "downloads": 54,
   "likes": 4,
   "pipeline": "",
   "tags": [],
@@ -50,7 +50,7 @@
  {
   "id": "upstage/Solar-Open-100B",
   "createdAt": "2025-12-10T01:10:35.000Z",
-  "downloads": 12590,
+  "downloads": 11885,
   "likes": 497,
   "pipeline": "text-generation",
   "tags": [
@@ -62,7 +62,7 @@
  {
   "id": "upstage/TFLOP",
   "createdAt": "2025-11-06T06:45:38.000Z",
-  "downloads": 52,
+  "downloads": 49,
   "likes": 3,
   "pipeline": "",
   "tags": [],

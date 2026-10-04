@@ -8,7 +8,7 @@ summary: "InternVL3.5 的 38B 档，GUI 与文档理解做得扎实，Apache-2.0
 tags: [Dense, 可识别图像]
 license: "Apache-2.0"
 commercial: 可商用
-params: "38.4B"
+params: "38B"
 context: "128K"
 modalities: [text, image]
 deploys: [vllm, sglang]

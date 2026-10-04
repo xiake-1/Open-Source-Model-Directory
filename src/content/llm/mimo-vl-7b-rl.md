@@ -8,7 +8,7 @@ summary: "MiMo 的视觉版本，7B 就能做界面理解与文档问答，MIT �
 tags: [Dense, 可识别图像]
 license: "MIT"
 commercial: 可商用
-params: "8.3B"
+params: "7B"
 context: "32K"
 modalities: [text, image]
 deploys: [vllm, llama-cpp, ollama]

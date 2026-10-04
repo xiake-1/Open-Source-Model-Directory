@@ -1,7 +1,10 @@
 /**
  * AIGC（生图 / 生视频）收录流水线的第一步：从 HuggingFace 公共 API 拉取候选机构与关键词的仓库元数据。
- * 用法：node _verify/aigc-fetch.mjs
- * 输出：_verify/hf-aigc/<author>.json（每个仓库的 createdAt / likes / downloads / pipeline_tag）+ _verify/hf-aigc-summary.md
+ * 用法：node _verify/aigc-fetch.mjs              # 缓存全量，摘要只列近 30 天新建的（更新流程的口径）
+ *       node _verify/aigc-fetch.mjs --days=7     # 摘要窗口换成近 7 天
+ *       node _verify/aigc-fetch.mjs --all        # 摘要列全量（补历史缺口时才用）
+ * 输出：_verify/hf-aigc/<author>.json（每个仓库的 createdAt / likes / downloads / pipeline_tag）
+ *       + _verify/hf-aigc-summary.md（按机构，只列窗口内新建的）
  *
  * 与 `hf-fetch.mjs` 同一套路：Node 的 fetch 不读 Windows 系统代理，这里自己读出来挂上 ProxyAgent。
  * 同样是 `limit=1000` 一次拉全 —— `page=` 与 `before=` 游标会静默重复返回同一批。
@@ -11,6 +14,13 @@ import path from 'node:path';
 import { execFileSync } from 'node:child_process';
 
 const OUT = path.resolve('_verify/hf-aigc');
+
+/** `--days=30`：摘要只列近 N 天新建的仓库；`--all` 列全量（缓存始终是全量） */
+const argv = process.argv.slice(2);
+const argOf = (name) => argv.find((a) => a.startsWith(`--${name}=`))?.split('=')[1];
+const ALL = argv.includes('--all');
+const DAYS = Number(argOf('days') ?? 30);
+const SINCE = ALL ? '2024-12-01' : new Date(Date.now() - DAYS * 86_400_000).toISOString().slice(0, 10);
 
 /** 生图 / 生视频的主要发布方（按官方 HF 组织名） */
 const AUTHORS = [
@@ -84,15 +94,25 @@ for (const author of [...new Set(AUTHORS)]) {
     }))
     .sort((a, b) => (b.createdAt ?? '').localeCompare(a.createdAt ?? ''));
   await fs.writeFile(path.join(OUT, `${author}.json`), JSON.stringify(rows, null, 1), 'utf8');
-  summary.push({ author, count: rows.length, top: rows.slice(0, 3).map((r) => `${r.id}@${(r.createdAt ?? '').slice(0, 10)}`) });
-  console.log(`${author}: ${rows.length}`);
+  // 摘要只列窗口内新建的：默认近 30 天（更新流程的口径），--all 列全量
+  const win = rows.filter((r) => (r.createdAt ?? '').slice(0, 10) >= SINCE);
+  summary.push({ author, count: rows.length, win, top: rows.slice(0, 3).map((r) => `${r.id}@${(r.createdAt ?? '').slice(0, 10)}`) });
+  console.log(`${author}: ${rows.length}（窗口内 ${win.length}）`);
 }
 
-const md = ['# HuggingFace AIGC 仓库核对结果（按机构）', '', '> 由 `_verify/aigc-fetch.mjs` 生成，createdAt 为仓库创建时间。', ''];
+const md = [
+  '# HuggingFace AIGC 仓库核对结果（按机构）',
+  '',
+  '> 由 `_verify/aigc-fetch.mjs` 生成，createdAt 为仓库创建时间。',
+  `> **下面「窗口内」这一段是 createdAt ≥ ${SINCE}${ALL ? '（--all 全量）' : `（近 ${DAYS} 天新建，更新流程的口径）`} 的仓库**，`,
+  '> 元数据缓存 `_verify/hf-aigc/<author>.json` 仍是 2024-12 起的全量，供历史核对。',
+  '',
+];
 for (const s of summary) {
-  md.push(`## ${s.author}（${s.count}）`);
+  md.push(`## ${s.author}（窗口内 ${s.win.length} / 缓存 ${s.count}）`);
   if (s.error) md.push('', `- 拉取失败：${s.error}`);
-  else md.push('', ...s.top.map((t) => `- ${t}`));
+  else if (!s.win.length) md.push('', '- （窗口内没有新建仓库）');
+  else md.push('', ...s.win.map((r) => `- ${r.id}@${(r.createdAt ?? '').slice(0, 10)}  likes ${r.likes}  dl ${r.downloads}  ${r.pipeline || r.library || '-'}`));
   md.push('');
 }
 await fs.writeFile('_verify/hf-aigc-summary.md', md.join('\n'), 'utf8');

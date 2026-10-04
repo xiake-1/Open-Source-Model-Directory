@@ -8,7 +8,7 @@ summary: "完全开源的代表作：权重、训练数据、代码与中间 che
 tags: [Dense, 纯文本]
 license: "Apache-2.0"
 commercial: 可商用
-params: "32.2B"
+params: "32B"
 context: "4K"
 modalities: [text]
 deploys: [vllm, sglang]

@@ -2,7 +2,7 @@
  {
   "id": "thu-coai/SeTox-Qwen2.5-7B",
   "createdAt": "2026-07-01T17:36:13.000Z",
-  "downloads": 18,
+  "downloads": 17,
   "likes": 1,
   "pipeline": "text-generation",
   "tags": [
@@ -35,7 +35,7 @@
  {
   "id": "thu-coai/IF-CRITIC-Checklist-Generator-14B",
   "createdAt": "2026-02-02T16:09:08.000Z",
-  "downloads": 17,
+  "downloads": 18,
   "likes": 0,
   "pipeline": "text-generation",
   "tags": [
@@ -59,7 +59,7 @@
  {
   "id": "thu-coai/ShieldVLM-7B-qwen",
   "createdAt": "2025-07-19T07:03:33.000Z",
-  "downloads": 27,
+  "downloads": 26,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -68,7 +68,7 @@
  {
   "id": "thu-coai/Crispers-14B-v1",
   "createdAt": "2025-04-24T17:34:43.000Z",
-  "downloads": 28,
+  "downloads": 27,
   "likes": 2,
   "pipeline": "",
   "tags": [],
@@ -95,7 +95,7 @@
  {
   "id": "thu-coai/CharacterJudge",
   "createdAt": "2025-03-22T14:33:05.000Z",
-  "downloads": 33,
+  "downloads": 32,
   "likes": 4,
   "pipeline": "",
   "tags": [],
@@ -104,7 +104,7 @@
  {
   "id": "thu-coai/ShieldAgent",
   "createdAt": "2025-02-20T04:49:19.000Z",
-  "downloads": 282,
+  "downloads": 269,
   "likes": 5,
   "pipeline": "",
   "tags": [],

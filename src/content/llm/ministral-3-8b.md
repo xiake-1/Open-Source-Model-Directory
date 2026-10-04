@@ -8,7 +8,7 @@ summary: "Mistral 3 代的小尺寸视觉模型，笔记本上就能跑多模态
 tags: [Dense, 可识别图像]
 license: "Apache-2.0"
 commercial: 可商用
-params: "8.9B"
+params: "8B"
 context: "128K"
 vram: "bf16 单张 24G 可跑"
 modalities: [text, image]

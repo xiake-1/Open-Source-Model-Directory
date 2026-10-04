@@ -8,7 +8,7 @@ summary: "Qwen3.6 代的中量级 MoE，35B 激活 3B，多模态输入本地就
 tags: [Dense, 可识别图像]
 license: "Apache-2.0"
 commercial: 可商用
-params: "36B"
+params: "35B"
 context: "256K"
 modalities: [text, image]
 deploys: [vllm, sglang]

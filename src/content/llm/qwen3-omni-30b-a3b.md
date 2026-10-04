@@ -8,7 +8,7 @@ summary: "一个模型同时吃文本、图像、音频和视频，开源全模�
 tags: ["MoE", "可识别图像"]
 license: "Apache-2.0"
 commercial: 可商用
-params: "35B (激活 3B)"
+params: "30B (激活 3B)"
 modalities: [text, image, audio]
 deploys: [vllm]
 links:

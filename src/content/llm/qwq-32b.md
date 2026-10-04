@@ -8,7 +8,7 @@ summary: "32B 稠密模型靠强化学习追平 671B 级推理模型，消费级
 tags: [Dense, 纯文本]
 license: "Apache-2.0"
 commercial: 可商用
-params: "32.8B"
+params: "32B"
 context: "128K"
 vram: "4bit 量化后单张 24G 卡可跑"
 modalities: [text]

@@ -2,8 +2,8 @@
  {
   "id": "MiniMaxAI/MiniMax-Music3",
   "createdAt": "2026-08-07T12:23:29.000Z",
-  "downloads": 8288,
-  "likes": 1418,
+  "downloads": 7908,
+  "likes": 1421,
   "pipeline": "text-to-audio",
   "tags": [],
   "gated": false
@@ -11,8 +11,8 @@
  {
   "id": "MiniMaxAI/MiniMax-H3",
   "createdAt": "2026-07-28T10:45:18.000Z",
-  "downloads": 3567030,
-  "likes": 5830,
+  "downloads": 3564596,
+  "likes": 5868,
   "pipeline": "image-text-to-video",
   "tags": [],
   "gated": false
@@ -20,7 +20,7 @@
  {
   "id": "MiniMaxAI/MiniMax-M3-MXFP8",
   "createdAt": "2026-06-02T07:50:45.000Z",
-  "downloads": 94491,
+  "downloads": 92385,
   "likes": 59,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -32,8 +32,8 @@
  {
   "id": "MiniMaxAI/MiniMax-M3",
   "createdAt": "2026-06-02T07:49:31.000Z",
-  "downloads": 170863,
-  "likes": 1557,
+  "downloads": 177216,
+  "likes": 1560,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -44,8 +44,8 @@
  {
   "id": "MiniMaxAI/MiniMax-M2.7",
   "createdAt": "2026-04-09T03:37:12.000Z",
-  "downloads": 1107612,
-  "likes": 1248,
+  "downloads": 1073367,
+  "likes": 1249,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -56,7 +56,7 @@
  {
   "id": "MiniMaxAI/MiniMax-M2.5",
   "createdAt": "2026-02-12T06:05:24.000Z",
-  "downloads": 410918,
+  "downloads": 444793,
   "likes": 1507,
   "pipeline": "text-generation",
   "tags": [
@@ -68,7 +68,7 @@
  {
   "id": "MiniMaxAI/MiniMax-M2.1",
   "createdAt": "2025-12-20T05:45:05.000Z",
-  "downloads": 14146,
+  "downloads": 13404,
   "likes": 1361,
   "pipeline": "text-generation",
   "tags": [
@@ -80,8 +80,8 @@
  {
   "id": "MiniMaxAI/VTP-Large-f16d64",
   "createdAt": "2025-12-16T05:27:29.000Z",
-  "downloads": 1001,
-  "likes": 19,
+  "downloads": 976,
+  "likes": 20,
   "pipeline": "image-feature-extraction",
   "tags": [],
   "gated": false
@@ -89,7 +89,7 @@
  {
   "id": "MiniMaxAI/VTP-Base-f16d64",
   "createdAt": "2025-12-16T05:25:29.000Z",
-  "downloads": 183,
+  "downloads": 174,
   "likes": 21,
   "pipeline": "image-feature-extraction",
   "tags": [],
@@ -98,7 +98,7 @@
  {
   "id": "MiniMaxAI/VTP-Small-f16d64",
   "createdAt": "2025-12-16T05:06:02.000Z",
-  "downloads": 215,
+  "downloads": 196,
   "likes": 15,
   "pipeline": "image-feature-extraction",
   "tags": [],
@@ -107,7 +107,7 @@
  {
   "id": "MiniMaxAI/MiniMax-M2",
   "createdAt": "2025-10-22T13:45:10.000Z",
-  "downloads": 290320,
+  "downloads": 286155,
   "likes": 1503,
   "pipeline": "text-generation",
   "tags": [
@@ -119,7 +119,7 @@
  {
   "id": "MiniMaxAI/MiniMax-M1-40k-hf",
   "createdAt": "2025-07-01T16:56:51.000Z",
-  "downloads": 392,
+  "downloads": 407,
   "likes": 12,
   "pipeline": "text-generation",
   "tags": [
@@ -131,7 +131,7 @@
  {
   "id": "MiniMaxAI/MiniMax-M1-80k-hf",
   "createdAt": "2025-07-01T16:52:58.000Z",
-  "downloads": 399,
+  "downloads": 416,
   "likes": 8,
   "pipeline": "text-generation",
   "tags": [
@@ -143,7 +143,7 @@
  {
   "id": "MiniMaxAI/MiniMax-M1-80k",
   "createdAt": "2025-06-13T08:21:14.000Z",
-  "downloads": 1499,
+  "downloads": 1569,
   "likes": 692,
   "pipeline": "text-generation",
   "tags": [
@@ -155,7 +155,7 @@
  {
   "id": "MiniMaxAI/MiniMax-M1-40k",
   "createdAt": "2025-06-05T08:42:49.000Z",
-  "downloads": 17435,
+  "downloads": 18598,
   "likes": 185,
   "pipeline": "text-generation",
   "tags": [
@@ -167,7 +167,7 @@
  {
   "id": "MiniMaxAI/MiniMax-Text-01-hf",
   "createdAt": "2025-06-03T09:38:42.000Z",
-  "downloads": 15483,
+  "downloads": 15300,
   "likes": 11,
   "pipeline": "text-generation",
   "tags": [
@@ -179,7 +179,7 @@
  {
   "id": "MiniMaxAI/SynLogic-7B",
   "createdAt": "2025-06-03T03:00:03.000Z",
-  "downloads": 732,
+  "downloads": 734,
   "likes": 29,
   "pipeline": "text-generation",
   "tags": [
@@ -191,7 +191,7 @@
  {
   "id": "MiniMaxAI/SynLogic-Mix-3-32B",
   "createdAt": "2025-05-30T13:32:06.000Z",
-  "downloads": 256,
+  "downloads": 262,
   "likes": 20,
   "pipeline": "text-generation",
   "tags": [
@@ -203,7 +203,7 @@
  {
   "id": "MiniMaxAI/SynLogic-32B",
   "createdAt": "2025-05-30T12:06:34.000Z",
-  "downloads": 347,
+  "downloads": 341,
   "likes": 17,
   "pipeline": "text-generation",
   "tags": [
@@ -215,7 +215,7 @@
  {
   "id": "MiniMaxAI/MiniMax-VL-01",
   "createdAt": "2025-01-12T15:02:13.000Z",
-  "downloads": 35369,
+  "downloads": 33549,
   "likes": 286,
   "pipeline": "image-text-to-text",
   "tags": [

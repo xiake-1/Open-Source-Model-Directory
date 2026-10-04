@@ -8,7 +8,7 @@ summary: "混合 SSM-Transformer 的 3B 推理模型，长上下文吞吐好，A
 tags: [Dense, 纯文本]
 license: "Apache-2.0"
 commercial: 可商用
-params: "3.2B"
+params: "3B"
 context: "256K"
 vram: "单张 16G 卡可跑"
 modalities: [text]

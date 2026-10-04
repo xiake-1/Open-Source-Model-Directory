@@ -8,7 +8,7 @@ summary: "GLM-4.5 的轻量版：106B 总参只激活 12B，MIT 许可，单机 
 tags: [MoE, 纯文本]
 license: "MIT"
 commercial: 可商用
-params: "110B (激活 12B)"
+params: "106B (激活 12B)"
 context: "128K"
 vram: "FP8 需 4 卡 H200 级别"
 modalities: [text]

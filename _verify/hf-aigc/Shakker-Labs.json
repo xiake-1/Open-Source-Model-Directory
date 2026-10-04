@@ -2,7 +2,7 @@
  {
   "id": "Shakker-Labs/AWPortrait-Z",
   "createdAt": "2025-12-14T05:34:24.000Z",
-  "downloads": 2017,
+  "downloads": 1881,
   "likes": 488,
   "pipeline": "text-to-image",
   "library": "diffusers",
@@ -17,7 +17,7 @@
  {
   "id": "Shakker-Labs/AWPortrait-QW",
   "createdAt": "2025-08-26T13:45:40.000Z",
-  "downloads": 575,
+  "downloads": 589,
   "likes": 39,
   "pipeline": "text-to-image",
   "library": "diffusers",
@@ -33,7 +33,7 @@
  {
   "id": "Shakker-Labs/FLUX.1-Kontext-dev-LoRA-Bioluminescence-Style",
   "createdAt": "2025-07-17T11:53:02.000Z",
-  "downloads": 256,
+  "downloads": 254,
   "likes": 3,
   "pipeline": "text-to-image",
   "library": "diffusers",
@@ -51,7 +51,7 @@
  {
   "id": "Shakker-Labs/FLUX.1-Kontext-dev-LoRA-Pixel-Style",
   "createdAt": "2025-07-17T11:46:31.000Z",
-  "downloads": 199,
+  "downloads": 202,
   "likes": 13,
   "pipeline": "text-to-image",
   "library": "diffusers",
@@ -69,7 +69,7 @@
  {
   "id": "Shakker-Labs/FLUX.1-Kontext-dev-LoRA-Flat-Cartoon-Style",
   "createdAt": "2025-07-17T10:08:16.000Z",
-  "downloads": 102,
+  "downloads": 104,
   "likes": 12,
   "pipeline": "text-to-image",
   "library": "diffusers",
@@ -87,7 +87,7 @@
  {
   "id": "Shakker-Labs/FLUX.1-Kontext-dev-LoRA-Illustration-Style",
   "createdAt": "2025-07-17T10:01:41.000Z",
-  "downloads": 186,
+  "downloads": 175,
   "likes": 8,
   "pipeline": "text-to-image",
   "library": "diffusers",
@@ -123,7 +123,7 @@
  {
   "id": "Shakker-Labs/FLUX.1-Kontext-dev-LoRA-Sketch-Style",
   "createdAt": "2025-07-17T09:43:40.000Z",
-  "downloads": 151,
+  "downloads": 146,
   "likes": 9,
   "pipeline": "text-to-image",
   "library": "diffusers",
@@ -141,7 +141,7 @@
  {
   "id": "Shakker-Labs/RepText",
   "createdAt": "2025-06-06T13:43:37.000Z",
-  "downloads": 72,
+  "downloads": 78,
   "likes": 13,
   "pipeline": "text-to-image",
   "library": "diffusers",
@@ -162,7 +162,7 @@
  {
   "id": "Shakker-Labs/FLUX.1-dev-ControlNet-Union-Pro-2.0",
   "createdAt": "2025-04-14T08:19:42.000Z",
-  "downloads": 14892,
+  "downloads": 15755,
   "likes": 467,
   "pipeline": "text-to-image",
   "library": "diffusers",
@@ -183,7 +183,7 @@
  {
   "id": "Shakker-Labs/Illustrious-Quillworks-V15",
   "createdAt": "2025-04-03T06:15:50.000Z",
-  "downloads": 54,
+  "downloads": 50,
   "likes": 11,
   "pipeline": "text-to-image",
   "library": "diffusers",
@@ -200,7 +200,7 @@
  {
   "id": "Shakker-Labs/AWPortraitCN2",
   "createdAt": "2025-03-30T07:10:45.000Z",
-  "downloads": 231,
+  "downloads": 234,
   "likes": 116,
   "pipeline": "text-to-image",
   "library": "diffusers",
@@ -218,7 +218,7 @@
  {
   "id": "Shakker-Labs/Lumatales-FL",
   "createdAt": "2025-02-16T06:36:10.000Z",
-  "downloads": 150,
+  "downloads": 143,
   "likes": 35,
   "pipeline": "text-to-image",
   "library": "diffusers",
@@ -235,7 +235,7 @@
  {
   "id": "Shakker-Labs/FLUX.1-dev-LoRA-Miniature-World",
   "createdAt": "2025-02-10T14:23:08.000Z",
-  "downloads": 319,
+  "downloads": 318,
   "likes": 23,
   "pipeline": "text-to-image",
   "library": "diffusers",
@@ -253,7 +253,7 @@
  {
   "id": "Shakker-Labs/majicflus_v1",
   "createdAt": "2025-01-06T09:17:29.000Z",
-  "downloads": 1899,
+  "downloads": 1995,
   "likes": 16,
   "pipeline": "text-to-image",
   "library": "diffusers",
@@ -271,7 +271,7 @@
  {
   "id": "Shakker-Labs/AWPortraitCN",
   "createdAt": "2024-12-04T08:35:35.000Z",
-  "downloads": 239,
+  "downloads": 233,
   "likes": 215,
   "pipeline": "text-to-image",
   "library": "diffusers",

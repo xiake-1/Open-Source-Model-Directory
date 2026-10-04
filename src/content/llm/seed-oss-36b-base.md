@@ -8,7 +8,7 @@ summary: "Seed-OSS 的基座版本，512K 上下文，方便团队自己继续�
 tags: [Dense, 纯文本]
 license: "Apache-2.0"
 commercial: 可商用
-params: "36.2B"
+params: "36B"
 context: "512K"
 modalities: [text]
 deploys: [vllm, sglang]

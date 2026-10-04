@@ -8,7 +8,7 @@ summary: "中国电信第三代开源模型，36B 带思考模式，面向政务
 tags: [Dense, 纯文本]
 license: "TeleChat 模型许可协议"
 commercial: 有条件可商用
-params: "36.2B"
+params: "36B"
 context: "128K"
 modalities: [text]
 deploys: [vllm, sglang]

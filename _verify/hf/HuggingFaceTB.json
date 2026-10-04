@@ -2,7 +2,7 @@
  {
   "id": "HuggingFaceTB/nanowhale-100m-base",
   "createdAt": "2026-04-24T13:33:34.000Z",
-  "downloads": 918,
+  "downloads": 933,
   "likes": 24,
   "pipeline": "text-generation",
   "tags": [
@@ -14,7 +14,7 @@
  {
   "id": "HuggingFaceTB/nanowhale-100m",
   "createdAt": "2026-04-24T11:54:36.000Z",
-  "downloads": 647,
+  "downloads": 674,
   "likes": 68,
   "pipeline": "text-generation",
   "tags": [
@@ -26,7 +26,7 @@
  {
   "id": "HuggingFaceTB/SmolLM3-3B-GSM8K-SFT",
   "createdAt": "2026-04-03T01:31:15.000Z",
-  "downloads": 358,
+  "downloads": 364,
   "likes": 2,
   "pipeline": "text-generation",
   "tags": [
@@ -38,7 +38,7 @@
  {
   "id": "HuggingFaceTB/qwen3-1.7b-gsm8k-sft",
   "createdAt": "2026-03-25T00:40:49.000Z",
-  "downloads": 4411,
+  "downloads": 4460,
   "likes": 4,
   "pipeline": "text-generation",
   "tags": [
@@ -50,7 +50,7 @@
  {
   "id": "HuggingFaceTB/SmolLM3-3B-checkpoints",
   "createdAt": "2025-07-20T22:34:45.000Z",
-  "downloads": 5176,
+  "downloads": 5378,
   "likes": 25,
   "pipeline": "",
   "tags": [],
@@ -59,7 +59,7 @@
  {
   "id": "HuggingFaceTB/SmolLM3-3B-ONNX",
   "createdAt": "2025-07-08T15:12:29.000Z",
-  "downloads": 421,
+  "downloads": 433,
   "likes": 27,
   "pipeline": "text-generation",
   "tags": [
@@ -71,8 +71,8 @@
  {
   "id": "HuggingFaceTB/SmolLM3-3B",
   "createdAt": "2025-07-08T10:11:45.000Z",
-  "downloads": 616933,
-  "likes": 1040,
+  "downloads": 622849,
+  "likes": 1043,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -83,7 +83,7 @@
  {
   "id": "HuggingFaceTB/SmolLM3-3B-Base",
   "createdAt": "2025-06-19T11:33:11.000Z",
-  "downloads": 154551,
+  "downloads": 111839,
   "likes": 174,
   "pipeline": "text-generation",
   "tags": [
@@ -94,7 +94,7 @@
  {
   "id": "HuggingFaceTB/SmolVLM2-2.2B-Base",
   "createdAt": "2025-04-14T12:19:55.000Z",
-  "downloads": 1526,
+  "downloads": 1093,
   "likes": 11,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -106,7 +106,7 @@
  {
   "id": "HuggingFaceTB/SmolLM2-135M-intermediate-checkpoints",
   "createdAt": "2025-02-26T18:15:17.000Z",
-  "downloads": 338,
+  "downloads": 388,
   "likes": 2,
   "pipeline": "",
   "tags": [],
@@ -115,7 +115,7 @@
  {
   "id": "HuggingFaceTB/SmolLM2-360M-intermediate-checkpoints",
   "createdAt": "2025-02-26T17:31:38.000Z",
-  "downloads": 1295,
+  "downloads": 1421,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -124,7 +124,7 @@
  {
   "id": "HuggingFaceTB/SmolLM2-1.7B-intermediate-checkpoints",
   "createdAt": "2025-02-26T12:08:37.000Z",
-  "downloads": 2040,
+  "downloads": 2276,
   "likes": 4,
   "pipeline": "",
   "tags": [],
@@ -133,7 +133,7 @@
  {
   "id": "HuggingFaceTB/SmolLM2-1.7B-Instruct-16k",
   "createdAt": "2025-02-21T12:36:45.000Z",
-  "downloads": 510,
+  "downloads": 526,
   "likes": 10,
   "pipeline": "text-generation",
   "tags": [
@@ -145,7 +145,7 @@
  {
   "id": "HuggingFaceTB/smolvlm-app-config",
   "createdAt": "2025-02-18T16:13:58.000Z",
-  "downloads": 550,
+  "downloads": 570,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -154,7 +154,7 @@
  {
   "id": "HuggingFaceTB/SmolVLM2-500M-Video-Instruct",
   "createdAt": "2025-02-11T07:06:38.000Z",
-  "downloads": 1234943,
+  "downloads": 1240106,
   "likes": 180,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -166,7 +166,7 @@
  {
   "id": "HuggingFaceTB/SmolVLM2-256M-Video-Instruct",
   "createdAt": "2025-02-11T07:06:01.000Z",
-  "downloads": 42958,
+  "downloads": 41102,
   "likes": 115,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -178,7 +178,7 @@
  {
   "id": "HuggingFaceTB/SmolVLM2-2.2B-Instruct",
   "createdAt": "2025-02-08T19:18:45.000Z",
-  "downloads": 151368,
+  "downloads": 148645,
   "likes": 335,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -190,7 +190,7 @@
  {
   "id": "HuggingFaceTB/SmolVLM-500M-Instruct",
   "createdAt": "2025-01-20T14:24:51.000Z",
-  "downloads": 150913,
+  "downloads": 145442,
   "likes": 198,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -202,8 +202,8 @@
  {
   "id": "HuggingFaceTB/SmolVLM-256M-Instruct",
   "createdAt": "2025-01-17T15:40:24.000Z",
-  "downloads": 444889,
-  "likes": 417,
+  "downloads": 430564,
+  "likes": 418,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -214,7 +214,7 @@
  {
   "id": "HuggingFaceTB/SmolVLM-500M-Base",
   "createdAt": "2025-01-13T13:48:57.000Z",
-  "downloads": 384,
+  "downloads": 393,
   "likes": 12,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -226,7 +226,7 @@
  {
   "id": "HuggingFaceTB/SmolVLM-256M-Base",
   "createdAt": "2025-01-10T16:53:18.000Z",
-  "downloads": 514,
+  "downloads": 516,
   "likes": 24,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -238,7 +238,7 @@
  {
   "id": "HuggingFaceTB/FineMath-Llama-3B",
   "createdAt": "2025-01-06T14:14:11.000Z",
-  "downloads": 101,
+  "downloads": 108,
   "likes": 23,
   "pipeline": "",
   "tags": [],
@@ -247,7 +247,7 @@
  {
   "id": "HuggingFaceTB/finemath-ablation-3plus-160B",
   "createdAt": "2024-12-19T08:03:26.000Z",
-  "downloads": 38,
+  "downloads": 39,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -256,7 +256,7 @@
  {
   "id": "HuggingFaceTB/finemath-ablation-4plus-160B",
   "createdAt": "2024-12-19T07:51:25.000Z",
-  "downloads": 43,
+  "downloads": 45,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -265,7 +265,7 @@
  {
   "id": "HuggingFaceTB/finemath-ablation-fwedu",
   "createdAt": "2024-12-19T07:28:19.000Z",
-  "downloads": 40,
+  "downloads": 39,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -274,7 +274,7 @@
  {
   "id": "HuggingFaceTB/finemath-ablation-finemath-4plus",
   "createdAt": "2024-12-19T07:02:53.000Z",
-  "downloads": 46,
+  "downloads": 45,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -283,7 +283,7 @@
  {
   "id": "HuggingFaceTB/finemath-ablation-owm",
   "createdAt": "2024-12-18T17:30:58.000Z",
-  "downloads": 38,
+  "downloads": 37,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -292,7 +292,7 @@
  {
   "id": "HuggingFaceTB/finemath-ablation-infiwebmath-4plus",
   "createdAt": "2024-12-18T17:30:54.000Z",
-  "downloads": 39,
+  "downloads": 37,
   "likes": 2,
   "pipeline": "",
   "tags": [],
@@ -301,7 +301,7 @@
  {
   "id": "HuggingFaceTB/finemath-ablation-finemath-3plus",
   "createdAt": "2024-12-18T17:27:30.000Z",
-  "downloads": 42,
+  "downloads": 41,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -310,7 +310,7 @@
  {
   "id": "HuggingFaceTB/finemath-ablation-infiwebmath",
   "createdAt": "2024-12-18T17:27:26.000Z",
-  "downloads": 47,
+  "downloads": 46,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -319,7 +319,7 @@
  {
   "id": "HuggingFaceTB/finemath-ablation-infiwebmath-3plus",
   "createdAt": "2024-12-18T17:10:09.000Z",
-  "downloads": 39,
+  "downloads": 38,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -328,7 +328,7 @@
  {
   "id": "HuggingFaceTB/finemath-ablation-finemath-infimath-3plus",
   "createdAt": "2024-12-14T23:23:36.000Z",
-  "downloads": 44,
+  "downloads": 43,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -337,7 +337,7 @@
  {
   "id": "HuggingFaceTB/finemath-ablation-finemath-infimath-4plus",
   "createdAt": "2024-12-13T23:10:42.000Z",
-  "downloads": 44,
+  "downloads": 43,
   "likes": 2,
   "pipeline": "",
   "tags": [],

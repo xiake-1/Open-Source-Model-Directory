@@ -10,7 +10,7 @@ license: "Apache-2.0"
 commercial: 可商用
 output: video
 architecture: "DiT（轻量版）"
-params: "1.4B"
+params: "1.3B"
 vram: "8G 显存可跑 480P"
 links:
   hf: "https://huggingface.co/Wan-AI/Wan2.1-T2V-1.3B"

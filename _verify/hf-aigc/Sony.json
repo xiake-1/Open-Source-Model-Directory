@@ -31,7 +31,7 @@
  {
   "id": "Sony/VIRTUE-2B-SCaR",
   "createdAt": "2026-02-03T07:15:29.000Z",
-  "downloads": 17,
+  "downloads": 21,
   "likes": 2,
   "pipeline": "image-text-to-text",
   "library": "transformers",
@@ -50,7 +50,7 @@
  {
   "id": "Sony/VIRTUE-7B-SCaR",
   "createdAt": "2026-02-03T06:23:15.000Z",
-  "downloads": 8,
+  "downloads": 10,
   "likes": 2,
   "pipeline": "image-text-to-text",
   "library": "transformers",
@@ -69,7 +69,7 @@
  {
   "id": "Sony/AKI-4B-phi-3.5-mini",
   "createdAt": "2025-03-12T05:44:23.000Z",
-  "downloads": 109,
+  "downloads": 121,
   "likes": 27,
   "pipeline": "image-text-to-text",
   "library": "",

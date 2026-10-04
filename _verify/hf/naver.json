@@ -2,7 +2,7 @@
  {
   "id": "naver/blast3r-depth",
   "createdAt": "2026-09-03T08:23:05.000Z",
-  "downloads": 203,
+  "downloads": 205,
   "likes": 0,
   "pipeline": "depth-estimation",
   "tags": [],
@@ -11,7 +11,7 @@
  {
   "id": "naver/blast3r-matcher",
   "createdAt": "2026-09-03T08:22:44.000Z",
-  "downloads": 223,
+  "downloads": 225,
   "likes": 0,
   "pipeline": "image-to-3d",
   "tags": [],
@@ -20,7 +20,7 @@
  {
   "id": "naver/v-splade-quality",
   "createdAt": "2026-07-01T02:20:04.000Z",
-  "downloads": 222,
+  "downloads": 220,
   "likes": 22,
   "pipeline": "feature-extraction",
   "tags": [],
@@ -29,7 +29,7 @@
  {
   "id": "naver/v-splade-efficient",
   "createdAt": "2026-07-01T02:19:46.000Z",
-  "downloads": 209,
+  "downloads": 205,
   "likes": 10,
   "pipeline": "feature-extraction",
   "tags": [],
@@ -38,7 +38,7 @@
  {
   "id": "naver/splade-code-06B",
   "createdAt": "2026-02-24T14:28:17.000Z",
-  "downloads": 500,
+  "downloads": 522,
   "likes": 11,
   "pipeline": "feature-extraction",
   "tags": [
@@ -49,7 +49,7 @@
  {
   "id": "naver/splade-code-8B",
   "createdAt": "2026-02-24T13:25:30.000Z",
-  "downloads": 78,
+  "downloads": 87,
   "likes": 13,
   "pipeline": "feature-extraction",
   "tags": [
@@ -60,7 +60,7 @@
  {
   "id": "naver/xprovence-reranker-bgem3-v2",
   "createdAt": "2025-11-25T16:57:57.000Z",
-  "downloads": 223,
+  "downloads": 225,
   "likes": 18,
   "pipeline": "text-ranking",
   "tags": [],
@@ -78,7 +78,7 @@
  {
   "id": "naver/modernReranker",
   "createdAt": "2025-06-03T09:31:34.000Z",
-  "downloads": 24,
+  "downloads": 23,
   "likes": 1,
   "pipeline": "text-ranking",
   "tags": [],
@@ -87,7 +87,7 @@
  {
   "id": "naver/oscar-mistral-small-24b",
   "createdAt": "2025-03-14T17:10:25.000Z",
-  "downloads": 91,
+  "downloads": 98,
   "likes": 2,
   "pipeline": "",
   "tags": [],
@@ -96,7 +96,7 @@
  {
   "id": "naver/oscar-qwen2-7B",
   "createdAt": "2025-03-14T16:48:12.000Z",
-  "downloads": 71,
+  "downloads": 76,
   "likes": 3,
   "pipeline": "",
   "tags": [],
@@ -105,7 +105,7 @@
  {
   "id": "naver/oscar-mistral-7B",
   "createdAt": "2025-03-14T15:24:21.000Z",
-  "downloads": 125,
+  "downloads": 147,
   "likes": 4,
   "pipeline": "",
   "tags": [],
@@ -114,7 +114,7 @@
  {
   "id": "naver/pisco-llama",
   "createdAt": "2024-12-22T16:19:21.000Z",
-  "downloads": 211,
+  "downloads": 221,
   "likes": 3,
   "pipeline": "",
   "tags": [],
@@ -123,7 +123,7 @@
  {
   "id": "naver/pisco-solar",
   "createdAt": "2024-12-22T15:17:27.000Z",
-  "downloads": 114,
+  "downloads": 120,
   "likes": 4,
   "pipeline": "",
   "tags": [],
@@ -132,7 +132,7 @@
  {
   "id": "naver/pisco-mistral",
   "createdAt": "2024-12-21T23:09:17.000Z",
-  "downloads": 727,
+  "downloads": 573,
   "likes": 10,
   "pipeline": "",
   "tags": [],
@@ -141,7 +141,7 @@
  {
   "id": "naver/provence-reranker-debertav3-v1",
   "createdAt": "2024-12-11T10:14:17.000Z",
-  "downloads": 1295,
+  "downloads": 1307,
   "likes": 73,
   "pipeline": "text-ranking",
   "tags": [],

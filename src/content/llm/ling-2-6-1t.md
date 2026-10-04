@@ -8,7 +8,7 @@ summary: "百灵 2.6 代的万亿基座，训练数据与配方继续公开。"
 tags: [MoE, 纯文本]
 license: "MIT"
 commercial: 可商用
-params: "1.0T"
+params: "1T"
 context: "128K"
 modalities: [text]
 deploys: [vllm, sglang]

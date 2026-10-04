@@ -2,8 +2,8 @@
  {
   "id": "apple/LensVLM-9B",
   "createdAt": "2026-09-21T18:18:20.000Z",
-  "downloads": 2267,
-  "likes": 282,
+  "downloads": 2324,
+  "likes": 284,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -14,7 +14,7 @@
  {
   "id": "apple/CADD-Base-7B",
   "createdAt": "2026-04-23T23:45:18.000Z",
-  "downloads": 279,
+  "downloads": 268,
   "likes": 15,
   "pipeline": "text-generation",
   "tags": [
@@ -26,7 +26,7 @@
  {
   "id": "apple/SimpleSD-30B-instruct",
   "createdAt": "2026-03-17T17:23:55.000Z",
-  "downloads": 334,
+  "downloads": 344,
   "likes": 9,
   "pipeline": "text-generation",
   "tags": [
@@ -38,7 +38,7 @@
  {
   "id": "apple/SimpleSD-4B-thinking",
   "createdAt": "2026-03-17T17:05:15.000Z",
-  "downloads": 185,
+  "downloads": 190,
   "likes": 9,
   "pipeline": "text-generation",
   "tags": [
@@ -50,7 +50,7 @@
  {
   "id": "apple/SimpleSD-4B-instruct",
   "createdAt": "2026-03-17T17:03:58.000Z",
-  "downloads": 328,
+  "downloads": 326,
   "likes": 8,
   "pipeline": "text-generation",
   "tags": [
@@ -62,7 +62,7 @@
  {
   "id": "apple/Sharp",
   "createdAt": "2025-12-12T08:53:39.000Z",
-  "downloads": 2303,
+  "downloads": 2416,
   "likes": 408,
   "pipeline": "image-to-3d",
   "tags": [],
@@ -116,7 +116,7 @@
  {
   "id": "apple/mobileclip2_coca_dfn2b_s13b_recap-coco-30k_s12m_context77",
   "createdAt": "2025-08-25T19:13:37.000Z",
-  "downloads": 22,
+  "downloads": 21,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -125,7 +125,7 @@
  {
   "id": "apple/mobileclip2_coca_dfn2b_s13b_mscoco38k_s12m_context77",
   "createdAt": "2025-08-25T19:10:10.000Z",
-  "downloads": 24,
+  "downloads": 26,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -161,7 +161,7 @@
  {
   "id": "apple/mobileclip2_coca_dfn2b_s13b_dci-short_s12m_context77",
   "createdAt": "2025-08-25T19:01:02.000Z",
-  "downloads": 19,
+  "downloads": 18,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -188,7 +188,7 @@
  {
   "id": "apple/mobileclip2_coca_dfn2b_s13b_dci-complete_s12m_context77",
   "createdAt": "2025-08-25T18:54:13.000Z",
-  "downloads": 21,
+  "downloads": 20,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -206,7 +206,7 @@
  {
   "id": "apple/mobileclip2_coca_dfn2b_s13b_context77",
   "createdAt": "2025-08-25T18:50:58.000Z",
-  "downloads": 22,
+  "downloads": 21,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -215,7 +215,7 @@
  {
   "id": "apple/FastVLM-7B-int4",
   "createdAt": "2025-08-25T17:15:24.000Z",
-  "downloads": 112,
+  "downloads": 123,
   "likes": 32,
   "pipeline": "",
   "tags": [],
@@ -224,7 +224,7 @@
  {
   "id": "apple/FastVLM-1.5B-int8",
   "createdAt": "2025-08-25T17:14:31.000Z",
-  "downloads": 114,
+  "downloads": 126,
   "likes": 20,
   "pipeline": "",
   "tags": [],
@@ -233,7 +233,7 @@
  {
   "id": "apple/FastVLM-0.5B-fp16",
   "createdAt": "2025-08-25T17:12:08.000Z",
-  "downloads": 123,
+  "downloads": 130,
   "likes": 27,
   "pipeline": "",
   "tags": [],
@@ -242,7 +242,7 @@
  {
   "id": "apple/FastVLM-7B",
   "createdAt": "2025-08-25T17:07:04.000Z",
-  "downloads": 1311,
+  "downloads": 1280,
   "likes": 272,
   "pipeline": "text-generation",
   "tags": [
@@ -254,7 +254,7 @@
  {
   "id": "apple/FastVLM-1.5B",
   "createdAt": "2025-08-25T17:05:27.000Z",
-  "downloads": 2668,
+  "downloads": 2618,
   "likes": 81,
   "pipeline": "text-generation",
   "tags": [
@@ -266,7 +266,7 @@
  {
   "id": "apple/FastVLM-0.5B",
   "createdAt": "2025-08-25T17:04:42.000Z",
-  "downloads": 5256,
+  "downloads": 5279,
   "likes": 405,
   "pipeline": "text-generation",
   "tags": [
@@ -278,7 +278,7 @@
  {
   "id": "apple/MobileCLIP2-S4",
   "createdAt": "2025-08-25T16:52:09.000Z",
-  "downloads": 120,
+  "downloads": 125,
   "likes": 17,
   "pipeline": "",
   "tags": [],
@@ -296,7 +296,7 @@
  {
   "id": "apple/MobileCLIP2-S2",
   "createdAt": "2025-08-25T16:51:25.000Z",
-  "downloads": 241,
+  "downloads": 251,
   "likes": 23,
   "pipeline": "",
   "tags": [],
@@ -305,7 +305,7 @@
  {
   "id": "apple/MobileCLIP2-S0",
   "createdAt": "2025-08-25T16:51:15.000Z",
-  "downloads": 320,
+  "downloads": 337,
   "likes": 55,
   "pipeline": "",
   "tags": [],
@@ -314,7 +314,7 @@
  {
   "id": "apple/MobileCLIP-S4",
   "createdAt": "2025-08-25T16:49:54.000Z",
-  "downloads": 99,
+  "downloads": 100,
   "likes": 12,
   "pipeline": "",
   "tags": [],
@@ -323,7 +323,7 @@
  {
   "id": "apple/MobileCLIP-S3",
   "createdAt": "2025-08-25T16:49:52.000Z",
-  "downloads": 37,
+  "downloads": 35,
   "likes": 5,
   "pipeline": "",
   "tags": [],
@@ -332,7 +332,7 @@
  {
   "id": "apple/MobileCLIP-L-14",
   "createdAt": "2025-08-25T16:49:05.000Z",
-  "downloads": 46,
+  "downloads": 45,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -341,7 +341,7 @@
  {
   "id": "apple/MobileCLIP2-L-14",
   "createdAt": "2025-08-19T20:08:18.000Z",
-  "downloads": 37,
+  "downloads": 41,
   "likes": 4,
   "pipeline": "",
   "tags": [],
@@ -350,7 +350,7 @@
  {
   "id": "apple/MobileCLIP2-B",
   "createdAt": "2025-08-19T20:08:17.000Z",
-  "downloads": 82,
+  "downloads": 86,
   "likes": 4,
   "pipeline": "",
   "tags": [],
@@ -359,7 +359,7 @@
  {
   "id": "apple/DiffuCoder-7B-cpGRPO",
   "createdAt": "2025-07-01T21:50:46.000Z",
-  "downloads": 800,
+  "downloads": 706,
   "likes": 321,
   "pipeline": "",
   "tags": [],
@@ -368,7 +368,7 @@
  {
   "id": "apple/DiffuCoder-7B-Instruct",
   "createdAt": "2025-07-01T21:45:23.000Z",
-  "downloads": 1517,
+  "downloads": 1527,
   "likes": 62,
   "pipeline": "",
   "tags": [],
@@ -377,7 +377,7 @@
  {
   "id": "apple/DiffuCoder-7B-Base",
   "createdAt": "2025-07-01T15:47:00.000Z",
-  "downloads": 360,
+  "downloads": 348,
   "likes": 30,
   "pipeline": "",
   "tags": [],
@@ -395,7 +395,7 @@
  {
   "id": "apple/sage-ft-mixtral-8x7b",
   "createdAt": "2025-03-12T21:23:53.000Z",
-  "downloads": 177,
+  "downloads": 181,
   "likes": 27,
   "pipeline": "text-generation",
   "tags": [

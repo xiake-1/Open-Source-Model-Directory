@@ -2,7 +2,7 @@
  {
   "id": "ali-vilab/Unison",
   "createdAt": "2025-12-06T03:07:34.000Z",
-  "downloads": 12,
+  "downloads": 14,
   "likes": 3,
   "pipeline": "",
   "library": "",
@@ -15,7 +15,7 @@
  {
   "id": "ali-vilab/VACE-Annotators",
   "createdAt": "2025-04-01T13:22:36.000Z",
-  "downloads": 140,
+  "downloads": 133,
   "likes": 27,
   "pipeline": "",
   "library": "",
@@ -29,7 +29,7 @@
  {
   "id": "ali-vilab/VACE-LTX-Video-0.9",
   "createdAt": "2025-04-01T13:22:10.000Z",
-  "downloads": 90,
+  "downloads": 88,
   "likes": 29,
   "pipeline": "",
   "library": "",
@@ -42,7 +42,7 @@
  {
   "id": "ali-vilab/VACE-Wan2.1-1.3B-Preview",
   "createdAt": "2025-04-01T13:21:13.000Z",
-  "downloads": 1142,
+  "downloads": 1070,
   "likes": 128,
   "pipeline": "image-to-video",
   "library": "diffusers",
@@ -62,8 +62,8 @@
  {
   "id": "ali-vilab/ACE_Plus",
   "createdAt": "2025-01-06T08:54:16.000Z",
-  "downloads": 108,
-  "likes": 306,
+  "downloads": 107,
+  "likes": 307,
   "pipeline": "",
   "library": "",
   "gated": false,

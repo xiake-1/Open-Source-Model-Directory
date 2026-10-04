@@ -2,8 +2,8 @@
  {
   "id": "XiaomiMiMo/MiMo-V2.6-Flash-MOPD",
   "createdAt": "2026-09-27T04:01:00.000Z",
-  "downloads": 4790,
-  "likes": 44,
+  "downloads": 5004,
+  "likes": 50,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -14,8 +14,8 @@
  {
   "id": "XiaomiMiMo/MiMo-V2.6-Pro-MOPD",
   "createdAt": "2026-09-27T03:58:00.000Z",
-  "downloads": 1412,
-  "likes": 24,
+  "downloads": 1567,
+  "likes": 25,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -26,8 +26,8 @@
  {
   "id": "XiaomiMiMo/MiMo-V2.6-Distill-Qwen-9B",
   "createdAt": "2026-09-21T18:18:40.000Z",
-  "downloads": 13669,
-  "likes": 606,
+  "downloads": 14571,
+  "likes": 612,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -38,8 +38,8 @@
  {
   "id": "XiaomiMiMo/MiMo-V2.6-Flash-RL",
   "createdAt": "2026-09-21T15:39:51.000Z",
-  "downloads": 46996,
-  "likes": 531,
+  "downloads": 48645,
+  "likes": 535,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -50,8 +50,8 @@
  {
   "id": "XiaomiMiMo/MiMo-V2.6-Pro-RL",
   "createdAt": "2026-09-21T15:39:33.000Z",
-  "downloads": 84168,
-  "likes": 629,
+  "downloads": 84809,
+  "likes": 643,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -62,7 +62,7 @@
  {
   "id": "XiaomiMiMo/MiMo-V2.5-DFlash",
   "createdAt": "2026-07-03T11:18:28.000Z",
-  "downloads": 401,
+  "downloads": 406,
   "likes": 34,
   "pipeline": "",
   "tags": [],
@@ -71,7 +71,7 @@
  {
   "id": "XiaomiMiMo/MiMo-V2.5-Pro-FP4-DFlash",
   "createdAt": "2026-06-08T04:32:32.000Z",
-  "downloads": 771,
+  "downloads": 778,
   "likes": 147,
   "pipeline": "text-generation",
   "tags": [
@@ -83,7 +83,7 @@
  {
   "id": "XiaomiMiMo/MiMo-V2.5",
   "createdAt": "2026-04-27T13:37:38.000Z",
-  "downloads": 248043,
+  "downloads": 245167,
   "likes": 429,
   "pipeline": "text-generation",
   "tags": [
@@ -95,8 +95,8 @@
  {
   "id": "XiaomiMiMo/MiMo-V2.5-Pro",
   "createdAt": "2026-04-27T12:52:53.000Z",
-  "downloads": 22302,
-  "likes": 759,
+  "downloads": 22060,
+  "likes": 760,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -107,7 +107,7 @@
  {
   "id": "XiaomiMiMo/MiMo-V2.5-Base",
   "createdAt": "2026-04-27T12:49:45.000Z",
-  "downloads": 634,
+  "downloads": 652,
   "likes": 35,
   "pipeline": "text-generation",
   "tags": [
@@ -119,7 +119,7 @@
  {
   "id": "XiaomiMiMo/MiMo-V2.5-Pro-Base",
   "createdAt": "2026-04-27T11:32:54.000Z",
-  "downloads": 804,
+  "downloads": 817,
   "likes": 47,
   "pipeline": "text-generation",
   "tags": [
@@ -131,7 +131,7 @@
  {
   "id": "XiaomiMiMo/MiMo-V2.5-ASR",
   "createdAt": "2026-04-23T06:30:09.000Z",
-  "downloads": 3789,
+  "downloads": 3359,
   "likes": 109,
   "pipeline": "automatic-speech-recognition",
   "tags": [
@@ -142,7 +142,7 @@
  {
   "id": "XiaomiMiMo/MiMo-V2-Flash-Base",
   "createdAt": "2025-12-16T09:08:24.000Z",
-  "downloads": 820,
+  "downloads": 834,
   "likes": 54,
   "pipeline": "text-generation",
   "tags": [
@@ -154,7 +154,7 @@
  {
   "id": "XiaomiMiMo/MiMo-V2-Flash",
   "createdAt": "2025-12-16T08:47:02.000Z",
-  "downloads": 100714,
+  "downloads": 104700,
   "likes": 754,
   "pipeline": "text-generation",
   "tags": [
@@ -166,7 +166,7 @@
  {
   "id": "XiaomiMiMo/MiMo-Embodied-7B",
   "createdAt": "2025-11-19T09:34:27.000Z",
-  "downloads": 694,
+  "downloads": 744,
   "likes": 74,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -178,7 +178,7 @@
  {
   "id": "XiaomiMiMo/MiMo-7B-MTPs",
   "createdAt": "2025-11-14T12:44:49.000Z",
-  "downloads": 146,
+  "downloads": 147,
   "likes": 8,
   "pipeline": "feature-extraction",
   "tags": [],
@@ -187,8 +187,8 @@
  {
   "id": "XiaomiMiMo/MiMo-Audio-7B-Instruct",
   "createdAt": "2025-09-18T21:28:00.000Z",
-  "downloads": 1310,
-  "likes": 166,
+  "downloads": 1317,
+  "likes": 167,
   "pipeline": "any-to-any",
   "tags": [
    "any-to-any"
@@ -198,7 +198,7 @@
  {
   "id": "XiaomiMiMo/MiMo-Audio-Tokenizer",
   "createdAt": "2025-09-18T20:56:05.000Z",
-  "downloads": 3352,
+  "downloads": 2990,
   "likes": 42,
   "pipeline": "",
   "tags": [],
@@ -207,7 +207,7 @@
  {
   "id": "XiaomiMiMo/MiMo-Audio-7B-Base",
   "createdAt": "2025-09-18T20:55:36.000Z",
-  "downloads": 270,
+  "downloads": 271,
   "likes": 61,
   "pipeline": "any-to-any",
   "tags": [
@@ -218,7 +218,7 @@
  {
   "id": "XiaomiMiMo/MiMo-VL-7B-RL-2508",
   "createdAt": "2025-08-07T09:59:03.000Z",
-  "downloads": 1386,
+  "downloads": 1438,
   "likes": 95,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -230,7 +230,7 @@
  {
   "id": "XiaomiMiMo/MiMo-VL-7B-SFT-2508",
   "createdAt": "2025-08-07T09:36:36.000Z",
-  "downloads": 866,
+  "downloads": 902,
   "likes": 37,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -242,7 +242,7 @@
  {
   "id": "XiaomiMiMo/MiMo-VL-7B-SFT-GGUF",
   "createdAt": "2025-06-08T13:44:26.000Z",
-  "downloads": 168,
+  "downloads": 160,
   "likes": 7,
   "pipeline": "",
   "tags": [
@@ -253,7 +253,7 @@
  {
   "id": "XiaomiMiMo/MiMo-VL-7B-RL-GGUF",
   "createdAt": "2025-06-08T13:30:49.000Z",
-  "downloads": 325,
+  "downloads": 343,
   "likes": 12,
   "pipeline": "",
   "tags": [
@@ -264,7 +264,7 @@
  {
   "id": "XiaomiMiMo/MiMo-7B-RL-0530",
   "createdAt": "2025-05-30T01:19:37.000Z",
-  "downloads": 503,
+  "downloads": 512,
   "likes": 47,
   "pipeline": "text-generation",
   "tags": [
@@ -276,7 +276,7 @@
  {
   "id": "XiaomiMiMo/MiMo-VL-7B-SFT",
   "createdAt": "2025-05-30T00:44:26.000Z",
-  "downloads": 549,
+  "downloads": 519,
   "likes": 56,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -288,7 +288,7 @@
  {
   "id": "XiaomiMiMo/MiMo-VL-7B-RL",
   "createdAt": "2025-05-30T00:37:21.000Z",
-  "downloads": 1250,
+  "downloads": 1263,
   "likes": 170,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -300,7 +300,7 @@
  {
   "id": "XiaomiMiMo/MiMo-7B-RL-Zero",
   "createdAt": "2025-04-29T23:56:19.000Z",
-  "downloads": 302,
+  "downloads": 300,
   "likes": 20,
   "pipeline": "text-generation",
   "tags": [
@@ -312,7 +312,7 @@
  {
   "id": "XiaomiMiMo/MiMo-7B-RL",
   "createdAt": "2025-04-29T23:48:55.000Z",
-  "downloads": 32631,
+  "downloads": 32349,
   "likes": 280,
   "pipeline": "text-generation",
   "tags": [
@@ -324,7 +324,7 @@
  {
   "id": "XiaomiMiMo/MiMo-7B-Base",
   "createdAt": "2025-04-29T23:41:27.000Z",
-  "downloads": 17151,
+  "downloads": 16654,
   "likes": 137,
   "pipeline": "text-generation",
   "tags": [
@@ -336,7 +336,7 @@
  {
   "id": "XiaomiMiMo/MiMo-7B-SFT",
   "createdAt": "2025-04-29T23:30:47.000Z",
-  "downloads": 943,
+  "downloads": 954,
   "likes": 29,
   "pipeline": "text-generation",
   "tags": [

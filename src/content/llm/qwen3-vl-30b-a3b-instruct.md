@@ -8,7 +8,7 @@ summary: "Qwen3-VL 的 30B 激活 3B 版本，多模态吞吐与成本最平衡�
 tags: [Dense, 可识别图像]
 license: "Apache-2.0"
 commercial: 可商用
-params: "31.1B"
+params: "30B"
 context: "256K"
 modalities: [text, image]
 deploys: [vllm, sglang]

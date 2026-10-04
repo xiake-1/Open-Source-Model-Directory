@@ -8,7 +8,7 @@ summary: "EXAONE 4.5 的 33B 多模态版本，LG 首个公开的视觉语言模
 tags: [Dense, 可识别图像]
 license: "EXAONE AI Model License Agreement 1.2 - NC"
 commercial: 不可商用
-params: "34.4B"
+params: "33B"
 context: "128K"
 modalities: [text, image]
 deploys: [vllm, sglang]

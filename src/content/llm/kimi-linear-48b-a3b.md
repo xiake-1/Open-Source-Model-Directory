@@ -8,7 +8,7 @@ summary: "用混合线性注意力做的长上下文模型，1M 上下文下解�
 tags: [MoE, 纯文本]
 license: "MIT"
 commercial: 可商用
-params: "49.1B (激活 3B)"
+params: "48B (激活 3B)"
 context: "1M"
 modalities: [text]
 deploys: [vllm, sglang]

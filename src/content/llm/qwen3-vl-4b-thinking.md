@@ -8,7 +8,7 @@ summary: "Qwen3-VL 4B 的思考版，小尺寸上也保留视觉推理链。"
 tags: [Dense, 可识别图像]
 license: "Apache-2.0"
 commercial: 可商用
-params: "4.4B"
+params: "4B"
 context: "256K"
 modalities: [text, image]
 deploys: [llama-cpp, ollama]

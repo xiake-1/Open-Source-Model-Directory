@@ -10,7 +10,7 @@ license: "Apache-2.0"
 commercial: 可商用
 output: video
 architecture: "DiT（角色动画 / 替换）"
-params: "17.3B"
+params: "14B"
 links:
   hf: "https://huggingface.co/Wan-AI/Wan2.2-Animate-14B"
   github: "https://github.com/Wan-Video/Wan2.2"

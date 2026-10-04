@@ -8,7 +8,7 @@ summary: "用扩散方式生成文本的 Gemma，非自回归解码把吞吐拉�
 tags: [MoE, 可识别图像]
 license: "Apache-2.0"
 commercial: 可商用
-params: "25.8B (激活 4B)"
+params: "26B (激活 4B)"
 context: "128K"
 modalities: [text, image]
 deploys: [vllm]

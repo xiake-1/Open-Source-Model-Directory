@@ -8,7 +8,7 @@ summary: "Qwen3.8 的 27B 稠密版，发布几天下载就冲到四十多万，
 tags: [Dense, 可识别图像]
 license: "Apache-2.0"
 commercial: 可商用
-params: "27.8B"
+params: "27B"
 context: "256K"
 modalities: [text, image]
 deploys: [vllm, llama-cpp, ollama]

@@ -8,7 +8,7 @@ summary: "OpenAI 时隔六年重新放出开放权重模型，MXFP4 原生量化
 tags: ["MoE", "纯文本"]
 license: "Apache-2.0"
 commercial: 可商用
-params: "117B (激活 5.1B)"
+params: "120B (激活 5.1B)"
 context: "128K"
 vram: "单张 H100 80G 可用（原生 MXFP4）"
 modalities: [text]

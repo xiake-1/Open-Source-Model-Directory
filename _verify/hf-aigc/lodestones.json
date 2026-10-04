@@ -91,7 +91,7 @@
  {
   "id": "lodestones/Chroma1-Flash",
   "createdAt": "2025-08-08T23:34:37.000Z",
-  "downloads": 16421,
+  "downloads": 13341,
   "likes": 63,
   "pipeline": "text-to-image",
   "library": "diffusers",
@@ -104,7 +104,7 @@
  {
   "id": "lodestones/Chroma1-HD",
   "createdAt": "2025-08-08T10:23:39.000Z",
-  "downloads": 66111,
+  "downloads": 66145,
   "likes": 413,
   "pipeline": "text-to-image",
   "library": "diffusers",
@@ -118,7 +118,7 @@
  {
   "id": "lodestones/Chroma1-Base",
   "createdAt": "2025-07-29T02:37:28.000Z",
-  "downloads": 8612,
+  "downloads": 5515,
   "likes": 117,
   "pipeline": "text-to-image",
   "library": "diffusers",

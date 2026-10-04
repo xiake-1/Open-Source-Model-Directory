@@ -8,7 +8,7 @@ summary: "Qwen3-VL 的 32B 指令版，视觉 agent 与长文档理解在单机�
 tags: [Dense, 可识别图像]
 license: "Apache-2.0"
 commercial: 可商用
-params: "33.4B"
+params: "32B"
 context: "256K"
 modalities: [text, image]
 deploys: [vllm, sglang]

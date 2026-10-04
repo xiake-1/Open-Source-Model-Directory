@@ -2,7 +2,7 @@
  {
   "id": "tiiuae/Falcon3-10B-Base-1.58bit-prequantized",
   "createdAt": "2026-04-30T09:47:17.000Z",
-  "downloads": 425,
+  "downloads": 428,
   "likes": 2,
   "pipeline": "text-generation",
   "tags": [
@@ -14,7 +14,7 @@
  {
   "id": "tiiuae/Falcon-E-3B-Base-prequantized",
   "createdAt": "2026-04-22T13:00:53.000Z",
-  "downloads": 338,
+  "downloads": 339,
   "likes": 0,
   "pipeline": "text-generation",
   "tags": [
@@ -26,7 +26,7 @@
  {
   "id": "tiiuae/Falcon-Perception-300M",
   "createdAt": "2026-04-03T11:41:24.000Z",
-  "downloads": 520,
+  "downloads": 517,
   "likes": 14,
   "pipeline": "object-detection",
   "tags": [
@@ -37,7 +37,7 @@
  {
   "id": "tiiuae/siglino-30M",
   "createdAt": "2026-03-18T07:24:30.000Z",
-  "downloads": 114,
+  "downloads": 115,
   "likes": 7,
   "pipeline": "image-feature-extraction",
   "tags": [],
@@ -46,7 +46,7 @@
  {
   "id": "tiiuae/siglino-70M",
   "createdAt": "2026-03-11T13:55:08.000Z",
-  "downloads": 167,
+  "downloads": 158,
   "likes": 6,
   "pipeline": "image-feature-extraction",
   "tags": [],
@@ -55,7 +55,7 @@
  {
   "id": "tiiuae/siglino-0.6B",
   "createdAt": "2026-03-11T13:28:51.000Z",
-  "downloads": 215,
+  "downloads": 173,
   "likes": 17,
   "pipeline": "image-feature-extraction",
   "tags": [],
@@ -64,7 +64,7 @@
  {
   "id": "tiiuae/siglino-moe-0.15-0.6B",
   "createdAt": "2026-03-11T13:09:15.000Z",
-  "downloads": 154,
+  "downloads": 253,
   "likes": 8,
   "pipeline": "image-feature-extraction",
   "tags": [],
@@ -73,7 +73,7 @@
  {
   "id": "tiiuae/Falcon-OCR",
   "createdAt": "2026-02-22T11:17:53.000Z",
-  "downloads": 6770,
+  "downloads": 6684,
   "likes": 158,
   "pipeline": "image-to-text",
   "tags": [
@@ -84,7 +84,7 @@
  {
   "id": "tiiuae/Falcon-Perception",
   "createdAt": "2026-02-22T10:31:50.000Z",
-  "downloads": 11881,
+  "downloads": 11842,
   "likes": 146,
   "pipeline": "mask-generation",
   "tags": [
@@ -95,7 +95,7 @@
  {
   "id": "tiiuae/Falcon-H1R-7B-FP8",
   "createdAt": "2026-01-28T10:00:17.000Z",
-  "downloads": 242,
+  "downloads": 233,
   "likes": 4,
   "pipeline": "text-generation",
   "tags": [
@@ -107,7 +107,7 @@
  {
   "id": "tiiuae/Falcon-H1-Tiny-Coder-90M",
   "createdAt": "2026-01-13T07:57:20.000Z",
-  "downloads": 321,
+  "downloads": 336,
   "likes": 11,
   "pipeline": "text-generation",
   "tags": [
@@ -118,7 +118,7 @@
  {
   "id": "tiiuae/Falcon-H1-Tiny-R-90M-GGUF",
   "createdAt": "2026-01-13T06:54:17.000Z",
-  "downloads": 848,
+  "downloads": 837,
   "likes": 12,
   "pipeline": "",
   "tags": [
@@ -129,7 +129,7 @@
  {
   "id": "tiiuae/Falcon-H1-Tiny-R-0.6B-GGUF",
   "createdAt": "2026-01-13T06:53:58.000Z",
-  "downloads": 1267,
+  "downloads": 1277,
   "likes": 12,
   "pipeline": "",
   "tags": [
@@ -140,7 +140,7 @@
  {
   "id": "tiiuae/Falcon-H1-Tiny-Tool-Calling-90M-GGUF",
   "createdAt": "2026-01-13T06:53:37.000Z",
-  "downloads": 1348,
+  "downloads": 1301,
   "likes": 9,
   "pipeline": "",
   "tags": [
@@ -151,7 +151,7 @@
  {
   "id": "tiiuae/Falcon-H1-Tiny-Coder-90M-GGUF",
   "createdAt": "2026-01-13T06:53:19.000Z",
-  "downloads": 690,
+  "downloads": 816,
   "likes": 19,
   "pipeline": "",
   "tags": [],
@@ -160,7 +160,7 @@
  {
   "id": "tiiuae/Falcon-H1-Tiny-90M-Instruct-GGUF",
   "createdAt": "2026-01-13T06:52:57.000Z",
-  "downloads": 4988,
+  "downloads": 5099,
   "likes": 21,
   "pipeline": "",
   "tags": [
@@ -171,7 +171,7 @@
  {
   "id": "tiiuae/Falcon-H1-Tiny-R-0.6B-pre-GRPO",
   "createdAt": "2026-01-12T13:16:02.000Z",
-  "downloads": 279,
+  "downloads": 283,
   "likes": 4,
   "pipeline": "text-generation",
   "tags": [
@@ -183,7 +183,7 @@
  {
   "id": "tiiuae/Falcon-H1-Tiny-R-0.6B",
   "createdAt": "2026-01-12T13:15:46.000Z",
-  "downloads": 1072,
+  "downloads": 1115,
   "likes": 16,
   "pipeline": "text-generation",
   "tags": [
@@ -195,7 +195,7 @@
  {
   "id": "tiiuae/Falcon-H1-Tiny-R-90M",
   "createdAt": "2026-01-12T13:15:30.000Z",
-  "downloads": 411,
+  "downloads": 418,
   "likes": 27,
   "pipeline": "text-generation",
   "tags": [
@@ -207,7 +207,7 @@
  {
   "id": "tiiuae/Falcon-H1-Tiny-Multilingual-100M-Instruct",
   "createdAt": "2026-01-12T13:14:19.000Z",
-  "downloads": 1349,
+  "downloads": 1367,
   "likes": 13,
   "pipeline": "text-generation",
   "tags": [
@@ -219,7 +219,7 @@
  {
   "id": "tiiuae/Falcon-H1-Tiny-Multilingual-100M-Base",
   "createdAt": "2026-01-12T13:14:00.000Z",
-  "downloads": 455,
+  "downloads": 457,
   "likes": 5,
   "pipeline": "text-generation",
   "tags": [
@@ -230,7 +230,7 @@
  {
   "id": "tiiuae/Falcon-H1-Tiny-Tool-Calling-90M",
   "createdAt": "2026-01-12T13:13:45.000Z",
-  "downloads": 413,
+  "downloads": 418,
   "likes": 17,
   "pipeline": "text-generation",
   "tags": [
@@ -242,7 +242,7 @@
  {
   "id": "tiiuae/Falcon-H1-Tiny-90M-Instruct-Curriculum-pre-DPO",
   "createdAt": "2026-01-12T13:10:16.000Z",
-  "downloads": 238,
+  "downloads": 239,
   "likes": 1,
   "pipeline": "text-generation",
   "tags": [
@@ -254,7 +254,7 @@
  {
   "id": "tiiuae/Falcon-H1-Tiny-90M-Base",
   "createdAt": "2026-01-12T13:08:22.000Z",
-  "downloads": 828,
+  "downloads": 785,
   "likes": 16,
   "pipeline": "text-generation",
   "tags": [
@@ -265,7 +265,7 @@
  {
   "id": "tiiuae/Falcon-H1-Tiny-90M-Instruct",
   "createdAt": "2026-01-12T13:05:20.000Z",
-  "downloads": 1223,
+  "downloads": 1267,
   "likes": 48,
   "pipeline": "text-generation",
   "tags": [
@@ -277,7 +277,7 @@
  {
   "id": "tiiuae/Falcon-H1-Tiny-90M-Instruct-pre-DPO",
   "createdAt": "2026-01-12T13:04:50.000Z",
-  "downloads": 261,
+  "downloads": 271,
   "likes": 3,
   "pipeline": "text-generation",
   "tags": [
@@ -289,7 +289,7 @@
  {
   "id": "tiiuae/Falcon-H1-Tiny-90M-Instruct-Curriculum",
   "createdAt": "2026-01-12T13:02:56.000Z",
-  "downloads": 240,
+  "downloads": 247,
   "likes": 2,
   "pipeline": "text-generation",
   "tags": [
@@ -301,7 +301,7 @@
  {
   "id": "tiiuae/siglino-moe-0.3-0.6B",
   "createdAt": "2025-12-24T10:27:44.000Z",
-  "downloads": 100,
+  "downloads": 103,
   "likes": 7,
   "pipeline": "image-feature-extraction",
   "tags": [],
@@ -310,8 +310,8 @@
  {
   "id": "tiiuae/Falcon-H1R-7B-GGUF",
   "createdAt": "2025-11-28T10:59:26.000Z",
-  "downloads": 8227,
-  "likes": 77,
+  "downloads": 8103,
+  "likes": 78,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -322,7 +322,7 @@
  {
   "id": "tiiuae/Falcon-H1R-7B",
   "createdAt": "2025-10-29T13:00:11.000Z",
-  "downloads": 1779,
+  "downloads": 1720,
   "likes": 222,
   "pipeline": "text-generation",
   "tags": [
@@ -388,7 +388,7 @@
  {
   "id": "tiiuae/Falcon-H1-34B-Instruct-GGUF",
   "createdAt": "2025-05-13T17:13:53.000Z",
-  "downloads": 5590,
+  "downloads": 5715,
   "likes": 17,
   "pipeline": "text-generation",
   "tags": [
@@ -400,7 +400,7 @@
  {
   "id": "tiiuae/Falcon-H1-7B-Instruct-GGUF",
   "createdAt": "2025-05-13T15:59:29.000Z",
-  "downloads": 3094,
+  "downloads": 3167,
   "likes": 23,
   "pipeline": "",
   "tags": [
@@ -411,7 +411,7 @@
  {
   "id": "tiiuae/Falcon-H1-3B-Instruct-GGUF",
   "createdAt": "2025-05-13T14:36:15.000Z",
-  "downloads": 1594,
+  "downloads": 1575,
   "likes": 18,
   "pipeline": "",
   "tags": [
@@ -422,7 +422,7 @@
  {
   "id": "tiiuae/Falcon-H1-1.5B-Deep-Instruct-GGUF",
   "createdAt": "2025-05-13T14:20:13.000Z",
-  "downloads": 1825,
+  "downloads": 1775,
   "likes": 23,
   "pipeline": "",
   "tags": [
@@ -433,7 +433,7 @@
  {
   "id": "tiiuae/Falcon-H1-1.5B-Instruct-GGUF",
   "createdAt": "2025-05-13T14:03:46.000Z",
-  "downloads": 2750,
+  "downloads": 2689,
   "likes": 15,
   "pipeline": "text-generation",
   "tags": [
@@ -445,7 +445,7 @@
  {
   "id": "tiiuae/Falcon-H1-0.5B-Instruct-GGUF",
   "createdAt": "2025-05-13T13:56:54.000Z",
-  "downloads": 1943,
+  "downloads": 1823,
   "likes": 12,
   "pipeline": "",
   "tags": [
@@ -456,7 +456,7 @@
  {
   "id": "tiiuae/Falcon-H1-34B-Instruct-GPTQ-Int8",
   "createdAt": "2025-05-12T12:15:21.000Z",
-  "downloads": 183,
+  "downloads": 191,
   "likes": 4,
   "pipeline": "text-generation",
   "tags": [
@@ -468,7 +468,7 @@
  {
   "id": "tiiuae/Falcon-H1-34B-Instruct-GPTQ-Int4",
   "createdAt": "2025-05-12T12:15:06.000Z",
-  "downloads": 221,
+  "downloads": 224,
   "likes": 2,
   "pipeline": "text-generation",
   "tags": [
@@ -480,7 +480,7 @@
  {
   "id": "tiiuae/Falcon-H1-7B-Instruct-GPTQ-Int8",
   "createdAt": "2025-05-12T12:13:59.000Z",
-  "downloads": 144,
+  "downloads": 146,
   "likes": 2,
   "pipeline": "text-generation",
   "tags": [
@@ -492,7 +492,7 @@
  {
   "id": "tiiuae/Falcon-H1-7B-Instruct-GPTQ-Int4",
   "createdAt": "2025-05-12T12:13:37.000Z",
-  "downloads": 226,
+  "downloads": 230,
   "likes": 0,
   "pipeline": "text-generation",
   "tags": [
@@ -504,7 +504,7 @@
  {
   "id": "tiiuae/Falcon-H1-3B-Instruct-GPTQ-Int8",
   "createdAt": "2025-05-12T12:12:48.000Z",
-  "downloads": 173,
+  "downloads": 175,
   "likes": 0,
   "pipeline": "text-generation",
   "tags": [
@@ -516,7 +516,7 @@
  {
   "id": "tiiuae/Falcon-H1-3B-Instruct-GPTQ-Int4",
   "createdAt": "2025-05-12T12:12:33.000Z",
-  "downloads": 179,
+  "downloads": 181,
   "likes": 0,
   "pipeline": "text-generation",
   "tags": [
@@ -528,7 +528,7 @@
  {
   "id": "tiiuae/Falcon-H1-1.5B-Deep-Instruct-GPTQ-Int8",
   "createdAt": "2025-05-12T12:09:49.000Z",
-  "downloads": 143,
+  "downloads": 142,
   "likes": 0,
   "pipeline": "text-generation",
   "tags": [
@@ -540,7 +540,7 @@
  {
   "id": "tiiuae/Falcon-H1-1.5B-Deep-Instruct-GPTQ-Int4",
   "createdAt": "2025-05-12T12:09:31.000Z",
-  "downloads": 140,
+  "downloads": 138,
   "likes": 0,
   "pipeline": "text-generation",
   "tags": [
@@ -552,7 +552,7 @@
  {
   "id": "tiiuae/Falcon-H1-1.5B-Instruct-GPTQ-Int8",
   "createdAt": "2025-05-12T12:08:44.000Z",
-  "downloads": 152,
+  "downloads": 153,
   "likes": 0,
   "pipeline": "text-generation",
   "tags": [
@@ -564,7 +564,7 @@
  {
   "id": "tiiuae/Falcon-H1-1.5B-Instruct-GPTQ-Int4",
   "createdAt": "2025-05-12T12:08:22.000Z",
-  "downloads": 153,
+  "downloads": 156,
   "likes": 0,
   "pipeline": "text-generation",
   "tags": [
@@ -576,7 +576,7 @@
  {
   "id": "tiiuae/Falcon-H1-0.5B-Instruct-GPTQ-Int8",
   "createdAt": "2025-05-12T12:01:47.000Z",
-  "downloads": 167,
+  "downloads": 165,
   "likes": 0,
   "pipeline": "text-generation",
   "tags": [
@@ -588,7 +588,7 @@
  {
   "id": "tiiuae/Falcon-H1-0.5B-Instruct-GPTQ-Int4",
   "createdAt": "2025-05-12T12:01:10.000Z",
-  "downloads": 168,
+  "downloads": 167,
   "likes": 0,
   "pipeline": "text-generation",
   "tags": [
@@ -600,8 +600,8 @@
  {
   "id": "tiiuae/Falcon-H1-34B-Instruct",
   "createdAt": "2025-05-01T15:44:45.000Z",
-  "downloads": 1936,
-  "likes": 52,
+  "downloads": 1851,
+  "likes": 53,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -612,7 +612,7 @@
  {
   "id": "tiiuae/Falcon-H1-7B-Instruct",
   "createdAt": "2025-05-01T15:44:30.000Z",
-  "downloads": 32883,
+  "downloads": 31847,
   "likes": 36,
   "pipeline": "text-generation",
   "tags": [
@@ -624,7 +624,7 @@
  {
   "id": "tiiuae/Falcon-H1-3B-Instruct",
   "createdAt": "2025-05-01T15:44:14.000Z",
-  "downloads": 6851,
+  "downloads": 14851,
   "likes": 15,
   "pipeline": "text-generation",
   "tags": [
@@ -636,7 +636,7 @@
  {
   "id": "tiiuae/Falcon-H1-1.5B-Deep-Instruct",
   "createdAt": "2025-05-01T15:43:57.000Z",
-  "downloads": 10539,
+  "downloads": 10447,
   "likes": 40,
   "pipeline": "text-generation",
   "tags": [
@@ -648,7 +648,7 @@
  {
   "id": "tiiuae/Falcon-H1-1.5B-Instruct",
   "createdAt": "2025-05-01T15:43:29.000Z",
-  "downloads": 1891,
+  "downloads": 1837,
   "likes": 17,
   "pipeline": "text-generation",
   "tags": [
@@ -660,7 +660,7 @@
  {
   "id": "tiiuae/Falcon-H1-0.5B-Instruct",
   "createdAt": "2025-05-01T15:43:03.000Z",
-  "downloads": 8859,
+  "downloads": 8481,
   "likes": 35,
   "pipeline": "text-generation",
   "tags": [
@@ -672,7 +672,7 @@
  {
   "id": "tiiuae/Falcon-H1-34B-Base",
   "createdAt": "2025-05-01T05:10:32.000Z",
-  "downloads": 604,
+  "downloads": 626,
   "likes": 13,
   "pipeline": "text-generation",
   "tags": [
@@ -683,7 +683,7 @@
  {
   "id": "tiiuae/Falcon-H1-7B-Base",
   "createdAt": "2025-05-01T05:10:01.000Z",
-  "downloads": 2769,
+  "downloads": 2921,
   "likes": 17,
   "pipeline": "text-generation",
   "tags": [
@@ -694,7 +694,7 @@
  {
   "id": "tiiuae/Falcon-H1-3B-Base",
   "createdAt": "2025-05-01T05:09:28.000Z",
-  "downloads": 10090,
+  "downloads": 9736,
   "likes": 7,
   "pipeline": "text-generation",
   "tags": [
@@ -705,7 +705,7 @@
  {
   "id": "tiiuae/Falcon-H1-1.5B-Deep-Base",
   "createdAt": "2025-05-01T05:09:11.000Z",
-  "downloads": 338,
+  "downloads": 383,
   "likes": 6,
   "pipeline": "text-generation",
   "tags": [
@@ -716,7 +716,7 @@
  {
   "id": "tiiuae/Falcon-H1-1.5B-Base",
   "createdAt": "2025-05-01T05:08:51.000Z",
-  "downloads": 11769,
+  "downloads": 11262,
   "likes": 3,
   "pipeline": "text-generation",
   "tags": [
@@ -727,7 +727,7 @@
  {
   "id": "tiiuae/Falcon-H1-0.5B-Base",
   "createdAt": "2025-05-01T05:08:29.000Z",
-  "downloads": 64863,
+  "downloads": 62955,
   "likes": 17,
   "pipeline": "text-generation",
   "tags": [
@@ -738,7 +738,7 @@
  {
   "id": "tiiuae/Falcon-E-1B-Instruct-GGUF",
   "createdAt": "2025-04-16T18:54:04.000Z",
-  "downloads": 407,
+  "downloads": 450,
   "likes": 6,
   "pipeline": "",
   "tags": [
@@ -749,7 +749,7 @@
  {
   "id": "tiiuae/Falcon-E-3B-Instruct-GGUF",
   "createdAt": "2025-04-16T18:51:48.000Z",
-  "downloads": 89,
+  "downloads": 92,
   "likes": 16,
   "pipeline": "",
   "tags": [
@@ -760,7 +760,7 @@
  {
   "id": "tiiuae/Falcon-E-3B-Instruct",
   "createdAt": "2025-04-16T13:37:08.000Z",
-  "downloads": 844,
+  "downloads": 865,
   "likes": 39,
   "pipeline": "text-generation",
   "tags": [
@@ -772,7 +772,7 @@
  {
   "id": "tiiuae/Falcon-E-1B-Instruct",
   "createdAt": "2025-04-16T13:36:56.000Z",
-  "downloads": 671,
+  "downloads": 655,
   "likes": 10,
   "pipeline": "text-generation",
   "tags": [
@@ -784,7 +784,7 @@
  {
   "id": "tiiuae/Falcon-E-3B-Base",
   "createdAt": "2025-04-16T13:36:20.000Z",
-  "downloads": 804,
+  "downloads": 767,
   "likes": 15,
   "pipeline": "text-generation",
   "tags": [
@@ -795,7 +795,7 @@
  {
   "id": "tiiuae/Falcon-E-1B-Base",
   "createdAt": "2025-04-10T23:48:03.000Z",
-  "downloads": 885,
+  "downloads": 820,
   "likes": 10,
   "pipeline": "text-generation",
   "tags": [
@@ -806,7 +806,7 @@
  {
   "id": "tiiuae/Falcon3-3B-Instruct-1.58bit-GGUF",
   "createdAt": "2024-12-19T11:10:24.000Z",
-  "downloads": 91,
+  "downloads": 93,
   "likes": 1,
   "pipeline": "",
   "tags": [
@@ -817,7 +817,7 @@
  {
   "id": "tiiuae/Falcon3-1B-Instruct-1.58bit-GGUF",
   "createdAt": "2024-12-19T10:53:32.000Z",
-  "downloads": 91,
+  "downloads": 108,
   "likes": 2,
   "pipeline": "",
   "tags": [
@@ -828,7 +828,7 @@
  {
   "id": "tiiuae/Falcon3-10B-Instruct-1.58bit-GGUF",
   "createdAt": "2024-12-19T10:08:33.000Z",
-  "downloads": 241,
+  "downloads": 233,
   "likes": 7,
   "pipeline": "",
   "tags": [
@@ -839,7 +839,7 @@
  {
   "id": "tiiuae/Falcon3-7B-Instruct-1.58bit-GGUF",
   "createdAt": "2024-12-19T10:05:54.000Z",
-  "downloads": 257,
+  "downloads": 284,
   "likes": 7,
   "pipeline": "",
   "tags": [
@@ -850,7 +850,7 @@
  {
   "id": "tiiuae/Falcon3-10B-Base-1.58bit",
   "createdAt": "2024-12-16T15:50:19.000Z",
-  "downloads": 268,
+  "downloads": 252,
   "likes": 11,
   "pipeline": "text-generation",
   "tags": [
@@ -861,7 +861,7 @@
  {
   "id": "tiiuae/Falcon3-1B-Instruct-1.58bit",
   "createdAt": "2024-12-16T15:32:43.000Z",
-  "downloads": 431,
+  "downloads": 439,
   "likes": 10,
   "pipeline": "text-generation",
   "tags": [
@@ -873,7 +873,7 @@
  {
   "id": "tiiuae/Falcon3-10B-Instruct-1.58bit",
   "createdAt": "2024-12-16T14:42:51.000Z",
-  "downloads": 411,
+  "downloads": 416,
   "likes": 27,
   "pipeline": "text-generation",
   "tags": [
@@ -885,7 +885,7 @@
  {
   "id": "tiiuae/Falcon3-Mamba-7B-Instruct-GGUF",
   "createdAt": "2024-12-16T06:57:21.000Z",
-  "downloads": 459,
+  "downloads": 467,
   "likes": 19,
   "pipeline": "",
   "tags": [
@@ -896,7 +896,7 @@
  {
   "id": "tiiuae/Falcon3-Mamba-7B-Base-GGUF",
   "createdAt": "2024-12-16T06:57:04.000Z",
-  "downloads": 259,
+  "downloads": 251,
   "likes": 5,
   "pipeline": "",
   "tags": [],
@@ -905,7 +905,7 @@
  {
   "id": "tiiuae/Falcon3-3B-Instruct-GGUF",
   "createdAt": "2024-12-14T09:48:13.000Z",
-  "downloads": 859,
+  "downloads": 848,
   "likes": 8,
   "pipeline": "",
   "tags": [
@@ -916,7 +916,7 @@
  {
   "id": "tiiuae/Falcon3-1B-Instruct-GGUF",
   "createdAt": "2024-12-14T09:48:04.000Z",
-  "downloads": 685,
+  "downloads": 670,
   "likes": 15,
   "pipeline": "text-generation",
   "tags": [
@@ -928,7 +928,7 @@
  {
   "id": "tiiuae/Falcon3-10B-Instruct-GGUF",
   "createdAt": "2024-12-14T09:47:55.000Z",
-  "downloads": 801,
+  "downloads": 771,
   "likes": 24,
   "pipeline": "text-generation",
   "tags": [
@@ -940,7 +940,7 @@
  {
   "id": "tiiuae/Falcon3-7B-Instruct-GGUF",
   "createdAt": "2024-12-14T09:42:13.000Z",
-  "downloads": 522,
+  "downloads": 515,
   "likes": 15,
   "pipeline": "text-generation",
   "tags": [
@@ -952,7 +952,7 @@
  {
   "id": "tiiuae/Falcon3-1B-Instruct-GPTQ-Int8",
   "createdAt": "2024-12-14T09:36:32.000Z",
-  "downloads": 139,
+  "downloads": 136,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -961,7 +961,7 @@
  {
   "id": "tiiuae/Falcon3-1B-Instruct-GPTQ-Int4",
   "createdAt": "2024-12-14T09:36:01.000Z",
-  "downloads": 149,
+  "downloads": 138,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -970,7 +970,7 @@
  {
   "id": "tiiuae/Falcon3-3B-Instruct-GPTQ-Int4",
   "createdAt": "2024-12-14T09:22:22.000Z",
-  "downloads": 134,
+  "downloads": 125,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -979,7 +979,7 @@
  {
   "id": "tiiuae/Falcon3-3B-Instruct-GPTQ-Int8",
   "createdAt": "2024-12-14T09:21:41.000Z",
-  "downloads": 133,
+  "downloads": 125,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -988,7 +988,7 @@
  {
   "id": "tiiuae/Falcon3-3B-Instruct-AWQ",
   "createdAt": "2024-12-14T09:20:56.000Z",
-  "downloads": 161,
+  "downloads": 150,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -997,7 +997,7 @@
  {
   "id": "tiiuae/Falcon3-1B-Instruct-AWQ",
   "createdAt": "2024-12-14T09:19:28.000Z",
-  "downloads": 160,
+  "downloads": 147,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -1006,7 +1006,7 @@
  {
   "id": "tiiuae/Falcon3-7B-Instruct-AWQ",
   "createdAt": "2024-12-14T09:18:25.000Z",
-  "downloads": 164,
+  "downloads": 148,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -1015,7 +1015,7 @@
  {
   "id": "tiiuae/Falcon3-10B-Instruct-AWQ",
   "createdAt": "2024-12-14T09:17:51.000Z",
-  "downloads": 195,
+  "downloads": 183,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -1024,7 +1024,7 @@
  {
   "id": "tiiuae/Falcon3-10B-Instruct-GPTQ-Int4",
   "createdAt": "2024-12-14T09:17:06.000Z",
-  "downloads": 240,
+  "downloads": 235,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -1033,7 +1033,7 @@
  {
   "id": "tiiuae/Falcon3-10B-Instruct-GPTQ-Int8",
   "createdAt": "2024-12-14T09:16:26.000Z",
-  "downloads": 115,
+  "downloads": 112,
   "likes": 2,
   "pipeline": "",
   "tags": [],
@@ -1042,7 +1042,7 @@
  {
   "id": "tiiuae/Falcon3-7B-Instruct-GPTQ-Int4",
   "createdAt": "2024-12-14T09:15:50.000Z",
-  "downloads": 153,
+  "downloads": 142,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -1051,7 +1051,7 @@
  {
   "id": "tiiuae/Falcon3-7B-Instruct-GPTQ-Int8",
   "createdAt": "2024-12-14T09:14:54.000Z",
-  "downloads": 217,
+  "downloads": 195,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -1060,7 +1060,7 @@
  {
   "id": "tiiuae/Falcon3-3B-Instruct",
   "createdAt": "2024-12-14T06:03:53.000Z",
-  "downloads": 7252,
+  "downloads": 7275,
   "likes": 28,
   "pipeline": "text-generation",
   "tags": [
@@ -1072,7 +1072,7 @@
  {
   "id": "tiiuae/Falcon3-1B-Instruct",
   "createdAt": "2024-12-14T05:43:18.000Z",
-  "downloads": 8578,
+  "downloads": 8405,
   "likes": 46,
   "pipeline": "text-generation",
   "tags": [
@@ -1084,7 +1084,7 @@
  {
   "id": "tiiuae/Falcon3-10B-Instruct",
   "createdAt": "2024-12-14T05:17:25.000Z",
-  "downloads": 11214,
+  "downloads": 10873,
   "likes": 117,
   "pipeline": "text-generation",
   "tags": [
@@ -1096,7 +1096,7 @@
  {
   "id": "tiiuae/Falcon3-1B-Base",
   "createdAt": "2024-12-13T12:00:46.000Z",
-  "downloads": 6225,
+  "downloads": 6492,
   "likes": 31,
   "pipeline": "text-generation",
   "tags": [
@@ -1107,7 +1107,7 @@
  {
   "id": "tiiuae/Falcon3-Mamba-7B-Instruct",
   "createdAt": "2024-12-13T10:39:14.000Z",
-  "downloads": 2684,
+  "downloads": 2718,
   "likes": 34,
   "pipeline": "text-generation",
   "tags": [
@@ -1119,7 +1119,7 @@
  {
   "id": "tiiuae/Falcon3-3B-Base",
   "createdAt": "2024-12-13T08:05:46.000Z",
-  "downloads": 1815,
+  "downloads": 1867,
   "likes": 16,
   "pipeline": "text-generation",
   "tags": [
@@ -1130,7 +1130,7 @@
  {
   "id": "tiiuae/Falcon3-Mamba-7B-Base",
   "createdAt": "2024-12-11T13:10:53.000Z",
-  "downloads": 324,
+  "downloads": 333,
   "likes": 25,
   "pipeline": "text-generation",
   "tags": [
@@ -1141,7 +1141,7 @@
  {
   "id": "tiiuae/Falcon3-10B-Base",
   "createdAt": "2024-12-03T05:45:34.000Z",
-  "downloads": 1503,
+  "downloads": 1414,
   "likes": 42,
   "pipeline": "text-generation",
   "tags": [

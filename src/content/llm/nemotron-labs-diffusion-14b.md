@@ -8,7 +8,7 @@ summary: "扩散式文本生成模型，同一份权重支持自回归 / 扩散 
 tags: [Dense, 纯文本]
 license: "NVIDIA Open Model License"
 commercial: 有条件可商用
-params: "13.5B"
+params: "14B"
 context: "128K"
 modalities: [text]
 deploys: [vllm]

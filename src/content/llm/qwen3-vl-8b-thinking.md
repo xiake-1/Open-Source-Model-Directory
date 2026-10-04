@@ -8,7 +8,7 @@ summary: "Qwen3-VL 8B 的思考版，用长思维链做图像推理与界面定�
 tags: [Dense, 可识别图像]
 license: "Apache-2.0"
 commercial: 可商用
-params: "8.8B"
+params: "8B"
 context: "256K"
 modalities: [text, image]
 deploys: [vllm, llama-cpp]

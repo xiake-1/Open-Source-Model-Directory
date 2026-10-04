@@ -8,7 +8,7 @@ summary: "Qwen3-VL 的 4B 版本，消费级显卡就能跑截图理解与 OCR�
 tags: [Dense, 可识别图像]
 license: "Apache-2.0"
 commercial: 可商用
-params: "4.4B"
+params: "4B"
 context: "256K"
 modalities: [text, image]
 deploys: [llama-cpp, ollama]

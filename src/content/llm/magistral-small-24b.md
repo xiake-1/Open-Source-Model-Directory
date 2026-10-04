@@ -8,7 +8,7 @@ summary: "Mistral 第一个开源推理模型，24B 稠密做多步推理，Apac
 tags: [Dense, 纯文本]
 license: "Apache-2.0"
 commercial: 可商用
-params: "23.6B"
+params: "24B"
 context: "128K"
 modalities: [text]
 deploys: [vllm, llama-cpp]

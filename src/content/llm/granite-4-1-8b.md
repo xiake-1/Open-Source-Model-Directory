@@ -8,7 +8,7 @@ summary: "Granite 4.1 的主力尺寸，企业工具调用与 RAG 场景专门�
 tags: [Dense, 纯文本]
 license: "Apache-2.0"
 commercial: 可商用
-params: "8.8B"
+params: "8B"
 context: "128K"
 modalities: [text]
 deploys: [vllm, llama-cpp, ollama]

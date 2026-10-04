@@ -10,7 +10,7 @@ license: "Apache-2.0"
 commercial: 可商用
 output: image
 architecture: "DiT（GLM-4-9B 作文本编码器）"
-params: "6.4B"
+params: "6B"
 links:
   hf: "https://huggingface.co/zai-org/CogView4-6B"
   github: "https://github.com/THUDM/CogView4"

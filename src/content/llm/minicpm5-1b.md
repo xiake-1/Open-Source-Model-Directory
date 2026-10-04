@@ -8,7 +8,7 @@ summary: "1B 级别的第五代端侧模型，把推理能力压进手机与嵌�
 tags: [Dense, 纯文本]
 license: "Apache-2.0"
 commercial: 可商用
-params: "1.1B"
+params: "1B"
 context: "32K"
 vram: "手机端可跑"
 modalities: [text]

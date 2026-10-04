@@ -8,7 +8,7 @@ summary: "3B 的全开源小模型，训练配方与数据都公开，支持思�
 tags: [Dense, 纯文本]
 license: "Apache-2.0"
 commercial: 可商用
-params: "3.1B"
+params: "3B"
 context: "64K"
 vram: "量化后手机可跑"
 modalities: [text]

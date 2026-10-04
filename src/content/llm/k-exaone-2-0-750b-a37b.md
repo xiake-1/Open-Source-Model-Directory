@@ -8,7 +8,7 @@ summary: "LG 与韩国政府合作的第二代旗舰，750B 激活 37B，韩语�
 tags: [MoE, 纯文本]
 license: "Apache-2.0"
 commercial: 可商用
-params: "749B"
+params: "750B"
 context: "128K"
 modalities: [text]
 deploys: [vllm, sglang]

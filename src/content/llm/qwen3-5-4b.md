@@ -8,7 +8,7 @@ summary: "Qwen3.5 代的 4B 稠密版，端侧与轻量部署的主力尺寸。"
 tags: [Dense, 可识别图像]
 license: "Apache-2.0"
 commercial: 可商用
-params: "4.7B"
+params: "4B"
 context: "256K"
 modalities: [text, image]
 deploys: [llama-cpp, ollama]

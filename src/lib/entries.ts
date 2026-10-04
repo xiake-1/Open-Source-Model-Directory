@@ -1,7 +1,7 @@
 import { getCollection } from 'astro:content';
 import hfDownloads from '../data/hf-downloads.json';
 import { OUTPUT_LABELS } from './format';
-import { SIZE_BUCKETS, contextBucketOf, popularityTagOf, type PopularityCollection } from './taxonomy';
+import { sizeBucketOf, contextBucketOf, popularityTagOf, type ModelCollection } from './taxonomy';
 
 export type CollectionName = 'llm' | 'aigc' | 'projects' | 'deploy';
 
@@ -27,7 +27,7 @@ export interface Entry {
   contextTag?: string;
   /** 上下文原文标签，例如 128K / 1M。卡片胶囊上直接展示；只做展示，不作为筛选条件 */
   contextValue?: string;
-  /** 参数量分档标签：低 ≤100B / 中 100-500B / 高 ≥500B。从 params 里抠出总参数量再分档，只用于侧栏「筛选」 */
+  /** 参数量分档标签：LLM 是 低 ≤100B / 中 100-500B / 高 ≥500B，AIGC 是 低 0-8B / 中 8-32B / 高 ≥32B。从 params 里抠出总参数量再按集合分档，只用于侧栏「筛选」 */
   sizeTag?: string;
   /** 参数量原文（例如 `235B (激活 22B)`），卡片胶囊上直接展示；只做展示，不作为筛选条件 */
   params?: string;
@@ -35,7 +35,7 @@ export interface Entry {
   commercial?: string;
   /** HuggingFace 近 30 天下载量，取自 `src/data/hf-downloads.json` 快照；没取到时为 undefined */
   downloads?: number;
-  /** 热度分档标签：低 <10万 / 中 10万-100万 / 高 ≥100万。由 downloads 分档而来 */
+  /** 热度分档标签：LLM 是 低 <10万 / 中 10万-100万 / 高 ≥100万，AIGC 是 低 <1万 / 中 1万-5万 / 高 ≥5万。由 downloads 分档而来 */
   popularityTag?: string;
   license?: string;
   status: 'active' | 'dead' | 'deprecated';
@@ -99,13 +99,14 @@ function contextParse(context?: string): { value: string; k: number } | undefine
  * 参数量分档标签。params 是自由文本（`235B (激活 22B)` / `1.6T (激活 49B)`），
  * 只认**开头**那段总参数量：激活参数写在括号里，不会被当成总量。
  * 数字后面必须紧跟 B / T，`70B (Dense)` 这种也照样解析。
+ * 分档**按集合分两套阈值**（LLM 100B/500B、AIGC 8B/32B，见 taxonomy），所以要传集合进来。
  */
-function sizeTagOf(params?: string): string | undefined {
+function sizeTagOf(params: string | undefined, collection: ModelCollection): string | undefined {
   if (!params) return undefined;
   const m = params.match(/(\d+(?:\.\d+)?)\s*([BT])/i);
   if (!m) return undefined;
   const totalB = m[2].toUpperCase() === 'T' ? Number(m[1]) * 1000 : Number(m[1]);
-  return SIZE_BUCKETS.find((bucket) => totalB < bucket.max)?.label;
+  return sizeBucketOf(totalB, collection);
 }
 
 /**
@@ -144,11 +145,11 @@ function normalize(collection: CollectionName, entry: { id: string; data: any; b
   const context = isModel ? contextParse(d.context) : undefined;
   const contextValue = context?.value;
   const contextTag = context ? contextBucketOf(context.k) : undefined;
-  const sizeTag = isModel ? sizeTagOf(d.params) : undefined;
+  const sizeTag = isModel ? sizeTagOf(d.params, collection as ModelCollection) : undefined;
   // 热度：HF 下载量 → 分档标签。**LLM 与 AIGC 是两套阈值**（见 taxonomy），
   // 所以要把集合传进去；快照里没有这个仓库时保持 undefined，条目只是不出现在热度筛选里
   const downloads = isModel ? downloadsOf(d.links?.hf) : undefined;
-  const popularityTag = isModel ? popularityTagOf(downloads, collection as PopularityCollection) : undefined;
+  const popularityTag = isModel ? popularityTagOf(downloads, collection as ModelCollection) : undefined;
   return {
     collection,
     id: entry.id,

@@ -15,12 +15,15 @@ import TagSidebar from './TagSidebar.astro';
  *   1. 时间：按 年-月 多选（`MonthFilter.astro`），在最上面；
  *   2. 所属：家族 / 发布方多选（`FamilyFilter.astro`）；
  *   3. 筛选：其余标签分组（`TagSidebar.astro`）——热度 / 结构 / 类型 / 上下文 / 参数量 / 商用，
- *      选中项是高亮的普通链接；没有标签的页面（社区项目）只有第一张。
+ *      同样是**多选复选框**；没有标签的页面（社区项目）只有第一张。
  *
  * 三张卡片是"手风琴"关系：展开一张会把另外两张收起来，否则三张全开时左列会高过视口，
  * 而整列是 sticky 的，底部那张会被截掉看不见。收起来不等于清空，标题上仍然显示当前选择。
  *
- * 三个条件是叠加的，状态都存在 URL hash 里：`#months=2026-02,2026-01&family=Kimi&tag=MoE`。
+ * 三个条件是叠加的，状态都存在 URL hash 里：`#months=2026-02,2026-01&family=Kimi&tag=MoE,Dense`。
+ * **标签的组合语义**：同一组内是"或"（`MoE,Dense` = 结构里满足一个即可，
+ * 组名从复选框的 `data-tag-group` 上取），不同组之间是"与"
+ * （结构与参数量都要满足），再与时间 / 所属做"与"。
  * 页内脚本监听变化后就地过滤，所以点击不会整页刷新。关掉 JS 只是不过滤，仍然能看到全部条目。
  */
 interface Props {
@@ -57,7 +60,7 @@ const tagGroups = groups.filter((group) => group.label !== FAMILY_GROUP_LABEL);
   <div class="listing-side">
     {years.length > 0 && <MonthFilter years={years} />}
     {familyGroup && <FamilyFilter families={familyGroup.tags} counts={counts} />}
-    {tagGroups.length > 0 && <TagSidebar groups={tagGroups} counts={counts} basePath={basePath} />}
+    {tagGroups.length > 0 && <TagSidebar groups={tagGroups} counts={counts} />}
   </div>
   <div class="listing-main">
     <p class="filter-note" data-filter-note data-empty={empty} hidden></p>
@@ -69,7 +72,7 @@ const tagGroups = groups.filter((group) => group.label !== FAMILY_GROUP_LABEL);
 
 <script>
   // 就地过滤：URL hash 同时承载"时间""所属""标签"三个条件，
-  // 形如 #months=2026-02,2026-01&family=Kimi,GLM&tag=MoE。
+  // 形如 #months=2026-02,2026-01&family=Kimi,GLM&tag=MoE,Dense。
   // 用 hash 而不是查询串：静态主机不按查询串路由，?tag= 只会整页重载
   // 并照常返回全部条目，看起来就是"点了没反应"。
   // 关掉 JS 时只是不过滤（仍然能看到全部条目），不会白屏。
@@ -83,7 +86,7 @@ const tagGroups = groups.filter((group) => group.label !== FAMILY_GROUP_LABEL);
 
     var cards = Array.prototype.slice.call(timeline.querySelectorAll('.entry'));
     var monthSections = Array.prototype.slice.call(timeline.querySelectorAll('[data-month]'));
-    // 两张下拉卡片里的复选框：限定在卡片内部，免得把时间线上的 <section data-month> 也算进来
+    // 三张下拉卡片里的复选框：限定在卡片内部，免得把时间线上的 <section data-month> 也算进来
     var monthBoxes = Array.prototype.slice.call(
       document.querySelectorAll('[data-month-filter] [data-month]')
     );
@@ -95,7 +98,17 @@ const tagGroups = groups.filter((group) => group.label !== FAMILY_GROUP_LABEL);
     var dropdowns = Array.prototype.slice.call(
       document.querySelectorAll('[data-month-details], [data-family-details], [data-tag-details]')
     );
-    var tagLinks = Array.prototype.slice.call(document.querySelectorAll('[data-tag]'));
+    // 「筛选」里的复选框 + 卡片上的标签胶囊（`<a data-tag>`）：前者勾选、后者点击，
+    // 两种控件共用同一个"标签"值，所以放在一个列表里统一处理选中态
+    var tagControls = Array.prototype.slice.call(document.querySelectorAll('[data-tag]'));
+    var tagAllBox = document.querySelector('[data-tag-all]');
+    // 标签 → 分组名（结构 / 类型 / 上下文 / 参数量 / 热度 / 商用…），从侧栏复选框的
+    // data-tag-group 上取。卡片胶囊没有这个属性，靠这张表回查。
+    var tagGroupOf = {};
+    for (var t = 0; t < tagControls.length; t++) {
+      if (tagControls[t].tagName !== 'INPUT') continue;
+      tagGroupOf[tagControls[t].value] = tagControls[t].getAttribute('data-tag-group') || '';
+    }
 
     /** 卡片上的 data-released 是 YYYY-MM-DD，取前 7 位就是分组用的 年-月 */
     function monthOf(card) {
@@ -103,7 +116,7 @@ const tagGroups = groups.filter((group) => group.label !== FAMILY_GROUP_LABEL);
     }
 
     function readState() {
-      var state = { tag: '', months: [], families: [] };
+      var state = { tags: [], months: [], families: [] };
       var raw = location.hash.replace(/^#/, '');
       if (!raw) return state;
       var parts = raw.split('&');
@@ -117,7 +130,7 @@ const tagGroups = groups.filter((group) => group.label !== FAMILY_GROUP_LABEL);
         } catch (err) {
           /* 保持原样即可 */
         }
-        if (key === 'tag') state.tag = value;
+        if (key === 'tag') state.tags = value.split(',').filter(Boolean);
         else if (key === 'months') {
           state.months = value.split(',').filter(Boolean);
         } else if (key === 'family') {
@@ -131,7 +144,7 @@ const tagGroups = groups.filter((group) => group.label !== FAMILY_GROUP_LABEL);
       var parts = [];
       if (state.months.length) parts.push('months=' + state.months.map(encodeURIComponent).join(','));
       if (state.families.length) parts.push('family=' + state.families.map(encodeURIComponent).join(','));
-      if (state.tag) parts.push('tag=' + encodeURIComponent(state.tag));
+      if (state.tags.length) parts.push('tag=' + state.tags.map(encodeURIComponent).join(','));
       return parts.length ? '#' + parts.join('&') : '';
     }
 
@@ -166,14 +179,38 @@ const tagGroups = groups.filter((group) => group.label !== FAMILY_GROUP_LABEL);
       else familyLabel.textContent = '已选 ' + activeFamilies.length + ' 个所属';
     }
 
-    /** 「筛选」下拉的标题：标签是单选，直接写标签名 */
-    function paintTagSummary(activeTag) {
+    /** 「筛选」下拉的标题：只选了一个就写标签名，多个写"已选 N 个标签" */
+    function paintTagSummary(activeTags) {
       if (!tagLabel) return;
-      tagLabel.textContent = activeTag || '全部';
+      if (activeTags.length === 0) tagLabel.textContent = '全部';
+      else if (activeTags.length === 1) tagLabel.textContent = activeTags[0];
+      else tagLabel.textContent = '已选 ' + activeTags.length + ' 个标签';
+    }
+
+    /**
+     * 把选中的标签按分组归拢：同组内是"或"，不同组之间是"与"。
+     * 没有分组信息的（理论上不该有）自己算一组，宁可筛得严一点也不出错。
+     */
+    function selectionsOf(activeTags) {
+      var groups = [];
+      for (var i = 0; i < activeTags.length; i++) {
+        var tag = activeTags[i];
+        var group = tagGroupOf[tag] === undefined ? tag : tagGroupOf[tag];
+        var bucket = null;
+        for (var j = 0; j < groups.length; j++) {
+          if (groups[j].group === group) bucket = groups[j];
+        }
+        if (!bucket) {
+          bucket = { group: group, tags: [] };
+          groups.push(bucket);
+        }
+        bucket.tags.push(tag);
+      }
+      return groups;
     }
 
     function apply(state) {
-      var activeTag = state.tag;
+      var activeTags = state.tags;
       var activeMonths = state.months;
       var activeFamilies = state.families;
 
@@ -182,14 +219,15 @@ const tagGroups = groups.filter((group) => group.label !== FAMILY_GROUP_LABEL);
       for (var j = 0; j < monthSections.length; j++) monthSections[j].removeAttribute('data-filtered');
       timeline.removeAttribute('data-filtered');
 
-      for (var k = 0; k < tagLinks.length; k++) {
-        var link = tagLinks[k];
-        var isActive = activeTag !== '' && (link.getAttribute('data-tag') || '') === activeTag;
-        link.classList.toggle('is-active', isActive);
-        if (isActive) link.setAttribute('aria-current', 'true');
-        else link.removeAttribute('aria-current');
+      for (var k = 0; k < tagControls.length; k++) {
+        var control = tagControls[k];
+        var value = control.tagName === 'INPUT' ? control.value : control.getAttribute('data-tag');
+        var isActive = activeTags.indexOf(value || '') !== -1;
+        if (control.tagName === 'INPUT') control.checked = isActive;
+        else control.classList.toggle('is-active', isActive);
       }
-      paintTagSummary(activeTag);
+      if (tagAllBox) tagAllBox.checked = activeTags.length === 0;
+      paintTagSummary(activeTags);
 
       for (var m = 0; m < monthBoxes.length; m++) {
         monthBoxes[m].checked = activeMonths.indexOf(monthBoxes[m].value) !== -1;
@@ -203,18 +241,28 @@ const tagGroups = groups.filter((group) => group.label !== FAMILY_GROUP_LABEL);
       if (familyAllBox) familyAllBox.checked = activeFamilies.length === 0;
       paintFamilySummary(activeFamilies);
 
-      if (!activeTag && activeMonths.length === 0 && activeFamilies.length === 0) {
+      if (activeTags.length === 0 && activeMonths.length === 0 && activeFamilies.length === 0) {
         if (note) note.hidden = true;
         return;
       }
 
       // 时间 / 所属 / 标签三个条件是"与"的关系：都满足才留下。
-      // 所属允许同时勾多个家族，命中其中任意一个就算过（一条条目只有一个 family）。
+      // 标签内部再分两层：**同组内"或"**（勾了 MoE 与 Dense，命中任意一个就行），
+      // **组间"与"**（结构与参数量都得满足）。所属同理允许同时勾多个家族。
+      var selections = selectionsOf(activeTags);
       var shown = 0;
       for (var n = 0; n < cards.length; n++) {
         var card = cards[n];
         var cardTags = (card.getAttribute('data-tags') || '').split('|');
-        var byTag = !activeTag || cardTags.indexOf(activeTag) !== -1;
+        var byTag = true;
+        for (var s = 0; s < selections.length; s++) {
+          var groupTags = selections[s].tags;
+          var hit = false;
+          for (var g = 0; g < groupTags.length; g++) {
+            if (cardTags.indexOf(groupTags[g]) !== -1) hit = true;
+          }
+          if (!hit) byTag = false;
+        }
         var byMonth = activeMonths.length === 0 || activeMonths.indexOf(monthOf(card)) !== -1;
         var byFamily =
           activeFamilies.length === 0 ||
@@ -238,23 +286,54 @@ const tagGroups = groups.filter((group) => group.label !== FAMILY_GROUP_LABEL);
       }
     }
 
-    // 只改一个条件、保留另一个：选了月份之后点标签，不会把月份清掉
-    function setTag(tag) {
+    // 只改一个条件、保留另一个：选了月份之后点标签，不会把月份清掉。
+    // 标签是"开关"：已经在选中的集合里就移除，否则加入。
+    function toggleTag(tag) {
       var state = readState();
-      state.tag = tag;
+      if (tag === '') state.tags = [];
+      else if (state.tags.indexOf(tag) === -1) state.tags.push(tag);
+      else
+        state.tags = state.tags.filter(function (item) {
+          return item !== tag;
+        });
       replaceState(state);
       apply(state);
     }
 
-    // 点侧栏/卡片上的标签是同文档导航，只触发 hashchange；这里直接接管更省事，
-    // 也能把已经选好的"时间""所属"一起写回 hash。
-    for (var q = 0; q < tagLinks.length; q++) {
-      tagLinks[q].addEventListener('click', function (event) {
-        var tag = this.getAttribute('data-tag') || '';
-        // 本来就没筛选时，"全部"当普通链接用，不留多余的 history 记录
-        if (this.hasAttribute('data-tag-all') && readState().tag === '') return;
-        event.preventDefault();
-        setTag(tag);
+    // 侧栏的复选框走 change，卡片上的标签胶囊（同文档链接）走 click：
+    // 两边都直接接管，省得依赖 hashchange，也能把已经选好的"时间""所属"一起写回 hash。
+    for (var q = 0; q < tagControls.length; q++) {
+      if (tagControls[q].tagName === 'INPUT') {
+        tagControls[q].addEventListener('change', function () {
+          var state = readState();
+          var value = this.value;
+          if (this.checked) {
+            if (state.tags.indexOf(value) === -1) state.tags.push(value);
+          } else {
+            state.tags = state.tags.filter(function (item) {
+              return item !== value;
+            });
+          }
+          replaceState(state);
+          apply(state);
+        });
+      } else {
+        tagControls[q].addEventListener('click', function (event) {
+          event.preventDefault();
+          toggleTag(this.getAttribute('data-tag') || '');
+        });
+      }
+    }
+    if (tagAllBox) {
+      tagAllBox.addEventListener('change', function () {
+        if (!this.checked) {
+          this.checked = true;
+          return;
+        }
+        var state = readState();
+        state.tags = [];
+        replaceState(state);
+        apply(state);
       });
     }
 

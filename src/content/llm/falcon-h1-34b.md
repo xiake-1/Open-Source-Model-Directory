@@ -8,7 +8,7 @@ summary: "并行 Attention + Mamba-2 的混合架构，34B 支持 18 种语言�
 tags: [Dense, 纯文本]
 license: "Falcon LLM License"
 commercial: 可商用
-params: "33.6B"
+params: "34B"
 context: "256K"
 modalities: [text]
 deploys: [vllm, sglang]

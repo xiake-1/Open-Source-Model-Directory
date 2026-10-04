@@ -6,14 +6,25 @@
  *   2) 专用模型不收：安全审核、语音（ASR/TTS）、OCR、embedding/reranker、专用 agent 与垂类模型
  *   3) 基线 / 量化 / 第三方改编不收
  *   4) 够得着「主流」的量化门槛：likes ≥ 100 或 downloads ≥ 50000
+ *   5) **只看近 30 天新建的仓库**（更新流程的口径：不回溯旧模型）；补历史缺口加 `--all`
  *
- * 用法：node _verify/gap-candidates.mjs [org1,org2] [minLikes]
+ * 用法：node _verify/gap-candidates.mjs [org1,org2] [minLikes] [--days=30] [--all]
+ *   node _verify/gap-candidates.mjs                    # 近 30 天
+ *   node _verify/gap-candidates.mjs Qwen 100 --days=7  # 只 Qwen、近 7 天
+ *   node _verify/gap-candidates.mjs --all              # 历史全量（2025-01 起）
  */
 import fs from 'node:fs';
 import { readFileSync, readdirSync } from 'node:fs';
 
-const orgsArg = (process.argv[2] ?? '').split(',').map((s) => s.trim()).filter(Boolean);
-const MIN_LIKES = Number(process.argv[3] ?? 100);
+const argv = process.argv.slice(2);
+const argOf = (name) => argv.find((a) => a.startsWith(`--${name}=`))?.split('=')[1];
+const ALL = argv.includes('--all');
+const DAYS = Number(argOf('days') ?? 30);
+/** `createdAt` 的下界：默认近 30 天，`--all` 才回到 2025-01-01 */
+const SINCE = ALL ? '2025-01-01' : new Date(Date.now() - DAYS * 86_400_000).toISOString().slice(0, 10);
+const positional = argv.filter((a) => !a.startsWith('--'));
+const orgsArg = (positional[0] ?? '').split(',').map((s) => s.trim()).filter(Boolean);
+const MIN_LIKES = Number(positional[1] ?? 100);
 const MIN_DL = 50000;
 
 /** 已经收录的仓库 */
@@ -54,7 +65,7 @@ for (const file of readdirSync(dir).filter((f) => f.endsWith('.json'))) {
   for (const r of list) {
     if (!r.id || seenIds.has(r.id)) continue;
     seenIds.add(r.id);
-    if ((r.createdAt ?? '') < '2025-01-01') continue;
+    if ((r.createdAt ?? '') < SINCE) continue;
     if ((r.likes ?? 0) < MIN_LIKES && (r.downloads ?? 0) < MIN_DL) continue;
     if (r.pipeline && !PIPELINE.test(r.pipeline)) continue;
     if (DERIV.test(r.id) || SPECIALTY.test(r.id)) continue;
@@ -74,7 +85,7 @@ for (const r of rows) {
 const md = [
   '# 补录候选（按定稿口径筛过）',
   '',
-  `> 门槛：2025-01 起、likes ≥ ${MIN_LIKES} 或 downloads ≥ ${MIN_DL}、名字里能看出参数量则 ≥ 4B、`,
+  `> 窗口：\`createdAt\` ≥ ${SINCE}${ALL ? '（--all 历史全量）' : `（近 ${DAYS} 天新建，更新流程的口径）`}、likes ≥ ${MIN_LIKES} 或 downloads ≥ ${MIN_DL}、名字里能看出参数量则 ≥ 4B、`,
   '> 排除专用模型（审核/语音/OCR/embedding/垂类 agent）、基线、量化与第三方改编。',
   '> 名字里抠不出参数量的会保留在列表里，需要人工判断。',
   '',

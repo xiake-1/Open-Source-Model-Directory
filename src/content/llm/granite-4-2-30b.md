@@ -8,7 +8,7 @@ summary: "Granite 4.2 的 30B 档，进一步强化代码与 agent 能力，仍�
 tags: [Dense, 纯文本]
 license: "Apache-2.0"
 commercial: 可商用
-params: "29.3B"
+params: "30B"
 context: "128K"
 modalities: [text]
 deploys: [vllm, sglang]

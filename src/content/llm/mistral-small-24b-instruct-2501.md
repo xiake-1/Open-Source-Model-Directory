@@ -8,7 +8,7 @@ summary: "Mistral Small 3 的首发版本，24B 稠密以低延迟见长，Apach
 tags: [Dense, 纯文本]
 license: "Apache-2.0"
 commercial: 可商用
-params: "23.6B"
+params: "24B"
 context: "32K"
 modalities: [text]
 deploys: [vllm, llama-cpp, ollama]

@@ -8,7 +8,7 @@ summary: "Ring 2.5 代的万亿推理模型，长思维链强化学习路线。"
 tags: [MoE, 纯文本]
 license: "MIT"
 commercial: 可商用
-params: "1.0T"
+params: "1T"
 context: "128K"
 modalities: [text]
 deploys: [vllm, sglang]

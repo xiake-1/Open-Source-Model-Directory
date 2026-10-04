@@ -125,11 +125,11 @@
 - OpenDFM/CharTool-3B@2026-07-29
 - OpenDFM/CharTool-7B@2026-07-29
 
-## IndexTeam（18）
+## IndexTeam（50）
 
-- IndexTeam/Index-Translate-35B-A3B-preview-backup@2026-10-01
-- IndexTeam/Index-Translate-35B-A3B-preview@2026-09-30
-- IndexTeam/Index-Echo-S2TT-9B@2026-09-28
+- IndexTeam/Index-Echo-S2ST-9B-FP4@2026-10-03
+- IndexTeam/Index-Echo-S2ST-2B-FP4@2026-10-03
+- IndexTeam/Index-Echo-S2TT-9B-FP4@2026-10-03
 
 ## rednote-hilab（0）
 
@@ -164,11 +164,11 @@
 - openai/circuit-sparsity@2025-12-11
 - openai/gpt-oss-safeguard-20b@2025-09-18
 
-## microsoft（197）
+## microsoft（198）
 
 - microsoft/rho-roboeval@2026-09-21
+- microsoft/FrogNano-4B-2609@2026-09-17
 - microsoft/VibeVoice-ASR-Streaming-1.5B@2026-09-02
-- microsoft/VibeVoice-ASR-Streaming-7B@2026-09-02
 
 ## nvidia（718）
 

@@ -8,7 +8,7 @@ summary: "Intern-S 科学模型第二代正式版，397B MoE 在科学推理与�
 tags: [MoE, 可识别图像]
 license: "Apache-2.0"
 commercial: 可商用
-params: "403B"
+params: "397B"
 context: "128K"
 modalities: [text, image]
 deploys: [vllm, sglang]

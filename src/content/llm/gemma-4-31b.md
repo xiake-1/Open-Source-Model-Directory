@@ -8,7 +8,7 @@ summary: "Gemma 4 的稠密旗舰，改用 Apache-2.0 后终于可以放心商�
 tags: [Dense, 可识别图像]
 license: "Apache-2.0"
 commercial: 可商用
-params: "31.3B"
+params: "31B"
 context: "256K"
 modalities: [text, image]
 deploys: [vllm, sglang, llama-cpp]

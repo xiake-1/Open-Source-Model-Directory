@@ -8,7 +8,7 @@ summary: "Qwen3.5 的中量级 MoE，原生多模态输入，单机就能部署�
 tags: [MoE, 可识别图像]
 license: "Apache-2.0"
 commercial: 可商用
-params: "36B (激活 3B)"
+params: "35B (激活 3B)"
 context: "256K"
 modalities: [text, image]
 deploys: [vllm, sglang]

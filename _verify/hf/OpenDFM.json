@@ -2,7 +2,7 @@
  {
   "id": "OpenDFM/RetroDFM-R-8B",
   "createdAt": "2026-08-20T15:56:15.000Z",
-  "downloads": 175,
+  "downloads": 184,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -11,7 +11,7 @@
  {
   "id": "OpenDFM/CharTool-3B",
   "createdAt": "2026-07-29T12:33:59.000Z",
-  "downloads": 25,
+  "downloads": 28,
   "likes": 0,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -23,7 +23,7 @@
  {
   "id": "OpenDFM/CharTool-7B",
   "createdAt": "2026-07-29T11:56:38.000Z",
-  "downloads": 69,
+  "downloads": 74,
   "likes": 3,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -35,7 +35,7 @@
  {
   "id": "OpenDFM/Qwen3-0.6B-IEA-RM",
   "createdAt": "2026-04-24T05:51:36.000Z",
-  "downloads": 24,
+  "downloads": 25,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -44,7 +44,7 @@
  {
   "id": "OpenDFM/Qwen2.5-VL-7B-IEA",
   "createdAt": "2026-04-24T05:45:43.000Z",
-  "downloads": 65,
+  "downloads": 68,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -53,7 +53,7 @@
  {
   "id": "OpenDFM/RetroDFM-R-v0-8B",
   "createdAt": "2025-11-20T15:21:59.000Z",
-  "downloads": 32,
+  "downloads": 37,
   "likes": 2,
   "pipeline": "text-generation",
   "tags": [
@@ -65,7 +65,7 @@
  {
   "id": "OpenDFM/ChemDFM-R-14B",
   "createdAt": "2025-10-26T03:54:20.000Z",
-  "downloads": 131,
+  "downloads": 124,
   "likes": 8,
   "pipeline": "text-generation",
   "tags": [
@@ -77,7 +77,7 @@
  {
   "id": "OpenDFM/ChemDFM-v2.0-14B",
   "createdAt": "2025-10-26T03:53:56.000Z",
-  "downloads": 410,
+  "downloads": 453,
   "likes": 12,
   "pipeline": "text-generation",
   "tags": [
@@ -89,7 +89,7 @@
  {
   "id": "OpenDFM/ChemDFM-X-v1.0-13B",
   "createdAt": "2025-01-20T13:41:36.000Z",
-  "downloads": 14,
+  "downloads": 12,
   "likes": 4,
   "pipeline": "",
   "tags": [],

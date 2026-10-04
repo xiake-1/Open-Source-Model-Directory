@@ -8,7 +8,7 @@ summary: "Apertus 1.5 代的 8B 版本，把多模态输入加进瑞士国家级
 tags: [Dense, 可识别图像]
 license: "Apache-2.0"
 commercial: 可商用
-params: "8.9B"
+params: "8B"
 context: "64K"
 modalities: [text, image]
 deploys: [vllm, llama-cpp]

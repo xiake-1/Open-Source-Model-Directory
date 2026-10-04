@@ -8,7 +8,7 @@ summary: "GLM-Z1 的沉思版本，先想清楚再答，面向复杂研究型问
 tags: [Dense, 纯文本]
 license: "MIT"
 commercial: 可商用
-params: "33.1B"
+params: "32B"
 context: "32K"
 modalities: [text]
 deploys: [vllm]

@@ -8,7 +8,7 @@ summary: "Step 3 的 10B 视觉版本，小尺寸做图文理解与推理。"
 tags: [Dense, 可识别图像]
 license: "Apache-2.0"
 commercial: 可商用
-params: "10.2B"
+params: "10B"
 context: "64K"
 modalities: [text, image]
 deploys: [vllm, sglang]

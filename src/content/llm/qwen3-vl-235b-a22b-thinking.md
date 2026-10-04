@@ -8,7 +8,7 @@ summary: "Qwen3-VL 旗舰的思考版，长视频与复杂图表推理的开源�
 tags: [Dense, 可识别图像]
 license: "Apache-2.0"
 commercial: 可商用
-params: "236B"
+params: "235B"
 context: "256K"
 modalities: [text, image]
 deploys: [vllm, sglang]

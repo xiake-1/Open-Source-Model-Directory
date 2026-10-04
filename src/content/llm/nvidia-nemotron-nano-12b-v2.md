@@ -8,7 +8,7 @@ summary: "Nemotron Nano 的 12B 视觉版，混合 Mamba 架构加图像输入�
 tags: [Dense, 可识别图像]
 license: "NVIDIA Open Model License"
 commercial: 有条件可商用
-params: "12.3B"
+params: "12B"
 context: "128K"
 modalities: [text, image]
 deploys: [vllm, sglang]

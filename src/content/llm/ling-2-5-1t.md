@@ -8,7 +8,7 @@ summary: "百灵 2.5 代的万亿参数基座，激活 50B 级别，MIT 许可�
 tags: [MoE, 纯文本]
 license: "MIT"
 commercial: 可商用
-params: "1.0T"
+params: "1T"
 context: "128K"
 modalities: [text]
 deploys: [vllm, sglang]

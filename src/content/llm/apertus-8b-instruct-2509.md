@@ -8,7 +8,7 @@ summary: "Apertus 的 8B 指令版，端侧可跑的多语言开源模型。"
 tags: [Dense, 纯文本]
 license: "Apache-2.0"
 commercial: 可商用
-params: "8.1B"
+params: "8B"
 context: "64K"
 modalities: [text]
 deploys: [vllm, llama-cpp, ollama]

@@ -8,7 +8,7 @@ summary: "Granite 4.1 的 30B 版本，企业级长上下文与 agent 能力的�
 tags: [Dense, 纯文本]
 license: "Apache-2.0"
 commercial: 可商用
-params: "28.9B"
+params: "30B"
 context: "128K"
 modalities: [text]
 deploys: [vllm, sglang]

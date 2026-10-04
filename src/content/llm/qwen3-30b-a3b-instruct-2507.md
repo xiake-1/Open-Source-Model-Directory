@@ -8,7 +8,7 @@ summary: "30B-A3B 的 2507 指令版，上下文扩到 256K，本地部署的主
 tags: [MoE, 纯文本]
 license: "Apache-2.0"
 commercial: 可商用
-params: "30.5B"
+params: "30B"
 context: "256K"
 modalities: [text]
 deploys: [vllm, llama-cpp]

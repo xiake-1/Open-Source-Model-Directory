@@ -5,9 +5,9 @@ released: 2025-04-11
 added: 2026-10-03
 summary: 单文件 C++ 的 GGUF 推理器，自带 Web 界面与 OpenAI 兼容 API，采样参数控制极细，创意写作与角色扮演社区的主力。
 tags: [推理引擎, 单文件, Web 界面, GGUF, 角色扮演]
-license: MIT
+license: AGPL-3.0
 kind: 推理框架 / 服务引擎
-stars: 11691
+stars: 11935
 supports: [GGUF, 内置 Web UI, OpenAI 兼容 API, 细粒度采样参数, 跨平台单文件二进制]
 pain: 文档以社区 wiki 为主，参数多而杂；面向单人创作场景，不做高并发
 links:

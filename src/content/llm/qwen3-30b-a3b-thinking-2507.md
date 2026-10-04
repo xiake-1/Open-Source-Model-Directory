@@ -8,7 +8,7 @@ summary: "30B-A3B 的 2507 思考版，小激活量下保留完整推理链。"
 tags: [MoE, 纯文本]
 license: "Apache-2.0"
 commercial: 可商用
-params: "30.5B"
+params: "30B"
 context: "256K"
 modalities: [text]
 deploys: [vllm, llama-cpp]

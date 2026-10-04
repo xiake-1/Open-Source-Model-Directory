@@ -8,7 +8,7 @@ summary: "Nemotron 3 Nano 的 BF16 权重版，混合 Mamba-Transformer 的 30B 
 tags: [MoE, 纯文本]
 license: "NVIDIA Open Model License"
 commercial: 有条件可商用
-params: "31.6B"
+params: "30B"
 context: "1M"
 modalities: [text]
 deploys: [vllm, sglang]

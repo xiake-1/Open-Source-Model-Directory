@@ -8,7 +8,7 @@ summary: "7B 的推理模型，在同尺寸里推理成绩领先，Apache 系许
 tags: [Dense, 纯文本]
 license: "Falcon LLM License"
 commercial: 可商用
-params: "7.6B"
+params: "7B"
 context: "128K"
 vram: "单张 24G 卡可跑"
 modalities: [text]

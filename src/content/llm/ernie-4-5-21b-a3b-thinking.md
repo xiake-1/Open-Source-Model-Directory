@@ -8,7 +8,7 @@ summary: "ERNIE 4.5 的 21B 思考版，激活 3B 做推理链。"
 tags: [MoE, 纯文本]
 license: "Apache-2.0"
 commercial: 可商用
-params: "21.8B"
+params: "21B"
 context: "128K"
 modalities: [text]
 deploys: [vllm, sglang]

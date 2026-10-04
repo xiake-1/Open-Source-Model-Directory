@@ -2,7 +2,7 @@
  {
   "id": "utter-project/EuroLLM-9B-Instruct-2512",
   "createdAt": "2026-01-26T14:21:22.000Z",
-  "downloads": 27407,
+  "downloads": 26927,
   "likes": 16,
   "pipeline": "text-generation",
   "tags": [
@@ -14,7 +14,7 @@
  {
   "id": "utter-project/EuroMoE-2.6B-A0.6B-Instruct-2512",
   "createdAt": "2025-12-15T11:43:20.000Z",
-  "downloads": 1129,
+  "downloads": 1185,
   "likes": 14,
   "pipeline": "text-generation",
   "tags": [
@@ -26,7 +26,7 @@
  {
   "id": "utter-project/EuroLLM-22B-Instruct-2512",
   "createdAt": "2025-12-05T02:33:37.000Z",
-  "downloads": 382940,
+  "downloads": 355242,
   "likes": 85,
   "pipeline": "text-generation",
   "tags": [
@@ -38,7 +38,7 @@
  {
   "id": "utter-project/EuroLLM-22B-2512",
   "createdAt": "2025-11-24T20:57:02.000Z",
-  "downloads": 2033,
+  "downloads": 2037,
   "likes": 21,
   "pipeline": "text-generation",
   "tags": [
@@ -139,7 +139,7 @@
  {
   "id": "utter-project/TowerVideo-9B",
   "createdAt": "2025-10-14T09:50:46.000Z",
-  "downloads": 117,
+  "downloads": 107,
   "likes": 5,
   "pipeline": "video-text-to-text",
   "tags": [
@@ -150,7 +150,7 @@
  {
   "id": "utter-project/TowerVideo-2B",
   "createdAt": "2025-10-14T09:31:40.000Z",
-  "downloads": 121,
+  "downloads": 120,
   "likes": 3,
   "pipeline": "video-text-to-text",
   "tags": [
@@ -161,7 +161,7 @@
  {
   "id": "utter-project/TowerVision-9B",
   "createdAt": "2025-08-20T08:59:19.000Z",
-  "downloads": 128,
+  "downloads": 129,
   "likes": 4,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -173,7 +173,7 @@
  {
   "id": "utter-project/TowerVision-2B",
   "createdAt": "2025-08-11T16:10:00.000Z",
-  "downloads": 166,
+  "downloads": 171,
   "likes": 6,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -185,7 +185,7 @@
  {
   "id": "utter-project/EuroLLM-22B-Preview",
   "createdAt": "2025-06-09T20:10:27.000Z",
-  "downloads": 199,
+  "downloads": 209,
   "likes": 8,
   "pipeline": "",
   "tags": [],
@@ -194,7 +194,7 @@
  {
   "id": "utter-project/EuroMoE-2.6B-A0.6B-Instruct-Preview",
   "createdAt": "2025-06-09T20:08:42.000Z",
-  "downloads": 1861,
+  "downloads": 1870,
   "likes": 11,
   "pipeline": "text-generation",
   "tags": [
@@ -206,7 +206,7 @@
  {
   "id": "utter-project/EuroMoE-2.6B-A0.6B-2512",
   "createdAt": "2025-06-09T20:04:07.000Z",
-  "downloads": 266,
+  "downloads": 328,
   "likes": 14,
   "pipeline": "text-generation",
   "tags": [
@@ -217,7 +217,7 @@
  {
   "id": "utter-project/EuroLLM-22B-Instruct-Preview",
   "createdAt": "2025-06-09T19:10:39.000Z",
-  "downloads": 2154,
+  "downloads": 2153,
   "likes": 8,
   "pipeline": "text-generation",
   "tags": [
@@ -229,7 +229,7 @@
  {
   "id": "utter-project/EuroVLM-1.7B-Preview",
   "createdAt": "2025-06-09T12:08:44.000Z",
-  "downloads": 202,
+  "downloads": 203,
   "likes": 7,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -241,7 +241,7 @@
  {
   "id": "utter-project/EuroVLM-9B-Preview",
   "createdAt": "2025-06-09T10:57:09.000Z",
-  "downloads": 448,
+  "downloads": 460,
   "likes": 6,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -253,7 +253,7 @@
  {
   "id": "utter-project/EuroLLM-9B-2512",
   "createdAt": "2025-06-07T15:35:44.000Z",
-  "downloads": 1093,
+  "downloads": 1040,
   "likes": 4,
   "pipeline": "text-generation",
   "tags": [
@@ -273,7 +273,7 @@
  {
   "id": "utter-project/TowerFull",
   "createdAt": "2025-03-11T16:14:09.000Z",
-  "downloads": 89,
+  "downloads": 88,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -282,7 +282,7 @@
  {
   "id": "utter-project/SpireNoPseudo",
   "createdAt": "2025-03-11T16:03:59.000Z",
-  "downloads": 87,
+  "downloads": 85,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -291,7 +291,7 @@
  {
   "id": "utter-project/SpireNoBlocks",
   "createdAt": "2025-03-11T15:51:51.000Z",
-  "downloads": 93,
+  "downloads": 91,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -300,7 +300,7 @@
  {
   "id": "utter-project/SpireBase",
   "createdAt": "2025-03-11T15:42:09.000Z",
-  "downloads": 93,
+  "downloads": 90,
   "likes": 4,
   "pipeline": "",
   "tags": [],

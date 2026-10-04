@@ -10,7 +10,7 @@ license: "Apache-2.0"
 commercial: 可商用
 output: video
 architecture: "DiT（图生视频）"
-params: "16.4B"
+params: "14B"
 links:
   hf: "https://huggingface.co/Wan-AI/Wan2.1-I2V-14B-720P"
   github: "https://github.com/Wan-Video/Wan2.1"

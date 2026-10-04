@@ -8,7 +8,7 @@ summary: "Ling-1T 的推理版本，万亿 MoE 上做长思维链强化学习，
 tags: [MoE, 纯文本]
 license: "MIT"
 commercial: 可商用
-params: "1.0T (激活 50B)"
+params: "1T (激活 50B)"
 context: "64K"
 modalities: [text]
 deploys: [vllm, sglang]

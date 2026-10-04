@@ -8,7 +8,7 @@ summary: "Apple 的快速视觉语言模型，7B 以低延迟做端侧图像理�
 tags: [Dense, 可识别图像]
 license: "Apple AMLR Model License"
 commercial: 有条件可商用
-params: "7.8B"
+params: "7B"
 context: "32K"
 modalities: [text, image]
 deploys: [vllm]

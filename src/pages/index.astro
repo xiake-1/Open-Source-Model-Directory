@@ -14,7 +14,7 @@ import { highPopularityRange, isHighPopularity } from '../lib/taxonomy';
  *
  * 最上面还有一块 **近期热门**，两组内容：
  *   1. **热度「高」的模型** —— LLM 与 AIGC 混排，只收**近两个月**内发布、且热度标签为「高」的条目
- *      （门槛按各自集合算：LLM ≥100万 / AIGC ≥50万，见 `lib/taxonomy.ts`）。
+ *      （门槛按各自集合算：LLM ≥100万 / AIGC ≥5万，见 `lib/taxonomy.ts` 的两套 `*_POPULARITY_BUCKETS`）。
  *   2. **近 30 天的社区项目** —— 社区项目没有 HF 下载量，进不了上面那条榜，按发布窗口单列。
  * 两组窗口不同：模型是近两个月，社区项目是近 30 天（各自的 `HOT_WINDOW_DAYS` / `HOME_WINDOW_DAYS`）。
  * 这一块**不是入口** —— 热门没有独立列表页，所以标题是纯文字、不带箭头；

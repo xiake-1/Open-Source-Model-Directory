@@ -8,7 +8,7 @@ summary: "蚂蚁首个万亿参数开源基座，激活 50B，MIT 许可把万�
 tags: [MoE, 纯文本]
 license: "MIT"
 commercial: 可商用
-params: "1.0T (激活 50B)"
+params: "1T (激活 50B)"
 context: "32K"
 modalities: [text]
 deploys: [vllm, sglang]

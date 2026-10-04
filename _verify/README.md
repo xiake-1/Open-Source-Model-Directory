@@ -33,6 +33,7 @@
 | `aigc-generate.mjs` | **读 `aigc-plans.mjs` 生成 `src/content/aigc/*.md`**：自校验枚举 / 简介字数 / 链接 / slug，并对齐 HF 元数据 |
 | `aigc-enrich.json` / `hf-aigc/*.json` | AIGC 流水线的缓存 |
 | `gh-fetch.mjs` | **社区项目栏的候选搜索**：按关键词在 GitHub 搜 2025-01 之后创建的仓库（star 排序），全量落盘 `_verify/gh-search.json`；只找线索，条目人工写 |
+| `gh-status.mjs` | **已收录条目的 GitHub 巡检**（`gh-fetch.mjs` 的对照面）：按每条 `links.github` 拉一次 `/repos/{owner}/{repo}`，挑出归档 / 停更 / 改名 / star 变了 / 许可不一致 / 404 → `_verify/gh-status.json`，只打印需要人工看的那些。默认**直连**（`--proxy` 走系统代理、`--releases` 追加最新 release、`--stale <天>` 改停更阈值）；未认证 60 次/小时，按出口 IP 算 |
 
 两个环境坑（和 `scripts/check-links.mjs` 一样）：Node 的 `fetch` 不读 Windows 系统代理，
 所以每个联网脚本都会自己把系统代理读出来并挂上 undici 的 `ProxyAgent`；

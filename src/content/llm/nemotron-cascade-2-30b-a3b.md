@@ -8,7 +8,7 @@ summary: "级联式推理的 30B 实验模型，把简单问题交给小模型�
 tags: [MoE, 纯文本]
 license: "NVIDIA Open Model License"
 commercial: 有条件可商用
-params: "31.6B"
+params: "30B"
 context: "128K"
 modalities: [text]
 deploys: [vllm]

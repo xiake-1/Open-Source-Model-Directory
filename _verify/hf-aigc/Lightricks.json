@@ -2,8 +2,8 @@
  {
   "id": "Lightricks/LTX-2.5-22b-IC-LoRA-Alpha-Gen",
   "createdAt": "2026-09-28T20:01:47.000Z",
-  "downloads": 2,
-  "likes": 12,
+  "downloads": 810,
+  "likes": 45,
   "pipeline": "video-to-video",
   "library": "ltx",
   "gated": "auto",
@@ -22,8 +22,8 @@
  {
   "id": "Lightricks/LTX-2.5-22b-IC-LoRA-SDR-To-HDR",
   "createdAt": "2026-09-28T02:55:34.000Z",
-  "downloads": 457,
-  "likes": 12,
+  "downloads": 943,
+  "likes": 14,
   "pipeline": "video-to-video",
   "library": "ltx",
   "gated": "auto",
@@ -40,8 +40,8 @@
  {
   "id": "Lightricks/LTX-2.5-22b-IC-LoRA-Restore",
   "createdAt": "2026-09-27T15:01:47.000Z",
-  "downloads": 802,
-  "likes": 19,
+  "downloads": 981,
+  "likes": 44,
   "pipeline": "video-to-video",
   "library": "ltx",
   "gated": "auto",
@@ -62,8 +62,8 @@
  {
   "id": "Lightricks/LTX-2.5-22b-IC-LoRA-Refine-Details",
   "createdAt": "2026-09-27T14:45:01.000Z",
-  "downloads": 3217,
-  "likes": 29,
+  "downloads": 3683,
+  "likes": 34,
   "pipeline": "video-to-video",
   "library": "ltx",
   "gated": "auto",
@@ -81,8 +81,8 @@
  {
   "id": "Lightricks/LTX-2.5-22b-IC-LoRA-Layout-To-Render",
   "createdAt": "2026-09-22T09:48:27.000Z",
-  "downloads": 188,
-  "likes": 16,
+  "downloads": 544,
+  "likes": 24,
   "pipeline": "video-to-video",
   "library": "ltx",
   "gated": "auto",
@@ -100,7 +100,7 @@
  {
   "id": "Lightricks/LTX-2.5-22b-LoRA-Slow-Motion-Control",
   "createdAt": "2026-09-15T12:39:39.000Z",
-  "downloads": 760,
+  "downloads": 830,
   "likes": 12,
   "pipeline": "image-to-video",
   "library": "ltx",
@@ -119,7 +119,7 @@
  {
   "id": "Lightricks/LTX-2.5-22b-IC-LoRA-Ingredients",
   "createdAt": "2026-09-10T16:55:56.000Z",
-  "downloads": 5038,
+  "downloads": 5272,
   "likes": 50,
   "pipeline": "video-to-video",
   "library": "diffusion-single-file",
@@ -139,7 +139,7 @@
  {
   "id": "Lightricks/LTX-2.5-22b-LoRA-Cinemagraph",
   "createdAt": "2026-09-10T10:32:38.000Z",
-  "downloads": 1046,
+  "downloads": 1114,
   "likes": 15,
   "pipeline": "image-to-video",
   "library": "diffusion-single-file",
@@ -160,7 +160,7 @@
  {
   "id": "Lightricks/LTX-2.5-22b-IC-LoRA-Colorization",
   "createdAt": "2026-09-10T08:57:31.000Z",
-  "downloads": 734,
+  "downloads": 777,
   "likes": 11,
   "pipeline": "video-to-video",
   "library": "diffusion-single-file",
@@ -179,7 +179,7 @@
  {
   "id": "Lightricks/LTX-2.5-22b-IC-LoRA-Decompression",
   "createdAt": "2026-09-10T08:31:38.000Z",
-  "downloads": 831,
+  "downloads": 885,
   "likes": 11,
   "pipeline": "video-to-video",
   "library": "diffusion-single-file",
@@ -199,8 +199,8 @@
  {
   "id": "Lightricks/LTX-2.5-22b-IC-LoRA-Deblur",
   "createdAt": "2026-09-09T15:06:54.000Z",
-  "downloads": 1059,
-  "likes": 11,
+  "downloads": 1128,
+  "likes": 13,
   "pipeline": "video-to-video",
   "library": "diffusion-single-file",
   "gated": "auto",
@@ -218,7 +218,7 @@
  {
   "id": "Lightricks/LTX-2.5-22b-IC-LoRA-Clean-Plate",
   "createdAt": "2026-09-09T13:48:24.000Z",
-  "downloads": 1054,
+  "downloads": 1134,
   "likes": 20,
   "pipeline": "video-to-video",
   "library": "diffusion-single-file",
@@ -239,8 +239,8 @@
  {
   "id": "Lightricks/LTX-2.5-22b-IC-LoRA-Water-Simulation",
   "createdAt": "2026-09-09T08:30:22.000Z",
-  "downloads": 930,
-  "likes": 19,
+  "downloads": 992,
+  "likes": 20,
   "pipeline": "video-to-video",
   "library": "diffusion-single-file",
   "gated": "auto",
@@ -259,8 +259,8 @@
  {
   "id": "Lightricks/LTX-2.5-22b-IC-LoRA-Day-To-Night",
   "createdAt": "2026-09-08T08:39:46.000Z",
-  "downloads": 940,
-  "likes": 18,
+  "downloads": 1045,
+  "likes": 19,
   "pipeline": "video-to-video",
   "library": "diffusion-single-file",
   "gated": "auto",
@@ -279,8 +279,8 @@
  {
   "id": "Lightricks/LTX-2.5-22b-IC-LoRA-Pixel-Spatial-Upscaler",
   "createdAt": "2026-08-11T15:03:29.000Z",
-  "downloads": 6728,
-  "likes": 109,
+  "downloads": 6936,
+  "likes": 112,
   "pipeline": "video-to-video",
   "library": "diffusion-single-file",
   "gated": "auto",
@@ -300,7 +300,7 @@
  {
   "id": "Lightricks/LTX-2.5-Pre-Trained",
   "createdAt": "2026-08-10T11:03:11.000Z",
-  "downloads": 334,
+  "downloads": 344,
   "likes": 36,
   "pipeline": "image-to-video",
   "library": "diffusion-single-file",
@@ -323,7 +323,7 @@
  {
   "id": "Lightricks/LTX-2.3-22b-IC-LoRA-Relight",
   "createdAt": "2026-07-27T13:57:44.000Z",
-  "downloads": 457,
+  "downloads": 470,
   "likes": 35,
   "pipeline": "video-to-video",
   "library": "diffusion-single-file",
@@ -343,8 +343,8 @@
  {
   "id": "Lightricks/LTX-2.5-Diffusers",
   "createdAt": "2026-07-26T06:42:34.000Z",
-  "downloads": 62013,
-  "likes": 82,
+  "downloads": 56226,
+  "likes": 84,
   "pipeline": "text-to-video",
   "library": "diffusers",
   "gated": "auto",
@@ -366,8 +366,8 @@
  {
   "id": "Lightricks/LTX-2.5",
   "createdAt": "2026-07-23T07:55:24.000Z",
-  "downloads": 1584129,
-  "likes": 5956,
+  "downloads": 1626951,
+  "likes": 6183,
   "pipeline": "image-to-video",
   "library": "diffusion-single-file",
   "gated": "auto",
@@ -389,7 +389,7 @@
  {
   "id": "Lightricks/LTX-2.3-22b-IC-LoRA-Clean-Plate",
   "createdAt": "2026-07-19T12:55:10.000Z",
-  "downloads": 571,
+  "downloads": 552,
   "likes": 109,
   "pipeline": "video-to-video",
   "library": "diffusion-single-file",
@@ -410,8 +410,8 @@
  {
   "id": "Lightricks/LTX-2.3-22b-LoRA-Foley-V2A",
   "createdAt": "2026-07-15T14:38:12.000Z",
-  "downloads": 405,
-  "likes": 33,
+  "downloads": 426,
+  "likes": 34,
   "pipeline": "text-to-audio",
   "library": "diffusion-single-file",
   "gated": "auto",
@@ -430,8 +430,8 @@
  {
   "id": "Lightricks/LTX-2.3-22b-LoRA-Cinemagraph",
   "createdAt": "2026-07-05T10:18:04.000Z",
-  "downloads": 585,
-  "likes": 51,
+  "downloads": 584,
+  "likes": 50,
   "pipeline": "image-to-video",
   "library": "diffusion-single-file",
   "gated": "auto",
@@ -451,7 +451,7 @@
  {
   "id": "Lightricks/LTX-2.3-22b-IC-LoRA-Pixel-Spatial-Upscaler",
   "createdAt": "2026-06-23T08:42:28.000Z",
-  "downloads": 992,
+  "downloads": 982,
   "likes": 49,
   "pipeline": "video-to-video",
   "library": "ltx",
@@ -471,8 +471,8 @@
  {
   "id": "Lightricks/LTX-2.3-22b-IC-LoRA-In-Outpainting",
   "createdAt": "2026-06-17T13:15:07.000Z",
-  "downloads": 2922,
-  "likes": 45,
+  "downloads": 3423,
+  "likes": 46,
   "pipeline": "video-to-video",
   "library": "diffusion-single-file",
   "gated": "auto",
@@ -491,7 +491,7 @@
  {
   "id": "Lightricks/LTX-2.3-22b-IC-LoRA-Water-Simulation",
   "createdAt": "2026-06-17T11:56:23.000Z",
-  "downloads": 364,
+  "downloads": 372,
   "likes": 35,
   "pipeline": "video-to-video",
   "library": "diffusion-single-file",
@@ -511,7 +511,7 @@
  {
   "id": "Lightricks/LTX-2.3-22b-IC-LoRA-Instant-Shave",
   "createdAt": "2026-06-17T11:30:33.000Z",
-  "downloads": 373,
+  "downloads": 376,
   "likes": 10,
   "pipeline": "video-to-video",
   "library": "diffusion-single-file",
@@ -530,8 +530,8 @@
  {
   "id": "Lightricks/LTX-2.3-22b-IC-LoRA-Ingredients",
   "createdAt": "2026-06-17T11:28:29.000Z",
-  "downloads": 4576,
-  "likes": 208,
+  "downloads": 4254,
+  "likes": 210,
   "pipeline": "video-to-video",
   "library": "diffusion-single-file",
   "gated": "auto",
@@ -550,7 +550,7 @@
  {
   "id": "Lightricks/LTX-2.3-22b-IC-LoRA-Decompression",
   "createdAt": "2026-06-17T11:22:08.000Z",
-  "downloads": 1545,
+  "downloads": 1476,
   "likes": 27,
   "pipeline": "video-to-video",
   "library": "diffusion-single-file",
@@ -570,8 +570,8 @@
  {
   "id": "Lightricks/LTX-2.3-22b-IC-LoRA-Deblur",
   "createdAt": "2026-06-17T11:19:45.000Z",
-  "downloads": 1225,
-  "likes": 32,
+  "downloads": 1667,
+  "likes": 33,
   "pipeline": "video-to-video",
   "library": "diffusion-single-file",
   "gated": "auto",
@@ -589,7 +589,7 @@
  {
   "id": "Lightricks/LTX-2.3-22b-IC-LoRA-Cross-Eyed",
   "createdAt": "2026-06-17T11:14:47.000Z",
-  "downloads": 321,
+  "downloads": 328,
   "likes": 16,
   "pipeline": "text-to-video",
   "library": "diffusion-single-file",
@@ -609,7 +609,7 @@
  {
   "id": "Lightricks/LTX-2.3-22b-IC-LoRA-Colorization",
   "createdAt": "2026-06-17T10:57:40.000Z",
-  "downloads": 429,
+  "downloads": 393,
   "likes": 22,
   "pipeline": "video-to-video",
   "library": "diffusion-single-file",
@@ -628,7 +628,7 @@
  {
   "id": "Lightricks/LTX-2.3-22b-IC-LoRA-Day-To-Night",
   "createdAt": "2026-06-17T10:42:54.000Z",
-  "downloads": 413,
+  "downloads": 418,
   "likes": 27,
   "pipeline": "video-to-video",
   "library": "diffusion-single-file",
@@ -648,8 +648,8 @@
  {
   "id": "Lightricks/LTX-2.3-22b-IC-LoRA-DubIt",
   "createdAt": "2026-05-11T10:02:08.000Z",
-  "downloads": 2370,
-  "likes": 141,
+  "downloads": 2376,
+  "likes": 142,
   "pipeline": "any-to-any",
   "library": "diffusers",
   "gated": "auto",
@@ -667,7 +667,7 @@
  {
   "id": "Lightricks/LTX-2.3-22b-IC-LoRA-HDR",
   "createdAt": "2026-04-20T09:46:13.000Z",
-  "downloads": 1136,
+  "downloads": 1145,
   "likes": 127,
   "pipeline": "video-to-video",
   "library": "diffusers",
@@ -686,7 +686,7 @@
  {
   "id": "Lightricks/LTX-2.3-nvfp4",
   "createdAt": "2026-03-16T14:42:27.000Z",
-  "downloads": 14012,
+  "downloads": 16473,
   "likes": 98,
   "pipeline": "image-to-video",
   "library": "diffusers",
@@ -709,7 +709,7 @@
  {
   "id": "Lightricks/LTX-2.3-fp8",
   "createdAt": "2026-03-05T22:49:14.000Z",
-  "downloads": 564585,
+  "downloads": 576966,
   "likes": 141,
   "pipeline": "image-to-video",
   "library": "diffusers",
@@ -748,7 +748,7 @@
   "id": "Lightricks/LTX-2.3-22b-IC-LoRA-Union-Control",
   "createdAt": "2026-03-05T13:52:23.000Z",
   "downloads": 0,
-  "likes": 109,
+  "likes": 110,
   "pipeline": "any-to-any",
   "library": "",
   "gated": false,
@@ -763,8 +763,8 @@
  {
   "id": "Lightricks/LTX-2.3",
   "createdAt": "2026-03-04T22:28:28.000Z",
-  "downloads": 1062232,
-  "likes": 1925,
+  "downloads": 1047520,
+  "likes": 1929,
   "pipeline": "image-to-video",
   "library": "diffusers",
   "gated": false,
@@ -786,7 +786,7 @@
  {
   "id": "Lightricks/gemma-3-12b-it-qat-q4_0-unquantized",
   "createdAt": "2026-03-04T20:18:58.000Z",
-  "downloads": 20811,
+  "downloads": 20684,
   "likes": 9,
   "pipeline": "image-text-to-text",
   "library": "transformers",
@@ -987,7 +987,7 @@
   "id": "Lightricks/LTX-2-19b-IC-LoRA-Canny-Control",
   "createdAt": "2026-01-04T21:30:42.000Z",
   "downloads": 0,
-  "likes": 26,
+  "likes": 27,
   "pipeline": "any-to-any",
   "library": "",
   "gated": false,
@@ -1002,8 +1002,8 @@
  {
   "id": "Lightricks/LTX-2",
   "createdAt": "2026-01-03T10:23:39.000Z",
-  "downloads": 267470,
-  "likes": 1787,
+  "downloads": 267144,
+  "likes": 1788,
   "pipeline": "image-to-video",
   "library": "diffusers",
   "gated": false,
@@ -1025,7 +1025,7 @@
  {
   "id": "Lightricks/LTX-Video-0.9.8-13B-distilled",
   "createdAt": "2025-07-17T12:00:38.000Z",
-  "downloads": 2386,
+  "downloads": 2413,
   "likes": 36,
   "pipeline": "image-to-video",
   "library": "diffusers",
@@ -1041,7 +1041,7 @@
  {
   "id": "Lightricks/LTX-Video-ICLoRA-detailer-13b-0.9.8",
   "createdAt": "2025-07-16T13:41:33.000Z",
-  "downloads": 21591,
+  "downloads": 20957,
   "likes": 35,
   "pipeline": "text-to-video",
   "library": "diffusers",
@@ -1057,7 +1057,7 @@
  {
   "id": "Lightricks/LTX-Video-ICLoRA-canny-13b-0.9.7",
   "createdAt": "2025-07-01T10:39:29.000Z",
-  "downloads": 680,
+  "downloads": 720,
   "likes": 14,
   "pipeline": "text-to-video",
   "library": "diffusers",
@@ -1073,7 +1073,7 @@
  {
   "id": "Lightricks/LTX-Video-ICLoRA-pose-13b-0.9.7",
   "createdAt": "2025-07-01T10:37:35.000Z",
-  "downloads": 972,
+  "downloads": 1004,
   "likes": 24,
   "pipeline": "text-to-video",
   "library": "diffusers",
@@ -1089,7 +1089,7 @@
  {
   "id": "Lightricks/LTX-Video-ICLoRA-depth-13b-0.9.7",
   "createdAt": "2025-07-01T10:37:03.000Z",
-  "downloads": 673,
+  "downloads": 689,
   "likes": 15,
   "pipeline": "text-to-video",
   "library": "diffusers",
@@ -1105,7 +1105,7 @@
  {
   "id": "Lightricks/ltxv-spatial-upscaler-0.9.7",
   "createdAt": "2025-05-14T18:09:52.000Z",
-  "downloads": 346,
+  "downloads": 349,
   "likes": 19,
   "pipeline": "video-to-video",
   "library": "diffusers",
@@ -1122,7 +1122,7 @@
  {
   "id": "Lightricks/LTX-Video-0.9.7-distilled",
   "createdAt": "2025-05-14T16:55:19.000Z",
-  "downloads": 1611,
+  "downloads": 1643,
   "likes": 63,
   "pipeline": "text-to-video",
   "library": "diffusers",
@@ -1139,7 +1139,7 @@
  {
   "id": "Lightricks/LTX-Video-0.9.7-dev",
   "createdAt": "2025-05-13T12:02:56.000Z",
-  "downloads": 4834,
+  "downloads": 4737,
   "likes": 25,
   "pipeline": "text-to-video",
   "library": "diffusers",
@@ -1206,7 +1206,7 @@
  {
   "id": "Lightricks/LTX-Video-0.9.1",
   "createdAt": "2025-03-16T11:15:30.000Z",
-  "downloads": 308,
+  "downloads": 326,
   "likes": 11,
   "pipeline": "text-to-video",
   "library": "diffusers",
@@ -1223,8 +1223,8 @@
  {
   "id": "Lightricks/LTX-Video-0.9.5",
   "createdAt": "2025-03-16T11:14:42.000Z",
-  "downloads": 6212,
-  "likes": 35,
+  "downloads": 6555,
+  "likes": 36,
   "pipeline": "text-to-video",
   "library": "diffusers",
   "gated": false,

@@ -35,7 +35,8 @@ const meta = [entry.org, entry.family && entry.family !== entry.org ? entry.fami
 // 卡片上的小胶囊：结构 / 类型标签 + 上下文长度 + 参数量 + 是否可商用
 // （所属已经在标题旁的组织行里，不重复放）
 // 上下文与参数量胶囊都放**原文**（例如 `1M`、`235B (激活 22B)`），替代原来的分档文案：
-// 只作展示，点不了、也不进 data-tags；分档筛选仍留在侧栏「筛选」下拉里
+// 只作展示，点不了、也不进 data-tags；分档筛选仍留在侧栏「筛选」下拉里。
+// 带 href 的那几个胶囊是**筛选开关**：点一下把该标签加进 / 移出当前选择（多选，由 TagFilter 的脚本接管）
 type Pill = { text: string; href?: string };
 const pillHref = (tag: string) => `${tagBase}#tag=${encodeURIComponent(tag)}`;
 const pills: Pill[] =

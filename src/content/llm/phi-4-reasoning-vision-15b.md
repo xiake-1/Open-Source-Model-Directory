@@ -8,7 +8,7 @@ summary: "Phi-4 的视觉推理版本，看图做题与图表理解在 15B 尺�
 tags: [Dense, 可识别图像]
 license: "MIT"
 commercial: 可商用
-params: "15.1B"
+params: "15B"
 context: "32K"
 modalities: [text, image]
 deploys: [vllm]

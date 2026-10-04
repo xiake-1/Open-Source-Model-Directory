@@ -8,7 +8,7 @@ summary: "同 30B-A3B 的思考版，把视觉推理链接进低激活的 MoE。
 tags: [Dense, 可识别图像]
 license: "Apache-2.0"
 commercial: 可商用
-params: "31.1B"
+params: "30B"
 context: "256K"
 modalities: [text, image]
 deploys: [vllm, sglang]

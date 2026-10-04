@@ -8,7 +8,7 @@ summary: "Qwen3.6 代的 27B 稠密模型，编码与 agent 表现比上一代�
 tags: [Dense, 可识别图像]
 license: "Apache-2.0"
 commercial: 可商用
-params: "27.8B"
+params: "27B"
 context: "256K"
 modalities: [text, image]
 deploys: [vllm, llama-cpp, ollama]

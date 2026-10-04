@@ -8,7 +8,7 @@ summary: "面壁的端侧主力模型，8B 稠密配上稀疏注意力加速，�
 tags: [Dense, 纯文本]
 license: "Apache-2.0"
 commercial: 可商用
-params: "8.2B"
+params: "8B"
 context: "32K"
 vram: "BF16 单张 24G 可跑"
 modalities: [text]

@@ -8,7 +8,7 @@ summary: "LatentMoE 架构的 120B 激活 12B，原生 NVFP4 预训练，单台 
 tags: [MoE, 纯文本]
 license: "NVIDIA Open Model License"
 commercial: 可商用
-params: "124B (激活 12B)"
+params: "120B (激活 12B)"
 context: "1M"
 modalities: [text]
 deploys: [vllm, sglang]

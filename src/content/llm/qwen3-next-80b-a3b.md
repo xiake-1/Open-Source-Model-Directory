@@ -8,7 +8,7 @@ summary: "用混合线性注意力换效率的下一代架构，80B 只激活 3B
 tags: [MoE, 纯文本]
 license: "Apache-2.0"
 commercial: 可商用
-params: "81.3B (激活 3B)"
+params: "80B (激活 3B)"
 context: "256K"
 modalities: [text]
 deploys: [vllm, sglang]

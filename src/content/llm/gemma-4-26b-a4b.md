@@ -8,7 +8,7 @@ summary: "Gemma 4 的 26B 激活 4B MoE 基座，为二次训练与蒸馏准备�
 tags: [Dense, 可识别图像]
 license: "Apache-2.0"
 commercial: 可商用
-params: "26.5B"
+params: "26B"
 context: "256K"
 modalities: [text, image]
 deploys: [vllm, sglang]

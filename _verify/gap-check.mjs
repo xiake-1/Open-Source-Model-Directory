@@ -1,14 +1,24 @@
 /**
- * 缺口盘点：把 HF 候选池（2025-01 起、机构自有仓库）与已收录的 plans / 条目对比，
+ * 缺口盘点：把 HF 候选池（默认**近 30 天新建**、机构自有仓库）与已收录的 plans / 条目对比，
  * 列出「机构自研、够得着收录标准，但站里没有」的模型，按机构分组打印。
  *
- * 用法：node _verify/gap-check.mjs [org1,org2] [minLikes]
+ * 用法：node _verify/gap-check.mjs [org1,org2] [minLikes] [--days=30] [--all]
+ *   node _verify/gap-check.mjs                    # 近 30 天（更新流程的口径）
+ *   node _verify/gap-check.mjs Qwen 40 --days=7   # 只 Qwen、近 7 天
+ *   node _verify/gap-check.mjs --all              # 历史全量（2025-01 起）
  */
 import fs from 'node:fs';
 import { readFileSync, readdirSync } from 'node:fs';
 
-const orgsArg = (process.argv[2] ?? '').split(',').map((s) => s.trim()).filter(Boolean);
-const MIN_LIKES = Number(process.argv[3] ?? 40);
+const argv = process.argv.slice(2);
+const argOf = (name) => argv.find((a) => a.startsWith(`--${name}=`))?.split('=')[1];
+const ALL = argv.includes('--all');
+const DAYS = Number(argOf('days') ?? 30);
+/** `createdAt` 的下界：默认近 30 天，`--all` 才回到 2025-01-01 */
+const SINCE = ALL ? '2025-01-01' : new Date(Date.now() - DAYS * 86_400_000).toISOString().slice(0, 10);
+const positional = argv.filter((a) => !a.startsWith('--'));
+const orgsArg = (positional[0] ?? '').split(',').map((s) => s.trim()).filter(Boolean);
+const MIN_LIKES = Number(positional[1] ?? 40);
 
 /** 已收录：plans.mjs + src/content/llm/*.md 里的 hf 链接 */
 const covered = new Set();
@@ -39,7 +49,7 @@ for (const file of files) {
   for (const r of rows) {
     if (!r.id || seenIds.has(r.id)) continue;
     seenIds.add(r.id);
-    if ((r.createdAt ?? '') < '2025-01-01') continue;
+    if ((r.createdAt ?? '') < SINCE) continue;
     if ((r.likes ?? 0) < MIN_LIKES) continue;
     if (SKIP.test(r.id)) continue;
     if (r.pipeline && !PIPELINE.test(r.pipeline)) continue;
@@ -58,7 +68,7 @@ for (const m of missing) {
   if (!byAuthor.has(m.author)) byAuthor.set(m.author, []);
   byAuthor.get(m.author).push(m);
 }
-console.log(`候选门槛：2025-01 起、likes ≥ ${MIN_LIKES}、LLM 类 pipeline、非量化/衍生\n`);
+console.log(`候选窗口：createdAt ≥ ${SINCE}${ALL ? '（--all 历史全量）' : `（近 ${DAYS} 天新建）`}、likes ≥ ${MIN_LIKES}、LLM 类 pipeline、非量化/衍生\n`);
 let total = 0;
 for (const [author, list] of [...byAuthor.entries()].sort((a, b) => b[1].length - a[1].length)) {
   total += list.length;

@@ -8,7 +8,7 @@ summary: "OLMo 3.1 的 32B 思考版，完全开源路线上的旗舰推理尺�
 tags: [Dense, 纯文本]
 license: "Apache-2.0"
 commercial: 可商用
-params: "32.2B"
+params: "32B"
 context: "64K"
 modalities: [text]
 deploys: [vllm, sglang]

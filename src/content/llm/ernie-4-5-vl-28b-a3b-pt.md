@@ -8,7 +8,7 @@ summary: "ERNIE 4.5 的中量级视觉模型，28B 激活 3B 做多模态理解�
 tags: [MoE, 可识别图像]
 license: "Apache-2.0"
 commercial: 可商用
-params: "29.4B"
+params: "28B"
 context: "128K"
 modalities: [text, image]
 deploys: [vllm, sglang]

@@ -8,7 +8,7 @@ summary: "550B 的混合 Mamba-MoE 旗舰，NVFP4 训练加 1M 上下文，是 2
 tags: ["MoE", "纯文本"]
 license: "OpenMDW-1.1"
 commercial: 可商用
-params: "561B (激活 55B)"
+params: "550B (激活 55B)"
 context: "1M"
 modalities: [text]
 deploys: [vllm, sglang]

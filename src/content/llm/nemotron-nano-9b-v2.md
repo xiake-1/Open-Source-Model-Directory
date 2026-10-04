@@ -8,7 +8,7 @@ summary: "Mamba-Transformer 混合的 9B 模型，长上下文推理吞吐高，
 tags: [Dense, 纯文本]
 license: "NVIDIA Open Model License"
 commercial: 可商用
-params: "8.9B"
+params: "9B"
 context: "128K"
 vram: "单张 24G 卡可跑"
 modalities: [text]

@@ -44,8 +44,12 @@ export const COMMERCIAL_GROUP_LABEL = '商用';
 /** 「热度」：按 HuggingFace 下载量分档，不来自内容字段，来自 `src/data/hf-downloads.json` 快照 */
 export const POPULARITY_GROUP_LABEL = '热度';
 
-/** 有热度这一说的只有两个集合：社区项目与部署方式没有 HF 下载量，不参与热度分档 */
-export type PopularityCollection = 'llm' | 'aigc';
+/**
+ * 有"派生筛选面"的只有两个集合：社区项目与部署方式既不参与热度分档，
+ * 也不能拿 `params` 当参数量（那两页的 `params` 是「项目形态 / 方案类型」）。
+ * 热度与参数量两套分档都按这个集合取。
+ */
+export type ModelCollection = 'llm' | 'aigc';
 
 export interface PopularityBucket {
   /** 档位名：低 / 中 / 高 */
@@ -72,24 +76,25 @@ export const LLM_POPULARITY_BUCKETS: PopularityBucket[] = [
 ];
 
 /**
- * AIGC 的热度分档：低 <10万 / 中 10万-50万 / 高 ≥50万。
- * 生图 / 生视频的下载量整体比 LLM 低一档（权重文件大、跑起来门槛高），
- * 所以「高」的门槛只到 50 万 —— 拿 LLM 那把尺子量，整个 AIGC 几乎没有「高」。
+ * AIGC 的热度分档：低 <1万 / 中 1万-5万 / 高 ≥5万。
+ * 生图 / 生视频的下载量整体比 LLM 低一到两个量级（权重文件大、跑起来门槛高）：
+ * 拿 LLM 那把「10 万 / 100 万」的尺子量，整个 AIGC 几乎没有「高」；
+ * 首页「近期热门」要的正是"AIGC 里跑出来热的那几条"，所以门槛压到 5 万。
  */
 export const AIGC_POPULARITY_BUCKETS: PopularityBucket[] = [
-  { level: '低', min: 0, range: '<10万' },
-  { level: '中', min: 100_000, range: '10万-50万' },
-  { level: '高', min: 500_000, range: '≥50万' },
+  { level: '低', min: 0, range: '<1万' },
+  { level: '中', min: 10_000, range: '1万-5万' },
+  { level: '高', min: 50_000, range: '≥5万' },
 ];
 
 /** 哪个集合用哪套分档 —— 分档函数都从这里取，别再各写一份阈值 */
-export const POPULARITY_BUCKETS: Record<PopularityCollection, PopularityBucket[]> = {
+export const POPULARITY_BUCKETS: Record<ModelCollection, PopularityBucket[]> = {
   llm: LLM_POPULARITY_BUCKETS,
   aigc: AIGC_POPULARITY_BUCKETS,
 };
 
 /** 下载量落到这个集合的哪一档；没有下载量数据（仓库没取到）时返回 undefined —— 不参与热度筛选 */
-export function popularityTagOf(downloads: number | undefined, collection: PopularityCollection): string | undefined {
+export function popularityTagOf(downloads: number | undefined, collection: ModelCollection): string | undefined {
   if (typeof downloads !== 'number' || !Number.isFinite(downloads) || downloads < 0) return undefined;
   const buckets = POPULARITY_BUCKETS[collection];
   for (let i = buckets.length - 1; i >= 0; i--) {
@@ -98,31 +103,62 @@ export function popularityTagOf(downloads: number | undefined, collection: Popul
   return undefined;
 }
 
-/** 这个集合「高」那一档的区间文案（`≥100万` / `≥50万`），首页热门榜的口径行用它 */
-export function highPopularityRange(collection: PopularityCollection): string {
+/** 这个集合「高」那一档的区间文案（`≥100万` / `≥5万`），首页热门榜的口径行用它 */
+export function highPopularityRange(collection: ModelCollection): string {
   const buckets = POPULARITY_BUCKETS[collection];
   return buckets[buckets.length - 1].range;
 }
 
 /**
- * 这条模型算不算「高」热度 —— 首页「近期热门」按它挑，门槛两个集合不同。
+ * 这条模型算不算「高」热度 —— 首页「近期热门」按它挑，门槛两个集合不同
+ * （LLM ≥100万 / AIGC ≥5万）。
  * 没有下载量数据的一律不算（宁可少收，也不让没数据的条目挂上"高"）。
  */
-export function isHighPopularity(collection: PopularityCollection, downloads?: number): boolean {
+export function isHighPopularity(collection: ModelCollection, downloads?: number): boolean {
   if (typeof downloads !== 'number' || !Number.isFinite(downloads)) return false;
   const buckets = POPULARITY_BUCKETS[collection];
   return downloads >= buckets[buckets.length - 1].min;
 }
 
+export interface SizeBucket {
+  /** 档位文案，侧栏标签直接用（自带区间，单独看也能懂） */
+  label: string;
+  /** 这一档的**上界（不含）**：总参数量小于它才算这一档；最后一档是 Infinity */
+  max: number;
+}
+
 /**
- * 参数量分档：标签文案自带区间，卡片胶囊上单独看也能懂。
- * 边界按「低 0-100B / 中 100-500B / 高 500B 以上」：正好 100B 算中、正好 500B 算高。
+ * LLM 的参数量分档：低 ≤100B / 中 100-500B / 高 ≥500B。
+ * 边界口径：正好 100B 算中、正好 500B 算高。
  */
-export const SIZE_BUCKETS = [
+export const LLM_SIZE_BUCKETS: SizeBucket[] = [
   { label: '低 ≤100B', max: 100 },
   { label: '中 100-500B', max: 500 },
   { label: '高 ≥500B', max: Infinity },
-] as const;
+];
+
+/**
+ * AIGC 的参数量分档：低 0-8B / 中 8-32B / 高 ≥32B。
+ * 生图 / 生视频的模型整体比 LLM 小一到两个量级（主力在 5～30B），
+ * 拿 LLM 那把「100B / 500B」的尺子量，整个 AIGC 都挤在「低」里、筛选等于没有。
+ * 边界口径与 LLM 一致：正好 8B 算中、正好 32B 算高。
+ */
+export const AIGC_SIZE_BUCKETS: SizeBucket[] = [
+  { label: '低 0-8B', max: 8 },
+  { label: '中 8-32B', max: 32 },
+  { label: '高 ≥32B', max: Infinity },
+];
+
+/** 哪个集合用哪套参数量分档 —— `sizeBucketOf()` 与侧栏分组都从这里取，别再各写一份阈值 */
+export const SIZE_BUCKETS: Record<ModelCollection, SizeBucket[]> = {
+  llm: LLM_SIZE_BUCKETS,
+  aigc: AIGC_SIZE_BUCKETS,
+};
+
+/** 总参数量（以 B 计）落到这个集合的哪一档 */
+export function sizeBucketOf(totalB: number, collection: ModelCollection): string | undefined {
+  return SIZE_BUCKETS[collection].find((bucket) => totalB < bucket.max)?.label;
+}
 
 /**
  * 上下文长度分档：标签文案自带区间，卡片 / 侧栏上单独看也能懂。
@@ -161,13 +197,13 @@ export const AIGC_TAG_GROUPS: TagGroup[] = [{ label: '架构', tags: [...AIGC_TA
 /**
  * 「热度」分组：按 HuggingFace 下载量分档（分档在 `entries.ts` 里由快照算出来）。
  * **LLM 与 AIGC 用两套阈值**，所以要把集合传进来 —— 列表页显示的是自己那套标签，
- * 拿错集合会让「高 ≥50万」出现在 LLM 页上。
+ * 拿错集合会让「高 ≥5万」出现在 LLM 页上。
  * 它排在**所有标签分组之前**（列表页把它放在「架构 / 结构」上面），
  * 因为它回答的是"这条值不值得点开"，比结构/类型更靠前。
  * 没有任何条目取到下载量时返回空标签数组，调用方的 `visibleGroups()` 会把整组丢掉。
  */
 export function popularityGroup(
-  collection: PopularityCollection,
+  collection: ModelCollection,
   entries: { popularityTag?: string }[]
 ): TagGroup {
   const used = new Set(entries.map((e) => e.popularityTag).filter((t): t is string => Boolean(t)));
@@ -194,10 +230,14 @@ export function visibleGroups(groups: TagGroup[], used: Set<string>): TagGroup[]
  * 显示顺序：所属按条数从多到少，上下文固定低 → 中 → 高，参数量固定低 → 中 → 高，
  * 商用固定按 "可商用 → 有条件 → 不可商用"。
  *
+ * **参数量分档也按集合分两套**（LLM 100B/500B、AIGC 8B/32B），所以集合要传进来：
+ * 漏传的话 AIGC 页会把 LLM 的「低 ≤100B」贴到 14B 的生视频模型上。
+ *
  * 列表页会把「所属」这一组单独提出来渲染成一张下拉卡片，其余留在「筛选」下拉里：
  * 家族数量随收录增长，平铺成标签会把侧栏撑得很长。
  */
 export function facetGroups(
+  collection: ModelCollection,
   entries: { family?: string; commercial?: string; contextTag?: string; sizeTag?: string }[]
 ): TagGroup[] {
   const families = new Map<string, number>();
@@ -224,7 +264,10 @@ export function facetGroups(
     groups.push({ label: CONTEXT_GROUP_LABEL, tags: CONTEXT_BUCKET_LABELS.filter((l) => contexts.has(l)) });
   }
   if (sizes.size > 0) {
-    groups.push({ label: SIZE_GROUP_LABEL, tags: SIZE_BUCKETS.map((b) => b.label).filter((l) => sizes.has(l)) });
+    groups.push({
+      label: SIZE_GROUP_LABEL,
+      tags: SIZE_BUCKETS[collection].map((b) => b.label).filter((l) => sizes.has(l)),
+    });
   }
   if (commercial.size > 0) {
     groups.push({ label: COMMERCIAL_GROUP_LABEL, tags: COMMERCIAL_VALUES.filter((v) => commercial.has(v)) });

@@ -8,7 +8,7 @@ summary: "Ring 2.6 代的万亿推理模型，本轮推理能力最强的开源�
 tags: [MoE, 纯文本]
 license: "MIT"
 commercial: 可商用
-params: "1.0T"
+params: "1T"
 context: "128K"
 modalities: [text]
 deploys: [vllm, sglang]

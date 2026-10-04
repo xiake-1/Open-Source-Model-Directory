@@ -8,7 +8,7 @@ summary: "V3 的 3 月升级版，推理与前端代码明显变强，仍是 MIT
 tags: [MoE, 纯文本]
 license: "MIT"
 commercial: 可商用
-params: "685B"
+params: "671B"
 context: "128K"
 modalities: [text]
 deploys: [vllm, sglang]

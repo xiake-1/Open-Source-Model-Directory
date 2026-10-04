@@ -8,7 +8,7 @@ summary: "瑞士国家级开源模型，权重、数据与配方全公开，并�
 tags: [Dense, 纯文本]
 license: "Apache-2.0"
 commercial: 可商用
-params: "70.6B"
+params: "70B"
 context: "64K"
 modalities: [text]
 deploys: [vllm, sglang]

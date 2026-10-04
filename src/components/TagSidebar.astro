@@ -9,8 +9,15 @@ import type { TagGroup } from '../lib/taxonomy';
  * - 分组顺序由页面给定的 `groups` 决定：「热度」在**架构 / 结构上面**
  *   （先看值不值得点开，再看是什么结构），由 `taxonomy.ts` 的 `popularityGroup()` 生成，
  *   其余分组来自 `LLM_TAG_GROUPS` / `AIGC_TAG_GROUPS` 与 `facetGroups()`。
- * - 分组里的每一项是普通链接（`#tag=MoE`），点击由列表页脚本接管做就地过滤，
- *   所以选完不刷新页面；标题上会同步显示当前选中的标签。
+ * - **每一项是一个复选框，可以同时勾多个**（与「时间」「所属」两张卡片同一套交互）：
+ *   同组内是"或"（MoE 或 Dense），不同组之间是"与"（结构 + 上下文 + 参数量 + 热度 + 商用 都要满足），
+ *   再与时间 / 所属叠加。所以「上下文 = 高 >512K 且 参数量 = 高 ≥500B」点得出来了。
+ * - 每个复选框带 `data-tag-group`：页内脚本靠它把选中的标签归组，否则就只能"全都得满足"
+ *   或者"满足一个就算"（前者选两个结构标签永远没有结果，后者选得越多越糊）。
+ * - 选中状态写进 URL hash 的 `tag=`（多选逗号分隔，如 `#tag=MoE,Dense`），
+ *   点击由列表页脚本接管做就地过滤，所以选完不刷新页面；标题上会同步显示"已选 N 个标签"。
+ * - 它自己不生成链接：卡片上的标签胶囊（`EntryCard`）仍是指向 `path#tag=xx` 的普通链接，
+ *   点一下等于把那个标签加进/移出当前选择。
  * - 时间与所属不在这里：它们是上面两张独立的下拉卡片（`MonthFilter.astro` / `FamilyFilter.astro`），
  *   所属由 `TagFilter.astro` 按 `FAMILY_GROUP_LABEL` 拆走。
  */
@@ -19,18 +26,11 @@ interface Props {
   groups: TagGroup[];
   /** 每个标签下有多少条，作为角标 */
   counts: Record<string, number>;
-  /** 当前列表页路径，标签链接会拼成 path#tag=xx */
-  basePath: string;
   /** 卡片标题，例如"筛选" */
   title?: string;
 }
 
-const { groups, counts, basePath, title = '筛选' } = Astro.props;
-
-// 用 hash 而不是查询串：静态主机不按查询串路由，
-// ?tag= 只会整页重载并照常返回全部内容，看起来就是"点了没反应"。
-// hash 由页内脚本处理，点了就地过滤、不刷新，也不进 sitemap。
-const tagHref = (tag: string) => `${basePath}#tag=${encodeURIComponent(tag)}`;
+const { groups, counts, title = '筛选' } = Astro.props;
 ---
 
 <div class="dd" data-tag-filter>
@@ -41,9 +41,10 @@ const tagHref = (tag: string) => `${basePath}#tag=${encodeURIComponent(tag)}`;
       <span class="dd-chev" aria-hidden="true"></span>
     </summary>
     <div class="dd-menu" role="group" aria-label="按标签筛选">
-      <a class="dd-item dd-link dd-item-all is-active" href={basePath} data-tag="" data-tag-all="true">
+      <label class="dd-item dd-item-all">
+        <input type="checkbox" data-tag-all />
         <span class="dd-text">全部</span>
-      </a>
+      </label>
       {
         groups.map((group) => (
           <div class="dd-group">
@@ -52,10 +53,11 @@ const tagHref = (tag: string) => `${basePath}#tag=${encodeURIComponent(tag)}`;
               {group.note && <span class="dd-note">{group.note}</span>}
             </div>
             {group.tags.map((tag) => (
-              <a class="dd-item dd-link" href={tagHref(tag)} data-tag={tag}>
+              <label class="dd-item" data-tag-text={tag}>
+                <input type="checkbox" data-tag={tag} data-tag-group={group.label} value={tag} />
                 <span class="dd-text">{tag}</span>
                 <span class="dd-count">{counts[tag] ?? 0}</span>
-              </a>
+              </label>
             ))}
           </div>
         ))

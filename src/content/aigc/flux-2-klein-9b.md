@@ -10,7 +10,7 @@ license: "FLUX.2 [klein] Non-Commercial License"
 commercial: 不可商用
 output: image
 architecture: "Rectified Flow Transformer（klein 蒸馏版）"
-params: "9.1B"
+params: "9B"
 links:
   hf: "https://huggingface.co/black-forest-labs/FLUX.2-klein-9B"
   github: "https://github.com/black-forest-labs/flux2"

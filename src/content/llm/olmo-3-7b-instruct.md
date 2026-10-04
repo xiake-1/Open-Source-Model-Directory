@@ -8,7 +8,7 @@ summary: "OLMo 3 7B 的指令版，连同 Dolma 3 数据与训练代码一起公
 tags: [Dense, 纯文本]
 license: "Apache-2.0"
 commercial: 可商用
-params: "7.3B"
+params: "7B"
 context: "64K"
 modalities: [text]
 deploys: [vllm, llama-cpp]

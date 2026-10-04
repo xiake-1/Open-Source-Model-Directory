@@ -10,7 +10,7 @@ license: "Apache-2.0"
 commercial: 可商用
 output: video
 architecture: "DiT + 统一控制模块"
-params: "17.3B"
+params: "14B"
 links:
   hf: "https://huggingface.co/Wan-AI/Wan2.1-VACE-14B"
   github: "https://github.com/ali-vilab/VACE"

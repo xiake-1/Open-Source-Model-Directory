@@ -1,15 +1,26 @@
 /**
- * 从 GitHub 公共 API 搜索「2025-01 之后创建的本地 LLM 部署相关仓库」，
+ * 从 GitHub 公共 API 搜索「近期新建的本地 LLM 部署相关仓库」，
  * 作为补录 `src/content/projects/` 的候选清单（找线索用，不直接出条目）。
- * 用法：node _verify/gh-fetch.mjs
+ * 用法：node _verify/gh-fetch.mjs              # 默认只看近 30 天新建的（更新流程的口径）
+ *       node _verify/gh-fetch.mjs --days=7     # 换成近 7 天
+ *       node _verify/gh-fetch.mjs --all        # 历史全量（2025-01 起，只在补历史缺口时用）
+ *       node _verify/gh-fetch.mjs --proxy      # 走系统代理（直连不通时再用）
  * 输出：_verify/gh-search.json（全量）+ 控制台紧凑清单
  *
  * 未认证限速：search 10 次/分钟、core 60 次/小时，所以查询之间留 7 秒。
+ * **默认直连**：走本机代理时出口 IP 常常是共享的，配额可能早被别人用光
+ * （2026-10-04 实测：直连 search 正常，走 127.0.0.1:7897 第 8 个查询就 403）。
  */
 import fs from 'node:fs/promises';
 import { execFileSync } from 'node:child_process';
 
-/** Node 的 fetch 不读 Windows 系统代理，这里自己读出来带上 —— 与 hf-fetch.mjs 同一套路 */
+/** `--days=30`：只看近 N 天新建的仓库；`--all` 放开到 2025-01-01 */
+const argOf = (name) => process.argv.slice(2).find((a) => a.startsWith(`--${name}=`))?.split('=')[1];
+const ALL = process.argv.includes('--all');
+const DAYS = Number(argOf('days') ?? 30);
+const SINCE = ALL ? '2025-01-01' : new Date(Date.now() - DAYS * 86_400_000).toISOString().slice(0, 10);
+
+/** Node 的 fetch 不读 Windows 系统代理，`--proxy` 时才自己读出来带上 —— 与 hf-fetch.mjs 同一套路 */
 function systemProxy() {
   if (process.env.HTTPS_PROXY) return process.env.HTTPS_PROXY;
   try {
@@ -21,7 +32,7 @@ function systemProxy() {
   return '';
 }
 
-const PROXY = systemProxy();
+const PROXY = process.argv.includes('--proxy') ? systemProxy() : '';
 const { setGlobalDispatcher, ProxyAgent } = await import('undici').catch(() => ({}));
 if (PROXY && setGlobalDispatcher && ProxyAgent) setGlobalDispatcher(new ProxyAgent(PROXY));
 
@@ -45,7 +56,7 @@ async function getJSON(url) {
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-/** 搜索类查询：2025-01-01 之后创建、按 star 排序 */
+/** 搜索类查询：`created:>$SINCE` 之后创建、按 star 排序 */
 const SEARCHES = [
   { q: 'llm inference stars:>300', note: '推理引擎' },
   { q: 'local llm stars:>300', note: '本地部署' },
@@ -82,6 +93,8 @@ const rowOf = (r) => ({
   created_at: (r.created_at ?? '').slice(0, 10),
   pushed_at: (r.pushed_at ?? '').slice(0, 10),
   stars: r.stargazers_count ?? 0,
+  forks: r.forks_count ?? 0,
+  open_issues: r.open_issues_count ?? 0,
   language: r.language ?? '',
   license: r.license?.spdx_id ?? r.license?.key ?? '',
   topics: (r.topics ?? []).slice(0, 12),
@@ -92,8 +105,9 @@ const rowOf = (r) => ({
 
 const all = new Map();
 
+console.log(`搜索窗口：created:>${SINCE}${ALL ? '（--all：历史全量）' : `（近 ${DAYS} 天新建）`}`);
 for (const s of SEARCHES) {
-  const url = `https://api.github.com/search/repositories?q=${encodeURIComponent(`${s.q} created:>2025-01-01`)}&sort=stars&order=desc&per_page=30`;
+  const url = `https://api.github.com/search/repositories?q=${encodeURIComponent(`${s.q} created:>${SINCE}`)}&sort=stars&order=desc&per_page=30`;
   try {
     const data = await getJSON(url);
     for (const r of data.items ?? []) {
@@ -106,15 +120,18 @@ for (const s of SEARCHES) {
   await sleep(7000);
 }
 
-for (const name of KNOWN) {
-  try {
-    const r = await getJSON(`https://api.github.com/repos/${name}`);
-    if (!all.has(r.full_name)) all.set(r.full_name, rowOf(r));
-    console.log(`known ${name}: created ${r.created_at?.slice(0, 10)} stars ${r.stargazers_count}`);
-  } catch (err) {
-    console.log(`known ${name}: 失败 ${err.message}`);
+// KNOWN 是「2025 年前创建、要核对首个可用版本是否落在窗口内」的历史名单，只在 --all 时核
+if (ALL) {
+  for (const name of KNOWN) {
+    try {
+      const r = await getJSON(`https://api.github.com/repos/${name}`);
+      if (!all.has(r.full_name)) all.set(r.full_name, rowOf(r));
+      console.log(`known ${name}: created ${r.created_at?.slice(0, 10)} stars ${r.stargazers_count}`);
+    } catch (err) {
+      console.log(`known ${name}: 失败 ${err.message}`);
+    }
+    await sleep(800);
   }
-  await sleep(800);
 }
 
 const rows = [...all.values()].sort((a, b) => b.stars - a.stars);
@@ -123,9 +140,8 @@ await fs.writeFile('_verify/gh-search.json', JSON.stringify(rows, null, 1), 'utf
 const cols = { full_name: 44, created_at: 12, stars: 8, language: 10, license: 12 };
 console.log('\n== 候选清单（按 star 降序）==');
 for (const r of rows) {
-  const inWindow = r.created_at >= '2025-01-01';
   console.log(
-    `${inWindow ? '' : '·'}${r.full_name.padEnd(cols.full_name)} ${r.created_at} ${String(r.stars).padStart(cols.stars)} ${r.language.slice(0, 10).padEnd(cols.language)} ${(r.license || '-').slice(0, 12).padEnd(cols.license)}`
+    `${r.full_name.padEnd(cols.full_name)} ${r.created_at} ★${String(r.stars).padStart(7)} ${r.language.slice(0, 10).padEnd(cols.language)} ${(r.license || '-').slice(0, 12).padEnd(cols.license)} push ${r.pushed_at}`
   );
 }
-console.log(`\n共 ${rows.size ?? rows.length} 个仓库 -> _verify/gh-search.json${PROXY ? `（proxy ${PROXY}）` : ''}`);
+console.log(`\n共 ${rows.length} 个仓库（created:>${SINCE}）-> _verify/gh-search.json${PROXY ? `（proxy ${PROXY}）` : '（直连）'}`);

@@ -8,7 +8,7 @@ summary: "Gemma 3 的中量级尺寸，单张消费级卡就能跑多模态与 1
 tags: [Dense, 可识别图像]
 license: "Gemma Terms of Use"
 commercial: 有条件可商用
-params: "12.2B"
+params: "12B"
 context: "128K"
 vram: "bf16 单张 24G 可跑"
 modalities: [text, image]

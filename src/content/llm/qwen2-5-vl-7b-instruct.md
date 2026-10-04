@@ -8,7 +8,7 @@ summary: "Qwen2.5-VL 的 7B 版本，文档解析与视觉定位在本地尺寸�
 tags: [Dense, 可识别图像]
 license: "Apache-2.0"
 commercial: 可商用
-params: "8.3B"
+params: "7B"
 context: "128K"
 modalities: [text, image]
 deploys: [vllm, llama-cpp]

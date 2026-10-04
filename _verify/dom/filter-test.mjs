@@ -112,7 +112,10 @@ const hash = () => window.location.hash;
 const text = (sel) => (doc.querySelector(sel)?.textContent ?? '').trim();
 const familyBox = (v) => [...doc.querySelectorAll('[data-family]')].find((b) => b.value === v);
 const monthBox = (v) => [...doc.querySelectorAll('[data-month]')].find((b) => b.value === v);
-const tagLink = (v) => [...doc.querySelectorAll('.dd-link[data-tag]')].find((a) => a.getAttribute('data-tag') === v);
+// 「筛选」下拉里的每一项是复选框（多选）；卡片上的标签胶囊是 `<a data-tag>` 的开关
+const tagBox = (v) => [...doc.querySelectorAll('[data-tag-filter] input[data-tag]')].find((b) => b.value === v);
+const tagAllBox = () => doc.querySelector('[data-tag-all]');
+const pill = (v) => [...doc.querySelectorAll('.tag-filter a[data-tag]')].find((a) => a.getAttribute('data-tag') === v);
 const click = (el) => el.dispatchEvent(new window.MouseEvent('click', { bubbles: true, cancelable: true }));
 /** 页面脚本有部分更新排在 rAF 里；读完立刻断言会拿到旧 DOM，所以每次断言前先让事件循环跑两拍 */
 const settle = () => new Promise((r) => window.requestAnimationFrame(() => window.requestAnimationFrame(r)));
@@ -165,6 +168,17 @@ check('「热度」标注了自己按什么算',
   'HF 下载量');
 check('「筛选」也是 details 下拉',
   Boolean(doc.querySelector('details[data-tag-details] > summary > .dd-value[data-tag-label]')), true);
+check('「筛选」里每一项都是复选框（多选）',
+  [...doc.querySelectorAll('[data-tag-filter] [data-tag]')].every(
+    (el) => el.tagName === 'INPUT' && el.type === 'checkbox'
+  ), true);
+check('每个标签复选框都带分组名（组内「或」、组间「与」靠它算）',
+  [...doc.querySelectorAll('[data-tag-filter] input[data-tag]')].every((el) => Boolean(el.getAttribute('data-tag-group'))), true);
+check('「筛选」里的分组名 = 复选框上的 data-tag-group',
+  [...new Set([...doc.querySelectorAll('[data-tag-filter] input[data-tag]')].map((el) => el.getAttribute('data-tag-group')))],
+  ['热度', '结构', '类型', '上下文', '参数量', '商用']);
+check('「筛选」也有一个"全部"复选框',
+  Boolean(doc.querySelector('[data-tag-filter] [data-tag-all]')), true);
 check('三张下拉默认都是收起的',
   [...doc.querySelectorAll('.listing-side details')].map((d) => d.open), [false, false, false]);
 check('所属下拉的家族数', [...doc.querySelectorAll('[data-family]')].length, FAMS);
@@ -176,6 +190,10 @@ check('时间标题', text('[data-month-label]'), '全部时间');
 check('所属标题', text('[data-family-label]'), '全部所属');
 check('全部时间已勾选', doc.querySelector('[data-month-all]').checked, true);
 check('全部所属已勾选', doc.querySelector('[data-family-all]').checked, true);
+check('「筛选」标题默认是全部', text('[data-tag-label]'), '全部');
+check('标签"全部"已勾选、没有单个标签被勾上',
+  [tagAllBox().checked, [...doc.querySelectorAll('[data-tag-filter] input[data-tag]')].some((b) => b.checked)],
+  [true, false]);
 
 console.log('\n=== 3. 所属单选（Kimi）===');
 click(familyBox('Kimi'));
@@ -204,11 +222,12 @@ check('时间标题', text('[data-month-label]'), '2026 年 6 月');
 check('全部时间取消勾选', doc.querySelector('[data-month-all]').checked, false);
 
 console.log('\n=== 6. 再叠加标签（MoE）===');
-click(tagLink('MoE'));
+click(tagBox('MoE'));
 const JUN_MOE = titlesOf((r) => r.month === '2026-06' && r.tags.includes('MoE') && (r.family === 'Kimi' || r.family === 'GLM'));
 check('可见条目', visible().length, JUN_MOE.length);
 check('hash', hash(), '#months=2026-06&family=Kimi,GLM&tag=MoE');
-check('MoE 链接高亮', tagLink('MoE').classList.contains('is-active'), true);
+check('MoE 复选框已勾选', tagBox('MoE').checked, true);
+check('「筛选」标题显示标签名', text('[data-tag-label]'), 'MoE');
 
 console.log('\n=== 7. 清空所属，时间与标签保留 ===');
 click(doc.querySelector('[data-family-all]'));
@@ -226,9 +245,12 @@ check('可见条目', visible().length, MOE_ALL.length);
 check('hash', hash(), '#tag=MoE');
 
 console.log('\n=== 9. 清空标签 → 全部条目 ===');
-click(tagLink(''));
+click(tagAllBox());
 check('可见条目', visible().length, TOTAL);
 check('hash', hash(), '');
+check('标题回到「全部」、勾选也跟着回位',
+  [text('[data-tag-label]'), tagAllBox().checked, tagBox('MoE').checked],
+  ['全部', true, false]);
 
 console.log('\n=== 10. 多选月份 ===');
 click(monthBox('2025-06'));
@@ -286,7 +308,7 @@ check('所属标题', text('[data-family-label]'), 'DeepSeek');
 check('时间标题', text('[data-month-label]'), '2026 年 4 月');
 check('DeepSeek 复选框已勾选', familyBox('DeepSeek').checked, true);
 check('2026-04 复选框已勾选', monthBox('2026-04').checked, true);
-check('MoE 链接高亮', tagLink('MoE').classList.contains('is-active'), true);
+check('MoE 复选框已勾选', tagBox('MoE').checked, true);
 
 console.log('\n=== 16. 三张下拉的手风琴行为 ===');
 const openDrop = (d) => { d.open = true; d.dispatchEvent(new window.Event('toggle')); };
@@ -303,47 +325,76 @@ check('收起不影响已选条件（标题仍在）', text('[data-tag-label]'),
 click(doc.body);
 check('点外面三张全收起', [monthD.open, familyD.open, tagD.open], [false, false, false]);
 
-console.log('\n=== 17. 上下文 / 参数量标签可以筛选 ===');
+console.log('\n=== 17. 上下文 / 参数量：不同分组之间是「与」 ===');
 window.location.hash = '';
 window.dispatchEvent(new window.Event('hashchange'));
 check('先清空所有条件', [visible().length, hash()], [TOTAL, '']);
 const C_HIGH = titlesOf((r) => r.contextTag === '高 >512K');
-click(tagLink('高 >512K'));
+click(tagBox('高 >512K'));
 check(`上下文 高 >512K → ${C_HIGH.length} 条`, visible().length, C_HIGH.length);
 check('hash', hash(), '#tag=' + encodeURIComponent('高 >512K'));
 check('「筛选」标题显示 高 >512K', text('[data-tag-label]'), '高 >512K');
 const HIGH = titlesOf((r) => r.sizeTag === '高 ≥500B');
-click(tagLink('高 ≥500B'));
-check(`参数量 高 ≥500B → ${HIGH.length} 条`, visible().length, HIGH.length);
-check('hash', hash(), '#tag=' + encodeURIComponent('高 ≥500B'));
-check('标签仍是单选（上下文被顶掉）', tagLink('高 >512K').classList.contains('is-active'), false);
-const LOW = titlesOf((r) => r.sizeTag === '低 ≤100B');
-click(tagLink('低 ≤100B'));
-check(`参数量 低 ≤100B → ${LOW.length} 条`, visible().length, LOW.length);
-const C_MID = titlesOf((r) => r.contextTag === '中 128K-512K');
-click(tagLink('中 128K-512K'));
-check(`上下文 中 128K-512K → ${C_MID.length} 条`, visible().length, C_MID.length);
-check('条目明细', titles().sort(), C_MID);
-click(tagLink(''));
+const C_HIGH_S_HIGH = titlesOf((r) => r.contextTag === '高 >512K' && r.sizeTag === '高 ≥500B');
+click(tagBox('高 ≥500B'));
+check(`再勾 参数量 高 ≥500B（另一组，两条都要满足）→ ${C_HIGH_S_HIGH.length} 条`, visible().length, C_HIGH_S_HIGH.length);
+check('条目明细', titles().sort(), C_HIGH_S_HIGH);
+check('两个复选框同时选中（不再是单选顶掉）',
+  [tagBox('高 >512K').checked, tagBox('高 ≥500B').checked], [true, true]);
+check('hash 里两个标签都在', hash(),
+  '#tag=' + [encodeURIComponent('高 >512K'), encodeURIComponent('高 ≥500B')].join(','));
+check('「筛选」标题写"已选 2 个标签"', text('[data-tag-label]'), '已选 2 个标签');
+check('比只筛参数量时更窄', visible().length < HIGH.length, true);
+click(tagBox('高 ≥500B')); // 取消其中一个 → 回到只筛上下文
+check('取消参数量后只剩上下文', [visible().length, hash()], [C_HIGH.length, '#tag=' + encodeURIComponent('高 >512K')]);
+click(tagAllBox());
 check('「全部」回到全部条目', [visible().length, hash(), text('[data-tag-label]')], [TOTAL, '', '全部']);
 
-console.log('\n=== 18. 热度分档可以筛选（按 HF 下载量）===');
+console.log('\n=== 18. 热度分档：同一组内是「或」 ===');
 const HOT = titlesOf((r) => r.popularityTag === '高 ≥100万');
-click(tagLink('高 ≥100万'));
+click(tagBox('高 ≥100万'));
 check(`热度 高 ≥100万 → ${HOT.length} 条`, visible().length, HOT.length);
 check('条目明细', titles().sort(), HOT);
 check('hash', hash(), '#tag=' + encodeURIComponent('高 ≥100万'));
 check('「筛选」标题显示热度分档', text('[data-tag-label]'), '高 ≥100万');
 const MID = titlesOf((r) => r.popularityTag === '中 10万-100万');
-click(tagLink('中 10万-100万'));
-check(`热度 中 10万-100万 → ${MID.length} 条`, visible().length, MID.length);
-check('热度与结构标签共用单选位（高被顶掉）', tagLink('高 ≥100万').classList.contains('is-active'), false);
 const COLD = titlesOf((r) => r.popularityTag === '低 <10万');
-click(tagLink('低 <10万'));
-check(`热度 低 <10万 → ${COLD.length} 条`, visible().length, COLD.length);
-check('三档加起来 = 取到下载量的条目数', HOT.length + MID.length + COLD.length, rows.filter((r) => r.popularityTag).length);
-click(tagLink(''));
+click(tagBox('中 10万-100万'));
+const HOT_MID = titlesOf((r) => r.popularityTag === '高 ≥100万' || r.popularityTag === '中 10万-100万');
+check(`再加 中 10万-100万（同组，命中任意一档即可）→ ${HOT_MID.length} 条`, visible().length, HOT_MID.length);
+check('条目明细', titles().sort(), HOT_MID);
+click(tagBox('低 <10万'));
+check('三档全勾 = 取到下载量的全部条目', visible().length, rows.filter((r) => r.popularityTag).length);
+check('三档相加 = 取到下载量的条目数', HOT.length + MID.length + COLD.length, rows.filter((r) => r.popularityTag).length);
+// 结构是另一个组：组间仍是「与」
+click(tagBox('低 <10万'));
+click(tagBox('中 10万-100万'));
+click(tagBox('MoE'));
+const HOT_MOE = titlesOf((r) => r.popularityTag === '高 ≥100万' && r.tags.includes('MoE'));
+check(`热度「高」+ 结构 MoE（不同组，都要满足）→ ${HOT_MOE.length} 条`, visible().length, HOT_MOE.length);
+check('条目明细', titles().sort(), HOT_MOE);
+click(tagAllBox());
 check('回到全部条目', [visible().length, hash()], [TOTAL, '']);
+
+console.log('\n=== 19. 卡片上的标签胶囊也是一个开关 ===');
+check('卡片上有 MoE 胶囊', Boolean(pill('MoE')), true);
+click(pill('MoE'));
+check('点胶囊 = 把标签加进选择（侧栏跟着勾上、胶囊自己高亮）',
+  [tagBox('MoE').checked, pill('MoE').classList.contains('is-active'), hash()],
+  [true, true, '#tag=MoE']);
+check('可见条目', visible().length, titlesOf((r) => r.tags.includes('MoE')).length);
+click(pill('MoE'));
+check('再点一次 = 移出选择', [visible().length, hash(), tagBox('MoE').checked], [TOTAL, '', false]);
+
+console.log('\n=== 20. 同组多选：MoE 或 Dense 就等于不筛 ===');
+click(tagBox('MoE'));
+click(tagBox('Dense'));
+const MOE_DENSE = titlesOf((r) => r.tags.includes('MoE') || r.tags.includes('Dense'));
+check(`MoE + Dense（同组「或」）→ ${MOE_DENSE.length} 条`, visible().length, MOE_DENSE.length);
+check('hash 里两个都在', hash(), '#tag=MoE,Dense');
+check('「筛选」标题写"已选 2 个标签"', text('[data-tag-label]'), '已选 2 个标签');
+click(tagAllBox());
+check('清空后回到全部', [visible().length, hash(), text('[data-tag-label]')], [TOTAL, '', '全部']);
 
 console.log(`\n结果：通过 ${pass}、失败 ${fail}`);
 process.exit(fail ? 1 : 0);

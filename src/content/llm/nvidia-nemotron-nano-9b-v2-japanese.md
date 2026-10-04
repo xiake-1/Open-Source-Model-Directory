@@ -8,7 +8,7 @@ summary: "Nemotron Nano 9B 的日语特化版，面向日本企业的本地化�
 tags: [Dense, 纯文本]
 license: "NVIDIA Open Model License"
 commercial: 有条件可商用
-params: "8.9B"
+params: "9B"
 context: "128K"
 modalities: [text]
 deploys: [vllm]

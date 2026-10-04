@@ -2,7 +2,7 @@
  {
   "id": "stepfun-ai/Step-3.7-Flash-GGUF",
   "createdAt": "2026-05-28T11:34:17.000Z",
-  "downloads": 4632,
+  "downloads": 4612,
   "likes": 174,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -14,7 +14,7 @@
  {
   "id": "stepfun-ai/Step-3.7-Flash-NVFP4",
   "createdAt": "2026-05-27T12:35:59.000Z",
-  "downloads": 316284,
+  "downloads": 304930,
   "likes": 64,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -26,7 +26,7 @@
  {
   "id": "stepfun-ai/Step-3.7-Flash-FP8",
   "createdAt": "2026-05-23T12:49:10.000Z",
-  "downloads": 5127,
+  "downloads": 5005,
   "likes": 19,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -38,7 +38,7 @@
  {
   "id": "stepfun-ai/Step-3.7-Flash",
   "createdAt": "2026-05-23T02:13:46.000Z",
-  "downloads": 24664,
+  "downloads": 24803,
   "likes": 460,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -50,7 +50,7 @@
  {
   "id": "stepfun-ai/Step-3.5-Flash-Base",
   "createdAt": "2026-03-02T16:17:50.000Z",
-  "downloads": 395,
+  "downloads": 416,
   "likes": 87,
   "pipeline": "text-generation",
   "tags": [
@@ -61,7 +61,7 @@
  {
   "id": "stepfun-ai/Step-3.5-Flash-Base-Midtrain",
   "createdAt": "2026-03-02T09:49:21.000Z",
-  "downloads": 340,
+  "downloads": 347,
   "likes": 42,
   "pipeline": "text-generation",
   "tags": [
@@ -73,7 +73,7 @@
  {
   "id": "stepfun-ai/NextStep-1.1-Pretrain-256px",
   "createdAt": "2026-02-16T06:26:39.000Z",
-  "downloads": 134,
+  "downloads": 138,
   "likes": 13,
   "pipeline": "text-to-image",
   "tags": [
@@ -95,7 +95,7 @@
  {
   "id": "stepfun-ai/Step3-VL-10B-FP8",
   "createdAt": "2026-02-02T06:58:16.000Z",
-  "downloads": 802,
+  "downloads": 816,
   "likes": 10,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -108,7 +108,7 @@
  {
   "id": "stepfun-ai/Step-3.5-Flash-GGUF-Q4_K_S",
   "createdAt": "2026-02-01T08:13:41.000Z",
-  "downloads": 701,
+  "downloads": 672,
   "likes": 147,
   "pipeline": "text-generation",
   "tags": [
@@ -120,7 +120,7 @@
  {
   "id": "stepfun-ai/Step-3.5-Flash-FP8",
   "createdAt": "2026-02-01T08:03:52.000Z",
-  "downloads": 3245,
+  "downloads": 3193,
   "likes": 53,
   "pipeline": "text-generation",
   "tags": [
@@ -132,7 +132,7 @@
  {
   "id": "stepfun-ai/Step-3.5-Flash",
   "createdAt": "2026-02-01T08:03:45.000Z",
-  "downloads": 179824,
+  "downloads": 195225,
   "likes": 838,
   "pipeline": "text-generation",
   "tags": [
@@ -144,7 +144,7 @@
  {
   "id": "stepfun-ai/Step-Audio-R1.1",
   "createdAt": "2026-01-14T06:37:24.000Z",
-  "downloads": 722,
+  "downloads": 837,
   "likes": 190,
   "pipeline": "audio-text-to-text",
   "tags": [
@@ -155,7 +155,7 @@
  {
   "id": "stepfun-ai/Step3-VL-10B-Base",
   "createdAt": "2026-01-13T12:04:54.000Z",
-  "downloads": 309,
+  "downloads": 319,
   "likes": 52,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -166,7 +166,7 @@
  {
   "id": "stepfun-ai/Step3-VL-10B",
   "createdAt": "2026-01-13T07:55:22.000Z",
-  "downloads": 27532,
+  "downloads": 27230,
   "likes": 417,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -178,7 +178,7 @@
  {
   "id": "stepfun-ai/NextStep-1.1-Pretrain",
   "createdAt": "2025-12-24T03:11:30.000Z",
-  "downloads": 122,
+  "downloads": 125,
   "likes": 7,
   "pipeline": "text-to-image",
   "tags": [
@@ -189,7 +189,7 @@
  {
   "id": "stepfun-ai/NextStep-1.1",
   "createdAt": "2025-12-23T15:26:53.000Z",
-  "downloads": 1182,
+  "downloads": 1132,
   "likes": 29,
   "pipeline": "text-to-image",
   "tags": [
@@ -200,7 +200,7 @@
  {
   "id": "stepfun-ai/RLVR-8B-0926",
   "createdAt": "2025-12-09T07:55:37.000Z",
-  "downloads": 279,
+  "downloads": 278,
   "likes": 8,
   "pipeline": "text-generation",
   "tags": [
@@ -212,7 +212,7 @@
  {
   "id": "stepfun-ai/PaCoRe-8B",
   "createdAt": "2025-12-09T06:52:38.000Z",
-  "downloads": 285,
+  "downloads": 289,
   "likes": 48,
   "pipeline": "text-generation",
   "tags": [
@@ -224,7 +224,7 @@
  {
   "id": "stepfun-ai/GELab-Zero-4B-preview",
   "createdAt": "2025-11-28T15:00:26.000Z",
-  "downloads": 329,
+  "downloads": 342,
   "likes": 154,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -236,7 +236,7 @@
  {
   "id": "stepfun-ai/Step1X-Edit-v1p2",
   "createdAt": "2025-11-26T06:12:18.000Z",
-  "downloads": 674,
+  "downloads": 686,
   "likes": 65,
   "pipeline": "image-to-image",
   "tags": [],
@@ -245,7 +245,7 @@
  {
   "id": "stepfun-ai/Step-Audio-EditX-AWQ-4bit",
   "createdAt": "2025-11-19T02:33:53.000Z",
-  "downloads": 263,
+  "downloads": 278,
   "likes": 2,
   "pipeline": "",
   "tags": [],
@@ -254,7 +254,7 @@
  {
   "id": "stepfun-ai/Step-Audio-R1",
   "createdAt": "2025-11-18T13:49:22.000Z",
-  "downloads": 59,
+  "downloads": 58,
   "likes": 144,
   "pipeline": "audio-text-to-text",
   "tags": [
@@ -265,7 +265,7 @@
  {
   "id": "stepfun-ai/Step-Audio-EditX",
   "createdAt": "2025-10-29T11:53:19.000Z",
-  "downloads": 3869,
+  "downloads": 3834,
   "likes": 142,
   "pipeline": "",
   "tags": [],
@@ -274,7 +274,7 @@
  {
   "id": "stepfun-ai/Step-Audio-2-mini-Think",
   "createdAt": "2025-09-11T07:59:58.000Z",
-  "downloads": 186,
+  "downloads": 188,
   "likes": 20,
   "pipeline": "",
   "tags": [],
@@ -283,7 +283,7 @@
  {
   "id": "stepfun-ai/Step1X-Edit-v1p2-preview",
   "createdAt": "2025-09-07T12:45:47.000Z",
-  "downloads": 49,
+  "downloads": 48,
   "likes": 19,
   "pipeline": "image-to-image",
   "tags": [],
@@ -292,8 +292,8 @@
  {
   "id": "stepfun-ai/Step-Audio-2-mini",
   "createdAt": "2025-08-28T07:12:50.000Z",
-  "downloads": 1411,
-  "likes": 265,
+  "downloads": 1501,
+  "likes": 266,
   "pipeline": "any-to-any",
   "tags": [
    "text-generation",
@@ -304,7 +304,7 @@
  {
   "id": "stepfun-ai/Step-Audio-2-mini-Base",
   "createdAt": "2025-08-28T07:07:21.000Z",
-  "downloads": 143,
+  "downloads": 156,
   "likes": 26,
   "pipeline": "",
   "tags": [],
@@ -313,7 +313,7 @@
  {
   "id": "stepfun-ai/Step1X-Edit-v1p1-diffusers",
   "createdAt": "2025-08-27T07:32:40.000Z",
-  "downloads": 140,
+  "downloads": 155,
   "likes": 5,
   "pipeline": "image-to-image",
   "tags": [],
@@ -322,7 +322,7 @@
  {
   "id": "stepfun-ai/StepFun-Formalizer-32B",
   "createdAt": "2025-08-19T02:59:21.000Z",
-  "downloads": 223,
+  "downloads": 226,
   "likes": 11,
   "pipeline": "text-generation",
   "tags": [
@@ -334,7 +334,7 @@
  {
   "id": "stepfun-ai/StepFun-Formalizer-7B",
   "createdAt": "2025-08-19T02:27:17.000Z",
-  "downloads": 378,
+  "downloads": 382,
   "likes": 6,
   "pipeline": "text-generation",
   "tags": [
@@ -346,7 +346,7 @@
  {
   "id": "stepfun-ai/NextStep-1-Large-Pretrain",
   "createdAt": "2025-08-15T08:34:42.000Z",
-  "downloads": 118,
+  "downloads": 125,
   "likes": 18,
   "pipeline": "text-to-image",
   "tags": [
@@ -357,7 +357,7 @@
  {
   "id": "stepfun-ai/NextStep-1-f8ch16-Tokenizer",
   "createdAt": "2025-08-14T05:34:26.000Z",
-  "downloads": 176,
+  "downloads": 184,
   "likes": 15,
   "pipeline": "",
   "tags": [],
@@ -366,7 +366,7 @@
  {
   "id": "stepfun-ai/StepFun-Prover-Preview-32B",
   "createdAt": "2025-08-13T08:26:04.000Z",
-  "downloads": 237,
+  "downloads": 236,
   "likes": 11,
   "pipeline": "text-generation",
   "tags": [
@@ -378,7 +378,7 @@
  {
   "id": "stepfun-ai/StepFun-Prover-Preview-7B",
   "createdAt": "2025-08-13T08:10:19.000Z",
-  "downloads": 230,
+  "downloads": 231,
   "likes": 3,
   "pipeline": "text-generation",
   "tags": [
@@ -390,7 +390,7 @@
  {
   "id": "stepfun-ai/NextStep-1-Large",
   "createdAt": "2025-08-12T16:52:03.000Z",
-  "downloads": 133,
+  "downloads": 137,
   "likes": 98,
   "pipeline": "text-to-image",
   "tags": [
@@ -412,7 +412,7 @@
  {
   "id": "stepfun-ai/step3-fp8",
   "createdAt": "2025-07-31T10:00:18.000Z",
-  "downloads": 333,
+  "downloads": 318,
   "likes": 20,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -425,7 +425,7 @@
  {
   "id": "stepfun-ai/step3",
   "createdAt": "2025-07-28T11:07:33.000Z",
-  "downloads": 50107,
+  "downloads": 50602,
   "likes": 166,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -438,7 +438,7 @@
  {
   "id": "stepfun-ai/Step-Audio-AQAA",
   "createdAt": "2025-06-11T12:09:31.000Z",
-  "downloads": 211,
+  "downloads": 223,
   "likes": 49,
   "pipeline": "",
   "tags": [],
@@ -456,7 +456,7 @@
  {
   "id": "stepfun-ai/Qwen2.5-32B-DialogueReason",
   "createdAt": "2025-05-09T10:07:07.000Z",
-  "downloads": 111,
+  "downloads": 116,
   "likes": 13,
   "pipeline": "",
   "tags": [],
@@ -465,7 +465,7 @@
  {
   "id": "stepfun-ai/Step1X-Edit",
   "createdAt": "2025-04-23T05:42:15.000Z",
-  "downloads": 287,
+  "downloads": 277,
   "likes": 336,
   "pipeline": "image-to-image",
   "tags": [],
@@ -474,7 +474,7 @@
  {
   "id": "stepfun-ai/stepvideo-ti2v",
   "createdAt": "2025-03-13T08:03:16.000Z",
-  "downloads": 54,
+  "downloads": 56,
   "likes": 85,
   "pipeline": "image-to-video",
   "tags": [],
@@ -483,7 +483,7 @@
  {
   "id": "stepfun-ai/stepvideo-t2v",
   "createdAt": "2025-02-14T02:43:54.000Z",
-  "downloads": 86,
+  "downloads": 77,
   "likes": 480,
   "pipeline": "text-to-video",
   "tags": [],
@@ -492,7 +492,7 @@
  {
   "id": "stepfun-ai/Step-Audio-TTS-3B",
   "createdAt": "2025-02-13T14:49:26.000Z",
-  "downloads": 150,
+  "downloads": 155,
   "likes": 197,
   "pipeline": "text-to-speech",
   "tags": [],
@@ -510,7 +510,7 @@
  {
   "id": "stepfun-ai/Step-Audio-Chat",
   "createdAt": "2025-02-13T14:48:02.000Z",
-  "downloads": 336,
+  "downloads": 366,
   "likes": 461,
   "pipeline": "audio-text-to-text",
   "tags": [],
