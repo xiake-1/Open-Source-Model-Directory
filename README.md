@@ -8,9 +8,12 @@
 这个站把**新发布的开源模型**按时间收成一条线：**一条收录 = 官方链接 + 发布日 + 一句话简介**。
 打开看一眼就知道"这段时间出了什么、能不能上手跑"，不用再翻热搜和一堆转述文章。
 
-![开源模型目录首页 · 电脑宽屏（1440px）](assets/screenshots/home-desktop-1440.png)
-
-![开源模型目录首页 · 手机窄屏（390px）](assets/screenshots/home-mobile-390.png)
+<table>
+  <tr>
+    <td><a href="assets/screenshots/home-desktop-1440.png"><img src="assets/screenshots/home-desktop-1440.png" alt="开源模型目录首页 · 电脑宽屏（1440px）" width="640"></a></td>
+    <td><a href="assets/screenshots/home-mobile-390.png"><img src="assets/screenshots/home-mobile-390.png" alt="开源模型目录首页 · 手机窄屏（390px）" width="185"></a></td>
+  </tr>
+</table>
 
 ## 站里有什么
 
