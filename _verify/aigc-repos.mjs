@@ -159,4 +159,6 @@ export const REPOS = [
   'robbyant/lingbot-world-v2-1.3b-causal-fast',
   'XGENlabs/XGEN-JING',
   'videorebirth/hyperflow',
+  'Qwen/Qwen-Image-2.1-Turbo',
+  'SupraLabs/Supra2-IMG',
 ];

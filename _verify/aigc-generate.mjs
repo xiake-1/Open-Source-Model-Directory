@@ -44,7 +44,7 @@ function render(p) {
   lines.push(`org: ${q(p.org)}`);
   if (p.family) lines.push(`family: ${q(p.family)}`);
   lines.push(`released: ${p.released}`);
-  lines.push(`added: ${ADDED}`);
+  lines.push(`added: ${p.added ?? ADDED}`);
   lines.push(`summary: ${q(p.summary)}`);
   lines.push(`tags: [${p.tags.join(', ')}]`);
   if (p.license) lines.push(`license: ${q(p.license)}`);
