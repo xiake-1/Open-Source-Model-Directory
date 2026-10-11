@@ -12,7 +12,7 @@
  {
   "id": "Kwai-Kolors/CoTyle",
   "createdAt": "2025-10-15T10:48:58.000Z",
-  "downloads": 44,
+  "downloads": 39,
   "likes": 23,
   "pipeline": "text-to-image",
   "library": "diffusers",

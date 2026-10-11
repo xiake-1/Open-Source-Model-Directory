@@ -2,8 +2,8 @@
  {
   "id": "meta-llama/Llama-Prompt-Guard-2-86M",
   "createdAt": "2025-04-28T07:16:35.000Z",
-  "downloads": 121755,
-  "likes": 254,
+  "downloads": 119519,
+  "likes": 273,
   "pipeline": "text-classification",
   "tags": [],
   "gated": "manual"
@@ -11,8 +11,8 @@
  {
   "id": "meta-llama/Llama-Prompt-Guard-2-22M",
   "createdAt": "2025-04-28T07:15:58.000Z",
-  "downloads": 15740,
-  "likes": 71,
+  "downloads": 14711,
+  "likes": 74,
   "pipeline": "text-classification",
   "tags": [],
   "gated": "manual"
@@ -20,8 +20,8 @@
  {
   "id": "meta-llama/Llama-Guard-4-12B",
   "createdAt": "2025-04-23T11:30:25.000Z",
-  "downloads": 45581,
-  "likes": 130,
+  "downloads": 49392,
+  "likes": 131,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -50,8 +50,8 @@
  {
   "id": "meta-llama/Llama-4-Maverick-17B-128E-Original",
   "createdAt": "2025-04-03T15:51:13.000Z",
-  "downloads": 9,
-  "likes": 85,
+  "downloads": 7,
+  "likes": 86,
   "pipeline": "",
   "tags": [],
   "gated": "manual"
@@ -59,7 +59,7 @@
  {
   "id": "meta-llama/Llama-4-Scout-17B-16E-Instruct-Original",
   "createdAt": "2025-04-03T15:39:52.000Z",
-  "downloads": 12,
+  "downloads": 10,
   "likes": 55,
   "pipeline": "",
   "tags": [],
@@ -77,8 +77,8 @@
  {
   "id": "meta-llama/Llama-4-Maverick-17B-128E",
   "createdAt": "2025-04-02T17:35:27.000Z",
-  "downloads": 190,
-  "likes": 99,
+  "downloads": 313,
+  "likes": 100,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -89,8 +89,8 @@
  {
   "id": "meta-llama/Llama-4-Scout-17B-16E",
   "createdAt": "2025-04-02T17:03:27.000Z",
-  "downloads": 3740,
-  "likes": 271,
+  "downloads": 3030,
+  "likes": 273,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -101,8 +101,8 @@
  {
   "id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
   "createdAt": "2025-04-02T13:34:17.000Z",
-  "downloads": 174849,
-  "likes": 1363,
+  "downloads": 163461,
+  "likes": 1370,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -113,8 +113,8 @@
  {
   "id": "meta-llama/Llama-4-Maverick-17B-128E-Instruct",
   "createdAt": "2025-04-01T22:17:20.000Z",
-  "downloads": 9653,
-  "likes": 514,
+  "downloads": 9467,
+  "likes": 515,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -125,8 +125,8 @@
  {
   "id": "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
   "createdAt": "2025-04-01T20:47:02.000Z",
-  "downloads": 47566,
-  "likes": 183,
+  "downloads": 44566,
+  "likes": 185,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",

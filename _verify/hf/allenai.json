@@ -2,7 +2,7 @@
  {
   "id": "allenai/AstaBrief_8B_SFT",
   "createdAt": "2026-09-10T23:36:30.000Z",
-  "downloads": 694,
+  "downloads": 1037,
   "likes": 2,
   "pipeline": "text-generation",
   "tags": [
@@ -14,16 +14,82 @@
  {
   "id": "allenai/ACE2S-SHiELD-plus-supplemental-checkpoints",
   "createdAt": "2026-09-01T17:54:43.000Z",
-  "downloads": 14,
+  "downloads": 25,
   "likes": 0,
   "pipeline": "",
   "tags": [],
   "gated": false
  },
  {
+  "id": "allenai/Llama-3-Blama-8B",
+  "createdAt": "2026-08-26T13:40:05.000Z",
+  "downloads": 44,
+  "likes": 1,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "allenai/Llama-3-Blama-8B-Stage1",
+  "createdAt": "2026-08-26T13:32:05.000Z",
+  "downloads": 46,
+  "likes": 0,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "allenai/Bwen-8B",
+  "createdAt": "2026-08-26T13:21:04.000Z",
+  "downloads": 54,
+  "likes": 2,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "allenai/Bwen-8B-Stage1",
+  "createdAt": "2026-08-26T13:18:26.000Z",
+  "downloads": 42,
+  "likes": 2,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "allenai/Bolmo-1B-Stage1",
+  "createdAt": "2026-08-26T13:16:56.000Z",
+  "downloads": 53,
+  "likes": 0,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "allenai/Bolmo-7B-Stage1",
+  "createdAt": "2026-08-26T13:12:59.000Z",
+  "downloads": 45,
+  "likes": 1,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
   "id": "allenai/SamudrACE-E3SMv3",
   "createdAt": "2026-08-04T20:48:53.000Z",
-  "downloads": 44,
+  "downloads": 70,
   "likes": 4,
   "pipeline": "",
   "tags": [],
@@ -32,7 +98,7 @@
  {
   "id": "allenai/OlmoEarth-v1_2-Base",
   "createdAt": "2026-06-25T08:47:25.000Z",
-  "downloads": 17115,
+  "downloads": 20535,
   "likes": 7,
   "pipeline": "image-feature-extraction",
   "tags": [],
@@ -41,7 +107,7 @@
  {
   "id": "allenai/OlmoEarth-v1_2-Small",
   "createdAt": "2026-06-25T08:44:23.000Z",
-  "downloads": 4961,
+  "downloads": 4806,
   "likes": 5,
   "pipeline": "image-feature-extraction",
   "tags": [],
@@ -50,7 +116,7 @@
  {
   "id": "allenai/OlmoEarth-v1_2-Tiny",
   "createdAt": "2026-06-25T08:20:04.000Z",
-  "downloads": 3798,
+  "downloads": 1871,
   "likes": 1,
   "pipeline": "image-feature-extraction",
   "tags": [],
@@ -59,7 +125,7 @@
  {
   "id": "allenai/OlmoEarth-v1_2-Nano",
   "createdAt": "2026-06-24T16:10:21.000Z",
-  "downloads": 2918,
+  "downloads": 3118,
   "likes": 7,
   "pipeline": "image-feature-extraction",
   "tags": [],
@@ -68,7 +134,7 @@
  {
   "id": "allenai/tmax-27b",
   "createdAt": "2026-06-21T21:48:19.000Z",
-  "downloads": 1114,
+  "downloads": 2508,
   "likes": 25,
   "pipeline": "",
   "tags": [],
@@ -77,7 +143,7 @@
  {
   "id": "allenai/qwen35-9b-openthoughts",
   "createdAt": "2026-06-19T02:29:35.000Z",
-  "downloads": 157,
+  "downloads": 165,
   "likes": 3,
   "pipeline": "",
   "tags": [],
@@ -86,7 +152,7 @@
  {
   "id": "allenai/qwen35-9b-terminaltraj",
   "createdAt": "2026-06-19T02:02:16.000Z",
-  "downloads": 153,
+  "downloads": 164,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -95,7 +161,7 @@
  {
   "id": "allenai/qwen35-9b-cli-gym",
   "createdAt": "2026-06-19T01:37:39.000Z",
-  "downloads": 150,
+  "downloads": 155,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -104,7 +170,7 @@
  {
   "id": "allenai/qwen35-9b-swesmith",
   "createdAt": "2026-06-19T01:09:12.000Z",
-  "downloads": 160,
+  "downloads": 165,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -113,7 +179,7 @@
  {
   "id": "allenai/qwen35-9b-termigen",
   "createdAt": "2026-06-19T00:37:19.000Z",
-  "downloads": 167,
+  "downloads": 171,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -122,7 +188,7 @@
  {
   "id": "allenai/qwen35-9b-endless",
   "createdAt": "2026-06-18T22:55:05.000Z",
-  "downloads": 149,
+  "downloads": 151,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -131,7 +197,7 @@
  {
   "id": "allenai/tmax-sft-8b",
   "createdAt": "2026-06-17T20:34:59.000Z",
-  "downloads": 224,
+  "downloads": 197,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -140,7 +206,7 @@
  {
   "id": "allenai/tmax-8b",
   "createdAt": "2026-06-17T01:58:24.000Z",
-  "downloads": 224,
+  "downloads": 227,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -149,7 +215,7 @@
  {
   "id": "allenai/tmax-4b",
   "createdAt": "2026-06-17T01:39:12.000Z",
-  "downloads": 680,
+  "downloads": 416,
   "likes": 5,
   "pipeline": "",
   "tags": [],
@@ -158,7 +224,7 @@
  {
   "id": "allenai/tmax-2b",
   "createdAt": "2026-06-17T01:35:25.000Z",
-  "downloads": 1936,
+  "downloads": 397,
   "likes": 4,
   "pipeline": "",
   "tags": [],
@@ -167,7 +233,7 @@
  {
   "id": "allenai/tmax-9b",
   "createdAt": "2026-06-17T00:53:00.000Z",
-  "downloads": 2461,
+  "downloads": 1982,
   "likes": 16,
   "pipeline": "",
   "tags": [],
@@ -176,7 +242,7 @@
  {
   "id": "allenai/ACE2-SHiELD",
   "createdAt": "2026-06-15T18:33:54.000Z",
-  "downloads": 10,
+  "downloads": 8,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -185,7 +251,7 @@
  {
   "id": "allenai/MolmoMotion-4B-H3-F30",
   "createdAt": "2026-06-15T15:47:34.000Z",
-  "downloads": 649,
+  "downloads": 697,
   "likes": 13,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -197,7 +263,7 @@
  {
   "id": "allenai/MolmoMotion-4B-H1-F32",
   "createdAt": "2026-06-15T15:47:34.000Z",
-  "downloads": 416,
+  "downloads": 459,
   "likes": 5,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -209,7 +275,7 @@
  {
   "id": "allenai/ACE2S-SHiELD-plus",
   "createdAt": "2026-05-21T15:25:14.000Z",
-  "downloads": 25,
+  "downloads": 28,
   "likes": 5,
   "pipeline": "",
   "tags": [],
@@ -218,7 +284,7 @@
  {
   "id": "allenai/OlmoEarth-v1_1-Base",
   "createdAt": "2026-05-14T15:14:45.000Z",
-  "downloads": 295,
+  "downloads": 276,
   "likes": 11,
   "pipeline": "",
   "tags": [],
@@ -227,7 +293,7 @@
  {
   "id": "allenai/OlmoEarth-v1_1-Tiny",
   "createdAt": "2026-05-14T15:13:40.000Z",
-  "downloads": 811,
+  "downloads": 828,
   "likes": 5,
   "pipeline": "",
   "tags": [],
@@ -236,7 +302,7 @@
  {
   "id": "allenai/OlmoEarth-v1_1-Nano",
   "createdAt": "2026-05-14T14:39:22.000Z",
-  "downloads": 1690,
+  "downloads": 1962,
   "likes": 5,
   "pipeline": "",
   "tags": [],
@@ -245,7 +311,7 @@
  {
   "id": "allenai/MolmoAct2-LIBERO-LeRobot",
   "createdAt": "2026-05-14T04:18:31.000Z",
-  "downloads": 3804,
+  "downloads": 3902,
   "likes": 4,
   "pipeline": "robotics",
   "tags": [],
@@ -254,7 +320,7 @@
  {
   "id": "allenai/EMO",
   "createdAt": "2026-05-08T15:59:58.000Z",
-  "downloads": 332,
+  "downloads": 348,
   "likes": 5,
   "pipeline": "text-generation",
   "tags": [
@@ -275,7 +341,7 @@
  {
   "id": "allenai/StdMoE_1b14b_1T_EmoAnnealed",
   "createdAt": "2026-05-05T00:50:20.000Z",
-  "downloads": 332,
+  "downloads": 347,
   "likes": 5,
   "pipeline": "text-generation",
   "tags": [
@@ -287,7 +353,7 @@
  {
   "id": "allenai/StdMoE_1b14b_1T_Preanneal",
   "createdAt": "2026-05-05T00:28:32.000Z",
-  "downloads": 327,
+  "downloads": 332,
   "likes": 5,
   "pipeline": "text-generation",
   "tags": [
@@ -299,7 +365,7 @@
  {
   "id": "allenai/MolmoAct2-Think-LIBERO",
   "createdAt": "2026-05-04T17:08:57.000Z",
-  "downloads": 637,
+  "downloads": 575,
   "likes": 4,
   "pipeline": "robotics",
   "tags": [
@@ -310,7 +376,7 @@
  {
   "id": "allenai/MolmoAct2-LIBERO",
   "createdAt": "2026-05-04T17:08:47.000Z",
-  "downloads": 3816,
+  "downloads": 2002,
   "likes": 2,
   "pipeline": "robotics",
   "tags": [
@@ -321,7 +387,7 @@
  {
   "id": "allenai/MolmoAct2-SO100_101",
   "createdAt": "2026-05-04T17:08:39.000Z",
-  "downloads": 9692,
+  "downloads": 21636,
   "likes": 28,
   "pipeline": "robotics",
   "tags": [
@@ -332,7 +398,7 @@
  {
   "id": "allenai/MolmoAct2-BimanualYAM",
   "createdAt": "2026-05-04T17:08:29.000Z",
-  "downloads": 1142,
+  "downloads": 1165,
   "likes": 5,
   "pipeline": "robotics",
   "tags": [
@@ -343,7 +409,7 @@
  {
   "id": "allenai/MolmoAct2-DROID",
   "createdAt": "2026-05-04T17:08:15.000Z",
-  "downloads": 1728,
+  "downloads": 1852,
   "likes": 5,
   "pipeline": "robotics",
   "tags": [
@@ -354,7 +420,7 @@
  {
   "id": "allenai/MolmoAct2-Pretrain",
   "createdAt": "2026-05-04T16:49:57.000Z",
-  "downloads": 10225,
+  "downloads": 5175,
   "likes": 5,
   "pipeline": "robotics",
   "tags": [
@@ -365,7 +431,7 @@
  {
   "id": "allenai/MolmoAct2-Think",
   "createdAt": "2026-05-04T16:49:44.000Z",
-  "downloads": 8582,
+  "downloads": 4920,
   "likes": 5,
   "pipeline": "robotics",
   "tags": [
@@ -376,7 +442,7 @@
  {
   "id": "allenai/MolmoAct2",
   "createdAt": "2026-05-04T16:49:21.000Z",
-  "downloads": 24352,
+  "downloads": 23582,
   "likes": 25,
   "pipeline": "robotics",
   "tags": [
@@ -387,7 +453,7 @@
  {
   "id": "allenai/Molmo2-ER",
   "createdAt": "2026-05-04T06:08:00.000Z",
-  "downloads": 10839,
+  "downloads": 20783,
   "likes": 16,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -399,7 +465,7 @@
  {
   "id": "allenai/H_pre_LQK_32kv_8k_11k_SWA",
   "createdAt": "2026-04-30T13:16:46.000Z",
-  "downloads": 6,
+  "downloads": 11,
   "likes": 2,
   "pipeline": "",
   "tags": [],
@@ -408,7 +474,7 @@
  {
   "id": "allenai/G_pre_8kv_8k_14k_SWA",
   "createdAt": "2026-04-30T13:11:02.000Z",
-  "downloads": 4,
+  "downloads": 8,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -417,7 +483,7 @@
  {
   "id": "allenai/StdMoE_1b14b_1T",
   "createdAt": "2026-04-29T22:14:32.000Z",
-  "downloads": 406,
+  "downloads": 425,
   "likes": 5,
   "pipeline": "text-generation",
   "tags": [
@@ -429,7 +495,7 @@
  {
   "id": "allenai/StdMoE_1b14b_130B",
   "createdAt": "2026-04-29T21:51:36.000Z",
-  "downloads": 391,
+  "downloads": 380,
   "likes": 5,
   "pipeline": "text-generation",
   "tags": [
@@ -441,7 +507,7 @@
  {
   "id": "allenai/StdMoE_1b4b_130B",
   "createdAt": "2026-04-29T21:44:52.000Z",
-  "downloads": 393,
+  "downloads": 408,
   "likes": 5,
   "pipeline": "text-generation",
   "tags": [
@@ -453,7 +519,7 @@
  {
   "id": "allenai/Emo_1b14b_130B",
   "createdAt": "2026-04-29T21:39:54.000Z",
-  "downloads": 383,
+  "downloads": 374,
   "likes": 7,
   "pipeline": "text-generation",
   "tags": [
@@ -465,7 +531,7 @@
  {
   "id": "allenai/Emo_1b14b_1T",
   "createdAt": "2026-04-29T21:34:32.000Z",
-  "downloads": 659,
+  "downloads": 585,
   "likes": 29,
   "pipeline": "text-generation",
   "tags": [
@@ -477,7 +543,7 @@
  {
   "id": "allenai/Dense_1b_130B",
   "createdAt": "2026-04-29T21:24:08.000Z",
-  "downloads": 383,
+  "downloads": 413,
   "likes": 6,
   "pipeline": "text-generation",
   "tags": [
@@ -489,7 +555,7 @@
  {
   "id": "allenai/H_post_LQK_8kv_4k_11k_SWA",
   "createdAt": "2026-04-29T13:14:26.000Z",
-  "downloads": 3,
+  "downloads": 11,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -498,7 +564,7 @@
  {
   "id": "allenai/B_post_LQK_32kv_4k_11k",
   "createdAt": "2026-04-29T13:14:00.000Z",
-  "downloads": 2,
+  "downloads": 8,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -507,7 +573,7 @@
  {
   "id": "allenai/G_post_LQK_8kv_4k_14k_SWA",
   "createdAt": "2026-04-29T13:13:26.000Z",
-  "downloads": 3,
+  "downloads": 11,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -516,7 +582,7 @@
  {
   "id": "allenai/K_post_HQK_8kv_12k",
   "createdAt": "2026-04-29T13:13:17.000Z",
-  "downloads": 3,
+  "downloads": 34,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -525,7 +591,7 @@
  {
   "id": "allenai/H_post_LQK_32kv_8k_11k_SWA",
   "createdAt": "2026-04-29T13:11:54.000Z",
-  "downloads": 2,
+  "downloads": 11,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -534,7 +600,7 @@
  {
   "id": "allenai/A_post_HQK_8kv_8k_13k_SWA_fp8",
   "createdAt": "2026-04-29T13:10:34.000Z",
-  "downloads": 2,
+  "downloads": 34,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -543,7 +609,7 @@
  {
   "id": "allenai/H_post_LQK_32kv_8k_11k_SWA_fp8",
   "createdAt": "2026-04-29T02:19:05.000Z",
-  "downloads": 2,
+  "downloads": 8,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -552,7 +618,7 @@
  {
   "id": "allenai/F_pre_8kv_8k_14k_SWA",
   "createdAt": "2026-04-29T02:03:20.000Z",
-  "downloads": 5,
+  "downloads": 8,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -561,7 +627,7 @@
  {
   "id": "allenai/E_post_LQK_32kv_8k_11k_SWA_fp8",
   "createdAt": "2026-04-29T02:01:20.000Z",
-  "downloads": 2,
+  "downloads": 7,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -570,7 +636,7 @@
  {
   "id": "allenai/H_post_HQK_32kv_8k_11k_SWA",
   "createdAt": "2026-04-29T02:00:12.000Z",
-  "downloads": 2,
+  "downloads": 32,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -579,7 +645,7 @@
  {
   "id": "allenai/C_post_LQK_8kv_8k_13k_SWA",
   "createdAt": "2026-04-29T01:59:03.000Z",
-  "downloads": 3,
+  "downloads": 20,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -588,7 +654,7 @@
  {
   "id": "allenai/D_post_LQK_8kv_8k_13k_SWA_fp8",
   "createdAt": "2026-04-29T01:58:32.000Z",
-  "downloads": 2,
+  "downloads": 8,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -597,7 +663,7 @@
  {
   "id": "allenai/J_pre_16kv_8k_14k",
   "createdAt": "2026-04-29T01:41:08.000Z",
-  "downloads": 6,
+  "downloads": 12,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -606,7 +672,7 @@
  {
   "id": "allenai/I_pre_32kv_8k_12k",
   "createdAt": "2026-04-28T23:27:37.000Z",
-  "downloads": 6,
+  "downloads": 9,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -615,7 +681,7 @@
  {
   "id": "allenai/G_pre_8kv_8k_14k",
   "createdAt": "2026-04-28T23:27:33.000Z",
-  "downloads": 17,
+  "downloads": 33,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -624,7 +690,7 @@
  {
   "id": "allenai/G_post_LQK_8kv_8k_14k",
   "createdAt": "2026-04-28T23:24:53.000Z",
-  "downloads": 4,
+  "downloads": 10,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -633,7 +699,7 @@
  {
   "id": "allenai/G_pre_LQK_8kv_8k_14k",
   "createdAt": "2026-04-28T23:24:24.000Z",
-  "downloads": 12,
+  "downloads": 25,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -642,7 +708,7 @@
  {
   "id": "allenai/H_pre_32kv_8k_11k_SWA",
   "createdAt": "2026-04-28T23:12:12.000Z",
-  "downloads": 6,
+  "downloads": 24,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -651,7 +717,7 @@
  {
   "id": "allenai/G_pre_4kv_8k_14k",
   "createdAt": "2026-04-28T23:06:12.000Z",
-  "downloads": 6,
+  "downloads": 9,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -660,7 +726,7 @@
  {
   "id": "allenai/G_pre_8kv_4k_14k",
   "createdAt": "2026-04-28T22:56:22.000Z",
-  "downloads": 4,
+  "downloads": 7,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -669,7 +735,7 @@
  {
   "id": "allenai/H_post_LQK_32kv_8k_11k",
   "createdAt": "2026-04-28T22:36:57.000Z",
-  "downloads": 2,
+  "downloads": 9,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -678,7 +744,7 @@
  {
   "id": "allenai/H_post_LQK_32kv_4k_11k",
   "createdAt": "2026-04-28T19:11:47.000Z",
-  "downloads": 2,
+  "downloads": 10,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -687,7 +753,7 @@
  {
   "id": "allenai/B_post_LQK_32kv_4k_11k_SWA",
   "createdAt": "2026-04-28T16:31:18.000Z",
-  "downloads": 3,
+  "downloads": 18,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -696,7 +762,7 @@
  {
   "id": "allenai/D_post_LQK_8kv_8k_13k_SWA",
   "createdAt": "2026-04-28T01:43:49.000Z",
-  "downloads": 2,
+  "downloads": 15,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -705,7 +771,7 @@
  {
   "id": "allenai/BAR-2x7B-Tool-Use",
   "createdAt": "2026-04-19T21:01:36.000Z",
-  "downloads": 277,
+  "downloads": 292,
   "likes": 1,
   "pipeline": "text-generation",
   "tags": [
@@ -717,8 +783,8 @@
  {
   "id": "allenai/BAR-2x7B-Code",
   "createdAt": "2026-04-19T21:01:36.000Z",
-  "downloads": 294,
-  "likes": 3,
+  "downloads": 343,
+  "likes": 4,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -729,7 +795,7 @@
  {
   "id": "allenai/BAR-2x7B-Code-SFT",
   "createdAt": "2026-04-19T21:01:36.000Z",
-  "downloads": 237,
+  "downloads": 252,
   "likes": 3,
   "pipeline": "text-generation",
   "tags": [
@@ -741,7 +807,7 @@
  {
   "id": "allenai/BAR-2x7B-Safety",
   "createdAt": "2026-04-19T21:01:36.000Z",
-  "downloads": 240,
+  "downloads": 259,
   "likes": 0,
   "pipeline": "text-generation",
   "tags": [
@@ -753,7 +819,7 @@
  {
   "id": "allenai/BAR-2x7B-Math-SFT",
   "createdAt": "2026-04-19T21:01:35.000Z",
-  "downloads": 233,
+  "downloads": 251,
   "likes": 2,
   "pipeline": "text-generation",
   "tags": [
@@ -765,7 +831,7 @@
  {
   "id": "allenai/BAR-2x7B-Base",
   "createdAt": "2026-04-19T21:01:35.000Z",
-  "downloads": 283,
+  "downloads": 288,
   "likes": 2,
   "pipeline": "text-generation",
   "tags": [
@@ -777,7 +843,7 @@
  {
   "id": "allenai/BAR-2x7B-Math",
   "createdAt": "2026-04-19T21:01:35.000Z",
-  "downloads": 290,
+  "downloads": 313,
   "likes": 2,
   "pipeline": "text-generation",
   "tags": [
@@ -789,8 +855,8 @@
  {
   "id": "allenai/BAR-5x7B",
   "createdAt": "2026-04-19T21:01:34.000Z",
-  "downloads": 282,
-  "likes": 5,
+  "downloads": 311,
+  "likes": 6,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -801,7 +867,7 @@
  {
   "id": "allenai/BAR-7B",
   "createdAt": "2026-04-19T21:01:34.000Z",
-  "downloads": 272,
+  "downloads": 321,
   "likes": 3,
   "pipeline": "text-generation",
   "tags": [
@@ -813,7 +879,7 @@
  {
   "id": "allenai/intent-aware-lfqa-llama3-8b-intent-explicit",
   "createdAt": "2026-04-13T18:05:02.000Z",
-  "downloads": 175,
+  "downloads": 166,
   "likes": 1,
   "pipeline": "text-generation",
   "tags": [
@@ -825,7 +891,7 @@
  {
   "id": "allenai/intent-aware-lfqa-llama3-8b-intent-implicit",
   "createdAt": "2026-04-13T18:01:15.000Z",
-  "downloads": 177,
+  "downloads": 164,
   "likes": 1,
   "pipeline": "text-generation",
   "tags": [
@@ -837,7 +903,7 @@
  {
   "id": "allenai/intent-aware-lfqa-llama3-8b-baseline",
   "createdAt": "2026-04-13T17:57:32.000Z",
-  "downloads": 146,
+  "downloads": 136,
   "likes": 1,
   "pipeline": "text-generation",
   "tags": [
@@ -849,7 +915,7 @@
  {
   "id": "allenai/intent-aware-lfqa-llama3-8b-multiview",
   "createdAt": "2026-04-13T17:23:28.000Z",
-  "downloads": 151,
+  "downloads": 144,
   "likes": 1,
   "pipeline": "text-generation",
   "tags": [
@@ -861,7 +927,7 @@
  {
   "id": "allenai/intent-aware-lfqa-qwen3-8b-intent-implicit",
   "createdAt": "2026-04-13T17:20:40.000Z",
-  "downloads": 155,
+  "downloads": 147,
   "likes": 1,
   "pipeline": "text-generation",
   "tags": [
@@ -873,7 +939,7 @@
  {
   "id": "allenai/intent-aware-lfqa-qwen3-8b-baseline",
   "createdAt": "2026-04-13T17:17:47.000Z",
-  "downloads": 149,
+  "downloads": 139,
   "likes": 1,
   "pipeline": "text-generation",
   "tags": [
@@ -885,7 +951,7 @@
  {
   "id": "allenai/intent-aware-lfqa-qwen3-8b-multiview",
   "createdAt": "2026-04-13T17:14:51.000Z",
-  "downloads": 145,
+  "downloads": 142,
   "likes": 0,
   "pipeline": "text-generation",
   "tags": [
@@ -897,7 +963,7 @@
  {
   "id": "allenai/intent-aware-lfqa-qwen3-8b-intent-explicit",
   "createdAt": "2026-04-13T17:11:50.000Z",
-  "downloads": 148,
+  "downloads": 147,
   "likes": 1,
   "pipeline": "text-generation",
   "tags": [
@@ -909,7 +975,7 @@
  {
   "id": "allenai/intent-aware-lfqa-qwen3-4b-intent-implicit",
   "createdAt": "2026-04-13T17:10:09.000Z",
-  "downloads": 140,
+  "downloads": 138,
   "likes": 1,
   "pipeline": "text-generation",
   "tags": [
@@ -921,7 +987,7 @@
  {
   "id": "allenai/intent-aware-lfqa-qwen3-4b-baseline",
   "createdAt": "2026-04-13T17:08:25.000Z",
-  "downloads": 152,
+  "downloads": 134,
   "likes": 1,
   "pipeline": "text-generation",
   "tags": [
@@ -933,7 +999,7 @@
  {
   "id": "allenai/intent-aware-lfqa-qwen3-4b-intent-explicit",
   "createdAt": "2026-04-13T17:06:35.000Z",
-  "downloads": 153,
+  "downloads": 148,
   "likes": 2,
   "pipeline": "text-generation",
   "tags": [
@@ -945,7 +1011,7 @@
  {
   "id": "allenai/intent-aware-lfqa-qwen3-4b-multiview",
   "createdAt": "2026-04-13T17:00:10.000Z",
-  "downloads": 148,
+  "downloads": 134,
   "likes": 0,
   "pipeline": "text-generation",
   "tags": [
@@ -957,7 +1023,7 @@
  {
   "id": "allenai/MolmoWeb-Pretrained-8B",
   "createdAt": "2026-04-09T17:44:31.000Z",
-  "downloads": 11,
+  "downloads": 12,
   "likes": 4,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -968,7 +1034,7 @@
  {
   "id": "allenai/MolmoWeb-Pretrained-4B",
   "createdAt": "2026-04-08T16:40:02.000Z",
-  "downloads": 13,
+  "downloads": 10,
   "likes": 2,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -988,7 +1054,7 @@
  {
   "id": "allenai/WildDet3D",
   "createdAt": "2026-04-04T01:50:53.000Z",
-  "downloads": 120,
+  "downloads": 111,
   "likes": 44,
   "pipeline": "object-detection",
   "tags": [],
@@ -997,7 +1063,7 @@
  {
   "id": "allenai/MolmoBot-RBY1Multitask",
   "createdAt": "2026-03-24T14:24:58.000Z",
-  "downloads": 34,
+  "downloads": 36,
   "likes": 2,
   "pipeline": "robotics",
   "tags": [],
@@ -1006,7 +1072,7 @@
  {
   "id": "allenai/MolmoBot-RBY1DoorOpening",
   "createdAt": "2026-03-24T14:21:09.000Z",
-  "downloads": 8,
+  "downloads": 10,
   "likes": 2,
   "pipeline": "robotics",
   "tags": [],
@@ -1015,7 +1081,7 @@
  {
   "id": "allenai/MolmoWeb-8B-Native",
   "createdAt": "2026-03-24T03:00:16.000Z",
-  "downloads": 17,
+  "downloads": 18,
   "likes": 9,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -1026,7 +1092,7 @@
  {
   "id": "allenai/MolmoWeb-4B-Native",
   "createdAt": "2026-03-23T23:24:14.000Z",
-  "downloads": 15,
+  "downloads": 24,
   "likes": 9,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -1064,7 +1130,7 @@
  {
   "id": "allenai/MolmoWeb-8B",
   "createdAt": "2026-03-20T04:12:28.000Z",
-  "downloads": 751,
+  "downloads": 772,
   "likes": 70,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -1076,7 +1142,7 @@
  {
   "id": "allenai/MolmoWeb-4B",
   "createdAt": "2026-03-20T04:12:11.000Z",
-  "downloads": 1327,
+  "downloads": 1718,
   "likes": 36,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -1088,7 +1154,7 @@
  {
   "id": "allenai/MolmoBot-Ablation-MF3-DROID",
   "createdAt": "2026-03-20T00:12:35.000Z",
-  "downloads": 8,
+  "downloads": 11,
   "likes": 2,
   "pipeline": "robotics",
   "tags": [],
@@ -1097,7 +1163,7 @@
  {
   "id": "allenai/MolmoBot-Img-DROID",
   "createdAt": "2026-03-20T00:08:38.000Z",
-  "downloads": 25,
+  "downloads": 29,
   "likes": 2,
   "pipeline": "robotics",
   "tags": [],
@@ -1106,7 +1172,7 @@
  {
   "id": "allenai/MolmoBot-DROID",
   "createdAt": "2026-03-19T23:47:49.000Z",
-  "downloads": 83,
+  "downloads": 100,
   "likes": 3,
   "pipeline": "robotics",
   "tags": [],
@@ -1115,7 +1181,7 @@
  {
   "id": "allenai/MolmoPoint-Vid-4B",
   "createdAt": "2026-03-17T18:08:33.000Z",
-  "downloads": 594,
+  "downloads": 641,
   "likes": 13,
   "pipeline": "video-text-to-text",
   "tags": [],
@@ -1124,7 +1190,7 @@
  {
   "id": "allenai/MolmoPoint-GUI-8B",
   "createdAt": "2026-03-17T16:39:20.000Z",
-  "downloads": 455,
+  "downloads": 444,
   "likes": 20,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -1145,7 +1211,7 @@
  {
   "id": "allenai/MolmoPoint-8B",
   "createdAt": "2026-03-16T07:51:35.000Z",
-  "downloads": 7527,
+  "downloads": 8275,
   "likes": 31,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -1157,7 +1223,7 @@
  {
   "id": "allenai/Olmo-Hybrid-Think-SFT-7B",
   "createdAt": "2026-02-28T22:41:31.000Z",
-  "downloads": 683,
+  "downloads": 814,
   "likes": 19,
   "pipeline": "text-generation",
   "tags": [
@@ -1169,7 +1235,7 @@
  {
   "id": "allenai/Olmo-Hybrid-Instruct-DPO-7B",
   "createdAt": "2026-02-20T21:59:11.000Z",
-  "downloads": 761,
+  "downloads": 844,
   "likes": 21,
   "pipeline": "text-generation",
   "tags": [
@@ -1190,7 +1256,7 @@
  {
   "id": "allenai/Olmo-Hybrid-Instruct-SFT-7B",
   "createdAt": "2026-02-19T19:18:57.000Z",
-  "downloads": 7729,
+  "downloads": 2692,
   "likes": 17,
   "pipeline": "text-generation",
   "tags": [
@@ -1211,8 +1277,8 @@
  {
   "id": "allenai/AstaBrief_8B",
   "createdAt": "2026-02-09T17:13:01.000Z",
-  "downloads": 880,
-  "likes": 42,
+  "downloads": 1741,
+  "likes": 63,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1223,7 +1289,7 @@
  {
   "id": "allenai/SERA-14B",
   "createdAt": "2026-02-03T07:35:57.000Z",
-  "downloads": 152,
+  "downloads": 156,
   "likes": 12,
   "pipeline": "",
   "tags": [],
@@ -1241,7 +1307,7 @@
  {
   "id": "allenai/Olmo-Hybrid-7B",
   "createdAt": "2026-01-28T00:33:58.000Z",
-  "downloads": 16284,
+  "downloads": 13889,
   "likes": 67,
   "pipeline": "text-generation",
   "tags": [
@@ -1252,7 +1318,7 @@
  {
   "id": "allenai/SERA-8B",
   "createdAt": "2026-01-27T19:01:59.000Z",
-  "downloads": 326,
+  "downloads": 334,
   "likes": 44,
   "pipeline": "",
   "tags": [],
@@ -1261,7 +1327,7 @@
  {
   "id": "allenai/SERA-8B-GA",
   "createdAt": "2026-01-27T05:38:44.000Z",
-  "downloads": 164,
+  "downloads": 161,
   "likes": 15,
   "pipeline": "",
   "tags": [],
@@ -1270,7 +1336,7 @@
  {
   "id": "allenai/SERA-32B-GA",
   "createdAt": "2026-01-27T05:37:23.000Z",
-  "downloads": 124,
+  "downloads": 122,
   "likes": 22,
   "pipeline": "",
   "tags": [],
@@ -1279,7 +1345,7 @@
  {
   "id": "allenai/SERA-32B",
   "createdAt": "2026-01-27T05:29:32.000Z",
-  "downloads": 154,
+  "downloads": 157,
   "likes": 117,
   "pipeline": "",
   "tags": [],
@@ -1297,7 +1363,7 @@
  {
   "id": "allenai/Molmo2-VideoPoint-4B",
   "createdAt": "2025-12-16T05:04:52.000Z",
-  "downloads": 280,
+  "downloads": 243,
   "likes": 22,
   "pipeline": "video-text-to-text",
   "tags": [
@@ -1308,7 +1374,7 @@
  {
   "id": "allenai/Molmo2-O-7B",
   "createdAt": "2025-12-14T23:29:19.000Z",
-  "downloads": 16337,
+  "downloads": 17910,
   "likes": 26,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -1320,8 +1386,8 @@
  {
   "id": "allenai/Molmo2-8B",
   "createdAt": "2025-12-14T22:59:12.000Z",
-  "downloads": 59994,
-  "likes": 194,
+  "downloads": 52042,
+  "likes": 195,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -1332,7 +1398,7 @@
  {
   "id": "allenai/Molmo2-4B",
   "createdAt": "2025-12-14T22:55:51.000Z",
-  "downloads": 52389,
+  "downloads": 39411,
   "likes": 54,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -1344,8 +1410,8 @@
  {
   "id": "allenai/Bolmo-7B",
   "createdAt": "2025-12-13T14:25:25.000Z",
-  "downloads": 378,
-  "likes": 59,
+  "downloads": 601,
+  "likes": 60,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -1355,7 +1421,7 @@
  {
   "id": "allenai/Olmo-3.1-7B-RL-Zero-Math",
   "createdAt": "2025-12-12T04:08:05.000Z",
-  "downloads": 686,
+  "downloads": 598,
   "likes": 13,
   "pipeline": "text-generation",
   "tags": [
@@ -1367,7 +1433,7 @@
  {
   "id": "allenai/Olmo-3.1-7B-RL-Zero-Code",
   "createdAt": "2025-12-10T23:48:17.000Z",
-  "downloads": 532,
+  "downloads": 559,
   "likes": 21,
   "pipeline": "text-generation",
   "tags": [
@@ -1379,7 +1445,7 @@
  {
   "id": "allenai/Olmo-3.1-32B-Instruct",
   "createdAt": "2025-12-10T22:00:09.000Z",
-  "downloads": 15812,
+  "downloads": 18432,
   "likes": 85,
   "pipeline": "text-generation",
   "tags": [
@@ -1391,7 +1457,7 @@
  {
   "id": "allenai/Bolmo-1B",
   "createdAt": "2025-12-10T10:06:38.000Z",
-  "downloads": 1065,
+  "downloads": 1764,
   "likes": 50,
   "pipeline": "text-generation",
   "tags": [
@@ -1402,7 +1468,7 @@
  {
   "id": "allenai/Olmo-3.1-32B-Think",
   "createdAt": "2025-12-10T07:30:57.000Z",
-  "downloads": 18667,
+  "downloads": 19261,
   "likes": 115,
   "pipeline": "text-generation",
   "tags": [
@@ -1414,7 +1480,7 @@
  {
   "id": "allenai/SAGE-MM-Molmo2-8B-SFT_RL",
   "createdAt": "2025-12-02T21:33:50.000Z",
-  "downloads": 101,
+  "downloads": 104,
   "likes": 5,
   "pipeline": "video-text-to-text",
   "tags": [],
@@ -1423,7 +1489,7 @@
  {
   "id": "allenai/Olmo-3-7B-RL-Zero-Mix",
   "createdAt": "2025-12-01T19:14:43.000Z",
-  "downloads": 637,
+  "downloads": 862,
   "likes": 3,
   "pipeline": "text-generation",
   "tags": [
@@ -1435,7 +1501,7 @@
  {
   "id": "allenai/SAGE-MM-Molmo2-8B-SFT",
   "createdAt": "2025-11-26T19:06:15.000Z",
-  "downloads": 117,
+  "downloads": 122,
   "likes": 5,
   "pipeline": "video-text-to-text",
   "tags": [],
@@ -1453,7 +1519,7 @@
  {
   "id": "allenai/SAGE-MM-Qwen3-VL-8B-SFT",
   "createdAt": "2025-11-23T17:29:35.000Z",
-  "downloads": 107,
+  "downloads": 104,
   "likes": 4,
   "pipeline": "video-text-to-text",
   "tags": [],
@@ -1462,7 +1528,7 @@
  {
   "id": "allenai/SAGE-MM-Qwen3-VL-4B-SFT",
   "createdAt": "2025-11-23T17:27:59.000Z",
-  "downloads": 106,
+  "downloads": 103,
   "likes": 6,
   "pipeline": "video-text-to-text",
   "tags": [],
@@ -1471,7 +1537,7 @@
  {
   "id": "allenai/SAGE-MM-Qwen2.5-VL-7B-SFT_RL",
   "createdAt": "2025-11-23T17:23:10.000Z",
-  "downloads": 136,
+  "downloads": 128,
   "likes": 2,
   "pipeline": "video-text-to-text",
   "tags": [],
@@ -1480,7 +1546,7 @@
  {
   "id": "allenai/SAGE-MM-Qwen3-VL-8B-SFT_RL",
   "createdAt": "2025-11-23T17:19:30.000Z",
-  "downloads": 120,
+  "downloads": 117,
   "likes": 5,
   "pipeline": "video-text-to-text",
   "tags": [],
@@ -1489,7 +1555,7 @@
  {
   "id": "allenai/SAGE-MM-Qwen3-VL-4B-SFT_RL",
   "createdAt": "2025-11-23T17:17:30.000Z",
-  "downloads": 123,
+  "downloads": 119,
   "likes": 6,
   "pipeline": "video-text-to-text",
   "tags": [],
@@ -1498,8 +1564,8 @@
  {
   "id": "allenai/Olmo-3-7B-Instruct",
   "createdAt": "2025-11-19T20:49:53.000Z",
-  "downloads": 479352,
-  "likes": 152,
+  "downloads": 464187,
+  "likes": 155,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1510,7 +1576,7 @@
  {
   "id": "allenai/Olmo-3-32B-Think",
   "createdAt": "2025-11-19T20:48:33.000Z",
-  "downloads": 13329,
+  "downloads": 14395,
   "likes": 177,
   "pipeline": "text-generation",
   "tags": [
@@ -1522,7 +1588,7 @@
  {
   "id": "allenai/Olmo-3-7B-Instruct-DPO",
   "createdAt": "2025-11-19T00:17:10.000Z",
-  "downloads": 15071,
+  "downloads": 14939,
   "likes": 3,
   "pipeline": "text-generation",
   "tags": [
@@ -1534,7 +1600,7 @@
  {
   "id": "allenai/Olmo-3.1-32B-Instruct-DPO",
   "createdAt": "2025-11-18T23:32:35.000Z",
-  "downloads": 1885,
+  "downloads": 2493,
   "likes": 6,
   "pipeline": "text-generation",
   "tags": [
@@ -1546,7 +1612,7 @@
  {
   "id": "allenai/Olmo-3.1-32B-Instruct-SFT",
   "createdAt": "2025-11-18T22:25:54.000Z",
-  "downloads": 3101,
+  "downloads": 3047,
   "likes": 8,
   "pipeline": "",
   "tags": [],
@@ -1555,7 +1621,7 @@
  {
   "id": "allenai/Olmo-3-7B-Think-DPO",
   "createdAt": "2025-11-18T04:20:27.000Z",
-  "downloads": 10421,
+  "downloads": 7804,
   "likes": 7,
   "pipeline": "text-generation",
   "tags": [
@@ -1567,8 +1633,8 @@
  {
   "id": "allenai/Olmo-3-7B-Think",
   "createdAt": "2025-11-18T01:22:27.000Z",
-  "downloads": 451390,
-  "likes": 108,
+  "downloads": 490336,
+  "likes": 109,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1579,7 +1645,7 @@
  {
   "id": "allenai/Olmo-3-7B-Instruct-SFT",
   "createdAt": "2025-11-17T23:35:35.000Z",
-  "downloads": 36464,
+  "downloads": 36899,
   "likes": 6,
   "pipeline": "text-generation",
   "tags": [
@@ -1591,7 +1657,7 @@
  {
   "id": "allenai/Olmo-3-7B-RL-Zero-Code",
   "createdAt": "2025-11-17T17:36:01.000Z",
-  "downloads": 1607,
+  "downloads": 1885,
   "likes": 18,
   "pipeline": "text-generation",
   "tags": [
@@ -1603,7 +1669,7 @@
  {
   "id": "allenai/Olmo-3-7B-RL-Zero-Math",
   "createdAt": "2025-11-17T17:36:01.000Z",
-  "downloads": 1760,
+  "downloads": 2295,
   "likes": 13,
   "pipeline": "text-generation",
   "tags": [
@@ -1615,7 +1681,7 @@
  {
   "id": "allenai/Olmo-3-7B-RL-Zero-IF",
   "createdAt": "2025-11-17T17:36:01.000Z",
-  "downloads": 1606,
+  "downloads": 1918,
   "likes": 8,
   "pipeline": "text-generation",
   "tags": [
@@ -1627,7 +1693,7 @@
  {
   "id": "allenai/Olmo-3-7B-RL-Zero-General",
   "createdAt": "2025-11-17T17:36:01.000Z",
-  "downloads": 1359,
+  "downloads": 1578,
   "likes": 8,
   "pipeline": "text-generation",
   "tags": [
@@ -1639,7 +1705,7 @@
  {
   "id": "allenai/Olmo-3-32B-Think-DPO",
   "createdAt": "2025-11-14T20:04:52.000Z",
-  "downloads": 1000,
+  "downloads": 956,
   "likes": 4,
   "pipeline": "text-generation",
   "tags": [
@@ -1651,7 +1717,7 @@
  {
   "id": "allenai/Olmo-3-32B-Think-SFT",
   "createdAt": "2025-11-14T19:45:08.000Z",
-  "downloads": 43217,
+  "downloads": 43652,
   "likes": 4,
   "pipeline": "text-generation",
   "tags": [
@@ -1672,7 +1738,7 @@
  {
   "id": "allenai/Olmo-3-1125-32B",
   "createdAt": "2025-11-04T19:13:51.000Z",
-  "downloads": 25094,
+  "downloads": 20679,
   "likes": 128,
   "pipeline": "text-generation",
   "tags": [
@@ -1692,7 +1758,7 @@
  {
   "id": "allenai/OlmoEarth-v1-Large",
   "createdAt": "2025-10-31T21:26:29.000Z",
-  "downloads": 570,
+  "downloads": 551,
   "likes": 22,
   "pipeline": "",
   "tags": [],
@@ -1746,7 +1812,7 @@
  {
   "id": "allenai/OlmoEarth-v1-Base",
   "createdAt": "2025-10-23T17:47:31.000Z",
-  "downloads": 20333,
+  "downloads": 19358,
   "likes": 41,
   "pipeline": "",
   "tags": [],
@@ -1755,7 +1821,7 @@
  {
   "id": "allenai/OlmoEarth-v1-Nano",
   "createdAt": "2025-10-23T17:47:30.000Z",
-  "downloads": 7855,
+  "downloads": 6730,
   "likes": 16,
   "pipeline": "",
   "tags": [],
@@ -1764,7 +1830,7 @@
  {
   "id": "allenai/OlmoEarth-v1-Tiny",
   "createdAt": "2025-10-23T17:47:30.000Z",
-  "downloads": 3220,
+  "downloads": 4801,
   "likes": 11,
   "pipeline": "",
   "tags": [],
@@ -1773,7 +1839,7 @@
  {
   "id": "allenai/ACE2-ERA5-training-artifacts",
   "createdAt": "2025-10-22T22:35:04.000Z",
-  "downloads": 401,
+  "downloads": 431,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -1782,7 +1848,7 @@
  {
   "id": "allenai/dolma3-fasttext-weborganizer-topic-classifier",
   "createdAt": "2025-10-16T22:11:59.000Z",
-  "downloads": 48,
+  "downloads": 56,
   "likes": 4,
   "pipeline": "",
   "tags": [],
@@ -1791,7 +1857,7 @@
  {
   "id": "allenai/dolma3-fasttext-quality-classifier",
   "createdAt": "2025-10-16T21:56:09.000Z",
-  "downloads": 50,
+  "downloads": 45,
   "likes": 4,
   "pipeline": "",
   "tags": [],
@@ -1800,7 +1866,7 @@
  {
   "id": "allenai/Olmo-3-7B-Think-SFT",
   "createdAt": "2025-10-14T20:14:36.000Z",
-  "downloads": 7500,
+  "downloads": 8846,
   "likes": 12,
   "pipeline": "text-generation",
   "tags": [
@@ -1812,7 +1878,7 @@
  {
   "id": "allenai/SamudrACE-CM4-piControl",
   "createdAt": "2025-10-13T18:58:40.000Z",
-  "downloads": 13,
+  "downloads": 18,
   "likes": 8,
   "pipeline": "",
   "tags": [],
@@ -1821,7 +1887,7 @@
  {
   "id": "allenai/olmOCR-2-7B-1025-FP8",
   "createdAt": "2025-10-06T22:03:48.000Z",
-  "downloads": 105875,
+  "downloads": 97631,
   "likes": 257,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -1833,7 +1899,7 @@
  {
   "id": "allenai/olmOCR-2-7B-1025",
   "createdAt": "2025-10-06T21:16:59.000Z",
-  "downloads": 125547,
+  "downloads": 94884,
   "likes": 158,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -1854,7 +1920,7 @@
  {
   "id": "allenai/Olmo-3-1025-7B",
   "createdAt": "2025-09-12T19:24:57.000Z",
-  "downloads": 131105,
+  "downloads": 125263,
   "likes": 88,
   "pipeline": "text-generation",
   "tags": [
@@ -1874,7 +1940,7 @@
  {
   "id": "allenai/MolmoAct-7B-D-Captioner-0812",
   "createdAt": "2025-09-04T22:21:11.000Z",
-  "downloads": 136,
+  "downloads": 133,
   "likes": 0,
   "pipeline": "robotics",
   "tags": [
@@ -1885,7 +1951,7 @@
  {
   "id": "allenai/MolmoAct-7B-D-LIBERO-Spatial-0812",
   "createdAt": "2025-08-15T04:59:02.000Z",
-  "downloads": 258,
+  "downloads": 190,
   "likes": 0,
   "pipeline": "robotics",
   "tags": [
@@ -1896,7 +1962,7 @@
  {
   "id": "allenai/MolmoAct-7B-D-LIBERO-Object-0812",
   "createdAt": "2025-08-15T04:58:38.000Z",
-  "downloads": 277,
+  "downloads": 213,
   "likes": 0,
   "pipeline": "robotics",
   "tags": [
@@ -1907,7 +1973,7 @@
  {
   "id": "allenai/MolmoAct-7B-D-LIBERO-Goal-0812",
   "createdAt": "2025-08-15T04:57:57.000Z",
-  "downloads": 250,
+  "downloads": 157,
   "likes": 0,
   "pipeline": "robotics",
   "tags": [
@@ -1918,7 +1984,7 @@
  {
   "id": "allenai/MolmoAct-7B-D-LIBERO-Long-0812",
   "createdAt": "2025-08-15T04:57:33.000Z",
-  "downloads": 240,
+  "downloads": 184,
   "likes": 0,
   "pipeline": "robotics",
   "tags": [
@@ -1929,7 +1995,7 @@
  {
   "id": "allenai/olmOCR-7B-0825-FP8",
   "createdAt": "2025-08-13T20:55:44.000Z",
-  "downloads": 15983,
+  "downloads": 13009,
   "likes": 10,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -1941,7 +2007,7 @@
  {
   "id": "allenai/olmOCR-7B-0825",
   "createdAt": "2025-08-13T20:54:32.000Z",
-  "downloads": 598,
+  "downloads": 542,
   "likes": 58,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -1953,7 +2019,7 @@
  {
   "id": "allenai/MolmoAct-7B-O-0812",
   "createdAt": "2025-08-11T03:58:37.000Z",
-  "downloads": 171,
+  "downloads": 161,
   "likes": 5,
   "pipeline": "robotics",
   "tags": [
@@ -1964,7 +2030,7 @@
  {
   "id": "allenai/MolmoAct-7B-D-Pretrain-RT-1-0812",
   "createdAt": "2025-08-11T03:53:16.000Z",
-  "downloads": 345,
+  "downloads": 791,
   "likes": 6,
   "pipeline": "robotics",
   "tags": [
@@ -1975,7 +2041,7 @@
  {
   "id": "allenai/MolmoAct-7B-D-0812",
   "createdAt": "2025-08-09T08:12:48.000Z",
-  "downloads": 562,
+  "downloads": 489,
   "likes": 53,
   "pipeline": "robotics",
   "tags": [
@@ -1986,7 +2052,7 @@
  {
   "id": "allenai/MolmoAct-7B-D-Pretrain-0812",
   "createdAt": "2025-08-09T05:16:59.000Z",
-  "downloads": 361,
+  "downloads": 352,
   "likes": 8,
   "pipeline": "robotics",
   "tags": [
@@ -2006,7 +2072,7 @@
  {
   "id": "allenai/Flex-public-7B-1T",
   "createdAt": "2025-07-24T04:54:47.000Z",
-  "downloads": 239,
+  "downloads": 255,
   "likes": 6,
   "pipeline": "text-generation",
   "tags": [
@@ -2018,7 +2084,7 @@
  {
   "id": "allenai/olmOCR-7B-0725-FP8",
   "createdAt": "2025-07-22T22:26:21.000Z",
-  "downloads": 282,
+  "downloads": 254,
   "likes": 18,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -2030,7 +2096,7 @@
  {
   "id": "allenai/olmOCR-7B-0725",
   "createdAt": "2025-07-22T22:24:26.000Z",
-  "downloads": 760,
+  "downloads": 681,
   "likes": 64,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -2042,7 +2108,7 @@
  {
   "id": "allenai/OLMo-2-0425-1B-early-training",
   "createdAt": "2025-07-12T03:55:20.000Z",
-  "downloads": 1905,
+  "downloads": 2471,
   "likes": 8,
   "pipeline": "text-generation",
   "tags": [
@@ -2053,7 +2119,7 @@
  {
   "id": "allenai/FlexOlmo-7x7B-1T-RT",
   "createdAt": "2025-06-21T00:24:03.000Z",
-  "downloads": 250,
+  "downloads": 375,
   "likes": 7,
   "pipeline": "text-generation",
   "tags": [
@@ -2065,7 +2131,7 @@
  {
   "id": "allenai/olmOCR-7B-0225-preview-FP8",
   "createdAt": "2025-06-17T21:15:43.000Z",
-  "downloads": 373,
+  "downloads": 675,
   "likes": 9,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -2077,7 +2143,7 @@
  {
   "id": "allenai/FlexOlmo-7x7B-1T",
   "createdAt": "2025-06-11T15:59:46.000Z",
-  "downloads": 7254,
+  "downloads": 6658,
   "likes": 43,
   "pipeline": "text-generation",
   "tags": [
@@ -2089,7 +2155,7 @@
  {
   "id": "allenai/Flex-reddit-2x7B-1T",
   "createdAt": "2025-06-11T07:28:54.000Z",
-  "downloads": 3195,
+  "downloads": 2800,
   "likes": 9,
   "pipeline": "text-generation",
   "tags": [
@@ -2101,7 +2167,7 @@
  {
   "id": "allenai/Flex-news-2x7B-1T",
   "createdAt": "2025-06-11T07:26:23.000Z",
-  "downloads": 217,
+  "downloads": 240,
   "likes": 4,
   "pipeline": "text-generation",
   "tags": [
@@ -2113,7 +2179,7 @@
  {
   "id": "allenai/Flex-creative-2x7B-1T",
   "createdAt": "2025-06-11T07:23:48.000Z",
-  "downloads": 223,
+  "downloads": 248,
   "likes": 6,
   "pipeline": "text-generation",
   "tags": [
@@ -2125,7 +2191,7 @@
  {
   "id": "allenai/Flex-pes2o-2x7B-1T",
   "createdAt": "2025-06-11T07:20:58.000Z",
-  "downloads": 212,
+  "downloads": 235,
   "likes": 3,
   "pipeline": "text-generation",
   "tags": [
@@ -2137,7 +2203,7 @@
  {
   "id": "allenai/Flex-code-2x7B-1T",
   "createdAt": "2025-06-11T07:18:51.000Z",
-  "downloads": 207,
+  "downloads": 230,
   "likes": 5,
   "pipeline": "text-generation",
   "tags": [
@@ -2149,7 +2215,7 @@
  {
   "id": "allenai/Flex-math-2x7B-1T",
   "createdAt": "2025-06-11T07:13:46.000Z",
-  "downloads": 236,
+  "downloads": 332,
   "likes": 4,
   "pipeline": "text-generation",
   "tags": [
@@ -2161,7 +2227,7 @@
  {
   "id": "allenai/GraspMolmo",
   "createdAt": "2025-06-04T00:15:46.000Z",
-  "downloads": 1484,
+  "downloads": 543,
   "likes": 11,
   "pipeline": "robotics",
   "tags": [],
@@ -2170,7 +2236,7 @@
  {
   "id": "allenai/Llama-3.1-Tulu-3-70B-SFT-RM-RB2",
   "createdAt": "2025-06-02T04:27:51.000Z",
-  "downloads": 104,
+  "downloads": 107,
   "likes": 0,
   "pipeline": "text-classification",
   "tags": [],
@@ -2179,7 +2245,7 @@
  {
   "id": "allenai/Llama-3.1-Tulu-3-8B-RL-RM-RB2",
   "createdAt": "2025-06-02T04:07:47.000Z",
-  "downloads": 105,
+  "downloads": 98,
   "likes": 0,
   "pipeline": "text-classification",
   "tags": [],
@@ -2188,7 +2254,7 @@
  {
   "id": "allenai/Llama-3.1-Tulu-3-8B-DPO-RM-RB2",
   "createdAt": "2025-06-02T04:06:26.000Z",
-  "downloads": 105,
+  "downloads": 102,
   "likes": 0,
   "pipeline": "text-classification",
   "tags": [],
@@ -2197,7 +2263,7 @@
  {
   "id": "allenai/Llama-3.1-Tulu-3-8B-SFT-RM-RB2",
   "createdAt": "2025-06-02T04:05:21.000Z",
-  "downloads": 105,
+  "downloads": 111,
   "likes": 0,
   "pipeline": "text-classification",
   "tags": [],
@@ -2206,7 +2272,7 @@
  {
   "id": "allenai/Llama-3.1-8B-Base-RM-RB2",
   "createdAt": "2025-06-02T04:04:10.000Z",
-  "downloads": 111,
+  "downloads": 104,
   "likes": 0,
   "pipeline": "text-classification",
   "tags": [],
@@ -2215,7 +2281,7 @@
  {
   "id": "allenai/Llama-3.1-8B-Instruct-RM-RB2",
   "createdAt": "2025-06-02T04:03:03.000Z",
-  "downloads": 734,
+  "downloads": 439,
   "likes": 1,
   "pipeline": "text-classification",
   "tags": [],
@@ -2224,7 +2290,7 @@
  {
   "id": "allenai/Llama-3.1-70B-Instruct-RM-RB2",
   "createdAt": "2025-06-02T00:57:44.000Z",
-  "downloads": 112,
+  "downloads": 98,
   "likes": 1,
   "pipeline": "text-classification",
   "tags": [],
@@ -2233,7 +2299,7 @@
  {
   "id": "allenai/ACE2-EAMv3",
   "createdAt": "2025-05-12T23:21:58.000Z",
-  "downloads": 18,
+  "downloads": 17,
   "likes": 2,
   "pipeline": "",
   "tags": [],
@@ -2242,7 +2308,7 @@
  {
   "id": "allenai/OLMo-2-0425-1B-Instruct-GGUF",
   "createdAt": "2025-04-30T20:19:37.000Z",
-  "downloads": 626,
+  "downloads": 977,
   "likes": 15,
   "pipeline": "",
   "tags": [
@@ -2253,7 +2319,7 @@
  {
   "id": "allenai/OLMo-2-0425-1B-GGUF",
   "createdAt": "2025-04-30T18:15:18.000Z",
-  "downloads": 474,
+  "downloads": 508,
   "likes": 2,
   "pipeline": "",
   "tags": [],
@@ -2262,7 +2328,7 @@
  {
   "id": "allenai/OLMo-2-0425-1B-RLVR1",
   "createdAt": "2025-04-29T21:22:34.000Z",
-  "downloads": 859,
+  "downloads": 1298,
   "likes": 2,
   "pipeline": "text-generation",
   "tags": [
@@ -2274,8 +2340,8 @@
  {
   "id": "allenai/OLMo-2-0425-1B-Instruct",
   "createdAt": "2025-04-29T18:57:17.000Z",
-  "downloads": 64905,
-  "likes": 57,
+  "downloads": 54656,
+  "likes": 58,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2286,7 +2352,7 @@
  {
   "id": "allenai/OLMo-2-0425-1B-DPO",
   "createdAt": "2025-04-28T19:51:57.000Z",
-  "downloads": 13861,
+  "downloads": 6033,
   "likes": 4,
   "pipeline": "text-generation",
   "tags": [
@@ -2298,7 +2364,7 @@
  {
   "id": "allenai/OLMo-2-0425-1B-SFT",
   "createdAt": "2025-04-24T21:04:53.000Z",
-  "downloads": 7083,
+  "downloads": 8319,
   "likes": 5,
   "pipeline": "text-generation",
   "tags": [
@@ -2310,7 +2376,7 @@
  {
   "id": "allenai/OLMo-Ladder-760M-0.5xC",
   "createdAt": "2025-04-24T18:55:06.000Z",
-  "downloads": 112,
+  "downloads": 110,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -2328,7 +2394,7 @@
  {
   "id": "allenai/OLMo-2-0425-1B",
   "createdAt": "2025-04-17T22:45:45.000Z",
-  "downloads": 372810,
+  "downloads": 296578,
   "likes": 82,
   "pipeline": "text-generation",
   "tags": [
@@ -2348,7 +2414,7 @@
  {
   "id": "allenai/DataDecide-dolma1_7-no-reddit-6M",
   "createdAt": "2025-04-04T04:30:44.000Z",
-  "downloads": 124,
+  "downloads": 129,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -2357,7 +2423,7 @@
  {
   "id": "allenai/DataDecide-c4-6M",
   "createdAt": "2025-04-04T04:30:27.000Z",
-  "downloads": 234,
+  "downloads": 251,
   "likes": 2,
   "pipeline": "",
   "tags": [],
@@ -2366,7 +2432,7 @@
  {
   "id": "allenai/DataDecide-dolma1_6plus-6M",
   "createdAt": "2025-04-04T04:30:08.000Z",
-  "downloads": 134,
+  "downloads": 126,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -2375,7 +2441,7 @@
  {
   "id": "allenai/DataDecide-fineweb-edu-6M",
   "createdAt": "2025-04-04T04:29:50.000Z",
-  "downloads": 140,
+  "downloads": 129,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -2393,7 +2459,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-6M",
   "createdAt": "2025-04-04T04:29:11.000Z",
-  "downloads": 238,
+  "downloads": 271,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -2402,7 +2468,7 @@
  {
   "id": "allenai/DataDecide-falcon-and-cc-qc-tulu-10p-6M",
   "createdAt": "2025-04-04T04:28:52.000Z",
-  "downloads": 112,
+  "downloads": 113,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -2411,7 +2477,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-20p-6M",
   "createdAt": "2025-04-04T04:28:34.000Z",
-  "downloads": 123,
+  "downloads": 121,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -2420,7 +2486,7 @@
  {
   "id": "allenai/DataDecide-dolma1_7-no-flan-6M",
   "createdAt": "2025-04-04T04:28:13.000Z",
-  "downloads": 128,
+  "downloads": 140,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -2429,7 +2495,7 @@
  {
   "id": "allenai/DataDecide-dolma1_7-no-math-code-6M",
   "createdAt": "2025-04-04T04:27:55.000Z",
-  "downloads": 128,
+  "downloads": 132,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -2438,7 +2504,7 @@
  {
   "id": "allenai/DataDecide-dolma1_7-6M",
   "createdAt": "2025-04-04T04:27:37.000Z",
-  "downloads": 250,
+  "downloads": 287,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -2447,7 +2513,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-10p-6M",
   "createdAt": "2025-04-04T04:27:16.000Z",
-  "downloads": 115,
+  "downloads": 127,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -2456,7 +2522,7 @@
  {
   "id": "allenai/DataDecide-fineweb-pro-6M",
   "createdAt": "2025-04-04T04:26:58.000Z",
-  "downloads": 120,
+  "downloads": 125,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -2465,7 +2531,7 @@
  {
   "id": "allenai/DataDecide-falcon-and-cc-qc-orig-10p-6M",
   "createdAt": "2025-04-04T04:26:39.000Z",
-  "downloads": 119,
+  "downloads": 121,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -2474,7 +2540,7 @@
  {
   "id": "allenai/DataDecide-falcon-and-cc-qc-10p-6M",
   "createdAt": "2025-04-04T04:26:21.000Z",
-  "downloads": 121,
+  "downloads": 122,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -2483,7 +2549,7 @@
  {
   "id": "allenai/DataDecide-dolma1_7-no-code-6M",
   "createdAt": "2025-04-04T04:26:04.000Z",
-  "downloads": 156,
+  "downloads": 159,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -2492,7 +2558,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-fw-3p-6M",
   "createdAt": "2025-04-04T04:25:46.000Z",
-  "downloads": 109,
+  "downloads": 111,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -2501,7 +2567,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-fw-10p-6M",
   "createdAt": "2025-04-04T04:25:28.000Z",
-  "downloads": 123,
+  "downloads": 124,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -2519,7 +2585,7 @@
  {
   "id": "allenai/DataDecide-falcon-and-cc-qc-20p-6M",
   "createdAt": "2025-04-04T04:24:51.000Z",
-  "downloads": 123,
+  "downloads": 119,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -2528,7 +2594,7 @@
  {
   "id": "allenai/DataDecide-falcon-and-cc-6M",
   "createdAt": "2025-04-04T04:24:32.000Z",
-  "downloads": 113,
+  "downloads": 115,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -2537,7 +2603,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-7p-fw2-6M",
   "createdAt": "2025-04-04T04:24:13.000Z",
-  "downloads": 108,
+  "downloads": 110,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -2546,7 +2612,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-25p-dolma1.7-75p-6M",
   "createdAt": "2025-04-04T04:23:55.000Z",
-  "downloads": 123,
+  "downloads": 122,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -2555,7 +2621,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-7p-fw3-6M",
   "createdAt": "2025-04-04T04:23:37.000Z",
-  "downloads": 116,
+  "downloads": 120,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -2564,7 +2630,7 @@
  {
   "id": "allenai/DataDecide-falcon-6M",
   "createdAt": "2025-04-04T04:23:19.000Z",
-  "downloads": 159,
+  "downloads": 152,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -2573,7 +2639,7 @@
  {
   "id": "allenai/DataDecide-dolma1_6plus-16M",
   "createdAt": "2025-04-04T04:23:00.000Z",
-  "downloads": 119,
+  "downloads": 117,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -2582,7 +2648,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-fw-3p-16M",
   "createdAt": "2025-04-04T04:22:39.000Z",
-  "downloads": 127,
+  "downloads": 126,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -2600,7 +2666,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-50p-dolma1.7-50p-16M",
   "createdAt": "2025-04-04T04:21:58.000Z",
-  "downloads": 116,
+  "downloads": 121,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -2609,7 +2675,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-7p-fw2-16M",
   "createdAt": "2025-04-04T04:21:37.000Z",
-  "downloads": 110,
+  "downloads": 119,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -2618,7 +2684,7 @@
  {
   "id": "allenai/DataDecide-falcon-and-cc-16M",
   "createdAt": "2025-04-04T04:21:17.000Z",
-  "downloads": 111,
+  "downloads": 112,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -2627,7 +2693,7 @@
  {
   "id": "allenai/DataDecide-dolma1_7-no-code-16M",
   "createdAt": "2025-04-04T04:20:57.000Z",
-  "downloads": 125,
+  "downloads": 120,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -2636,7 +2702,7 @@
  {
   "id": "allenai/DataDecide-falcon-and-cc-qc-20p-16M",
   "createdAt": "2025-04-04T04:20:37.000Z",
-  "downloads": 116,
+  "downloads": 115,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -2645,7 +2711,7 @@
  {
   "id": "allenai/DataDecide-falcon-and-cc-qc-orig-10p-16M",
   "createdAt": "2025-04-04T04:20:15.000Z",
-  "downloads": 107,
+  "downloads": 118,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -2654,7 +2720,7 @@
  {
   "id": "allenai/DataDecide-dolma1_7-no-reddit-16M",
   "createdAt": "2025-04-04T04:19:54.000Z",
-  "downloads": 100,
+  "downloads": 110,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -2663,7 +2729,7 @@
  {
   "id": "allenai/DataDecide-falcon-and-cc-qc-10p-16M",
   "createdAt": "2025-04-04T04:19:33.000Z",
-  "downloads": 119,
+  "downloads": 122,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -2672,7 +2738,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-fw-10p-16M",
   "createdAt": "2025-04-04T04:19:13.000Z",
-  "downloads": 112,
+  "downloads": 114,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -2681,7 +2747,7 @@
  {
   "id": "allenai/DataDecide-fineweb-edu-16M",
   "createdAt": "2025-04-04T04:18:52.000Z",
-  "downloads": 129,
+  "downloads": 124,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -2690,7 +2756,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-7p-fw3-16M",
   "createdAt": "2025-04-04T04:18:31.000Z",
-  "downloads": 119,
+  "downloads": 123,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -2699,7 +2765,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-20p-16M",
   "createdAt": "2025-04-04T04:18:10.000Z",
-  "downloads": 120,
+  "downloads": 122,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -2708,7 +2774,7 @@
  {
   "id": "allenai/DataDecide-falcon-and-cc-qc-tulu-10p-16M",
   "createdAt": "2025-04-04T04:17:50.000Z",
-  "downloads": 119,
+  "downloads": 122,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -2717,7 +2783,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-10p-16M",
   "createdAt": "2025-04-04T04:17:29.000Z",
-  "downloads": 118,
+  "downloads": 129,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -2726,7 +2792,7 @@
  {
   "id": "allenai/DataDecide-dolma1_7-no-math-code-16M",
   "createdAt": "2025-04-04T04:17:10.000Z",
-  "downloads": 116,
+  "downloads": 121,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -2744,7 +2810,7 @@
  {
   "id": "allenai/DataDecide-c4-16M",
   "createdAt": "2025-04-04T04:16:29.000Z",
-  "downloads": 251,
+  "downloads": 267,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -2753,7 +2819,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-75p-dolma1.7-25p-16M",
   "createdAt": "2025-04-04T04:16:09.000Z",
-  "downloads": 124,
+  "downloads": 123,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -2762,7 +2828,7 @@
  {
   "id": "allenai/DataDecide-dolma1_7-no-flan-16M",
   "createdAt": "2025-04-04T04:15:44.000Z",
-  "downloads": 106,
+  "downloads": 122,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -2771,7 +2837,7 @@
  {
   "id": "allenai/DataDecide-dolma1_7-16M",
   "createdAt": "2025-04-04T04:15:23.000Z",
-  "downloads": 267,
+  "downloads": 313,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -2780,7 +2846,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-16M",
   "createdAt": "2025-04-04T04:15:03.000Z",
-  "downloads": 217,
+  "downloads": 251,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -2789,7 +2855,7 @@
  {
   "id": "allenai/DataDecide-falcon-16M",
   "createdAt": "2025-04-04T04:14:43.000Z",
-  "downloads": 155,
+  "downloads": 144,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -2798,7 +2864,7 @@
  {
   "id": "allenai/DataDecide-falcon-and-cc-qc-tulu-10p-14M",
   "createdAt": "2025-04-04T04:14:22.000Z",
-  "downloads": 122,
+  "downloads": 121,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -2807,7 +2873,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-7p-fw3-14M",
   "createdAt": "2025-04-04T04:14:01.000Z",
-  "downloads": 111,
+  "downloads": 122,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -2816,7 +2882,7 @@
  {
   "id": "allenai/DataDecide-fineweb-edu-14M",
   "createdAt": "2025-04-04T04:13:39.000Z",
-  "downloads": 163,
+  "downloads": 162,
   "likes": 2,
   "pipeline": "",
   "tags": [],
@@ -2825,7 +2891,7 @@
  {
   "id": "allenai/DataDecide-falcon-and-cc-qc-orig-10p-14M",
   "createdAt": "2025-04-04T04:13:20.000Z",
-  "downloads": 124,
+  "downloads": 130,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -2834,7 +2900,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-fw-3p-14M",
   "createdAt": "2025-04-04T04:12:59.000Z",
-  "downloads": 105,
+  "downloads": 110,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -2843,7 +2909,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-fw-10p-14M",
   "createdAt": "2025-04-04T04:12:39.000Z",
-  "downloads": 110,
+  "downloads": 113,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -2852,7 +2918,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-20p-14M",
   "createdAt": "2025-04-04T04:12:17.000Z",
-  "downloads": 114,
+  "downloads": 115,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -2861,7 +2927,7 @@
  {
   "id": "allenai/DataDecide-fineweb-pro-14M",
   "createdAt": "2025-04-04T04:11:57.000Z",
-  "downloads": 119,
+  "downloads": 123,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -2870,7 +2936,7 @@
  {
   "id": "allenai/DataDecide-dolma1_7-no-math-code-14M",
   "createdAt": "2025-04-04T04:11:37.000Z",
-  "downloads": 133,
+  "downloads": 138,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -2879,7 +2945,7 @@
  {
   "id": "allenai/DataDecide-falcon-and-cc-14M",
   "createdAt": "2025-04-03T05:42:48.000Z",
-  "downloads": 106,
+  "downloads": 116,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -2888,7 +2954,7 @@
  {
   "id": "allenai/DataDecide-falcon-14M",
   "createdAt": "2025-04-03T05:42:26.000Z",
-  "downloads": 196,
+  "downloads": 181,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -2897,7 +2963,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-7p-fw2-14M",
   "createdAt": "2025-04-03T05:42:03.000Z",
-  "downloads": 110,
+  "downloads": 121,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -2906,7 +2972,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-14M",
   "createdAt": "2025-04-03T05:41:39.000Z",
-  "downloads": 207,
+  "downloads": 248,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -2915,7 +2981,7 @@
  {
   "id": "allenai/DataDecide-dolma1_7-no-reddit-14M",
   "createdAt": "2025-04-03T05:41:08.000Z",
-  "downloads": 113,
+  "downloads": 121,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -2924,7 +2990,7 @@
  {
   "id": "allenai/DataDecide-dolma1_7-no-code-14M",
   "createdAt": "2025-04-03T05:40:40.000Z",
-  "downloads": 133,
+  "downloads": 132,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -2933,7 +2999,7 @@
  {
   "id": "allenai/DataDecide-falcon-and-cc-qc-20p-14M",
   "createdAt": "2025-04-03T05:40:16.000Z",
-  "downloads": 112,
+  "downloads": 125,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -2942,7 +3008,7 @@
  {
   "id": "allenai/DataDecide-dolma1_7-14M",
   "createdAt": "2025-04-03T05:39:55.000Z",
-  "downloads": 258,
+  "downloads": 306,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -2951,7 +3017,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-10p-14M",
   "createdAt": "2025-04-03T05:39:34.000Z",
-  "downloads": 112,
+  "downloads": 121,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -2960,7 +3026,7 @@
  {
   "id": "allenai/DataDecide-dolma1_6plus-14M",
   "createdAt": "2025-04-03T05:39:12.000Z",
-  "downloads": 132,
+  "downloads": 123,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -2969,7 +3035,7 @@
  {
   "id": "allenai/DataDecide-falcon-and-cc-qc-10p-14M",
   "createdAt": "2025-04-03T05:38:51.000Z",
-  "downloads": 108,
+  "downloads": 114,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -2978,7 +3044,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-50p-dolma1.7-50p-14M",
   "createdAt": "2025-04-03T05:38:29.000Z",
-  "downloads": 128,
+  "downloads": 131,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -2987,7 +3053,7 @@
  {
   "id": "allenai/DataDecide-c4-14M",
   "createdAt": "2025-04-03T05:38:05.000Z",
-  "downloads": 258,
+  "downloads": 273,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -2996,7 +3062,7 @@
  {
   "id": "allenai/DataDecide-dolma1_7-no-flan-14M",
   "createdAt": "2025-04-03T05:37:41.000Z",
-  "downloads": 120,
+  "downloads": 136,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3005,7 +3071,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-75p-dolma1.7-25p-14M",
   "createdAt": "2025-04-03T05:37:20.000Z",
-  "downloads": 116,
+  "downloads": 115,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3014,7 +3080,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-25p-dolma1.7-75p-14M",
   "createdAt": "2025-04-03T05:36:58.000Z",
-  "downloads": 103,
+  "downloads": 115,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3023,7 +3089,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-50p-dolma1.7-50p-8M",
   "createdAt": "2025-04-03T05:36:37.000Z",
-  "downloads": 124,
+  "downloads": 125,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3032,7 +3098,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-7p-fw3-8M",
   "createdAt": "2025-04-03T05:36:18.000Z",
-  "downloads": 104,
+  "downloads": 108,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3041,7 +3107,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-25p-dolma1.7-75p-8M",
   "createdAt": "2025-04-03T05:35:59.000Z",
-  "downloads": 127,
+  "downloads": 128,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3059,7 +3125,7 @@
  {
   "id": "allenai/DataDecide-dolma1_7-no-flan-8M",
   "createdAt": "2025-04-03T05:35:17.000Z",
-  "downloads": 119,
+  "downloads": 125,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3068,7 +3134,7 @@
  {
   "id": "allenai/DataDecide-c4-8M",
   "createdAt": "2025-04-03T05:34:58.000Z",
-  "downloads": 247,
+  "downloads": 265,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3077,7 +3143,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-7p-fw2-8M",
   "createdAt": "2025-04-03T05:34:39.000Z",
-  "downloads": 105,
+  "downloads": 106,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3086,7 +3152,7 @@
  {
   "id": "allenai/DataDecide-falcon-and-cc-qc-tulu-10p-8M",
   "createdAt": "2025-04-03T05:34:22.000Z",
-  "downloads": 123,
+  "downloads": 124,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3095,7 +3161,7 @@
  {
   "id": "allenai/DataDecide-fineweb-pro-8M",
   "createdAt": "2025-04-03T05:34:02.000Z",
-  "downloads": 121,
+  "downloads": 123,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -3104,7 +3170,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-8M",
   "createdAt": "2025-04-03T05:33:41.000Z",
-  "downloads": 239,
+  "downloads": 272,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3113,7 +3179,7 @@
  {
   "id": "allenai/DataDecide-dolma1_7-no-math-code-8M",
   "createdAt": "2025-04-03T05:33:17.000Z",
-  "downloads": 104,
+  "downloads": 119,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3122,7 +3188,7 @@
  {
   "id": "allenai/DataDecide-falcon-and-cc-qc-20p-8M",
   "createdAt": "2025-04-03T05:32:57.000Z",
-  "downloads": 115,
+  "downloads": 117,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3131,7 +3197,7 @@
  {
   "id": "allenai/DataDecide-falcon-8M",
   "createdAt": "2025-04-03T05:32:35.000Z",
-  "downloads": 142,
+  "downloads": 121,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3140,7 +3206,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-fw-10p-8M",
   "createdAt": "2025-04-03T05:32:15.000Z",
-  "downloads": 120,
+  "downloads": 126,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3149,7 +3215,7 @@
  {
   "id": "allenai/DataDecide-falcon-and-cc-qc-orig-10p-8M",
   "createdAt": "2025-04-03T05:31:53.000Z",
-  "downloads": 116,
+  "downloads": 118,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3158,7 +3224,7 @@
  {
   "id": "allenai/DataDecide-falcon-and-cc-8M",
   "createdAt": "2025-04-03T05:31:32.000Z",
-  "downloads": 124,
+  "downloads": 126,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3167,7 +3233,7 @@
  {
   "id": "allenai/DataDecide-falcon-and-cc-qc-10p-8M",
   "createdAt": "2025-04-03T05:31:11.000Z",
-  "downloads": 121,
+  "downloads": 122,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3176,7 +3242,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-fw-3p-8M",
   "createdAt": "2025-04-03T05:30:50.000Z",
-  "downloads": 109,
+  "downloads": 115,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3185,7 +3251,7 @@
  {
   "id": "allenai/DataDecide-dolma1_7-no-reddit-8M",
   "createdAt": "2025-04-03T05:30:27.000Z",
-  "downloads": 115,
+  "downloads": 122,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3194,7 +3260,7 @@
  {
   "id": "allenai/DataDecide-fineweb-edu-8M",
   "createdAt": "2025-04-03T05:30:06.000Z",
-  "downloads": 140,
+  "downloads": 127,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3203,7 +3269,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-10p-8M",
   "createdAt": "2025-04-03T05:29:46.000Z",
-  "downloads": 123,
+  "downloads": 128,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3221,7 +3287,7 @@
  {
   "id": "allenai/DataDecide-dolma1_7-8M",
   "createdAt": "2025-04-03T05:29:03.000Z",
-  "downloads": 252,
+  "downloads": 291,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3230,7 +3296,7 @@
  {
   "id": "allenai/DataDecide-dolma1_7-no-code-8M",
   "createdAt": "2025-04-03T05:28:42.000Z",
-  "downloads": 129,
+  "downloads": 123,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3239,7 +3305,7 @@
  {
   "id": "allenai/DataDecide-dolma1_6plus-8M",
   "createdAt": "2025-04-03T05:28:20.000Z",
-  "downloads": 132,
+  "downloads": 123,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3248,7 +3314,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-10M",
   "createdAt": "2025-04-03T05:27:58.000Z",
-  "downloads": 235,
+  "downloads": 266,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3257,7 +3323,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-20p-10M",
   "createdAt": "2025-04-03T05:27:37.000Z",
-  "downloads": 120,
+  "downloads": 123,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3266,7 +3332,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-fw-10p-10M",
   "createdAt": "2025-04-03T05:27:18.000Z",
-  "downloads": 124,
+  "downloads": 126,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3275,7 +3341,7 @@
  {
   "id": "allenai/DataDecide-falcon-and-cc-qc-tulu-10p-10M",
   "createdAt": "2025-04-03T05:26:58.000Z",
-  "downloads": 125,
+  "downloads": 126,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3284,7 +3350,7 @@
  {
   "id": "allenai/DataDecide-falcon-and-cc-qc-20p-10M",
   "createdAt": "2025-04-03T05:26:35.000Z",
-  "downloads": 125,
+  "downloads": 124,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3293,7 +3359,7 @@
  {
   "id": "allenai/DataDecide-dolma1_7-10M",
   "createdAt": "2025-04-03T05:26:06.000Z",
-  "downloads": 254,
+  "downloads": 300,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3302,7 +3368,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-25p-dolma1.7-75p-10M",
   "createdAt": "2025-04-03T05:25:44.000Z",
-  "downloads": 119,
+  "downloads": 121,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3311,7 +3377,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-fw-3p-10M",
   "createdAt": "2025-04-03T05:25:16.000Z",
-  "downloads": 140,
+  "downloads": 137,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3320,7 +3386,7 @@
  {
   "id": "allenai/DataDecide-falcon-and-cc-10M",
   "createdAt": "2025-04-03T05:24:56.000Z",
-  "downloads": 119,
+  "downloads": 117,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3329,7 +3395,7 @@
  {
   "id": "allenai/DataDecide-falcon-and-cc-qc-10p-10M",
   "createdAt": "2025-04-03T05:24:34.000Z",
-  "downloads": 120,
+  "downloads": 119,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3338,7 +3404,7 @@
  {
   "id": "allenai/DataDecide-falcon-and-cc-qc-orig-10p-10M",
   "createdAt": "2025-04-03T05:24:12.000Z",
-  "downloads": 118,
+  "downloads": 119,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3347,7 +3413,7 @@
  {
   "id": "allenai/DataDecide-c4-10M",
   "createdAt": "2025-04-03T05:23:40.000Z",
-  "downloads": 264,
+  "downloads": 330,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3365,7 +3431,7 @@
  {
   "id": "allenai/DataDecide-dolma1_7-no-code-10M",
   "createdAt": "2025-04-03T05:22:56.000Z",
-  "downloads": 135,
+  "downloads": 136,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3374,7 +3440,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-7p-fw2-10M",
   "createdAt": "2025-04-03T05:22:27.000Z",
-  "downloads": 122,
+  "downloads": 124,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3383,7 +3449,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-10p-10M",
   "createdAt": "2025-04-03T05:22:03.000Z",
-  "downloads": 126,
+  "downloads": 136,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3392,7 +3458,7 @@
  {
   "id": "allenai/DataDecide-dolma1_7-no-reddit-10M",
   "createdAt": "2025-04-03T05:21:41.000Z",
-  "downloads": 120,
+  "downloads": 126,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3401,7 +3467,7 @@
  {
   "id": "allenai/DataDecide-fineweb-pro-10M",
   "createdAt": "2025-04-03T05:21:19.000Z",
-  "downloads": 117,
+  "downloads": 122,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3410,7 +3476,7 @@
  {
   "id": "allenai/DataDecide-dolma1_7-no-math-code-10M",
   "createdAt": "2025-04-03T05:20:58.000Z",
-  "downloads": 125,
+  "downloads": 130,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3419,7 +3485,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-50p-dolma1.7-50p-10M",
   "createdAt": "2025-04-03T05:20:36.000Z",
-  "downloads": 137,
+  "downloads": 139,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3428,7 +3494,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-75p-dolma1.7-25p-10M",
   "createdAt": "2025-04-03T05:20:13.000Z",
-  "downloads": 129,
+  "downloads": 131,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3437,7 +3503,7 @@
  {
   "id": "allenai/DataDecide-fineweb-edu-10M",
   "createdAt": "2025-04-03T05:19:52.000Z",
-  "downloads": 184,
+  "downloads": 186,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -3446,7 +3512,7 @@
  {
   "id": "allenai/DataDecide-dolma1_6plus-10M",
   "createdAt": "2025-04-03T05:19:27.000Z",
-  "downloads": 133,
+  "downloads": 121,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3455,7 +3521,7 @@
  {
   "id": "allenai/DataDecide-dolma1_7-no-flan-10M",
   "createdAt": "2025-04-03T05:19:04.000Z",
-  "downloads": 121,
+  "downloads": 128,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3464,7 +3530,7 @@
  {
   "id": "allenai/DataDecide-falcon-10M",
   "createdAt": "2025-04-03T05:18:43.000Z",
-  "downloads": 180,
+  "downloads": 174,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3473,7 +3539,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-fw-10p-300M",
   "createdAt": "2025-04-03T05:17:34.000Z",
-  "downloads": 129,
+  "downloads": 149,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3482,7 +3548,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-fw-10p-530M",
   "createdAt": "2025-04-03T05:15:35.000Z",
-  "downloads": 110,
+  "downloads": 140,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3491,7 +3557,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-7p-fw3-300M",
   "createdAt": "2025-04-03T05:14:09.000Z",
-  "downloads": 163,
+  "downloads": 181,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3500,7 +3566,7 @@
  {
   "id": "allenai/DataDecide-falcon-300M",
   "createdAt": "2025-04-03T05:12:53.000Z",
-  "downloads": 205,
+  "downloads": 217,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3509,7 +3575,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-fw-3p-300M",
   "createdAt": "2025-04-03T05:11:25.000Z",
-  "downloads": 131,
+  "downloads": 144,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3518,7 +3584,7 @@
  {
   "id": "allenai/DataDecide-c4-300M",
   "createdAt": "2025-04-03T05:10:08.000Z",
-  "downloads": 351,
+  "downloads": 372,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3527,7 +3593,7 @@
  {
   "id": "allenai/DataDecide-dolma1_7-300M",
   "createdAt": "2025-04-03T05:08:49.000Z",
-  "downloads": 410,
+  "downloads": 434,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3536,7 +3602,7 @@
  {
   "id": "allenai/DataDecide-dolma1_7-no-code-300M",
   "createdAt": "2025-04-03T05:07:32.000Z",
-  "downloads": 183,
+  "downloads": 196,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3545,7 +3611,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-25p-dolma1.7-75p-300M",
   "createdAt": "2025-04-03T05:06:13.000Z",
-  "downloads": 144,
+  "downloads": 182,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3554,7 +3620,7 @@
  {
   "id": "allenai/DataDecide-dolma1_6plus-300M",
   "createdAt": "2025-04-03T05:04:56.000Z",
-  "downloads": 163,
+  "downloads": 181,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3563,7 +3629,7 @@
  {
   "id": "allenai/DataDecide-fineweb-pro-300M",
   "createdAt": "2025-04-03T05:03:38.000Z",
-  "downloads": 144,
+  "downloads": 166,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3572,7 +3638,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-75p-dolma1.7-25p-300M",
   "createdAt": "2025-04-03T05:02:21.000Z",
-  "downloads": 146,
+  "downloads": 176,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3581,7 +3647,7 @@
  {
   "id": "allenai/DataDecide-dolma1_7-no-reddit-300M",
   "createdAt": "2025-04-03T05:01:03.000Z",
-  "downloads": 149,
+  "downloads": 178,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3590,7 +3656,7 @@
  {
   "id": "allenai/DataDecide-falcon-and-cc-qc-20p-300M",
   "createdAt": "2025-04-03T04:59:44.000Z",
-  "downloads": 137,
+  "downloads": 149,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3599,7 +3665,7 @@
  {
   "id": "allenai/DataDecide-falcon-and-cc-qc-10p-300M",
   "createdAt": "2025-04-03T04:58:30.000Z",
-  "downloads": 131,
+  "downloads": 150,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3608,7 +3674,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-300M",
   "createdAt": "2025-04-03T04:57:19.000Z",
-  "downloads": 6782,
+  "downloads": 6875,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3617,7 +3683,7 @@
  {
   "id": "allenai/DataDecide-falcon-and-cc-300M",
   "createdAt": "2025-04-03T04:55:55.000Z",
-  "downloads": 140,
+  "downloads": 163,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3626,7 +3692,7 @@
  {
   "id": "allenai/DataDecide-falcon-and-cc-qc-tulu-10p-300M",
   "createdAt": "2025-04-03T04:54:37.000Z",
-  "downloads": 143,
+  "downloads": 158,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3635,7 +3701,7 @@
  {
   "id": "allenai/DataDecide-fineweb-edu-300M",
   "createdAt": "2025-04-03T04:53:20.000Z",
-  "downloads": 231,
+  "downloads": 236,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3644,7 +3710,7 @@
  {
   "id": "allenai/DataDecide-falcon-and-cc-qc-orig-10p-300M",
   "createdAt": "2025-04-03T04:52:04.000Z",
-  "downloads": 130,
+  "downloads": 149,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3653,7 +3719,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-50p-dolma1.7-50p-300M",
   "createdAt": "2025-04-03T04:50:46.000Z",
-  "downloads": 153,
+  "downloads": 188,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3662,7 +3728,7 @@
  {
   "id": "allenai/DataDecide-dolma1_7-no-math-code-300M",
   "createdAt": "2025-04-03T04:49:19.000Z",
-  "downloads": 172,
+  "downloads": 203,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3671,7 +3737,7 @@
  {
   "id": "allenai/DataDecide-dolma1_7-no-flan-300M",
   "createdAt": "2025-04-03T04:47:53.000Z",
-  "downloads": 134,
+  "downloads": 162,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3680,7 +3746,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-7p-fw2-300M",
   "createdAt": "2025-04-03T04:46:35.000Z",
-  "downloads": 131,
+  "downloads": 147,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3689,7 +3755,7 @@
  {
   "id": "allenai/DataDecide-dolma1_7-no-math-code-530M",
   "createdAt": "2025-04-03T04:44:40.000Z",
-  "downloads": 109,
+  "downloads": 148,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3698,7 +3764,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-7p-fw2-530M",
   "createdAt": "2025-04-03T04:42:45.000Z",
-  "downloads": 111,
+  "downloads": 138,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3707,7 +3773,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-fw-3p-530M",
   "createdAt": "2025-04-03T04:40:35.000Z",
-  "downloads": 114,
+  "downloads": 142,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3716,7 +3782,7 @@
  {
   "id": "allenai/DataDecide-dolma1_7-no-code-530M",
   "createdAt": "2025-04-03T04:38:48.000Z",
-  "downloads": 129,
+  "downloads": 143,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3725,7 +3791,7 @@
  {
   "id": "allenai/DataDecide-falcon-and-cc-qc-orig-10p-530M",
   "createdAt": "2025-04-03T04:36:47.000Z",
-  "downloads": 107,
+  "downloads": 138,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3734,7 +3800,7 @@
  {
   "id": "allenai/DataDecide-falcon-530M",
   "createdAt": "2025-04-03T04:34:58.000Z",
-  "downloads": 130,
+  "downloads": 145,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3743,7 +3809,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-25p-dolma1.7-75p-530M",
   "createdAt": "2025-04-03T04:33:04.000Z",
-  "downloads": 107,
+  "downloads": 140,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3761,7 +3827,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-530M",
   "createdAt": "2025-04-03T04:29:23.000Z",
-  "downloads": 9306,
+  "downloads": 9393,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3770,7 +3836,7 @@
  {
   "id": "allenai/DataDecide-falcon-and-cc-530M",
   "createdAt": "2025-04-03T04:27:33.000Z",
-  "downloads": 100,
+  "downloads": 128,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3779,7 +3845,7 @@
  {
   "id": "allenai/DataDecide-falcon-and-cc-qc-20p-530M",
   "createdAt": "2025-04-03T04:25:24.000Z",
-  "downloads": 106,
+  "downloads": 142,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3788,7 +3854,7 @@
  {
   "id": "allenai/DataDecide-dolma1_7-no-flan-530M",
   "createdAt": "2025-04-03T04:23:24.000Z",
-  "downloads": 112,
+  "downloads": 151,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3797,7 +3863,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-50p-dolma1.7-50p-530M",
   "createdAt": "2025-04-03T04:21:14.000Z",
-  "downloads": 111,
+  "downloads": 140,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3806,7 +3872,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-75p-dolma1.7-25p-530M",
   "createdAt": "2025-04-03T04:18:56.000Z",
-  "downloads": 113,
+  "downloads": 148,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3815,7 +3881,7 @@
  {
   "id": "allenai/DataDecide-dolma1_6plus-530M",
   "createdAt": "2025-04-03T04:16:52.000Z",
-  "downloads": 129,
+  "downloads": 142,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3824,7 +3890,7 @@
  {
   "id": "allenai/DataDecide-dolma1_7-530M",
   "createdAt": "2025-04-03T04:14:54.000Z",
-  "downloads": 470,
+  "downloads": 352,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3833,7 +3899,7 @@
  {
   "id": "allenai/DataDecide-dolma1_7-no-reddit-530M",
   "createdAt": "2025-04-03T04:13:04.000Z",
-  "downloads": 114,
+  "downloads": 146,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3842,7 +3908,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-7p-fw3-530M",
   "createdAt": "2025-04-03T04:10:51.000Z",
-  "downloads": 103,
+  "downloads": 129,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3851,7 +3917,7 @@
  {
   "id": "allenai/DataDecide-falcon-and-cc-qc-10p-530M",
   "createdAt": "2025-04-03T04:08:57.000Z",
-  "downloads": 108,
+  "downloads": 139,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3860,7 +3926,7 @@
  {
   "id": "allenai/DataDecide-falcon-and-cc-qc-tulu-10p-530M",
   "createdAt": "2025-04-03T04:06:59.000Z",
-  "downloads": 102,
+  "downloads": 126,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3869,7 +3935,7 @@
  {
   "id": "allenai/DataDecide-fineweb-edu-530M",
   "createdAt": "2025-04-03T04:04:33.000Z",
-  "downloads": 131,
+  "downloads": 148,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3878,7 +3944,7 @@
  {
   "id": "allenai/DataDecide-fineweb-pro-530M",
   "createdAt": "2025-04-03T04:01:53.000Z",
-  "downloads": 109,
+  "downloads": 138,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3887,7 +3953,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-fw-10p-1B",
   "createdAt": "2025-04-03T03:58:05.000Z",
-  "downloads": 304,
+  "downloads": 331,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3896,7 +3962,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-10p-1B",
   "createdAt": "2025-04-03T03:54:12.000Z",
-  "downloads": 343,
+  "downloads": 388,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3905,7 +3971,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-10p-300M",
   "createdAt": "2025-04-03T03:52:36.000Z",
-  "downloads": 176,
+  "downloads": 203,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3914,7 +3980,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-10p-530M",
   "createdAt": "2025-04-03T03:50:59.000Z",
-  "downloads": 108,
+  "downloads": 133,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3923,7 +3989,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-10p-750M",
   "createdAt": "2025-04-03T03:48:39.000Z",
-  "downloads": 106,
+  "downloads": 138,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3932,7 +3998,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-10p-150M",
   "createdAt": "2025-04-03T03:47:34.000Z",
-  "downloads": 372,
+  "downloads": 383,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3941,7 +4007,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-fw-3p-1B",
   "createdAt": "2025-04-03T03:44:40.000Z",
-  "downloads": 317,
+  "downloads": 344,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3950,7 +4016,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-20p-750M",
   "createdAt": "2025-04-03T03:42:22.000Z",
-  "downloads": 128,
+  "downloads": 137,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3959,7 +4025,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-20p-150M",
   "createdAt": "2025-04-03T03:41:16.000Z",
-  "downloads": 243,
+  "downloads": 255,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3968,7 +4034,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-20p-1B",
   "createdAt": "2025-04-03T03:38:24.000Z",
-  "downloads": 314,
+  "downloads": 350,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3977,7 +4043,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-20p-530M",
   "createdAt": "2025-04-03T03:36:17.000Z",
-  "downloads": 109,
+  "downloads": 137,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3986,7 +4052,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-20p-300M",
   "createdAt": "2025-04-03T03:34:59.000Z",
-  "downloads": 139,
+  "downloads": 163,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -3995,7 +4061,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-fw-10p-750M",
   "createdAt": "2025-04-03T03:32:42.000Z",
-  "downloads": 122,
+  "downloads": 145,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4004,7 +4070,7 @@
  {
   "id": "allenai/DataDecide-falcon-and-cc-750M",
   "createdAt": "2025-04-03T03:30:33.000Z",
-  "downloads": 106,
+  "downloads": 137,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4013,7 +4079,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-75p-dolma1.7-25p-750M",
   "createdAt": "2025-04-03T03:28:18.000Z",
-  "downloads": 120,
+  "downloads": 147,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4022,7 +4088,7 @@
  {
   "id": "allenai/DataDecide-dolma1_7-no-reddit-750M",
   "createdAt": "2025-04-03T03:26:00.000Z",
-  "downloads": 109,
+  "downloads": 142,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4031,7 +4097,7 @@
  {
   "id": "allenai/DataDecide-dolma1_6plus-750M",
   "createdAt": "2025-04-03T03:23:38.000Z",
-  "downloads": 133,
+  "downloads": 139,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4040,7 +4106,7 @@
  {
   "id": "allenai/DataDecide-c4-750M",
   "createdAt": "2025-04-03T03:21:22.000Z",
-  "downloads": 255,
+  "downloads": 272,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -4049,7 +4115,7 @@
  {
   "id": "allenai/DataDecide-dolma1_7-no-math-code-750M",
   "createdAt": "2025-04-03T03:18:56.000Z",
-  "downloads": 127,
+  "downloads": 151,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -4058,7 +4124,7 @@
  {
   "id": "allenai/DataDecide-falcon-750M",
   "createdAt": "2025-04-03T03:16:45.000Z",
-  "downloads": 127,
+  "downloads": 136,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4067,7 +4133,7 @@
  {
   "id": "allenai/DataDecide-dolma1_7-no-code-750M",
   "createdAt": "2025-04-03T03:14:32.000Z",
-  "downloads": 111,
+  "downloads": 141,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4076,7 +4142,7 @@
  {
   "id": "allenai/DataDecide-falcon-and-cc-qc-tulu-10p-750M",
   "createdAt": "2025-04-03T03:12:19.000Z",
-  "downloads": 115,
+  "downloads": 139,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4085,7 +4151,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-7p-fw3-750M",
   "createdAt": "2025-04-03T03:09:54.000Z",
-  "downloads": 107,
+  "downloads": 127,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4094,7 +4160,7 @@
  {
   "id": "allenai/DataDecide-falcon-and-cc-qc-orig-10p-750M",
   "createdAt": "2025-04-03T03:07:47.000Z",
-  "downloads": 113,
+  "downloads": 135,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4103,7 +4169,7 @@
  {
   "id": "allenai/DataDecide-falcon-and-cc-qc-20p-750M",
   "createdAt": "2025-04-03T03:05:38.000Z",
-  "downloads": 110,
+  "downloads": 130,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4112,7 +4178,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-fw-3p-750M",
   "createdAt": "2025-04-03T03:03:33.000Z",
-  "downloads": 107,
+  "downloads": 126,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4121,7 +4187,7 @@
  {
   "id": "allenai/DataDecide-dolma1_7-750M",
   "createdAt": "2025-04-03T03:01:15.000Z",
-  "downloads": 363,
+  "downloads": 325,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4130,7 +4196,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-7p-fw2-750M",
   "createdAt": "2025-04-03T02:59:02.000Z",
-  "downloads": 104,
+  "downloads": 125,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -4139,7 +4205,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-750M",
   "createdAt": "2025-04-03T02:56:44.000Z",
-  "downloads": 211,
+  "downloads": 259,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4148,7 +4214,7 @@
  {
   "id": "allenai/DataDecide-fineweb-pro-750M",
   "createdAt": "2025-04-03T02:54:33.000Z",
-  "downloads": 111,
+  "downloads": 134,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4157,7 +4223,7 @@
  {
   "id": "allenai/DataDecide-falcon-and-cc-qc-10p-750M",
   "createdAt": "2025-04-03T02:52:09.000Z",
-  "downloads": 122,
+  "downloads": 138,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4166,7 +4232,7 @@
  {
   "id": "allenai/DataDecide-dolma1_7-no-flan-750M",
   "createdAt": "2025-04-03T02:49:55.000Z",
-  "downloads": 116,
+  "downloads": 149,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4175,7 +4241,7 @@
  {
   "id": "allenai/DataDecide-fineweb-edu-750M",
   "createdAt": "2025-04-03T02:47:35.000Z",
-  "downloads": 173,
+  "downloads": 195,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4184,7 +4250,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-25p-dolma1.7-75p-750M",
   "createdAt": "2025-04-03T02:45:23.000Z",
-  "downloads": 120,
+  "downloads": 142,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4193,7 +4259,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-50p-dolma1.7-50p-750M",
   "createdAt": "2025-04-03T02:43:01.000Z",
-  "downloads": 120,
+  "downloads": 146,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4202,7 +4268,7 @@
  {
   "id": "allenai/DataDecide-c4-1B",
   "createdAt": "2025-04-03T02:39:32.000Z",
-  "downloads": 683,
+  "downloads": 801,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4211,7 +4277,7 @@
  {
   "id": "allenai/DataDecide-dolma1_7-no-reddit-1B",
   "createdAt": "2025-04-03T02:36:11.000Z",
-  "downloads": 336,
+  "downloads": 369,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -4220,7 +4286,7 @@
  {
   "id": "allenai/DataDecide-dolma1_7-no-flan-1B",
   "createdAt": "2025-04-03T02:32:54.000Z",
-  "downloads": 371,
+  "downloads": 411,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4229,7 +4295,7 @@
  {
   "id": "allenai/DataDecide-dolma1_7-no-code-1B",
   "createdAt": "2025-04-03T02:29:24.000Z",
-  "downloads": 430,
+  "downloads": 484,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4238,7 +4304,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-75p-dolma1.7-25p-1B",
   "createdAt": "2025-04-03T02:25:45.000Z",
-  "downloads": 377,
+  "downloads": 408,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4247,7 +4313,7 @@
  {
   "id": "allenai/DataDecide-dolma1_6plus-1B",
   "createdAt": "2025-04-03T02:22:14.000Z",
-  "downloads": 319,
+  "downloads": 344,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4256,7 +4322,7 @@
  {
   "id": "allenai/DataDecide-falcon-and-cc-qc-tulu-10p-1B",
   "createdAt": "2025-04-03T02:18:44.000Z",
-  "downloads": 321,
+  "downloads": 350,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4265,7 +4331,7 @@
  {
   "id": "allenai/DataDecide-fineweb-pro-1B",
   "createdAt": "2025-04-03T02:15:19.000Z",
-  "downloads": 331,
+  "downloads": 348,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4274,7 +4340,7 @@
  {
   "id": "allenai/DataDecide-dolma1_7-no-math-code-1B",
   "createdAt": "2025-04-03T02:11:57.000Z",
-  "downloads": 346,
+  "downloads": 386,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4283,7 +4349,7 @@
  {
   "id": "allenai/DataDecide-fineweb-edu-1B",
   "createdAt": "2025-04-03T02:08:36.000Z",
-  "downloads": 474,
+  "downloads": 493,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4292,7 +4358,7 @@
  {
   "id": "allenai/DataDecide-falcon-and-cc-qc-20p-1B",
   "createdAt": "2025-04-03T02:05:25.000Z",
-  "downloads": 314,
+  "downloads": 334,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4301,7 +4367,7 @@
  {
   "id": "allenai/DataDecide-falcon-and-cc-qc-orig-10p-1B",
   "createdAt": "2025-04-03T02:02:14.000Z",
-  "downloads": 332,
+  "downloads": 355,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4310,7 +4376,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-50p-dolma1.7-50p-1B",
   "createdAt": "2025-04-03T01:59:00.000Z",
-  "downloads": 447,
+  "downloads": 476,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4319,7 +4385,7 @@
  {
   "id": "allenai/DataDecide-falcon-and-cc-1B",
   "createdAt": "2025-04-03T01:35:35.000Z",
-  "downloads": 395,
+  "downloads": 434,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4328,7 +4394,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-1B",
   "createdAt": "2025-04-03T01:31:57.000Z",
-  "downloads": 6774,
+  "downloads": 7049,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4337,7 +4403,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-7p-fw2-1B",
   "createdAt": "2025-04-03T01:28:26.000Z",
-  "downloads": 320,
+  "downloads": 354,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4346,7 +4412,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-7p-fw3-1B",
   "createdAt": "2025-04-03T01:23:54.000Z",
-  "downloads": 312,
+  "downloads": 340,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4355,7 +4421,7 @@
  {
   "id": "allenai/DataDecide-falcon-1B",
   "createdAt": "2025-04-03T01:20:05.000Z",
-  "downloads": 398,
+  "downloads": 418,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4364,7 +4430,7 @@
  {
   "id": "allenai/DataDecide-falcon-and-cc-qc-10p-1B",
   "createdAt": "2025-04-03T01:16:23.000Z",
-  "downloads": 343,
+  "downloads": 376,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4373,7 +4439,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-25p-dolma1.7-75p-1B",
   "createdAt": "2025-04-03T01:11:34.000Z",
-  "downloads": 391,
+  "downloads": 425,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4382,7 +4448,7 @@
  {
   "id": "allenai/DataDecide-dolma1_7-1B",
   "createdAt": "2025-04-03T01:05:40.000Z",
-  "downloads": 951,
+  "downloads": 989,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -4391,7 +4457,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-fw-10p-150M",
   "createdAt": "2025-04-03T01:01:14.000Z",
-  "downloads": 275,
+  "downloads": 282,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4400,7 +4466,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-75p-dolma1.7-25p-150M",
   "createdAt": "2025-04-03T00:59:44.000Z",
-  "downloads": 278,
+  "downloads": 299,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4409,7 +4475,7 @@
  {
   "id": "allenai/DataDecide-falcon-and-cc-qc-orig-10p-150M",
   "createdAt": "2025-04-03T00:58:04.000Z",
-  "downloads": 249,
+  "downloads": 265,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4418,7 +4484,7 @@
  {
   "id": "allenai/DataDecide-dolma1_7-no-flan-150M",
   "createdAt": "2025-04-03T00:56:54.000Z",
-  "downloads": 278,
+  "downloads": 295,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4427,7 +4493,7 @@
  {
   "id": "allenai/DataDecide-dolma1_7-no-reddit-150M",
   "createdAt": "2025-04-03T00:55:39.000Z",
-  "downloads": 285,
+  "downloads": 296,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4436,7 +4502,7 @@
  {
   "id": "allenai/DataDecide-dolma1_7-no-math-code-150M",
   "createdAt": "2025-04-03T00:54:28.000Z",
-  "downloads": 274,
+  "downloads": 295,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4445,7 +4511,7 @@
  {
   "id": "allenai/DataDecide-falcon-and-cc-150M",
   "createdAt": "2025-04-03T00:52:54.000Z",
-  "downloads": 272,
+  "downloads": 279,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4454,7 +4520,7 @@
  {
   "id": "allenai/DataDecide-falcon-150M",
   "createdAt": "2025-04-03T00:51:36.000Z",
-  "downloads": 433,
+  "downloads": 423,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4463,7 +4529,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-50p-dolma1.7-50p-150M",
   "createdAt": "2025-04-03T00:50:21.000Z",
-  "downloads": 285,
+  "downloads": 298,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4472,7 +4538,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-25p-dolma1.7-75p-150M",
   "createdAt": "2025-04-03T00:48:57.000Z",
-  "downloads": 283,
+  "downloads": 301,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4481,7 +4547,7 @@
  {
   "id": "allenai/DataDecide-fineweb-pro-150M",
   "createdAt": "2025-04-03T00:47:37.000Z",
-  "downloads": 271,
+  "downloads": 285,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4490,7 +4556,7 @@
  {
   "id": "allenai/DataDecide-falcon-and-cc-qc-20p-150M",
   "createdAt": "2025-04-03T00:46:24.000Z",
-  "downloads": 264,
+  "downloads": 278,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -4499,7 +4565,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-150M",
   "createdAt": "2025-04-03T00:44:54.000Z",
-  "downloads": 5283,
+  "downloads": 5413,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4508,7 +4574,7 @@
  {
   "id": "allenai/DataDecide-falcon-and-cc-qc-tulu-10p-150M",
   "createdAt": "2025-04-03T00:43:39.000Z",
-  "downloads": 271,
+  "downloads": 290,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4517,7 +4583,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-7p-fw2-150M",
   "createdAt": "2025-04-03T00:42:48.000Z",
-  "downloads": 270,
+  "downloads": 275,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4526,7 +4592,7 @@
  {
   "id": "allenai/DataDecide-dolma1_6plus-150M",
   "createdAt": "2025-04-03T00:41:46.000Z",
-  "downloads": 283,
+  "downloads": 279,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4535,7 +4601,7 @@
  {
   "id": "allenai/DataDecide-dolma1_7-150M",
   "createdAt": "2025-04-03T00:40:51.000Z",
-  "downloads": 733,
+  "downloads": 735,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4544,7 +4610,7 @@
  {
   "id": "allenai/DataDecide-fineweb-edu-150M",
   "createdAt": "2025-04-03T00:39:58.000Z",
-  "downloads": 418,
+  "downloads": 417,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4553,7 +4619,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-7p-fw3-150M",
   "createdAt": "2025-04-03T00:39:04.000Z",
-  "downloads": 273,
+  "downloads": 279,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4562,7 +4628,7 @@
  {
   "id": "allenai/DataDecide-c4-150M",
   "createdAt": "2025-04-03T00:38:03.000Z",
-  "downloads": 7915,
+  "downloads": 2503,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4571,7 +4637,7 @@
  {
   "id": "allenai/DataDecide-falcon-and-cc-qc-10p-150M",
   "createdAt": "2025-04-03T00:37:21.000Z",
-  "downloads": 282,
+  "downloads": 301,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4580,7 +4646,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-fw-3p-150M",
   "createdAt": "2025-04-03T00:36:24.000Z",
-  "downloads": 258,
+  "downloads": 270,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4589,7 +4655,7 @@
  {
   "id": "allenai/DataDecide-dolma1_7-no-code-150M",
   "createdAt": "2025-04-03T00:35:26.000Z",
-  "downloads": 297,
+  "downloads": 294,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4598,7 +4664,7 @@
  {
   "id": "allenai/DataDecide-fineweb-pro-4M",
   "createdAt": "2025-04-03T00:34:51.000Z",
-  "downloads": 118,
+  "downloads": 122,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4607,7 +4673,7 @@
  {
   "id": "allenai/DataDecide-fineweb-pro-20M",
   "createdAt": "2025-04-03T00:34:25.000Z",
-  "downloads": 166,
+  "downloads": 174,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4616,7 +4682,7 @@
  {
   "id": "allenai/DataDecide-fineweb-pro-90M",
   "createdAt": "2025-04-03T00:33:46.000Z",
-  "downloads": 155,
+  "downloads": 177,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4625,7 +4691,7 @@
  {
   "id": "allenai/DataDecide-fineweb-pro-60M",
   "createdAt": "2025-04-03T00:33:04.000Z",
-  "downloads": 233,
+  "downloads": 245,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4634,7 +4700,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-7p-fw2-4M",
   "createdAt": "2025-04-03T00:32:37.000Z",
-  "downloads": 121,
+  "downloads": 124,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4643,7 +4709,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-7p-fw2-60M",
   "createdAt": "2025-04-03T00:32:01.000Z",
-  "downloads": 220,
+  "downloads": 229,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4652,7 +4718,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-7p-fw2-20M",
   "createdAt": "2025-04-03T00:31:29.000Z",
-  "downloads": 157,
+  "downloads": 174,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4661,7 +4727,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-7p-fw2-90M",
   "createdAt": "2025-04-03T00:30:46.000Z",
-  "downloads": 166,
+  "downloads": 180,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4670,7 +4736,7 @@
  {
   "id": "allenai/DataDecide-c4-4M",
   "createdAt": "2025-04-03T00:30:11.000Z",
-  "downloads": 256,
+  "downloads": 288,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4679,7 +4745,7 @@
  {
   "id": "allenai/DataDecide-c4-90M",
   "createdAt": "2025-04-03T00:29:33.000Z",
-  "downloads": 267,
+  "downloads": 284,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4688,7 +4754,7 @@
  {
   "id": "allenai/DataDecide-c4-60M",
   "createdAt": "2025-04-03T00:28:53.000Z",
-  "downloads": 429,
+  "downloads": 452,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4697,7 +4763,7 @@
  {
   "id": "allenai/DataDecide-c4-20M",
   "createdAt": "2025-04-03T00:28:19.000Z",
-  "downloads": 252,
+  "downloads": 277,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4706,7 +4772,7 @@
  {
   "id": "allenai/DataDecide-dolma1_7-no-code-4M",
   "createdAt": "2025-04-03T00:27:57.000Z",
-  "downloads": 139,
+  "downloads": 138,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4715,7 +4781,7 @@
  {
   "id": "allenai/DataDecide-dolma1_7-no-code-20M",
   "createdAt": "2025-04-03T00:27:33.000Z",
-  "downloads": 168,
+  "downloads": 176,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4724,7 +4790,7 @@
  {
   "id": "allenai/DataDecide-dolma1_7-no-code-90M",
   "createdAt": "2025-04-03T00:26:52.000Z",
-  "downloads": 176,
+  "downloads": 183,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4733,7 +4799,7 @@
  {
   "id": "allenai/DataDecide-dolma1_7-no-code-60M",
   "createdAt": "2025-04-03T00:26:17.000Z",
-  "downloads": 231,
+  "downloads": 238,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4742,7 +4808,7 @@
  {
   "id": "allenai/DataDecide-falcon-and-cc-qc-orig-10p-20M",
   "createdAt": "2025-04-03T00:25:48.000Z",
-  "downloads": 168,
+  "downloads": 182,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4760,7 +4826,7 @@
  {
   "id": "allenai/DataDecide-falcon-and-cc-qc-orig-10p-60M",
   "createdAt": "2025-04-03T00:24:58.000Z",
-  "downloads": 214,
+  "downloads": 226,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4769,7 +4835,7 @@
  {
   "id": "allenai/DataDecide-falcon-and-cc-qc-orig-10p-90M",
   "createdAt": "2025-04-03T00:24:10.000Z",
-  "downloads": 174,
+  "downloads": 184,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4778,7 +4844,7 @@
  {
   "id": "allenai/DataDecide-fineweb-edu-60M",
   "createdAt": "2025-04-03T00:23:33.000Z",
-  "downloads": 245,
+  "downloads": 246,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4787,7 +4853,7 @@
  {
   "id": "allenai/DataDecide-fineweb-edu-4M",
   "createdAt": "2025-04-03T00:23:11.000Z",
-  "downloads": 186,
+  "downloads": 187,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4796,7 +4862,7 @@
  {
   "id": "allenai/DataDecide-fineweb-edu-90M",
   "createdAt": "2025-04-03T00:22:34.000Z",
-  "downloads": 189,
+  "downloads": 183,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4805,7 +4871,7 @@
  {
   "id": "allenai/DataDecide-fineweb-edu-20M",
   "createdAt": "2025-04-03T00:22:08.000Z",
-  "downloads": 187,
+  "downloads": 191,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4814,7 +4880,7 @@
  {
   "id": "allenai/DataDecide-dolma1_6plus-4M",
   "createdAt": "2025-04-03T00:21:38.000Z",
-  "downloads": 133,
+  "downloads": 123,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4823,7 +4889,7 @@
  {
   "id": "allenai/DataDecide-dolma1_6plus-20M",
   "createdAt": "2025-04-03T00:21:08.000Z",
-  "downloads": 182,
+  "downloads": 180,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4832,7 +4898,7 @@
  {
   "id": "allenai/DataDecide-dolma1_6plus-90M",
   "createdAt": "2025-04-03T00:20:27.000Z",
-  "downloads": 174,
+  "downloads": 173,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4841,7 +4907,7 @@
  {
   "id": "allenai/DataDecide-dolma1_6plus-60M",
   "createdAt": "2025-04-03T00:19:51.000Z",
-  "downloads": 242,
+  "downloads": 241,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4850,7 +4916,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-4M",
   "createdAt": "2025-04-03T00:19:16.000Z",
-  "downloads": 236,
+  "downloads": 270,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4859,7 +4925,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-20M",
   "createdAt": "2025-04-03T00:18:50.000Z",
-  "downloads": 242,
+  "downloads": 280,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4868,7 +4934,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-60M",
   "createdAt": "2025-04-03T00:18:17.000Z",
-  "downloads": 294,
+  "downloads": 319,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4877,7 +4943,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-90M",
   "createdAt": "2025-04-03T00:17:38.000Z",
-  "downloads": 253,
+  "downloads": 284,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4886,7 +4952,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-fw-10p-4M",
   "createdAt": "2025-04-03T00:17:16.000Z",
-  "downloads": 118,
+  "downloads": 125,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4895,7 +4961,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-fw-10p-20M",
   "createdAt": "2025-04-03T00:16:54.000Z",
-  "downloads": 168,
+  "downloads": 180,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4904,7 +4970,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-fw-10p-90M",
   "createdAt": "2025-04-03T00:16:21.000Z",
-  "downloads": 161,
+  "downloads": 176,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4913,7 +4979,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-fw-10p-60M",
   "createdAt": "2025-04-03T00:15:48.000Z",
-  "downloads": 205,
+  "downloads": 214,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4922,7 +4988,7 @@
  {
   "id": "allenai/DataDecide-dolma1_7-no-reddit-4M",
   "createdAt": "2025-04-03T00:15:26.000Z",
-  "downloads": 113,
+  "downloads": 123,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4931,7 +4997,7 @@
  {
   "id": "allenai/DataDecide-dolma1_7-no-reddit-20M",
   "createdAt": "2025-04-03T00:15:04.000Z",
-  "downloads": 177,
+  "downloads": 199,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4940,7 +5006,7 @@
  {
   "id": "allenai/DataDecide-dolma1_7-no-reddit-90M",
   "createdAt": "2025-04-03T00:14:22.000Z",
-  "downloads": 168,
+  "downloads": 184,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4949,7 +5015,7 @@
  {
   "id": "allenai/DataDecide-dolma1_7-no-reddit-60M",
   "createdAt": "2025-04-03T00:13:48.000Z",
-  "downloads": 220,
+  "downloads": 235,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4958,7 +5024,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-10p-20M",
   "createdAt": "2025-04-03T00:13:22.000Z",
-  "downloads": 172,
+  "downloads": 193,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4967,7 +5033,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-10p-90M",
   "createdAt": "2025-04-03T00:12:46.000Z",
-  "downloads": 152,
+  "downloads": 174,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4976,7 +5042,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-10p-60M",
   "createdAt": "2025-04-03T00:12:14.000Z",
-  "downloads": 208,
+  "downloads": 226,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4985,7 +5051,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-10p-4M",
   "createdAt": "2025-04-03T00:11:51.000Z",
-  "downloads": 123,
+  "downloads": 130,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -4994,7 +5060,7 @@
  {
   "id": "allenai/DataDecide-falcon-and-cc-qc-20p-4M",
   "createdAt": "2025-04-03T00:11:30.000Z",
-  "downloads": 122,
+  "downloads": 128,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -5003,7 +5069,7 @@
  {
   "id": "allenai/DataDecide-falcon-and-cc-qc-20p-20M",
   "createdAt": "2025-04-03T00:11:09.000Z",
-  "downloads": 158,
+  "downloads": 173,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -5012,7 +5078,7 @@
  {
   "id": "allenai/DataDecide-falcon-and-cc-qc-20p-60M",
   "createdAt": "2025-04-03T00:10:39.000Z",
-  "downloads": 212,
+  "downloads": 224,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -5021,7 +5087,7 @@
  {
   "id": "allenai/DataDecide-falcon-and-cc-qc-20p-90M",
   "createdAt": "2025-04-03T00:10:00.000Z",
-  "downloads": 170,
+  "downloads": 185,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -5030,7 +5096,7 @@
  {
   "id": "allenai/DataDecide-falcon-and-cc-4M",
   "createdAt": "2025-04-03T00:09:39.000Z",
-  "downloads": 121,
+  "downloads": 120,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -5039,7 +5105,7 @@
  {
   "id": "allenai/DataDecide-falcon-and-cc-60M",
   "createdAt": "2025-04-03T00:09:09.000Z",
-  "downloads": 217,
+  "downloads": 223,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -5048,7 +5114,7 @@
  {
   "id": "allenai/DataDecide-falcon-and-cc-20M",
   "createdAt": "2025-04-03T00:08:42.000Z",
-  "downloads": 168,
+  "downloads": 174,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -5057,7 +5123,7 @@
  {
   "id": "allenai/DataDecide-falcon-and-cc-90M",
   "createdAt": "2025-04-03T00:08:07.000Z",
-  "downloads": 162,
+  "downloads": 179,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -5066,7 +5132,7 @@
  {
   "id": "allenai/DataDecide-dolma1_7-no-flan-4M",
   "createdAt": "2025-04-03T00:07:44.000Z",
-  "downloads": 121,
+  "downloads": 128,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -5075,7 +5141,7 @@
  {
   "id": "allenai/DataDecide-dolma1_7-no-flan-90M",
   "createdAt": "2025-04-03T00:07:08.000Z",
-  "downloads": 157,
+  "downloads": 175,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -5084,7 +5150,7 @@
  {
   "id": "allenai/DataDecide-dolma1_7-no-flan-60M",
   "createdAt": "2025-04-03T00:06:37.000Z",
-  "downloads": 224,
+  "downloads": 247,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -5093,7 +5159,7 @@
  {
   "id": "allenai/DataDecide-dolma1_7-no-flan-20M",
   "createdAt": "2025-04-03T00:06:13.000Z",
-  "downloads": 161,
+  "downloads": 175,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -5102,7 +5168,7 @@
  {
   "id": "allenai/DataDecide-dolma1_7-no-math-code-4M",
   "createdAt": "2025-04-03T00:05:55.000Z",
-  "downloads": 105,
+  "downloads": 119,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -5111,7 +5177,7 @@
  {
   "id": "allenai/DataDecide-dolma1_7-no-math-code-20M",
   "createdAt": "2025-04-03T00:05:33.000Z",
-  "downloads": 170,
+  "downloads": 187,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -5120,7 +5186,7 @@
  {
   "id": "allenai/DataDecide-dolma1_7-no-math-code-60M",
   "createdAt": "2025-04-03T00:05:06.000Z",
-  "downloads": 226,
+  "downloads": 242,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -5129,7 +5195,7 @@
  {
   "id": "allenai/DataDecide-dolma1_7-no-math-code-90M",
   "createdAt": "2025-04-03T00:04:31.000Z",
-  "downloads": 169,
+  "downloads": 184,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -5138,7 +5204,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-7p-fw3-60M",
   "createdAt": "2025-04-03T00:04:02.000Z",
-  "downloads": 215,
+  "downloads": 224,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -5147,7 +5213,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-7p-fw3-20M",
   "createdAt": "2025-04-03T00:03:38.000Z",
-  "downloads": 162,
+  "downloads": 176,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -5156,7 +5222,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-7p-fw3-4M",
   "createdAt": "2025-04-03T00:03:20.000Z",
-  "downloads": 101,
+  "downloads": 109,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -5165,7 +5231,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-7p-fw3-90M",
   "createdAt": "2025-04-03T00:02:42.000Z",
-  "downloads": 169,
+  "downloads": 187,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -5174,7 +5240,7 @@
  {
   "id": "allenai/DataDecide-falcon-and-cc-qc-10p-20M",
   "createdAt": "2025-04-03T00:02:16.000Z",
-  "downloads": 157,
+  "downloads": 180,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -5183,7 +5249,7 @@
  {
   "id": "allenai/DataDecide-falcon-and-cc-qc-10p-90M",
   "createdAt": "2025-04-03T00:01:38.000Z",
-  "downloads": 165,
+  "downloads": 184,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -5192,7 +5258,7 @@
  {
   "id": "allenai/DataDecide-falcon-and-cc-qc-10p-60M",
   "createdAt": "2025-04-03T00:01:05.000Z",
-  "downloads": 205,
+  "downloads": 221,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -5201,7 +5267,7 @@
  {
   "id": "allenai/DataDecide-falcon-and-cc-qc-10p-4M",
   "createdAt": "2025-04-03T00:00:43.000Z",
-  "downloads": 94,
+  "downloads": 106,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -5210,7 +5276,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-20p-60M",
   "createdAt": "2025-04-03T00:00:13.000Z",
-  "downloads": 222,
+  "downloads": 238,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -5219,7 +5285,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-20p-4M",
   "createdAt": "2025-04-02T23:59:51.000Z",
-  "downloads": 107,
+  "downloads": 132,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -5228,7 +5294,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-20p-20M",
   "createdAt": "2025-04-02T23:59:29.000Z",
-  "downloads": 171,
+  "downloads": 192,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -5237,7 +5303,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-20p-90M",
   "createdAt": "2025-04-02T23:58:53.000Z",
-  "downloads": 160,
+  "downloads": 177,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -5246,7 +5312,7 @@
  {
   "id": "allenai/DataDecide-dolma1_7-4M",
   "createdAt": "2025-04-02T23:58:32.000Z",
-  "downloads": 717,
+  "downloads": 687,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -5255,7 +5321,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-25p-dolma1.7-75p-20M",
   "createdAt": "2025-04-02T23:57:45.000Z",
-  "downloads": 171,
+  "downloads": 185,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -5264,7 +5330,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-25p-dolma1.7-75p-60M",
   "createdAt": "2025-04-02T23:56:59.000Z",
-  "downloads": 230,
+  "downloads": 239,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -5273,7 +5339,7 @@
  {
   "id": "allenai/DataDecide-dolma1_7-60M",
   "createdAt": "2025-04-02T23:56:30.000Z",
-  "downloads": 383,
+  "downloads": 433,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -5282,7 +5348,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-25p-dolma1.7-75p-90M",
   "createdAt": "2025-04-02T23:55:50.000Z",
-  "downloads": 165,
+  "downloads": 181,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -5291,7 +5357,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-25p-dolma1.7-75p-4M",
   "createdAt": "2025-04-02T23:55:29.000Z",
-  "downloads": 114,
+  "downloads": 119,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -5300,7 +5366,7 @@
  {
   "id": "allenai/DataDecide-dolma1_7-20M",
   "createdAt": "2025-04-02T23:55:08.000Z",
-  "downloads": 295,
+  "downloads": 329,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -5309,7 +5375,7 @@
  {
   "id": "allenai/DataDecide-dolma1_7-90M",
   "createdAt": "2025-04-02T23:54:34.000Z",
-  "downloads": 277,
+  "downloads": 323,
   "likes": 2,
   "pipeline": "",
   "tags": [],
@@ -5318,7 +5384,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-50p-dolma1.7-50p-90M",
   "createdAt": "2025-04-02T23:53:58.000Z",
-  "downloads": 169,
+  "downloads": 187,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -5327,7 +5393,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-50p-dolma1.7-50p-20M",
   "createdAt": "2025-04-02T23:53:35.000Z",
-  "downloads": 170,
+  "downloads": 183,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -5336,7 +5402,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-50p-dolma1.7-50p-4M",
   "createdAt": "2025-04-02T23:53:16.000Z",
-  "downloads": 123,
+  "downloads": 125,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -5345,7 +5411,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-50p-dolma1.7-50p-60M",
   "createdAt": "2025-04-02T23:52:48.000Z",
-  "downloads": 218,
+  "downloads": 226,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -5354,7 +5420,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-75p-dolma1.7-25p-4M",
   "createdAt": "2025-04-02T23:52:27.000Z",
-  "downloads": 116,
+  "downloads": 115,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -5363,7 +5429,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-75p-dolma1.7-25p-60M",
   "createdAt": "2025-04-02T23:52:01.000Z",
-  "downloads": 220,
+  "downloads": 233,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -5372,7 +5438,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-75p-dolma1.7-25p-20M",
   "createdAt": "2025-04-02T23:51:38.000Z",
-  "downloads": 172,
+  "downloads": 188,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -5381,7 +5447,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-75p-dolma1.7-25p-90M",
   "createdAt": "2025-04-02T23:51:03.000Z",
-  "downloads": 161,
+  "downloads": 176,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -5390,7 +5456,7 @@
  {
   "id": "allenai/DataDecide-falcon-4M",
   "createdAt": "2025-04-02T23:50:41.000Z",
-  "downloads": 132,
+  "downloads": 118,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -5399,7 +5465,7 @@
  {
   "id": "allenai/DataDecide-falcon-20M",
   "createdAt": "2025-04-02T23:50:18.000Z",
-  "downloads": 185,
+  "downloads": 177,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -5408,7 +5474,7 @@
  {
   "id": "allenai/DataDecide-falcon-90M",
   "createdAt": "2025-04-02T23:49:44.000Z",
-  "downloads": 188,
+  "downloads": 184,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -5417,7 +5483,7 @@
  {
   "id": "allenai/DataDecide-falcon-60M",
   "createdAt": "2025-04-02T23:49:11.000Z",
-  "downloads": 244,
+  "downloads": 236,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -5426,7 +5492,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-fw-3p-60M",
   "createdAt": "2025-04-02T23:48:40.000Z",
-  "downloads": 205,
+  "downloads": 217,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -5435,7 +5501,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-fw-3p-90M",
   "createdAt": "2025-04-02T23:48:06.000Z",
-  "downloads": 162,
+  "downloads": 177,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -5444,7 +5510,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-fw-3p-4M",
   "createdAt": "2025-04-02T23:47:44.000Z",
-  "downloads": 117,
+  "downloads": 124,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -5453,7 +5519,7 @@
  {
   "id": "allenai/DataDecide-dclm-baseline-qc-fw-3p-20M",
   "createdAt": "2025-04-02T23:47:23.000Z",
-  "downloads": 146,
+  "downloads": 157,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -5462,7 +5528,7 @@
  {
   "id": "allenai/DataDecide-falcon-and-cc-qc-tulu-10p-4M",
   "createdAt": "2025-04-02T23:46:58.000Z",
-  "downloads": 117,
+  "downloads": 121,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -5471,7 +5537,7 @@
  {
   "id": "allenai/DataDecide-falcon-and-cc-qc-tulu-10p-20M",
   "createdAt": "2025-04-02T23:46:38.000Z",
-  "downloads": 164,
+  "downloads": 179,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -5480,7 +5546,7 @@
  {
   "id": "allenai/DataDecide-falcon-and-cc-qc-tulu-10p-90M",
   "createdAt": "2025-04-02T23:43:12.000Z",
-  "downloads": 160,
+  "downloads": 176,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -5489,7 +5555,7 @@
  {
   "id": "allenai/DataDecide-falcon-and-cc-qc-tulu-10p-60M",
   "createdAt": "2025-04-02T23:36:07.000Z",
-  "downloads": 212,
+  "downloads": 221,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -5498,7 +5564,7 @@
  {
   "id": "allenai/OLMo-2-0325-32B-Instruct-GGUF",
   "createdAt": "2025-03-13T19:23:37.000Z",
-  "downloads": 321,
+  "downloads": 408,
   "likes": 17,
   "pipeline": "",
   "tags": [
@@ -5509,7 +5575,7 @@
  {
   "id": "allenai/OLMo-2-0325-32B-SFT",
   "createdAt": "2025-03-12T20:35:38.000Z",
-  "downloads": 1565,
+  "downloads": 1677,
   "likes": 4,
   "pipeline": "text-generation",
   "tags": [
@@ -5521,7 +5587,7 @@
  {
   "id": "allenai/OLMo-2-0325-32B-DPO",
   "createdAt": "2025-03-12T20:32:29.000Z",
-  "downloads": 483,
+  "downloads": 607,
   "likes": 4,
   "pipeline": "text-generation",
   "tags": [
@@ -5533,7 +5599,7 @@
  {
   "id": "allenai/OLMo-2-0325-32B-Instruct",
   "createdAt": "2025-03-12T20:28:55.000Z",
-  "downloads": 49189,
+  "downloads": 8328,
   "likes": 147,
   "pipeline": "text-generation",
   "tags": [
@@ -5545,7 +5611,7 @@
  {
   "id": "allenai/olmOCR-7B-0225-preview-GGUF",
   "createdAt": "2025-02-26T20:29:23.000Z",
-  "downloads": 606,
+  "downloads": 598,
   "likes": 27,
   "pipeline": "",
   "tags": [
@@ -5556,7 +5622,7 @@
  {
   "id": "allenai/OLMo-2-0325-32B",
   "createdAt": "2025-02-23T00:36:43.000Z",
-  "downloads": 4346,
+  "downloads": 5625,
   "likes": 66,
   "pipeline": "text-generation",
   "tags": [
@@ -5576,7 +5642,7 @@
  {
   "id": "allenai/Llama-3.1-Tulu-3.1-8B",
   "createdAt": "2025-02-07T17:59:43.000Z",
-  "downloads": 1309,
+  "downloads": 1097,
   "likes": 40,
   "pipeline": "text-generation",
   "tags": [
@@ -5588,7 +5654,7 @@
  {
   "id": "allenai/OLMoE-1B-7B-0125-Instruct-GGUF",
   "createdAt": "2025-01-28T19:44:28.000Z",
-  "downloads": 2198,
+  "downloads": 3504,
   "likes": 22,
   "pipeline": "",
   "tags": [
@@ -5599,7 +5665,7 @@
  {
   "id": "allenai/Llama-3.1-Tulu-3-405B-DPO",
   "createdAt": "2025-01-28T02:34:07.000Z",
-  "downloads": 294,
+  "downloads": 293,
   "likes": 6,
   "pipeline": "text-generation",
   "tags": [
@@ -5611,7 +5677,7 @@
  {
   "id": "allenai/OLMoE-1B-7B-0125-SFT",
   "createdAt": "2025-01-27T18:56:25.000Z",
-  "downloads": 434,
+  "downloads": 463,
   "likes": 4,
   "pipeline": "text-generation",
   "tags": [
@@ -5623,7 +5689,7 @@
  {
   "id": "allenai/OLMoE-1B-7B-0125-DPO",
   "createdAt": "2025-01-27T18:55:46.000Z",
-  "downloads": 442,
+  "downloads": 478,
   "likes": 2,
   "pipeline": "text-generation",
   "tags": [
@@ -5635,7 +5701,7 @@
  {
   "id": "allenai/OLMoE-1B-7B-0125-Instruct",
   "createdAt": "2025-01-27T18:54:09.000Z",
-  "downloads": 144688,
+  "downloads": 125041,
   "likes": 68,
   "pipeline": "text-generation",
   "tags": [
@@ -5647,7 +5713,7 @@
  {
   "id": "allenai/OLMoE-1B-7B-0125-GGUF",
   "createdAt": "2025-01-22T18:20:12.000Z",
-  "downloads": 364,
+  "downloads": 490,
   "likes": 5,
   "pipeline": "",
   "tags": [],
@@ -5656,7 +5722,7 @@
  {
   "id": "allenai/OLMoE-1B-7B-0125",
   "createdAt": "2025-01-21T16:42:18.000Z",
-  "downloads": 11872,
+  "downloads": 9639,
   "likes": 40,
   "pipeline": "text-generation",
   "tags": [
@@ -5667,7 +5733,7 @@
  {
   "id": "allenai/olmOCR-7B-0225-preview",
   "createdAt": "2025-01-15T21:14:47.000Z",
-  "downloads": 64221,
+  "downloads": 65011,
   "likes": 705,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -5679,7 +5745,7 @@
  {
   "id": "allenai/Llama-3.1-Tulu-3-405B-SFT",
   "createdAt": "2025-01-10T00:08:01.000Z",
-  "downloads": 299,
+  "downloads": 305,
   "likes": 11,
   "pipeline": "text-generation",
   "tags": [
@@ -5691,7 +5757,7 @@
  {
   "id": "allenai/Llama-3.1-Tulu-3-405B",
   "createdAt": "2025-01-09T23:43:32.000Z",
-  "downloads": 347,
+  "downloads": 345,
   "likes": 112,
   "pipeline": "text-generation",
   "tags": [
@@ -5703,7 +5769,7 @@
  {
   "id": "allenai/OLMo-2-1124-7B-Instruct-GGUF",
   "createdAt": "2025-01-06T19:12:47.000Z",
-  "downloads": 1163,
+  "downloads": 1149,
   "likes": 7,
   "pipeline": "",
   "tags": [
@@ -5714,7 +5780,7 @@
  {
   "id": "allenai/OLMo-2-1124-13B-RM",
   "createdAt": "2024-12-18T16:12:57.000Z",
-  "downloads": 1163,
+  "downloads": 1108,
   "likes": 2,
   "pipeline": "text-generation",
   "tags": [
@@ -5726,7 +5792,7 @@
  {
   "id": "allenai/OLMo-2-1124-7B-DPO",
   "createdAt": "2024-12-18T16:11:54.000Z",
-  "downloads": 2963,
+  "downloads": 2475,
   "likes": 1,
   "pipeline": "text-generation",
   "tags": [
@@ -5738,7 +5804,7 @@
  {
   "id": "allenai/OLMo-2-1124-13B-SFT",
   "createdAt": "2024-12-18T16:10:36.000Z",
-  "downloads": 2296,
+  "downloads": 2644,
   "likes": 0,
   "pipeline": "text-generation",
   "tags": [
@@ -5750,7 +5816,7 @@
  {
   "id": "allenai/OLMo-2-1124-7B-RM",
   "createdAt": "2024-12-18T16:09:29.000Z",
-  "downloads": 1222,
+  "downloads": 1299,
   "likes": 3,
   "pipeline": "text-generation",
   "tags": [
@@ -5762,7 +5828,7 @@
  {
   "id": "allenai/OLMo-2-1124-13B-DPO",
   "createdAt": "2024-12-18T16:08:18.000Z",
-  "downloads": 953,
+  "downloads": 950,
   "likes": 0,
   "pipeline": "text-generation",
   "tags": [
@@ -5774,7 +5840,7 @@
  {
   "id": "allenai/OLMo-2-1124-7B-SFT",
   "createdAt": "2024-12-18T16:03:45.000Z",
-  "downloads": 5738,
+  "downloads": 6046,
   "likes": 1,
   "pipeline": "text-generation",
   "tags": [
@@ -5786,7 +5852,7 @@
  {
   "id": "allenai/OLMo-2-1124-13B-Instruct-RLVR2",
   "createdAt": "2024-12-18T15:34:25.000Z",
-  "downloads": 264,
+  "downloads": 284,
   "likes": 0,
   "pipeline": "text-generation",
   "tags": [
@@ -5798,7 +5864,7 @@
  {
   "id": "allenai/OLMo-2-1124-13B-Instruct-RLVR1",
   "createdAt": "2024-12-18T15:33:18.000Z",
-  "downloads": 289,
+  "downloads": 311,
   "likes": 2,
   "pipeline": "text-generation",
   "tags": [
@@ -5810,7 +5876,7 @@
  {
   "id": "allenai/OLMo-2-1124-13B-Instruct",
   "createdAt": "2024-12-18T14:59:27.000Z",
-  "downloads": 14105,
+  "downloads": 11836,
   "likes": 48,
   "pipeline": "text-generation",
   "tags": [
@@ -5822,7 +5888,7 @@
  {
   "id": "allenai/OLMo-2-1124-7B-Instruct",
   "createdAt": "2024-12-18T14:58:41.000Z",
-  "downloads": 33468,
+  "downloads": 37830,
   "likes": 50,
   "pipeline": "text-generation",
   "tags": [
@@ -5834,7 +5900,7 @@
  {
   "id": "allenai/Llama-3.1-Tulu-3-8B-SFT-no-persona-data",
   "createdAt": "2024-12-14T20:59:21.000Z",
-  "downloads": 190,
+  "downloads": 177,
   "likes": 1,
   "pipeline": "text-generation",
   "tags": [
@@ -5846,7 +5912,7 @@
  {
   "id": "allenai/Llama-3.1-Tulu-3-8B-SFT-no-safety-data",
   "createdAt": "2024-12-14T20:57:22.000Z",
-  "downloads": 425,
+  "downloads": 326,
   "likes": 1,
   "pipeline": "text-generation",
   "tags": [
@@ -5858,7 +5924,7 @@
  {
   "id": "allenai/Llama-3.1-Tulu-3-8B-SFT-no-wildchat-data",
   "createdAt": "2024-12-14T20:55:41.000Z",
-  "downloads": 167,
+  "downloads": 152,
   "likes": 1,
   "pipeline": "text-generation",
   "tags": [
@@ -5870,7 +5936,7 @@
  {
   "id": "allenai/Llama-3.1-Tulu-3-8B-SFT-no-math-data",
   "createdAt": "2024-12-14T20:54:00.000Z",
-  "downloads": 171,
+  "downloads": 156,
   "likes": 1,
   "pipeline": "text-generation",
   "tags": [
@@ -5891,7 +5957,7 @@
  {
   "id": "allenai/ACE2-SOM",
   "createdAt": "2024-12-05T00:59:29.000Z",
-  "downloads": 48,
+  "downloads": 55,
   "likes": 1,
   "pipeline": "",
   "tags": [],

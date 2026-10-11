@@ -2,7 +2,7 @@
  {
   "id": "IndexTeam/Index-Echo-S2ST-9B-FP4",
   "createdAt": "2026-10-03T19:23:44.000Z",
-  "downloads": 0,
+  "downloads": 20,
   "likes": 0,
   "pipeline": "translation",
   "tags": [],
@@ -11,7 +11,7 @@
  {
   "id": "IndexTeam/Index-Echo-S2ST-2B-FP4",
   "createdAt": "2026-10-03T19:23:43.000Z",
-  "downloads": 0,
+  "downloads": 23,
   "likes": 0,
   "pipeline": "translation",
   "tags": [],
@@ -20,8 +20,8 @@
  {
   "id": "IndexTeam/Index-Echo-S2TT-9B-FP4",
   "createdAt": "2026-10-03T19:23:43.000Z",
-  "downloads": 0,
-  "likes": 0,
+  "downloads": 19,
+  "likes": 1,
   "pipeline": "translation",
   "tags": [],
   "gated": false
@@ -29,7 +29,7 @@
  {
   "id": "IndexTeam/Index-Echo-S2TT-2B-FP4",
   "createdAt": "2026-10-03T19:23:42.000Z",
-  "downloads": 0,
+  "downloads": 15,
   "likes": 0,
   "pipeline": "translation",
   "tags": [],
@@ -38,7 +38,7 @@
  {
   "id": "IndexTeam/Index-Nailong-9B-FP4",
   "createdAt": "2026-10-03T19:23:42.000Z",
-  "downloads": 0,
+  "downloads": 33,
   "likes": 0,
   "pipeline": "translation",
   "tags": [
@@ -49,7 +49,7 @@
  {
   "id": "IndexTeam/Index-Homura-9B-FP4",
   "createdAt": "2026-10-03T19:23:41.000Z",
-  "downloads": 0,
+  "downloads": 28,
   "likes": 0,
   "pipeline": "translation",
   "tags": [
@@ -60,7 +60,7 @@
  {
   "id": "IndexTeam/Index-Nailong-2B-FP4",
   "createdAt": "2026-10-03T19:23:41.000Z",
-  "downloads": 0,
+  "downloads": 31,
   "likes": 0,
   "pipeline": "translation",
   "tags": [
@@ -71,7 +71,7 @@
  {
   "id": "IndexTeam/Index-Homura-2B-FP4",
   "createdAt": "2026-10-03T19:23:40.000Z",
-  "downloads": 0,
+  "downloads": 25,
   "likes": 0,
   "pipeline": "translation",
   "tags": [
@@ -82,7 +82,7 @@
  {
   "id": "IndexTeam/Index-Translate-9B-FP4",
   "createdAt": "2026-10-03T19:23:39.000Z",
-  "downloads": 0,
+  "downloads": 65,
   "likes": 0,
   "pipeline": "translation",
   "tags": [
@@ -93,8 +93,8 @@
  {
   "id": "IndexTeam/Index-Translate-35B-A3B-preview-FP4",
   "createdAt": "2026-10-03T19:23:39.000Z",
-  "downloads": 0,
-  "likes": 1,
+  "downloads": 160,
+  "likes": 2,
   "pipeline": "translation",
   "tags": [
    "image-text-to-text"
@@ -104,7 +104,7 @@
  {
   "id": "IndexTeam/Index-Translate-2B-FP4",
   "createdAt": "2026-10-03T19:23:38.000Z",
-  "downloads": 0,
+  "downloads": 39,
   "likes": 0,
   "pipeline": "translation",
   "tags": [
@@ -115,7 +115,7 @@
  {
   "id": "IndexTeam/Index-Echo-S2ST-9B-GGUF",
   "createdAt": "2026-10-02T22:52:12.000Z",
-  "downloads": 129,
+  "downloads": 710,
   "likes": 0,
   "pipeline": "translation",
   "tags": [
@@ -126,7 +126,7 @@
  {
   "id": "IndexTeam/Index-Echo-S2ST-9B-FP8",
   "createdAt": "2026-10-02T22:52:12.000Z",
-  "downloads": 2,
+  "downloads": 28,
   "likes": 1,
   "pipeline": "translation",
   "tags": [],
@@ -135,7 +135,7 @@
  {
   "id": "IndexTeam/Index-Echo-S2ST-2B-FP8",
   "createdAt": "2026-10-02T22:52:11.000Z",
-  "downloads": 5,
+  "downloads": 27,
   "likes": 0,
   "pipeline": "translation",
   "tags": [],
@@ -144,8 +144,8 @@
  {
   "id": "IndexTeam/Index-Echo-S2ST-2B-GGUF",
   "createdAt": "2026-10-02T22:52:11.000Z",
-  "downloads": 314,
-  "likes": 1,
+  "downloads": 872,
+  "likes": 2,
   "pipeline": "translation",
   "tags": [
    "conversational"
@@ -155,7 +155,7 @@
  {
   "id": "IndexTeam/Index-Echo-S2TT-9B-GGUF",
   "createdAt": "2026-10-02T22:52:10.000Z",
-  "downloads": 122,
+  "downloads": 741,
   "likes": 0,
   "pipeline": "translation",
   "tags": [
@@ -166,7 +166,7 @@
  {
   "id": "IndexTeam/Index-Echo-S2TT-9B-FP8",
   "createdAt": "2026-10-02T22:52:10.000Z",
-  "downloads": 0,
+  "downloads": 14,
   "likes": 0,
   "pipeline": "translation",
   "tags": [],
@@ -175,7 +175,7 @@
  {
   "id": "IndexTeam/Index-Echo-S2TT-2B-FP8",
   "createdAt": "2026-10-02T22:52:09.000Z",
-  "downloads": 0,
+  "downloads": 17,
   "likes": 1,
   "pipeline": "translation",
   "tags": [],
@@ -184,7 +184,7 @@
  {
   "id": "IndexTeam/Index-Echo-S2TT-2B-GGUF",
   "createdAt": "2026-10-02T22:52:09.000Z",
-  "downloads": 348,
+  "downloads": 945,
   "likes": 1,
   "pipeline": "translation",
   "tags": [
@@ -195,8 +195,8 @@
  {
   "id": "IndexTeam/Index-Nailong-9B-GGUF",
   "createdAt": "2026-10-02T22:52:08.000Z",
-  "downloads": 96,
-  "likes": 0,
+  "downloads": 1232,
+  "likes": 1,
   "pipeline": "translation",
   "tags": [
    "conversational"
@@ -206,7 +206,7 @@
  {
   "id": "IndexTeam/Index-Nailong-9B-FP8",
   "createdAt": "2026-10-02T22:52:08.000Z",
-  "downloads": 22,
+  "downloads": 37,
   "likes": 0,
   "pipeline": "translation",
   "tags": [
@@ -217,7 +217,7 @@
  {
   "id": "IndexTeam/Index-Nailong-2B-GGUF",
   "createdAt": "2026-10-02T22:52:07.000Z",
-  "downloads": 159,
+  "downloads": 1083,
   "likes": 0,
   "pipeline": "translation",
   "tags": [
@@ -228,7 +228,7 @@
  {
   "id": "IndexTeam/Index-Nailong-2B-FP8",
   "createdAt": "2026-10-02T22:52:07.000Z",
-  "downloads": 11,
+  "downloads": 24,
   "likes": 0,
   "pipeline": "translation",
   "tags": [
@@ -239,7 +239,7 @@
  {
   "id": "IndexTeam/Index-Homura-9B-GGUF",
   "createdAt": "2026-10-02T22:52:06.000Z",
-  "downloads": 142,
+  "downloads": 1500,
   "likes": 0,
   "pipeline": "translation",
   "tags": [
@@ -250,7 +250,7 @@
  {
   "id": "IndexTeam/Index-Homura-9B-FP8",
   "createdAt": "2026-10-02T22:52:06.000Z",
-  "downloads": 18,
+  "downloads": 48,
   "likes": 0,
   "pipeline": "translation",
   "tags": [
@@ -261,7 +261,7 @@
  {
   "id": "IndexTeam/Index-Homura-2B-FP8",
   "createdAt": "2026-10-02T22:52:05.000Z",
-  "downloads": 12,
+  "downloads": 21,
   "likes": 0,
   "pipeline": "translation",
   "tags": [
@@ -272,7 +272,7 @@
  {
   "id": "IndexTeam/Index-Homura-2B-GGUF",
   "createdAt": "2026-10-02T22:52:04.000Z",
-  "downloads": 343,
+  "downloads": 1093,
   "likes": 0,
   "pipeline": "translation",
   "tags": [
@@ -283,7 +283,7 @@
  {
   "id": "IndexTeam/Index-Translate-35B-A3B-preview-FP8",
   "createdAt": "2026-10-02T21:10:38.000Z",
-  "downloads": 28,
+  "downloads": 50,
   "likes": 0,
   "pipeline": "translation",
   "tags": [
@@ -294,8 +294,8 @@
  {
   "id": "IndexTeam/Index-Translate-9B-FP8",
   "createdAt": "2026-10-02T21:10:36.000Z",
-  "downloads": 28,
-  "likes": 0,
+  "downloads": 95,
+  "likes": 2,
   "pipeline": "translation",
   "tags": [
    "image-text-to-text"
@@ -305,7 +305,7 @@
  {
   "id": "IndexTeam/Index-Translate-2B-FP8",
   "createdAt": "2026-10-02T21:10:34.000Z",
-  "downloads": 18,
+  "downloads": 47,
   "likes": 0,
   "pipeline": "translation",
   "tags": [
@@ -316,8 +316,8 @@
  {
   "id": "IndexTeam/Index-Translate-35B-A3B-preview-GGUF",
   "createdAt": "2026-10-02T21:10:32.000Z",
-  "downloads": 545,
-  "likes": 7,
+  "downloads": 6389,
+  "likes": 12,
   "pipeline": "translation",
   "tags": [
    "conversational"
@@ -327,8 +327,8 @@
  {
   "id": "IndexTeam/Index-Translate-9B-GGUF",
   "createdAt": "2026-10-02T21:10:30.000Z",
-  "downloads": 684,
-  "likes": 3,
+  "downloads": 13487,
+  "likes": 13,
   "pipeline": "translation",
   "tags": [
    "conversational"
@@ -338,8 +338,8 @@
  {
   "id": "IndexTeam/Index-Translate-2B-GGUF",
   "createdAt": "2026-10-02T21:10:16.000Z",
-  "downloads": 706,
-  "likes": 2,
+  "downloads": 7223,
+  "likes": 10,
   "pipeline": "translation",
   "tags": [
    "conversational"
@@ -349,8 +349,8 @@
  {
   "id": "IndexTeam/Index-Translate-35B-A3B-preview",
   "createdAt": "2026-10-02T19:48:31.000Z",
-  "downloads": 148,
-  "likes": 2,
+  "downloads": 315,
+  "likes": 3,
   "pipeline": "translation",
   "tags": [],
   "gated": false
@@ -358,8 +358,8 @@
  {
   "id": "IndexTeam/Index-Echo-S2TT-9B",
   "createdAt": "2026-09-28T09:03:59.000Z",
-  "downloads": 15,
-  "likes": 7,
+  "downloads": 67,
+  "likes": 9,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -367,8 +367,8 @@
  {
   "id": "IndexTeam/Index-Echo-S2TT-2B",
   "createdAt": "2026-09-28T09:03:56.000Z",
-  "downloads": 12,
-  "likes": 5,
+  "downloads": 91,
+  "likes": 7,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -376,8 +376,8 @@
  {
   "id": "IndexTeam/Index-Echo-S2ST-9B",
   "createdAt": "2026-09-28T08:55:52.000Z",
-  "downloads": 80,
-  "likes": 11,
+  "downloads": 172,
+  "likes": 17,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -385,8 +385,8 @@
  {
   "id": "IndexTeam/Index-Echo-S2ST-2B",
   "createdAt": "2026-09-28T08:55:49.000Z",
-  "downloads": 113,
-  "likes": 6,
+  "downloads": 305,
+  "likes": 9,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -394,7 +394,7 @@
  {
   "id": "IndexTeam/Index-Homura-9B",
   "createdAt": "2026-09-28T08:09:58.000Z",
-  "downloads": 100,
+  "downloads": 152,
   "likes": 5,
   "pipeline": "translation",
   "tags": [],
@@ -403,8 +403,8 @@
  {
   "id": "IndexTeam/Index-Homura-2B",
   "createdAt": "2026-09-28T08:09:56.000Z",
-  "downloads": 104,
-  "likes": 5,
+  "downloads": 167,
+  "likes": 6,
   "pipeline": "translation",
   "tags": [],
   "gated": false
@@ -412,7 +412,7 @@
  {
   "id": "IndexTeam/Index-Nailong-2B",
   "createdAt": "2026-09-28T08:09:55.000Z",
-  "downloads": 101,
+  "downloads": 152,
   "likes": 6,
   "pipeline": "translation",
   "tags": [],
@@ -421,8 +421,8 @@
  {
   "id": "IndexTeam/Index-Nailong-9B",
   "createdAt": "2026-09-28T08:09:54.000Z",
-  "downloads": 208,
-  "likes": 9,
+  "downloads": 264,
+  "likes": 12,
   "pipeline": "translation",
   "tags": [],
   "gated": false
@@ -430,8 +430,8 @@
  {
   "id": "IndexTeam/Index-Translate-9B",
   "createdAt": "2026-09-28T08:09:53.000Z",
-  "downloads": 461,
-  "likes": 31,
+  "downloads": 1094,
+  "likes": 36,
   "pipeline": "translation",
   "tags": [],
   "gated": false
@@ -439,8 +439,8 @@
  {
   "id": "IndexTeam/Index-Translate-2B",
   "createdAt": "2026-09-28T08:09:52.000Z",
-  "downloads": 415,
-  "likes": 32,
+  "downloads": 1366,
+  "likes": 50,
   "pipeline": "translation",
   "tags": [],
   "gated": false
@@ -448,8 +448,8 @@
  {
   "id": "IndexTeam/IndexTTS-2.5",
   "createdAt": "2026-08-10T07:49:03.000Z",
-  "downloads": 14103,
-  "likes": 230,
+  "downloads": 14895,
+  "likes": 241,
   "pipeline": "text-to-speech",
   "tags": [],
   "gated": false
@@ -466,8 +466,8 @@
  {
   "id": "IndexTeam/IndexTTS-2",
   "createdAt": "2025-06-18T05:36:01.000Z",
-  "downloads": 11801,
-  "likes": 788,
+  "downloads": 12193,
+  "likes": 789,
   "pipeline": "text-to-speech",
   "tags": [],
   "gated": false
@@ -475,7 +475,7 @@
  {
   "id": "IndexTeam/IndexTTS-1.5",
   "createdAt": "2025-05-13T06:39:43.000Z",
-  "downloads": 2077,
+  "downloads": 2051,
   "likes": 80,
   "pipeline": "",
   "tags": [],
@@ -484,7 +484,7 @@
  {
   "id": "IndexTeam/Index-anisora",
   "createdAt": "2025-05-09T10:29:43.000Z",
-  "downloads": 8,
+  "downloads": 6,
   "likes": 229,
   "pipeline": "",
   "tags": [],
@@ -493,7 +493,7 @@
  {
   "id": "IndexTeam/Index-TTS",
   "createdAt": "2025-03-25T05:04:24.000Z",
-  "downloads": 81,
+  "downloads": 89,
   "likes": 155,
   "pipeline": "text-to-speech",
   "tags": [],

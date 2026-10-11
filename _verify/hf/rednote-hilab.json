@@ -1,1 +1,14 @@
-[]
+[
+ {
+  "id": "rednote-hilab/dots.llm1.base",
+  "createdAt": "2026-10-06T11:57:31.000Z",
+  "downloads": 1209,
+  "likes": 0,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ }
+]

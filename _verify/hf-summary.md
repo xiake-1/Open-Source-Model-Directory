@@ -8,11 +8,11 @@
 - deepseek-ai/DeepSeek-V4-Flash-Vision-Exp@2026-08-31
 - deepseek-ai/DeepSeek-V4-Pro-0813@2026-08-13
 
-## Qwen（253）
+## Qwen（254）
 
+- Qwen/Qwen-Image-2.1-Turbo@2026-10-09
 - Qwen/Qwen-Image-2.1-PE-I2I@2026-09-20
 - Qwen/Qwen-Image-2.1-PE-T2I@2026-09-20
-- Qwen/Qwen-Image-2.1@2026-09-14
 
 ## moonshotai（19）
 
@@ -56,11 +56,11 @@
 - stepfun-ai/Step-3.7-Flash-NVFP4@2026-05-27
 - stepfun-ai/Step-3.7-Flash-FP8@2026-05-23
 
-## tencent（155）
+## tencent（156）
 
+- tencent/Youtu-Parsing-Omni@2026-10-09
 - tencent/WeVisDoc-4B@2026-09-16
 - tencent/WeVisDoc-2B@2026-09-16
-- tencent/Simple-Attention-Sparsification@2026-09-14
 
 ## ascend（0）
 
@@ -131,8 +131,9 @@
 - IndexTeam/Index-Echo-S2ST-2B-FP4@2026-10-03
 - IndexTeam/Index-Echo-S2TT-9B-FP4@2026-10-03
 
-## rednote-hilab（0）
+## rednote-hilab（1）
 
+- rednote-hilab/dots.llm1.base@2026-10-06
 
 ## infinigence（0）
 
@@ -146,17 +147,17 @@
 - meta-llama/Llama-Prompt-Guard-2-22M@2025-04-28
 - meta-llama/Llama-Guard-4-12B@2025-04-23
 
-## google（228）
+## google（229）
 
+- google/embeddinggemma-2@2026-09-14
 - google/gnm-v3@2026-09-01
 - google/timesfm-3.0-pytorch@2026-08-24
-- google/tipsv1-g14-lowres@2026-08-19
 
-## mistralai（54）
+## mistralai（56）
 
+- mistralai/LIDstral-Arabic@2026-10-08
+- mistralai/Voxtral-Mini-4B-Realtime-Arabic@2026-10-08
 - mistralai/Shieldstral-1.0-3B@2026-07-16
-- mistralai/Leanstral-1.5-119B-A6B@2026-07-01
-- mistralai/Mistral-Medium-3.5-128B-EAGLE@2026-04-27
 
 ## openai（6）
 
@@ -170,29 +171,29 @@
 - microsoft/FrogNano-4B-2609@2026-09-17
 - microsoft/VibeVoice-ASR-Streaming-1.5B@2026-09-02
 
-## nvidia（718）
+## nvidia（726）
 
-- nvidia/PixelUMM@2026-10-01
-- nvidia/PixelDiT2-ImageNet@2026-10-01
-- nvidia/DeepSeek-V4.1-Flash-NVFP4@2026-09-16
+- nvidia/agile_one_s_pick_ssd_n2_1120@2026-10-10
+- nvidia/agile_one_s_place_ssd_n2_1260@2026-10-10
+- nvidia/agile_one_s_pickplace_ssd_n2_18200@2026-10-10
 
-## ibm-granite（189）
+## ibm-granite（190）
 
 - ibm-granite/ensemble-forecasting-with-ibm-granite-time-series@2026-10-01
+- ibm-granite/granite-timeseries-ensemble-r1@2026-09-23
 - ibm-granite/granite-4.2-30b-bf16-mlx@2026-09-01
-- ibm-granite/granite-4.2-30b-q8-mlx@2026-09-01
 
-## allenai（611）
+## allenai（617）
 
 - allenai/AstaBrief_8B_SFT@2026-09-10
 - allenai/ACE2S-SHiELD-plus-supplemental-checkpoints@2026-09-01
-- allenai/SamudrACE-E3SMv3@2026-08-04
+- allenai/Llama-3-Blama-8B@2026-08-26
 
-## LiquidAI（178）
+## LiquidAI（183）
 
-- LiquidAI/LFM2.5-VL-3B-DSpark-GGUF@2026-09-18
-- LiquidAI/LFM2.5-VL-3B-DSpark@2026-09-18
-- LiquidAI/LFM2.5-8B-A1B-DSpark-GGUF@2026-08-19
+- LiquidAI/d1-3B-w8a8@2026-10-07
+- LiquidAI/d1-omni-600M-GGUF@2026-10-06
+- LiquidAI/d1-3B-GGUF@2026-10-06
 
 ## CohereLabs（34）
 
@@ -263,11 +264,11 @@
 - naver/blast3r-matcher@2026-09-03
 - naver/v-splade-quality@2026-07-01
 
-## swiss-ai（24）
+## swiss-ai（31）
 
-- swiss-ai/Apertus-v1.5-70B@2026-07-24
-- swiss-ai/Apertus-v1.5-8B@2026-07-24
-- swiss-ai/wavtokenizer-large-unify-40token@2026-07-19
+- swiss-ai/Apertus-v1.5-70B-base@2026-09-23
+- swiss-ai/Apertus-v1.5-8B-base@2026-09-23
+- swiss-ai/Apertus-v1.5-70B-RLVR@2026-08-22
 
 ## utter-project（31）
 
@@ -279,11 +280,11 @@
 
 - xai-org/grok-2@2025-08-22
 
-## amazon（18）
+## amazon（25）
 
-- amazon/poiss-bge-m3-reranker@2026-09-18
-- amazon/poiss-bge-m3-retriever@2026-09-18
-- amazon/Qwen3-Coder-30B-A3B-Instruct-P-EAGLE-long-context@2026-05-14
+- amazon/strands-decider-2B-qwen3.5-v1-2610@2026-10-09
+- amazon/strands-decider-26B-A4B-gemma4-v1-2610@2026-10-09
+- amazon/strands-decider-12B-gemma4-v1-2610@2026-10-09
 
 ## Salesforce（56）
 

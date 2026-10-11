@@ -1,66 +1,62 @@
 {
- "generatedAt": "2026-10-04T09:52:37.360Z",
+ "generatedAt": "2026-10-11T00:54:21.252Z",
  "metric": "downloads 为 HuggingFace 的近 30 天下载量；无数据的条目（仓库不存在 / 未取到）不进「热度」分档",
  "source": "https://huggingface.co/api/models/<repo>?full=false",
  "repos": {
   "acvlab/ABot-World-0-5B-LF": {
-   "downloads": 723,
+   "downloads": 750,
    "likes": 78
   },
   "ai21labs/AI21-Jamba-Reasoning-3B": {
-   "downloads": 15404,
+   "downloads": 38461,
    "likes": 140
   },
+  "Aleph-Alpha/Kolibri-1": {
+   "downloads": 10496,
+   "likes": 860
+  },
   "ali-vilab/VACE-Wan2.1-1.3B-Preview": {
-   "downloads": 1070,
+   "downloads": 1176,
    "likes": 128
   },
-  "allenai/Molmo2-4B": {
-   "downloads": 52389,
-   "likes": 54
-  },
-  "allenai/Molmo2-8B": {
-   "downloads": 59994,
-   "likes": 194
-  },
   "allenai/OLMo-2-0325-32B-Instruct": {
-   "downloads": 49189,
+   "downloads": 8328,
    "likes": 147
   },
   "allenai/Olmo-3-1025-7B": {
-   "downloads": 131105,
+   "downloads": 125263,
    "likes": 88
   },
   "allenai/Olmo-3-1125-32B": {
-   "downloads": 25094,
+   "downloads": 20679,
    "likes": 128
   },
   "allenai/Olmo-3-32B-Think": {
-   "downloads": 13329,
+   "downloads": 14395,
    "likes": 177
   },
   "allenai/Olmo-3-7B-Instruct": {
-   "downloads": 479352,
-   "likes": 152
+   "downloads": 464187,
+   "likes": 155
   },
   "allenai/Olmo-3-7B-Think": {
-   "downloads": 451390,
-   "likes": 108
+   "downloads": 490336,
+   "likes": 109
   },
   "allenai/Olmo-3.1-32B-Think": {
-   "downloads": 18667,
+   "downloads": 19261,
    "likes": 115
   },
   "Alpha-VLLM/Lumina-DiMOO": {
-   "downloads": 1111,
+   "downloads": 1187,
    "likes": 157
   },
   "Alpha-VLLM/Lumina-Image-2.0": {
-   "downloads": 977,
-   "likes": 375
+   "downloads": 1075,
+   "likes": 377
   },
   "Alpha-VLLM/Lumina-mGPT-2.0": {
-   "downloads": 180,
+   "downloads": 170,
    "likes": 84
   },
   "AntResearch/4DAnyone": {
@@ -68,135 +64,135 @@
    "likes": 99
   },
   "apple/DiffuCoder-7B-cpGRPO": {
-   "downloads": 706,
+   "downloads": 719,
    "likes": 321
   },
   "apple/FastVLM-7B": {
-   "downloads": 1280,
+   "downloads": 2817,
    "likes": 272
   },
   "apple/LensVLM-9B": {
-   "downloads": 2324,
-   "likes": 284
+   "downloads": 2605,
+   "likes": 290
   },
   "BAAI/Emu3.5-Image": {
    "downloads": 244,
    "likes": 80
   },
   "baidu/ERNIE-4.5-21B-A3B-PT": {
-   "downloads": 19064,
+   "downloads": 18085,
    "likes": 178
   },
   "baidu/ERNIE-4.5-21B-A3B-Thinking": {
-   "downloads": 81268,
+   "downloads": 85935,
    "likes": 792
   },
   "baidu/ERNIE-4.5-300B-A47B-PT": {
-   "downloads": 2826,
+   "downloads": 2815,
    "likes": 78
   },
   "baidu/ERNIE-4.5-VL-28B-A3B-PT": {
-   "downloads": 29354,
+   "downloads": 28411,
    "likes": 105
   },
   "baidu/ERNIE-4.5-VL-28B-A3B-Thinking": {
-   "downloads": 857,
+   "downloads": 727,
    "likes": 543
   },
   "baidu/ERNIE-4.5-VL-424B-A47B-PT": {
-   "downloads": 593,
+   "downloads": 697,
    "likes": 105
   },
   "baidu/ERNIE-Image": {
-   "downloads": 1259,
-   "likes": 676
+   "downloads": 1327,
+   "likes": 677
   },
   "baidu/ERNIE-Image-Aes": {
-   "downloads": 315,
+   "downloads": 279,
    "likes": 18
   },
   "baidu/ERNIE-Image-Turbo": {
-   "downloads": 3632,
-   "likes": 406
+   "downloads": 3568,
+   "likes": 407
   },
   "baidu/NAVA": {
-   "downloads": 136,
+   "downloads": 125,
    "likes": 126
   },
   "black-forest-labs/FLUX.1-Kontext-dev": {
-   "downloads": 362963,
-   "likes": 2864
+   "downloads": 350002,
+   "likes": 2885
   },
   "black-forest-labs/FLUX.1-Krea-dev": {
-   "downloads": 48032,
-   "likes": 933
+   "downloads": 38982,
+   "likes": 938
   },
   "black-forest-labs/FLUX.2-dev": {
-   "downloads": 405364,
-   "likes": 2365
+   "downloads": 413721,
+   "likes": 2393
   },
   "black-forest-labs/FLUX.2-klein-4B": {
-   "downloads": 392980,
-   "likes": 1000
+   "downloads": 406241,
+   "likes": 1015
   },
   "black-forest-labs/FLUX.2-klein-9B": {
-   "downloads": 199429,
-   "likes": 1603
+   "downloads": 192229,
+   "likes": 1648
   },
   "black-forest-labs/FLUX.2-klein-base-4B": {
-   "downloads": 301018,
-   "likes": 176
+   "downloads": 321782,
+   "likes": 179
   },
   "BLIP3o/BLIP3o-Model-8B": {
-   "downloads": 1820,
+   "downloads": 1690,
    "likes": 104
   },
   "briaai/FIBO": {
-   "downloads": 565,
-   "likes": 330
+   "downloads": 509,
+   "likes": 331
   },
   "bytedance-research/EchoVideo": {
-   "downloads": 10,
+   "downloads": 16,
    "likes": 8
   },
   "bytedance-research/HuMo": {
-   "downloads": 77,
-   "likes": 268
+   "downloads": 85,
+   "likes": 269
   },
   "bytedance-research/Lance": {
-   "downloads": 1162,
-   "likes": 1059
+   "downloads": 1125,
+   "likes": 1060
   },
   "bytedance-research/Phantom": {
    "downloads": 0,
    "likes": 173
   },
   "ByteDance-Seed/BAGEL-7B-MoT": {
-   "downloads": 960,
+   "downloads": 1007,
    "likes": 1223
   },
   "ByteDance-Seed/Seed-Coder-8B-Instruct": {
-   "downloads": 2609,
+   "downloads": 2394,
    "likes": 119
   },
   "ByteDance-Seed/Seed-OSS-36B-Base": {
-   "downloads": 47067,
+   "downloads": 2745,
    "likes": 69
   },
   "ByteDance-Seed/Seed-OSS-36B-Instruct": {
-   "downloads": 48843,
+   "downloads": 50568,
    "likes": 505
   },
   "ByteDance-Seed/VINCIE-3B": {
-   "downloads": 66,
+   "downloads": 69,
    "likes": 42
   },
   "ByteDance/Bernini-R": {
-   "downloads": 98,
+   "downloads": 75,
    "likes": 299
   },
   "ByteDance/BindWeave": {
-   "downloads": 412,
+   "downloads": 418,
    "likes": 91
   },
   "ByteDance/lynx": {
@@ -204,139 +200,139 @@
    "likes": 141
   },
   "ByteDance/Video-As-Prompt-Wan2.1-14B": {
-   "downloads": 54,
+   "downloads": 53,
    "likes": 49
   },
   "chetwinlow1/Ovi": {
-   "downloads": 70,
+   "downloads": 71,
    "likes": 302
   },
   "CohereLabs/aya-vision-32b": {
-   "downloads": 232,
+   "downloads": 253,
    "likes": 227
   },
   "CohereLabs/aya-vision-8b": {
-   "downloads": 2858,
+   "downloads": 2355,
    "likes": 327
   },
   "CohereLabs/c4ai-command-a-03-2025": {
-   "downloads": 2124,
-   "likes": 395
+   "downloads": 1830,
+   "likes": 397
   },
   "CohereLabs/command-a-plus-05-2026-bf16": {
-   "downloads": 35959,
-   "likes": 145
+   "downloads": 30352,
+   "likes": 146
   },
   "CohereLabs/command-a-reasoning-08-2025": {
-   "downloads": 1858,
-   "likes": 145
+   "downloads": 1905,
+   "likes": 146
   },
   "CohereLabs/North-Micro-Vision-Instruct": {
-   "downloads": 169672,
-   "likes": 150
+   "downloads": 114949,
+   "likes": 151
   },
   "CohereLabs/North-Mini-Code-1.0": {
-   "downloads": 9319,
-   "likes": 575
+   "downloads": 7694,
+   "likes": 577
   },
   "CohereLabs/tiny-aya-global": {
-   "downloads": 9038,
-   "likes": 172
+   "downloads": 8287,
+   "likes": 175
   },
   "decart-ai/Lucy-Edit-Dev": {
-   "downloads": 216,
+   "downloads": 241,
    "likes": 364
   },
   "deepseek-ai/DeepSeek-Math-V2": {
-   "downloads": 650,
+   "downloads": 622,
    "likes": 708
   },
   "deepseek-ai/DeepSeek-OCR": {
-   "downloads": 2068514,
-   "likes": 3391
+   "downloads": 2047041,
+   "likes": 3390
   },
   "deepseek-ai/DeepSeek-Prover-V2-671B": {
-   "downloads": 887,
+   "downloads": 906,
    "likes": 834
   },
   "deepseek-ai/DeepSeek-R1": {
-   "downloads": 1022411,
-   "likes": 14317
+   "downloads": 1117237,
+   "likes": 14346
   },
   "deepseek-ai/DeepSeek-R1-0528": {
-   "downloads": 208574,
-   "likes": 2465
+   "downloads": 185956,
+   "likes": 2468
   },
   "deepseek-ai/DeepSeek-R1-Zero": {
-   "downloads": 9198,
-   "likes": 968
+   "downloads": 8283,
+   "likes": 970
   },
   "deepseek-ai/DeepSeek-V3-0324": {
-   "downloads": 1362832,
-   "likes": 3179
+   "downloads": 1410063,
+   "likes": 3184
   },
   "deepseek-ai/DeepSeek-V3.1": {
-   "downloads": 347357,
+   "downloads": 365009,
    "likes": 833
   },
   "deepseek-ai/DeepSeek-V3.1-Terminus": {
-   "downloads": 22645,
-   "likes": 369
+   "downloads": 20353,
+   "likes": 370
   },
   "deepseek-ai/DeepSeek-V3.2": {
-   "downloads": 3745220,
-   "likes": 1501
+   "downloads": 4576177,
+   "likes": 1508
   },
   "deepseek-ai/DeepSeek-V3.2-Exp": {
-   "downloads": 51414,
-   "likes": 1006
+   "downloads": 52601,
+   "likes": 1005
   },
   "deepseek-ai/DeepSeek-V3.2-Speciale": {
-   "downloads": 3492,
+   "downloads": 3157,
    "likes": 726
   },
   "deepseek-ai/DeepSeek-V4-Flash": {
-   "downloads": 1038669,
-   "likes": 2267
+   "downloads": 904765,
+   "likes": 2289
   },
   "deepseek-ai/DeepSeek-V4-Flash-0731": {
-   "downloads": 4499079,
-   "likes": 4013
+   "downloads": 4494443,
+   "likes": 4024
   },
   "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp": {
-   "downloads": 882643,
-   "likes": 931
+   "downloads": 677788,
+   "likes": 934
   },
   "deepseek-ai/DeepSeek-V4-Pro": {
-   "downloads": 416888,
-   "likes": 5619
+   "downloads": 396820,
+   "likes": 5646
   },
   "deepseek-ai/DeepSeek-V4-Pro-0813": {
-   "downloads": 93565,
-   "likes": 854
+   "downloads": 87569,
+   "likes": 866
   },
   "deepseek-ai/DeepSeek-V4.1-Flash": {
-   "downloads": 798422,
-   "likes": 4068
+   "downloads": 1355278,
+   "likes": 4325
   },
   "deepseek-ai/Janus-Pro-7B": {
-   "downloads": 10756,
-   "likes": 3695
+   "downloads": 10700,
+   "likes": 3698
   },
   "Efficient-Large-Model/LongLive-2.0-5B": {
    "downloads": 0,
-   "likes": 28
+   "likes": 29
   },
   "Efficient-Large-Model/Sana_Sprint_1.6B_1024px": {
-   "downloads": 84,
+   "downloads": 71,
    "likes": 21
   },
   "Efficient-Large-Model/SANA-Video_2B_480p": {
-   "downloads": 48,
+   "downloads": 47,
    "likes": 17
   },
   "Efficient-Large-Model/SANA-Video_2B_480p_LongLive": {
-   "downloads": 15,
+   "downloads": 14,
    "likes": 2
   },
   "Efficient-Large-Model/SANA-WM_bidirectional": {
@@ -344,251 +340,259 @@
    "likes": 130
   },
   "Efficient-Large-Model/SANA1.5_4.8B_1024px": {
-   "downloads": 41,
+   "downloads": 338,
    "likes": 26
   },
   "FireRedTeam/FireRed-Image-Edit-1.0": {
-   "downloads": 41248,
-   "likes": 352
+   "downloads": 38828,
+   "likes": 353
   },
   "FireRedTeam/FireRed-Image-Edit-1.1": {
-   "downloads": 6271,
-   "likes": 298
+   "downloads": 5612,
+   "likes": 299
   },
   "Freepik/F-Lite": {
-   "downloads": 45,
+   "downloads": 42,
    "likes": 153
   },
   "GAIR/daVinci-MagiHuman": {
-   "downloads": 73,
+   "downloads": 70,
    "likes": 335
   },
   "google/diffusiongemma-26B-A4B-it": {
-   "downloads": 568189,
-   "likes": 1269
+   "downloads": 652523,
+   "likes": 1282
   },
   "google/gemma-3-12b-it": {
-   "downloads": 483078,
-   "likes": 851
+   "downloads": 429037,
+   "likes": 862
   },
   "google/gemma-3-270m": {
-   "downloads": 61113,
-   "likes": 1111
+   "downloads": 63913,
+   "likes": 1113
   },
   "google/gemma-3-27b-it": {
-   "downloads": 414835,
-   "likes": 2045
+   "downloads": 417823,
+   "likes": 2047
   },
   "google/gemma-3-4b-it": {
-   "downloads": 1242041,
-   "likes": 1551
+   "downloads": 1198281,
+   "likes": 1569
   },
   "google/gemma-3n-E4B-it": {
-   "downloads": 12851,
-   "likes": 930
+   "downloads": 12234,
+   "likes": 931
   },
   "google/gemma-4-12B-it": {
-   "downloads": 1889103,
-   "likes": 1632
+   "downloads": 1603246,
+   "likes": 1651
   },
   "google/gemma-4-26B-A4B": {
-   "downloads": 48991,
-   "likes": 431
+   "downloads": 42395,
+   "likes": 435
   },
   "google/gemma-4-31B-it": {
-   "downloads": 9909534,
-   "likes": 4012
+   "downloads": 9619659,
+   "likes": 4073
   },
   "google/gemma-4-E4B-it": {
-   "downloads": 4422211,
-   "likes": 1638
+   "downloads": 4305979,
+   "likes": 1679
   },
   "google/medgemma-27b-it": {
-   "downloads": 78284,
-   "likes": 449
+   "downloads": 48547,
+   "likes": 461
   },
   "HiDream-ai/HiDream-E1-1": {
-   "downloads": 282,
+   "downloads": 261,
    "likes": 217
   },
   "HiDream-ai/HiDream-E1-Full": {
-   "downloads": 298,
+   "downloads": 249,
    "likes": 217
   },
   "HiDream-ai/HiDream-I1-Dev": {
-   "downloads": 360,
+   "downloads": 294,
    "likes": 173
   },
   "HiDream-ai/HiDream-I1-Fast": {
-   "downloads": 54040,
+   "downloads": 53280,
    "likes": 108
   },
   "HiDream-ai/HiDream-I1-Full": {
-   "downloads": 869,
-   "likes": 1000
+   "downloads": 765,
+   "likes": 1001
   },
   "HiDream-ai/HiDream-O1-Image": {
-   "downloads": 5010,
-   "likes": 550
+   "downloads": 4552,
+   "likes": 554
   },
   "hpcai-tech/Open-Sora-v2": {
-   "downloads": 1225,
-   "likes": 185
+   "downloads": 969,
+   "likes": 186
   },
   "HuggingFaceTB/SmolLM3-3B": {
-   "downloads": 622849,
-   "likes": 1043
+   "downloads": 684509,
+   "likes": 1052
   },
   "ibm-granite/granite-3.2-8b-instruct": {
-   "downloads": 52228,
+   "downloads": 51988,
    "likes": 92
   },
   "ibm-granite/granite-3.3-8b-instruct": {
-   "downloads": 74903,
+   "downloads": 82934,
    "likes": 161
   },
   "ibm-granite/granite-4.0-h-1b": {
-   "downloads": 4753,
+   "downloads": 2994,
    "likes": 148
   },
   "ibm-granite/granite-4.0-h-small": {
-   "downloads": 23531,
-   "likes": 309
+   "downloads": 23873,
+   "likes": 311
   },
   "ibm-granite/granite-4.1-30b": {
-   "downloads": 253748,
-   "likes": 147
+   "downloads": 192731,
+   "likes": 148
   },
   "ibm-granite/granite-4.1-8b": {
-   "downloads": 174644,
-   "likes": 256
+   "downloads": 140003,
+   "likes": 257
   },
   "ibm-granite/granite-4.2-30b": {
-   "downloads": 36410,
-   "likes": 127
+   "downloads": 37230,
+   "likes": 129
   },
   "ibm-granite/granite-4.2-8b": {
-   "downloads": 128392,
-   "likes": 94
+   "downloads": 128102,
+   "likes": 97
   },
   "ibm-granite/granite-vision-4.1-4b": {
-   "downloads": 170783,
+   "downloads": 183486,
    "likes": 110
   },
   "inclusionAI/Ling-1T": {
-   "downloads": 2705,
-   "likes": 547
+   "downloads": 2340,
+   "likes": 546
   },
   "inclusionAI/Ling-2.5-1T": {
-   "downloads": 802,
+   "downloads": 848,
    "likes": 114
   },
   "inclusionAI/Ling-2.6-1T": {
-   "downloads": 1416,
+   "downloads": 1419,
    "likes": 509
   },
   "inclusionAI/Ling-2.6-flash": {
-   "downloads": 4459,
+   "downloads": 8127,
    "likes": 506
   },
   "inclusionAI/Ling-3.0-flash": {
-   "downloads": 13239,
-   "likes": 421
+   "downloads": 11286,
+   "likes": 427
   },
   "inclusionAI/Ling-3.0-flash-VL": {
-   "downloads": 15591,
-   "likes": 119
+   "downloads": 15398,
+   "likes": 123
   },
   "inclusionAI/Ling-3.0-tiny": {
-   "downloads": 16459,
-   "likes": 503
+   "downloads": 13709,
+   "likes": 521
   },
   "inclusionAI/Ling-flash-2.0": {
-   "downloads": 2668,
+   "downloads": 2075,
    "likes": 220
   },
   "inclusionAI/Ling-lite-1.5": {
-   "downloads": 3613,
+   "downloads": 3419,
    "likes": 57
   },
   "inclusionAI/Ling-mini-2.0": {
-   "downloads": 10014,
+   "downloads": 9552,
    "likes": 207
   },
   "inclusionAI/LLaDA-Image": {
-   "downloads": 991,
+   "downloads": 663,
    "likes": 93
   },
   "inclusionAI/LLaDA2.0-mini": {
-   "downloads": 209826,
+   "downloads": 215438,
    "likes": 71
   },
   "inclusionAI/Ming-Image-0.1-Design": {
    "downloads": 0,
-   "likes": 380
+   "likes": 410
   },
   "inclusionAI/Ring-1T": {
-   "downloads": 796,
+   "downloads": 756,
    "likes": 233
   },
   "inclusionAI/Ring-2.5-1T": {
-   "downloads": 4094,
+   "downloads": 3841,
    "likes": 243
   },
   "inclusionAI/Ring-2.6-1T": {
-   "downloads": 1164,
+   "downloads": 1167,
    "likes": 106
   },
   "inclusionAI/Ring-flash-2.0": {
-   "downloads": 615,
+   "downloads": 670,
    "likes": 104
   },
   "inclusionAI/Ring-mini-2.0": {
-   "downloads": 593,
+   "downloads": 606,
    "likes": 188
   },
   "internlm/Atria-Dawn-Preview": {
-   "downloads": 1485,
-   "likes": 241
+   "downloads": 1644,
+   "likes": 246
   },
   "internlm/Intern-S1": {
-   "downloads": 20052,
+   "downloads": 19824,
    "likes": 258
   },
   "internlm/Intern-S1-Pro": {
-   "downloads": 1555,
+   "downloads": 1602,
    "likes": 278
   },
   "internlm/Intern-S2-397B": {
-   "downloads": 974,
-   "likes": 47
+   "downloads": 1192,
+   "likes": 48
   },
   "internlm/Intern-S2-Preview": {
-   "downloads": 1118,
-   "likes": 120
+   "downloads": 1364,
+   "likes": 122
   },
   "internlm/internlm3-8b-instruct": {
-   "downloads": 67963,
+   "downloads": 66734,
    "likes": 235
   },
   "internlm/InternLumina-U2": {
    "downloads": 0,
-   "likes": 15
+   "likes": 16
+  },
+  "IQuestLab/IQuest-Q1": {
+   "downloads": 1608,
+   "likes": 140
   },
   "jdopensource/JoyAI-Echo": {
-   "downloads": 220,
+   "downloads": 401,
    "likes": 178
   },
   "jdopensource/JoyAI-Image-Edit": {
-   "downloads": 118,
+   "downloads": 105,
    "likes": 141
   },
   "jdopensource/JoyAI-Video-Edit": {
-   "downloads": 5025,
-   "likes": 106
+   "downloads": 3609,
+   "likes": 108
+  },
+  "JetBrains/Mellum2.1-12B-A2.5B-Thinking": {
+   "downloads": 583,
+   "likes": 92
   },
   "kandinskylab/Kandinsky-5.0-I2V-Lite-5s": {
-   "downloads": 35,
+   "downloads": 38,
    "likes": 17
   },
   "kandinskylab/Kandinsky-5.0-T2I-Lite": {
@@ -596,7 +600,7 @@
    "likes": 28
   },
   "kandinskylab/Kandinsky-5.0-T2V-Lite-sft-5s": {
-   "downloads": 42,
+   "downloads": 43,
    "likes": 0
   },
   "kandinskylab/Kandinsky-5.0-T2V-Pro-sft-5s": {
@@ -604,632 +608,636 @@
    "likes": 9
   },
   "kandinskylab/Kandinsky-WM-1.0-I2V-5s-PH": {
-   "downloads": 36,
-   "likes": 4
+   "downloads": 491,
+   "likes": 5
   },
   "krea/Krea-2-Raw": {
-   "downloads": 81552,
-   "likes": 948
+   "downloads": 84409,
+   "likes": 1014
   },
   "LGAI-EXAONE/EXAONE-4.0-32B": {
-   "downloads": 28375,
+   "downloads": 29403,
    "likes": 282
   },
   "LGAI-EXAONE/EXAONE-4.5-33B": {
-   "downloads": 52543,
+   "downloads": 50527,
    "likes": 186
   },
   "LGAI-EXAONE/EXAONE-Deep-32B": {
-   "downloads": 710,
+   "downloads": 733,
    "likes": 302
   },
   "LGAI-EXAONE/K-EXAONE-2.0-750B-A37B": {
-   "downloads": 3439,
-   "likes": 156
+   "downloads": 2838,
+   "likes": 157
   },
   "LGAI-EXAONE/K-EXAONE-236B-A23B": {
-   "downloads": 18847,
+   "downloads": 17480,
    "likes": 577
   },
   "Lightricks/LTX-2": {
-   "downloads": 267144,
-   "likes": 1788
+   "downloads": 267655,
+   "likes": 1789
   },
   "Lightricks/LTX-2.3": {
-   "downloads": 1047520,
-   "likes": 1929
+   "downloads": 954212,
+   "likes": 1946
   },
   "Lightricks/LTX-2.5": {
-   "downloads": 1626951,
-   "likes": 6184
+   "downloads": 1720888,
+   "likes": 7174
   },
   "Lightricks/LTX-Video": {
-   "downloads": 769026,
-   "likes": 2324
+   "downloads": 642840,
+   "likes": 2335
   },
   "Lightricks/LTX-Video-0.9.8-13B-distilled": {
-   "downloads": 2413,
+   "downloads": 2175,
    "likes": 36
   },
   "LiquidAI/LFM2-24B-A2B": {
-   "downloads": 3395,
+   "downloads": 3059,
    "likes": 351
   },
   "LiquidAI/LFM2.5-1.2B-Instruct": {
-   "downloads": 118830,
-   "likes": 673
+   "downloads": 114955,
+   "likes": 675
   },
   "LiquidAI/LFM2.5-8B-A1B": {
-   "downloads": 32306,
-   "likes": 781
+   "downloads": 26022,
+   "likes": 785
   },
   "meituan-longcat/LongCat-2.0": {
-   "downloads": 2022,
-   "likes": 279
+   "downloads": 2189,
+   "likes": 281
   },
   "meituan-longcat/LongCat-Flash-Chat": {
-   "downloads": 23084,
+   "downloads": 22373,
    "likes": 538
   },
   "meituan-longcat/LongCat-Flash-Thinking": {
-   "downloads": 302,
+   "downloads": 314,
    "likes": 148
   },
   "meituan-longcat/LongCat-Image": {
-   "downloads": 13631,
+   "downloads": 13697,
    "likes": 249
   },
   "meituan-longcat/LongCat-Image-Edit": {
-   "downloads": 20146,
+   "downloads": 19724,
    "likes": 187
   },
   "meituan-longcat/LongCat-Image-Edit-Turbo": {
-   "downloads": 23301,
+   "downloads": 23021,
    "likes": 72
   },
   "meituan-longcat/LongCat-Next": {
-   "downloads": 373,
+   "downloads": 406,
    "likes": 213
   },
   "meituan-longcat/LongCat-Video": {
-   "downloads": 1867,
-   "likes": 570
+   "downloads": 2030,
+   "likes": 576
   },
   "meituan-longcat/LongCat-Video-Avatar": {
-   "downloads": 118,
+   "downloads": 114,
    "likes": 266
   },
   "meituan-longcat/LongCat-Video-Avatar-1.5": {
-   "downloads": 2372,
-   "likes": 842
+   "downloads": 2503,
+   "likes": 852
   },
   "meta-llama/Llama-4-Maverick-17B-128E-Instruct": {
-   "downloads": 9653,
-   "likes": 514
+   "downloads": 9467,
+   "likes": 515
   },
   "meta-llama/Llama-4-Scout-17B-16E": {
-   "downloads": 3740,
-   "likes": 271
+   "downloads": 3030,
+   "likes": 273
   },
   "meta-llama/Llama-4-Scout-17B-16E-Instruct": {
-   "downloads": 174849,
-   "likes": 1363
+   "downloads": 163461,
+   "likes": 1370
   },
   "meta-models/Muse-Glimmer-30B": {
-   "downloads": 271342,
-   "likes": 1974
+   "downloads": 250866,
+   "likes": 1996
   },
   "microsoft/Phi-4-mini-flash-reasoning": {
-   "downloads": 2017,
-   "likes": 285
+   "downloads": 2090,
+   "likes": 286
   },
   "microsoft/Phi-4-mini-instruct": {
-   "downloads": 366686,
-   "likes": 846
+   "downloads": 350337,
+   "likes": 850
   },
   "microsoft/Phi-4-mini-reasoning": {
-   "downloads": 58780,
-   "likes": 240
+   "downloads": 55316,
+   "likes": 242
   },
   "microsoft/Phi-4-multimodal-instruct": {
-   "downloads": 207339,
-   "likes": 1615
+   "downloads": 184330,
+   "likes": 1616
   },
   "microsoft/Phi-4-reasoning": {
-   "downloads": 29163,
+   "downloads": 26279,
    "likes": 227
   },
   "microsoft/Phi-4-reasoning-plus": {
-   "downloads": 9848,
+   "downloads": 8026,
    "likes": 348
   },
   "microsoft/Phi-4-reasoning-vision-15B": {
-   "downloads": 2558,
+   "downloads": 2564,
    "likes": 179
   },
   "MiniMaxAI/MiniMax-H3": {
-   "downloads": 3562175,
-   "likes": 5868
+   "downloads": 3596813,
+   "likes": 6023
   },
   "MiniMaxAI/MiniMax-M1-40k": {
-   "downloads": 18598,
+   "downloads": 21995,
    "likes": 185
   },
   "MiniMaxAI/MiniMax-M1-80k": {
-   "downloads": 1569,
+   "downloads": 1680,
    "likes": 692
   },
   "MiniMaxAI/MiniMax-M2": {
-   "downloads": 286155,
+   "downloads": 244494,
    "likes": 1503
   },
   "MiniMaxAI/MiniMax-M2.1": {
-   "downloads": 13404,
+   "downloads": 11608,
    "likes": 1361
   },
   "MiniMaxAI/MiniMax-M2.5": {
-   "downloads": 471539,
-   "likes": 1507
+   "downloads": 579388,
+   "likes": 1508
   },
   "MiniMaxAI/MiniMax-M2.7": {
-   "downloads": 1027776,
-   "likes": 1249
+   "downloads": 820756,
+   "likes": 1250
   },
   "MiniMaxAI/MiniMax-M3": {
-   "downloads": 180895,
-   "likes": 1560
+   "downloads": 205186,
+   "likes": 1568
   },
   "MiniMaxAI/MiniMax-Text-01": {
-   "downloads": 3116,
+   "downloads": 2955,
    "likes": 657
   },
   "MiniMaxAI/MiniMax-VL-01": {
-   "downloads": 33549,
+   "downloads": 27518,
    "likes": 286
   },
   "mistralai/Devstral-2-123B-Instruct-2512": {
-   "downloads": 7671,
+   "downloads": 6287,
    "likes": 342
   },
   "mistralai/Devstral-Small-2-24B-Instruct-2512": {
-   "downloads": 323414,
-   "likes": 673
+   "downloads": 303520,
+   "likes": 676
   },
   "mistralai/Devstral-Small-2507": {
-   "downloads": 14855,
+   "downloads": 11401,
    "likes": 368
   },
   "mistralai/Magistral-Small-2506": {
-   "downloads": 72535,
+   "downloads": 71909,
    "likes": 610
   },
   "mistralai/Magistral-Small-2509": {
-   "downloads": 5916,
+   "downloads": 6527,
    "likes": 306
   },
   "mistralai/Ministral-3-14B-Instruct-2512": {
-   "downloads": 230848,
-   "likes": 332
+   "downloads": 123713,
+   "likes": 334
   },
   "mistralai/Ministral-3-14B-Reasoning-2512": {
-   "downloads": 75341,
+   "downloads": 55974,
    "likes": 156
   },
   "mistralai/Ministral-3-8B-Instruct-2512": {
-   "downloads": 120480,
-   "likes": 206
+   "downloads": 117133,
+   "likes": 210
   },
   "mistralai/Mistral-Large-3-675B-Instruct-2512": {
-   "downloads": 1700,
-   "likes": 252
+   "downloads": 2037,
+   "likes": 253
   },
   "mistralai/Mistral-Medium-3.5-128B": {
-   "downloads": 110375,
-   "likes": 461
+   "downloads": 72473,
+   "likes": 469
   },
   "mistralai/Mistral-Small-24B-Instruct-2501": {
-   "downloads": 58350,
+   "downloads": 62190,
    "likes": 970
   },
   "mistralai/Mistral-Small-3.1-24B-Instruct-2503": {
-   "downloads": 539274,
-   "likes": 1383
+   "downloads": 377132,
+   "likes": 1384
   },
   "mistralai/Mistral-Small-3.2-24B-Instruct-2506": {
-   "downloads": 255950,
+   "downloads": 256792,
    "likes": 622
   },
   "mistralai/Mistral-Small-4-119B-2603": {
-   "downloads": 59370,
-   "likes": 432
+   "downloads": 79509,
+   "likes": 440
   },
   "mistralai/Voxtral-Small-24B-2507": {
-   "downloads": 24585,
-   "likes": 529
+   "downloads": 24045,
+   "likes": 534
   },
   "moonshotai/Kimi-K2-Instruct": {
-   "downloads": 313284,
-   "likes": 2990
+   "downloads": 337467,
+   "likes": 2989
   },
   "moonshotai/Kimi-K2-Instruct-0905": {
-   "downloads": 65106,
-   "likes": 789
+   "downloads": 62254,
+   "likes": 790
   },
   "moonshotai/Kimi-K2-Thinking": {
-   "downloads": 62383,
+   "downloads": 60329,
    "likes": 1716
   },
   "moonshotai/Kimi-K2.5": {
-   "downloads": 319006,
-   "likes": 2878
+   "downloads": 331059,
+   "likes": 2877
   },
   "moonshotai/Kimi-K2.6": {
-   "downloads": 466866,
-   "likes": 1612
+   "downloads": 424734,
+   "likes": 1613
   },
   "moonshotai/Kimi-K2.7-Code": {
-   "downloads": 113389,
-   "likes": 1407
+   "downloads": 113759,
+   "likes": 1412
   },
   "moonshotai/Kimi-K3": {
-   "downloads": 1230667,
-   "likes": 11585
+   "downloads": 1160630,
+   "likes": 11654
   },
   "moonshotai/Kimi-Linear-48B-A3B-Instruct": {
-   "downloads": 205546,
-   "likes": 603
+   "downloads": 218020,
+   "likes": 608
   },
   "moonshotai/Kimi-VL-A3B-Instruct": {
-   "downloads": 211304,
+   "downloads": 201045,
    "likes": 284
   },
   "moonshotai/Moonlight-16B-A3B-Instruct": {
-   "downloads": 32673,
-   "likes": 206
+   "downloads": 33540,
+   "likes": 208
   },
   "netflix/void-model": {
    "downloads": 0,
-   "likes": 969
+   "likes": 970
   },
   "NucleusAI/Nucleus-Image": {
-   "downloads": 153,
+   "downloads": 165,
    "likes": 261
   },
   "nvidia/ChronoEdit-14B-Diffusers": {
-   "downloads": 168,
+   "downloads": 191,
    "likes": 172
   },
   "nvidia/Cosmos-1.0-Diffusion-7B-Text2World": {
-   "downloads": 1345,
+   "downloads": 1078,
    "likes": 236
   },
   "nvidia/Cosmos-Predict2-2B-Video2World": {
-   "downloads": 33329,
-   "likes": 103
+   "downloads": 26772,
+   "likes": 106
   },
   "nvidia/Cosmos-Predict2.5-2B": {
-   "downloads": 7558,
-   "likes": 178
-  },
-  "nvidia/Cosmos3-Super-Image2Video": {
-   "downloads": 17668,
-   "likes": 157
-  },
-  "nvidia/Cosmos3-Super-Text2Image": {
-   "downloads": 3453,
+   "downloads": 6058,
    "likes": 190
   },
+  "nvidia/Cosmos3-Super-Image2Video": {
+   "downloads": 28237,
+   "likes": 158
+  },
+  "nvidia/Cosmos3-Super-Text2Image": {
+   "downloads": 5231,
+   "likes": 191
+  },
   "nvidia/Nemotron-Cascade-2-30B-A3B": {
-   "downloads": 6908,
-   "likes": 527
+   "downloads": 5702,
+   "likes": 528
   },
   "nvidia/Nemotron-Labs-Diffusion-14B": {
-   "downloads": 17052,
+   "downloads": 16358,
    "likes": 155
   },
   "nvidia/NL-Diffusion-Image": {
-   "downloads": 230,
+   "downloads": 234,
    "likes": 13
   },
   "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16": {
-   "downloads": 903005,
-   "likes": 824
+   "downloads": 927805,
+   "likes": 826
   },
   "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-FP8": {
-   "downloads": 250845,
+   "downloads": 232284,
    "likes": 362
   },
   "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16": {
-   "downloads": 1182780,
-   "likes": 429
+   "downloads": 1004693,
+   "likes": 431
   },
   "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8": {
-   "downloads": 59277,
-   "likes": 283
+   "downloads": 63307,
+   "likes": 284
   },
   "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16": {
-   "downloads": 401157,
-   "likes": 359
+   "downloads": 806642,
+   "likes": 362
   },
   "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16": {
-   "downloads": 553302,
-   "likes": 226
+   "downloads": 611762,
+   "likes": 229
   },
   "nvidia/NVIDIA-Nemotron-Nano-12B-v2": {
-   "downloads": 9459,
+   "downloads": 9556,
    "likes": 164
   },
   "nvidia/NVIDIA-Nemotron-Nano-9B-v2": {
-   "downloads": 331188,
-   "likes": 522
+   "downloads": 318856,
+   "likes": 524
   },
   "nvidia/NVIDIA-Nemotron-Nano-9B-v2-Japanese": {
-   "downloads": 3420,
+   "downloads": 3238,
    "likes": 142
   },
   "OmniGen2/OmniGen2": {
-   "downloads": 3877,
-   "likes": 459
+   "downloads": 3495,
+   "likes": 460
   },
   "openai/gpt-oss-120b": {
-   "downloads": 4446927,
-   "likes": 5350
+   "downloads": 3845925,
+   "likes": 5375
   },
   "openai/gpt-oss-20b": {
-   "downloads": 6432026,
-   "likes": 5127
+   "downloads": 5950578,
+   "likes": 5149
   },
   "openbmb/MiniCPM-V-4_5": {
-   "downloads": 99188,
+   "downloads": 88217,
    "likes": 1100
   },
   "openbmb/MiniCPM4-8B": {
-   "downloads": 7261,
+   "downloads": 6940,
    "likes": 289
   },
   "openbmb/MiniCPM5-1B": {
-   "downloads": 424776,
-   "likes": 1148
+   "downloads": 377956,
+   "likes": 1152
   },
   "OpenGVLab/InternVL3_5-38B": {
-   "downloads": 7075,
+   "downloads": 6376,
    "likes": 46
   },
   "openpangu/openPangu-2.0-Pro": {
-   "downloads": 179,
-   "likes": 22
+   "downloads": 193,
+   "likes": 23
   },
   "openpangu/openPangu-Ultra-MoE-718B-V1.1": {
-   "downloads": 120,
+   "downloads": 140,
    "likes": 4
   },
   "Qwen/Qwen-Image": {
-   "downloads": 262825,
-   "likes": 2664
+   "downloads": 269037,
+   "likes": 2667
   },
   "Qwen/Qwen-Image-2.1": {
-   "downloads": 90003,
-   "likes": 2913
+   "downloads": 128839,
+   "likes": 3191
+  },
+  "Qwen/Qwen-Image-2.1-Turbo": {
+   "downloads": 2138,
+   "likes": 446
   },
   "Qwen/Qwen-Image-2512": {
-   "downloads": 46863,
-   "likes": 967
+   "downloads": 44748,
+   "likes": 974
   },
   "Qwen/Qwen-Image-Edit": {
-   "downloads": 110278,
-   "likes": 2533
+   "downloads": 113126,
+   "likes": 2539
   },
   "Qwen/Qwen-Image-Edit-2509": {
-   "downloads": 466052,
-   "likes": 1249
+   "downloads": 465760,
+   "likes": 1251
   },
   "Qwen/Qwen-Image-Edit-2511": {
-   "downloads": 270248,
-   "likes": 1439
+   "downloads": 228021,
+   "likes": 1456
   },
   "Qwen/Qwen-Image-Layered": {
-   "downloads": 66070,
-   "likes": 1169
+   "downloads": 70363,
+   "likes": 1171
   },
   "Qwen/Qwen2.5-Omni-7B": {
-   "downloads": 324745,
-   "likes": 1953
+   "downloads": 304099,
+   "likes": 1957
   },
   "Qwen/Qwen2.5-VL-32B-Instruct": {
-   "downloads": 797473,
+   "downloads": 781496,
    "likes": 503
   },
   "Qwen/Qwen2.5-VL-3B-Instruct": {
-   "downloads": 2321574,
-   "likes": 710
+   "downloads": 2148981,
+   "likes": 712
   },
   "Qwen/Qwen2.5-VL-72B-Instruct": {
-   "downloads": 73097,
-   "likes": 658
+   "downloads": 57253,
+   "likes": 659
   },
   "Qwen/Qwen2.5-VL-7B-Instruct": {
-   "downloads": 5740330,
-   "likes": 1730
+   "downloads": 5310600,
+   "likes": 1735
   },
   "Qwen/Qwen3-14B": {
-   "downloads": 3064677,
-   "likes": 487
+   "downloads": 5422096,
+   "likes": 491
   },
   "Qwen/Qwen3-235B-A22B": {
-   "downloads": 450243,
+   "downloads": 498063,
    "likes": 1111
   },
   "Qwen/Qwen3-235B-A22B-Instruct-2507": {
-   "downloads": 192189,
-   "likes": 804
+   "downloads": 165854,
+   "likes": 806
   },
   "Qwen/Qwen3-235B-A22B-Thinking-2507": {
-   "downloads": 17874,
+   "downloads": 18421,
    "likes": 410
   },
   "Qwen/Qwen3-30B-A3B": {
-   "downloads": 1455584,
-   "likes": 953
+   "downloads": 1364576,
+   "likes": 957
   },
   "Qwen/Qwen3-30B-A3B-Instruct-2507": {
-   "downloads": 896822,
+   "downloads": 967045,
    "likes": 841
   },
   "Qwen/Qwen3-30B-A3B-Thinking-2507": {
-   "downloads": 82746,
+   "downloads": 74404,
    "likes": 381
   },
   "Qwen/Qwen3-32B": {
-   "downloads": 3854978,
-   "likes": 754
+   "downloads": 3466526,
+   "likes": 755
   },
   "Qwen/Qwen3-4B": {
-   "downloads": 7669919,
-   "likes": 721
+   "downloads": 10600642,
+   "likes": 732
   },
   "Qwen/Qwen3-4B-Instruct-2507": {
-   "downloads": 3675154,
-   "likes": 990
+   "downloads": 3563213,
+   "likes": 999
   },
   "Qwen/Qwen3-4B-Thinking-2507": {
-   "downloads": 557146,
+   "downloads": 617769,
    "likes": 619
   },
   "Qwen/Qwen3-8B": {
-   "downloads": 10145616,
-   "likes": 2071
+   "downloads": 9821408,
+   "likes": 2083
   },
   "Qwen/Qwen3-Coder-30B-A3B-Instruct": {
-   "downloads": 466661,
-   "likes": 1267
+   "downloads": 391173,
+   "likes": 1273
   },
   "Qwen/Qwen3-Coder-480B-A35B-Instruct": {
-   "downloads": 35926,
-   "likes": 1377
+   "downloads": 38002,
+   "likes": 1376
   },
   "Qwen/Qwen3-Coder-Next": {
-   "downloads": 596420,
-   "likes": 1671
+   "downloads": 594051,
+   "likes": 1683
   },
   "Qwen/Qwen3-Next-80B-A3B-Instruct": {
-   "downloads": 283345,
-   "likes": 1057
+   "downloads": 255914,
+   "likes": 1059
   },
   "Qwen/Qwen3-Next-80B-A3B-Thinking": {
-   "downloads": 41425,
+   "downloads": 42275,
    "likes": 496
   },
   "Qwen/Qwen3-Omni-30B-A3B-Instruct": {
-   "downloads": 637456,
-   "likes": 1012
+   "downloads": 707706,
+   "likes": 1016
   },
   "Qwen/Qwen3-Omni-30B-A3B-Thinking": {
-   "downloads": 190998,
-   "likes": 323
+   "downloads": 176949,
+   "likes": 324
   },
   "Qwen/Qwen3-VL-235B-A22B-Instruct": {
-   "downloads": 317201,
-   "likes": 420
+   "downloads": 298896,
+   "likes": 421
   },
   "Qwen/Qwen3-VL-235B-A22B-Thinking": {
-   "downloads": 18843,
-   "likes": 408
+   "downloads": 21624,
+   "likes": 410
   },
   "Qwen/Qwen3-VL-30B-A3B-Instruct": {
-   "downloads": 417577,
+   "downloads": 335463,
    "likes": 610
   },
   "Qwen/Qwen3-VL-30B-A3B-Thinking": {
-   "downloads": 17787,
+   "downloads": 23615,
    "likes": 203
   },
   "Qwen/Qwen3-VL-32B-Instruct": {
-   "downloads": 324664,
-   "likes": 242
+   "downloads": 319859,
+   "likes": 244
   },
   "Qwen/Qwen3-VL-4B-Instruct": {
-   "downloads": 3487067,
-   "likes": 485
+   "downloads": 3113173,
+   "likes": 492
   },
   "Qwen/Qwen3-VL-4B-Thinking": {
-   "downloads": 51318,
-   "likes": 120
+   "downloads": 39672,
+   "likes": 122
   },
   "Qwen/Qwen3-VL-8B-Instruct": {
-   "downloads": 12833745,
-   "likes": 1165
+   "downloads": 8975548,
+   "likes": 1175
   },
   "Qwen/Qwen3-VL-8B-Thinking": {
-   "downloads": 141756,
-   "likes": 225
+   "downloads": 123776,
+   "likes": 226
   },
   "Qwen/Qwen3.5-122B-A10B": {
-   "downloads": 536245,
-   "likes": 625
+   "downloads": 589937,
+   "likes": 629
   },
   "Qwen/Qwen3.5-27B": {
-   "downloads": 1877550,
-   "likes": 1057
+   "downloads": 1880136,
+   "likes": 1059
   },
   "Qwen/Qwen3.5-35B-A3B": {
-   "downloads": 1557946,
-   "likes": 1521
+   "downloads": 1466376,
+   "likes": 1523
   },
   "Qwen/Qwen3.5-397B-A17B": {
-   "downloads": 423045,
-   "likes": 1561
+   "downloads": 476504,
+   "likes": 1567
   },
   "Qwen/Qwen3.5-4B": {
-   "downloads": 7824457,
-   "likes": 1004
+   "downloads": 7913682,
+   "likes": 1040
   },
   "Qwen/Qwen3.5-9B": {
-   "downloads": 8915284,
-   "likes": 2095
+   "downloads": 8319798,
+   "likes": 2137
   },
   "Qwen/Qwen3.6-27B": {
-   "downloads": 2420613,
-   "likes": 2316
+   "downloads": 2277803,
+   "likes": 2318
   },
   "Qwen/Qwen3.6-35B-A3B": {
-   "downloads": 3371720,
-   "likes": 2915
+   "downloads": 3545718,
+   "likes": 2955
   },
   "Qwen/Qwen3.8-2.4T-A95B": {
-   "downloads": 33969,
-   "likes": 1280
+   "downloads": 32082,
+   "likes": 1301
   },
   "Qwen/Qwen3.8-27B": {
-   "downloads": 6821761,
-   "likes": 16899
+   "downloads": 6768654,
+   "likes": 17427
   },
   "Qwen/Qwen3.8-Flash-Next": {
-   "downloads": 1480842,
-   "likes": 5872
+   "downloads": 1798393,
+   "likes": 6080
   },
   "Qwen/QwQ-32B": {
-   "downloads": 52404,
+   "downloads": 40096,
    "likes": 2966
   },
   "rednote-hilab/dots.llm1.inst": {
-   "downloads": 903,
+   "downloads": 985,
    "likes": 181
   },
   "RekaAI/reka-edge-2603": {
-   "downloads": 613,
+   "downloads": 695,
    "likes": 133
   },
   "RekaAI/reka-flash-3": {
-   "downloads": 654,
+   "downloads": 706,
    "likes": 389
   },
   "robbyant/lingbot-video-moe-30b-a3b": {
-   "downloads": 11455,
+   "downloads": 11352,
    "likes": 132
   },
   "robbyant/lingbot-world-base-cam": {
    "downloads": 0,
-   "likes": 345
+   "likes": 346
   },
   "robbyant/lingbot-world-v2-1.3b-causal-fast": {
    "downloads": 0,
@@ -1238,6 +1246,14 @@
   "robbyant/lingbot-world-v2-14b-causal-fast": {
    "downloads": 0,
    "likes": 124
+  },
+  "RWKV/RWKV7-G1k-13.3B-20260930": {
+   "downloads": 286,
+   "likes": 4
+  },
+  "RWKV/RWKV7-G1k-7.2B-20260930": {
+   "downloads": 288,
+   "likes": 2
   },
   "sand-ai/MAGI-1": {
    "downloads": 0,
@@ -1248,123 +1264,127 @@
    "likes": 119
   },
   "sensenova/SenseNova-U1-8B-MoT": {
-   "downloads": 2099,
-   "likes": 292
+   "downloads": 1816,
+   "likes": 293
   },
   "sensenova/SenseNova-U1-A3B-MoT": {
-   "downloads": 140,
+   "downloads": 141,
    "likes": 18
   },
   "sensenova/SenseNova-U1.5-8B-MoT": {
-   "downloads": 5583,
-   "likes": 261
+   "downloads": 4443,
+   "likes": 263
   },
   "sensenova/SenseNova-Vision-7B-MoT": {
-   "downloads": 309,
+   "downloads": 344,
    "likes": 116
   },
   "showlab/show-o2-7B": {
-   "downloads": 2632,
+   "downloads": 2707,
    "likes": 18
   },
   "Skywork/Matrix-Game": {
-   "downloads": 104,
+   "downloads": 74,
    "likes": 48
   },
   "Skywork/Matrix-Game-2.0": {
-   "downloads": 246,
-   "likes": 301
+   "downloads": 228,
+   "likes": 302
   },
   "Skywork/Matrix-Game-3.0": {
-   "downloads": 209,
+   "downloads": 207,
    "likes": 135
   },
   "Skywork/SkyReels-V2-T2V-14B-720P": {
-   "downloads": 1443,
+   "downloads": 792,
    "likes": 42
   },
   "Skywork/SkyReels-V3-A2V-19B": {
-   "downloads": 1644,
+   "downloads": 1568,
    "likes": 98
   },
   "Skywork/Skywork-UniPic-1.5B": {
-   "downloads": 77,
+   "downloads": 67,
    "likes": 116
   },
   "Skywork/Unipic3": {
-   "downloads": 65,
+   "downloads": 63,
    "likes": 23
   },
   "stabilityai/stable-virtual-camera": {
-   "downloads": 6268,
+   "downloads": 6956,
    "likes": 240
   },
   "stepfun-ai/NextStep-1-Large": {
-   "downloads": 137,
+   "downloads": 141,
    "likes": 98
   },
   "stepfun-ai/Step-3.5-Flash": {
-   "downloads": 206073,
+   "downloads": 242700,
    "likes": 838
   },
   "stepfun-ai/Step-3.7-Flash": {
-   "downloads": 24651,
-   "likes": 460
+   "downloads": 24427,
+   "likes": 461
   },
   "stepfun-ai/Step1X-Edit": {
-   "downloads": 277,
+   "downloads": 244,
    "likes": 336
   },
   "stepfun-ai/Step1X-Edit-v1p2": {
-   "downloads": 686,
+   "downloads": 700,
    "likes": 65
   },
   "stepfun-ai/step3": {
-   "downloads": 50602,
+   "downloads": 50748,
    "likes": 166
   },
   "stepfun-ai/Step3-VL-10B": {
-   "downloads": 27230,
+   "downloads": 25386,
    "likes": 417
   },
   "stepfun-ai/stepvideo-t2v": {
-   "downloads": 77,
+   "downloads": 73,
    "likes": 480
   },
   "stepfun-ai/stepvideo-ti2v": {
-   "downloads": 56,
+   "downloads": 50,
    "likes": 85
   },
+  "SupraLabs/Supra2-IMG": {
+   "downloads": 1014,
+   "likes": 184
+  },
   "swiss-ai/Apertus-70B-Instruct-2509": {
-   "downloads": 21671,
+   "downloads": 21653,
    "likes": 194
   },
   "swiss-ai/Apertus-8B-Instruct-2509": {
-   "downloads": 454569,
-   "likes": 494
+   "downloads": 442451,
+   "likes": 496
   },
   "swiss-ai/Apertus-v1.5-70B": {
-   "downloads": 14102,
-   "likes": 110
+   "downloads": 6693,
+   "likes": 116
   },
   "swiss-ai/Apertus-v1.5-8B": {
-   "downloads": 650718,
-   "likes": 122
+   "downloads": 697845,
+   "likes": 136
   },
   "Tele-AI/TeleChat3-36B-Thinking": {
-   "downloads": 2679,
+   "downloads": 2346,
    "likes": 19
   },
   "tencent/Hunyuan-7B-Instruct": {
-   "downloads": 51138,
+   "downloads": 40095,
    "likes": 90
   },
   "tencent/Hunyuan-A13B-Instruct": {
-   "downloads": 68969,
+   "downloads": 71492,
    "likes": 795
   },
   "tencent/Hunyuan-GameCraft-1.0": {
-   "downloads": 98,
+   "downloads": 100,
    "likes": 493
   },
   "tencent/HunyuanCustom": {
@@ -1372,259 +1392,271 @@
    "likes": 191
   },
   "tencent/HunyuanImage-2.1": {
-   "downloads": 186,
+   "downloads": 169,
    "likes": 652
   },
   "tencent/HunyuanImage-3.0": {
-   "downloads": 3451,
-   "likes": 1132
+   "downloads": 3384,
+   "likes": 1139
   },
   "tencent/HunyuanImage-3.0-Instruct": {
-   "downloads": 18911,
-   "likes": 1043
+   "downloads": 19825,
+   "likes": 1044
   },
   "tencent/HunyuanPortrait": {
    "downloads": 0,
    "likes": 75
   },
   "tencent/HunyuanVideo-1.5": {
-   "downloads": 1231,
-   "likes": 1042
+   "downloads": 1302,
+   "likes": 1046
   },
   "tencent/HunyuanVideo-Avatar": {
    "downloads": 0,
    "likes": 334
   },
   "tencent/HunyuanVideo-I2V": {
-   "downloads": 226,
-   "likes": 359
+   "downloads": 220,
+   "likes": 360
   },
   "tencent/HunyuanWorld-Voyager": {
-   "downloads": 166,
+   "downloads": 165,
    "likes": 610
   },
   "tencent/HY-OmniWeaving": {
-   "downloads": 791,
+   "downloads": 725,
    "likes": 273
   },
   "tencent/HY-WorldPlay": {
-   "downloads": 390,
+   "downloads": 392,
    "likes": 526
   },
   "tencent/Hy3": {
-   "downloads": 345263,
-   "likes": 973
+   "downloads": 465571,
+   "likes": 975
   },
   "tencent/Hy3-preview": {
-   "downloads": 106109,
+   "downloads": 105470,
    "likes": 312
   },
   "tencent/Hy4-preview": {
-   "downloads": 25884,
-   "likes": 502
+   "downloads": 25977,
+   "likes": 504
   },
   "tencent/SRPO": {
-   "downloads": 534,
+   "downloads": 551,
    "likes": 979
   },
   "tencent/Youtu-VL-4B-Instruct": {
-   "downloads": 1460,
+   "downloads": 1675,
    "likes": 162
   },
   "tiiuae/Falcon-H1-34B-Instruct": {
-   "downloads": 1851,
+   "downloads": 1858,
    "likes": 53
   },
   "tiiuae/Falcon-H1R-7B": {
-   "downloads": 1720,
+   "downloads": 1461,
    "likes": 222
   },
   "Tongyi-MAI/Z-Image": {
-   "downloads": 56373,
-   "likes": 1264
+   "downloads": 53324,
+   "likes": 1265
   },
   "Tongyi-MAI/Z-Image-Turbo": {
-   "downloads": 588609,
-   "likes": 5402
+   "downloads": 630535,
+   "likes": 5434
   },
   "upstage/Solar-Open-100B": {
-   "downloads": 11885,
+   "downloads": 10977,
    "likes": 497
   },
   "upstage/Solar-Open2-250B": {
-   "downloads": 3568,
-   "likes": 755
+   "downloads": 5339,
+   "likes": 756
   },
   "utter-project/EuroLLM-22B-Instruct-2512": {
-   "downloads": 355242,
-   "likes": 85
+   "downloads": 269623,
+   "likes": 86
   },
   "Vchitect/LongVie2": {
    "downloads": 0,
    "likes": 26
   },
   "Viggle/Viggle-Animate": {
-   "downloads": 20321,
-   "likes": 276
+   "downloads": 16489,
+   "likes": 289
   },
   "Wan-AI/Wan-Dancer-14B": {
-   "downloads": 16979,
+   "downloads": 15821,
    "likes": 188
   },
   "Wan-AI/Wan2.1-FLF2V-14B-720P": {
-   "downloads": 11164,
+   "downloads": 10948,
    "likes": 229
   },
   "Wan-AI/Wan2.1-I2V-14B-480P": {
-   "downloads": 73595,
-   "likes": 237
+   "downloads": 112127,
+   "likes": 238
   },
   "Wan-AI/Wan2.1-I2V-14B-720P": {
-   "downloads": 17538,
+   "downloads": 23179,
    "likes": 611
   },
   "Wan-AI/Wan2.1-T2V-1.3B": {
-   "downloads": 47338,
-   "likes": 601
+   "downloads": 51187,
+   "likes": 619
   },
   "Wan-AI/Wan2.1-T2V-14B": {
-   "downloads": 62464,
+   "downloads": 59752,
    "likes": 1570
   },
   "Wan-AI/Wan2.1-VACE-14B": {
-   "downloads": 77749,
-   "likes": 514
+   "downloads": 73532,
+   "likes": 517
   },
   "Wan-AI/Wan2.2-Animate-14B": {
-   "downloads": 129044,
-   "likes": 1271
+   "downloads": 161475,
+   "likes": 1274
   },
   "Wan-AI/Wan2.2-Animate-2-14B": {
    "downloads": 0,
-   "likes": 291
+   "likes": 317
   },
   "Wan-AI/Wan2.2-I2V-A14B": {
-   "downloads": 11780,
-   "likes": 875
+   "downloads": 10119,
+   "likes": 894
   },
   "Wan-AI/Wan2.2-S2V-14B": {
-   "downloads": 16944,
-   "likes": 484
+   "downloads": 18287,
+   "likes": 486
   },
   "Wan-AI/Wan2.2-T2V-A14B": {
-   "downloads": 4382,
+   "downloads": 4562,
    "likes": 575
   },
   "Wan-AI/Wan2.2-TI2V-5B": {
-   "downloads": 24528,
-   "likes": 800
+   "downloads": 23100,
+   "likes": 811
   },
   "xai-org/grok-2": {
-   "downloads": 9317,
-   "likes": 1171
+   "downloads": 9401,
+   "likes": 1175
   },
   "XGENlabs/XGEN-JING": {
    "downloads": 2,
-   "likes": 181
+   "likes": 183
   },
   "XiaomiMiMo/MiMo-7B-RL": {
-   "downloads": 32349,
+   "downloads": 32327,
    "likes": 280
   },
   "XiaomiMiMo/MiMo-V2-Flash": {
-   "downloads": 104700,
-   "likes": 754
+   "downloads": 90257,
+   "likes": 755
   },
   "XiaomiMiMo/MiMo-V2.5-Pro": {
-   "downloads": 21667,
-   "likes": 760
+   "downloads": 21240,
+   "likes": 763
+  },
+  "XiaomiMiMo/MiMo-V2.6-Flash-MOPD": {
+   "downloads": 7452,
+   "likes": 61
   },
   "XiaomiMiMo/MiMo-V2.6-Flash-RL": {
-   "downloads": 48645,
-   "likes": 536
+   "downloads": 57567,
+   "likes": 549
+  },
+  "XiaomiMiMo/MiMo-V2.6-Pro-MOPD": {
+   "downloads": 4356,
+   "likes": 30
   },
   "XiaomiMiMo/MiMo-V2.6-Pro-RL": {
-   "downloads": 84809,
-   "likes": 644
+   "downloads": 95178,
+   "likes": 691
   },
   "XiaomiMiMo/MiMo-VL-7B-RL": {
-   "downloads": 1263,
+   "downloads": 1189,
    "likes": 170
   },
+  "XingChen-AGI/Xing4.0-29B-A4B": {
+   "downloads": 51665,
+   "likes": 1835
+  },
   "zai-org/CogView4-6B": {
-   "downloads": 5031,
+   "downloads": 4193,
    "likes": 258
   },
   "zai-org/GLM-4-32B-0414": {
-   "downloads": 5477,
+   "downloads": 5308,
    "likes": 489
   },
   "zai-org/GLM-4.1V-9B-Thinking": {
-   "downloads": 171696,
+   "downloads": 158201,
    "likes": 791
   },
   "zai-org/GLM-4.5": {
-   "downloads": 117753,
+   "downloads": 124362,
    "likes": 1411
   },
   "zai-org/GLM-4.5-Air": {
-   "downloads": 425851,
-   "likes": 643
+   "downloads": 547180,
+   "likes": 645
   },
   "zai-org/GLM-4.5V": {
-   "downloads": 39510,
+   "downloads": 38246,
    "likes": 722
   },
   "zai-org/GLM-4.6": {
-   "downloads": 17031,
+   "downloads": 17536,
    "likes": 1235
   },
   "zai-org/GLM-4.6V": {
-   "downloads": 3880,
+   "downloads": 3895,
    "likes": 397
   },
   "zai-org/GLM-4.6V-Flash": {
-   "downloads": 104603,
+   "downloads": 107156,
    "likes": 628
   },
   "zai-org/GLM-4.7": {
-   "downloads": 101730,
+   "downloads": 101993,
    "likes": 2058
   },
   "zai-org/GLM-4.7-Flash": {
-   "downloads": 1716197,
-   "likes": 1858
+   "downloads": 1473173,
+   "likes": 1866
   },
   "zai-org/GLM-5": {
-   "downloads": 413555,
-   "likes": 2122
+   "downloads": 585542,
+   "likes": 2123
   },
   "zai-org/GLM-5.1": {
-   "downloads": 296258,
+   "downloads": 378391,
    "likes": 1840
   },
   "zai-org/GLM-5.2": {
-   "downloads": 694248,
-   "likes": 5143
+   "downloads": 648587,
+   "likes": 5152
   },
   "zai-org/GLM-5.3": {
-   "downloads": 1424746,
-   "likes": 2078
+   "downloads": 1670161,
+   "likes": 2171
   },
   "zai-org/GLM-5.3-Flash": {
-   "downloads": 5577701,
-   "likes": 2683
+   "downloads": 6479110,
+   "likes": 2789
   },
   "zai-org/GLM-Image": {
-   "downloads": 5657,
-   "likes": 1113
+   "downloads": 4568,
+   "likes": 1114
   },
   "zai-org/GLM-Z1-32B-0414": {
-   "downloads": 28231,
+   "downloads": 5827,
    "likes": 196
   },
   "zai-org/GLM-Z1-Rumination-32B-0414": {
-   "downloads": 607,
+   "downloads": 665,
    "likes": 119
   },
   "zai-org/Kaleido-14B-S2V": {
@@ -1632,16 +1664,16 @@
    "likes": 20
   },
   "zai-org/SCAIL-2": {
-   "downloads": 3998,
-   "likes": 343
+   "downloads": 5324,
+   "likes": 345
   },
   "zai-org/SCAIL-Preview": {
    "downloads": 0,
    "likes": 110
   },
   "Zyphra/ZAYA1-8B": {
-   "downloads": 12276,
-   "likes": 593
+   "downloads": 11433,
+   "likes": 595
   }
  }
 }

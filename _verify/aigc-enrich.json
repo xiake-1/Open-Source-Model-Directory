@@ -1699,5 +1699,27 @@
   "downloads": 6212,
   "gated": false,
   "exists": true
+ },
+ "Qwen/Qwen-Image-2.1-Turbo": {
+  "created": "2026-10-09",
+  "lastModified": "2026-10-09",
+  "license": "other",
+  "params": "7.1B",
+  "pipeline": "text-to-image",
+  "likes": 446,
+  "downloads": 2138,
+  "gated": false,
+  "exists": true
+ },
+ "SupraLabs/Supra2-IMG": {
+  "created": "2026-09-21",
+  "lastModified": "2026-10-10",
+  "license": "apache-2.0",
+  "params": null,
+  "pipeline": "text-to-image",
+  "likes": 184,
+  "downloads": 1014,
+  "gated": false,
+  "exists": true
  }
 }

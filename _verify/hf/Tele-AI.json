@@ -13,7 +13,7 @@
  {
   "id": "Tele-AI/TeleChat3-Coder-36B-Thinking",
   "createdAt": "2026-01-29T09:59:29.000Z",
-  "downloads": 69,
+  "downloads": 51,
   "likes": 4,
   "pipeline": "",
   "tags": [],
@@ -33,7 +33,7 @@
  {
   "id": "Tele-AI/TeleChat3-36B-Thinking",
   "createdAt": "2025-12-24T01:19:38.000Z",
-  "downloads": 2679,
+  "downloads": 2346,
   "likes": 19,
   "pipeline": "",
   "tags": [],
@@ -60,7 +60,7 @@
  {
   "id": "Tele-AI/TeleChat2.5-115B",
   "createdAt": "2025-05-10T10:18:56.000Z",
-  "downloads": 28,
+  "downloads": 30,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -69,7 +69,7 @@
  {
   "id": "Tele-AI/T1-115B",
   "createdAt": "2025-04-28T11:32:25.000Z",
-  "downloads": 32,
+  "downloads": 37,
   "likes": 3,
   "pipeline": "",
   "tags": [],
@@ -78,7 +78,7 @@
  {
   "id": "Tele-AI/T1-35B",
   "createdAt": "2025-04-28T09:56:33.000Z",
-  "downloads": 23,
+  "downloads": 24,
   "likes": 2,
   "pipeline": "",
   "tags": [],
@@ -87,7 +87,7 @@
  {
   "id": "Tele-AI/TeleChat2-7B-32K",
   "createdAt": "2025-02-12T01:24:53.000Z",
-  "downloads": 39,
+  "downloads": 54,
   "likes": 3,
   "pipeline": "",
   "tags": [],

@@ -2,8 +2,8 @@
  {
   "id": "lllyasviel/FramePack_F1_I2V_HY_20250503",
   "createdAt": "2025-05-03T08:20:00.000Z",
-  "downloads": 32302,
-  "likes": 45,
+  "downloads": 46556,
+  "likes": 46,
   "pipeline": "",
   "library": "diffusers",
   "gated": false,
@@ -15,7 +15,7 @@
  {
   "id": "lllyasviel/flux_redux_bfl",
   "createdAt": "2025-04-12T15:52:30.000Z",
-  "downloads": 239,
+  "downloads": 265,
   "likes": 9,
   "pipeline": "",
   "library": "diffusers",
@@ -28,7 +28,7 @@
  {
   "id": "lllyasviel/FramePackI2V_HY",
   "createdAt": "2025-03-29T01:16:05.000Z",
-  "downloads": 122070,
+  "downloads": 130704,
   "likes": 132,
   "pipeline": "",
   "library": "diffusers",

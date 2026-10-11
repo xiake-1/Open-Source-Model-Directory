@@ -2,8 +2,8 @@
  {
   "id": "RWKV/RWKV7-G1k-1.5B-20260930",
   "createdAt": "2026-09-30T15:30:49.000Z",
-  "downloads": 245,
-  "likes": 1,
+  "downloads": 424,
+  "likes": 2,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -14,8 +14,8 @@
  {
   "id": "RWKV/RWKV7-G1k-13.3B-20260930",
   "createdAt": "2026-09-30T15:12:25.000Z",
-  "downloads": 149,
-  "likes": 3,
+  "downloads": 286,
+  "likes": 4,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -26,8 +26,8 @@
  {
   "id": "RWKV/RWKV7-G1k-7.2B-20260930",
   "createdAt": "2026-09-30T12:02:42.000Z",
-  "downloads": 190,
-  "likes": 1,
+  "downloads": 288,
+  "likes": 2,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -38,7 +38,7 @@
  {
   "id": "RWKV/RWKV7-G1k-2.9B-20260930",
   "createdAt": "2026-09-30T11:01:33.000Z",
-  "downloads": 259,
+  "downloads": 366,
   "likes": 1,
   "pipeline": "text-generation",
   "tags": [
@@ -50,7 +50,7 @@
  {
   "id": "RWKV/RWKV7-G1j-13.3B-20260831",
   "createdAt": "2026-09-02T12:01:22.000Z",
-  "downloads": 3042,
+  "downloads": 2459,
   "likes": 4,
   "pipeline": "text-generation",
   "tags": [
@@ -62,7 +62,7 @@
  {
   "id": "RWKV/RWKV7-G1j-7.2B-20260831",
   "createdAt": "2026-09-02T11:10:04.000Z",
-  "downloads": 843,
+  "downloads": 598,
   "likes": 0,
   "pipeline": "text-generation",
   "tags": [
@@ -74,7 +74,7 @@
  {
   "id": "RWKV/RWKV7-G1j-2.9B-20260831",
   "createdAt": "2026-09-02T09:13:21.000Z",
-  "downloads": 1813,
+  "downloads": 1527,
   "likes": 2,
   "pipeline": "text-generation",
   "tags": [
@@ -86,7 +86,7 @@
  {
   "id": "RWKV/RWKV7-G1j-1.5B-20260831",
   "createdAt": "2026-09-02T07:54:54.000Z",
-  "downloads": 1540,
+  "downloads": 1260,
   "likes": 5,
   "pipeline": "text-generation",
   "tags": [
@@ -98,7 +98,7 @@
  {
   "id": "RWKV/RWKV7-13.3B-20260805",
   "createdAt": "2026-08-06T10:36:28.000Z",
-  "downloads": 161,
+  "downloads": 101,
   "likes": 2,
   "pipeline": "text-generation",
   "tags": [
@@ -110,7 +110,7 @@
  {
   "id": "RWKV/RWKV7-7.2B-20260805",
   "createdAt": "2026-08-06T10:35:14.000Z",
-  "downloads": 204,
+  "downloads": 192,
   "likes": 2,
   "pipeline": "text-generation",
   "tags": [
@@ -122,7 +122,7 @@
  {
   "id": "RWKV/RWKV7-2.9B-20260805",
   "createdAt": "2026-08-06T10:34:37.000Z",
-  "downloads": 190,
+  "downloads": 161,
   "likes": 4,
   "pipeline": "text-generation",
   "tags": [
@@ -134,7 +134,7 @@
  {
   "id": "RWKV/RWKV7-1.5B-20260805",
   "createdAt": "2026-08-06T10:34:06.000Z",
-  "downloads": 322,
+  "downloads": 299,
   "likes": 8,
   "pipeline": "text-generation",
   "tags": [
@@ -146,7 +146,7 @@
  {
   "id": "RWKV/RWKV7-Goose-Pile-1.47B-HF",
   "createdAt": "2025-03-17T00:14:34.000Z",
-  "downloads": 105,
+  "downloads": 107,
   "likes": 0,
   "pipeline": "text-generation",
   "tags": [
@@ -157,7 +157,7 @@
  {
   "id": "RWKV/RWKV7-Goose-Pile-421M-HF",
   "createdAt": "2025-03-17T00:14:18.000Z",
-  "downloads": 99,
+  "downloads": 98,
   "likes": 0,
   "pipeline": "text-generation",
   "tags": [
@@ -179,7 +179,7 @@
  {
   "id": "RWKV/RWKV7-Goose-World2.8-0.1B-HF",
   "createdAt": "2025-03-17T00:11:49.000Z",
-  "downloads": 411,
+  "downloads": 273,
   "likes": 3,
   "pipeline": "text-generation",
   "tags": [
@@ -191,7 +191,7 @@
  {
   "id": "RWKV/RWKV7-Goose-World2.9-0.4B-HF",
   "createdAt": "2025-03-17T00:10:39.000Z",
-  "downloads": 336,
+  "downloads": 325,
   "likes": 1,
   "pipeline": "text-generation",
   "tags": [
@@ -203,7 +203,7 @@
  {
   "id": "RWKV/RWKV7-Goose-World3-1.5B-HF",
   "createdAt": "2025-03-17T00:09:52.000Z",
-  "downloads": 1728,
+  "downloads": 717,
   "likes": 4,
   "pipeline": "text-generation",
   "tags": [
@@ -215,7 +215,7 @@
  {
   "id": "RWKV/RWKV7-Goose-World3-2.9B-HF",
   "createdAt": "2025-03-17T00:06:51.000Z",
-  "downloads": 196,
+  "downloads": 176,
   "likes": 19,
   "pipeline": "text-generation",
   "tags": [
@@ -227,7 +227,7 @@
  {
   "id": "RWKV/RWKV7-Goose-World-PTH",
   "createdAt": "2025-03-16T21:47:09.000Z",
-  "downloads": 61,
+  "downloads": 60,
   "likes": 0,
   "pipeline": "text-generation",
   "tags": [
