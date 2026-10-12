@@ -4,6 +4,7 @@ dist/
 .pnpm-store/
 .wrangler/
 docs/
+videos/
 .env
 .env.production
 .DS_Store
