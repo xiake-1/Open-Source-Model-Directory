@@ -8430,5 +8430,122 @@
   "architectures": [
    "MellumForCausalLM"
   ]
+ },
+ "inclusionAI/Ling-3.1-flash": {
+  "repo": "inclusionAI/Ling-3.1-flash",
+  "created": "2026-10-13",
+  "lastModified": "2026-10-15",
+  "license": "mit",
+  "pipeline": "text-generation",
+  "likes": 120,
+  "downloads": 2191,
+  "gated": false,
+  "totalParams": 572120680768,
+  "tags": [
+   "safetensors",
+   "bailing_hybrid",
+   "text-generation",
+   "conversational",
+   "custom_code",
+   "license:mit",
+   "eval-results",
+   "fp8",
+   "region:us"
+  ],
+  "experts": 512,
+  "maxPos": 262144,
+  "modelType": "bailing_hybrid",
+  "hidden": 4096,
+  "layers": 72,
+  "architectures": [
+   "BailingMoeV3ForCausalLM"
+  ]
+ },
+ "LiquidAI/LFM2.5-24B-A2B": {
+  "repo": "LiquidAI/LFM2.5-24B-A2B",
+  "created": "2026-10-12",
+  "lastModified": "2026-10-13",
+  "license": "other",
+  "pipeline": "text-generation",
+  "likes": 458,
+  "downloads": 13007,
+  "gated": false,
+  "totalParams": 23971585280,
+  "tags": [
+   "transformers",
+   "safetensors",
+   "lfm2_moe",
+   "text-generation",
+   "liquid",
+   "lfm2.5",
+   "edge",
+   "moe",
+   "conversational",
+   "en",
+   "ar",
+   "zh",
+   "fr",
+   "de",
+   "ja",
+   "ko",
+   "es",
+   "pt",
+   "it",
+   "vi",
+   "th",
+   "id",
+   "hi",
+   "ru",
+   "pl",
+   "arxiv:2511.23404",
+   "base_model:LiquidAI/LFM2.5-24B-A2B-Base",
+   "base_model:finetune:LiquidAI/LFM2.5-24B-A2B-Base",
+   "license:other",
+   "endpoints_compatible",
+   "region:us"
+  ],
+  "experts": 64,
+  "maxPos": 131072,
+  "modelType": "lfm2_moe",
+  "hidden": 2048,
+  "layers": 40,
+  "architectures": [
+   "Lfm2MoeForCausalLM"
+  ]
+ },
+ "nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-BF16": {
+  "repo": "nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-BF16",
+  "created": "2026-10-16",
+  "lastModified": "2026-10-16",
+  "license": "other",
+  "pipeline": "text-generation",
+  "likes": 109,
+  "downloads": 1247,
+  "gated": false,
+  "totalParams": 3975229440,
+  "tags": [
+   "transformers",
+   "safetensors",
+   "dory",
+   "text-generation",
+   "nvidia",
+   "pytorch",
+   "nemotron-labs",
+   "conversational",
+   "en",
+   "dataset:nvidia/nemotron-post-training-v3",
+   "dataset:nvidia/nemotron-pre-training-datasets",
+   "license:other",
+   "endpoints_compatible",
+   "region:us"
+  ],
+  "experts": null,
+  "maxPos": 262144,
+  "modelType": "dory",
+  "hidden": 2560,
+  "layers": 72,
+  "architectures": [
+   "DoryForCausalLM"
+  ]
  }
 }

@@ -1721,5 +1721,16 @@
   "downloads": 1014,
   "gated": false,
   "exists": true
+ },
+ "Skywork/Matrix-Game-4.0": {
+  "created": "2026-10-12",
+  "lastModified": "2026-10-16",
+  "license": "apache-2.0",
+  "params": null,
+  "pipeline": "video-to-video",
+  "likes": 36,
+  "downloads": 137,
+  "gated": false,
+  "exists": true
  }
 }

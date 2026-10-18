@@ -161,4 +161,5 @@ export const REPOS = [
   'videorebirth/hyperflow',
   'Qwen/Qwen-Image-2.1-Turbo',
   'SupraLabs/Supra2-IMG',
+  'Skywork/Matrix-Game-4.0',
 ];
