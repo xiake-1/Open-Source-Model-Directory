@@ -8,7 +8,7 @@ tags: []
 license: MIT
 params: 推理加速 / KV cache
 links:
-  github: https://github.com/kvmem/kvmem-llama.cpp
+  github: https://github.com/kvmem/kvmem
 ---
 
 ## 它解决什么
