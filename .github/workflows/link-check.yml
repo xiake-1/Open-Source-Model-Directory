@@ -11,9 +11,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      # 这里**不要再写 version**：package.json 的 `packageManager: pnpm@11.7.0` 已经定了版本，
+      # 两处都写 pnpm/action-setup 会直接报「Multiple versions of pnpm specified」并让本步骤失败
+      # （2026-10-05 与 10-12 两次定时任务就是这么红的，后面的 check:links 根本没跑到）。
       - uses: pnpm/action-setup@v4
-        with:
-          version: 11
       - uses: actions/setup-node@v4
         with:
           # 24：check:links 的代理支持依赖 fetch 读取 NODE_USE_ENV_PROXY
