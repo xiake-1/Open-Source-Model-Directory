@@ -12,7 +12,7 @@
  {
   "id": "ByteDance-Seed/TaskMem",
   "createdAt": "2026-06-02T03:10:24.000Z",
-  "downloads": 115,
+  "downloads": 111,
   "likes": 4,
   "pipeline": "",
   "library": "",
@@ -37,7 +37,7 @@
  {
   "id": "ByteDance-Seed/Cola-DLM",
   "createdAt": "2026-05-15T07:55:26.000Z",
-  "downloads": 100,
+  "downloads": 97,
   "likes": 47,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -60,7 +60,7 @@
  {
   "id": "ByteDance-Seed/Stable-DiffCoder-8B-Instruct",
   "createdAt": "2026-01-15T07:49:01.000Z",
-  "downloads": 577,
+  "downloads": 599,
   "likes": 143,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -80,7 +80,7 @@
  {
   "id": "ByteDance-Seed/Stable-DiffCoder-8B-Base",
   "createdAt": "2026-01-15T07:48:10.000Z",
-  "downloads": 357,
+  "downloads": 367,
   "likes": 21,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -109,7 +109,7 @@
  {
   "id": "ByteDance-Seed/cryofm-v2",
   "createdAt": "2025-12-24T03:19:32.000Z",
-  "downloads": 35,
+  "downloads": 42,
   "likes": 6,
   "pipeline": "other",
   "library": "cryofm",
@@ -128,7 +128,7 @@
  {
   "id": "ByteDance-Seed/cryofm-v1",
   "createdAt": "2025-12-23T15:41:52.000Z",
-  "downloads": 34,
+  "downloads": 32,
   "likes": 6,
   "pipeline": "other",
   "library": "cryofm",
@@ -179,7 +179,7 @@
  {
   "id": "ByteDance-Seed/AHN-Mamba2-for-Qwen-2.5-Instruct-14B",
   "createdAt": "2025-10-08T07:23:59.000Z",
-  "downloads": 149,
+  "downloads": 144,
   "likes": 16,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -198,7 +198,7 @@
  {
   "id": "ByteDance-Seed/AHN-Mamba2-for-Qwen-2.5-Instruct-7B",
   "createdAt": "2025-10-08T07:23:28.000Z",
-  "downloads": 146,
+  "downloads": 142,
   "likes": 6,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -217,7 +217,7 @@
  {
   "id": "ByteDance-Seed/AHN-Mamba2-for-Qwen-2.5-Instruct-3B",
   "createdAt": "2025-10-08T07:22:45.000Z",
-  "downloads": 152,
+  "downloads": 138,
   "likes": 9,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -236,7 +236,7 @@
  {
   "id": "ByteDance-Seed/AHN-GDN-for-Qwen-2.5-Instruct-14B",
   "createdAt": "2025-10-08T07:21:07.000Z",
-  "downloads": 122,
+  "downloads": 118,
   "likes": 6,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -255,7 +255,7 @@
  {
   "id": "ByteDance-Seed/AHN-GDN-for-Qwen-2.5-Instruct-7B",
   "createdAt": "2025-10-08T07:20:53.000Z",
-  "downloads": 144,
+  "downloads": 139,
   "likes": 1,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -274,7 +274,7 @@
  {
   "id": "ByteDance-Seed/AHN-GDN-for-Qwen-2.5-Instruct-3B",
   "createdAt": "2025-10-08T07:20:34.000Z",
-  "downloads": 168,
+  "downloads": 151,
   "likes": 1,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -293,7 +293,7 @@
  {
   "id": "ByteDance-Seed/AHN-DN-for-Qwen-2.5-Instruct-14B",
   "createdAt": "2025-10-08T07:20:11.000Z",
-  "downloads": 128,
+  "downloads": 117,
   "likes": 3,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -312,7 +312,7 @@
  {
   "id": "ByteDance-Seed/AHN-DN-for-Qwen-2.5-Instruct-7B",
   "createdAt": "2025-10-08T07:19:54.000Z",
-  "downloads": 125,
+  "downloads": 114,
   "likes": 1,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -331,7 +331,7 @@
  {
   "id": "ByteDance-Seed/AHN-DN-for-Qwen-2.5-Instruct-3B",
   "createdAt": "2025-10-08T07:18:51.000Z",
-  "downloads": 133,
+  "downloads": 124,
   "likes": 1,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -350,7 +350,7 @@
  {
   "id": "ByteDance-Seed/BFS-Prover-V2-7B",
   "createdAt": "2025-10-06T05:22:52.000Z",
-  "downloads": 479,
+  "downloads": 537,
   "likes": 7,
   "pipeline": "text-generation",
   "library": "",
@@ -367,7 +367,7 @@
  {
   "id": "ByteDance-Seed/BFS-Prover-V2-32B",
   "createdAt": "2025-09-30T00:05:39.000Z",
-  "downloads": 157,
+  "downloads": 140,
   "likes": 13,
   "pipeline": "text-generation",
   "library": "",
@@ -410,8 +410,8 @@
  {
   "id": "ByteDance-Seed/Seed-OSS-36B-Instruct",
   "createdAt": "2025-08-20T15:03:26.000Z",
-  "downloads": 50568,
-  "likes": 505,
+  "downloads": 48803,
+  "likes": 506,
   "pipeline": "text-generation",
   "library": "transformers",
   "gated": false,
@@ -429,7 +429,7 @@
  {
   "id": "ByteDance-Seed/Seed-OSS-36B-Base-woSyn",
   "createdAt": "2025-08-20T14:49:52.000Z",
-  "downloads": 676,
+  "downloads": 687,
   "likes": 54,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -448,7 +448,7 @@
  {
   "id": "ByteDance-Seed/Seed-OSS-36B-Base",
   "createdAt": "2025-08-20T13:57:44.000Z",
-  "downloads": 2745,
+  "downloads": 2353,
   "likes": 69,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -467,7 +467,7 @@
  {
   "id": "ByteDance-Seed/M3-Agent-Memorization",
   "createdAt": "2025-08-12T11:06:59.000Z",
-  "downloads": 268,
+  "downloads": 332,
   "likes": 16,
   "pipeline": "",
   "library": "",
@@ -480,7 +480,7 @@
  {
   "id": "ByteDance-Seed/M3-Agent-Control",
   "createdAt": "2025-08-12T11:05:07.000Z",
-  "downloads": 157,
+  "downloads": 177,
   "likes": 50,
   "pipeline": "",
   "library": "",
@@ -493,7 +493,7 @@
  {
   "id": "ByteDance-Seed/cudaLLM-8B",
   "createdAt": "2025-08-03T00:40:02.000Z",
-  "downloads": 243,
+  "downloads": 130,
   "likes": 29,
   "pipeline": "text-generation",
   "library": "",
@@ -510,7 +510,7 @@
  {
   "id": "ByteDance-Seed/Seed-X-PPO-7B-AWQ-Int4",
   "createdAt": "2025-07-28T09:37:01.000Z",
-  "downloads": 114,
+  "downloads": 110,
   "likes": 12,
   "pipeline": "translation",
   "library": "",
@@ -533,7 +533,7 @@
  {
   "id": "ByteDance-Seed/Seed-X-PPO-7B-GPTQ-Int8",
   "createdAt": "2025-07-28T09:35:31.000Z",
-  "downloads": 152,
+  "downloads": 130,
   "likes": 11,
   "pipeline": "translation",
   "library": "",
@@ -556,7 +556,7 @@
  {
   "id": "ByteDance-Seed/Seed-X-RM-7B",
   "createdAt": "2025-07-16T13:47:13.000Z",
-  "downloads": 85,
+  "downloads": 77,
   "likes": 32,
   "pipeline": "translation",
   "library": "",
@@ -570,7 +570,7 @@
  {
   "id": "ByteDance-Seed/Seed-X-Instruct-7B",
   "createdAt": "2025-07-16T13:46:09.000Z",
-  "downloads": 1899,
+  "downloads": 1685,
   "likes": 129,
   "pipeline": "translation",
   "library": "",
@@ -593,7 +593,7 @@
  {
   "id": "ByteDance-Seed/Seed-X-PPO-7B",
   "createdAt": "2025-07-16T12:34:59.000Z",
-  "downloads": 2166,
+  "downloads": 2222,
   "likes": 303,
   "pipeline": "translation",
   "library": "",
@@ -616,7 +616,7 @@
  {
   "id": "ByteDance-Seed/VINCIE-3B",
   "createdAt": "2025-07-02T06:09:02.000Z",
-  "downloads": 69,
+  "downloads": 64,
   "likes": 42,
   "pipeline": "image-to-image",
   "library": "vincie",
@@ -639,7 +639,7 @@
  {
   "id": "ByteDance-Seed/Tar-1.5B",
   "createdAt": "2025-07-02T05:47:40.000Z",
-  "downloads": 104,
+  "downloads": 108,
   "likes": 23,
   "pipeline": "any-to-any",
   "library": "",
@@ -653,7 +653,7 @@
  {
   "id": "ByteDance-Seed/Tar-7B",
   "createdAt": "2025-07-02T05:45:55.000Z",
-  "downloads": 124,
+  "downloads": 126,
   "likes": 41,
   "pipeline": "any-to-any",
   "library": "",
@@ -667,7 +667,7 @@
  {
   "id": "ByteDance-Seed/SeedVR-3B",
   "createdAt": "2025-06-11T12:44:21.000Z",
-  "downloads": 3377,
+  "downloads": 2421,
   "likes": 7,
   "pipeline": "video-to-video",
   "library": "seedvr",
@@ -680,7 +680,7 @@
  {
   "id": "ByteDance-Seed/SeedVR-7B",
   "createdAt": "2025-06-11T12:38:53.000Z",
-  "downloads": 155,
+  "downloads": 219,
   "likes": 13,
   "pipeline": "video-to-video",
   "library": "seedvr",
@@ -693,8 +693,8 @@
  {
   "id": "ByteDance-Seed/SeedVR2-7B",
   "createdAt": "2025-06-11T12:37:31.000Z",
-  "downloads": 30030,
-  "likes": 156,
+  "downloads": 35779,
+  "likes": 162,
   "pipeline": "video-to-video",
   "library": "seedvr",
   "gated": false,
@@ -706,7 +706,7 @@
  {
   "id": "ByteDance-Seed/SeedVR2-3B",
   "createdAt": "2025-06-10T15:59:52.000Z",
-  "downloads": 18219,
+  "downloads": 18494,
   "likes": 141,
   "pipeline": "video-to-video",
   "library": "seedvr",
@@ -732,8 +732,8 @@
  {
   "id": "ByteDance-Seed/BAGEL-7B-MoT",
   "createdAt": "2025-05-19T23:27:50.000Z",
-  "downloads": 1007,
-  "likes": 1223,
+  "downloads": 3205,
+  "likes": 1234,
   "pipeline": "any-to-any",
   "library": "bagel-mot",
   "gated": false,
@@ -747,7 +747,7 @@
  {
   "id": "ByteDance-Seed/Seed-Coder-8B-Reasoning-bf16",
   "createdAt": "2025-05-13T02:20:17.000Z",
-  "downloads": 180,
+  "downloads": 170,
   "likes": 23,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -765,7 +765,7 @@
  {
   "id": "ByteDance-Seed/SAIL-7B",
   "createdAt": "2025-05-07T06:42:31.000Z",
-  "downloads": 281,
+  "downloads": 331,
   "likes": 15,
   "pipeline": "image-text-to-text",
   "library": "transformers",
@@ -784,7 +784,7 @@
  {
   "id": "ByteDance-Seed/Seed-Coder-8B-Reasoning",
   "createdAt": "2025-04-27T07:52:58.000Z",
-  "downloads": 432,
+  "downloads": 455,
   "likes": 154,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -802,7 +802,7 @@
  {
   "id": "ByteDance-Seed/Seed-Coder-8B-Instruct",
   "createdAt": "2025-04-27T07:52:37.000Z",
-  "downloads": 2394,
+  "downloads": 2502,
   "likes": 119,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -820,7 +820,7 @@
  {
   "id": "ByteDance-Seed/Seed-Coder-8B-Base",
   "createdAt": "2025-04-27T03:53:38.000Z",
-  "downloads": 733,
+  "downloads": 965,
   "likes": 74,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -837,8 +837,8 @@
  {
   "id": "ByteDance-Seed/UI-TARS-1.5-7B",
   "createdAt": "2025-04-16T09:40:50.000Z",
-  "downloads": 424317,
-  "likes": 608,
+  "downloads": 222750,
+  "likes": 611,
   "pipeline": "image-text-to-text",
   "library": "transformers",
   "gated": false,
@@ -859,7 +859,7 @@
  {
   "id": "ByteDance-Seed/academic-ds-9B",
   "createdAt": "2025-04-09T13:02:51.000Z",
-  "downloads": 21043,
+  "downloads": 20291,
   "likes": 16,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -879,7 +879,7 @@
  {
   "id": "ByteDance-Seed/BFS-Prover-V1-7B",
   "createdAt": "2025-02-23T23:11:13.000Z",
-  "downloads": 208,
+  "downloads": 213,
   "likes": 26,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -901,7 +901,7 @@
  {
   "id": "ByteDance-Seed/UI-TARS-72B-DPO",
   "createdAt": "2025-01-22T08:26:41.000Z",
-  "downloads": 526,
+  "downloads": 508,
   "likes": 159,
   "pipeline": "image-text-to-text",
   "library": "transformers",
@@ -922,7 +922,7 @@
  {
   "id": "ByteDance-Seed/UI-TARS-7B-DPO",
   "createdAt": "2025-01-22T08:26:26.000Z",
-  "downloads": 1272,
+  "downloads": 1192,
   "likes": 233,
   "pipeline": "image-text-to-text",
   "library": "transformers",
@@ -943,7 +943,7 @@
  {
   "id": "ByteDance-Seed/UI-TARS-72B-SFT",
   "createdAt": "2025-01-20T03:24:42.000Z",
-  "downloads": 204,
+  "downloads": 215,
   "likes": 25,
   "pipeline": "image-text-to-text",
   "library": "transformers",
@@ -965,7 +965,7 @@
  {
   "id": "ByteDance-Seed/UI-TARS-7B-SFT",
   "createdAt": "2025-01-20T03:20:33.000Z",
-  "downloads": 1174,
+  "downloads": 1036,
   "likes": 181,
   "pipeline": "image-text-to-text",
   "library": "transformers",
@@ -987,7 +987,7 @@
  {
   "id": "ByteDance-Seed/UI-TARS-2B-SFT",
   "createdAt": "2025-01-20T02:23:35.000Z",
-  "downloads": 3899,
+  "downloads": 2629,
   "likes": 39,
   "pipeline": "image-text-to-text",
   "library": "transformers",

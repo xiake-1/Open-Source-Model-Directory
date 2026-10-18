@@ -1,9 +1,62 @@
 [
  {
+  "id": "tencent/Qwen3-8B-DSpine-b16",
+  "createdAt": "2026-10-16T14:52:38.000Z",
+  "downloads": 223,
+  "likes": 21,
+  "pipeline": "",
+  "library": "",
+  "gated": false,
+  "tags": [
+   "safetensors",
+   "qwen3",
+   "custom_code"
+  ]
+ },
+ {
+  "id": "tencent/Hy-Memory-30B-A3B-FP8",
+  "createdAt": "2026-10-16T07:57:25.000Z",
+  "downloads": 32,
+  "likes": 6,
+  "pipeline": "text-generation",
+  "library": "transformers",
+  "gated": false,
+  "tags": [
+   "transformers",
+   "safetensors",
+   "hy_v3",
+   "text-generation",
+   "fp8",
+   "conversational",
+   "en",
+   "zh",
+   "endpoints_compatible"
+  ]
+ },
+ {
+  "id": "tencent/Hy-Memory-30B-A3B",
+  "createdAt": "2026-10-15T09:52:00.000Z",
+  "downloads": 1187,
+  "likes": 175,
+  "pipeline": "text-generation",
+  "library": "transformers",
+  "gated": false,
+  "tags": [
+   "transformers",
+   "safetensors",
+   "hy_v3",
+   "text-generation",
+   "conversational",
+   "en",
+   "zh",
+   "endpoints_compatible"
+  ]
+ },
+ {
   "id": "tencent/Youtu-Parsing-Omni",
   "createdAt": "2026-10-09T06:42:18.000Z",
-  "downloads": 340,
-  "likes": 61,
+  "downloads": 1853,
+  "likes": 109,
   "pipeline": "image-text-to-text",
   "library": "transformers",
   "gated": false,
@@ -25,8 +78,8 @@
  {
   "id": "tencent/WeVisDoc-4B",
   "createdAt": "2026-09-16T03:07:01.000Z",
-  "downloads": 2154,
-  "likes": 51,
+  "downloads": 5464,
+  "likes": 52,
   "pipeline": "",
   "library": "",
   "gated": false,
@@ -41,8 +94,8 @@
  {
   "id": "tencent/WeVisDoc-2B",
   "createdAt": "2026-09-16T03:06:43.000Z",
-  "downloads": 22215,
-  "likes": 28,
+  "downloads": 25945,
+  "likes": 30,
   "pipeline": "",
   "library": "",
   "gated": false,
@@ -58,7 +111,7 @@
   "id": "tencent/Simple-Attention-Sparsification",
   "createdAt": "2026-09-14T07:43:25.000Z",
   "downloads": 0,
-  "likes": 13,
+  "likes": 14,
   "pipeline": "text-generation",
   "library": "",
   "gated": false,
@@ -74,8 +127,8 @@
  {
   "id": "tencent/EVIE-8B",
   "createdAt": "2026-09-04T08:55:13.000Z",
-  "downloads": 646,
-  "likes": 32,
+  "downloads": 572,
+  "likes": 35,
   "pipeline": "visual-document-retrieval",
   "library": "colpali-engine",
   "gated": false,
@@ -97,8 +150,8 @@
  {
   "id": "tencent/EVIE-4.5B",
   "createdAt": "2026-09-04T08:54:45.000Z",
-  "downloads": 1675,
-  "likes": 37,
+  "downloads": 1161,
+  "likes": 39,
   "pipeline": "visual-document-retrieval",
   "library": "colpali-engine",
   "gated": false,
@@ -120,8 +173,8 @@
  {
   "id": "tencent/Hy4-preview-FP8",
   "createdAt": "2026-08-27T08:57:54.000Z",
-  "downloads": 6902,
-  "likes": 25,
+  "downloads": 12098,
+  "likes": 27,
   "pipeline": "text-generation",
   "library": "transformers",
   "gated": false,
@@ -143,8 +196,8 @@
  {
   "id": "tencent/Hy4-preview",
   "createdAt": "2026-08-27T08:52:40.000Z",
-  "downloads": 25977,
-  "likes": 504,
+  "downloads": 21810,
+  "likes": 508,
   "pipeline": "text-generation",
   "library": "transformers",
   "gated": false,
@@ -164,7 +217,7 @@
  {
   "id": "tencent/ContextPilot-E4B",
   "createdAt": "2026-08-27T01:07:44.000Z",
-  "downloads": 760,
+  "downloads": 814,
   "likes": 9,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -185,7 +238,7 @@
  {
   "id": "tencent/ContextPilot-14B",
   "createdAt": "2026-08-27T01:07:25.000Z",
-  "downloads": 853,
+  "downloads": 829,
   "likes": 23,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -206,7 +259,7 @@
  {
   "id": "tencent/ContextPilot-8B",
   "createdAt": "2026-08-27T01:07:06.000Z",
-  "downloads": 736,
+  "downloads": 735,
   "likes": 11,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -227,8 +280,8 @@
  {
   "id": "tencent/WeMM-Embedding-9B",
   "createdAt": "2026-08-25T03:10:55.000Z",
-  "downloads": 5794,
-  "likes": 138,
+  "downloads": 4536,
+  "likes": 140,
   "pipeline": "feature-extraction",
   "library": "transformers",
   "gated": false,
@@ -250,7 +303,7 @@
  {
   "id": "tencent/WeMM-Embedding-4B",
   "createdAt": "2026-08-25T03:10:36.000Z",
-  "downloads": 4227,
+  "downloads": 3035,
   "likes": 37,
   "pipeline": "feature-extraction",
   "library": "transformers",
@@ -273,8 +326,8 @@
  {
   "id": "tencent/WeMM-Embedding-2B",
   "createdAt": "2026-08-25T03:10:05.000Z",
-  "downloads": 16691,
-  "likes": 118,
+  "downloads": 15853,
+  "likes": 121,
   "pipeline": "feature-extraction",
   "library": "transformers",
   "gated": false,
@@ -296,8 +349,8 @@
  {
   "id": "tencent/AuK-Flash",
   "createdAt": "2026-08-21T06:41:14.000Z",
-  "downloads": 3162,
-  "likes": 105,
+  "downloads": 1438,
+  "likes": 107,
   "pipeline": "text-to-speech",
   "library": "",
   "gated": false,
@@ -319,8 +372,8 @@
  {
   "id": "tencent/AuK",
   "createdAt": "2026-08-18T07:08:36.000Z",
-  "downloads": 4839,
-  "likes": 384,
+  "downloads": 2486,
+  "likes": 391,
   "pipeline": "text-to-speech",
   "library": "",
   "gated": false,
@@ -342,7 +395,7 @@
  {
   "id": "tencent/EVIE-Preview-4.5B",
   "createdAt": "2026-08-17T11:53:54.000Z",
-  "downloads": 925,
+  "downloads": 809,
   "likes": 101,
   "pipeline": "visual-document-retrieval",
   "library": "colpali-engine",
@@ -365,8 +418,8 @@
  {
   "id": "tencent/UI-Mate-democua-27B",
   "createdAt": "2026-08-14T04:59:23.000Z",
-  "downloads": 481,
-  "likes": 17,
+  "downloads": 453,
+  "likes": 18,
   "pipeline": "image-text-to-text",
   "library": "transformers",
   "gated": false,
@@ -388,8 +441,8 @@
  {
   "id": "tencent/UI-Mate-9B",
   "createdAt": "2026-08-14T04:55:32.000Z",
-  "downloads": 802,
-  "likes": 27,
+  "downloads": 934,
+  "likes": 29,
   "pipeline": "image-text-to-text",
   "library": "transformers",
   "gated": false,
@@ -411,8 +464,8 @@
  {
   "id": "tencent/UI-Mate-27B",
   "createdAt": "2026-08-14T04:55:07.000Z",
-  "downloads": 767,
-  "likes": 95,
+  "downloads": 783,
+  "likes": 97,
   "pipeline": "image-text-to-text",
   "library": "transformers",
   "gated": false,
@@ -434,8 +487,8 @@
  {
   "id": "tencent/Hy-MT2-30B-A3B-GGUF",
   "createdAt": "2026-07-23T10:39:18.000Z",
-  "downloads": 26032,
-  "likes": 23,
+  "downloads": 33447,
+  "likes": 24,
   "pipeline": "translation",
   "library": "transformers",
   "gated": false,
@@ -457,7 +510,7 @@
  {
   "id": "tencent/Hy-Embodied-VLM-1.0",
   "createdAt": "2026-07-14T09:58:24.000Z",
-  "downloads": 649,
+  "downloads": 693,
   "likes": 26,
   "pipeline": "image-text-to-text",
   "library": "transformers",
@@ -480,7 +533,7 @@
  {
   "id": "tencent/Hy-Embodied-RxBrain-1.0",
   "createdAt": "2026-07-14T02:40:56.000Z",
-  "downloads": 417,
+  "downloads": 393,
   "likes": 57,
   "pipeline": "any-to-any",
   "library": "",
@@ -502,7 +555,7 @@
  {
   "id": "tencent/HiLS-Attention-7B",
   "createdAt": "2026-07-09T03:38:58.000Z",
-  "downloads": 567,
+  "downloads": 563,
   "likes": 24,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -525,7 +578,7 @@
  {
   "id": "tencent/R3-rerank-0.6b",
   "createdAt": "2026-07-08T02:59:05.000Z",
-  "downloads": 1160,
+  "downloads": 1343,
   "likes": 32,
   "pipeline": "text-ranking",
   "library": "sentence-transformers",
@@ -542,7 +595,7 @@
  {
   "id": "tencent/R3-embedding-0.6b",
   "createdAt": "2026-07-08T02:54:49.000Z",
-  "downloads": 644,
+  "downloads": 584,
   "likes": 27,
   "pipeline": "sentence-similarity",
   "library": "sentence-transformers",
@@ -561,8 +614,8 @@
  {
   "id": "tencent/Hy3-FP8",
   "createdAt": "2026-07-04T13:39:00.000Z",
-  "downloads": 52718,
-  "likes": 70,
+  "downloads": 53677,
+  "likes": 71,
   "pipeline": "text-generation",
   "library": "transformers",
   "gated": false,
@@ -583,8 +636,8 @@
  {
   "id": "tencent/Hy3",
   "createdAt": "2026-07-02T13:23:54.000Z",
-  "downloads": 465571,
-  "likes": 975,
+  "downloads": 724839,
+  "likes": 982,
   "pipeline": "text-generation",
   "library": "transformers",
   "gated": false,
@@ -616,8 +669,8 @@
  {
   "id": "tencent/Ex-Omni",
   "createdAt": "2026-06-12T03:42:43.000Z",
-  "downloads": 26,
-  "likes": 24,
+  "downloads": 12,
+  "likes": 25,
   "pipeline": "",
   "library": "",
   "gated": "manual",
@@ -629,8 +682,8 @@
  {
   "id": "tencent/Hy-Embodied-0.5-VLA-RoboTwin",
   "createdAt": "2026-06-11T07:10:01.000Z",
-  "downloads": 227,
-  "likes": 13,
+  "downloads": 211,
+  "likes": 14,
   "pipeline": "robotics",
   "library": "",
   "gated": false,
@@ -647,7 +700,7 @@
  {
   "id": "tencent/Hy-Embodied-0.5-VLA-UMI",
   "createdAt": "2026-06-11T07:09:45.000Z",
-  "downloads": 274,
+  "downloads": 223,
   "likes": 16,
   "pipeline": "robotics",
   "library": "",
@@ -685,8 +738,8 @@
  {
   "id": "tencent/Hy-MT2-1.8B-1.25Bit-GGUF",
   "createdAt": "2026-05-20T09:26:32.000Z",
-  "downloads": 3107,
-  "likes": 46,
+  "downloads": 4399,
+  "likes": 47,
   "pipeline": "",
   "library": "",
   "gated": false,
@@ -699,7 +752,7 @@
  {
   "id": "tencent/Hy-MT2-1.8B-2Bit-GGUF",
   "createdAt": "2026-05-20T09:26:12.000Z",
-  "downloads": 1553,
+  "downloads": 2674,
   "likes": 15,
   "pipeline": "",
   "library": "",
@@ -713,7 +766,7 @@
  {
   "id": "tencent/Hy-MT2-7B-GGUF",
   "createdAt": "2026-05-20T06:21:31.000Z",
-  "downloads": 559811,
+  "downloads": 817851,
   "likes": 89,
   "pipeline": "",
   "library": "",
@@ -727,8 +780,8 @@
  {
   "id": "tencent/Hy-MT2-1.8B-GGUF",
   "createdAt": "2026-05-20T06:21:18.000Z",
-  "downloads": 302128,
-  "likes": 239,
+  "downloads": 299816,
+  "likes": 249,
   "pipeline": "",
   "library": "",
   "gated": false,
@@ -741,7 +794,7 @@
  {
   "id": "tencent/Hy-MT2-30B-A3B-FP8",
   "createdAt": "2026-05-18T06:09:22.000Z",
-  "downloads": 4174,
+  "downloads": 4924,
   "likes": 25,
   "pipeline": "",
   "library": "",
@@ -755,7 +808,7 @@
  {
   "id": "tencent/Hy-MT2-1.8B-FP8",
   "createdAt": "2026-05-12T10:24:46.000Z",
-  "downloads": 42622,
+  "downloads": 2014,
   "likes": 16,
   "pipeline": "",
   "library": "",
@@ -769,8 +822,8 @@
  {
   "id": "tencent/Hy-MT2-7B-FP8",
   "createdAt": "2026-05-12T10:23:53.000Z",
-  "downloads": 10474,
-  "likes": 15,
+  "downloads": 11262,
+  "likes": 14,
   "pipeline": "",
   "library": "",
   "gated": false,
@@ -783,7 +836,7 @@
  {
   "id": "tencent/Hy-MT2-7B",
   "createdAt": "2026-05-11T14:56:58.000Z",
-  "downloads": 11800,
+  "downloads": 11023,
   "likes": 213,
   "pipeline": "translation",
   "library": "transformers",
@@ -806,8 +859,8 @@
  {
   "id": "tencent/Hy-MT2-1.8B",
   "createdAt": "2026-05-11T08:22:10.000Z",
-  "downloads": 31424,
-  "likes": 1240,
+  "downloads": 26609,
+  "likes": 1258,
   "pipeline": "translation",
   "library": "transformers",
   "gated": false,
@@ -829,8 +882,8 @@
  {
   "id": "tencent/Hy-MT2-30B-A3B",
   "createdAt": "2026-05-11T07:43:51.000Z",
-  "downloads": 4529,
-  "likes": 506,
+  "downloads": 2959,
+  "likes": 509,
   "pipeline": "translation",
   "library": "transformers",
   "gated": false,
@@ -852,7 +905,7 @@
  {
   "id": "tencent/Hy-MT1.5-1.8B-1.25bit",
   "createdAt": "2026-04-29T04:36:33.000Z",
-  "downloads": 77,
+  "downloads": 76,
   "likes": 32,
   "pipeline": "translation",
   "library": "",
@@ -871,7 +924,7 @@
  {
   "id": "tencent/Hy-MT1.5-1.8B-1.25bit-GGUF",
   "createdAt": "2026-04-29T04:36:14.000Z",
-  "downloads": 695,
+  "downloads": 614,
   "likes": 24,
   "pipeline": "translation",
   "library": "",
@@ -891,7 +944,7 @@
  {
   "id": "tencent/Hy-MT1.5-1.8B-2bit",
   "createdAt": "2026-04-29T04:35:46.000Z",
-  "downloads": 162,
+  "downloads": 167,
   "likes": 36,
   "pipeline": "translation",
   "library": "",
@@ -909,7 +962,7 @@
  {
   "id": "tencent/Hy-MT1.5-1.8B-2bit-GGUF",
   "createdAt": "2026-04-29T04:26:09.000Z",
-  "downloads": 397,
+  "downloads": 376,
   "likes": 30,
   "pipeline": "translation",
   "library": "",
@@ -928,7 +981,7 @@
  {
   "id": "tencent/HY-Embodied-0.5-X",
   "createdAt": "2026-04-23T02:34:44.000Z",
-  "downloads": 480,
+  "downloads": 544,
   "likes": 15,
   "pipeline": "image-text-to-text",
   "library": "transformers",
@@ -951,8 +1004,8 @@
  {
   "id": "tencent/Hy3-preview",
   "createdAt": "2026-04-13T06:07:57.000Z",
-  "downloads": 105470,
-  "likes": 312,
+  "downloads": 92793,
+  "likes": 313,
   "pipeline": "text-generation",
   "library": "transformers",
   "gated": false,
@@ -969,7 +1022,7 @@
  {
   "id": "tencent/Hy3-preview-Base",
   "createdAt": "2026-04-13T06:07:47.000Z",
-  "downloads": 386,
+  "downloads": 409,
   "likes": 24,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -986,8 +1039,8 @@
  {
   "id": "tencent/HY-World-2.0",
   "createdAt": "2026-04-10T03:05:17.000Z",
-  "downloads": 3417,
-  "likes": 713,
+  "downloads": 3084,
+  "likes": 719,
   "pipeline": "image-to-3d",
   "library": "hy-world-2",
   "gated": false,
@@ -1038,7 +1091,7 @@
  {
   "id": "tencent/Unified_Audio_Schema",
   "createdAt": "2026-04-03T07:12:19.000Z",
-  "downloads": 140,
+  "downloads": 114,
   "likes": 11,
   "pipeline": "audio-text-to-text",
   "library": "",
@@ -1061,8 +1114,8 @@
  {
   "id": "tencent/HY-Embodied-0.5",
   "createdAt": "2026-04-02T13:02:10.000Z",
-  "downloads": 355,
-  "likes": 913,
+  "downloads": 444,
+  "likes": 918,
   "pipeline": "image-text-to-text",
   "library": "transformers",
   "gated": false,
@@ -1084,7 +1137,7 @@
  {
   "id": "tencent/Sequential-Hidden-Decoding-8B-n8-Instruct",
   "createdAt": "2026-03-31T09:46:10.000Z",
-  "downloads": 237,
+  "downloads": 247,
   "likes": 8,
   "pipeline": "text-generation",
   "library": "",
@@ -1102,7 +1155,7 @@
  {
   "id": "tencent/HY-OmniWeaving",
   "createdAt": "2026-03-31T09:42:00.000Z",
-  "downloads": 725,
+  "downloads": 524,
   "likes": 273,
   "pipeline": "image-to-video",
   "library": "HunyuanVideo-1.5",
@@ -1118,7 +1171,7 @@
  {
   "id": "tencent/POINTS-Seeker",
   "createdAt": "2026-03-24T03:09:43.000Z",
-  "downloads": 190,
+  "downloads": 214,
   "likes": 8,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -1136,7 +1189,7 @@
  {
   "id": "tencent/VersaViT",
   "createdAt": "2026-03-20T03:53:43.000Z",
-  "downloads": 42,
+  "downloads": 54,
   "likes": 7,
   "pipeline": "",
   "library": "transformers",
@@ -1154,7 +1207,7 @@
  {
   "id": "tencent/Covo-Audio-Chat",
   "createdAt": "2026-03-16T03:31:21.000Z",
-  "downloads": 635,
+  "downloads": 643,
   "likes": 104,
   "pipeline": "audio-to-audio",
   "library": "",
@@ -1171,7 +1224,7 @@
  {
   "id": "tencent/Sequential-Hidden-Decoding-8B-n4",
   "createdAt": "2026-03-10T08:42:00.000Z",
-  "downloads": 106,
+  "downloads": 128,
   "likes": 11,
   "pipeline": "",
   "library": "",
@@ -1188,7 +1241,7 @@
  {
   "id": "tencent/Sequential-Hidden-Decoding-8B-n8",
   "createdAt": "2026-03-10T08:41:43.000Z",
-  "downloads": 96,
+  "downloads": 113,
   "likes": 13,
   "pipeline": "",
   "library": "",
@@ -1205,8 +1258,8 @@
  {
   "id": "tencent/Sequential-Hidden-Decoding-8B-n2",
   "createdAt": "2026-03-10T08:41:27.000Z",
-  "downloads": 107,
-  "likes": 10,
+  "downloads": 136,
+  "likes": 11,
   "pipeline": "",
   "library": "",
   "gated": false,
@@ -1222,7 +1275,7 @@
  {
   "id": "tencent/HY-WU",
   "createdAt": "2026-03-05T07:45:12.000Z",
-  "downloads": 79,
+  "downloads": 102,
   "likes": 35,
   "pipeline": "image-text-to-image",
   "library": "",
@@ -1238,7 +1291,7 @@
  {
   "id": "tencent/Penguin-Encoder",
   "createdAt": "2026-03-05T03:04:31.000Z",
-  "downloads": 454,
+  "downloads": 526,
   "likes": 23,
   "pipeline": "feature-extraction",
   "library": "transformers",
@@ -1259,7 +1312,7 @@
  {
   "id": "tencent/Penguin-VL-2B",
   "createdAt": "2026-03-05T03:04:21.000Z",
-  "downloads": 657,
+  "downloads": 769,
   "likes": 44,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -1281,7 +1334,7 @@
  {
   "id": "tencent/Penguin-VL-8B",
   "createdAt": "2026-03-05T03:04:07.000Z",
-  "downloads": 494,
+  "downloads": 519,
   "likes": 80,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -1318,7 +1371,7 @@
  {
   "id": "tencent/Youtu-HiChunk",
   "createdAt": "2026-02-03T06:27:34.000Z",
-  "downloads": 245,
+  "downloads": 174,
   "likes": 19,
   "pipeline": "feature-extraction",
   "library": "transformers",
@@ -1335,7 +1388,7 @@
  {
   "id": "tencent/POINTS-GUI-G",
   "createdAt": "2026-02-03T02:50:23.000Z",
-  "downloads": 411,
+  "downloads": 514,
   "likes": 22,
   "pipeline": "image-text-to-text",
   "library": "transformers",
@@ -1358,7 +1411,7 @@
  {
   "id": "tencent/HunyuanImage-3.0-Instruct-Distil",
   "createdAt": "2026-01-25T04:24:06.000Z",
-  "downloads": 775,
+  "downloads": 844,
   "likes": 67,
   "pipeline": "image-to-image",
   "library": "",
@@ -1373,7 +1426,7 @@
  {
   "id": "tencent/Youtu-VL-4B-Instruct-GGUF",
   "createdAt": "2026-01-23T09:05:10.000Z",
-  "downloads": 1702,
+  "downloads": 1200,
   "likes": 61,
   "pipeline": "image-text-to-text",
   "library": "llama.cpp",
@@ -1391,7 +1444,7 @@
  {
   "id": "tencent/Youtu-VL-4B-Instruct",
   "createdAt": "2026-01-23T09:04:22.000Z",
-  "downloads": 1675,
+  "downloads": 1596,
   "likes": 162,
   "pipeline": "image-text-to-text",
   "library": "transformers",
@@ -1409,8 +1462,8 @@
  {
   "id": "tencent/Youtu-Parsing",
   "createdAt": "2026-01-23T08:51:17.000Z",
-  "downloads": 464,
-  "likes": 42,
+  "downloads": 536,
+  "likes": 43,
   "pipeline": "image-text-to-text",
   "library": "transformers",
   "gated": false,
@@ -1427,7 +1480,7 @@
  {
   "id": "tencent/HY3D-Bench",
   "createdAt": "2026-01-13T06:48:36.000Z",
-  "downloads": 116,
+  "downloads": 109,
   "likes": 59,
   "pipeline": "image-to-3d",
   "library": "hunyuan3d-2",
@@ -1441,7 +1494,7 @@
  {
   "id": "tencent/TCAndon-Router",
   "createdAt": "2026-01-07T09:35:45.000Z",
-  "downloads": 153,
+  "downloads": 168,
   "likes": 12,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -1471,8 +1524,8 @@
  {
   "id": "tencent/Youtu-LLM-2B-GGUF",
   "createdAt": "2026-01-05T08:31:53.000Z",
-  "downloads": 958,
-  "likes": 30,
+  "downloads": 1017,
+  "likes": 31,
   "pipeline": "text-generation",
   "library": "",
   "gated": false,
@@ -1486,7 +1539,7 @@
  {
   "id": "tencent/Youtu-LLM-2B",
   "createdAt": "2025-12-31T08:44:27.000Z",
-  "downloads": 12946,
+  "downloads": 11358,
   "likes": 231,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -1503,7 +1556,7 @@
  {
   "id": "tencent/Youtu-LLM-2B-Base",
   "createdAt": "2025-12-31T08:44:02.000Z",
-  "downloads": 1242,
+  "downloads": 1063,
   "likes": 43,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -1519,7 +1572,7 @@
  {
   "id": "tencent/HY-MT1.5-7B-GGUF",
   "createdAt": "2025-12-30T08:26:48.000Z",
-  "downloads": 25341,
+  "downloads": 19069,
   "likes": 60,
   "pipeline": "translation",
   "library": "transformers",
@@ -1542,7 +1595,7 @@
  {
   "id": "tencent/HY-MT1.5-1.8B-GGUF",
   "createdAt": "2025-12-30T08:26:19.000Z",
-  "downloads": 18784,
+  "downloads": 23416,
   "likes": 114,
   "pipeline": "translation",
   "library": "transformers",
@@ -1565,7 +1618,7 @@
  {
   "id": "tencent/HY-MT1.5-7B-GPTQ-Int4",
   "createdAt": "2025-12-30T04:46:05.000Z",
-  "downloads": 125,
+  "downloads": 118,
   "likes": 15,
   "pipeline": "translation",
   "library": "transformers",
@@ -1588,7 +1641,7 @@
  {
   "id": "tencent/HY-MT1.5-1.8B-GPTQ-Int4",
   "createdAt": "2025-12-30T04:43:01.000Z",
-  "downloads": 423,
+  "downloads": 292,
   "likes": 16,
   "pipeline": "translation",
   "library": "transformers",
@@ -1611,8 +1664,8 @@
  {
   "id": "tencent/HY-Motion-1.0",
   "createdAt": "2025-12-29T09:39:21.000Z",
-  "downloads": 392,
-  "likes": 443,
+  "downloads": 482,
+  "likes": 444,
   "pipeline": "text-to-3d",
   "library": "HY-Motion-1.0",
   "gated": false,
@@ -1628,7 +1681,7 @@
  {
   "id": "tencent/HY-MT1.5-7B-FP8",
   "createdAt": "2025-12-25T10:46:05.000Z",
-  "downloads": 104,
+  "downloads": 143,
   "likes": 16,
   "pipeline": "translation",
   "library": "transformers",
@@ -1651,7 +1704,7 @@
  {
   "id": "tencent/HY-MT1.5-7B",
   "createdAt": "2025-12-25T10:45:31.000Z",
-  "downloads": 1081,
+  "downloads": 1026,
   "likes": 163,
   "pipeline": "translation",
   "library": "transformers",
@@ -1674,7 +1727,7 @@
  {
   "id": "tencent/HY-MT1.5-1.8B-FP8",
   "createdAt": "2025-12-25T10:43:21.000Z",
-  "downloads": 7728,
+  "downloads": 1159,
   "likes": 16,
   "pipeline": "translation",
   "library": "transformers",
@@ -1697,8 +1750,8 @@
  {
   "id": "tencent/HY-MT1.5-1.8B",
   "createdAt": "2025-12-25T10:41:05.000Z",
-  "downloads": 6635,
-  "likes": 1185,
+  "downloads": 6582,
+  "likes": 1189,
   "pipeline": "translation",
   "library": "transformers",
   "gated": false,
@@ -1720,7 +1773,7 @@
  {
   "id": "tencent/WeDLM-8B-Instruct",
   "createdAt": "2025-12-25T06:50:30.000Z",
-  "downloads": 364,
+  "downloads": 388,
   "likes": 313,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -1741,7 +1794,7 @@
  {
   "id": "tencent/WeDLM-8B-Base",
   "createdAt": "2025-12-25T06:50:01.000Z",
-  "downloads": 235,
+  "downloads": 253,
   "likes": 18,
   "pipeline": "text-generation",
   "library": "",
@@ -1761,7 +1814,7 @@
  {
   "id": "tencent/WeDLM-7B-Instruct",
   "createdAt": "2025-12-25T06:48:57.000Z",
-  "downloads": 265,
+  "downloads": 308,
   "likes": 34,
   "pipeline": "text-generation",
   "library": "",
@@ -1783,7 +1836,7 @@
  {
   "id": "tencent/WeDLM-7B-Base",
   "createdAt": "2025-12-25T06:34:57.000Z",
-  "downloads": 234,
+  "downloads": 243,
   "likes": 12,
   "pipeline": "text-generation",
   "library": "",
@@ -1803,7 +1856,7 @@
  {
   "id": "tencent/HY-WorldPlay",
   "createdAt": "2025-12-12T07:57:40.000Z",
-  "downloads": 392,
+  "downloads": 338,
   "likes": 526,
   "pipeline": "image-to-video",
   "library": "hy-worldplay",
@@ -1826,8 +1879,8 @@
  {
   "id": "tencent/HunyuanVideo-1.5",
   "createdAt": "2025-11-18T06:36:54.000Z",
-  "downloads": 1302,
-  "likes": 1046,
+  "downloads": 1314,
+  "likes": 1050,
   "pipeline": "text-to-video",
   "library": "HunyuanVideo-1.5",
   "gated": false,
@@ -1845,8 +1898,8 @@
  {
   "id": "tencent/HunyuanOCR",
   "createdAt": "2025-11-18T04:08:56.000Z",
-  "downloads": 940554,
-  "likes": 827,
+  "downloads": 886905,
+  "likes": 836,
   "pipeline": "image-text-to-text",
   "library": "transformers",
   "gated": false,
@@ -1868,7 +1921,7 @@
  {
   "id": "tencent/DRIVE-RL",
   "createdAt": "2025-11-12T02:25:44.000Z",
-  "downloads": 142,
+  "downloads": 147,
   "likes": 12,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -1886,7 +1939,7 @@
  {
   "id": "tencent/DRIVE-SFT",
   "createdAt": "2025-11-12T02:25:27.000Z",
-  "downloads": 145,
+  "downloads": 147,
   "likes": 5,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -1904,7 +1957,7 @@
  {
   "id": "tencent/KaLM-Embedding-Gemma3-12B-2511",
   "createdAt": "2025-11-04T07:10:48.000Z",
-  "downloads": 14435,
+  "downloads": 20201,
   "likes": 104,
   "pipeline": "sentence-similarity",
   "library": "sentence-transformers",
@@ -1927,7 +1980,7 @@
  {
   "id": "tencent/DeepSeek-V3.1-Terminus-W4AFP8",
   "createdAt": "2025-10-28T03:13:16.000Z",
-  "downloads": 552,
+  "downloads": 571,
   "likes": 15,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -1950,8 +2003,8 @@
  {
   "id": "tencent/HunyuanWorld-Mirror",
   "createdAt": "2025-10-16T07:10:22.000Z",
-  "downloads": 2466,
-  "likes": 469,
+  "downloads": 1912,
+  "likes": 470,
   "pipeline": "image-to-3d",
   "library": "",
   "gated": false,
@@ -1973,8 +2026,8 @@
  {
   "id": "tencent/HunyuanImage-3.0-Instruct",
   "createdAt": "2025-09-25T06:28:53.000Z",
-  "downloads": 19825,
-  "likes": 1044,
+  "downloads": 39664,
+  "likes": 1054,
   "pipeline": "image-to-image",
   "library": "",
   "gated": false,
@@ -1988,8 +2041,8 @@
  {
   "id": "tencent/HunyuanImage-3.0",
   "createdAt": "2025-09-25T06:28:28.000Z",
-  "downloads": 3384,
-  "likes": 1139,
+  "downloads": 1628,
+  "likes": 1149,
   "pipeline": "text-to-image",
   "library": "transformers",
   "gated": false,
@@ -2005,7 +2058,7 @@
  {
   "id": "tencent/Youtu-Embedding",
   "createdAt": "2025-09-24T09:34:53.000Z",
-  "downloads": 739,
+  "downloads": 776,
   "likes": 79,
   "pipeline": "sentence-similarity",
   "library": "transformers",
@@ -2025,8 +2078,8 @@
  {
   "id": "tencent/Hunyuan3D-Omni",
   "createdAt": "2025-09-23T03:17:30.000Z",
-  "downloads": 4405,
-  "likes": 196,
+  "downloads": 5063,
+  "likes": 199,
   "pipeline": "image-to-3d",
   "library": "hunyuan3d-2",
   "gated": false,
@@ -2040,7 +2093,7 @@
  {
   "id": "tencent/Hunyuan3D-Part",
   "createdAt": "2025-09-23T03:00:03.000Z",
-  "downloads": 2792,
+  "downloads": 3325,
   "likes": 555,
   "pipeline": "",
   "library": "hunyuan3d-2",
@@ -2056,7 +2109,7 @@
  {
   "id": "tencent/SongPrep-7B",
   "createdAt": "2025-09-19T09:24:04.000Z",
-  "downloads": 110,
+  "downloads": 108,
   "likes": 46,
   "pipeline": "automatic-speech-recognition",
   "library": "",
@@ -2072,8 +2125,8 @@
  {
   "id": "tencent/SRPO",
   "createdAt": "2025-09-08T12:44:15.000Z",
-  "downloads": 551,
-  "likes": 979,
+  "downloads": 476,
+  "likes": 985,
   "pipeline": "text-to-image",
   "library": "diffusers",
   "gated": false,
@@ -2086,8 +2139,8 @@
  {
   "id": "tencent/HunyuanImage-2.1",
   "createdAt": "2025-09-05T07:38:33.000Z",
-  "downloads": 169,
-  "likes": 652,
+  "downloads": 195,
+  "likes": 654,
   "pipeline": "text-to-image",
   "library": "HunyuanImage-2.1",
   "gated": false,
@@ -2102,7 +2155,7 @@
  {
   "id": "tencent/Hunyuan-MT-Chimera-7B-fp8",
   "createdAt": "2025-08-29T03:00:06.000Z",
-  "downloads": 95,
+  "downloads": 91,
   "likes": 23,
   "pipeline": "translation",
   "library": "transformers",
@@ -2120,7 +2173,7 @@
  {
   "id": "tencent/Hunyuan-MT-7B-fp8",
   "createdAt": "2025-08-29T02:56:48.000Z",
-  "downloads": 190,
+  "downloads": 175,
   "likes": 33,
   "pipeline": "translation",
   "library": "transformers",
@@ -2161,7 +2214,7 @@
  {
   "id": "tencent/Hunyuan-MT-7B",
   "createdAt": "2025-08-28T09:51:39.000Z",
-  "downloads": 2419,
+  "downloads": 1800,
   "likes": 746,
   "pipeline": "translation",
   "library": "transformers",
@@ -2178,8 +2231,8 @@
  {
   "id": "tencent/HunyuanWorld-Voyager",
   "createdAt": "2025-08-27T09:32:06.000Z",
-  "downloads": 165,
-  "likes": 610,
+  "downloads": 176,
+  "likes": 611,
   "pipeline": "image-to-video",
   "library": "hunyuanworld-voyager",
   "gated": false,
@@ -2200,7 +2253,7 @@
  {
   "id": "tencent/HunyuanVideo-Foley",
   "createdAt": "2025-08-21T07:02:42.000Z",
-  "downloads": 618,
+  "downloads": 754,
   "likes": 179,
   "pipeline": "text-to-audio",
   "library": "hunyuanvideo-foley",
@@ -2217,7 +2270,7 @@
  {
   "id": "tencent/POINTS-Reader",
   "createdAt": "2025-08-15T10:12:54.000Z",
-  "downloads": 330,
+  "downloads": 342,
   "likes": 103,
   "pipeline": "image-text-to-text",
   "library": "transformers",
@@ -2234,7 +2287,7 @@
  {
   "id": "tencent/Hunyuan-GameCraft-1.0",
   "createdAt": "2025-08-13T07:10:08.000Z",
-  "downloads": 100,
+  "downloads": 111,
   "likes": 493,
   "pipeline": "image-to-video",
   "library": "",
@@ -2249,7 +2302,7 @@
  {
   "id": "tencent/DOGR",
   "createdAt": "2025-08-06T08:50:29.000Z",
-  "downloads": 88,
+  "downloads": 102,
   "likes": 5,
   "pipeline": "",
   "library": "",
@@ -2263,7 +2316,7 @@
  {
   "id": "tencent/Hunyuan-7B-Instruct-AWQ-Int4",
   "createdAt": "2025-07-31T08:33:17.000Z",
-  "downloads": 293,
+  "downloads": 289,
   "likes": 2,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -2282,7 +2335,7 @@
  {
   "id": "tencent/Hunyuan-4B-Instruct-AWQ-Int4",
   "createdAt": "2025-07-31T08:30:42.000Z",
-  "downloads": 76,
+  "downloads": 83,
   "likes": 1,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -2301,7 +2354,7 @@
  {
   "id": "tencent/Hunyuan-1.8B-Instruct-AWQ-Int4",
   "createdAt": "2025-07-31T07:40:50.000Z",
-  "downloads": 74,
+  "downloads": 73,
   "likes": 3,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -2320,7 +2373,7 @@
  {
   "id": "tencent/Hunyuan-0.5B-Instruct-AWQ-Int4",
   "createdAt": "2025-07-31T04:43:21.000Z",
-  "downloads": 76,
+  "downloads": 85,
   "likes": 3,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -2339,7 +2392,7 @@
  {
   "id": "tencent/Hunyuan-0.5B-Instruct-GPTQ-Int4",
   "createdAt": "2025-07-30T11:46:44.000Z",
-  "downloads": 80,
+  "downloads": 83,
   "likes": 3,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -2358,7 +2411,7 @@
  {
   "id": "tencent/Hunyuan-1.8B-Instruct-GPTQ-Int4",
   "createdAt": "2025-07-30T11:46:23.000Z",
-  "downloads": 97,
+  "downloads": 92,
   "likes": 1,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -2377,7 +2430,7 @@
  {
   "id": "tencent/Hunyuan-4B-Instruct-GPTQ-Int4",
   "createdAt": "2025-07-30T11:46:03.000Z",
-  "downloads": 87,
+  "downloads": 96,
   "likes": 2,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -2396,7 +2449,7 @@
  {
   "id": "tencent/Hunyuan-7B-Instruct-GPTQ-Int4",
   "createdAt": "2025-07-30T11:45:44.000Z",
-  "downloads": 129,
+  "downloads": 130,
   "likes": 6,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -2415,7 +2468,7 @@
  {
   "id": "tencent/Hunyuan-7B-Instruct-FP8",
   "createdAt": "2025-07-30T09:22:42.000Z",
-  "downloads": 120,
+  "downloads": 121,
   "likes": 6,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -2433,7 +2486,7 @@
  {
   "id": "tencent/Hunyuan-4B-Instruct-FP8",
   "createdAt": "2025-07-30T09:21:15.000Z",
-  "downloads": 97,
+  "downloads": 100,
   "likes": 3,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -2451,7 +2504,7 @@
  {
   "id": "tencent/Hunyuan-1.8B-Instruct-FP8",
   "createdAt": "2025-07-30T09:17:19.000Z",
-  "downloads": 85,
+  "downloads": 87,
   "likes": 2,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -2469,7 +2522,7 @@
  {
   "id": "tencent/Hunyuan-0.5B-Instruct-FP8",
   "createdAt": "2025-07-30T09:07:12.000Z",
-  "downloads": 92,
+  "downloads": 107,
   "likes": 2,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -2487,7 +2540,7 @@
  {
   "id": "tencent/Hunyuan-7B-Instruct",
   "createdAt": "2025-07-30T03:40:59.000Z",
-  "downloads": 40095,
+  "downloads": 13780,
   "likes": 90,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -2504,7 +2557,7 @@
  {
   "id": "tencent/Hunyuan-4B-Instruct",
   "createdAt": "2025-07-30T03:33:05.000Z",
-  "downloads": 780,
+  "downloads": 952,
   "likes": 30,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -2521,7 +2574,7 @@
  {
   "id": "tencent/Hunyuan-1.8B-Instruct",
   "createdAt": "2025-07-30T03:14:30.000Z",
-  "downloads": 3615,
+  "downloads": 3806,
   "likes": 604,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -2538,8 +2591,8 @@
  {
   "id": "tencent/Hunyuan-0.5B-Instruct",
   "createdAt": "2025-07-30T03:13:14.000Z",
-  "downloads": 1478,
-  "likes": 60,
+  "downloads": 2175,
+  "likes": 61,
   "pipeline": "text-generation",
   "library": "transformers",
   "gated": false,
@@ -2555,7 +2608,7 @@
  {
   "id": "tencent/Hunyuan-7B-Pretrain",
   "createdAt": "2025-07-28T06:35:56.000Z",
-  "downloads": 358,
+  "downloads": 410,
   "likes": 15,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -2572,7 +2625,7 @@
  {
   "id": "tencent/Hunyuan-4B-Pretrain",
   "createdAt": "2025-07-28T06:32:35.000Z",
-  "downloads": 573,
+  "downloads": 638,
   "likes": 8,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -2589,7 +2642,7 @@
  {
   "id": "tencent/Hunyuan-1.8B-Pretrain",
   "createdAt": "2025-07-28T06:27:24.000Z",
-  "downloads": 896,
+  "downloads": 621,
   "likes": 11,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -2606,7 +2659,7 @@
  {
   "id": "tencent/Hunyuan-0.5B-Pretrain",
   "createdAt": "2025-07-28T06:10:04.000Z",
-  "downloads": 639,
+  "downloads": 660,
   "likes": 10,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -2623,8 +2676,8 @@
  {
   "id": "tencent/HunyuanWorld-1",
   "createdAt": "2025-07-21T03:37:45.000Z",
-  "downloads": 4981,
-  "likes": 605,
+  "downloads": 5443,
+  "likes": 606,
   "pipeline": "image-to-3d",
   "library": "diffusion-single-file",
   "gated": false,
@@ -2644,7 +2697,7 @@
  {
   "id": "tencent/Hunyuan-A13B-Instruct-GGUF",
   "createdAt": "2025-07-10T07:25:20.000Z",
-  "downloads": 4530,
+  "downloads": 1341,
   "likes": 8,
   "pipeline": "",
   "library": "transformers",
@@ -2659,7 +2712,7 @@
  {
   "id": "tencent/Hunyuan-A13B-Pretrain",
   "createdAt": "2025-06-27T09:43:47.000Z",
-  "downloads": 548,
+  "downloads": 570,
   "likes": 23,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -2677,7 +2730,7 @@
  {
   "id": "tencent/Hunyuan-A13B-Instruct-FP8",
   "createdAt": "2025-06-26T12:56:35.000Z",
-  "downloads": 500,
+  "downloads": 477,
   "likes": 33,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -2696,7 +2749,7 @@
  {
   "id": "tencent/Hunyuan-A13B-Instruct-GPTQ-Int4",
   "createdAt": "2025-06-26T12:32:26.000Z",
-  "downloads": 235,
+  "downloads": 224,
   "likes": 53,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -2716,7 +2769,7 @@
  {
   "id": "tencent/Hunyuan-A13B-Instruct",
   "createdAt": "2025-06-25T12:39:52.000Z",
-  "downloads": 71492,
+  "downloads": 70056,
   "likes": 795,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -2735,8 +2788,8 @@
  {
   "id": "tencent/Hunyuan3D-2.1",
   "createdAt": "2025-06-13T16:10:02.000Z",
-  "downloads": 60791,
-  "likes": 1257,
+  "downloads": 72748,
+  "likes": 1285,
   "pipeline": "image-to-3d",
   "library": "hunyuan3d-2",
   "gated": false,
@@ -2767,7 +2820,7 @@
   "id": "tencent/HunyuanVideo-Avatar",
   "createdAt": "2025-05-26T08:26:28.000Z",
   "downloads": 0,
-  "likes": 334,
+  "likes": 335,
   "pipeline": "image-to-video",
   "library": "",
   "gated": false,
@@ -2794,7 +2847,7 @@
  {
   "id": "tencent/Hunyuan3D-2mv",
   "createdAt": "2025-03-12T11:36:17.000Z",
-  "downloads": 13471,
+  "downloads": 16133,
   "likes": 433,
   "pipeline": "image-to-3d",
   "library": "hunyuan3d-2",
@@ -2810,8 +2863,8 @@
  {
   "id": "tencent/Hunyuan3D-2mini",
   "createdAt": "2025-03-12T11:36:01.000Z",
-  "downloads": 38891,
-  "likes": 145,
+  "downloads": 43733,
+  "likes": 146,
   "pipeline": "image-to-3d",
   "library": "hunyuan3d-2",
   "gated": false,
@@ -2826,7 +2879,7 @@
  {
   "id": "tencent/HunyuanVideo-I2V",
   "createdAt": "2025-03-05T09:27:03.000Z",
-  "downloads": 220,
+  "downloads": 235,
   "likes": 360,
   "pipeline": "image-to-video",
   "library": "",
@@ -2838,7 +2891,7 @@
  {
   "id": "tencent/Hunyuan-7B-Instruct-0124",
   "createdAt": "2025-01-24T08:11:33.000Z",
-  "downloads": 319,
+  "downloads": 323,
   "likes": 51,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -2856,7 +2909,7 @@
  {
   "id": "tencent/Hunyuan-7B-Pretrain-0124",
   "createdAt": "2025-01-24T08:10:41.000Z",
-  "downloads": 216,
+  "downloads": 327,
   "likes": 11,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -2874,8 +2927,8 @@
  {
   "id": "tencent/Hunyuan3D-2",
   "createdAt": "2025-01-20T06:55:37.000Z",
-  "downloads": 125213,
-  "likes": 1835,
+  "downloads": 147244,
+  "likes": 1848,
   "pipeline": "image-to-3d",
   "library": "hunyuan3d-2",
   "gated": false,
@@ -2892,7 +2945,7 @@
  {
   "id": "tencent/HunyuanVideo-PromptRewrite",
   "createdAt": "2024-12-02T11:51:57.000Z",
-  "downloads": 276,
+  "downloads": 262,
   "likes": 56,
   "pipeline": "",
   "library": "",
@@ -2905,8 +2958,8 @@
  {
   "id": "tencent/HunyuanVideo",
   "createdAt": "2024-12-01T06:00:34.000Z",
-  "downloads": 1843,
-  "likes": 2320,
+  "downloads": 1896,
+  "likes": 2339,
   "pipeline": "text-to-video",
   "library": "",
   "gated": false,

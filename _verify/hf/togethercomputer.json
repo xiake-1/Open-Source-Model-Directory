@@ -1,9 +1,33 @@
 [
  {
+  "id": "togethercomputer/HybridAgent-14B-Agentic",
+  "createdAt": "2026-10-09T23:55:19.000Z",
+  "downloads": 932,
+  "likes": 6,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "togethercomputer/HybridAgent-8B-Agentic",
+  "createdAt": "2026-10-09T23:53:37.000Z",
+  "downloads": 949,
+  "likes": 3,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
   "id": "togethercomputer/Tev1-0.8B-experimental",
   "createdAt": "2026-09-25T17:19:54.000Z",
-  "downloads": 2147,
-  "likes": 19,
+  "downloads": 2683,
+  "likes": 20,
   "pipeline": "text-generation",
   "tags": [
    "image-text-to-text",
@@ -15,8 +39,8 @@
  {
   "id": "togethercomputer/Tev1-4B-experimental",
   "createdAt": "2026-09-23T18:00:57.000Z",
-  "downloads": 4207,
-  "likes": 32,
+  "downloads": 5158,
+  "likes": 36,
   "pipeline": "text-generation",
   "tags": [
    "image-text-to-text",
@@ -28,7 +52,7 @@
  {
   "id": "togethercomputer/Aurora-Spec-Minimax-M2.5",
   "createdAt": "2026-02-19T20:32:12.000Z",
-  "downloads": 13173,
+  "downloads": 6228,
   "likes": 6,
   "pipeline": "text-generation",
   "tags": [
@@ -39,7 +63,7 @@
  {
   "id": "togethercomputer/Aurora-Spec-Minimax-M2.1",
   "createdAt": "2026-02-04T23:02:09.000Z",
-  "downloads": 319,
+  "downloads": 253,
   "likes": 3,
   "pipeline": "text-generation",
   "tags": [
@@ -50,7 +74,7 @@
  {
   "id": "togethercomputer/Aurora-Spec-Qwen3-Coder-Next-FP8",
   "createdAt": "2026-02-03T05:16:50.000Z",
-  "downloads": 347,
+  "downloads": 215,
   "likes": 22,
   "pipeline": "text-generation",
   "tags": [
@@ -61,7 +85,7 @@
  {
   "id": "togethercomputer/M1-3B",
   "createdAt": "2025-05-02T04:30:50.000Z",
-  "downloads": 180,
+  "downloads": 153,
   "likes": 9,
   "pipeline": "text-generation",
   "tags": [
@@ -73,7 +97,7 @@
  {
   "id": "togethercomputer/qwen2_vl_7b_instruct-biomedical-stage2",
   "createdAt": "2025-01-21T18:16:55.000Z",
-  "downloads": 97,
+  "downloads": 102,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -82,7 +106,7 @@
  {
   "id": "togethercomputer/gemma-2-9b-it-MoAA-DPO",
   "createdAt": "2024-12-06T01:28:39.000Z",
-  "downloads": 85,
+  "downloads": 92,
   "likes": 0,
   "pipeline": "text-generation",
   "tags": [
@@ -94,7 +118,7 @@
  {
   "id": "togethercomputer/Llama-3.1-8B-Instruct-MoAA-DPO",
   "createdAt": "2024-12-05T23:47:39.000Z",
-  "downloads": 81,
+  "downloads": 85,
   "likes": 1,
   "pipeline": "text-generation",
   "tags": [

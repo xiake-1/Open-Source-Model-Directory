@@ -1,25 +1,23 @@
 # HuggingFace AIGC 仓库核对结果（按机构）
 
 > 由 `_verify/aigc-fetch.mjs` 生成，createdAt 为仓库创建时间。
-> **下面「窗口内」这一段是 createdAt ≥ 2026-09-10（近 30 天新建，更新流程的口径） 的仓库**，
+> **下面「窗口内」这一段是 createdAt ≥ 2026-10-11（近 7 天新建，更新流程的口径） 的仓库**，
 > 元数据缓存 `_verify/hf-aigc/<author>.json` 仍是 2024-12 起的全量，供历史核对。
 
-## black-forest-labs（窗口内 3 / 缓存 30）
+## black-forest-labs（窗口内 4 / 缓存 34）
 
-- black-forest-labs/flux-3-action-droid@2026-09-22  likes 37  dl 1515  robotics
-- black-forest-labs/flux-3-action-so101@2026-09-22  likes 55  dl 1741  robotics
-- black-forest-labs/flux-3-action-base@2026-09-22  likes 135  dl 1525  robotics
+- black-forest-labs/flux-3-image-klein-pup@2026-10-14  likes 50  dl 4279  image-text-to-text
+- black-forest-labs/flux-3-image-klein-comfy@2026-10-14  likes 737  dl 338036  image-to-image
+- black-forest-labs/flux-3-image-klein@2026-10-13  likes 470  dl 52315  image-to-image
+- black-forest-labs/flux-3-image-klein-base@2026-10-13  likes 139  dl 31881  image-to-image
 
 ## stabilityai（窗口内 0 / 缓存 30）
 
 - （窗口内没有新建仓库）
 
-## Qwen（窗口内 4 / 缓存 254）
+## Qwen（窗口内 0 / 缓存 254）
 
-- Qwen/Qwen-Image-2.1-Turbo@2026-10-09  likes 443  dl 2138  text-to-image
-- Qwen/Qwen-Image-2.1-PE-I2I@2026-09-20  likes 61  dl 13253  -
-- Qwen/Qwen-Image-2.1-PE-T2I@2026-09-20  likes 58  dl 9126  text-to-image
-- Qwen/Qwen-Image-2.1@2026-09-14  likes 3189  dl 128839  text-to-image
+- （窗口内没有新建仓库）
 
 ## HiDream-ai（窗口内 0 / 缓存 14）
 
@@ -37,34 +35,34 @@
 
 - （窗口内没有新建仓库）
 
-## tencent（窗口内 4 / 缓存 156）
+## tencent（窗口内 3 / 缓存 159）
 
-- tencent/Youtu-Parsing-Omni@2026-10-09  likes 61  dl 340  image-text-to-text
-- tencent/WeVisDoc-4B@2026-09-16  likes 51  dl 2154  -
-- tencent/WeVisDoc-2B@2026-09-16  likes 28  dl 22215  -
-- tencent/Simple-Attention-Sparsification@2026-09-14  likes 13  dl 0  text-generation
+- tencent/Qwen3-8B-DSpine-b16@2026-10-16  likes 21  dl 223  -
+- tencent/Hy-Memory-30B-A3B-FP8@2026-10-16  likes 6  dl 32  text-generation
+- tencent/Hy-Memory-30B-A3B@2026-10-15  likes 175  dl 1187  text-generation
 
-## nvidia（窗口内 14 / 缓存 726）
+## nvidia（窗口内 15 / 缓存 746）
 
-- nvidia/agile_one_s_pick_ssd_n2_1120@2026-10-10  likes 0  dl 0  -
-- nvidia/agile_one_s_place_ssd_n2_1260@2026-10-10  likes 0  dl 0  -
-- nvidia/agile_one_s_pickplace_ssd_n2_18200@2026-10-10  likes 0  dl 0  robotics
-- nvidia/agile_one_s_place_ssd_n17_24050@2026-10-09  likes 1  dl 0  robotics
-- nvidia/agile_one_s_walk_n2_1680@2026-10-09  likes 0  dl 0  robotics
-- nvidia/agile_one_s_pick_ssd_n17_58000@2026-10-09  likes 0  dl 0  robotics
-- nvidia/agile_one_s_pick_ssd_n17_40000@2026-10-09  likes 0  dl 0  robotics
-- nvidia/PixelUMM@2026-10-01  likes 81  dl 0  image-to-text
-- nvidia/PixelDiT2-ImageNet@2026-10-01  likes 11  dl 0  -
-- nvidia/DeepSeek-V4.1-Flash-NVFP4@2026-09-16  likes 102  dl 24986  image-text-to-text
-- nvidia/RT-DETR-Hand-Detector-v1@2026-09-15  likes 5  dl 0  -
-- nvidia/c-foundationstereo-s@2026-09-15  likes 8  dl 683  depth-estimation
-- nvidia/foundationpose@2026-09-15  likes 11  dl 640  robotics
-- nvidia/GLM-5.3-NVFP4@2026-09-14  likes 37  dl 35741  text-generation
+- nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-NVFP4@2026-10-16  likes 6  dl 507  text-generation
+- nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-MXFP8@2026-10-16  likes 4  dl 315  text-generation
+- nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-BF16@2026-10-16  likes 108  dl 1247  text-generation
+- nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-GGUF@2026-10-16  likes 34  dl 2953  text-generation
+- nvidia/Muse-Spark-Open-816B-A42B-DFlash2@2026-10-16  likes 4  dl 521  image-text-to-text
+- nvidia/Nemotron-3.5-Rerank-8B-BF16@2026-10-15  likes 16  dl 944  text-ranking
+- nvidia/ARDY-SOMA-RP-30FPS-KimodoRep-Horizon60@2026-10-13  likes 2  dl 30  ardy
+- nvidia/Kimodo-SOMA-RP-ArdyRep-v1.2@2026-10-13  likes 0  dl 19  kimodo
+- nvidia/Kimodo-SOMA-RP-v1.2@2026-10-13  likes 1  dl 481  kimodo
+- nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4@2026-10-12  likes 142  dl 7599  image-text-to-text
+- nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16@2026-10-12  likes 73  dl 11591  image-text-to-text
+- nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-Base-BF16@2026-10-12  likes 48  dl 705  image-text-to-text
+- nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-LiLiCorr@2026-10-12  likes 14  dl 1366  text-generation
+- nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-LiLiCorr-GGUF@2026-10-12  likes 21  dl 6176  text-generation
+- nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4-LiLiCorr@2026-10-11  likes 8  dl 1964  text-generation
 
-## microsoft（窗口内 2 / 缓存 198）
+## microsoft（窗口内 2 / 缓存 202）
 
-- microsoft/rho-roboeval@2026-09-21  likes 3  dl 0  -
-- microsoft/FrogNano-4B-2609@2026-09-17  likes 142  dl 1237  -
+- microsoft/scFM-dataselection@2026-10-16  likes 1  dl 0  -
+- microsoft/UserRepGen-4B@2026-10-14  likes 10  dl 848  text-generation
 
 ## Kwai-Kolors（窗口内 0 / 缓存 2）
 
@@ -78,17 +76,18 @@
 
 - （窗口内没有新建仓库）
 
-## google（窗口内 1 / 缓存 229）
+## google（窗口内 0 / 缓存 229）
 
-- google/embeddinggemma-2@2026-09-14  likes 1505  dl 45605  feature-extraction
+- （窗口内没有新建仓库）
 
 ## Shakker-Labs（窗口内 0 / 缓存 16）
 
 - （窗口内没有新建仓库）
 
-## lodestones（窗口内 0 / 缓存 16）
+## lodestones（窗口内 2 / 缓存 18）
 
-- （窗口内没有新建仓库）
+- lodestones/MOSS-Image-Base-8-steps-dmd@2026-10-18  likes 10  dl 484  diffusers
+- lodestones/MOSS-Image-SFT-8-steps-dmd@2026-10-16  likes 136  dl 30751  diffusers
 
 ## Alpha-VLLM（窗口内 0 / 缓存 6）
 
@@ -98,32 +97,10 @@
 
 - （窗口内没有新建仓库）
 
-## Efficient-Large-Model（窗口内 24 / 缓存 119）
+## Efficient-Large-Model（窗口内 2 / 缓存 121）
 
-- Efficient-Large-Model/Long-WAM-RoboCasa-GR1-19.2s@2026-10-06  likes 0  dl 24  robotics
-- Efficient-Large-Model/Long-WAM-RoboCasa-GR1-0s@2026-10-06  likes 0  dl 17  robotics
-- Efficient-Large-Model/Long-WAM-RoboCasa-GR1-2.4s@2026-10-06  likes 0  dl 21  robotics
-- Efficient-Large-Model/Long-WAM-RoboCasa-GR1-9.6s@2026-10-06  likes 0  dl 15  robotics
-- Efficient-Large-Model/Long-WAM-RoboCasa-GR1-4.8s@2026-10-06  likes 0  dl 16  robotics
-- Efficient-Large-Model/Long-WAM-YAM@2026-10-06  likes 0  dl 26  robotics
-- Efficient-Large-Model/Long-WAM-RoboCasa365@2026-10-06  likes 0  dl 22  robotics
-- Efficient-Large-Model/LongLive2.0-Robot-M@2026-10-06  likes 0  dl 0  image-to-video
-- Efficient-Large-Model/Long-WAM-LIBERO-COD@2026-10-06  likes 0  dl 17  robotics
-- Efficient-Large-Model/LongLive2.0-Robot-S@2026-10-06  likes 0  dl 0  text-to-video
-- Efficient-Large-Model/Long-WAM-RoboTwin2.0-COD@2026-10-06  likes 0  dl 21  robotics
-- Efficient-Large-Model/Long-WAM-LIBERO-IDM@2026-10-06  likes 0  dl 37  robotics
-- Efficient-Large-Model/Long-WAM-RoboTwin2.0-IDM@2026-10-06  likes 0  dl 25  robotics
-- Efficient-Large-Model/LongLive-Plug-Wan2.2-TI2V-5B-cfg@2026-09-29  likes 0  dl 169  image-to-video
-- Efficient-Large-Model/LongLive-Plug-Wan2.2-TI2V-5B-few-step@2026-09-29  likes 2  dl 325  text-to-video
-- Efficient-Large-Model/LongLive-Plug-Wan2.1-T2V-14B-cfg@2026-09-29  likes 0  dl 56  text-to-video
-- Efficient-Large-Model/LongLive-Plug-Wan2.1-T2V-14B-few-step@2026-09-29  likes 1  dl 0  text-to-video
-- Efficient-Large-Model/LongLive-Plug-MiniMax-H3-cfg@2026-09-29  likes 0  dl 58  text-to-video
-- Efficient-Large-Model/LongLive-Plug-MiniMax-H3-few-step@2026-09-29  likes 2  dl 204  text-to-video
-- Efficient-Large-Model/SoL-Refiner-LTX-2.5-for-MiniMax-H3@2026-09-28  likes 15  dl 751  diffusers
-- Efficient-Large-Model/SoL-Refiner-LTX-2.3-Multi-Step@2026-09-28  likes 3  dl 61  diffusers
-- Efficient-Large-Model/SoL-Refiner-LTX-2.3-One-Step@2026-09-28  likes 3  dl 252  diffusers
-- Efficient-Large-Model/pi3x-intrinsics-estimator@2026-09-10  likes 1  dl 0  diffusers
-- Efficient-Large-Model/H3-to-LTX-Latent-Adapter@2026-09-10  likes 3  dl 48360  minimax-h3
+- Efficient-Large-Model/Sol-H3-VAE@2026-10-16  likes 0  dl 159  diffusers
+- Efficient-Large-Model/StreamRender-H3@2026-10-11  likes 4  dl 27747  minimax-h3
 
 ## OmniGen（窗口内 0 / 缓存 0）
 
@@ -133,33 +110,33 @@
 
 - （窗口内没有新建仓库）
 
-## featherless-ai（窗口内 1 / 缓存 26）
+## featherless-ai（窗口内 0 / 缓存 26）
 
-- featherless-ai/laya-plus-classifier@2026-09-23  likes 0  dl 0  -
+- （窗口内没有新建仓库）
 
 ## openfree（窗口内 0 / 缓存 53）
 
 - （窗口内没有新建仓库）
 
-## rednote-hilab（窗口内 1 / 缓存 1）
+## rednote-hilab（窗口内 0 / 缓存 1）
 
-- rednote-hilab/dots.llm1.base@2026-10-06  likes 0  dl 1209  text-generation
+- （窗口内没有新建仓库）
 
 ## baidu（窗口内 0 / 缓存 36）
 
 - （窗口内没有新建仓库）
 
-## stepfun-ai（窗口内 0 / 缓存 49）
+## stepfun-ai（窗口内 1 / 缓存 52）
 
-- （窗口内没有新建仓库）
+- stepfun-ai/Step-5-Preview-NVFP4@2026-10-14  likes 16  dl 403  -
 
 ## OpenBMB（窗口内 0 / 缓存 0）
 
 - （窗口内没有新建仓库）
 
-## Skywork（窗口内 0 / 缓存 66）
+## Skywork（窗口内 1 / 缓存 65）
 
-- （窗口内没有新建仓库）
+- Skywork/Matrix-Game-4.0@2026-10-12  likes 36  dl 137  video-to-video
 
 ## xAI（窗口内 0 / 缓存 0）
 
@@ -189,18 +166,9 @@
 
 - （窗口内没有新建仓库）
 
-## Lightricks（窗口内 10 / 缓存 68）
+## Lightricks（窗口内 0 / 缓存 68）
 
-- Lightricks/LTX-2.5-22b-IC-LoRA-Alpha-Gen@2026-09-28  likes 147  dl 7440  video-to-video
-- Lightricks/LTX-2.5-22b-IC-LoRA-SDR-To-HDR@2026-09-28  likes 31  dl 4700  video-to-video
-- Lightricks/LTX-2.5-22b-IC-LoRA-Restore@2026-09-27  likes 67  dl 4102  video-to-video
-- Lightricks/LTX-2.5-22b-IC-LoRA-Refine-Details@2026-09-27  likes 54  dl 9151  video-to-video
-- Lightricks/LTX-2.5-22b-IC-LoRA-Layout-To-Render@2026-09-22  likes 63  dl 4738  video-to-video
-- Lightricks/LTX-2.5-22b-LoRA-Slow-Motion-Control@2026-09-15  likes 17  dl 1682  image-to-video
-- Lightricks/LTX-2.5-22b-IC-LoRA-Ingredients@2026-09-10  likes 59  dl 8320  video-to-video
-- Lightricks/LTX-2.5-22b-LoRA-Cinemagraph@2026-09-10  likes 19  dl 1681  image-to-video
-- Lightricks/LTX-2.5-22b-IC-LoRA-Colorization@2026-09-10  likes 11  dl 1669  video-to-video
-- Lightricks/LTX-2.5-22b-IC-LoRA-Decompression@2026-09-10  likes 12  dl 1700  video-to-video
+- （窗口内没有新建仓库）
 
 ## genmo（窗口内 0 / 缓存 0）
 
@@ -234,52 +202,9 @@
 
 - （窗口内没有新建仓库）
 
-## IndexTeam（窗口内 44 / 缓存 50）
+## IndexTeam（窗口内 0 / 缓存 50）
 
-- IndexTeam/Index-Echo-S2ST-9B-FP4@2026-10-03  likes 0  dl 20  translation
-- IndexTeam/Index-Echo-S2ST-2B-FP4@2026-10-03  likes 0  dl 23  translation
-- IndexTeam/Index-Echo-S2TT-9B-FP4@2026-10-03  likes 1  dl 19  translation
-- IndexTeam/Index-Echo-S2TT-2B-FP4@2026-10-03  likes 0  dl 15  translation
-- IndexTeam/Index-Nailong-9B-FP4@2026-10-03  likes 0  dl 33  translation
-- IndexTeam/Index-Homura-9B-FP4@2026-10-03  likes 0  dl 28  translation
-- IndexTeam/Index-Nailong-2B-FP4@2026-10-03  likes 0  dl 31  translation
-- IndexTeam/Index-Homura-2B-FP4@2026-10-03  likes 0  dl 25  translation
-- IndexTeam/Index-Translate-9B-FP4@2026-10-03  likes 0  dl 65  translation
-- IndexTeam/Index-Translate-35B-A3B-preview-FP4@2026-10-03  likes 2  dl 160  translation
-- IndexTeam/Index-Translate-2B-FP4@2026-10-03  likes 0  dl 39  translation
-- IndexTeam/Index-Echo-S2ST-9B-GGUF@2026-10-02  likes 0  dl 710  translation
-- IndexTeam/Index-Echo-S2ST-9B-FP8@2026-10-02  likes 1  dl 28  translation
-- IndexTeam/Index-Echo-S2ST-2B-FP8@2026-10-02  likes 0  dl 27  translation
-- IndexTeam/Index-Echo-S2ST-2B-GGUF@2026-10-02  likes 2  dl 872  translation
-- IndexTeam/Index-Echo-S2TT-9B-GGUF@2026-10-02  likes 0  dl 741  translation
-- IndexTeam/Index-Echo-S2TT-9B-FP8@2026-10-02  likes 0  dl 14  translation
-- IndexTeam/Index-Echo-S2TT-2B-FP8@2026-10-02  likes 1  dl 17  translation
-- IndexTeam/Index-Echo-S2TT-2B-GGUF@2026-10-02  likes 1  dl 945  translation
-- IndexTeam/Index-Nailong-9B-GGUF@2026-10-02  likes 1  dl 1232  translation
-- IndexTeam/Index-Nailong-9B-FP8@2026-10-02  likes 0  dl 37  translation
-- IndexTeam/Index-Nailong-2B-GGUF@2026-10-02  likes 0  dl 1083  translation
-- IndexTeam/Index-Nailong-2B-FP8@2026-10-02  likes 0  dl 24  translation
-- IndexTeam/Index-Homura-9B-GGUF@2026-10-02  likes 0  dl 1500  translation
-- IndexTeam/Index-Homura-9B-FP8@2026-10-02  likes 0  dl 48  translation
-- IndexTeam/Index-Homura-2B-FP8@2026-10-02  likes 0  dl 21  translation
-- IndexTeam/Index-Homura-2B-GGUF@2026-10-02  likes 0  dl 1093  translation
-- IndexTeam/Index-Translate-35B-A3B-preview-FP8@2026-10-02  likes 0  dl 50  translation
-- IndexTeam/Index-Translate-9B-FP8@2026-10-02  likes 2  dl 95  translation
-- IndexTeam/Index-Translate-2B-FP8@2026-10-02  likes 0  dl 47  translation
-- IndexTeam/Index-Translate-35B-A3B-preview-GGUF@2026-10-02  likes 12  dl 6389  translation
-- IndexTeam/Index-Translate-9B-GGUF@2026-10-02  likes 13  dl 13487  translation
-- IndexTeam/Index-Translate-2B-GGUF@2026-10-02  likes 10  dl 7223  translation
-- IndexTeam/Index-Translate-35B-A3B-preview@2026-10-02  likes 3  dl 315  translation
-- IndexTeam/Index-Echo-S2TT-9B@2026-09-28  likes 9  dl 67  -
-- IndexTeam/Index-Echo-S2TT-2B@2026-09-28  likes 7  dl 91  -
-- IndexTeam/Index-Echo-S2ST-9B@2026-09-28  likes 17  dl 172  -
-- IndexTeam/Index-Echo-S2ST-2B@2026-09-28  likes 9  dl 305  -
-- IndexTeam/Index-Homura-9B@2026-09-28  likes 5  dl 152  translation
-- IndexTeam/Index-Homura-2B@2026-09-28  likes 6  dl 167  translation
-- IndexTeam/Index-Nailong-2B@2026-09-28  likes 6  dl 152  translation
-- IndexTeam/Index-Nailong-9B@2026-09-28  likes 12  dl 264  translation
-- IndexTeam/Index-Translate-9B@2026-09-28  likes 36  dl 1094  translation
-- IndexTeam/Index-Translate-2B@2026-09-28  likes 50  dl 1366  translation
+- （窗口内没有新建仓库）
 
 ## FramePack（窗口内 0 / 缓存 0）
 
@@ -297,40 +222,9 @@
 
 - （窗口内没有新建仓库）
 
-## inclusionAI（窗口内 32 / 缓存 212）
+## inclusionAI（窗口内 1 / 缓存 214）
 
-- inclusionAI/AI-Transparency@2026-09-24  likes 6  dl 0  -
-- inclusionAI/Ming-Image-0.1-Design-Layer@2026-09-17  likes 96  dl 0  image-text-to-image
-- inclusionAI/Ming-Image-0.1-Design@2026-09-17  likes 409  dl 0  text-to-image
-- inclusionAI/Realtime-Venus@2026-09-16  likes 105  dl 359  any-to-any
-- inclusionAI/Step-3.7-Flash-singprobe@2026-09-14  likes 1  dl 160  -
-- inclusionAI/Qwen3.8-27B-singprobe@2026-09-14  likes 2  dl 265  -
-- inclusionAI/Qwen3.5-397B-A17B-singprobe@2026-09-14  likes 1  dl 143  -
-- inclusionAI/gpt-oss-120b-singprobe@2026-09-14  likes 1  dl 152  -
-- inclusionAI/MiniMax-M2.7-singprobe@2026-09-14  likes 1  dl 160  -
-- inclusionAI/GLM-5.3-singprobe@2026-09-14  likes 1  dl 159  -
-- inclusionAI/Qwen3.6-35B-A3B-singprobe@2026-09-14  likes 5  dl 329  -
-- inclusionAI/Qwen3.6-27B-singprobe@2026-09-14  likes 1  dl 179  -
-- inclusionAI/Qwen3.5-122B-A10B-singprobe@2026-09-14  likes 1  dl 145  -
-- inclusionAI/Qwen3.5-35B-A3B-singprobe@2026-09-14  likes 1  dl 132  -
-- inclusionAI/Qwen3.5-27B-singprobe@2026-09-14  likes 1  dl 152  -
-- inclusionAI/Qwen3.5-9B-singprobe@2026-09-14  likes 1  dl 152  -
-- inclusionAI/Qwen3.5-4B-singprobe@2026-09-14  likes 1  dl 173  -
-- inclusionAI/Qwen3.5-2B-singprobe@2026-09-14  likes 1  dl 240  -
-- inclusionAI/Qwen3.5-0.8B-singprobe@2026-09-14  likes 1  dl 158  -
-- inclusionAI/Qwen3-8B-singprobe@2026-09-14  likes 1  dl 170  -
-- inclusionAI/Qwen3-4B-Instruct-2507-singprobe@2026-09-14  likes 1  dl 156  -
-- inclusionAI/Qwen3-0.6B-singprobe@2026-09-14  likes 1  dl 577  -
-- inclusionAI/Llama-3.2-1B-Instruct-singprobe@2026-09-14  likes 3  dl 238  -
-- inclusionAI/Llama-3.1-8B-Instruct-singprobe@2026-09-14  likes 1  dl 142  -
-- inclusionAI/Hy3-singprobe@2026-09-14  likes 1  dl 111  -
-- inclusionAI/gpt-oss-20b-singprobe@2026-09-14  likes 1  dl 226  -
-- inclusionAI/GLM-5.2-singprobe@2026-09-14  likes 1  dl 112  -
-- inclusionAI/gemma-4-E4B-it-singprobe@2026-09-14  likes 1  dl 189  -
-- inclusionAI/gemma-4-31B-it-singprobe@2026-09-14  likes 1  dl 114  -
-- inclusionAI/gemma-4-26B-A4B-it-singprobe@2026-09-14  likes 1  dl 130  -
-- inclusionAI/DeepSeek-V4-Flash-0731-singprobe@2026-09-14  likes 2  dl 193  -
-- inclusionAI/Ling-3.0-flash-Fin-fp4@2026-09-10  likes 5  dl 391  text-generation
+- inclusionAI/Ling-3.1-flash@2026-10-13  likes 119  dl 2191  text-generation
 
 ## AIDC-AI（窗口内 0 / 缓存 0）
 

@@ -2,7 +2,7 @@
  {
   "id": "SakanaAI/fwpkm-l12-gdn-pkm6-fwpkm2_10",
   "createdAt": "2026-07-27T09:28:31.000Z",
-  "downloads": 33,
+  "downloads": 36,
   "likes": 2,
   "pipeline": "",
   "tags": [],
@@ -11,7 +11,7 @@
  {
   "id": "SakanaAI/fwpkm-l12-gdn_fa-pkm6-fwpkm2_10-pswa0.9",
   "createdAt": "2026-07-27T09:28:01.000Z",
-  "downloads": 23,
+  "downloads": 25,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -20,7 +20,7 @@
  {
   "id": "SakanaAI/fwpkm-l12-gdn_swa-pkm6-fwpkm2_10",
   "createdAt": "2026-07-27T09:27:12.000Z",
-  "downloads": 26,
+  "downloads": 29,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -47,7 +47,7 @@
  {
   "id": "SakanaAI/fwpkm-l12-gdn-pkm2_6_10",
   "createdAt": "2026-07-27T09:25:02.000Z",
-  "downloads": 23,
+  "downloads": 24,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -56,7 +56,7 @@
  {
   "id": "SakanaAI/fwpkm-l12-fa-pkm6-fwpkm2_10-pswa0.9",
   "createdAt": "2026-07-27T09:23:39.000Z",
-  "downloads": 34,
+  "downloads": 29,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -65,7 +65,7 @@
  {
   "id": "SakanaAI/fwpkm-l12-fa-pkm2_6_10",
   "createdAt": "2026-07-27T09:21:17.000Z",
-  "downloads": 18,
+  "downloads": 158,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -74,7 +74,7 @@
  {
   "id": "SakanaAI/gpt-oss-120b-sft-aimo3-fishmath",
   "createdAt": "2026-04-27T02:29:39.000Z",
-  "downloads": 25,
+  "downloads": 39,
   "likes": 0,
   "pipeline": "text-generation",
   "tags": [
@@ -104,7 +104,7 @@
  {
   "id": "SakanaAI/DreamCubedCP2",
   "createdAt": "2026-04-14T13:06:03.000Z",
-  "downloads": 77,
+  "downloads": 79,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -122,7 +122,7 @@
  {
   "id": "SakanaAI/DreamCubedDP4",
   "createdAt": "2026-04-14T13:01:40.000Z",
-  "downloads": 112,
+  "downloads": 113,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -131,7 +131,7 @@
  {
   "id": "SakanaAI/kame",
   "createdAt": "2026-04-09T04:39:40.000Z",
-  "downloads": 392,
+  "downloads": 367,
   "likes": 42,
   "pipeline": "",
   "tags": [],
@@ -140,7 +140,7 @@
  {
   "id": "SakanaAI/RePo-OLMo2-7B-stage2-L10",
   "createdAt": "2026-04-01T02:06:58.000Z",
-  "downloads": 102,
+  "downloads": 109,
   "likes": 1,
   "pipeline": "text-generation",
   "tags": [
@@ -151,7 +151,7 @@
  {
   "id": "SakanaAI/SparseLM2B",
   "createdAt": "2026-03-23T15:11:56.000Z",
-  "downloads": 119,
+  "downloads": 111,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -160,7 +160,7 @@
  {
   "id": "SakanaAI/SparseLM1B",
   "createdAt": "2026-03-23T15:11:22.000Z",
-  "downloads": 89,
+  "downloads": 87,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -169,7 +169,7 @@
  {
   "id": "SakanaAI/SparseLM1.5B",
   "createdAt": "2026-03-23T15:10:59.000Z",
-  "downloads": 86,
+  "downloads": 85,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -178,7 +178,7 @@
  {
   "id": "SakanaAI/SparseLM0.5B",
   "createdAt": "2026-03-23T15:09:45.000Z",
-  "downloads": 89,
+  "downloads": 88,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -196,7 +196,7 @@
  {
   "id": "SakanaAI/Llama-2-7b-hf-DroPE",
   "createdAt": "2026-01-06T06:55:14.000Z",
-  "downloads": 113,
+  "downloads": 108,
   "likes": 2,
   "pipeline": "",
   "tags": [],
@@ -205,7 +205,7 @@
  {
   "id": "SakanaAI/RePo-OLMo2-1B-stage2-L5",
   "createdAt": "2025-12-14T00:23:13.000Z",
-  "downloads": 131,
+  "downloads": 136,
   "likes": 2,
   "pipeline": "text-generation",
   "tags": [
@@ -216,7 +216,7 @@
  {
   "id": "SakanaAI/ctm-maze-large",
   "createdAt": "2025-10-13T08:06:37.000Z",
-  "downloads": 346,
+  "downloads": 273,
   "likes": 2,
   "pipeline": "text-generation",
   "tags": [
@@ -227,7 +227,7 @@
  {
   "id": "SakanaAI/ctm-imagenet",
   "createdAt": "2025-10-13T03:38:49.000Z",
-  "downloads": 218,
+  "downloads": 259,
   "likes": 8,
   "pipeline": "text-generation",
   "tags": [
@@ -250,7 +250,7 @@
  {
   "id": "SakanaAI/RLT-7B",
   "createdAt": "2025-06-21T09:50:04.000Z",
-  "downloads": 129,
+  "downloads": 139,
   "likes": 19,
   "pipeline": "text-generation",
   "tags": [
@@ -271,7 +271,7 @@
  {
   "id": "SakanaAI/Llama-3-Karamaru-v1",
   "createdAt": "2025-03-19T07:11:59.000Z",
-  "downloads": 105,
+  "downloads": 106,
   "likes": 19,
   "pipeline": "text-generation",
   "tags": [
@@ -283,7 +283,7 @@
  {
   "id": "SakanaAI/TinySwallow-1.5B-Instruct-GGUF",
   "createdAt": "2025-01-29T01:01:27.000Z",
-  "downloads": 1913,
+  "downloads": 2489,
   "likes": 30,
   "pipeline": "text-generation",
   "tags": [
@@ -307,7 +307,7 @@
  {
   "id": "SakanaAI/TinySwallow-1.5B-Instruct",
   "createdAt": "2025-01-07T23:42:59.000Z",
-  "downloads": 4119,
+  "downloads": 4250,
   "likes": 61,
   "pipeline": "text-generation",
   "tags": [
@@ -319,8 +319,8 @@
  {
   "id": "SakanaAI/TinySwallow-1.5B",
   "createdAt": "2024-12-26T06:19:51.000Z",
-  "downloads": 376,
-  "likes": 34,
+  "downloads": 515,
+  "likes": 35,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",

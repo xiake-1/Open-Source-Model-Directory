@@ -1,5 +1,23 @@
 [
  {
+  "id": "amazon/LAR-27B",
+  "createdAt": "2026-10-14T17:31:01.000Z",
+  "downloads": 6,
+  "likes": 1,
+  "pipeline": "",
+  "tags": [],
+  "gated": "auto"
+ },
+ {
+  "id": "amazon/LAR-9B",
+  "createdAt": "2026-10-14T17:30:43.000Z",
+  "downloads": 6,
+  "likes": 1,
+  "pipeline": "",
+  "tags": [],
+  "gated": "auto"
+ },
+ {
   "id": "amazon/strands-decider-2B-qwen3.5-v1-2610",
   "createdAt": "2026-10-09T22:55:04.000Z",
   "downloads": 0,
@@ -39,7 +57,7 @@
   "id": "amazon/strands-decider-E2B-gemma4-v1-2610",
   "createdAt": "2026-10-09T22:53:47.000Z",
   "downloads": 0,
-  "likes": 0,
+  "likes": 1,
   "pipeline": "text-classification",
   "tags": [],
   "gated": false
@@ -47,8 +65,8 @@
  {
   "id": "amazon/ALoDLM-1.7B",
   "createdAt": "2026-10-02T18:46:55.000Z",
-  "downloads": 91,
-  "likes": 7,
+  "downloads": 351,
+  "likes": 11,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -59,8 +77,8 @@
  {
   "id": "amazon/ALoDLM-8B",
   "createdAt": "2026-10-02T18:46:26.000Z",
-  "downloads": 570,
-  "likes": 14,
+  "downloads": 1508,
+  "likes": 56,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -71,7 +89,7 @@
  {
   "id": "amazon/poiss-bge-m3-reranker",
   "createdAt": "2026-09-18T00:54:42.000Z",
-  "downloads": 34,
+  "downloads": 47,
   "likes": 1,
   "pipeline": "text-classification",
   "tags": [],
@@ -80,7 +98,7 @@
  {
   "id": "amazon/poiss-bge-m3-retriever",
   "createdAt": "2026-09-18T00:53:24.000Z",
-  "downloads": 55,
+  "downloads": 88,
   "likes": 0,
   "pipeline": "sentence-similarity",
   "tags": [],
@@ -89,7 +107,7 @@
  {
   "id": "amazon/Qwen3-Coder-30B-A3B-Instruct-P-EAGLE-long-context",
   "createdAt": "2026-05-14T23:50:24.000Z",
-  "downloads": 136,
+  "downloads": 143,
   "likes": 2,
   "pipeline": "",
   "tags": [],
@@ -98,8 +116,8 @@
  {
   "id": "amazon/gpt-oss-20b-p-eagle-long-context",
   "createdAt": "2026-05-14T23:11:10.000Z",
-  "downloads": 140,
-  "likes": 7,
+  "downloads": 157,
+  "likes": 9,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -107,8 +125,8 @@
  {
   "id": "amazon/gpt-oss-120b-p-eagle-long-context",
   "createdAt": "2026-05-14T17:52:34.000Z",
-  "downloads": 67,
-  "likes": 3,
+  "downloads": 85,
+  "likes": 7,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -116,7 +134,7 @@
  {
   "id": "amazon/GDN-primed-HQwen3-32B-Instruct",
   "createdAt": "2026-03-31T17:55:09.000Z",
-  "downloads": 362,
+  "downloads": 403,
   "likes": 3,
   "pipeline": "text-generation",
   "tags": [
@@ -128,7 +146,7 @@
  {
   "id": "amazon/Mamba2-primed-HQwen3-8B-Instruct",
   "createdAt": "2026-03-31T17:51:01.000Z",
-  "downloads": 454,
+  "downloads": 512,
   "likes": 10,
   "pipeline": "text-generation",
   "tags": [
@@ -140,7 +158,7 @@
  {
   "id": "amazon/GKA-primed-HQwen3-8B-Instruct",
   "createdAt": "2026-03-31T17:49:35.000Z",
-  "downloads": 383,
+  "downloads": 584,
   "likes": 2,
   "pipeline": "text-generation",
   "tags": [
@@ -152,7 +170,7 @@
  {
   "id": "amazon/GDN-primed-HQwen3-8B-Instruct",
   "createdAt": "2026-03-31T17:48:43.000Z",
-  "downloads": 440,
+  "downloads": 512,
   "likes": 2,
   "pipeline": "text-generation",
   "tags": [
@@ -164,7 +182,7 @@
  {
   "id": "amazon/BMOJOF-primed-HQwen3-8B-Instruct",
   "createdAt": "2026-03-31T17:48:17.000Z",
-  "downloads": 330,
+  "downloads": 359,
   "likes": 2,
   "pipeline": "text-generation",
   "tags": [
@@ -176,7 +194,7 @@
  {
   "id": "amazon/GKA-primed-HQwen3-32B-Instruct",
   "createdAt": "2026-03-31T17:47:35.000Z",
-  "downloads": 347,
+  "downloads": 382,
   "likes": 2,
   "pipeline": "text-generation",
   "tags": [
@@ -188,7 +206,7 @@
  {
   "id": "amazon/GKA-primed-HQwen3-32B-Reasoner",
   "createdAt": "2026-03-31T17:46:09.000Z",
-  "downloads": 203,
+  "downloads": 193,
   "likes": 3,
   "pipeline": "text-generation",
   "tags": [
@@ -212,7 +230,7 @@
  {
   "id": "amazon/GKA-primed-HQwen3-8B-Reasoner",
   "createdAt": "2026-03-31T17:37:59.000Z",
-  "downloads": 379,
+  "downloads": 335,
   "likes": 5,
   "pipeline": "text-generation",
   "tags": [
@@ -224,8 +242,8 @@
  {
   "id": "amazon/GPT-OSS-20B-P-EAGLE",
   "createdAt": "2026-02-20T17:22:04.000Z",
-  "downloads": 377,
-  "likes": 2,
+  "downloads": 368,
+  "likes": 3,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -233,7 +251,7 @@
  {
   "id": "amazon/Qwen3-Coder-30B-A3B-Instruct-P-EAGLE",
   "createdAt": "2026-02-11T14:17:49.000Z",
-  "downloads": 65,
+  "downloads": 67,
   "likes": 3,
   "pipeline": "",
   "tags": [],
@@ -242,8 +260,8 @@
  {
   "id": "amazon/gpt-oss-120b-p-eagle",
   "createdAt": "2026-02-09T21:23:11.000Z",
-  "downloads": 111,
-  "likes": 9,
+  "downloads": 141,
+  "likes": 10,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -251,8 +269,8 @@
  {
   "id": "amazon/chronos-2",
   "createdAt": "2025-10-30T14:54:39.000Z",
-  "downloads": 20501550,
-  "likes": 514,
+  "downloads": 16564577,
+  "likes": 542,
   "pipeline": "time-series-forecasting",
   "tags": [],
   "gated": false

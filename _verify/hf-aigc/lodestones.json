@@ -1,9 +1,35 @@
 [
  {
+  "id": "lodestones/MOSS-Image-Base-8-steps-dmd",
+  "createdAt": "2026-10-18T01:27:36.000Z",
+  "downloads": 484,
+  "likes": 10,
+  "pipeline": "",
+  "library": "diffusers",
+  "gated": false,
+  "tags": [
+   "diffusers",
+   "safetensors"
+  ]
+ },
+ {
+  "id": "lodestones/MOSS-Image-SFT-8-steps-dmd",
+  "createdAt": "2026-10-16T10:28:56.000Z",
+  "downloads": 30751,
+  "likes": 136,
+  "pipeline": "",
+  "library": "diffusers",
+  "gated": false,
+  "tags": [
+   "diffusers",
+   "safetensors"
+  ]
+ },
+ {
   "id": "lodestones/Kroma",
   "createdAt": "2026-07-31T06:24:58.000Z",
   "downloads": 0,
-  "likes": 379,
+  "likes": 479,
   "pipeline": "text-to-image",
   "library": "",
   "gated": false,
@@ -11,7 +37,8 @@
    "krea2",
    "krea",
    "text-to-image",
-   "comfyui"
+   "comfyui",
+   "not-for-all-audiences"
   ]
  },
  {
@@ -28,7 +55,7 @@
   "id": "lodestones/taggerine",
   "createdAt": "2026-03-27T14:09:27.000Z",
   "downloads": 0,
-  "likes": 57,
+  "likes": 58,
   "pipeline": "image-classification",
   "library": "",
   "gated": false,
@@ -91,7 +118,7 @@
  {
   "id": "lodestones/Chroma1-Flash",
   "createdAt": "2025-08-08T23:34:37.000Z",
-  "downloads": 12827,
+  "downloads": 10295,
   "likes": 63,
   "pipeline": "text-to-image",
   "library": "diffusers",
@@ -104,8 +131,8 @@
  {
   "id": "lodestones/Chroma1-HD",
   "createdAt": "2025-08-08T10:23:39.000Z",
-  "downloads": 59680,
-  "likes": 414,
+  "downloads": 68112,
+  "likes": 417,
   "pipeline": "text-to-image",
   "library": "diffusers",
   "gated": false,
@@ -118,7 +145,7 @@
  {
   "id": "lodestones/Chroma1-Base",
   "createdAt": "2025-07-29T02:37:28.000Z",
-  "downloads": 1378,
+  "downloads": 1562,
   "likes": 117,
   "pipeline": "text-to-image",
   "library": "diffusers",
@@ -133,7 +160,7 @@
   "id": "lodestones/flux-ultra-lite",
   "createdAt": "2025-06-25T08:44:58.000Z",
   "downloads": 0,
-  "likes": 7,
+  "likes": 8,
   "pipeline": "",
   "library": "",
   "gated": false,
@@ -153,7 +180,7 @@
   "id": "lodestones/Chroma",
   "createdAt": "2025-01-27T22:04:09.000Z",
   "downloads": 0,
-  "likes": 1375,
+  "likes": 1382,
   "pipeline": "text-to-image",
   "library": "pytorch",
   "gated": false,

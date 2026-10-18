@@ -2,18 +2,19 @@
  {
   "id": "baidu/Unlimited-OCR",
   "createdAt": "2026-06-19T09:40:33.000Z",
-  "downloads": 1264379,
-  "likes": 4346,
+  "downloads": 1652742,
+  "likes": 4773,
   "pipeline": "image-text-to-text",
   "tags": [
-   "image-text-to-text"
+   "image-text-to-text",
+   "conversational"
   ],
   "gated": false
  },
  {
   "id": "baidu/NAVA",
   "createdAt": "2026-05-29T02:17:22.000Z",
-  "downloads": 125,
+  "downloads": 128,
   "likes": 126,
   "pipeline": "text-to-video",
   "tags": [],
@@ -22,8 +23,8 @@
  {
   "id": "baidu/ERNIE-Image-Aes",
   "createdAt": "2026-05-18T09:12:17.000Z",
-  "downloads": 279,
-  "likes": 18,
+  "downloads": 232,
+  "likes": 19,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -31,8 +32,8 @@
  {
   "id": "baidu/ERNIE-Image",
   "createdAt": "2026-04-07T07:26:56.000Z",
-  "downloads": 1327,
-  "likes": 677,
+  "downloads": 1649,
+  "likes": 680,
   "pipeline": "text-to-image",
   "tags": [],
   "gated": false
@@ -40,8 +41,8 @@
  {
   "id": "baidu/ERNIE-Image-Turbo",
   "createdAt": "2026-04-02T10:57:06.000Z",
-  "downloads": 3568,
-  "likes": 407,
+  "downloads": 3233,
+  "likes": 409,
   "pipeline": "text-to-image",
   "tags": [],
   "gated": false
@@ -49,8 +50,8 @@
  {
   "id": "baidu/Qianfan-OCR",
   "createdAt": "2026-03-18T07:48:43.000Z",
-  "downloads": 43096,
-  "likes": 1205,
+  "downloads": 46016,
+  "likes": 1210,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -61,7 +62,7 @@
  {
   "id": "baidu/ERNIE-4.5-VL-28B-A3B-Thinking",
   "createdAt": "2025-11-07T02:48:32.000Z",
-  "downloads": 727,
+  "downloads": 2348,
   "likes": 543,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -73,7 +74,7 @@
  {
   "id": "baidu/Qianfan-VL-70B",
   "createdAt": "2025-09-16T14:18:26.000Z",
-  "downloads": 215,
+  "downloads": 228,
   "likes": 39,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -85,7 +86,7 @@
  {
   "id": "baidu/Qianfan-VL-8B",
   "createdAt": "2025-09-16T14:18:23.000Z",
-  "downloads": 404,
+  "downloads": 441,
   "likes": 41,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -97,7 +98,7 @@
  {
   "id": "baidu/Qianfan-VL-3B",
   "createdAt": "2025-09-16T14:18:12.000Z",
-  "downloads": 208,
+  "downloads": 232,
   "likes": 30,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -109,8 +110,8 @@
  {
   "id": "baidu/ERNIE-4.5-21B-A3B-Thinking",
   "createdAt": "2025-09-08T14:18:31.000Z",
-  "downloads": 85935,
-  "likes": 792,
+  "downloads": 85076,
+  "likes": 793,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -121,7 +122,7 @@
  {
   "id": "baidu/ERNIE-4.5-300B-A47B-2Bits-TP4-Paddle",
   "createdAt": "2025-07-08T11:32:34.000Z",
-  "downloads": 80,
+  "downloads": 87,
   "likes": 5,
   "pipeline": "text-generation",
   "tags": [
@@ -133,7 +134,7 @@
  {
   "id": "baidu/ERNIE-4.5-300B-A47B-2Bits-TP2-Paddle",
   "createdAt": "2025-07-08T11:20:03.000Z",
-  "downloads": 122,
+  "downloads": 128,
   "likes": 11,
   "pipeline": "text-generation",
   "tags": [
@@ -145,7 +146,7 @@
  {
   "id": "baidu/ERNIE-4.5-0.3B-Paddle",
   "createdAt": "2025-06-29T07:24:14.000Z",
-  "downloads": 572,
+  "downloads": 494,
   "likes": 30,
   "pipeline": "text-generation",
   "tags": [
@@ -157,7 +158,7 @@
  {
   "id": "baidu/ERNIE-4.5-0.3B-Base-Paddle",
   "createdAt": "2025-06-29T06:02:05.000Z",
-  "downloads": 170,
+  "downloads": 196,
   "likes": 17,
   "pipeline": "text-generation",
   "tags": [
@@ -169,7 +170,7 @@
  {
   "id": "baidu/ERNIE-4.5-VL-424B-A47B-Base-Paddle",
   "createdAt": "2025-06-28T16:05:05.000Z",
-  "downloads": 153,
+  "downloads": 169,
   "likes": 68,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -181,7 +182,7 @@
  {
   "id": "baidu/ERNIE-4.5-VL-424B-A47B-Paddle",
   "createdAt": "2025-06-28T15:56:13.000Z",
-  "downloads": 166,
+  "downloads": 188,
   "likes": 26,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -193,7 +194,7 @@
  {
   "id": "baidu/ERNIE-4.5-300B-A47B-2Bits-Paddle",
   "createdAt": "2025-06-28T09:30:14.000Z",
-  "downloads": 200,
+  "downloads": 210,
   "likes": 24,
   "pipeline": "text-generation",
   "tags": [
@@ -205,7 +206,7 @@
  {
   "id": "baidu/ERNIE-4.5-300B-A47B-FP8-Paddle",
   "createdAt": "2025-06-28T09:29:57.000Z",
-  "downloads": 138,
+  "downloads": 139,
   "likes": 21,
   "pipeline": "text-generation",
   "tags": [
@@ -217,7 +218,7 @@
  {
   "id": "baidu/ERNIE-4.5-300B-A47B-W4A8C8-TP4-Paddle",
   "createdAt": "2025-06-28T09:27:03.000Z",
-  "downloads": 145,
+  "downloads": 158,
   "likes": 16,
   "pipeline": "text-generation",
   "tags": [
@@ -229,7 +230,7 @@
  {
   "id": "baidu/ERNIE-4.5-VL-28B-A3B-Base-PT",
   "createdAt": "2025-06-28T07:24:07.000Z",
-  "downloads": 220,
+  "downloads": 274,
   "likes": 41,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -241,8 +242,8 @@
  {
   "id": "baidu/ERNIE-4.5-21B-A3B-Base-Paddle",
   "createdAt": "2025-06-28T07:14:56.000Z",
-  "downloads": 141,
-  "likes": 15,
+  "downloads": 181,
+  "likes": 16,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -253,7 +254,7 @@
  {
   "id": "baidu/ERNIE-4.5-300B-A47B-Base-Paddle",
   "createdAt": "2025-06-28T06:36:07.000Z",
-  "downloads": 174,
+  "downloads": 185,
   "likes": 22,
   "pipeline": "text-generation",
   "tags": [
@@ -265,7 +266,7 @@
  {
   "id": "baidu/ERNIE-4.5-21B-A3B-Paddle",
   "createdAt": "2025-06-28T06:14:07.000Z",
-  "downloads": 200,
+  "downloads": 224,
   "likes": 18,
   "pipeline": "text-generation",
   "tags": [
@@ -277,7 +278,7 @@
  {
   "id": "baidu/ERNIE-4.5-21B-A3B-PT",
   "createdAt": "2025-06-28T06:13:30.000Z",
-  "downloads": 18085,
+  "downloads": 16495,
   "likes": 178,
   "pipeline": "text-generation",
   "tags": [
@@ -289,7 +290,7 @@
  {
   "id": "baidu/ERNIE-4.5-21B-A3B-Base-PT",
   "createdAt": "2025-06-28T06:12:54.000Z",
-  "downloads": 612,
+  "downloads": 586,
   "likes": 35,
   "pipeline": "text-generation",
   "tags": [
@@ -301,7 +302,7 @@
  {
   "id": "baidu/ERNIE-4.5-0.3B-PT",
   "createdAt": "2025-06-28T06:11:42.000Z",
-  "downloads": 14323,
+  "downloads": 12700,
   "likes": 112,
   "pipeline": "text-generation",
   "tags": [
@@ -313,8 +314,8 @@
  {
   "id": "baidu/ERNIE-4.5-0.3B-Base-PT",
   "createdAt": "2025-06-28T06:10:12.000Z",
-  "downloads": 2043,
-  "likes": 26,
+  "downloads": 2156,
+  "likes": 27,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -325,7 +326,7 @@
  {
   "id": "baidu/ERNIE-4.5-VL-28B-A3B-PT",
   "createdAt": "2025-06-28T05:50:33.000Z",
-  "downloads": 28411,
+  "downloads": 23775,
   "likes": 105,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -337,7 +338,7 @@
  {
   "id": "baidu/ERNIE-4.5-VL-424B-A47B-PT",
   "createdAt": "2025-06-28T05:49:55.000Z",
-  "downloads": 697,
+  "downloads": 801,
   "likes": 105,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -349,7 +350,7 @@
  {
   "id": "baidu/ERNIE-4.5-VL-424B-A47B-Base-PT",
   "createdAt": "2025-06-28T05:49:36.000Z",
-  "downloads": 812,
+  "downloads": 690,
   "likes": 89,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -361,7 +362,7 @@
  {
   "id": "baidu/ERNIE-4.5-300B-A47B-PT",
   "createdAt": "2025-06-28T05:38:53.000Z",
-  "downloads": 2815,
+  "downloads": 3086,
   "likes": 78,
   "pipeline": "text-generation",
   "tags": [
@@ -373,7 +374,7 @@
  {
   "id": "baidu/ERNIE-4.5-300B-A47B-Base-PT",
   "createdAt": "2025-06-28T05:37:06.000Z",
-  "downloads": 396,
+  "downloads": 399,
   "likes": 42,
   "pipeline": "text-generation",
   "tags": [
@@ -385,7 +386,7 @@
  {
   "id": "baidu/ERNIE-4.5-VL-28B-A3B-Base-Paddle",
   "createdAt": "2025-06-28T05:21:28.000Z",
-  "downloads": 165,
+  "downloads": 179,
   "likes": 23,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -397,7 +398,7 @@
  {
   "id": "baidu/ERNIE-4.5-VL-28B-A3B-Paddle",
   "createdAt": "2025-06-28T04:25:34.000Z",
-  "downloads": 178,
+  "downloads": 190,
   "likes": 42,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -409,7 +410,7 @@
  {
   "id": "baidu/ERNIE-4.5-300B-A47B-Paddle",
   "createdAt": "2025-06-28T03:46:02.000Z",
-  "downloads": 474,
+  "downloads": 481,
   "likes": 16,
   "pipeline": "text-generation",
   "tags": [

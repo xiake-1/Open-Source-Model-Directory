@@ -2,8 +2,8 @@
  {
   "id": "Qwen/Qwen-Image-2.1-Turbo",
   "createdAt": "2026-10-09T04:50:01.000Z",
-  "downloads": 2138,
-  "likes": 443,
+  "downloads": 23131,
+  "likes": 970,
   "pipeline": "text-to-image",
   "tags": [],
   "gated": false
@@ -11,8 +11,8 @@
  {
   "id": "Qwen/Qwen-Image-2.1-PE-I2I",
   "createdAt": "2026-09-20T08:46:47.000Z",
-  "downloads": 13253,
-  "likes": 61,
+  "downloads": 20852,
+  "likes": 65,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -20,8 +20,8 @@
  {
   "id": "Qwen/Qwen-Image-2.1-PE-T2I",
   "createdAt": "2026-09-20T08:45:29.000Z",
-  "downloads": 9126,
-  "likes": 58,
+  "downloads": 10726,
+  "likes": 67,
   "pipeline": "text-to-image",
   "tags": [],
   "gated": false
@@ -29,8 +29,8 @@
  {
   "id": "Qwen/Qwen-Image-2.1",
   "createdAt": "2026-09-14T03:47:26.000Z",
-  "downloads": 128839,
-  "likes": 3189,
+  "downloads": 176035,
+  "likes": 3372,
   "pipeline": "text-to-image",
   "tags": [],
   "gated": false
@@ -38,8 +38,8 @@
  {
   "id": "Qwen/Qwen-Drive-1.0-4B",
   "createdAt": "2026-08-27T08:14:27.000Z",
-  "downloads": 5416,
-  "likes": 241,
+  "downloads": 5583,
+  "likes": 250,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -50,8 +50,8 @@
  {
   "id": "Qwen/Qwen3.8-Flash-Next-FP8",
   "createdAt": "2026-08-24T08:25:23.000Z",
-  "downloads": 275760,
-  "likes": 256,
+  "downloads": 184360,
+  "likes": 268,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -62,8 +62,8 @@
  {
   "id": "Qwen/Qwen3.8-Flash-Next",
   "createdAt": "2026-08-24T08:24:59.000Z",
-  "downloads": 1798393,
-  "likes": 6079,
+  "downloads": 2485835,
+  "likes": 6317,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -74,8 +74,8 @@
  {
   "id": "Qwen/Qwen3.8-27B-FP8",
   "createdAt": "2026-08-13T08:01:58.000Z",
-  "downloads": 4465358,
-  "likes": 896,
+  "downloads": 4437542,
+  "likes": 925,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -86,8 +86,8 @@
  {
   "id": "Qwen/Qwen3.8-2.4T-A95B",
   "createdAt": "2026-08-08T01:50:52.000Z",
-  "downloads": 32082,
-  "likes": 1301,
+  "downloads": 25746,
+  "likes": 1318,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -98,8 +98,8 @@
  {
   "id": "Qwen/Qwen3.8-2.4T-A95B-FP8",
   "createdAt": "2026-08-08T01:49:49.000Z",
-  "downloads": 8103,
-  "likes": 248,
+  "downloads": 5430,
+  "likes": 253,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -110,8 +110,8 @@
  {
   "id": "Qwen/Qwen3.8-27B",
   "createdAt": "2026-08-05T08:22:59.000Z",
-  "downloads": 6768654,
-  "likes": 17424,
+  "downloads": 7695206,
+  "likes": 17929,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -122,8 +122,8 @@
  {
   "id": "Qwen/Qwen3-ForcedAligner-0.6B-hf",
   "createdAt": "2026-06-26T08:42:01.000Z",
-  "downloads": 70135,
-  "likes": 40,
+  "downloads": 75626,
+  "likes": 48,
   "pipeline": "token-classification",
   "tags": [],
   "gated": false
@@ -131,8 +131,8 @@
  {
   "id": "Qwen/Qwen3-ASR-0.6B-hf",
   "createdAt": "2026-06-26T08:39:00.000Z",
-  "downloads": 152438,
-  "likes": 84,
+  "downloads": 256364,
+  "likes": 89,
   "pipeline": "automatic-speech-recognition",
   "tags": [],
   "gated": false
@@ -140,8 +140,8 @@
  {
   "id": "Qwen/Qwen3-ASR-1.7B-hf",
   "createdAt": "2026-06-26T08:34:21.000Z",
-  "downloads": 341388,
-  "likes": 124,
+  "downloads": 373717,
+  "likes": 140,
   "pipeline": "automatic-speech-recognition",
   "tags": [],
   "gated": false
@@ -149,8 +149,8 @@
  {
   "id": "Qwen/Qwen-AgentWorld-35B-A3B",
   "createdAt": "2026-06-22T14:49:37.000Z",
-  "downloads": 6900,
-  "likes": 733,
+  "downloads": 7986,
+  "likes": 739,
   "pipeline": "text-generation",
   "tags": [
    "image-text-to-text",
@@ -162,8 +162,8 @@
  {
   "id": "Qwen/Qwen-Image-Bench",
   "createdAt": "2026-05-21T04:15:56.000Z",
-  "downloads": 32879,
-  "likes": 104,
+  "downloads": 31512,
+  "likes": 110,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -174,8 +174,8 @@
  {
   "id": "Qwen/SAE-Res-Qwen3.5-35B-A3B-Base-W128K-L0_100",
   "createdAt": "2026-04-27T03:39:47.000Z",
-  "downloads": 267,
-  "likes": 10,
+  "downloads": 284,
+  "likes": 13,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -183,8 +183,8 @@
  {
   "id": "Qwen/SAE-Res-Qwen3.5-35B-A3B-Base-W32K-L0_50",
   "createdAt": "2026-04-27T03:39:46.000Z",
-  "downloads": 258,
-  "likes": 10,
+  "downloads": 285,
+  "likes": 12,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -192,8 +192,8 @@
  {
   "id": "Qwen/SAE-Res-Qwen3-30B-A3B-Base-W128K-L0_100",
   "createdAt": "2026-04-27T03:39:45.000Z",
-  "downloads": 229,
-  "likes": 4,
+  "downloads": 247,
+  "likes": 6,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -201,8 +201,8 @@
  {
   "id": "Qwen/SAE-Res-Qwen3-30B-A3B-Base-W32K-L0_50",
   "createdAt": "2026-04-27T03:39:44.000Z",
-  "downloads": 213,
-  "likes": 3,
+  "downloads": 241,
+  "likes": 5,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -210,8 +210,8 @@
  {
   "id": "Qwen/SAE-Res-Qwen3.5-27B-W80K-L0_100",
   "createdAt": "2026-04-27T03:39:43.000Z",
-  "downloads": 353,
-  "likes": 13,
+  "downloads": 400,
+  "likes": 18,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -219,8 +219,8 @@
  {
   "id": "Qwen/SAE-Res-Qwen3.5-27B-W80K-L0_50",
   "createdAt": "2026-04-27T03:39:42.000Z",
-  "downloads": 513,
-  "likes": 39,
+  "downloads": 565,
+  "likes": 42,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -228,8 +228,8 @@
  {
   "id": "Qwen/SAE-Res-Qwen3.5-9B-Base-W64K-L0_100",
   "createdAt": "2026-04-27T03:39:41.000Z",
-  "downloads": 283,
-  "likes": 7,
+  "downloads": 326,
+  "likes": 12,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -237,8 +237,8 @@
  {
   "id": "Qwen/SAE-Res-Qwen3.5-9B-Base-W64K-L0_50",
   "createdAt": "2026-04-27T03:39:40.000Z",
-  "downloads": 417,
-  "likes": 10,
+  "downloads": 408,
+  "likes": 14,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -246,8 +246,8 @@
  {
   "id": "Qwen/SAE-Res-Qwen3.5-2B-Base-W32K-L0_100",
   "createdAt": "2026-04-27T03:39:40.000Z",
-  "downloads": 331,
-  "likes": 7,
+  "downloads": 416,
+  "likes": 9,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -255,8 +255,8 @@
  {
   "id": "Qwen/SAE-Res-Qwen3.5-2B-Base-W32K-L0_50",
   "createdAt": "2026-04-27T03:39:39.000Z",
-  "downloads": 603,
-  "likes": 15,
+  "downloads": 666,
+  "likes": 19,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -264,8 +264,8 @@
  {
   "id": "Qwen/SAE-Res-Qwen3-8B-Base-W64K-L0_100",
   "createdAt": "2026-04-27T03:39:38.000Z",
-  "downloads": 657,
-  "likes": 7,
+  "downloads": 680,
+  "likes": 11,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -273,8 +273,8 @@
  {
   "id": "Qwen/SAE-Res-Qwen3-8B-Base-W64K-L0_50",
   "createdAt": "2026-04-27T03:39:37.000Z",
-  "downloads": 410,
-  "likes": 6,
+  "downloads": 426,
+  "likes": 12,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -282,8 +282,8 @@
  {
   "id": "Qwen/SAE-Res-Qwen3-1.7B-Base-W32K-L0_100",
   "createdAt": "2026-04-27T03:39:36.000Z",
-  "downloads": 774,
-  "likes": 4,
+  "downloads": 797,
+  "likes": 7,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -291,8 +291,8 @@
  {
   "id": "Qwen/SAE-Res-Qwen3-1.7B-Base-W32K-L0_50",
   "createdAt": "2026-04-27T03:39:35.000Z",
-  "downloads": 674,
-  "likes": 5,
+  "downloads": 647,
+  "likes": 10,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -300,8 +300,8 @@
  {
   "id": "Qwen/Qwen3.6-27B-FP8",
   "createdAt": "2026-04-21T07:51:33.000Z",
-  "downloads": 1977542,
-  "likes": 361,
+  "downloads": 1292730,
+  "likes": 372,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -312,8 +312,8 @@
  {
   "id": "Qwen/Qwen3.6-27B",
   "createdAt": "2026-04-21T07:50:43.000Z",
-  "downloads": 2277803,
-  "likes": 2318,
+  "downloads": 2303991,
+  "likes": 2330,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -324,8 +324,8 @@
  {
   "id": "Qwen/Qwen3.6-35B-A3B-FP8",
   "createdAt": "2026-04-15T06:05:13.000Z",
-  "downloads": 4170844,
-  "likes": 423,
+  "downloads": 3613788,
+  "likes": 435,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -336,8 +336,8 @@
  {
   "id": "Qwen/Qwen3.6-35B-A3B",
   "createdAt": "2026-04-15T05:59:19.000Z",
-  "downloads": 3545718,
-  "likes": 2955,
+  "downloads": 3698632,
+  "likes": 3002,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -348,8 +348,8 @@
  {
   "id": "Qwen/Qwen3.5-35B-A3B-GPTQ-Int4",
   "createdAt": "2026-03-03T07:18:32.000Z",
-  "downloads": 202672,
-  "likes": 93,
+  "downloads": 260492,
+  "likes": 97,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -360,8 +360,8 @@
  {
   "id": "Qwen/Qwen3.5-27B-GPTQ-Int4",
   "createdAt": "2026-03-03T07:08:41.000Z",
-  "downloads": 21033,
-  "likes": 58,
+  "downloads": 17516,
+  "likes": 62,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -372,8 +372,8 @@
  {
   "id": "Qwen/Qwen3.5-397B-A17B-GPTQ-Int4",
   "createdAt": "2026-03-03T06:25:36.000Z",
-  "downloads": 3300,
-  "likes": 35,
+  "downloads": 2730,
+  "likes": 40,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -384,8 +384,8 @@
  {
   "id": "Qwen/Qwen3.5-122B-A10B-GPTQ-Int4",
   "createdAt": "2026-03-03T06:08:00.000Z",
-  "downloads": 346386,
-  "likes": 53,
+  "downloads": 368075,
+  "likes": 57,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -396,8 +396,8 @@
  {
   "id": "Qwen/Qwen3.5-0.8B-Base",
   "createdAt": "2026-02-28T23:57:45.000Z",
-  "downloads": 480830,
-  "likes": 117,
+  "downloads": 484025,
+  "likes": 124,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -408,8 +408,8 @@
  {
   "id": "Qwen/Qwen3.5-2B-Base",
   "createdAt": "2026-02-28T23:57:23.000Z",
-  "downloads": 303708,
-  "likes": 98,
+  "downloads": 315309,
+  "likes": 103,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -420,8 +420,8 @@
  {
   "id": "Qwen/Qwen3.5-0.8B",
   "createdAt": "2026-02-28T23:57:01.000Z",
-  "downloads": 2561283,
-  "likes": 753,
+  "downloads": 3110284,
+  "likes": 775,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -432,8 +432,8 @@
  {
   "id": "Qwen/Qwen3.5-2B",
   "createdAt": "2026-02-28T23:56:16.000Z",
-  "downloads": 3355912,
-  "likes": 434,
+  "downloads": 2848935,
+  "likes": 444,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -444,8 +444,8 @@
  {
   "id": "Qwen/Qwen3.5-4B",
   "createdAt": "2026-02-27T14:45:03.000Z",
-  "downloads": 7913682,
-  "likes": 1040,
+  "downloads": 7892933,
+  "likes": 1089,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -456,8 +456,8 @@
  {
   "id": "Qwen/Qwen3.5-4B-Base",
   "createdAt": "2026-02-27T13:20:09.000Z",
-  "downloads": 641677,
-  "likes": 110,
+  "downloads": 739314,
+  "likes": 116,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -468,8 +468,8 @@
  {
   "id": "Qwen/Qwen3.5-9B",
   "createdAt": "2026-02-27T12:58:26.000Z",
-  "downloads": 8319798,
-  "likes": 2137,
+  "downloads": 7822854,
+  "likes": 2189,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -480,8 +480,8 @@
  {
   "id": "Qwen/Qwen3.5-9B-Base",
   "createdAt": "2026-02-26T16:20:10.000Z",
-  "downloads": 296849,
-  "likes": 124,
+  "downloads": 373652,
+  "likes": 131,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -492,8 +492,8 @@
  {
   "id": "Qwen/Qwen3.5-35B-A3B-FP8",
   "createdAt": "2026-02-25T13:34:21.000Z",
-  "downloads": 1304734,
-  "likes": 158,
+  "downloads": 1306339,
+  "likes": 162,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -504,8 +504,8 @@
  {
   "id": "Qwen/Qwen3.5-27B-FP8",
   "createdAt": "2026-02-25T13:20:07.000Z",
-  "downloads": 170675,
-  "likes": 138,
+  "downloads": 149656,
+  "likes": 143,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -516,8 +516,8 @@
  {
   "id": "Qwen/Qwen3.5-122B-A10B-FP8",
   "createdAt": "2026-02-25T13:01:23.000Z",
-  "downloads": 506060,
-  "likes": 122,
+  "downloads": 436892,
+  "likes": 128,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -528,8 +528,8 @@
  {
   "id": "Qwen/Qwen3.5-122B-A10B",
   "createdAt": "2026-02-24T09:43:37.000Z",
-  "downloads": 589937,
-  "likes": 629,
+  "downloads": 699082,
+  "likes": 639,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -540,8 +540,8 @@
  {
   "id": "Qwen/Qwen3.5-35B-A3B-Base",
   "createdAt": "2026-02-24T09:42:42.000Z",
-  "downloads": 125027,
-  "likes": 151,
+  "downloads": 127497,
+  "likes": 155,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -552,8 +552,8 @@
  {
   "id": "Qwen/Qwen3.5-27B",
   "createdAt": "2026-02-24T09:41:56.000Z",
-  "downloads": 1880136,
-  "likes": 1059,
+  "downloads": 1778818,
+  "likes": 1067,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -564,8 +564,8 @@
  {
   "id": "Qwen/Qwen3.5-35B-A3B",
   "createdAt": "2026-02-24T09:39:25.000Z",
-  "downloads": 1466376,
-  "likes": 1523,
+  "downloads": 1411161,
+  "likes": 1536,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -576,8 +576,8 @@
  {
   "id": "Qwen/Qwen3.5-397B-A17B-FP8",
   "createdAt": "2026-02-18T13:01:57.000Z",
-  "downloads": 377769,
-  "likes": 187,
+  "downloads": 292565,
+  "likes": 191,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -588,8 +588,8 @@
  {
   "id": "Qwen/Qwen3.5-397B-A17B",
   "createdAt": "2026-02-16T04:55:12.000Z",
-  "downloads": 476504,
-  "likes": 1567,
+  "downloads": 601376,
+  "likes": 1574,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -600,8 +600,8 @@
  {
   "id": "Qwen/WebWorld-32B",
   "createdAt": "2026-02-13T14:14:13.000Z",
-  "downloads": 1062,
-  "likes": 85,
+  "downloads": 2219,
+  "likes": 88,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -612,8 +612,8 @@
  {
   "id": "Qwen/WebWorld-14B",
   "createdAt": "2026-02-13T14:14:04.000Z",
-  "downloads": 596,
-  "likes": 35,
+  "downloads": 638,
+  "likes": 39,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -624,8 +624,8 @@
  {
   "id": "Qwen/WebWorld-8B",
   "createdAt": "2026-02-13T14:13:39.000Z",
-  "downloads": 923,
-  "likes": 73,
+  "downloads": 879,
+  "likes": 80,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -636,8 +636,8 @@
  {
   "id": "Qwen/Qwen3-Coder-Next-GGUF",
   "createdAt": "2026-02-02T05:40:51.000Z",
-  "downloads": 25082,
-  "likes": 287,
+  "downloads": 40528,
+  "likes": 294,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -648,8 +648,8 @@
  {
   "id": "Qwen/Qwen3-Coder-Next-Base",
   "createdAt": "2026-02-01T12:42:15.000Z",
-  "downloads": 1779,
-  "likes": 74,
+  "downloads": 1705,
+  "likes": 79,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -660,8 +660,8 @@
  {
   "id": "Qwen/Qwen3-Coder-Next-FP8",
   "createdAt": "2026-02-01T12:22:41.000Z",
-  "downloads": 1023347,
-  "likes": 194,
+  "downloads": 1009842,
+  "likes": 204,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -672,8 +672,8 @@
  {
   "id": "Qwen/Qwen3-Coder-Next",
   "createdAt": "2026-01-30T15:08:18.000Z",
-  "downloads": 594051,
-  "likes": 1683,
+  "downloads": 498039,
+  "likes": 1700,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -684,8 +684,8 @@
  {
   "id": "Qwen/Qwen3-ForcedAligner-0.6B",
   "createdAt": "2026-01-28T03:29:54.000Z",
-  "downloads": 402734,
-  "likes": 164,
+  "downloads": 408334,
+  "likes": 170,
   "pipeline": "automatic-speech-recognition",
   "tags": [],
   "gated": false
@@ -693,8 +693,8 @@
  {
   "id": "Qwen/Qwen3-ASR-1.7B",
   "createdAt": "2026-01-28T03:22:40.000Z",
-  "downloads": 1119005,
-  "likes": 1163,
+  "downloads": 1151241,
+  "likes": 1185,
   "pipeline": "automatic-speech-recognition",
   "tags": [],
   "gated": false
@@ -702,8 +702,8 @@
  {
   "id": "Qwen/Qwen3-ASR-0.6B",
   "createdAt": "2026-01-28T03:15:39.000Z",
-  "downloads": 512466,
-  "likes": 370,
+  "downloads": 788350,
+  "likes": 381,
   "pipeline": "automatic-speech-recognition",
   "tags": [],
   "gated": false
@@ -711,8 +711,8 @@
  {
   "id": "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
   "createdAt": "2026-01-21T08:58:06.000Z",
-  "downloads": 579910,
-  "likes": 323,
+  "downloads": 611125,
+  "likes": 338,
   "pipeline": "text-to-speech",
   "tags": [],
   "gated": false
@@ -720,8 +720,8 @@
  {
   "id": "Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice",
   "createdAt": "2026-01-21T08:57:38.000Z",
-  "downloads": 1051572,
-  "likes": 199,
+  "downloads": 993711,
+  "likes": 206,
   "pipeline": "text-to-speech",
   "tags": [],
   "gated": false
@@ -729,8 +729,8 @@
  {
   "id": "Qwen/Qwen3-TTS-12Hz-1.7B-Base",
   "createdAt": "2026-01-21T08:57:11.000Z",
-  "downloads": 3163385,
-  "likes": 544,
+  "downloads": 3093627,
+  "likes": 564,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -738,8 +738,8 @@
  {
   "id": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
   "createdAt": "2026-01-21T08:56:49.000Z",
-  "downloads": 2246111,
-  "likes": 2095,
+  "downloads": 2120221,
+  "likes": 2138,
   "pipeline": "text-to-speech",
   "tags": [],
   "gated": false
@@ -747,8 +747,8 @@
  {
   "id": "Qwen/Qwen3-TTS-Tokenizer-12Hz",
   "createdAt": "2026-01-21T08:56:20.000Z",
-  "downloads": 207876,
-  "likes": 94,
+  "downloads": 188335,
+  "likes": 98,
   "pipeline": "audio-to-audio",
   "tags": [],
   "gated": false
@@ -756,8 +756,8 @@
  {
   "id": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
   "createdAt": "2026-01-21T08:55:55.000Z",
-  "downloads": 342376,
-  "likes": 433,
+  "downloads": 401555,
+  "likes": 443,
   "pipeline": "text-to-speech",
   "tags": [],
   "gated": false
@@ -765,8 +765,8 @@
  {
   "id": "Qwen/Qwen3-VL-Reranker-8B",
   "createdAt": "2026-01-07T03:11:53.000Z",
-  "downloads": 101157,
-  "likes": 174,
+  "downloads": 79799,
+  "likes": 179,
   "pipeline": "text-ranking",
   "tags": [
    "image-text-to-text"
@@ -776,8 +776,8 @@
  {
   "id": "Qwen/Qwen3-VL-Reranker-2B",
   "createdAt": "2026-01-07T03:10:13.000Z",
-  "downloads": 242517,
-  "likes": 227,
+  "downloads": 155651,
+  "likes": 233,
   "pipeline": "text-ranking",
   "tags": [
    "image-text-to-text"
@@ -787,8 +787,8 @@
  {
   "id": "Qwen/Qwen3-VL-Embedding-2B",
   "createdAt": "2026-01-07T03:03:25.000Z",
-  "downloads": 1087183,
-  "likes": 469,
+  "downloads": 810534,
+  "likes": 477,
   "pipeline": "sentence-similarity",
   "tags": [
    "image-text-to-text"
@@ -798,8 +798,8 @@
  {
   "id": "Qwen/Qwen3-VL-Embedding-8B",
   "createdAt": "2026-01-07T03:02:55.000Z",
-  "downloads": 1479167,
-  "likes": 490,
+  "downloads": 1414905,
+  "likes": 503,
   "pipeline": "sentence-similarity",
   "tags": [
    "image-text-to-text"
@@ -809,8 +809,8 @@
  {
   "id": "Qwen/Qwen-Image-2512",
   "createdAt": "2025-12-30T02:29:01.000Z",
-  "downloads": 44748,
-  "likes": 974,
+  "downloads": 52024,
+  "likes": 979,
   "pipeline": "text-to-image",
   "tags": [],
   "gated": false
@@ -818,8 +818,8 @@
  {
   "id": "Qwen/Qwen-Image-Layered",
   "createdAt": "2025-12-17T06:02:34.000Z",
-  "downloads": 70363,
-  "likes": 1171,
+  "downloads": 78625,
+  "likes": 1176,
   "pipeline": "image-text-to-image",
   "tags": [],
   "gated": false
@@ -827,8 +827,8 @@
  {
   "id": "Qwen/Qwen-Image-Edit-2511",
   "createdAt": "2025-12-17T05:55:58.000Z",
-  "downloads": 228021,
-  "likes": 1456,
+  "downloads": 194497,
+  "likes": 1482,
   "pipeline": "image-to-image",
   "tags": [],
   "gated": false
@@ -836,8 +836,8 @@
  {
   "id": "Qwen/Qwen3-Next-80B-A3B-Thinking-GGUF",
   "createdAt": "2025-12-03T06:54:24.000Z",
-  "downloads": 9559,
-  "likes": 32,
+  "downloads": 8085,
+  "likes": 35,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -848,8 +848,8 @@
  {
   "id": "Qwen/Qwen3-Next-80B-A3B-Instruct-GGUF",
   "createdAt": "2025-12-03T06:32:59.000Z",
-  "downloads": 21046,
-  "likes": 31,
+  "downloads": 15078,
+  "likes": 37,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -860,8 +860,8 @@
  {
   "id": "Qwen/Qwen3-VL-235B-A22B-Thinking-GGUF",
   "createdAt": "2025-10-31T09:57:20.000Z",
-  "downloads": 24562,
-  "likes": 2,
+  "downloads": 2238,
+  "likes": 6,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -872,8 +872,8 @@
  {
   "id": "Qwen/Qwen3-VL-30B-A3B-Thinking-GGUF",
   "createdAt": "2025-10-31T09:25:01.000Z",
-  "downloads": 12118,
-  "likes": 14,
+  "downloads": 8799,
+  "likes": 16,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -884,8 +884,8 @@
  {
   "id": "Qwen/Qwen3-VL-235B-A22B-Instruct-GGUF",
   "createdAt": "2025-10-31T08:39:08.000Z",
-  "downloads": 12015,
-  "likes": 14,
+  "downloads": 2059,
+  "likes": 17,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -896,8 +896,8 @@
  {
   "id": "Qwen/Qwen3-VL-30B-A3B-Instruct-GGUF",
   "createdAt": "2025-10-31T06:37:10.000Z",
-  "downloads": 27206,
-  "likes": 25,
+  "downloads": 60741,
+  "likes": 32,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -908,8 +908,8 @@
  {
   "id": "Qwen/Qwen3-VL-2B-Thinking-GGUF",
   "createdAt": "2025-10-31T03:17:15.000Z",
-  "downloads": 1768,
-  "likes": 25,
+  "downloads": 1834,
+  "likes": 28,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -920,8 +920,8 @@
  {
   "id": "Qwen/Qwen3-VL-4B-Thinking-GGUF",
   "createdAt": "2025-10-31T03:16:48.000Z",
-  "downloads": 3357,
-  "likes": 21,
+  "downloads": 2815,
+  "likes": 23,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -932,8 +932,8 @@
  {
   "id": "Qwen/Qwen3-VL-8B-Thinking-GGUF",
   "createdAt": "2025-10-31T03:16:22.000Z",
-  "downloads": 6326,
-  "likes": 28,
+  "downloads": 7378,
+  "likes": 33,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -944,8 +944,8 @@
  {
   "id": "Qwen/Qwen3-VL-32B-Thinking-GGUF",
   "createdAt": "2025-10-31T03:16:02.000Z",
-  "downloads": 3664,
-  "likes": 12,
+  "downloads": 3210,
+  "likes": 16,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -956,8 +956,8 @@
  {
   "id": "Qwen/Qwen3-VL-32B-Instruct-GGUF",
   "createdAt": "2025-10-31T02:54:27.000Z",
-  "downloads": 20897,
-  "likes": 22,
+  "downloads": 56872,
+  "likes": 26,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -968,8 +968,8 @@
  {
   "id": "Qwen/Qwen3-VL-8B-Instruct-GGUF",
   "createdAt": "2025-10-31T02:50:31.000Z",
-  "downloads": 418007,
-  "likes": 166,
+  "downloads": 819285,
+  "likes": 173,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -980,8 +980,8 @@
  {
   "id": "Qwen/Qwen3-VL-4B-Instruct-GGUF",
   "createdAt": "2025-10-31T02:50:15.000Z",
-  "downloads": 171007,
-  "likes": 65,
+  "downloads": 402363,
+  "likes": 75,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -992,8 +992,8 @@
  {
   "id": "Qwen/Qwen3-VL-2B-Instruct-GGUF",
   "createdAt": "2025-10-31T02:49:56.000Z",
-  "downloads": 130536,
-  "likes": 62,
+  "downloads": 150397,
+  "likes": 70,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -1004,8 +1004,8 @@
  {
   "id": "Qwen/Qwen3-VL-2B-Thinking-FP8",
   "createdAt": "2025-10-20T07:51:14.000Z",
-  "downloads": 20361,
-  "likes": 33,
+  "downloads": 1150,
+  "likes": 35,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -1016,8 +1016,8 @@
  {
   "id": "Qwen/Qwen3-VL-2B-Thinking",
   "createdAt": "2025-10-19T14:44:12.000Z",
-  "downloads": 108330,
-  "likes": 119,
+  "downloads": 78850,
+  "likes": 123,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -1028,8 +1028,8 @@
  {
   "id": "Qwen/Qwen3-VL-2B-Instruct-FP8",
   "createdAt": "2025-10-19T13:14:41.000Z",
-  "downloads": 7405,
-  "likes": 46,
+  "downloads": 5444,
+  "likes": 52,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -1040,8 +1040,8 @@
  {
   "id": "Qwen/Qwen3-VL-2B-Instruct",
   "createdAt": "2025-10-19T13:13:24.000Z",
-  "downloads": 2607120,
-  "likes": 486,
+  "downloads": 2183855,
+  "likes": 498,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -1052,8 +1052,8 @@
  {
   "id": "Qwen/Qwen3-VL-32B-Instruct-FP8",
   "createdAt": "2025-10-19T13:01:30.000Z",
-  "downloads": 248513,
-  "likes": 54,
+  "downloads": 385010,
+  "likes": 58,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -1064,8 +1064,8 @@
  {
   "id": "Qwen/Qwen3-VL-32B-Thinking-FP8",
   "createdAt": "2025-10-19T12:39:10.000Z",
-  "downloads": 9423,
-  "likes": 31,
+  "downloads": 8595,
+  "likes": 33,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -1076,8 +1076,8 @@
  {
   "id": "Qwen/Qwen3-VL-32B-Thinking",
   "createdAt": "2025-10-19T12:38:38.000Z",
-  "downloads": 12680,
-  "likes": 91,
+  "downloads": 10003,
+  "likes": 94,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -1088,8 +1088,8 @@
  {
   "id": "Qwen/Qwen3-VL-32B-Instruct",
   "createdAt": "2025-10-19T12:30:41.000Z",
-  "downloads": 319859,
-  "likes": 244,
+  "downloads": 264952,
+  "likes": 250,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -1100,8 +1100,8 @@
  {
   "id": "Qwen/Qwen3-VL-8B-Instruct-FP8",
   "createdAt": "2025-10-11T09:43:02.000Z",
-  "downloads": 1663286,
-  "likes": 85,
+  "downloads": 1372071,
+  "likes": 92,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -1112,8 +1112,8 @@
  {
   "id": "Qwen/Qwen3-VL-8B-Thinking-FP8",
   "createdAt": "2025-10-11T09:42:37.000Z",
-  "downloads": 24322,
-  "likes": 36,
+  "downloads": 17599,
+  "likes": 38,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -1124,8 +1124,8 @@
  {
   "id": "Qwen/Qwen3-VL-4B-Thinking-FP8",
   "createdAt": "2025-10-11T09:27:37.000Z",
-  "downloads": 1044,
-  "likes": 32,
+  "downloads": 1195,
+  "likes": 37,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -1136,8 +1136,8 @@
  {
   "id": "Qwen/Qwen3-VL-4B-Instruct-FP8",
   "createdAt": "2025-10-11T09:23:24.000Z",
-  "downloads": 126578,
-  "likes": 68,
+  "downloads": 109641,
+  "likes": 72,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -1148,8 +1148,8 @@
  {
   "id": "Qwen/Qwen3-VL-8B-Thinking",
   "createdAt": "2025-10-11T07:24:34.000Z",
-  "downloads": 123776,
-  "likes": 226,
+  "downloads": 109326,
+  "likes": 229,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -1160,8 +1160,8 @@
  {
   "id": "Qwen/Qwen3-VL-4B-Thinking",
   "createdAt": "2025-10-11T07:24:08.000Z",
-  "downloads": 39672,
-  "likes": 122,
+  "downloads": 22262,
+  "likes": 127,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -1172,8 +1172,8 @@
  {
   "id": "Qwen/Qwen3-VL-8B-Instruct",
   "createdAt": "2025-10-11T07:23:39.000Z",
-  "downloads": 8975548,
-  "likes": 1175,
+  "downloads": 5962032,
+  "likes": 1207,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -1184,8 +1184,8 @@
  {
   "id": "Qwen/Qwen3-VL-4B-Instruct",
   "createdAt": "2025-10-11T07:23:22.000Z",
-  "downloads": 3113173,
-  "likes": 492,
+  "downloads": 3375820,
+  "likes": 507,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -1196,8 +1196,8 @@
  {
   "id": "Qwen/Qwen3-VL-30B-A3B-Thinking-FP8",
   "createdAt": "2025-10-01T14:52:16.000Z",
-  "downloads": 2055,
-  "likes": 58,
+  "downloads": 1828,
+  "likes": 61,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -1208,8 +1208,8 @@
  {
   "id": "Qwen/Qwen3-VL-30B-A3B-Instruct-FP8",
   "createdAt": "2025-10-01T14:49:16.000Z",
-  "downloads": 109567,
-  "likes": 115,
+  "downloads": 128086,
+  "likes": 120,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -1220,8 +1220,8 @@
  {
   "id": "Qwen/Qwen3-VL-235B-A22B-Thinking-FP8",
   "createdAt": "2025-10-01T14:31:44.000Z",
-  "downloads": 1684,
-  "likes": 30,
+  "downloads": 1387,
+  "likes": 33,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -1232,8 +1232,8 @@
  {
   "id": "Qwen/Qwen3-VL-235B-A22B-Instruct-FP8",
   "createdAt": "2025-10-01T13:57:47.000Z",
-  "downloads": 74976,
-  "likes": 47,
+  "downloads": 72724,
+  "likes": 49,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -1244,8 +1244,8 @@
  {
   "id": "Qwen/Qwen3-VL-30B-A3B-Thinking",
   "createdAt": "2025-09-30T11:04:13.000Z",
-  "downloads": 23615,
-  "likes": 203,
+  "downloads": 18866,
+  "likes": 205,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -1256,8 +1256,8 @@
  {
   "id": "Qwen/Qwen3-VL-30B-A3B-Instruct",
   "createdAt": "2025-09-30T10:52:01.000Z",
-  "downloads": 335463,
-  "likes": 610,
+  "downloads": 258946,
+  "likes": 618,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -1268,8 +1268,8 @@
  {
   "id": "Qwen/Qwen3-4B-SafeRL",
   "createdAt": "2025-09-30T10:25:23.000Z",
-  "downloads": 1472,
-  "likes": 45,
+  "downloads": 3095,
+  "likes": 50,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1280,8 +1280,8 @@
  {
   "id": "Qwen/Qwen3Guard-Stream-8B",
   "createdAt": "2025-09-23T11:52:50.000Z",
-  "downloads": 740,
-  "likes": 44,
+  "downloads": 751,
+  "likes": 49,
   "pipeline": "feature-extraction",
   "tags": [],
   "gated": false
@@ -1289,8 +1289,8 @@
  {
   "id": "Qwen/Qwen3Guard-Stream-4B",
   "createdAt": "2025-09-23T11:49:13.000Z",
-  "downloads": 588,
-  "likes": 28,
+  "downloads": 851,
+  "likes": 35,
   "pipeline": "feature-extraction",
   "tags": [],
   "gated": false
@@ -1298,8 +1298,8 @@
  {
   "id": "Qwen/Qwen3Guard-Stream-0.6B",
   "createdAt": "2025-09-23T11:46:30.000Z",
-  "downloads": 4057,
-  "likes": 42,
+  "downloads": 3974,
+  "likes": 48,
   "pipeline": "feature-extraction",
   "tags": [],
   "gated": false
@@ -1307,8 +1307,8 @@
  {
   "id": "Qwen/Qwen3Guard-Gen-8B",
   "createdAt": "2025-09-23T11:40:09.000Z",
-  "downloads": 46381,
-  "likes": 138,
+  "downloads": 64966,
+  "likes": 147,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1319,8 +1319,8 @@
  {
   "id": "Qwen/Qwen3Guard-Gen-4B",
   "createdAt": "2025-09-23T11:37:25.000Z",
-  "downloads": 63330,
-  "likes": 58,
+  "downloads": 18487,
+  "likes": 63,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1331,8 +1331,8 @@
  {
   "id": "Qwen/Qwen3Guard-Gen-0.6B",
   "createdAt": "2025-09-23T11:35:17.000Z",
-  "downloads": 179596,
-  "likes": 88,
+  "downloads": 219984,
+  "likes": 92,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1343,8 +1343,8 @@
  {
   "id": "Qwen/Qwen-Image-Edit-2509",
   "createdAt": "2025-09-22T13:09:40.000Z",
-  "downloads": 465760,
-  "likes": 1251,
+  "downloads": 470954,
+  "likes": 1257,
   "pipeline": "image-to-image",
   "tags": [],
   "gated": false
@@ -1352,8 +1352,8 @@
  {
   "id": "Qwen/Qwen3-VL-235B-A22B-Thinking",
   "createdAt": "2025-09-22T03:54:48.000Z",
-  "downloads": 21624,
-  "likes": 410,
+  "downloads": 21876,
+  "likes": 415,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -1364,8 +1364,8 @@
  {
   "id": "Qwen/Qwen3-VL-235B-A22B-Instruct",
   "createdAt": "2025-09-22T03:54:32.000Z",
-  "downloads": 298896,
-  "likes": 421,
+  "downloads": 295157,
+  "likes": 425,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -1376,8 +1376,8 @@
  {
   "id": "Qwen/Qwen3-Next-80B-A3B-Thinking-FP8",
   "createdAt": "2025-09-22T03:49:13.000Z",
-  "downloads": 2191,
-  "likes": 54,
+  "downloads": 1570,
+  "likes": 57,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1388,8 +1388,8 @@
  {
   "id": "Qwen/Qwen3-Next-80B-A3B-Instruct-FP8",
   "createdAt": "2025-09-22T03:48:53.000Z",
-  "downloads": 120900,
-  "likes": 92,
+  "downloads": 93363,
+  "likes": 96,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1400,8 +1400,8 @@
  {
   "id": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
   "createdAt": "2025-09-20T03:16:00.000Z",
-  "downloads": 707706,
-  "likes": 1016,
+  "downloads": 724437,
+  "likes": 1033,
   "pipeline": "any-to-any",
   "tags": [
    "any-to-any"
@@ -1411,8 +1411,8 @@
  {
   "id": "Qwen/Qwen3-Omni-30B-A3B-Thinking",
   "createdAt": "2025-09-15T15:39:44.000Z",
-  "downloads": 176949,
-  "likes": 324,
+  "downloads": 212322,
+  "likes": 328,
   "pipeline": "any-to-any",
   "tags": [
    "any-to-any"
@@ -1422,8 +1422,8 @@
  {
   "id": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
   "createdAt": "2025-09-15T15:26:43.000Z",
-  "downloads": 8680,
-  "likes": 251,
+  "downloads": 9765,
+  "likes": 256,
   "pipeline": "any-to-any",
   "tags": [
    "any-to-any"
@@ -1433,8 +1433,8 @@
  {
   "id": "Qwen/Qwen3-Next-80B-A3B-Thinking",
   "createdAt": "2025-09-09T15:45:31.000Z",
-  "downloads": 42275,
-  "likes": 496,
+  "downloads": 39657,
+  "likes": 500,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1445,8 +1445,8 @@
  {
   "id": "Qwen/Qwen3-Next-80B-A3B-Instruct",
   "createdAt": "2025-09-09T15:40:56.000Z",
-  "downloads": 255914,
-  "likes": 1059,
+  "downloads": 182511,
+  "likes": 1065,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1457,8 +1457,8 @@
  {
   "id": "Qwen/Qwen-Image-Edit",
   "createdAt": "2025-08-17T08:32:01.000Z",
-  "downloads": 113126,
-  "likes": 2539,
+  "downloads": 119662,
+  "likes": 2555,
   "pipeline": "image-to-image",
   "tags": [],
   "gated": false
@@ -1466,8 +1466,8 @@
  {
   "id": "Qwen/Qwen3-4B-Instruct-2507-FP8",
   "createdAt": "2025-08-06T06:51:43.000Z",
-  "downloads": 1098850,
-  "likes": 84,
+  "downloads": 1315530,
+  "likes": 88,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1478,8 +1478,8 @@
  {
   "id": "Qwen/Qwen3-4B-Thinking-2507-FP8",
   "createdAt": "2025-08-06T06:16:35.000Z",
-  "downloads": 6219,
-  "likes": 67,
+  "downloads": 8938,
+  "likes": 73,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1490,8 +1490,8 @@
  {
   "id": "Qwen/Qwen3-4B-Thinking-2507",
   "createdAt": "2025-08-05T11:02:27.000Z",
-  "downloads": 617769,
-  "likes": 619,
+  "downloads": 611139,
+  "likes": 624,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1502,8 +1502,8 @@
  {
   "id": "Qwen/Qwen3-4B-Instruct-2507",
   "createdAt": "2025-08-05T10:58:03.000Z",
-  "downloads": 3563213,
-  "likes": 999,
+  "downloads": 2925844,
+  "likes": 1015,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1514,8 +1514,8 @@
  {
   "id": "Qwen/Qwen-Image",
   "createdAt": "2025-08-02T04:58:07.000Z",
-  "downloads": 269037,
-  "likes": 2667,
+  "downloads": 280562,
+  "likes": 2674,
   "pipeline": "text-to-image",
   "tags": [],
   "gated": false
@@ -1523,8 +1523,8 @@
  {
   "id": "Qwen/Qwen3-Coder-30B-A3B-Instruct-FP8",
   "createdAt": "2025-07-31T08:14:11.000Z",
-  "downloads": 941709,
-  "likes": 219,
+  "downloads": 1143538,
+  "likes": 228,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1535,8 +1535,8 @@
  {
   "id": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
   "createdAt": "2025-07-31T07:04:55.000Z",
-  "downloads": 391173,
-  "likes": 1273,
+  "downloads": 489734,
+  "likes": 1295,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1547,8 +1547,8 @@
  {
   "id": "Qwen/Qwen3-30B-A3B-Thinking-2507-FP8",
   "createdAt": "2025-07-29T11:29:04.000Z",
-  "downloads": 17147,
-  "likes": 67,
+  "downloads": 12450,
+  "likes": 71,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1559,8 +1559,8 @@
  {
   "id": "Qwen/Qwen3-30B-A3B-Thinking-2507",
   "createdAt": "2025-07-29T11:05:11.000Z",
-  "downloads": 74404,
-  "likes": 381,
+  "downloads": 51711,
+  "likes": 386,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1571,8 +1571,8 @@
  {
   "id": "Qwen/Qwen3-30B-A3B-Instruct-2507-FP8",
   "createdAt": "2025-07-28T12:25:16.000Z",
-  "downloads": 334123,
-  "likes": 134,
+  "downloads": 297491,
+  "likes": 141,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1583,8 +1583,8 @@
  {
   "id": "Qwen/Qwen3-30B-A3B-Instruct-2507",
   "createdAt": "2025-07-28T07:31:27.000Z",
-  "downloads": 967045,
-  "likes": 841,
+  "downloads": 1065620,
+  "likes": 847,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1595,8 +1595,8 @@
  {
   "id": "Qwen/Qwen3-235B-A22B-Thinking-2507-FP8",
   "createdAt": "2025-07-25T05:44:48.000Z",
-  "downloads": 38930,
-  "likes": 91,
+  "downloads": 39383,
+  "likes": 95,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1607,8 +1607,8 @@
  {
   "id": "Qwen/Qwen3-235B-A22B-Thinking-2507",
   "createdAt": "2025-07-25T04:59:05.000Z",
-  "downloads": 18421,
-  "likes": 410,
+  "downloads": 17700,
+  "likes": 416,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1619,8 +1619,8 @@
  {
   "id": "Qwen/Qwen3-Coder-480B-A35B-Instruct-FP8",
   "createdAt": "2025-07-22T15:23:49.000Z",
-  "downloads": 600361,
-  "likes": 161,
+  "downloads": 448801,
+  "likes": 165,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1631,8 +1631,8 @@
  {
   "id": "Qwen/Qwen3-Coder-480B-A35B-Instruct",
   "createdAt": "2025-07-22T14:52:38.000Z",
-  "downloads": 38002,
-  "likes": 1376,
+  "downloads": 41791,
+  "likes": 1382,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1643,8 +1643,8 @@
  {
   "id": "Qwen/Qwen3-235B-A22B-Instruct-2507-FP8",
   "createdAt": "2025-07-21T11:16:16.000Z",
-  "downloads": 373391,
-  "likes": 151,
+  "downloads": 304116,
+  "likes": 158,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1655,8 +1655,8 @@
  {
   "id": "Qwen/Qwen3-235B-A22B-Instruct-2507",
   "createdAt": "2025-07-21T06:46:56.000Z",
-  "downloads": 165854,
-  "likes": 806,
+  "downloads": 159378,
+  "likes": 811,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1667,8 +1667,8 @@
  {
   "id": "Qwen/Qwen3-14B-MLX-bf16",
   "createdAt": "2025-06-12T01:46:57.000Z",
-  "downloads": 151,
-  "likes": 6,
+  "downloads": 154,
+  "likes": 8,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1679,8 +1679,8 @@
  {
   "id": "Qwen/Qwen3-235B-A22B-MLX-8bit",
   "createdAt": "2025-06-11T14:03:02.000Z",
-  "downloads": 205,
-  "likes": 9,
+  "downloads": 201,
+  "likes": 13,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1691,8 +1691,8 @@
  {
   "id": "Qwen/Qwen3-235B-A22B-MLX-6bit",
   "createdAt": "2025-06-11T12:21:41.000Z",
-  "downloads": 199,
-  "likes": 5,
+  "downloads": 278,
+  "likes": 14,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1703,8 +1703,8 @@
  {
   "id": "Qwen/Qwen3-235B-A22B-MLX-4bit",
   "createdAt": "2025-06-11T11:09:17.000Z",
-  "downloads": 308,
-  "likes": 16,
+  "downloads": 305,
+  "likes": 20,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1715,8 +1715,8 @@
  {
   "id": "Qwen/Qwen3-235B-A22B-MLX-bf16",
   "createdAt": "2025-06-11T09:03:05.000Z",
-  "downloads": 185,
-  "likes": 6,
+  "downloads": 211,
+  "likes": 10,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1727,8 +1727,8 @@
  {
   "id": "Qwen/Qwen3-30B-A3B-MLX-4bit",
   "createdAt": "2025-06-11T08:51:07.000Z",
-  "downloads": 540,
-  "likes": 13,
+  "downloads": 618,
+  "likes": 18,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1739,8 +1739,8 @@
  {
   "id": "Qwen/Qwen3-30B-A3B-MLX-6bit",
   "createdAt": "2025-06-11T08:43:42.000Z",
-  "downloads": 224,
-  "likes": 5,
+  "downloads": 290,
+  "likes": 11,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1751,8 +1751,8 @@
  {
   "id": "Qwen/Qwen3-30B-A3B-MLX-8bit",
   "createdAt": "2025-06-11T08:26:29.000Z",
-  "downloads": 238,
-  "likes": 9,
+  "downloads": 271,
+  "likes": 15,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1763,8 +1763,8 @@
  {
   "id": "Qwen/Qwen3-30B-A3B-MLX-bf16",
   "createdAt": "2025-06-11T07:59:38.000Z",
-  "downloads": 160,
-  "likes": 8,
+  "downloads": 405,
+  "likes": 13,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1775,8 +1775,8 @@
  {
   "id": "Qwen/Qwen3-32B-MLX-4bit",
   "createdAt": "2025-06-11T07:54:44.000Z",
-  "downloads": 384,
-  "likes": 8,
+  "downloads": 395,
+  "likes": 11,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1787,8 +1787,8 @@
  {
   "id": "Qwen/Qwen3-32B-MLX-6bit",
   "createdAt": "2025-06-11T07:19:26.000Z",
-  "downloads": 229,
-  "likes": 4,
+  "downloads": 240,
+  "likes": 6,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1799,8 +1799,8 @@
  {
   "id": "Qwen/Qwen3-32B-MLX-8bit",
   "createdAt": "2025-06-11T06:56:34.000Z",
-  "downloads": 301,
-  "likes": 12,
+  "downloads": 347,
+  "likes": 16,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1811,8 +1811,8 @@
  {
   "id": "Qwen/Qwen3-32B-MLX-bf16",
   "createdAt": "2025-06-11T06:40:30.000Z",
-  "downloads": 173,
-  "likes": 9,
+  "downloads": 191,
+  "likes": 11,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1823,41 +1823,35 @@
  {
   "id": "Qwen/Qwen3-Embedding-0.6B-GGUF",
   "createdAt": "2025-06-05T08:34:51.000Z",
-  "downloads": 157398,
-  "likes": 579,
+  "downloads": 154024,
+  "likes": 584,
   "pipeline": "",
-  "tags": [
-   "conversational"
-  ],
+  "tags": [],
   "gated": false
  },
  {
   "id": "Qwen/Qwen3-Embedding-4B-GGUF",
   "createdAt": "2025-06-05T08:17:17.000Z",
-  "downloads": 42613,
-  "likes": 134,
+  "downloads": 51178,
+  "likes": 139,
   "pipeline": "",
-  "tags": [
-   "conversational"
-  ],
+  "tags": [],
   "gated": false
  },
  {
   "id": "Qwen/Qwen3-Embedding-8B-GGUF",
   "createdAt": "2025-06-05T07:59:05.000Z",
-  "downloads": 29770,
-  "likes": 145,
+  "downloads": 43418,
+  "likes": 152,
   "pipeline": "",
-  "tags": [
-   "conversational"
-  ],
+  "tags": [],
   "gated": false
  },
  {
   "id": "Qwen/Qwen3-Reranker-4B",
   "createdAt": "2025-06-03T14:46:47.000Z",
-  "downloads": 2345901,
-  "likes": 165,
+  "downloads": 2433709,
+  "likes": 182,
   "pipeline": "text-ranking",
   "tags": [
    "text-generation"
@@ -1867,8 +1861,8 @@
  {
   "id": "Qwen/Qwen3-Embedding-8B",
   "createdAt": "2025-06-03T14:39:10.000Z",
-  "downloads": 2282283,
-  "likes": 821,
+  "downloads": 2033528,
+  "likes": 834,
   "pipeline": "feature-extraction",
   "tags": [
    "text-generation"
@@ -1878,8 +1872,8 @@
  {
   "id": "Qwen/Qwen3-Embedding-4B",
   "createdAt": "2025-06-03T14:31:33.000Z",
-  "downloads": 1787831,
-  "likes": 334,
+  "downloads": 1702071,
+  "likes": 340,
   "pipeline": "feature-extraction",
   "tags": [
    "text-generation"
@@ -1889,8 +1883,8 @@
  {
   "id": "Qwen/Qwen3-Embedding-0.6B",
   "createdAt": "2025-06-03T14:25:32.000Z",
-  "downloads": 8750378,
-  "likes": 1268,
+  "downloads": 8585829,
+  "likes": 1296,
   "pipeline": "feature-extraction",
   "tags": [
    "text-generation"
@@ -1900,8 +1894,8 @@
  {
   "id": "Qwen/Qwen3-Reranker-0.6B",
   "createdAt": "2025-05-29T13:30:45.000Z",
-  "downloads": 1528623,
-  "likes": 407,
+  "downloads": 1664360,
+  "likes": 417,
   "pipeline": "text-ranking",
   "tags": [
    "text-generation"
@@ -1911,8 +1905,8 @@
  {
   "id": "Qwen/Qwen3-Reranker-8B",
   "createdAt": "2025-05-29T13:30:18.000Z",
-  "downloads": 405548,
-  "likes": 276,
+  "downloads": 263357,
+  "likes": 289,
   "pipeline": "text-ranking",
   "tags": [
    "text-generation"
@@ -1922,8 +1916,8 @@
  {
   "id": "Qwen/Qwen3-14B-MLX-4bit",
   "createdAt": "2025-05-23T23:59:12.000Z",
-  "downloads": 1946,
-  "likes": 18,
+  "downloads": 1870,
+  "likes": 24,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1934,8 +1928,8 @@
  {
   "id": "Qwen/Qwen3-4B-MLX-4bit",
   "createdAt": "2025-05-23T23:58:29.000Z",
-  "downloads": 1293,
-  "likes": 32,
+  "downloads": 3111,
+  "likes": 37,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1946,8 +1940,8 @@
  {
   "id": "Qwen/Qwen3-4B-MLX-6bit",
   "createdAt": "2025-05-23T23:53:17.000Z",
-  "downloads": 196,
-  "likes": 4,
+  "downloads": 245,
+  "likes": 8,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1959,7 +1953,7 @@
   "id": "Qwen/Qwen3-14B-MLX-6bit",
   "createdAt": "2025-05-23T23:52:31.000Z",
   "downloads": 465,
-  "likes": 3,
+  "likes": 7,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1970,8 +1964,8 @@
  {
   "id": "Qwen/Qwen3-4B-MLX-8bit",
   "createdAt": "2025-05-23T23:47:11.000Z",
-  "downloads": 269,
-  "likes": 3,
+  "downloads": 272,
+  "likes": 6,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1982,8 +1976,8 @@
  {
   "id": "Qwen/Qwen3-14B-MLX-8bit",
   "createdAt": "2025-05-23T23:46:01.000Z",
-  "downloads": 396,
-  "likes": 5,
+  "downloads": 447,
+  "likes": 10,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1994,8 +1988,8 @@
  {
   "id": "Qwen/Qwen3-4B-MLX-bf16",
   "createdAt": "2025-05-23T23:41:04.000Z",
-  "downloads": 186,
-  "likes": 5,
+  "downloads": 215,
+  "likes": 8,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2006,8 +2000,8 @@
  {
   "id": "Qwen/Qwen3-8B-MLX-bf16",
   "createdAt": "2025-05-23T23:36:11.000Z",
-  "downloads": 259,
-  "likes": 9,
+  "downloads": 260,
+  "likes": 14,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2018,8 +2012,8 @@
  {
   "id": "Qwen/Qwen3-8B-MLX-8bit",
   "createdAt": "2025-05-23T23:26:55.000Z",
-  "downloads": 479,
-  "likes": 9,
+  "downloads": 508,
+  "likes": 13,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2030,8 +2024,8 @@
  {
   "id": "Qwen/Qwen3-8B-MLX-4bit",
   "createdAt": "2025-05-23T23:24:59.000Z",
-  "downloads": 1647,
-  "likes": 12,
+  "downloads": 1919,
+  "likes": 16,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2042,8 +2036,8 @@
  {
   "id": "Qwen/Qwen3-1.7B-MLX-4bit",
   "createdAt": "2025-05-23T23:22:54.000Z",
-  "downloads": 858,
-  "likes": 4,
+  "downloads": 976,
+  "likes": 9,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2054,8 +2048,8 @@
  {
   "id": "Qwen/Qwen3-1.7B-MLX-8bit",
   "createdAt": "2025-05-23T16:13:59.000Z",
-  "downloads": 300,
-  "likes": 3,
+  "downloads": 364,
+  "likes": 7,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2066,8 +2060,8 @@
  {
   "id": "Qwen/Qwen3-1.7B-MLX-6bit",
   "createdAt": "2025-05-23T16:10:26.000Z",
-  "downloads": 201,
-  "likes": 3,
+  "downloads": 210,
+  "likes": 6,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2078,8 +2072,8 @@
  {
   "id": "Qwen/Qwen3-8B-MLX-6bit",
   "createdAt": "2025-05-23T16:03:31.000Z",
-  "downloads": 304,
-  "likes": 7,
+  "downloads": 503,
+  "likes": 16,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2090,8 +2084,8 @@
  {
   "id": "Qwen/Qwen3-1.7B-MLX-bf16",
   "createdAt": "2025-05-23T15:54:44.000Z",
-  "downloads": 299,
-  "likes": 8,
+  "downloads": 280,
+  "likes": 10,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2102,8 +2096,8 @@
  {
   "id": "Qwen/Qwen3-0.6B-MLX-8bit",
   "createdAt": "2025-05-23T15:51:55.000Z",
-  "downloads": 359,
-  "likes": 5,
+  "downloads": 367,
+  "likes": 7,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2114,8 +2108,8 @@
  {
   "id": "Qwen/Qwen3-0.6B-MLX-bf16",
   "createdAt": "2025-05-23T15:50:40.000Z",
-  "downloads": 223,
-  "likes": 6,
+  "downloads": 338,
+  "likes": 11,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2126,8 +2120,8 @@
  {
   "id": "Qwen/Qwen3-0.6B-MLX-6bit",
   "createdAt": "2025-05-23T15:47:53.000Z",
-  "downloads": 245,
-  "likes": 6,
+  "downloads": 258,
+  "likes": 9,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2138,8 +2132,8 @@
  {
   "id": "Qwen/Qwen3-0.6B-MLX-4bit",
   "createdAt": "2025-05-23T15:45:51.000Z",
-  "downloads": 1060,
-  "likes": 24,
+  "downloads": 1188,
+  "likes": 28,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2150,8 +2144,8 @@
  {
   "id": "Qwen/WorldPM-72B-RLHFLow",
   "createdAt": "2025-05-16T08:17:09.000Z",
-  "downloads": 122,
-  "likes": 12,
+  "downloads": 129,
+  "likes": 15,
   "pipeline": "text-classification",
   "tags": [],
   "gated": false
@@ -2159,8 +2153,8 @@
  {
   "id": "Qwen/WorldPM-72B-UltraFeedback",
   "createdAt": "2025-05-16T08:16:40.000Z",
-  "downloads": 152,
-  "likes": 7,
+  "downloads": 155,
+  "likes": 9,
   "pipeline": "text-classification",
   "tags": [],
   "gated": false
@@ -2168,8 +2162,8 @@
  {
   "id": "Qwen/WorldPM-72B-HelpSteer2",
   "createdAt": "2025-05-16T08:16:09.000Z",
-  "downloads": 132,
-  "likes": 10,
+  "downloads": 142,
+  "likes": 12,
   "pipeline": "text-classification",
   "tags": [],
   "gated": false
@@ -2177,8 +2171,8 @@
  {
   "id": "Qwen/WorldPM-72B",
   "createdAt": "2025-05-16T08:14:06.000Z",
-  "downloads": 164,
-  "likes": 82,
+  "downloads": 160,
+  "likes": 86,
   "pipeline": "text-classification",
   "tags": [],
   "gated": false
@@ -2186,8 +2180,8 @@
  {
   "id": "Qwen/Qwen2.5-Omni-7B-GPTQ-Int4",
   "createdAt": "2025-05-14T08:30:32.000Z",
-  "downloads": 612,
-  "likes": 16,
+  "downloads": 659,
+  "likes": 20,
   "pipeline": "any-to-any",
   "tags": [
    "any-to-any"
@@ -2197,8 +2191,8 @@
  {
   "id": "Qwen/Qwen2.5-Omni-7B-AWQ",
   "createdAt": "2025-05-14T08:29:05.000Z",
-  "downloads": 13282,
-  "likes": 21,
+  "downloads": 14000,
+  "likes": 26,
   "pipeline": "any-to-any",
   "tags": [
    "any-to-any"
@@ -2208,8 +2202,8 @@
  {
   "id": "Qwen/Qwen3-235B-A22B-GGUF",
   "createdAt": "2025-05-11T01:15:22.000Z",
-  "downloads": 5950,
-  "likes": 10,
+  "downloads": 5966,
+  "likes": 15,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2220,8 +2214,8 @@
  {
   "id": "Qwen/Qwen3-235B-A22B-GPTQ-Int4",
   "createdAt": "2025-05-10T13:54:21.000Z",
-  "downloads": 2219,
-  "likes": 27,
+  "downloads": 2640,
+  "likes": 31,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2232,8 +2226,8 @@
  {
   "id": "Qwen/Qwen3-0.6B-GPTQ-Int8",
   "createdAt": "2025-05-08T10:48:18.000Z",
-  "downloads": 959,
-  "likes": 11,
+  "downloads": 900,
+  "likes": 15,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2244,8 +2238,8 @@
  {
   "id": "Qwen/Qwen3-1.7B-GPTQ-Int8",
   "createdAt": "2025-05-08T10:42:06.000Z",
-  "downloads": 529,
-  "likes": 7,
+  "downloads": 619,
+  "likes": 10,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2256,8 +2250,8 @@
  {
   "id": "Qwen/Qwen3-4B-AWQ",
   "createdAt": "2025-05-05T14:41:59.000Z",
-  "downloads": 223308,
-  "likes": 33,
+  "downloads": 163032,
+  "likes": 36,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2268,8 +2262,8 @@
  {
   "id": "Qwen/Qwen3-0.6B-GGUF",
   "createdAt": "2025-05-05T09:16:31.000Z",
-  "downloads": 332783,
-  "likes": 89,
+  "downloads": 296580,
+  "likes": 96,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2280,8 +2274,8 @@
  {
   "id": "Qwen/Qwen3-1.7B-GGUF",
   "createdAt": "2025-05-05T09:14:36.000Z",
-  "downloads": 144910,
-  "likes": 75,
+  "downloads": 165639,
+  "likes": 82,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2292,8 +2286,8 @@
  {
   "id": "Qwen/Qwen3-30B-A3B-GPTQ-Int4",
   "createdAt": "2025-05-05T09:03:03.000Z",
-  "downloads": 62176,
-  "likes": 58,
+  "downloads": 50036,
+  "likes": 61,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2304,8 +2298,8 @@
  {
   "id": "Qwen/Qwen3-4B-GGUF",
   "createdAt": "2025-05-05T08:48:20.000Z",
-  "downloads": 544409,
-  "likes": 180,
+  "downloads": 554740,
+  "likes": 194,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2316,8 +2310,8 @@
  {
   "id": "Qwen/Qwen3-30B-A3B-GGUF",
   "createdAt": "2025-05-05T08:38:52.000Z",
-  "downloads": 98214,
-  "likes": 79,
+  "downloads": 99658,
+  "likes": 83,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2328,8 +2322,8 @@
  {
   "id": "Qwen/Qwen3-8B-GGUF",
   "createdAt": "2025-05-03T06:33:59.000Z",
-  "downloads": 551343,
-  "likes": 315,
+  "downloads": 607951,
+  "likes": 331,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2340,8 +2334,8 @@
  {
   "id": "Qwen/Qwen3-8B-AWQ",
   "createdAt": "2025-05-03T03:20:49.000Z",
-  "downloads": 2308497,
-  "likes": 55,
+  "downloads": 2170448,
+  "likes": 66,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2352,8 +2346,8 @@
  {
   "id": "Qwen/Qwen3-14B-AWQ",
   "createdAt": "2025-05-01T10:46:38.000Z",
-  "downloads": 2984692,
-  "likes": 75,
+  "downloads": 2807416,
+  "likes": 85,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2364,8 +2358,8 @@
  {
   "id": "Qwen/Qwen3-32B-AWQ",
   "createdAt": "2025-05-01T10:38:33.000Z",
-  "downloads": 964282,
-  "likes": 140,
+  "downloads": 810325,
+  "likes": 149,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2376,8 +2370,8 @@
  {
   "id": "Qwen/Qwen3-14B-GGUF",
   "createdAt": "2025-05-01T10:25:24.000Z",
-  "downloads": 206465,
-  "likes": 141,
+  "downloads": 241453,
+  "likes": 149,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2388,8 +2382,8 @@
  {
   "id": "Qwen/Qwen3-32B-GGUF",
   "createdAt": "2025-05-01T10:23:45.000Z",
-  "downloads": 92317,
-  "likes": 70,
+  "downloads": 75076,
+  "likes": 74,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2400,8 +2394,8 @@
  {
   "id": "Qwen/Qwen2.5-Omni-3B",
   "createdAt": "2025-04-30T03:22:47.000Z",
-  "downloads": 262896,
-  "likes": 361,
+  "downloads": 192022,
+  "likes": 371,
   "pipeline": "any-to-any",
   "tags": [
    "any-to-any"
@@ -2411,8 +2405,8 @@
  {
   "id": "Qwen/Qwen3-235B-A22B-FP8",
   "createdAt": "2025-04-28T14:36:08.000Z",
-  "downloads": 25497,
-  "likes": 96,
+  "downloads": 20158,
+  "likes": 101,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2423,8 +2417,8 @@
  {
   "id": "Qwen/Qwen3-30B-A3B-FP8",
   "createdAt": "2025-04-28T14:16:28.000Z",
-  "downloads": 162044,
-  "likes": 88,
+  "downloads": 73993,
+  "likes": 93,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2435,8 +2429,8 @@
  {
   "id": "Qwen/Qwen3-32B-FP8",
   "createdAt": "2025-04-28T12:41:57.000Z",
-  "downloads": 114822,
-  "likes": 85,
+  "downloads": 81156,
+  "likes": 90,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2447,8 +2441,8 @@
  {
   "id": "Qwen/Qwen3-14B-FP8",
   "createdAt": "2025-04-28T12:35:50.000Z",
-  "downloads": 54669,
-  "likes": 50,
+  "downloads": 23869,
+  "likes": 52,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2459,8 +2453,8 @@
  {
   "id": "Qwen/Qwen3-8B-FP8",
   "createdAt": "2025-04-28T12:34:50.000Z",
-  "downloads": 569287,
-  "likes": 64,
+  "downloads": 511163,
+  "likes": 66,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2471,8 +2465,8 @@
  {
   "id": "Qwen/Qwen3-4B-FP8",
   "createdAt": "2025-04-28T12:32:39.000Z",
-  "downloads": 75844,
-  "likes": 39,
+  "downloads": 81006,
+  "likes": 43,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2483,8 +2477,8 @@
  {
   "id": "Qwen/Qwen3-1.7B-FP8",
   "createdAt": "2025-04-28T12:30:04.000Z",
-  "downloads": 24482,
-  "likes": 37,
+  "downloads": 21425,
+  "likes": 41,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2495,8 +2489,8 @@
  {
   "id": "Qwen/Qwen3-0.6B-FP8",
   "createdAt": "2025-04-28T12:26:36.000Z",
-  "downloads": 247671,
-  "likes": 63,
+  "downloads": 185001,
+  "likes": 68,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2507,8 +2501,8 @@
  {
   "id": "Qwen/Qwen3-0.6B-Base",
   "createdAt": "2025-04-28T05:09:54.000Z",
-  "downloads": 708252,
-  "likes": 203,
+  "downloads": 680377,
+  "likes": 212,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2519,8 +2513,8 @@
  {
   "id": "Qwen/Qwen3-14B-Base",
   "createdAt": "2025-04-28T05:07:11.000Z",
-  "downloads": 85044,
-  "likes": 60,
+  "downloads": 91917,
+  "likes": 65,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2531,8 +2525,8 @@
  {
   "id": "Qwen/Qwen3-1.7B-Base",
   "createdAt": "2025-04-28T05:05:55.000Z",
-  "downloads": 594291,
-  "likes": 84,
+  "downloads": 573719,
+  "likes": 93,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2543,8 +2537,8 @@
  {
   "id": "Qwen/Qwen3-4B-Base",
   "createdAt": "2025-04-28T05:04:27.000Z",
-  "downloads": 584733,
-  "likes": 102,
+  "downloads": 569515,
+  "likes": 113,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2555,8 +2549,8 @@
  {
   "id": "Qwen/Qwen3-8B-Base",
   "createdAt": "2025-04-28T05:03:58.000Z",
-  "downloads": 766099,
-  "likes": 138,
+  "downloads": 758046,
+  "likes": 143,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2567,8 +2561,8 @@
  {
   "id": "Qwen/Qwen3-30B-A3B-Base",
   "createdAt": "2025-04-28T05:03:24.000Z",
-  "downloads": 45824,
-  "likes": 79,
+  "downloads": 40378,
+  "likes": 84,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2579,8 +2573,8 @@
  {
   "id": "Qwen/Qwen3-235B-A22B",
   "createdAt": "2025-04-27T03:53:46.000Z",
-  "downloads": 498063,
-  "likes": 1111,
+  "downloads": 442598,
+  "likes": 1117,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2591,8 +2585,8 @@
  {
   "id": "Qwen/Qwen3-32B",
   "createdAt": "2025-04-27T03:52:59.000Z",
-  "downloads": 3466526,
-  "likes": 755,
+  "downloads": 2945731,
+  "likes": 769,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2603,8 +2597,8 @@
  {
   "id": "Qwen/Qwen3-30B-A3B",
   "createdAt": "2025-04-27T03:43:05.000Z",
-  "downloads": 1364576,
-  "likes": 957,
+  "downloads": 1158901,
+  "likes": 967,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2615,8 +2609,8 @@
  {
   "id": "Qwen/Qwen3-14B",
   "createdAt": "2025-04-27T03:42:45.000Z",
-  "downloads": 5422096,
-  "likes": 491,
+  "downloads": 8231625,
+  "likes": 508,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2627,8 +2621,8 @@
  {
   "id": "Qwen/Qwen3-8B",
   "createdAt": "2025-04-27T03:42:21.000Z",
-  "downloads": 9821408,
-  "likes": 2083,
+  "downloads": 9122623,
+  "likes": 2121,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2639,8 +2633,8 @@
  {
   "id": "Qwen/Qwen3-4B",
   "createdAt": "2025-04-27T03:41:29.000Z",
-  "downloads": 10600642,
-  "likes": 732,
+  "downloads": 11791470,
+  "likes": 762,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2651,8 +2645,8 @@
  {
   "id": "Qwen/Qwen3-1.7B",
   "createdAt": "2025-04-27T03:41:05.000Z",
-  "downloads": 3480034,
-  "likes": 567,
+  "downloads": 3988543,
+  "likes": 582,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2663,8 +2657,8 @@
  {
   "id": "Qwen/Qwen3-0.6B",
   "createdAt": "2025-04-27T03:40:08.000Z",
-  "downloads": 30768858,
-  "likes": 1764,
+  "downloads": 29966068,
+  "likes": 1828,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2675,8 +2669,8 @@
  {
   "id": "Qwen/Qwen2.5-VL-32B-Instruct-AWQ",
   "createdAt": "2025-03-26T12:20:48.000Z",
-  "downloads": 198555,
-  "likes": 66,
+  "downloads": 322513,
+  "likes": 74,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -2687,8 +2681,8 @@
  {
   "id": "Qwen/Qwen2.5-Omni-7B",
   "createdAt": "2025-03-22T02:27:55.000Z",
-  "downloads": 304099,
-  "likes": 1957,
+  "downloads": 298482,
+  "likes": 1964,
   "pipeline": "any-to-any",
   "tags": [
    "any-to-any"
@@ -2698,8 +2692,8 @@
  {
   "id": "Qwen/Qwen2.5-VL-32B-Instruct",
   "createdAt": "2025-03-21T15:23:15.000Z",
-  "downloads": 781496,
-  "likes": 503,
+  "downloads": 805991,
+  "likes": 505,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -2710,8 +2704,8 @@
  {
   "id": "Qwen/QwQ-32B-GGUF",
   "createdAt": "2025-03-05T15:12:54.000Z",
-  "downloads": 11220,
-  "likes": 214,
+  "downloads": 22748,
+  "likes": 220,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2722,8 +2716,8 @@
  {
   "id": "Qwen/QwQ-32B",
   "createdAt": "2025-03-05T14:16:59.000Z",
-  "downloads": 40096,
-  "likes": 2966,
+  "downloads": 37126,
+  "likes": 2969,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2734,8 +2728,8 @@
  {
   "id": "Qwen/QwQ-32B-AWQ",
   "createdAt": "2025-03-05T14:00:05.000Z",
-  "downloads": 9352,
-  "likes": 138,
+  "downloads": 6443,
+  "likes": 140,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2746,8 +2740,8 @@
  {
   "id": "Qwen/Qwen2.5-VL-7B-Instruct-AWQ",
   "createdAt": "2025-02-15T09:21:11.000Z",
-  "downloads": 1665834,
-  "likes": 108,
+  "downloads": 1761015,
+  "likes": 116,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -2758,8 +2752,8 @@
  {
   "id": "Qwen/Qwen2.5-VL-72B-Instruct-AWQ",
   "createdAt": "2025-02-13T09:24:22.000Z",
-  "downloads": 29905,
-  "likes": 73,
+  "downloads": 37258,
+  "likes": 77,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -2770,8 +2764,8 @@
  {
   "id": "Qwen/Qwen2.5-VL-3B-Instruct-AWQ",
   "createdAt": "2025-02-13T09:23:42.000Z",
-  "downloads": 411059,
-  "likes": 68,
+  "downloads": 642989,
+  "likes": 75,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -2782,8 +2776,8 @@
  {
   "id": "Qwen/Qwen2.5-VL-72B-Instruct",
   "createdAt": "2025-01-27T04:12:04.000Z",
-  "downloads": 57253,
-  "likes": 659,
+  "downloads": 58722,
+  "likes": 661,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -2794,8 +2788,8 @@
  {
   "id": "Qwen/Qwen2.5-VL-7B-Instruct",
   "createdAt": "2025-01-26T09:26:37.000Z",
-  "downloads": 5310600,
-  "likes": 1735,
+  "downloads": 5195381,
+  "likes": 1746,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -2806,8 +2800,8 @@
  {
   "id": "Qwen/Qwen2.5-VL-3B-Instruct",
   "createdAt": "2025-01-26T09:25:35.000Z",
-  "downloads": 2148981,
-  "likes": 712,
+  "downloads": 1871987,
+  "likes": 728,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -2818,8 +2812,8 @@
  {
   "id": "Qwen/Qwen2.5-7B-Instruct-1M",
   "createdAt": "2025-01-23T13:36:32.000Z",
-  "downloads": 44603,
-  "likes": 381,
+  "downloads": 77082,
+  "likes": 384,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2830,8 +2824,8 @@
  {
   "id": "Qwen/Qwen2.5-14B-Instruct-1M",
   "createdAt": "2025-01-23T13:23:24.000Z",
-  "downloads": 25468,
-  "likes": 341,
+  "downloads": 23735,
+  "likes": 345,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2842,8 +2836,8 @@
  {
   "id": "Qwen/Qwen2.5-Math-PRM-7B",
   "createdAt": "2025-01-13T13:00:06.000Z",
-  "downloads": 484388,
-  "likes": 90,
+  "downloads": 637555,
+  "likes": 95,
   "pipeline": "text-classification",
   "tags": [],
   "gated": false
@@ -2851,8 +2845,8 @@
  {
   "id": "Qwen/Qwen2.5-Math-PRM-72B",
   "createdAt": "2025-01-13T12:59:59.000Z",
-  "downloads": 194,
-  "likes": 77,
+  "downloads": 199,
+  "likes": 81,
   "pipeline": "text-classification",
   "tags": [],
   "gated": false
@@ -2860,8 +2854,8 @@
  {
   "id": "Qwen/Qwen2.5-Math-7B-PRM800K",
   "createdAt": "2025-01-13T12:59:50.000Z",
-  "downloads": 289,
-  "likes": 21,
+  "downloads": 291,
+  "likes": 25,
   "pipeline": "text-classification",
   "tags": [],
   "gated": false
@@ -2869,8 +2863,8 @@
  {
   "id": "Qwen/QVQ-72B-Preview",
   "createdAt": "2024-12-24T10:13:22.000Z",
-  "downloads": 894,
-  "likes": 610,
+  "downloads": 1134,
+  "likes": 611,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -2881,8 +2875,8 @@
  {
   "id": "Qwen/Qwen2-VL-72B",
   "createdAt": "2024-12-04T09:33:57.000Z",
-  "downloads": 762,
-  "likes": 81,
+  "downloads": 857,
+  "likes": 83,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",

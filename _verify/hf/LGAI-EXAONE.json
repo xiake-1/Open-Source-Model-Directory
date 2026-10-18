@@ -14,7 +14,7 @@
  {
   "id": "LGAI-EXAONE/K-EXAONE-2.0-750B-A37B-NVFP4",
   "createdAt": "2026-07-30T08:48:26.000Z",
-  "downloads": 438,
+  "downloads": 472,
   "likes": 36,
   "pipeline": "text-generation",
   "tags": [
@@ -26,7 +26,7 @@
  {
   "id": "LGAI-EXAONE/K-EXAONE-2.0-750B-A37B-FP8",
   "createdAt": "2026-07-30T08:47:52.000Z",
-  "downloads": 1228,
+  "downloads": 716,
   "likes": 40,
   "pipeline": "text-generation",
   "tags": [
@@ -38,8 +38,8 @@
  {
   "id": "LGAI-EXAONE/K-EXAONE-2.0-750B-A37B",
   "createdAt": "2026-07-29T02:52:49.000Z",
-  "downloads": 2838,
-  "likes": 157,
+  "downloads": 3418,
+  "likes": 158,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -50,7 +50,7 @@
  {
   "id": "LGAI-EXAONE/EXAONE-4.5-33B-AWQ",
   "createdAt": "2026-04-22T15:17:43.000Z",
-  "downloads": 4724,
+  "downloads": 3303,
   "likes": 7,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -62,7 +62,7 @@
  {
   "id": "LGAI-EXAONE/EXAONE-4.5-33B-GGUF",
   "createdAt": "2026-04-08T16:29:30.000Z",
-  "downloads": 3123,
+  "downloads": 3719,
   "likes": 53,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -74,7 +74,7 @@
  {
   "id": "LGAI-EXAONE/EXAONE-4.5-33B-FP8",
   "createdAt": "2026-04-08T16:29:17.000Z",
-  "downloads": 6263,
+  "downloads": 3122,
   "likes": 27,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -86,8 +86,8 @@
  {
   "id": "LGAI-EXAONE/EXAONE-4.5-33B",
   "createdAt": "2026-04-04T08:34:23.000Z",
-  "downloads": 50527,
-  "likes": 186,
+  "downloads": 44845,
+  "likes": 187,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -107,7 +107,7 @@
  {
   "id": "LGAI-EXAONE/K-EXAONE-236B-A23B-FP8",
   "createdAt": "2026-01-03T15:20:30.000Z",
-  "downloads": 1094,
+  "downloads": 856,
   "likes": 16,
   "pipeline": "text-generation",
   "tags": [
@@ -119,7 +119,7 @@
  {
   "id": "LGAI-EXAONE/K-EXAONE-236B-A23B-GGUF",
   "createdAt": "2026-01-02T01:51:25.000Z",
-  "downloads": 446,
+  "downloads": 433,
   "likes": 19,
   "pipeline": "text-generation",
   "tags": [
@@ -131,7 +131,7 @@
  {
   "id": "LGAI-EXAONE/K-EXAONE-236B-A23B",
   "createdAt": "2025-12-26T11:55:04.000Z",
-  "downloads": 17480,
+  "downloads": 14131,
   "likes": 577,
   "pipeline": "text-generation",
   "tags": [
@@ -143,7 +143,7 @@
  {
   "id": "LGAI-EXAONE/EXAONE-Path-2.5",
   "createdAt": "2025-12-15T16:34:54.000Z",
-  "downloads": 48,
+  "downloads": 19,
   "likes": 14,
   "pipeline": "",
   "tags": [],
@@ -152,7 +152,7 @@
  {
   "id": "LGAI-EXAONE/EXAONE-4.0.1-32B",
   "createdAt": "2025-07-29T07:32:29.000Z",
-  "downloads": 3687,
+  "downloads": 3970,
   "likes": 27,
   "pipeline": "text-generation",
   "tags": [
@@ -164,8 +164,8 @@
  {
   "id": "LGAI-EXAONE/EXAONE-4.0-1.2B-GGUF",
   "createdAt": "2025-07-11T07:03:24.000Z",
-  "downloads": 3886,
-  "likes": 48,
+  "downloads": 4032,
+  "likes": 49,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -176,7 +176,7 @@
  {
   "id": "LGAI-EXAONE/EXAONE-4.0-1.2B-AWQ",
   "createdAt": "2025-07-11T07:03:14.000Z",
-  "downloads": 348,
+  "downloads": 219,
   "likes": 9,
   "pipeline": "text-generation",
   "tags": [
@@ -188,7 +188,7 @@
  {
   "id": "LGAI-EXAONE/EXAONE-4.0-1.2B-GPTQ-Int8",
   "createdAt": "2025-07-11T07:03:07.000Z",
-  "downloads": 131,
+  "downloads": 129,
   "likes": 11,
   "pipeline": "text-generation",
   "tags": [
@@ -200,7 +200,7 @@
  {
   "id": "LGAI-EXAONE/EXAONE-4.0-1.2B-FP8",
   "createdAt": "2025-07-11T07:02:41.000Z",
-  "downloads": 204,
+  "downloads": 192,
   "likes": 12,
   "pipeline": "text-generation",
   "tags": [
@@ -212,8 +212,8 @@
  {
   "id": "LGAI-EXAONE/EXAONE-4.0-1.2B",
   "createdAt": "2025-07-11T07:02:32.000Z",
-  "downloads": 20368,
-  "likes": 192,
+  "downloads": 17179,
+  "likes": 193,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -224,7 +224,7 @@
  {
   "id": "LGAI-EXAONE/EXAONE-4.0-32B-GGUF",
   "createdAt": "2025-07-11T07:02:22.000Z",
-  "downloads": 2511,
+  "downloads": 2664,
   "likes": 44,
   "pipeline": "text-generation",
   "tags": [
@@ -236,7 +236,7 @@
  {
   "id": "LGAI-EXAONE/EXAONE-4.0-32B-AWQ",
   "createdAt": "2025-07-11T07:02:13.000Z",
-  "downloads": 930,
+  "downloads": 795,
   "likes": 13,
   "pipeline": "text-generation",
   "tags": [
@@ -248,7 +248,7 @@
  {
   "id": "LGAI-EXAONE/EXAONE-4.0-32B-GPTQ",
   "createdAt": "2025-07-11T07:02:05.000Z",
-  "downloads": 160,
+  "downloads": 155,
   "likes": 9,
   "pipeline": "text-generation",
   "tags": [
@@ -260,7 +260,7 @@
  {
   "id": "LGAI-EXAONE/EXAONE-4.0-32B-FP8",
   "createdAt": "2025-07-11T07:01:52.000Z",
-  "downloads": 8256,
+  "downloads": 5418,
   "likes": 21,
   "pipeline": "text-generation",
   "tags": [
@@ -272,8 +272,8 @@
  {
   "id": "LGAI-EXAONE/EXAONE-4.0-32B",
   "createdAt": "2025-07-11T07:01:41.000Z",
-  "downloads": 29403,
-  "likes": 282,
+  "downloads": 26369,
+  "likes": 283,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -293,7 +293,7 @@
  {
   "id": "LGAI-EXAONE/EXAONE-Path-2.0",
   "createdAt": "2025-07-07T10:39:02.000Z",
-  "downloads": 182,
+  "downloads": 166,
   "likes": 18,
   "pipeline": "",
   "tags": [],
@@ -320,7 +320,7 @@
  {
   "id": "LGAI-EXAONE/EXAONE-Deep-32B-GGUF",
   "createdAt": "2025-03-12T04:44:23.000Z",
-  "downloads": 191,
+  "downloads": 174,
   "likes": 46,
   "pipeline": "text-generation",
   "tags": [
@@ -344,7 +344,7 @@
  {
   "id": "LGAI-EXAONE/EXAONE-Deep-32B",
   "createdAt": "2025-03-12T04:44:03.000Z",
-  "downloads": 733,
+  "downloads": 740,
   "likes": 302,
   "pipeline": "text-generation",
   "tags": [
@@ -356,7 +356,7 @@
  {
   "id": "LGAI-EXAONE/EXAONE-Deep-7.8B-GGUF",
   "createdAt": "2025-03-12T04:43:50.000Z",
-  "downloads": 351,
+  "downloads": 376,
   "likes": 37,
   "pipeline": "text-generation",
   "tags": [
@@ -368,7 +368,7 @@
  {
   "id": "LGAI-EXAONE/EXAONE-Deep-7.8B-AWQ",
   "createdAt": "2025-03-12T04:43:28.000Z",
-  "downloads": 235,
+  "downloads": 227,
   "likes": 16,
   "pipeline": "text-generation",
   "tags": [
@@ -380,7 +380,7 @@
  {
   "id": "LGAI-EXAONE/EXAONE-Deep-7.8B",
   "createdAt": "2025-03-12T04:43:02.000Z",
-  "downloads": 3472,
+  "downloads": 3581,
   "likes": 103,
   "pipeline": "text-generation",
   "tags": [
@@ -392,7 +392,7 @@
  {
   "id": "LGAI-EXAONE/EXAONE-Deep-2.4B-GGUF",
   "createdAt": "2025-03-12T04:42:40.000Z",
-  "downloads": 293,
+  "downloads": 181,
   "likes": 32,
   "pipeline": "text-generation",
   "tags": [
@@ -404,7 +404,7 @@
  {
   "id": "LGAI-EXAONE/EXAONE-Deep-2.4B-AWQ",
   "createdAt": "2025-03-12T04:42:16.000Z",
-  "downloads": 109,
+  "downloads": 110,
   "likes": 19,
   "pipeline": "text-generation",
   "tags": [
@@ -416,7 +416,7 @@
  {
   "id": "LGAI-EXAONE/EXAONE-Deep-2.4B",
   "createdAt": "2025-03-12T04:41:47.000Z",
-  "downloads": 1779,
+  "downloads": 1763,
   "likes": 102,
   "pipeline": "text-generation",
   "tags": [
@@ -437,7 +437,7 @@
  {
   "id": "LGAI-EXAONE/EXAONE-3.5-32B-Instruct-GGUF",
   "createdAt": "2024-12-01T13:18:05.000Z",
-  "downloads": 222,
+  "downloads": 201,
   "likes": 25,
   "pipeline": "text-generation",
   "tags": [
@@ -449,7 +449,7 @@
  {
   "id": "LGAI-EXAONE/EXAONE-3.5-32B-Instruct-AWQ",
   "createdAt": "2024-12-01T13:17:52.000Z",
-  "downloads": 45761,
+  "downloads": 45948,
   "likes": 17,
   "pipeline": "text-generation",
   "tags": [
@@ -461,7 +461,7 @@
  {
   "id": "LGAI-EXAONE/EXAONE-3.5-32B-Instruct",
   "createdAt": "2024-12-01T13:17:33.000Z",
-  "downloads": 30361,
+  "downloads": 28060,
   "likes": 130,
   "pipeline": "text-generation",
   "tags": [
@@ -473,8 +473,8 @@
  {
   "id": "LGAI-EXAONE/EXAONE-3.5-7.8B-Instruct-GGUF",
   "createdAt": "2024-12-01T13:17:16.000Z",
-  "downloads": 4893,
-  "likes": 43,
+  "downloads": 3627,
+  "likes": 44,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -485,8 +485,8 @@
  {
   "id": "LGAI-EXAONE/EXAONE-3.5-7.8B-Instruct-AWQ",
   "createdAt": "2024-12-01T13:16:55.000Z",
-  "downloads": 1039537,
-  "likes": 18,
+  "downloads": 745849,
+  "likes": 22,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -497,7 +497,7 @@
  {
   "id": "LGAI-EXAONE/EXAONE-3.5-7.8B-Instruct",
   "createdAt": "2024-12-01T13:15:33.000Z",
-  "downloads": 266469,
+  "downloads": 246730,
   "likes": 159,
   "pipeline": "text-generation",
   "tags": [
@@ -509,7 +509,7 @@
  {
   "id": "LGAI-EXAONE/EXAONE-3.5-2.4B-Instruct-GGUF",
   "createdAt": "2024-12-01T11:18:07.000Z",
-  "downloads": 960,
+  "downloads": 862,
   "likes": 39,
   "pipeline": "text-generation",
   "tags": [
@@ -521,7 +521,7 @@
  {
   "id": "LGAI-EXAONE/EXAONE-3.5-2.4B-Instruct-AWQ",
   "createdAt": "2024-12-01T11:17:55.000Z",
-  "downloads": 123,
+  "downloads": 189,
   "likes": 22,
   "pipeline": "text-generation",
   "tags": [
@@ -533,7 +533,7 @@
  {
   "id": "LGAI-EXAONE/EXAONE-3.5-2.4B-Instruct",
   "createdAt": "2024-12-01T11:17:08.000Z",
-  "downloads": 52384,
+  "downloads": 49332,
   "likes": 198,
   "pipeline": "text-generation",
   "tags": [

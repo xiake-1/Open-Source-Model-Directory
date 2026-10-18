@@ -2,11 +2,11 @@
 
 > 由 `_verify/hf-fetch.mjs` 生成，createdAt 为仓库创建时间。
 
-## deepseek-ai（53）
+## deepseek-ai（54）
 
+- deepseek-ai/DeepSeek-V4.1-Flash-1017@2026-10-17
 - deepseek-ai/DeepSeek-V4.1-Flash@2026-09-10
 - deepseek-ai/DeepSeek-V4-Flash-Vision-Exp@2026-08-31
-- deepseek-ai/DeepSeek-V4-Pro-0813@2026-08-13
 
 ## Qwen（254）
 
@@ -44,23 +44,23 @@
 - baidu/NAVA@2026-05-29
 - baidu/ERNIE-Image-Aes@2026-05-18
 
-## inclusionAI（212）
+## inclusionAI（214）
 
+- inclusionAI/Ling-3.1-flash@2026-10-13
+- inclusionAI/LemonDecider@2026-10-05
 - inclusionAI/AI-Transparency@2026-09-24
-- inclusionAI/Ming-Image-0.1-Design-Layer@2026-09-17
-- inclusionAI/Ming-Image-0.1-Design@2026-09-17
 
-## stepfun-ai（49）
+## stepfun-ai（52）
 
-- stepfun-ai/Step-3.7-Flash-GGUF@2026-05-28
-- stepfun-ai/Step-3.7-Flash-NVFP4@2026-05-27
-- stepfun-ai/Step-3.7-Flash-FP8@2026-05-23
+- stepfun-ai/Step-5-Preview-NVFP4@2026-10-14
+- stepfun-ai/Step-5-Preview-BF16@2026-09-20
+- stepfun-ai/Step-5-Preview@2026-09-20
 
-## tencent（156）
+## tencent（159）
 
-- tencent/Youtu-Parsing-Omni@2026-10-09
-- tencent/WeVisDoc-4B@2026-09-16
-- tencent/WeVisDoc-2B@2026-09-16
+- tencent/Qwen3-8B-DSpine-b16@2026-10-16
+- tencent/Hy-Memory-30B-A3B-FP8@2026-10-16
+- tencent/Hy-Memory-30B-A3B@2026-10-15
 
 ## ascend（0）
 
@@ -86,11 +86,11 @@
 - Tele-AI/TeleChat3-Coder-36B-Thinking@2026-01-29
 - Tele-AI/TeleStyle@2026-01-27
 
-## Skywork（66）
+## Skywork（65）
 
+- Skywork/Matrix-Game-4.0@2026-10-12
 - Skywork/Matrix-Game-3.0@2026-03-27
 - Skywork/SkyReels-V3-A2V-19B@2026-01-19
-- Skywork/SkyReels-V3-R2V-14B@2026-01-19
 
 ## 01-ai（0）
 
@@ -153,11 +153,11 @@
 - google/gnm-v3@2026-09-01
 - google/timesfm-3.0-pytorch@2026-08-24
 
-## mistralai（56）
+## mistralai（60）
 
-- mistralai/LIDstral-Arabic@2026-10-08
-- mistralai/Voxtral-Mini-4B-Realtime-Arabic@2026-10-08
-- mistralai/Shieldstral-1.0-3B@2026-07-16
+- mistralai/Timestral-123M@2026-10-14
+- mistralai/Timestral-28M@2026-10-14
+- mistralai/Timestral-5M@2026-10-14
 
 ## openai（6）
 
@@ -165,35 +165,35 @@
 - openai/circuit-sparsity@2025-12-11
 - openai/gpt-oss-safeguard-20b@2025-09-18
 
-## microsoft（198）
+## microsoft（202）
 
-- microsoft/rho-roboeval@2026-09-21
-- microsoft/FrogNano-4B-2609@2026-09-17
-- microsoft/VibeVoice-ASR-Streaming-1.5B@2026-09-02
+- microsoft/scFM-dataselection@2026-10-16
+- microsoft/UserRepGen-4B@2026-10-14
+- microsoft/AesCode-32B@2026-09-29
 
-## nvidia（726）
+## nvidia（746）
 
-- nvidia/agile_one_s_pick_ssd_n2_1120@2026-10-10
-- nvidia/agile_one_s_place_ssd_n2_1260@2026-10-10
-- nvidia/agile_one_s_pickplace_ssd_n2_18200@2026-10-10
+- nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-NVFP4@2026-10-16
+- nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-MXFP8@2026-10-16
+- nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-BF16@2026-10-16
 
-## ibm-granite（190）
+## ibm-granite（192）
 
+- ibm-granite/granite-switch-4.1-8b@2026-10-14
+- ibm-granite/granite-switch-4.1-30b@2026-10-14
 - ibm-granite/ensemble-forecasting-with-ibm-granite-time-series@2026-10-01
-- ibm-granite/granite-timeseries-ensemble-r1@2026-09-23
-- ibm-granite/granite-4.2-30b-bf16-mlx@2026-09-01
 
-## allenai（617）
+## allenai（618）
 
+- allenai/HiRO-ACEv2@2026-10-12
 - allenai/AstaBrief_8B_SFT@2026-09-10
 - allenai/ACE2S-SHiELD-plus-supplemental-checkpoints@2026-09-01
-- allenai/Llama-3-Blama-8B@2026-08-26
 
-## LiquidAI（183）
+## LiquidAI（198）
 
-- LiquidAI/d1-3B-w8a8@2026-10-07
-- LiquidAI/d1-omni-600M-GGUF@2026-10-06
-- LiquidAI/d1-3B-GGUF@2026-10-06
+- LiquidAI/LFM2.5-24B-A2B-FP8@2026-10-12
+- LiquidAI/LFM2.5-24B-A2B-MLX-bf16@2026-10-12
+- LiquidAI/LFM2.5-24B-A2B-MLX-8bit@2026-10-12
 
 ## CohereLabs（34）
 
@@ -268,7 +268,7 @@
 
 - swiss-ai/Apertus-v1.5-70B-base@2026-09-23
 - swiss-ai/Apertus-v1.5-8B-base@2026-09-23
-- swiss-ai/Apertus-v1.5-70B-RLVR@2026-08-22
+- swiss-ai/Apertus-v1.5-70B-RL@2026-08-22
 
 ## utter-project（31）
 
@@ -280,11 +280,11 @@
 
 - xai-org/grok-2@2025-08-22
 
-## amazon（25）
+## amazon（27）
 
+- amazon/LAR-27B@2026-10-14
+- amazon/LAR-9B@2026-10-14
 - amazon/strands-decider-2B-qwen3.5-v1-2610@2026-10-09
-- amazon/strands-decider-26B-A4B-gemma4-v1-2610@2026-10-09
-- amazon/strands-decider-12B-gemma4-v1-2610@2026-10-09
 
 ## Salesforce（56）
 
@@ -298,11 +298,11 @@
 - ServiceNow/DoubleCast@2026-03-17
 - ServiceNow/GroundNext-7B-V0@2025-10-14
 
-## togethercomputer（9）
+## togethercomputer（11）
 
+- togethercomputer/HybridAgent-14B-Agentic@2026-10-09
+- togethercomputer/HybridAgent-8B-Agentic@2026-10-09
 - togethercomputer/Tev1-0.8B-experimental@2026-09-25
-- togethercomputer/Tev1-4B-experimental@2026-09-23
-- togethercomputer/Aurora-Spec-Minimax-M2.5@2026-02-19
 
 ## SakanaAI（33）
 

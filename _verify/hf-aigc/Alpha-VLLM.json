@@ -2,7 +2,7 @@
  {
   "id": "Alpha-VLLM/Lumina-DiMOO",
   "createdAt": "2025-09-09T10:56:17.000Z",
-  "downloads": 1187,
+  "downloads": 1525,
   "likes": 157,
   "pipeline": "any-to-any",
   "library": "diffusers",
@@ -19,7 +19,7 @@
  {
   "id": "Alpha-VLLM/Lumina-mGPT-2.0-Omni",
   "createdAt": "2025-08-02T15:52:41.000Z",
-  "downloads": 55,
+  "downloads": 35,
   "likes": 10,
   "pipeline": "image-to-image",
   "library": "",
@@ -43,7 +43,7 @@
  {
   "id": "Alpha-VLLM/Lumina-mGPT-2.0",
   "createdAt": "2025-04-02T07:37:53.000Z",
-  "downloads": 170,
+  "downloads": 147,
   "likes": 84,
   "pipeline": "text-to-image",
   "library": "",
@@ -69,7 +69,7 @@
  {
   "id": "Alpha-VLLM/Lumina-Image-2.0",
   "createdAt": "2025-01-22T08:12:09.000Z",
-  "downloads": 1075,
+  "downloads": 1591,
   "likes": 377,
   "pipeline": "text-to-image",
   "library": "diffusers",

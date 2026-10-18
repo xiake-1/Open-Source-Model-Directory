@@ -1,9 +1,187 @@
 [
  {
+  "id": "LiquidAI/LFM2.5-24B-A2B-FP8",
+  "createdAt": "2026-10-12T22:19:54.000Z",
+  "downloads": 26849,
+  "likes": 22,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "LiquidAI/LFM2.5-24B-A2B-MLX-bf16",
+  "createdAt": "2026-10-12T20:12:55.000Z",
+  "downloads": 644,
+  "likes": 5,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "LiquidAI/LFM2.5-24B-A2B-MLX-8bit",
+  "createdAt": "2026-10-12T19:56:11.000Z",
+  "downloads": 1550,
+  "likes": 8,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "LiquidAI/LFM2.5-24B-A2B-MLX-6bit",
+  "createdAt": "2026-10-12T19:47:10.000Z",
+  "downloads": 730,
+  "likes": 2,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "LiquidAI/LFM2.5-24B-A2B-MLX-5bit",
+  "createdAt": "2026-10-12T19:37:13.000Z",
+  "downloads": 804,
+  "likes": 5,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "LiquidAI/LFM2.5-24B-A2B-MLX-4bit",
+  "createdAt": "2026-10-12T19:31:28.000Z",
+  "downloads": 4455,
+  "likes": 19,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "LiquidAI/LFM2.5-24B-A2B",
+  "createdAt": "2026-10-12T05:35:46.000Z",
+  "downloads": 13007,
+  "likes": 458,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "LiquidAI/d1-3B-MLX-fp16",
+  "createdAt": "2026-10-12T01:55:52.000Z",
+  "downloads": 354,
+  "likes": 4,
+  "pipeline": "image-text-to-text",
+  "tags": [
+   "image-text-to-text",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "LiquidAI/d1-3B-MLX-4bit",
+  "createdAt": "2026-10-12T01:55:32.000Z",
+  "downloads": 318,
+  "likes": 3,
+  "pipeline": "image-text-to-text",
+  "tags": [
+   "image-text-to-text",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "LiquidAI/d1-3B-MLX-8bit",
+  "createdAt": "2026-10-12T01:55:21.000Z",
+  "downloads": 382,
+  "likes": 3,
+  "pipeline": "image-text-to-text",
+  "tags": [
+   "image-text-to-text",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "LiquidAI/d1-omni-600M-MLX-8bit",
+  "createdAt": "2026-10-12T01:54:53.000Z",
+  "downloads": 291,
+  "likes": 3,
+  "pipeline": "image-text-to-text",
+  "tags": [
+   "image-text-to-text"
+  ],
+  "gated": false
+ },
+ {
+  "id": "LiquidAI/d1-omni-600M-MLX-fp16",
+  "createdAt": "2026-10-12T01:54:24.000Z",
+  "downloads": 288,
+  "likes": 4,
+  "pipeline": "image-text-to-text",
+  "tags": [
+   "image-text-to-text"
+  ],
+  "gated": false
+ },
+ {
+  "id": "LiquidAI/LFM2.5-24B-A2B-Base",
+  "createdAt": "2026-10-09T21:13:55.000Z",
+  "downloads": 692,
+  "likes": 36,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "LiquidAI/LFM2.5-24B-A2B-GGUF",
+  "createdAt": "2026-10-09T18:03:23.000Z",
+  "downloads": 107599,
+  "likes": 199,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "LiquidAI/LFM2.5-24B-A2B-ONNX",
+  "createdAt": "2026-10-09T18:03:22.000Z",
+  "downloads": 374,
+  "likes": 19,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
   "id": "LiquidAI/d1-3B-w8a8",
   "createdAt": "2026-10-07T18:58:54.000Z",
-  "downloads": 114,
-  "likes": 5,
+  "downloads": 367,
+  "likes": 9,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -14,8 +192,8 @@
  {
   "id": "LiquidAI/d1-omni-600M-GGUF",
   "createdAt": "2026-10-06T15:30:13.000Z",
-  "downloads": 3187,
-  "likes": 36,
+  "downloads": 8808,
+  "likes": 45,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text"
@@ -25,8 +203,8 @@
  {
   "id": "LiquidAI/d1-3B-GGUF",
   "createdAt": "2026-10-06T10:36:09.000Z",
-  "downloads": 11726,
-  "likes": 42,
+  "downloads": 30754,
+  "likes": 59,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -37,8 +215,8 @@
  {
   "id": "LiquidAI/d1-omni-600M",
   "createdAt": "2026-10-05T17:18:48.000Z",
-  "downloads": 10030,
-  "likes": 100,
+  "downloads": 14164,
+  "likes": 137,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text"
@@ -48,8 +226,8 @@
  {
   "id": "LiquidAI/d1-3B",
   "createdAt": "2026-10-05T09:55:28.000Z",
-  "downloads": 9088,
-  "likes": 264,
+  "downloads": 21223,
+  "likes": 448,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -60,8 +238,8 @@
  {
   "id": "LiquidAI/LFM2.5-VL-3B-DSpark-GGUF",
   "createdAt": "2026-09-18T07:44:29.000Z",
-  "downloads": 1492,
-  "likes": 10,
+  "downloads": 1734,
+  "likes": 12,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -72,8 +250,8 @@
  {
   "id": "LiquidAI/LFM2.5-VL-3B-DSpark",
   "createdAt": "2026-09-18T07:44:28.000Z",
-  "downloads": 993,
-  "likes": 18,
+  "downloads": 1229,
+  "likes": 20,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text"
@@ -83,8 +261,8 @@
  {
   "id": "LiquidAI/LFM2.5-8B-A1B-DSpark-GGUF",
   "createdAt": "2026-08-19T14:14:48.000Z",
-  "downloads": 57863,
-  "likes": 27,
+  "downloads": 22664,
+  "likes": 28,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -95,8 +273,8 @@
  {
   "id": "LiquidAI/LFM2.5-2.6B-DSpark-GGUF",
   "createdAt": "2026-08-19T14:14:24.000Z",
-  "downloads": 128875,
-  "likes": 54,
+  "downloads": 100116,
+  "likes": 59,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -107,8 +285,8 @@
  {
   "id": "LiquidAI/LFM2.5-1.2B-Instruct-DSpark-GGUF",
   "createdAt": "2026-08-19T14:07:19.000Z",
-  "downloads": 1703,
-  "likes": 29,
+  "downloads": 2210,
+  "likes": 32,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -119,8 +297,8 @@
  {
   "id": "LiquidAI/LFM2.5-VL-3B-GGUF",
   "createdAt": "2026-08-11T22:54:11.000Z",
-  "downloads": 23983,
-  "likes": 71,
+  "downloads": 26071,
+  "likes": 72,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -131,8 +309,8 @@
  {
   "id": "LiquidAI/LFM2.5-VL-3B",
   "createdAt": "2026-08-11T22:54:10.000Z",
-  "downloads": 26092,
-  "likes": 221,
+  "downloads": 28687,
+  "likes": 225,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -143,8 +321,8 @@
  {
   "id": "LiquidAI/LFM2.5-2.6B-DSpark",
   "createdAt": "2026-08-10T18:12:14.000Z",
-  "downloads": 26705,
-  "likes": 36,
+  "downloads": 29770,
+  "likes": 38,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -154,8 +332,8 @@
  {
   "id": "LiquidAI/LFM2.5-8B-A1B-DSpark",
   "createdAt": "2026-08-10T18:12:14.000Z",
-  "downloads": 1747,
-  "likes": 40,
+  "downloads": 1540,
+  "likes": 44,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -165,8 +343,8 @@
  {
   "id": "LiquidAI/LFM2.5-1.2B-Instruct-DSpark",
   "createdAt": "2026-08-10T18:12:14.000Z",
-  "downloads": 871,
-  "likes": 33,
+  "downloads": 822,
+  "likes": 35,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -176,8 +354,8 @@
  {
   "id": "LiquidAI/LFM2.5-VL-3B-MLX-bf16",
   "createdAt": "2026-08-10T12:20:33.000Z",
-  "downloads": 322,
-  "likes": 15,
+  "downloads": 307,
+  "likes": 16,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -188,8 +366,8 @@
  {
   "id": "LiquidAI/LFM2.5-VL-3B-MLX-8bit",
   "createdAt": "2026-08-10T12:20:32.000Z",
-  "downloads": 596,
-  "likes": 17,
+  "downloads": 615,
+  "likes": 18,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -200,8 +378,8 @@
  {
   "id": "LiquidAI/LFM2.5-VL-3B-MLX-5bit",
   "createdAt": "2026-08-10T12:20:31.000Z",
-  "downloads": 214,
-  "likes": 13,
+  "downloads": 227,
+  "likes": 14,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -212,8 +390,8 @@
  {
   "id": "LiquidAI/LFM2.5-VL-3B-MLX-6bit",
   "createdAt": "2026-08-10T12:20:31.000Z",
-  "downloads": 247,
-  "likes": 13,
+  "downloads": 250,
+  "likes": 14,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -224,8 +402,8 @@
  {
   "id": "LiquidAI/LFM2.5-VL-3B-MLX-4bit",
   "createdAt": "2026-08-10T12:20:30.000Z",
-  "downloads": 4483,
-  "likes": 16,
+  "downloads": 4762,
+  "likes": 17,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -236,8 +414,8 @@
  {
   "id": "LiquidAI/LFM2.5-VL-3B-ONNX",
   "createdAt": "2026-08-06T21:35:21.000Z",
-  "downloads": 822,
-  "likes": 18,
+  "downloads": 838,
+  "likes": 19,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -248,8 +426,8 @@
  {
   "id": "LiquidAI/LFM2.5-2.6B-MLX-nvfp4",
   "createdAt": "2026-08-06T06:44:14.000Z",
-  "downloads": 293,
-  "likes": 3,
+  "downloads": 306,
+  "likes": 4,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -261,7 +439,7 @@
   "id": "LiquidAI/LFM2.5-2.6B-MLX-mxfp4",
   "createdAt": "2026-08-06T06:43:48.000Z",
   "downloads": 317,
-  "likes": 3,
+  "likes": 4,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -272,8 +450,8 @@
  {
   "id": "LiquidAI/LFM2.5-2.6B-MLX-mxfp8",
   "createdAt": "2026-08-06T06:43:01.000Z",
-  "downloads": 275,
-  "likes": 2,
+  "downloads": 286,
+  "likes": 3,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -284,7 +462,7 @@
  {
   "id": "LiquidAI/LFM2.5-2.6B-MLX-4bit",
   "createdAt": "2026-08-06T06:42:33.000Z",
-  "downloads": 2109,
+  "downloads": 2349,
   "likes": 4,
   "pipeline": "text-generation",
   "tags": [
@@ -296,8 +474,8 @@
  {
   "id": "LiquidAI/LFM2.5-2.6B-MLX-5bit",
   "createdAt": "2026-08-06T06:42:01.000Z",
-  "downloads": 235,
-  "likes": 2,
+  "downloads": 276,
+  "likes": 3,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -308,8 +486,8 @@
  {
   "id": "LiquidAI/LFM2.5-2.6B-MLX-6bit",
   "createdAt": "2026-08-06T06:41:23.000Z",
-  "downloads": 326,
-  "likes": 3,
+  "downloads": 350,
+  "likes": 4,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -320,8 +498,8 @@
  {
   "id": "LiquidAI/LFM2.5-2.6B-MLX-8bit",
   "createdAt": "2026-08-06T06:40:35.000Z",
-  "downloads": 2875,
-  "likes": 2,
+  "downloads": 5306,
+  "likes": 3,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -332,8 +510,8 @@
  {
   "id": "LiquidAI/LFM2.5-2.6B-MLX-bf16",
   "createdAt": "2026-08-06T06:39:04.000Z",
-  "downloads": 533,
-  "likes": 6,
+  "downloads": 507,
+  "likes": 7,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -355,8 +533,8 @@
  {
   "id": "LiquidAI/LFM2.5-2.6B-ONNX",
   "createdAt": "2026-08-01T22:42:16.000Z",
-  "downloads": 1675,
-  "likes": 22,
+  "downloads": 1610,
+  "likes": 23,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -367,8 +545,8 @@
  {
   "id": "LiquidAI/LFM2.5-2.6B-GGUF",
   "createdAt": "2026-08-01T22:42:15.000Z",
-  "downloads": 983507,
-  "likes": 369,
+  "downloads": 810948,
+  "likes": 383,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -379,8 +557,8 @@
  {
   "id": "LiquidAI/LFM2.5-2.6B-Base",
   "createdAt": "2026-08-01T15:23:40.000Z",
-  "downloads": 8377,
-  "likes": 50,
+  "downloads": 5804,
+  "likes": 52,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -391,8 +569,8 @@
  {
   "id": "LiquidAI/LFM2.5-2.6B",
   "createdAt": "2026-07-28T22:14:32.000Z",
-  "downloads": 118821,
-  "likes": 807,
+  "downloads": 114292,
+  "likes": 841,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -403,8 +581,8 @@
  {
   "id": "LiquidAI/LFM2.5-Encoder-230M-GGUF",
   "createdAt": "2026-07-28T16:32:11.000Z",
-  "downloads": 476,
-  "likes": 6,
+  "downloads": 586,
+  "likes": 8,
   "pipeline": "fill-mask",
   "tags": [
    "conversational"
@@ -414,8 +592,8 @@
  {
   "id": "LiquidAI/LFM2.5-Encoder-230M",
   "createdAt": "2026-07-27T12:18:40.000Z",
-  "downloads": 8922,
-  "likes": 109,
+  "downloads": 7639,
+  "likes": 110,
   "pipeline": "fill-mask",
   "tags": [],
   "gated": false
@@ -423,8 +601,8 @@
  {
   "id": "LiquidAI/LFM2.5-Encoder-350M",
   "createdAt": "2026-07-27T11:48:45.000Z",
-  "downloads": 27608,
-  "likes": 151,
+  "downloads": 19407,
+  "likes": 155,
   "pipeline": "fill-mask",
   "tags": [],
   "gated": false
@@ -432,8 +610,8 @@
  {
   "id": "LiquidAI/LFM2.5-Encoder-350M-GGUF",
   "createdAt": "2026-07-20T16:08:24.000Z",
-  "downloads": 804,
-  "likes": 9,
+  "downloads": 1237,
+  "likes": 11,
   "pipeline": "fill-mask",
   "tags": [],
   "gated": false
@@ -441,8 +619,8 @@
  {
   "id": "LiquidAI/LFM2.5-Encoder-350M-Prompt-Router",
   "createdAt": "2026-07-13T20:41:36.000Z",
-  "downloads": 2095,
-  "likes": 64,
+  "downloads": 1580,
+  "likes": 65,
   "pipeline": "text-classification",
   "tags": [],
   "gated": false
@@ -450,8 +628,8 @@
  {
   "id": "LiquidAI/LFM2.5-Encoder-350M-Policy-Linter",
   "createdAt": "2026-07-11T18:43:01.000Z",
-  "downloads": 1836,
-  "likes": 9,
+  "downloads": 864,
+  "likes": 10,
   "pipeline": "token-classification",
   "tags": [],
   "gated": false
@@ -459,8 +637,8 @@
  {
   "id": "LiquidAI/LFM2.5-Encoder-350M-Diffusion",
   "createdAt": "2026-07-10T20:19:42.000Z",
-  "downloads": 1309,
-  "likes": 26,
+  "downloads": 1227,
+  "likes": 28,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -471,8 +649,8 @@
  {
   "id": "LiquidAI/LFM2.5-Encoder-350M-Spellchecker",
   "createdAt": "2026-07-04T15:35:29.000Z",
-  "downloads": 373,
-  "likes": 15,
+  "downloads": 453,
+  "likes": 16,
   "pipeline": "token-classification",
   "tags": [],
   "gated": false
@@ -480,8 +658,8 @@
  {
   "id": "LiquidAI/LFM2.5-230M",
   "createdAt": "2026-06-24T23:14:11.000Z",
-  "downloads": 73528,
-  "likes": 304,
+  "downloads": 81401,
+  "likes": 311,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -492,8 +670,8 @@
  {
   "id": "LiquidAI/LFM2.5-ColBERT-350M-GGUF",
   "createdAt": "2026-06-16T19:08:43.000Z",
-  "downloads": 834,
-  "likes": 29,
+  "downloads": 937,
+  "likes": 30,
   "pipeline": "sentence-similarity",
   "tags": [
    "conversational"
@@ -503,19 +681,17 @@
  {
   "id": "LiquidAI/LFM2.5-Embedding-350M-GGUF",
   "createdAt": "2026-06-16T18:37:23.000Z",
-  "downloads": 5931,
-  "likes": 39,
+  "downloads": 5585,
+  "likes": 40,
   "pipeline": "sentence-similarity",
-  "tags": [
-   "conversational"
-  ],
+  "tags": [],
   "gated": false
  },
  {
   "id": "LiquidAI/LFM2.5-230M-Base",
   "createdAt": "2026-06-16T13:45:20.000Z",
-  "downloads": 11471,
-  "likes": 22,
+  "downloads": 78760,
+  "likes": 23,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -526,8 +702,8 @@
  {
   "id": "LiquidAI/LFM2.5-230M-ONNX",
   "createdAt": "2026-06-15T16:43:39.000Z",
-  "downloads": 2242,
-  "likes": 21,
+  "downloads": 2350,
+  "likes": 22,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -538,7 +714,7 @@
  {
   "id": "LiquidAI/LFM2.5-230M-MLX-4bit",
   "createdAt": "2026-06-15T16:00:04.000Z",
-  "downloads": 1619,
+  "downloads": 897,
   "likes": 5,
   "pipeline": "text-generation",
   "tags": [
@@ -550,7 +726,7 @@
  {
   "id": "LiquidAI/LFM2.5-230M-MLX-5bit",
   "createdAt": "2026-06-15T15:59:55.000Z",
-  "downloads": 178,
+  "downloads": 197,
   "likes": 5,
   "pipeline": "text-generation",
   "tags": [
@@ -562,7 +738,7 @@
  {
   "id": "LiquidAI/LFM2.5-230M-MLX-6bit",
   "createdAt": "2026-06-15T15:59:43.000Z",
-  "downloads": 203,
+  "downloads": 212,
   "likes": 5,
   "pipeline": "text-generation",
   "tags": [
@@ -574,7 +750,7 @@
  {
   "id": "LiquidAI/LFM2.5-230M-MLX-8bit",
   "createdAt": "2026-06-15T15:59:30.000Z",
-  "downloads": 551,
+  "downloads": 365,
   "likes": 8,
   "pipeline": "text-generation",
   "tags": [
@@ -586,7 +762,7 @@
  {
   "id": "LiquidAI/LFM2.5-230M-MLX-bf16",
   "createdAt": "2026-06-15T15:59:20.000Z",
-  "downloads": 241,
+  "downloads": 255,
   "likes": 6,
   "pipeline": "text-generation",
   "tags": [
@@ -598,7 +774,7 @@
  {
   "id": "LiquidAI/LFM2.5-Encoder-350M-PII-Detector",
   "createdAt": "2026-06-12T15:10:49.000Z",
-  "downloads": 3110,
+  "downloads": 1713,
   "likes": 45,
   "pipeline": "token-classification",
   "tags": [],
@@ -607,8 +783,8 @@
  {
   "id": "LiquidAI/LFM2.5-230M-GGUF",
   "createdAt": "2026-06-11T15:01:26.000Z",
-  "downloads": 484807,
-  "likes": 114,
+  "downloads": 410390,
+  "likes": 119,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -619,7 +795,7 @@
  {
   "id": "LiquidAI/LFM2.5-1.2B-JP-202606-ONNX",
   "createdAt": "2026-06-03T23:34:56.000Z",
-  "downloads": 8347,
+  "downloads": 8470,
   "likes": 6,
   "pipeline": "text-generation",
   "tags": [
@@ -631,7 +807,7 @@
  {
   "id": "LiquidAI/LFM2.5-1.2B-JP-202606-MLX-5bit",
   "createdAt": "2026-06-03T23:30:06.000Z",
-  "downloads": 186,
+  "downloads": 203,
   "likes": 8,
   "pipeline": "text-generation",
   "tags": [
@@ -643,7 +819,7 @@
  {
   "id": "LiquidAI/LFM2.5-1.2B-JP-202606-MLX-4bit",
   "createdAt": "2026-06-03T23:30:06.000Z",
-  "downloads": 346,
+  "downloads": 375,
   "likes": 9,
   "pipeline": "text-generation",
   "tags": [
@@ -655,7 +831,7 @@
  {
   "id": "LiquidAI/LFM2.5-1.2B-JP-202606-MLX-6bit",
   "createdAt": "2026-06-03T23:30:05.000Z",
-  "downloads": 197,
+  "downloads": 214,
   "likes": 7,
   "pipeline": "text-generation",
   "tags": [
@@ -667,7 +843,7 @@
  {
   "id": "LiquidAI/LFM2.5-1.2B-JP-202606-MLX-8bit",
   "createdAt": "2026-06-03T23:30:05.000Z",
-  "downloads": 339,
+  "downloads": 376,
   "likes": 8,
   "pipeline": "text-generation",
   "tags": [
@@ -679,8 +855,8 @@
  {
   "id": "LiquidAI/LFM2.5-8B-A1B-Base",
   "createdAt": "2026-05-28T10:01:08.000Z",
-  "downloads": 2817,
-  "likes": 46,
+  "downloads": 2958,
+  "likes": 47,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -691,8 +867,8 @@
  {
   "id": "LiquidAI/LFM2.5-8B-A1B",
   "createdAt": "2026-05-28T09:43:54.000Z",
-  "downloads": 26022,
-  "likes": 785,
+  "downloads": 33589,
+  "likes": 795,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -703,7 +879,7 @@
  {
   "id": "LiquidAI/LFM2.5-VL-450M-Extract-GGUF",
   "createdAt": "2026-05-28T07:12:28.000Z",
-  "downloads": 457,
+  "downloads": 461,
   "likes": 27,
   "pipeline": "",
   "tags": [
@@ -714,7 +890,7 @@
  {
   "id": "LiquidAI/LFM2.5-VL-1.6B-Extract-GGUF",
   "createdAt": "2026-05-28T07:10:42.000Z",
-  "downloads": 481,
+  "downloads": 472,
   "likes": 44,
   "pipeline": "",
   "tags": [
@@ -725,8 +901,8 @@
  {
   "id": "LiquidAI/LFM2.5-Audio-1.5B-JP-GGUF",
   "createdAt": "2026-05-27T22:44:10.000Z",
-  "downloads": 40995,
-  "likes": 33,
+  "downloads": 154374,
+  "likes": 34,
   "pipeline": "audio-to-audio",
   "tags": [
    "conversational"
@@ -736,8 +912,8 @@
  {
   "id": "LiquidAI/LFM2.5-8B-A1B-MLX-8bit",
   "createdAt": "2026-05-27T21:12:10.000Z",
-  "downloads": 1784,
-  "likes": 36,
+  "downloads": 1775,
+  "likes": 37,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -748,7 +924,7 @@
  {
   "id": "LiquidAI/LFM2.5-8B-A1B-MLX-bf16",
   "createdAt": "2026-05-27T21:12:10.000Z",
-  "downloads": 308,
+  "downloads": 302,
   "likes": 9,
   "pipeline": "text-generation",
   "tags": [
@@ -760,7 +936,7 @@
  {
   "id": "LiquidAI/LFM2.5-8B-A1B-MLX-5bit",
   "createdAt": "2026-05-27T21:12:09.000Z",
-  "downloads": 282,
+  "downloads": 250,
   "likes": 9,
   "pipeline": "text-generation",
   "tags": [
@@ -772,7 +948,7 @@
  {
   "id": "LiquidAI/LFM2.5-8B-A1B-MLX-6bit",
   "createdAt": "2026-05-27T21:12:09.000Z",
-  "downloads": 381,
+  "downloads": 378,
   "likes": 9,
   "pipeline": "text-generation",
   "tags": [
@@ -784,8 +960,8 @@
  {
   "id": "LiquidAI/LFM2.5-8B-A1B-MLX-4bit",
   "createdAt": "2026-05-27T21:10:58.000Z",
-  "downloads": 2891,
-  "likes": 20,
+  "downloads": 2747,
+  "likes": 21,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -796,7 +972,7 @@
  {
   "id": "LiquidAI/LFM2.5-8B-A1B-ONNX",
   "createdAt": "2026-05-27T17:25:41.000Z",
-  "downloads": 221,
+  "downloads": 264,
   "likes": 11,
   "pipeline": "text-generation",
   "tags": [
@@ -808,8 +984,8 @@
  {
   "id": "LiquidAI/LFM2.5-1.2B-JP-202606-GGUF",
   "createdAt": "2026-05-26T05:55:29.000Z",
-  "downloads": 2891,
-  "likes": 27,
+  "downloads": 3493,
+  "likes": 30,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -820,7 +996,7 @@
  {
   "id": "LiquidAI/LFM2.5-VL-450M-Extract",
   "createdAt": "2026-05-26T05:15:17.000Z",
-  "downloads": 368,
+  "downloads": 382,
   "likes": 57,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -832,7 +1008,7 @@
  {
   "id": "LiquidAI/LFM2.5-VL-1.6B-Extract",
   "createdAt": "2026-05-26T05:14:58.000Z",
-  "downloads": 365,
+  "downloads": 391,
   "likes": 72,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -844,8 +1020,8 @@
  {
   "id": "LiquidAI/LFM2.5-1.2B-JP-202606",
   "createdAt": "2026-05-26T04:50:17.000Z",
-  "downloads": 9813,
-  "likes": 78,
+  "downloads": 8844,
+  "likes": 80,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -856,7 +1032,7 @@
  {
   "id": "LiquidAI/LFM2.5-Audio-1.5B-JP",
   "createdAt": "2026-05-26T02:40:53.000Z",
-  "downloads": 585,
+  "downloads": 604,
   "likes": 81,
   "pipeline": "audio-to-audio",
   "tags": [],
@@ -865,8 +1041,8 @@
  {
   "id": "LiquidAI/LFM2-2.6B-Longevity",
   "createdAt": "2026-05-25T20:30:52.000Z",
-  "downloads": 1708,
-  "likes": 50,
+  "downloads": 948,
+  "likes": 51,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -877,8 +1053,8 @@
  {
   "id": "LiquidAI/LFM2-1.2B-Longevity",
   "createdAt": "2026-05-25T20:28:14.000Z",
-  "downloads": 378,
-  "likes": 48,
+  "downloads": 368,
+  "likes": 49,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -886,8 +1062,8 @@
  {
   "id": "LiquidAI/LFM2.5-8B-A1B-GGUF",
   "createdAt": "2026-05-24T22:16:45.000Z",
-  "downloads": 344666,
-  "likes": 318,
+  "downloads": 184715,
+  "likes": 326,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -898,7 +1074,7 @@
  {
   "id": "LiquidAI/LFM2.5-ColBERT-350M",
   "createdAt": "2026-05-20T13:09:50.000Z",
-  "downloads": 16303,
+  "downloads": 20728,
   "likes": 120,
   "pipeline": "sentence-similarity",
   "tags": [],
@@ -907,7 +1083,7 @@
  {
   "id": "LiquidAI/LFM2.5-Embedding-350M",
   "createdAt": "2026-05-05T15:00:16.000Z",
-  "downloads": 30528,
+  "downloads": 23992,
   "likes": 163,
   "pipeline": "sentence-similarity",
   "tags": [],
@@ -916,7 +1092,7 @@
  {
   "id": "LiquidAI/LFM2.5-VL-450M-MLX-4bit",
   "createdAt": "2026-04-08T19:32:16.000Z",
-  "downloads": 1150,
+  "downloads": 1318,
   "likes": 9,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -928,7 +1104,7 @@
  {
   "id": "LiquidAI/LFM2.5-VL-450M-MLX-5bit",
   "createdAt": "2026-04-08T19:32:08.000Z",
-  "downloads": 175,
+  "downloads": 196,
   "likes": 7,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -940,7 +1116,7 @@
  {
   "id": "LiquidAI/LFM2.5-VL-450M-MLX-6bit",
   "createdAt": "2026-04-08T19:31:59.000Z",
-  "downloads": 204,
+  "downloads": 208,
   "likes": 8,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -952,7 +1128,7 @@
  {
   "id": "LiquidAI/LFM2.5-VL-450M-MLX-bf16",
   "createdAt": "2026-04-08T19:26:35.000Z",
-  "downloads": 241,
+  "downloads": 249,
   "likes": 10,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -964,7 +1140,7 @@
  {
   "id": "LiquidAI/LFM2.5-VL-450M-MLX-8bit",
   "createdAt": "2026-04-08T19:26:19.000Z",
-  "downloads": 278,
+  "downloads": 302,
   "likes": 9,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -976,7 +1152,7 @@
  {
   "id": "LiquidAI/LFM2.5-VL-450M-ONNX",
   "createdAt": "2026-04-08T15:58:05.000Z",
-  "downloads": 1404,
+  "downloads": 1347,
   "likes": 32,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -988,8 +1164,8 @@
  {
   "id": "LiquidAI/LFM2.5-VL-450M",
   "createdAt": "2026-04-08T14:57:35.000Z",
-  "downloads": 39142,
-  "likes": 227,
+  "downloads": 38717,
+  "likes": 230,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -1000,7 +1176,7 @@
  {
   "id": "LiquidAI/LFM2.5-VL-450M-GGUF",
   "createdAt": "2026-04-04T12:58:32.000Z",
-  "downloads": 22897,
+  "downloads": 26079,
   "likes": 71,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -1012,7 +1188,7 @@
  {
   "id": "LiquidAI/LFM2.5-350M-Base",
   "createdAt": "2026-03-31T06:38:57.000Z",
-  "downloads": 11422,
+  "downloads": 10146,
   "likes": 34,
   "pipeline": "text-generation",
   "tags": [
@@ -1024,8 +1200,8 @@
  {
   "id": "LiquidAI/LFM2.5-350M",
   "createdAt": "2026-03-31T06:21:25.000Z",
-  "downloads": 61944,
-  "likes": 434,
+  "downloads": 54045,
+  "likes": 437,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1036,7 +1212,7 @@
  {
   "id": "LiquidAI/LFM2.5-350M-MLX-4bit",
   "createdAt": "2026-03-25T20:24:51.000Z",
-  "downloads": 690,
+  "downloads": 646,
   "likes": 12,
   "pipeline": "text-generation",
   "tags": [
@@ -1048,7 +1224,7 @@
  {
   "id": "LiquidAI/LFM2.5-350M-MLX-5bit",
   "createdAt": "2026-03-25T20:24:41.000Z",
-  "downloads": 193,
+  "downloads": 200,
   "likes": 8,
   "pipeline": "text-generation",
   "tags": [
@@ -1060,7 +1236,7 @@
  {
   "id": "LiquidAI/LFM2.5-350M-MLX-6bit",
   "createdAt": "2026-03-25T20:24:30.000Z",
-  "downloads": 223,
+  "downloads": 241,
   "likes": 10,
   "pipeline": "text-generation",
   "tags": [
@@ -1072,7 +1248,7 @@
  {
   "id": "LiquidAI/LFM2.5-350M-MLX-8bit",
   "createdAt": "2026-03-25T20:24:16.000Z",
-  "downloads": 1092,
+  "downloads": 1123,
   "likes": 13,
   "pipeline": "text-generation",
   "tags": [
@@ -1084,7 +1260,7 @@
  {
   "id": "LiquidAI/LFM2.5-350M-MLX-bf16",
   "createdAt": "2026-03-25T20:23:55.000Z",
-  "downloads": 228,
+  "downloads": 232,
   "likes": 7,
   "pipeline": "text-generation",
   "tags": [
@@ -1096,7 +1272,7 @@
  {
   "id": "LiquidAI/LFM2.5-350M-ONNX",
   "createdAt": "2026-03-25T16:46:35.000Z",
-  "downloads": 1369,
+  "downloads": 1647,
   "likes": 20,
   "pipeline": "text-generation",
   "tags": [
@@ -1108,8 +1284,8 @@
  {
   "id": "LiquidAI/LFM2.5-350M-GGUF",
   "createdAt": "2026-03-25T02:45:48.000Z",
-  "downloads": 75669,
-  "likes": 103,
+  "downloads": 80642,
+  "likes": 106,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1120,8 +1296,8 @@
  {
   "id": "LiquidAI/LFM2-24B-A2B",
   "createdAt": "2026-02-24T13:50:32.000Z",
-  "downloads": 3059,
-  "likes": 351,
+  "downloads": 2918,
+  "likes": 356,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1132,7 +1308,7 @@
  {
   "id": "LiquidAI/LFM2-24B-A2B-MLX-4bit",
   "createdAt": "2026-02-18T23:26:46.000Z",
-  "downloads": 376,
+  "downloads": 419,
   "likes": 11,
   "pipeline": "text-generation",
   "tags": [
@@ -1144,7 +1320,7 @@
  {
   "id": "LiquidAI/LFM2-24B-A2B-MLX-5bit",
   "createdAt": "2026-02-18T23:26:37.000Z",
-  "downloads": 177,
+  "downloads": 198,
   "likes": 6,
   "pipeline": "text-generation",
   "tags": [
@@ -1156,7 +1332,7 @@
  {
   "id": "LiquidAI/LFM2-24B-A2B-MLX-6bit",
   "createdAt": "2026-02-18T23:26:27.000Z",
-  "downloads": 177,
+  "downloads": 189,
   "likes": 8,
   "pipeline": "text-generation",
   "tags": [
@@ -1168,7 +1344,7 @@
  {
   "id": "LiquidAI/LFM2-24B-A2B-MLX-8bit",
   "createdAt": "2026-02-18T23:26:16.000Z",
-  "downloads": 236,
+  "downloads": 282,
   "likes": 18,
   "pipeline": "text-generation",
   "tags": [
@@ -1180,7 +1356,7 @@
  {
   "id": "LiquidAI/LFM2-24B-A2B-MLX-bf16",
   "createdAt": "2026-02-18T23:25:59.000Z",
-  "downloads": 190,
+  "downloads": 200,
   "likes": 7,
   "pipeline": "text-generation",
   "tags": [
@@ -1192,7 +1368,7 @@
  {
   "id": "LiquidAI/LFM2-24B-A2B-ONNX",
   "createdAt": "2026-02-17T14:22:48.000Z",
-  "downloads": 196,
+  "downloads": 235,
   "likes": 13,
   "pipeline": "text-generation",
   "tags": [
@@ -1204,8 +1380,8 @@
  {
   "id": "LiquidAI/LFM2-24B-A2B-GGUF",
   "createdAt": "2026-02-17T12:53:20.000Z",
-  "downloads": 14300,
-  "likes": 159,
+  "downloads": 19327,
+  "likes": 161,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1216,8 +1392,8 @@
  {
   "id": "LiquidAI/LFM2.5-Audio-1.5B-ONNX",
   "createdAt": "2026-01-26T06:43:13.000Z",
-  "downloads": 417,
-  "likes": 25,
+  "downloads": 465,
+  "likes": 26,
   "pipeline": "text-to-audio",
   "tags": [],
   "gated": false
@@ -1225,7 +1401,7 @@
  {
   "id": "LiquidAI/LFM2-8B-A1B-smoltalk-LoRA",
   "createdAt": "2026-01-21T17:50:42.000Z",
-  "downloads": 41,
+  "downloads": 48,
   "likes": 9,
   "pipeline": "",
   "tags": [],
@@ -1234,8 +1410,8 @@
  {
   "id": "LiquidAI/LFM2.5-1.2B-Thinking",
   "createdAt": "2026-01-20T13:55:42.000Z",
-  "downloads": 7878,
-  "likes": 403,
+  "downloads": 7684,
+  "likes": 405,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1246,7 +1422,7 @@
  {
   "id": "LiquidAI/LFM2.5-1.2B-Instruct-smoltalk-LoRA",
   "createdAt": "2026-01-19T15:31:55.000Z",
-  "downloads": 22,
+  "downloads": 25,
   "likes": 5,
   "pipeline": "",
   "tags": [],
@@ -1255,7 +1431,7 @@
  {
   "id": "LiquidAI/LFM2.5-1.2B-Thinking-MLX-bf16",
   "createdAt": "2026-01-16T19:09:36.000Z",
-  "downloads": 233,
+  "downloads": 240,
   "likes": 8,
   "pipeline": "text-generation",
   "tags": [
@@ -1267,7 +1443,7 @@
  {
   "id": "LiquidAI/LFM2.5-1.2B-Thinking-MLX-8bit",
   "createdAt": "2026-01-16T19:09:27.000Z",
-  "downloads": 331,
+  "downloads": 380,
   "likes": 15,
   "pipeline": "text-generation",
   "tags": [
@@ -1279,7 +1455,7 @@
  {
   "id": "LiquidAI/LFM2.5-1.2B-Thinking-MLX-6bit",
   "createdAt": "2026-01-16T19:09:15.000Z",
-  "downloads": 200,
+  "downloads": 213,
   "likes": 5,
   "pipeline": "text-generation",
   "tags": [
@@ -1291,7 +1467,7 @@
  {
   "id": "LiquidAI/LFM2.5-1.2B-Thinking-MLX-5bit",
   "createdAt": "2026-01-16T19:09:03.000Z",
-  "downloads": 215,
+  "downloads": 225,
   "likes": 5,
   "pipeline": "text-generation",
   "tags": [
@@ -1315,8 +1491,8 @@
  {
   "id": "LiquidAI/LFM2.5-1.2B-Thinking-GGUF",
   "createdAt": "2026-01-16T19:04:55.000Z",
-  "downloads": 9623,
-  "likes": 118,
+  "downloads": 10355,
+  "likes": 119,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1327,7 +1503,7 @@
  {
   "id": "LiquidAI/LFM2.5-1.2B-Thinking-ONNX",
   "createdAt": "2026-01-16T18:45:10.000Z",
-  "downloads": 1146,
+  "downloads": 1187,
   "likes": 26,
   "pipeline": "text-generation",
   "tags": [
@@ -1339,7 +1515,7 @@
  {
   "id": "LiquidAI/LFM2-8B-A1B-ONNX",
   "createdAt": "2026-01-08T15:00:41.000Z",
-  "downloads": 210,
+  "downloads": 232,
   "likes": 10,
   "pipeline": "text-generation",
   "tags": [
@@ -1351,8 +1527,8 @@
  {
   "id": "LiquidAI/LFM2-2.6B-Transcript-ONNX",
   "createdAt": "2026-01-06T14:46:26.000Z",
-  "downloads": 172,
-  "likes": 13,
+  "downloads": 187,
+  "likes": 14,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1363,7 +1539,7 @@
  {
   "id": "LiquidAI/LFM2.5-1.2B-JP-MLX-bf16",
   "createdAt": "2026-01-06T02:38:46.000Z",
-  "downloads": 200,
+  "downloads": 218,
   "likes": 9,
   "pipeline": "text-generation",
   "tags": [
@@ -1375,7 +1551,7 @@
  {
   "id": "LiquidAI/LFM2.5-1.2B-JP-MLX-8bit",
   "createdAt": "2026-01-06T02:38:32.000Z",
-  "downloads": 239,
+  "downloads": 259,
   "likes": 9,
   "pipeline": "text-generation",
   "tags": [
@@ -1387,7 +1563,7 @@
  {
   "id": "LiquidAI/LFM2.5-1.2B-JP-MLX-6bit",
   "createdAt": "2026-01-06T02:38:19.000Z",
-  "downloads": 210,
+  "downloads": 215,
   "likes": 9,
   "pipeline": "text-generation",
   "tags": [
@@ -1399,7 +1575,7 @@
  {
   "id": "LiquidAI/LFM2.5-1.2B-JP-MLX-5bit",
   "createdAt": "2026-01-06T02:38:06.000Z",
-  "downloads": 220,
+  "downloads": 234,
   "likes": 9,
   "pipeline": "text-generation",
   "tags": [
@@ -1411,7 +1587,7 @@
  {
   "id": "LiquidAI/LFM2.5-1.2B-JP-MLX-4bit",
   "createdAt": "2026-01-06T02:37:52.000Z",
-  "downloads": 326,
+  "downloads": 365,
   "likes": 10,
   "pipeline": "text-generation",
   "tags": [
@@ -1423,7 +1599,7 @@
  {
   "id": "LiquidAI/LFM2.5-1.2B-Instruct-MLX-bf16",
   "createdAt": "2026-01-06T02:37:23.000Z",
-  "downloads": 501,
+  "downloads": 417,
   "likes": 13,
   "pipeline": "text-generation",
   "tags": [
@@ -1435,7 +1611,7 @@
  {
   "id": "LiquidAI/LFM2.5-1.2B-Instruct-MLX-8bit",
   "createdAt": "2026-01-06T02:37:08.000Z",
-  "downloads": 1367,
+  "downloads": 941,
   "likes": 25,
   "pipeline": "text-generation",
   "tags": [
@@ -1447,7 +1623,7 @@
  {
   "id": "LiquidAI/LFM2.5-1.2B-Instruct-MLX-6bit",
   "createdAt": "2026-01-06T02:36:54.000Z",
-  "downloads": 296,
+  "downloads": 326,
   "likes": 10,
   "pipeline": "text-generation",
   "tags": [
@@ -1459,7 +1635,7 @@
  {
   "id": "LiquidAI/LFM2.5-1.2B-Instruct-MLX-5bit",
   "createdAt": "2026-01-06T02:36:38.000Z",
-  "downloads": 229,
+  "downloads": 255,
   "likes": 9,
   "pipeline": "text-generation",
   "tags": [
@@ -1471,7 +1647,7 @@
  {
   "id": "LiquidAI/LFM2.5-1.2B-Instruct-MLX-4bit",
   "createdAt": "2026-01-06T02:36:11.000Z",
-  "downloads": 2189,
+  "downloads": 2750,
   "likes": 16,
   "pipeline": "text-generation",
   "tags": [
@@ -1483,8 +1659,8 @@
  {
   "id": "LiquidAI/LFM2.5-Audio-1.5B-GGUF",
   "createdAt": "2026-01-06T01:39:14.000Z",
-  "downloads": 64661,
-  "likes": 129,
+  "downloads": 143452,
+  "likes": 130,
   "pipeline": "",
   "tags": [
    "conversational"
@@ -1494,8 +1670,8 @@
  {
   "id": "LiquidAI/LFM2.5-1.2B-Instruct",
   "createdAt": "2026-01-06T00:28:46.000Z",
-  "downloads": 114955,
-  "likes": 675,
+  "downloads": 115212,
+  "likes": 682,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1506,8 +1682,8 @@
  {
   "id": "LiquidAI/LFM2-2.6B-Transcript",
   "createdAt": "2026-01-05T23:46:12.000Z",
-  "downloads": 653,
-  "likes": 173,
+  "downloads": 807,
+  "likes": 175,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1518,7 +1694,7 @@
  {
   "id": "LiquidAI/LFM2-ColBERT-350M-GGUF",
   "createdAt": "2026-01-05T22:35:53.000Z",
-  "downloads": 460,
+  "downloads": 519,
   "likes": 20,
   "pipeline": "sentence-similarity",
   "tags": [
@@ -1529,8 +1705,8 @@
  {
   "id": "LiquidAI/LFM2.5-VL-1.6B",
   "createdAt": "2026-01-05T19:07:50.000Z",
-  "downloads": 29967,
-  "likes": 330,
+  "downloads": 30526,
+  "likes": 331,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -1541,7 +1717,7 @@
  {
   "id": "LiquidAI/LFM2.5-Audio-1.5B-GGUF-LEAP",
   "createdAt": "2026-01-05T16:34:47.000Z",
-  "downloads": 6110,
+  "downloads": 5365,
   "likes": 5,
   "pipeline": "",
   "tags": [
@@ -1552,7 +1728,7 @@
  {
   "id": "LiquidAI/LFM2.5-1.2B-Base",
   "createdAt": "2026-01-05T16:27:32.000Z",
-  "downloads": 11577,
+  "downloads": 10555,
   "likes": 152,
   "pipeline": "text-generation",
   "tags": [
@@ -1564,7 +1740,7 @@
  {
   "id": "LiquidAI/LFM2.5-1.2B-JP-ONNX",
   "createdAt": "2026-01-05T00:38:49.000Z",
-  "downloads": 178,
+  "downloads": 194,
   "likes": 20,
   "pipeline": "text-generation",
   "tags": [
@@ -1576,7 +1752,7 @@
  {
   "id": "LiquidAI/LFM2.5-1.2B-JP-GGUF",
   "createdAt": "2026-01-05T00:00:53.000Z",
-  "downloads": 2425,
+  "downloads": 2254,
   "likes": 35,
   "pipeline": "text-generation",
   "tags": [
@@ -1588,7 +1764,7 @@
  {
   "id": "LiquidAI/LFM2.5-1.2B-JP",
   "createdAt": "2026-01-04T23:45:18.000Z",
-  "downloads": 1117,
+  "downloads": 1324,
   "likes": 154,
   "pipeline": "text-generation",
   "tags": [
@@ -1600,7 +1776,7 @@
  {
   "id": "LiquidAI/LFM2.5-1.2B-Base-ONNX",
   "createdAt": "2026-01-04T22:56:29.000Z",
-  "downloads": 161,
+  "downloads": 179,
   "likes": 18,
   "pipeline": "text-generation",
   "tags": [
@@ -1612,7 +1788,7 @@
  {
   "id": "LiquidAI/LFM2.5-1.2B-Base-GGUF",
   "createdAt": "2026-01-04T22:41:56.000Z",
-  "downloads": 1831,
+  "downloads": 1586,
   "likes": 26,
   "pipeline": "text-generation",
   "tags": [
@@ -1624,7 +1800,7 @@
  {
   "id": "LiquidAI/LFM2.5-VL-1.6B-ONNX",
   "createdAt": "2026-01-04T20:03:13.000Z",
-  "downloads": 442,
+  "downloads": 448,
   "likes": 33,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -1636,7 +1812,7 @@
  {
   "id": "LiquidAI/LFM2.5-VL-1.6B-GGUF",
   "createdAt": "2026-01-04T19:35:04.000Z",
-  "downloads": 36041,
+  "downloads": 30003,
   "likes": 109,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -1648,7 +1824,7 @@
  {
   "id": "LiquidAI/LFM2.5-1.2B-Instruct-ONNX",
   "createdAt": "2026-01-04T19:18:26.000Z",
-  "downloads": 3011,
+  "downloads": 3080,
   "likes": 36,
   "pipeline": "text-generation",
   "tags": [
@@ -1660,8 +1836,8 @@
  {
   "id": "LiquidAI/LFM2.5-1.2B-Instruct-GGUF",
   "createdAt": "2026-01-04T00:09:26.000Z",
-  "downloads": 336581,
-  "likes": 227,
+  "downloads": 344006,
+  "likes": 229,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1672,7 +1848,7 @@
  {
   "id": "LiquidAI/LFM2-2.6B-Transcript-GGUF",
   "createdAt": "2025-12-30T18:02:51.000Z",
-  "downloads": 2137,
+  "downloads": 1916,
   "likes": 24,
   "pipeline": "text-generation",
   "tags": [
@@ -1684,7 +1860,7 @@
  {
   "id": "LiquidAI/LFM2-2.6B-Exp-GGUF",
   "createdAt": "2025-12-25T15:28:59.000Z",
-  "downloads": 2775,
+  "downloads": 2684,
   "likes": 67,
   "pipeline": "text-generation",
   "tags": [
@@ -1696,7 +1872,7 @@
  {
   "id": "LiquidAI/LFM2-2.6B-Exp",
   "createdAt": "2025-12-25T11:08:46.000Z",
-  "downloads": 613,
+  "downloads": 734,
   "likes": 345,
   "pipeline": "text-generation",
   "tags": [
@@ -1708,8 +1884,8 @@
  {
   "id": "LiquidAI/LFM2.5-Audio-1.5B",
   "createdAt": "2025-12-18T10:21:11.000Z",
-  "downloads": 5570,
-  "likes": 469,
+  "downloads": 6397,
+  "likes": 471,
   "pipeline": "audio-to-audio",
   "tags": [],
   "gated": false
@@ -1717,8 +1893,8 @@
  {
   "id": "LiquidAI/LFM2-ColBERT-350M",
   "createdAt": "2025-10-28T12:34:27.000Z",
-  "downloads": 7685,
-  "likes": 153,
+  "downloads": 6219,
+  "likes": 152,
   "pipeline": "sentence-similarity",
   "tags": [],
   "gated": false
@@ -1726,7 +1902,7 @@
  {
   "id": "LiquidAI/LFM2-VL-3B-GGUF",
   "createdAt": "2025-10-22T11:28:00.000Z",
-  "downloads": 2394,
+  "downloads": 2395,
   "likes": 54,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -1738,7 +1914,7 @@
  {
   "id": "LiquidAI/LFM2-VL-3B",
   "createdAt": "2025-10-22T03:11:18.000Z",
-  "downloads": 1106,
+  "downloads": 2878,
   "likes": 142,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -1750,8 +1926,8 @@
  {
   "id": "LiquidAI/LFM2-8B-A1B",
   "createdAt": "2025-10-07T13:55:39.000Z",
-  "downloads": 16667,
-  "likes": 373,
+  "downloads": 14627,
+  "likes": 374,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1762,7 +1938,7 @@
  {
   "id": "LiquidAI/LFM2-8B-A1B-GGUF",
   "createdAt": "2025-10-06T16:09:29.000Z",
-  "downloads": 3762,
+  "downloads": 4330,
   "likes": 118,
   "pipeline": "text-generation",
   "tags": [
@@ -1774,7 +1950,7 @@
  {
   "id": "LiquidAI/LFM2-Audio-1.5B-GGUF",
   "createdAt": "2025-09-30T12:41:36.000Z",
-  "downloads": 1293,
+  "downloads": 1397,
   "likes": 40,
   "pipeline": "",
   "tags": [],
@@ -1783,7 +1959,7 @@
  {
   "id": "LiquidAI/LFM2-350M-PII-Extract-JP-GGUF",
   "createdAt": "2025-09-30T07:19:05.000Z",
-  "downloads": 412,
+  "downloads": 458,
   "likes": 15,
   "pipeline": "",
   "tags": [
@@ -1794,8 +1970,8 @@
  {
   "id": "LiquidAI/LFM2-350M-PII-Extract-JP",
   "createdAt": "2025-09-30T07:08:56.000Z",
-  "downloads": 582,
-  "likes": 61,
+  "downloads": 945,
+  "likes": 62,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1806,7 +1982,7 @@
  {
   "id": "LiquidAI/LFM2-2.6B-GGUF",
   "createdAt": "2025-09-23T15:50:28.000Z",
-  "downloads": 11628,
+  "downloads": 13567,
   "likes": 62,
   "pipeline": "text-generation",
   "tags": [
@@ -1818,7 +1994,7 @@
  {
   "id": "LiquidAI/LFM2-2.6B",
   "createdAt": "2025-09-22T17:23:08.000Z",
-  "downloads": 10306,
+  "downloads": 6533,
   "likes": 197,
   "pipeline": "text-generation",
   "tags": [
@@ -1830,7 +2006,7 @@
  {
   "id": "LiquidAI/LFM2-1.2B-RAG-GGUF",
   "createdAt": "2025-09-05T16:31:55.000Z",
-  "downloads": 2492,
+  "downloads": 2344,
   "likes": 68,
   "pipeline": "text-generation",
   "tags": [
@@ -1842,7 +2018,7 @@
  {
   "id": "LiquidAI/LFM2-1.2B-Tool-GGUF",
   "createdAt": "2025-09-05T16:22:34.000Z",
-  "downloads": 3454,
+  "downloads": 2817,
   "likes": 51,
   "pipeline": "text-generation",
   "tags": [
@@ -1854,7 +2030,7 @@
  {
   "id": "LiquidAI/LFM2-350M-Math-GGUF",
   "createdAt": "2025-09-05T16:15:25.000Z",
-  "downloads": 1736,
+  "downloads": 1500,
   "likes": 20,
   "pipeline": "text-generation",
   "tags": [
@@ -1866,7 +2042,7 @@
  {
   "id": "LiquidAI/LFM2-1.2B-Extract-GGUF",
   "createdAt": "2025-09-05T15:57:40.000Z",
-  "downloads": 2947,
+  "downloads": 2773,
   "likes": 44,
   "pipeline": "text-generation",
   "tags": [
@@ -1878,7 +2054,7 @@
  {
   "id": "LiquidAI/LFM2-350M-Extract-GGUF",
   "createdAt": "2025-09-05T15:50:52.000Z",
-  "downloads": 2648,
+  "downloads": 3092,
   "likes": 38,
   "pipeline": "text-generation",
   "tags": [
@@ -1890,7 +2066,7 @@
  {
   "id": "LiquidAI/LFM2-1.2B-Tool",
   "createdAt": "2025-09-03T17:35:21.000Z",
-  "downloads": 1344,
+  "downloads": 1729,
   "likes": 123,
   "pipeline": "text-generation",
   "tags": [
@@ -1902,8 +2078,8 @@
  {
   "id": "LiquidAI/LFM2-1.2B-RAG",
   "createdAt": "2025-09-03T17:30:27.000Z",
-  "downloads": 752,
-  "likes": 153,
+  "downloads": 721,
+  "likes": 154,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1914,8 +2090,8 @@
  {
   "id": "LiquidAI/LFM2-350M-Extract",
   "createdAt": "2025-09-03T17:13:53.000Z",
-  "downloads": 1516,
-  "likes": 89,
+  "downloads": 1491,
+  "likes": 90,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1926,8 +2102,8 @@
  {
   "id": "LiquidAI/LFM2-350M-ENJP-MT",
   "createdAt": "2025-09-03T04:15:07.000Z",
-  "downloads": 805,
-  "likes": 95,
+  "downloads": 721,
+  "likes": 98,
   "pipeline": "translation",
   "tags": [
    "text-generation"
@@ -1937,8 +2113,8 @@
  {
   "id": "LiquidAI/LFM2-350M-ENJP-MT-GGUF",
   "createdAt": "2025-09-03T01:29:36.000Z",
-  "downloads": 1731,
-  "likes": 43,
+  "downloads": 2073,
+  "likes": 44,
   "pipeline": "translation",
   "tags": [
    "conversational"
@@ -1948,7 +2124,7 @@
  {
   "id": "LiquidAI/LFM2-Audio-1.5B",
   "createdAt": "2025-08-28T03:13:04.000Z",
-  "downloads": 367,
+  "downloads": 407,
   "likes": 364,
   "pipeline": "audio-to-audio",
   "tags": [],
@@ -1957,7 +2133,7 @@
  {
   "id": "LiquidAI/LFM2-350M-Math",
   "createdAt": "2025-08-25T17:06:02.000Z",
-  "downloads": 1373,
+  "downloads": 806,
   "likes": 66,
   "pipeline": "text-generation",
   "tags": [
@@ -1969,8 +2145,8 @@
  {
   "id": "LiquidAI/LFM2-1.2B-Extract",
   "createdAt": "2025-08-22T23:09:11.000Z",
-  "downloads": 994,
-  "likes": 134,
+  "downloads": 1007,
+  "likes": 135,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1981,7 +2157,7 @@
  {
   "id": "LiquidAI/LFM2-VL-450M-GGUF",
   "createdAt": "2025-08-17T09:11:52.000Z",
-  "downloads": 4151,
+  "downloads": 4126,
   "likes": 45,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -1993,7 +2169,7 @@
  {
   "id": "LiquidAI/LFM2-VL-1.6B-GGUF",
   "createdAt": "2025-08-17T08:50:50.000Z",
-  "downloads": 13520,
+  "downloads": 14231,
   "likes": 62,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -2005,7 +2181,7 @@
  {
   "id": "LiquidAI/LFM2-VL-450M",
   "createdAt": "2025-08-12T16:40:35.000Z",
-  "downloads": 13242,
+  "downloads": 15360,
   "likes": 151,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -2017,7 +2193,7 @@
  {
   "id": "LiquidAI/LFM2-VL-1.6B",
   "createdAt": "2025-08-12T16:38:52.000Z",
-  "downloads": 55249,
+  "downloads": 18006,
   "likes": 233,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -2029,7 +2205,7 @@
  {
   "id": "LiquidAI/LFM2-700M-GGUF",
   "createdAt": "2025-07-12T12:02:37.000Z",
-  "downloads": 11829,
+  "downloads": 13037,
   "likes": 56,
   "pipeline": "text-generation",
   "tags": [
@@ -2041,7 +2217,7 @@
  {
   "id": "LiquidAI/LFM2-350M-GGUF",
   "createdAt": "2025-07-12T12:02:17.000Z",
-  "downloads": 6129,
+  "downloads": 7017,
   "likes": 63,
   "pipeline": "text-generation",
   "tags": [
@@ -2053,7 +2229,7 @@
  {
   "id": "LiquidAI/LFM2-1.2B-GGUF",
   "createdAt": "2025-07-12T12:01:44.000Z",
-  "downloads": 9368,
+  "downloads": 11103,
   "likes": 111,
   "pipeline": "text-generation",
   "tags": [
@@ -2074,8 +2250,8 @@
  {
   "id": "LiquidAI/LFM2-1.2B",
   "createdAt": "2025-07-10T12:01:50.000Z",
-  "downloads": 63204,
-  "likes": 368,
+  "downloads": 43627,
+  "likes": 370,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2086,7 +2262,7 @@
  {
   "id": "LiquidAI/LFM2-700M",
   "createdAt": "2025-07-10T12:01:39.000Z",
-  "downloads": 5644,
+  "downloads": 5520,
   "likes": 124,
   "pipeline": "text-generation",
   "tags": [
@@ -2098,8 +2274,8 @@
  {
   "id": "LiquidAI/LFM2-350M",
   "createdAt": "2025-07-10T12:01:24.000Z",
-  "downloads": 27633,
-  "likes": 258,
+  "downloads": 22770,
+  "likes": 260,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
