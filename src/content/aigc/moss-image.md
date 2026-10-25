@@ -4,7 +4,7 @@ org: "复旦大学 OpenMOSS"
 family: "MOSS-Image"
 released: 2026-10-11
 added: 2026-10-25
-summary: "复旦 OpenMOSS 的 5B 单流 DiT 文生图，强项是中英复杂文字渲染与 JSON 布局控制（还能增删物体）；同批放出 Base 与 SFT 两份权重，Apache-2.0。"
+summary: "复旦 OpenMOSS 的 5B 单流 DiT 文生图（SFT 版），强项是中英复杂文字渲染与 JSON 布局控制（还能增删物体）；Apache-2.0，未 SFT 的基座另有一条。"
 tags: [DiT]
 license: "Apache-2.0"
 commercial: 可商用

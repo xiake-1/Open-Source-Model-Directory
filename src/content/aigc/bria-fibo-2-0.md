@@ -9,7 +9,7 @@ tags: [DiT]
 license: "Bria FIBO 2.0 License（CC BY-NC-4.0）"
 commercial: 不可商用
 output: image
-architecture: "DiT（生成与编辑统一，吃多参考图与 JSON 结构化提示；同批还有编辑版 Fibo-2.0-edit-turbo）"
+architecture: "DiT（生成与编辑统一，吃多参考图与 JSON 结构化提示）"
 params: "8B"
 links:
   hf: "https://huggingface.co/briaai/Fibo-2.0-dev"

@@ -166,4 +166,6 @@ export const REPOS = [
   'OpenMOSS-Team/MOSS-Image-SFT',
   'briaai/Fibo-2.0-dev',
   'tencent/Hy-Nomas',
+  'OpenMOSS-Team/MOSS-Image-Base',
+  'briaai/Fibo-2.0-edit-turbo',
 ];
