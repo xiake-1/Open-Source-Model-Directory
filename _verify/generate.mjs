@@ -230,6 +230,8 @@ const LICENSE_FALLBACK = {
 function normalizeLicense(name) {
   if (!name) return name;
   if (/nvidia.*nemotron open model license/i.test(name)) return 'NVIDIA Open Model License';
+  // MiniMax 从 M3 起改用「Community License」，与早先那份 Modified MIT 变体不是一份许可，别归一到一起
+  if (/minimax community license/i.test(name)) return 'MiniMax Community License';
   if (/^minimax|minimax model license/i.test(name) && !/non-commercial|remix/i.test(name)) return 'MiniMax Model License（Modified MIT）';
   if (/tencent.*(hy|hunyuan).*license/i.test(name) || /^TENCENT HY/i.test(name)) return 'Tencent Hunyuan Community License';
   if (/^qwen/i.test(name) && !/research/i.test(name)) return 'Qwen 自定义许可';
