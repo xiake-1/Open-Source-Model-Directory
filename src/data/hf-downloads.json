@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-25T14:43:11.713Z",
+ "generatedAt": "2026-10-25T15:35:38.236Z",
  "metric": "downloads 为 HuggingFace 的近 30 天下载量；无数据的条目（仓库不存在 / 未取到）不进「热度」分档",
  "source": "https://huggingface.co/api/models/<repo>?full=false",
  "repos": {
@@ -151,6 +151,10 @@
    "downloads": 1115,
    "likes": 144
   },
+  "briaai/Fibo-2.0-edit-turbo": {
+   "downloads": 955,
+   "likes": 115
+  },
   "bytedance-research/EchoVideo": {
    "downloads": 14,
    "likes": 8
@@ -289,7 +293,7 @@
   },
   "deepseek-ai/DeepSeek-V4-Flash": {
    "downloads": 936089,
-   "likes": 2343
+   "likes": 2344
   },
   "deepseek-ai/DeepSeek-V4-Flash-0731": {
    "downloads": 4112191,
@@ -310,6 +314,10 @@
   "deepseek-ai/DeepSeek-V4.1-Flash": {
    "downloads": 1640989,
    "likes": 4734
+  },
+  "deepseek-ai/DeepSeek-V4.1-Flash-1017": {
+   "downloads": 85275,
+   "likes": 2910
   },
   "deepseek-ai/Janus-Pro-7B": {
    "downloads": 10215,
@@ -389,7 +397,7 @@
   },
   "google/gemma-4-31B-it": {
    "downloads": 8432279,
-   "likes": 4198
+   "likes": 4200
   },
   "google/gemma-4-E4B-it": {
    "downloads": 3990168,
@@ -649,7 +657,7 @@
   },
   "Lightricks/LTX-2.5": {
    "downloads": 2107108,
-   "likes": 9255
+   "likes": 9270
   },
   "Lightricks/LTX-Video": {
    "downloads": 893769,
@@ -729,7 +737,7 @@
   },
   "meta-models/Muse-Glimmer-30B": {
    "downloads": 205081,
-   "likes": 2087
+   "likes": 2088
   },
   "microsoft/Phi-4-mini-flash-reasoning": {
    "downloads": 2766,
@@ -790,6 +798,10 @@
   "MiniMaxAI/MiniMax-M3": {
    "downloads": 201055,
    "likes": 1597
+  },
+  "MiniMaxAI/MiniMax-M3.1-Flash": {
+   "downloads": 7355,
+   "likes": 336
   },
   "MiniMaxAI/MiniMax-Text-01": {
    "downloads": 2741,
@@ -901,7 +913,7 @@
   },
   "Nanbeige/Nanbeige4.3-33B": {
    "downloads": 0,
-   "likes": 146
+   "likes": 176
   },
   "netflix/void-model": {
    "downloads": 0,
@@ -967,9 +979,17 @@
    "downloads": 1157713,
    "likes": 372
   },
+  "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-BF16": {
+   "downloads": 4731,
+   "likes": 47
+  },
   "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16": {
    "downloads": 861461,
    "likes": 251
+  },
+  "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16": {
+   "downloads": 34316,
+   "likes": 101
   },
   "nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-BF16": {
    "downloads": 4916,
@@ -1015,9 +1035,13 @@
    "downloads": 4174,
    "likes": 46
   },
+  "OpenMOSS-Team/MOSS-Image-Base": {
+   "downloads": 7641,
+   "likes": 550
+  },
   "OpenMOSS-Team/MOSS-Image-SFT": {
    "downloads": 10757,
-   "likes": 716
+   "likes": 718
   },
   "openpangu/openPangu-2.0-Pro": {
    "downloads": 180,
@@ -1117,7 +1141,7 @@
   },
   "Qwen/Qwen3-4B-Instruct-2507": {
    "downloads": 2577859,
-   "likes": 1026
+   "likes": 1027
   },
   "Qwen/Qwen3-4B-Thinking-2507": {
    "downloads": 646075,
@@ -1225,11 +1249,11 @@
   },
   "Qwen/Qwen3.8-2.4T-A95B": {
    "downloads": 25164,
-   "likes": 1330
+   "likes": 1331
   },
   "Qwen/Qwen3.8-27B": {
    "downloads": 7762014,
-   "likes": 18376
+   "likes": 18377
   },
   "Qwen/Qwen3.8-Flash-Next": {
    "downloads": 3093369,
@@ -1241,7 +1265,7 @@
   },
   "RecursiveSI/flint": {
    "downloads": 6444,
-   "likes": 818
+   "likes": 820
   },
   "rednote-hilab/dots.llm1.inst": {
    "downloads": 991,
@@ -1321,7 +1345,7 @@
   },
   "Skywork/Matrix-Game-4.0": {
    "downloads": 643,
-   "likes": 55
+   "likes": 56
   },
   "Skywork/SkyReels-V2-T2V-14B-720P": {
    "downloads": 7625,
@@ -1425,7 +1449,7 @@
   },
   "tencent/HunyuanImage-3.0": {
    "downloads": 1289,
-   "likes": 1153
+   "likes": 1154
   },
   "tencent/HunyuanImage-3.0-Instruct": {
    "downloads": 40270,
@@ -1453,7 +1477,7 @@
   },
   "tencent/Hy-Nomas": {
    "downloads": 0,
-   "likes": 62
+   "likes": 63
   },
   "tencent/HY-OmniWeaving": {
    "downloads": 500,
@@ -1673,7 +1697,7 @@
   },
   "zai-org/GLM-5.3": {
    "downloads": 2074062,
-   "likes": 2306
+   "likes": 2307
   },
   "zai-org/GLM-5.3-Flash": {
    "downloads": 6352272,

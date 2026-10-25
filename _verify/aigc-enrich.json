@@ -10,17 +10,6 @@
   "gated": false,
   "exists": true
  },
- "deepseek-ai/Janus-Pro-7B": {
-  "created": "2025-01-26",
-  "lastModified": "2025-02-01",
-  "license": "mit",
-  "params": null,
-  "pipeline": "any-to-any",
-  "likes": 3695,
-  "downloads": 10839,
-  "gated": false,
-  "exists": true
- },
  "zai-org/CogView4-6B": {
   "created": "2025-03-03",
   "lastModified": "2025-03-11",
@@ -106,17 +95,6 @@
   "pipeline": "",
   "likes": 104,
   "downloads": 1887,
-  "gated": false,
-  "exists": true
- },
- "ByteDance-Seed/BAGEL-7B-MoT": {
-  "created": "2025-05-19",
-  "lastModified": "2026-01-09",
-  "license": "apache-2.0",
-  "params": "14.7B",
-  "pipeline": "any-to-any",
-  "likes": 1223,
-  "downloads": 947,
   "gated": false,
   "exists": true
  },
@@ -450,10 +428,6 @@
   "gated": false,
   "exists": true
  },
- "Tongyi-MAI/Z-Image-Edit": {
-  "exists": false,
-  "error": "HTTP 401"
- },
  "meituan-longcat/LongCat-Image-Edit-Turbo": {
   "created": "2026-02-03",
   "lastModified": "2026-02-03",
@@ -464,18 +438,6 @@
   "downloads": 23292,
   "gated": false,
   "exists": true
- },
- "baidu/ERNIE-Image-8B": {
-  "exists": false,
-  "error": "HTTP 401"
- },
- "Qwen/Qwen-Image-3.0": {
-  "exists": false,
-  "error": "HTTP 401"
- },
- "Qwen/Qwen-Image-Edit-3.0": {
-  "exists": false,
-  "error": "HTTP 401"
  },
  "internlm/InternLumina-U2": {
   "created": "2026-09-01",
@@ -587,17 +549,6 @@
   "gated": false,
   "exists": true
  },
- "tencent/HunyuanVideo": {
-  "created": "2024-12-01",
-  "lastModified": "2025-03-06",
-  "license": "other",
-  "params": null,
-  "pipeline": "text-to-video",
-  "likes": 2311,
-  "downloads": 1743,
-  "gated": false,
-  "exists": true
- },
  "tencent/HunyuanVideo-1.5": {
   "created": "2025-11-18",
   "lastModified": "2025-12-25",
@@ -617,17 +568,6 @@
   "pipeline": "image-to-video",
   "likes": 273,
   "downloads": 698,
-  "gated": false,
-  "exists": true
- },
- "Lightricks/LTX-Video": {
-  "created": "2024-10-31",
-  "lastModified": "2025-07-16",
-  "license": "other",
-  "params": "1.9B",
-  "pipeline": "image-to-video",
-  "likes": 2323,
-  "downloads": 785280,
   "gated": false,
   "exists": true
  },
@@ -664,10 +604,6 @@
   "gated": "auto",
   "exists": true
  },
- "Skywork/SkyReels-V2": {
-  "exists": false,
-  "error": "HTTP 401"
- },
  "Skywork/SkyReels-V3-A2V-19B": {
   "created": "2026-01-19",
   "lastModified": "2026-01-28",
@@ -676,17 +612,6 @@
   "pipeline": "image-to-video",
   "likes": 98,
   "downloads": 1633,
-  "gated": false,
-  "exists": true
- },
- "genmo/mochi-1-preview": {
-  "created": "2024-10-22",
-  "lastModified": "2025-09-04",
-  "license": "apache-2.0",
-  "params": "10.0B",
-  "pipeline": "text-to-video",
-  "likes": 1360,
-  "downloads": 8682,
   "gated": false,
   "exists": true
  },
@@ -800,10 +725,6 @@
   "gated": false,
   "exists": true
  },
- "Efficient-Large-Model/Sana_Video_2B_480p": {
-  "exists": false,
-  "error": "HTTP 401"
- },
  "Efficient-Large-Model/LongLive-2.0-5B": {
   "created": "2026-05-17",
   "lastModified": "2026-05-19",
@@ -825,10 +746,6 @@
   "downloads": 0,
   "gated": false,
   "exists": true
- },
- "nvidia/Cosmos-Predict2-14B-Text2World": {
-  "exists": false,
-  "error": "HTTP 401"
  },
  "zai-org/SCAIL-2": {
   "created": "2026-06-09",
@@ -884,21 +801,6 @@
   "downloads": 1142,
   "gated": false,
   "exists": true
- },
- "ali-vilab/text-to-video-ms-1.7b": {
-  "created": "2023-03-22",
-  "lastModified": "2023-12-01",
-  "license": "cc-by-nc-4.0",
-  "params": "1.4B",
-  "pipeline": "text-to-video",
-  "likes": 693,
-  "downloads": 12003,
-  "gated": false,
-  "exists": true
- },
- "hpcaitech/Open-Sora-Plan-v1.3.0": {
-  "exists": false,
-  "error": "HTTP 401"
  },
  "stepfun-ai/NextStep-1-Large": {
   "created": "2025-08-12",
@@ -1764,6 +1666,28 @@
   "likes": 144,
   "downloads": 1115,
   "gated": "auto",
+  "exists": true
+ },
+ "briaai/Fibo-2.0-edit-turbo": {
+  "created": "2026-10-19",
+  "lastModified": "2026-10-25",
+  "license": "other",
+  "params": "8.1B",
+  "pipeline": "image-to-image",
+  "likes": 115,
+  "downloads": 955,
+  "gated": "auto",
+  "exists": true
+ },
+ "OpenMOSS-Team/MOSS-Image-Base": {
+  "created": "2026-10-11",
+  "lastModified": "2026-10-21",
+  "license": "apache-2.0",
+  "params": "5.1B",
+  "pipeline": "text-to-image",
+  "likes": 550,
+  "downloads": 7641,
+  "gated": false,
   "exists": true
  }
 }
