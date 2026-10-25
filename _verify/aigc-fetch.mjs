@@ -30,6 +30,7 @@ const AUTHORS = [
   'google', 'Shakker-Labs', 'lodestones', 'Alpha-VLLM', 'Sana', 'Efficient-Large-Model',
   'OmniGen', 'VectorSpaceLab', 'featherless-ai', 'openfree', 'rednote-hilab', 'baidu',
   'stepfun-ai', 'OpenBMB', 'Skywork', 'xAI', 'meta', 'Meta', 'Sony', 'Adobe', 'Radiant',
+  'OpenMOSS-Team', 'briaai',
   // 生视频
   'Wan-AI', 'Lightricks', 'genmo', 'hpcaitech', 'ali-vilab', 'THUDM', 'Open-Sora',
   'Video-Crafter', 'PKU-YuanGroup', 'TIGER-Lab', 'IndexTeam', 'FramePack', 'lllyasviel',

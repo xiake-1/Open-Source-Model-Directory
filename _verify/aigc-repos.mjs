@@ -162,4 +162,8 @@ export const REPOS = [
   'Qwen/Qwen-Image-2.1-Turbo',
   'SupraLabs/Supra2-IMG',
   'Skywork/Matrix-Game-4.0',
+  // 2026-10-25 周检补录
+  'OpenMOSS-Team/MOSS-Image-SFT',
+  'briaai/Fibo-2.0-dev',
+  'tencent/Hy-Nomas',
 ];

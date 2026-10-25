@@ -12,7 +12,7 @@ const OUT = path.resolve('_verify/hf');
 const AUTHORS = [
   // 中国
   'deepseek-ai', 'Qwen', 'moonshotai', 'zai-org', 'MiniMaxAI', 'ByteDance-Seed', 'baidu',
-  'inclusionAI', 'stepfun-ai', 'tencent', 'ascend', 'XiaomiMiMo', 'OpenBMB',
+  'inclusionAI', 'stepfun-ai', 'tencent', 'ascend', 'XiaomiMiMo', 'OpenBMB', 'Nanbeige',
   'internlm', 'Tele-AI', 'Skywork', '01-ai', 'baichuan-inc', 'thu-coai', 'IDEA-Research',
   'sensenova', 'OpenDFM', 'IndexTeam', 'rednote-hilab', 'infinigence', 'Hunyuan',
   // 欧美
@@ -20,7 +20,7 @@ const AUTHORS = [
   'allenai', 'LiquidAI', 'CohereLabs', 'ai21labs', 'apple', 'tiiuae', 'HuggingFaceTB',
   'stabilityai', 'Zyphra', 'RWKV', 'databricks', 'LGAI-EXAONE', 'upstage', 'naver',
   'swiss-ai', 'utter-project', 'xai-org', 'amazon', 'Salesforce', 'ServiceNow',
-  'togethercomputer', 'SakanaAI', 'RekaAI', 'Nexusflow', 'ZyphraAI',
+  'togethercomputer', 'SakanaAI', 'RekaAI', 'Nexusflow', 'ZyphraAI', 'KRAFTON', 'RecursiveSI',
 ];
 
 /**
