@@ -8547,5 +8547,101 @@
   "architectures": [
    "DoryForCausalLM"
   ]
+ },
+ "RecursiveSI/flint": {
+  "repo": "RecursiveSI/flint",
+  "created": "2026-10-21",
+  "lastModified": "2026-10-21",
+  "license": "apache-2.0",
+  "pipeline": "text-generation",
+  "likes": 817,
+  "downloads": 6444,
+  "gated": false,
+  "totalParams": 39785287456,
+  "tags": [
+   "transformers",
+   "safetensors",
+   "flint",
+   "text-generation",
+   "conversational",
+   "license:apache-2.0",
+   "endpoints_compatible",
+   "region:us"
+  ],
+  "experts": 256,
+  "maxPos": 262144,
+  "modelType": "flint",
+  "hidden": 2048,
+  "layers": 49,
+  "architectures": [
+   "FlintForCausalLM"
+  ]
+ },
+ "Nanbeige/Nanbeige4.3-33B": {
+  "repo": "Nanbeige/Nanbeige4.3-33B",
+  "created": "2026-10-24",
+  "lastModified": "2026-10-25",
+  "license": "apache-2.0",
+  "pipeline": "text-generation",
+  "likes": 141,
+  "downloads": 0,
+  "gated": false,
+  "totalParams": 33118977024,
+  "tags": [
+   "transformers",
+   "safetensors",
+   "llama",
+   "text-generation",
+   "llm",
+   "nanbeige",
+   "conversational",
+   "en",
+   "zh",
+   "base_model:Nanbeige/Nanbeige4.3-33B-Base",
+   "base_model:finetune:Nanbeige/Nanbeige4.3-33B-Base",
+   "license:apache-2.0",
+   "text-generation-inference",
+   "endpoints_compatible",
+   "region:us"
+  ],
+  "experts": null,
+  "maxPos": 524288,
+  "modelType": "llama",
+  "hidden": 7168,
+  "layers": 52,
+  "architectures": [
+   "LlamaForCausalLM"
+  ]
+ },
+ "KRAFTON/Raon-1-mini-preview": {
+  "repo": "KRAFTON/Raon-1-mini-preview",
+  "created": "2026-10-21",
+  "lastModified": "2026-10-24",
+  "license": "apache-2.0",
+  "pipeline": "text-generation",
+  "likes": 182,
+  "downloads": 1177,
+  "gated": false,
+  "totalParams": 28783218402,
+  "tags": [
+   "transformers",
+   "safetensors",
+   "raon1_mini",
+   "text-generation",
+   "raon",
+   "conversational",
+   "custom_code",
+   "license:apache-2.0",
+   "mxfp8",
+   "region:us"
+  ],
+  "experts": 128,
+  "maxPos": 262144,
+  "modelType": "raon1_mini",
+  "hidden": 2560,
+  "layers": 25,
+  "architectures": [
+   "Raon1MiniForCausalLM"
+  ]
  }
 }

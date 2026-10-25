@@ -1732,5 +1732,38 @@
   "downloads": 137,
   "gated": false,
   "exists": true
+ },
+ "tencent/Hy-Nomas": {
+  "created": "2026-10-21",
+  "lastModified": "2026-10-24",
+  "license": "apache-2.0",
+  "params": null,
+  "pipeline": "",
+  "likes": 62,
+  "downloads": 0,
+  "gated": false,
+  "exists": true
+ },
+ "OpenMOSS-Team/MOSS-Image-SFT": {
+  "created": "2026-10-11",
+  "lastModified": "2026-10-21",
+  "license": "apache-2.0",
+  "params": "5.1B",
+  "pipeline": "text-to-image",
+  "likes": 716,
+  "downloads": 10757,
+  "gated": false,
+  "exists": true
+ },
+ "briaai/Fibo-2.0-dev": {
+  "created": "2026-10-18",
+  "lastModified": "2026-10-25",
+  "license": "other",
+  "params": "8.1B",
+  "pipeline": "text-to-image",
+  "likes": 144,
+  "downloads": 1115,
+  "gated": "auto",
+  "exists": true
  }
 }

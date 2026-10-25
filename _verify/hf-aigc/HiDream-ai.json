@@ -2,8 +2,8 @@
  {
   "id": "HiDream-ai/Prompt-Refine",
   "createdAt": "2026-05-13T18:50:44.000Z",
-  "downloads": 211,
-  "likes": 19,
+  "downloads": 177,
+  "likes": 18,
   "pipeline": "image-text-to-text",
   "library": "transformers",
   "gated": false,
@@ -19,7 +19,7 @@
  {
   "id": "HiDream-ai/HiDream-O1-Image-Dev-2604",
   "createdAt": "2026-05-13T15:12:13.000Z",
-  "downloads": 415,
+  "downloads": 374,
   "likes": 95,
   "pipeline": "image-text-to-image",
   "library": "transformers",
@@ -36,7 +36,7 @@
  {
   "id": "HiDream-ai/HiDream-O1-Image-Dev",
   "createdAt": "2026-05-08T13:09:29.000Z",
-  "downloads": 654,
+  "downloads": 590,
   "likes": 128,
   "pipeline": "image-text-to-image",
   "library": "transformers",
@@ -53,8 +53,8 @@
  {
   "id": "HiDream-ai/HiDream-O1-Image",
   "createdAt": "2026-05-08T13:06:04.000Z",
-  "downloads": 4525,
-  "likes": 555,
+  "downloads": 4514,
+  "likes": 557,
   "pipeline": "image-text-to-image",
   "library": "transformers",
   "gated": false,
@@ -101,7 +101,7 @@
  {
   "id": "HiDream-ai/HiDream-E1-1",
   "createdAt": "2025-07-16T14:27:03.000Z",
-  "downloads": 195,
+  "downloads": 137,
   "likes": 217,
   "pipeline": "any-to-any",
   "library": "diffusers",
@@ -128,7 +128,7 @@
  {
   "id": "HiDream-ai/HiDream-E1-Full",
   "createdAt": "2025-04-27T01:54:09.000Z",
-  "downloads": 228,
+  "downloads": 184,
   "likes": 217,
   "pipeline": "any-to-any",
   "library": "diffusers",
@@ -145,7 +145,7 @@
  {
   "id": "HiDream-ai/HiDream-I1-Fast",
   "createdAt": "2025-04-06T14:18:51.000Z",
-  "downloads": 54107,
+  "downloads": 54879,
   "likes": 108,
   "pipeline": "text-to-image",
   "library": "diffusers",
@@ -162,8 +162,8 @@
  {
   "id": "HiDream-ai/HiDream-I1-Full",
   "createdAt": "2025-04-06T14:18:31.000Z",
-  "downloads": 825,
-  "likes": 1008,
+  "downloads": 790,
+  "likes": 1010,
   "pipeline": "text-to-image",
   "library": "diffusers",
   "gated": false,
@@ -179,7 +179,7 @@
  {
   "id": "HiDream-ai/HiDream-I1-Dev",
   "createdAt": "2025-04-06T07:46:12.000Z",
-  "downloads": 217,
+  "downloads": 201,
   "likes": 173,
   "pipeline": "text-to-image",
   "library": "diffusers",

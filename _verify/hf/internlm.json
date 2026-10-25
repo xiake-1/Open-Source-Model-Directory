@@ -1,8 +1,26 @@
 [
  {
+  "id": "internlm/Atria-Dawn",
+  "createdAt": "2026-10-23T03:21:40.000Z",
+  "downloads": 96,
+  "likes": 6,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "internlm/Atria-Dawn-FP8",
+  "createdAt": "2026-10-23T01:23:32.000Z",
+  "downloads": 45,
+  "likes": 3,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
   "id": "internlm/AdvancedMathBench-AutoVerifier",
   "createdAt": "2026-09-29T06:53:37.000Z",
-  "downloads": 221,
+  "downloads": 326,
   "likes": 1,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -14,8 +32,8 @@
  {
   "id": "internlm/Intern-Decision-4B",
   "createdAt": "2026-09-26T05:36:37.000Z",
-  "downloads": 4365,
-  "likes": 87,
+  "downloads": 5448,
+  "likes": 90,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -26,7 +44,7 @@
  {
   "id": "internlm/Intern-Decision-2B",
   "createdAt": "2026-09-26T05:36:19.000Z",
-  "downloads": 2175,
+  "downloads": 2668,
   "likes": 18,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -38,7 +56,7 @@
  {
   "id": "internlm/Intern-Decision-0.8B",
   "createdAt": "2026-09-26T05:35:57.000Z",
-  "downloads": 2901,
+  "downloads": 3867,
   "likes": 37,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -50,8 +68,8 @@
  {
   "id": "internlm/Atria-Dawn-Preview-Ascend-w8a8",
   "createdAt": "2026-09-15T12:47:24.000Z",
-  "downloads": 224,
-  "likes": 6,
+  "downloads": 219,
+  "likes": 7,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -59,8 +77,8 @@
  {
   "id": "internlm/Intern-S2-397B",
   "createdAt": "2026-09-13T03:20:35.000Z",
-  "downloads": 1094,
-  "likes": 48,
+  "downloads": 1114,
+  "likes": 49,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -71,8 +89,8 @@
  {
   "id": "internlm/Atria-Dawn-Preview-FP8",
   "createdAt": "2026-09-12T04:01:45.000Z",
-  "downloads": 390,
-  "likes": 20,
+  "downloads": 334,
+  "likes": 21,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -80,7 +98,7 @@
  {
   "id": "internlm/Intern-S2-397B-FP8",
   "createdAt": "2026-09-11T14:32:42.000Z",
-  "downloads": 356,
+  "downloads": 422,
   "likes": 4,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -92,8 +110,8 @@
  {
   "id": "internlm/Atria-Dawn-Preview",
   "createdAt": "2026-09-11T08:27:05.000Z",
-  "downloads": 1085,
-  "likes": 254,
+  "downloads": 1101,
+  "likes": 255,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -102,7 +120,7 @@
   "id": "internlm/InternLumina-U2",
   "createdAt": "2026-09-01T04:16:45.000Z",
   "downloads": 0,
-  "likes": 16,
+  "likes": 17,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -110,7 +128,7 @@
  {
   "id": "internlm/Intern-MemDec-4B",
   "createdAt": "2026-08-06T08:26:30.000Z",
-  "downloads": 151,
+  "downloads": 178,
   "likes": 8,
   "pipeline": "",
   "tags": [],
@@ -119,7 +137,7 @@
  {
   "id": "internlm/Intern-S2-Mobius-FP8",
   "createdAt": "2026-08-04T09:24:18.000Z",
-  "downloads": 402,
+  "downloads": 404,
   "likes": 9,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -131,7 +149,7 @@
  {
   "id": "internlm/Intern-S2-Mobius",
   "createdAt": "2026-07-29T13:07:51.000Z",
-  "downloads": 1135,
+  "downloads": 1224,
   "likes": 66,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -143,7 +161,7 @@
  {
   "id": "internlm/Intern-S2-Preview-397B",
   "createdAt": "2026-07-16T15:01:42.000Z",
-  "downloads": 429,
+  "downloads": 452,
   "likes": 69,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -155,7 +173,7 @@
  {
   "id": "internlm/Intern-S2-Preview-397B-FP8",
   "createdAt": "2026-07-16T14:06:47.000Z",
-  "downloads": 133,
+  "downloads": 151,
   "likes": 10,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -167,7 +185,7 @@
  {
   "id": "internlm/CapRL-Video-4B",
   "createdAt": "2026-05-22T11:23:34.000Z",
-  "downloads": 301,
+  "downloads": 501,
   "likes": 12,
   "pipeline": "",
   "tags": [],
@@ -176,7 +194,7 @@
  {
   "id": "internlm/ETCHR-FLUX.2-klein-9B",
   "createdAt": "2026-05-21T11:13:15.000Z",
-  "downloads": 26,
+  "downloads": 21,
   "likes": 9,
   "pipeline": "image-to-image",
   "tags": [],
@@ -185,7 +203,7 @@
  {
   "id": "internlm/Intern-S2-Preview-FP8",
   "createdAt": "2026-05-15T03:51:55.000Z",
-  "downloads": 242,
+  "downloads": 293,
   "likes": 24,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -197,7 +215,7 @@
  {
   "id": "internlm/Intern-S2-Preview",
   "createdAt": "2026-05-15T03:49:25.000Z",
-  "downloads": 2167,
+  "downloads": 2105,
   "likes": 123,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -209,7 +227,7 @@
  {
   "id": "internlm/Visual-ERM",
   "createdAt": "2026-03-12T07:07:04.000Z",
-  "downloads": 68,
+  "downloads": 269,
   "likes": 11,
   "pipeline": "",
   "tags": [],
@@ -218,7 +236,7 @@
  {
   "id": "internlm/EndoCoT",
   "createdAt": "2026-03-11T08:30:49.000Z",
-  "downloads": 14,
+  "downloads": 13,
   "likes": 10,
   "pipeline": "image-to-image",
   "tags": [],
@@ -227,8 +245,8 @@
  {
   "id": "internlm/Spatial-SSRL-3B",
   "createdAt": "2026-02-25T08:21:47.000Z",
-  "downloads": 304,
-  "likes": 7,
+  "downloads": 292,
+  "likes": 8,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -239,7 +257,7 @@
  {
   "id": "internlm/Intern-S1-Pro-BF16",
   "createdAt": "2026-02-13T10:56:23.000Z",
-  "downloads": 197,
+  "downloads": 209,
   "likes": 4,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -252,7 +270,7 @@
  {
   "id": "internlm/Intern-S1-Pro",
   "createdAt": "2026-02-02T15:05:12.000Z",
-  "downloads": 1964,
+  "downloads": 2904,
   "likes": 277,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -265,7 +283,7 @@
  {
   "id": "internlm/CapRL-Qwen3VL-4B-GGUF",
   "createdAt": "2025-12-26T05:13:42.000Z",
-  "downloads": 768,
+  "downloads": 557,
   "likes": 6,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -277,7 +295,7 @@
  {
   "id": "internlm/CapRL-Qwen3VL-2B-GGUF",
   "createdAt": "2025-12-26T04:06:12.000Z",
-  "downloads": 332,
+  "downloads": 248,
   "likes": 6,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -289,7 +307,7 @@
  {
   "id": "internlm/CapRL-Qwen3VL-4B",
   "createdAt": "2025-12-24T11:39:36.000Z",
-  "downloads": 950,
+  "downloads": 1011,
   "likes": 14,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -301,7 +319,7 @@
  {
   "id": "internlm/CapRL-Qwen3VL-2B",
   "createdAt": "2025-12-24T08:41:29.000Z",
-  "downloads": 397,
+  "downloads": 426,
   "likes": 16,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -313,8 +331,8 @@
  {
   "id": "internlm/Spatial-SSRL-Qwen3VL-4B",
   "createdAt": "2025-11-21T11:27:43.000Z",
-  "downloads": 276,
-  "likes": 14,
+  "downloads": 527,
+  "likes": 15,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -325,8 +343,8 @@
  {
   "id": "internlm/Spatial-SSRL-7B",
   "createdAt": "2025-10-29T06:17:22.000Z",
-  "downloads": 224,
-  "likes": 12,
+  "downloads": 428,
+  "likes": 13,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -337,7 +355,7 @@
  {
   "id": "internlm/JanusCoderV-8B",
   "createdAt": "2025-10-27T09:35:29.000Z",
-  "downloads": 259,
+  "downloads": 464,
   "likes": 14,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -349,7 +367,7 @@
  {
   "id": "internlm/JanusCoderV-7B",
   "createdAt": "2025-10-27T09:35:08.000Z",
-  "downloads": 395,
+  "downloads": 629,
   "likes": 15,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -361,7 +379,7 @@
  {
   "id": "internlm/JanusCoder-14B",
   "createdAt": "2025-10-27T09:34:49.000Z",
-  "downloads": 372,
+  "downloads": 676,
   "likes": 35,
   "pipeline": "text-generation",
   "tags": [
@@ -373,7 +391,7 @@
  {
   "id": "internlm/JanusCoder-8B",
   "createdAt": "2025-10-27T09:33:54.000Z",
-  "downloads": 270,
+  "downloads": 250,
   "likes": 13,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -386,7 +404,7 @@
  {
   "id": "internlm/CapRL-InternVL3.5-8B",
   "createdAt": "2025-10-16T14:33:55.000Z",
-  "downloads": 315,
+  "downloads": 504,
   "likes": 10,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -398,7 +416,7 @@
  {
   "id": "internlm/SIM_COT-GPT2-Coconut",
   "createdAt": "2025-09-26T12:21:47.000Z",
-  "downloads": 68,
+  "downloads": 69,
   "likes": 2,
   "pipeline": "",
   "tags": [],
@@ -407,7 +425,7 @@
  {
   "id": "internlm/SIM_COT-GPT2-CODI",
   "createdAt": "2025-09-26T12:02:20.000Z",
-  "downloads": 98,
+  "downloads": 109,
   "likes": 3,
   "pipeline": "",
   "tags": [],
@@ -416,7 +434,7 @@
  {
   "id": "internlm/SIM_COT-LLaMA3-CODI-1B",
   "createdAt": "2025-09-26T08:55:57.000Z",
-  "downloads": 98,
+  "downloads": 105,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -425,7 +443,7 @@
  {
   "id": "internlm/SIM_COT-LLaMA3-CODI-8B",
   "createdAt": "2025-09-26T08:15:10.000Z",
-  "downloads": 62,
+  "downloads": 78,
   "likes": 3,
   "pipeline": "",
   "tags": [],
@@ -434,7 +452,7 @@
  {
   "id": "internlm/SIM_COT-LLaMA3-CODI-3B",
   "createdAt": "2025-09-26T07:48:31.000Z",
-  "downloads": 61,
+  "downloads": 68,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -443,7 +461,7 @@
  {
   "id": "internlm/CapRL-Eval-3B",
   "createdAt": "2025-09-25T07:29:08.000Z",
-  "downloads": 220,
+  "downloads": 428,
   "likes": 8,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -455,7 +473,7 @@
  {
   "id": "internlm/Spark-VL-7B",
   "createdAt": "2025-09-25T05:23:43.000Z",
-  "downloads": 67,
+  "downloads": 74,
   "likes": 10,
   "pipeline": "video-text-to-text",
   "tags": [],
@@ -464,7 +482,7 @@
  {
   "id": "internlm/CapRL-3B",
   "createdAt": "2025-09-24T15:07:30.000Z",
-  "downloads": 388,
+  "downloads": 637,
   "likes": 48,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -476,7 +494,7 @@
  {
   "id": "internlm/Intern-S1-mini-GGUF",
   "createdAt": "2025-08-18T08:40:07.000Z",
-  "downloads": 136,
+  "downloads": 1189,
   "likes": 12,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -488,7 +506,7 @@
  {
   "id": "internlm/Intern-S1-mini-FP8",
   "createdAt": "2025-08-18T06:37:20.000Z",
-  "downloads": 169,
+  "downloads": 148,
   "likes": 2,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -500,7 +518,7 @@
  {
   "id": "internlm/Intern-S1-mini",
   "createdAt": "2025-08-18T06:32:48.000Z",
-  "downloads": 10461,
+  "downloads": 7445,
   "likes": 114,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -513,7 +531,7 @@
  {
   "id": "internlm/Intern-S1-GGUF",
   "createdAt": "2025-07-25T01:50:37.000Z",
-  "downloads": 136,
+  "downloads": 166,
   "likes": 16,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -525,7 +543,7 @@
  {
   "id": "internlm/Intern-S1-FP8",
   "createdAt": "2025-07-24T07:00:11.000Z",
-  "downloads": 178,
+  "downloads": 220,
   "likes": 41,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -537,7 +555,7 @@
  {
   "id": "internlm/Intern-S1",
   "createdAt": "2025-07-24T06:05:13.000Z",
-  "downloads": 14721,
+  "downloads": 11932,
   "likes": 258,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -550,7 +568,7 @@
  {
   "id": "internlm/POLAR-7B-Base",
   "createdAt": "2025-07-04T03:45:45.000Z",
-  "downloads": 33,
+  "downloads": 41,
   "likes": 6,
   "pipeline": "text-classification",
   "tags": [],
@@ -559,7 +577,7 @@
  {
   "id": "internlm/POLAR-7B",
   "createdAt": "2025-07-04T03:45:26.000Z",
-  "downloads": 74,
+  "downloads": 71,
   "likes": 26,
   "pipeline": "text-classification",
   "tags": [],
@@ -577,7 +595,7 @@
  {
   "id": "internlm/POLAR-1_8B",
   "createdAt": "2025-07-04T03:44:38.000Z",
-  "downloads": 41,
+  "downloads": 37,
   "likes": 10,
   "pipeline": "text-classification",
   "tags": [],
@@ -586,7 +604,7 @@
  {
   "id": "internlm/OREAL-DeepSeek-R1-Distill-Qwen-7B",
   "createdAt": "2025-02-10T19:06:28.000Z",
-  "downloads": 203,
+  "downloads": 420,
   "likes": 9,
   "pipeline": "text-generation",
   "tags": [
@@ -598,7 +616,7 @@
  {
   "id": "internlm/OREAL-32B-SFT",
   "createdAt": "2025-02-10T13:52:37.000Z",
-  "downloads": 122,
+  "downloads": 313,
   "likes": 7,
   "pipeline": "question-answering",
   "tags": [
@@ -609,7 +627,7 @@
  {
   "id": "internlm/OREAL-7B-SFT",
   "createdAt": "2025-02-10T13:52:16.000Z",
-  "downloads": 148,
+  "downloads": 360,
   "likes": 1,
   "pipeline": "text-generation",
   "tags": [
@@ -621,7 +639,7 @@
  {
   "id": "internlm/OREAL-32B",
   "createdAt": "2025-02-10T13:19:43.000Z",
-  "downloads": 188,
+  "downloads": 214,
   "likes": 24,
   "pipeline": "text-generation",
   "tags": [
@@ -633,7 +651,7 @@
  {
   "id": "internlm/OREAL-7B",
   "createdAt": "2025-02-10T13:18:36.000Z",
-  "downloads": 199,
+  "downloads": 405,
   "likes": 20,
   "pipeline": "text-generation",
   "tags": [
@@ -645,7 +663,7 @@
  {
   "id": "internlm/internlm-xcomposer2d5-7b-chat",
   "createdAt": "2025-01-21T14:58:25.000Z",
-  "downloads": 67,
+  "downloads": 89,
   "likes": 5,
   "pipeline": "visual-question-answering",
   "tags": [],
@@ -654,7 +672,7 @@
  {
   "id": "internlm/internlm-xcomposer2d5-7b-reward",
   "createdAt": "2025-01-21T12:31:50.000Z",
-  "downloads": 86,
+  "downloads": 99,
   "likes": 11,
   "pipeline": "any-to-any",
   "tags": [
@@ -665,7 +683,7 @@
  {
   "id": "internlm/internlm3-8b-instruct-smoothquant-fp8",
   "createdAt": "2025-01-17T06:53:45.000Z",
-  "downloads": 254,
+  "downloads": 228,
   "likes": 2,
   "pipeline": "text-generation",
   "tags": [
@@ -677,8 +695,8 @@
  {
   "id": "internlm/internlm3-8b-instruct-gguf",
   "createdAt": "2025-01-14T11:30:49.000Z",
-  "downloads": 857,
-  "likes": 29,
+  "downloads": 1785,
+  "likes": 28,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -701,7 +719,7 @@
  {
   "id": "internlm/internlm3-8b-instruct-gptq-int4",
   "createdAt": "2025-01-14T09:37:11.000Z",
-  "downloads": 104,
+  "downloads": 66,
   "likes": 5,
   "pipeline": "text-generation",
   "tags": [
@@ -713,7 +731,7 @@
  {
   "id": "internlm/internlm3-8b-instruct-awq",
   "createdAt": "2025-01-14T09:35:39.000Z",
-  "downloads": 207,
+  "downloads": 146,
   "likes": 7,
   "pipeline": "text-generation",
   "tags": [
@@ -725,8 +743,8 @@
  {
   "id": "internlm/internlm3-8b-instruct",
   "createdAt": "2025-01-13T12:25:43.000Z",
-  "downloads": 55119,
-  "likes": 235,
+  "downloads": 47805,
+  "likes": 236,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -737,7 +755,7 @@
  {
   "id": "internlm/SWE-Fixer-Editor-72B",
   "createdAt": "2025-01-09T09:14:24.000Z",
-  "downloads": 93,
+  "downloads": 111,
   "likes": 3,
   "pipeline": "text-generation",
   "tags": [
@@ -749,7 +767,7 @@
  {
   "id": "internlm/SWE-Fixer-Retriever-7B",
   "createdAt": "2025-01-09T09:13:40.000Z",
-  "downloads": 105,
+  "downloads": 306,
   "likes": 2,
   "pipeline": "text-generation",
   "tags": [
@@ -761,7 +779,7 @@
  {
   "id": "internlm/internlm-xcomposer2d5-ol-7b",
   "createdAt": "2024-12-11T09:06:01.000Z",
-  "downloads": 74,
+  "downloads": 78,
   "likes": 50,
   "pipeline": "visual-question-answering",
   "tags": [],

@@ -2,8 +2,8 @@
  {
   "id": "IDEA-Research/Rex-Omni-AWQ",
   "createdAt": "2025-10-31T02:22:31.000Z",
-  "downloads": 8071,
-  "likes": 5,
+  "downloads": 6704,
+  "likes": 6,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -11,8 +11,8 @@
  {
   "id": "IDEA-Research/Rex-Omni",
   "createdAt": "2025-10-09T10:41:00.000Z",
-  "downloads": 14663,
-  "likes": 65,
+  "downloads": 16026,
+  "likes": 66,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -23,7 +23,7 @@
  {
   "id": "IDEA-Research/Rex-Thinker-GRPO-7B",
   "createdAt": "2025-05-23T04:01:02.000Z",
-  "downloads": 4942,
+  "downloads": 5017,
   "likes": 11,
   "pipeline": "zero-shot-object-detection",
   "tags": [
@@ -34,7 +34,7 @@
  {
   "id": "IDEA-Research/RexSeek-3B",
   "createdAt": "2025-03-10T02:05:05.000Z",
-  "downloads": 162,
+  "downloads": 151,
   "likes": 10,
   "pipeline": "image-text-to-text",
   "tags": [

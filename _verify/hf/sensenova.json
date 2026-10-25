@@ -1,9 +1,18 @@
 [
  {
+  "id": "sensenova/sensenova-roborsi-27b-preview",
+  "createdAt": "2026-10-16T09:26:09.000Z",
+  "downloads": 107,
+  "likes": 6,
+  "pipeline": "robotics",
+  "tags": [],
+  "gated": false
+ },
+ {
   "id": "sensenova/Looped-DiT-B16",
   "createdAt": "2026-09-28T03:30:18.000Z",
   "downloads": 0,
-  "likes": 17,
+  "likes": 19,
   "pipeline": "text-to-image",
   "tags": [],
   "gated": false
@@ -12,7 +21,7 @@
   "id": "sensenova/Looped-DiT-B32",
   "createdAt": "2026-09-28T03:27:15.000Z",
   "downloads": 0,
-  "likes": 7,
+  "likes": 9,
   "pipeline": "text-to-image",
   "tags": [],
   "gated": false
@@ -21,7 +30,7 @@
   "id": "sensenova/SenseNova-U1.5-8B-MoT-LoRAs",
   "createdAt": "2026-08-20T05:45:03.000Z",
   "downloads": 0,
-  "likes": 18,
+  "likes": 20,
   "pipeline": "any-to-any",
   "tags": [
    "any-to-any"
@@ -31,7 +40,7 @@
  {
   "id": "sensenova/SenseNova-U1.5-8B-MoT-SFT",
   "createdAt": "2026-08-19T17:34:48.000Z",
-  "downloads": 158,
+  "downloads": 107,
   "likes": 26,
   "pipeline": "any-to-any",
   "tags": [
@@ -42,8 +51,8 @@
  {
   "id": "sensenova/SenseNova-U1.5-8B-MoT",
   "createdAt": "2026-08-19T07:15:02.000Z",
-  "downloads": 4941,
-  "likes": 264,
+  "downloads": 4290,
+  "likes": 268,
   "pipeline": "any-to-any",
   "tags": [
    "any-to-any"
@@ -53,8 +62,8 @@
  {
   "id": "sensenova/SenseNova-U1.5-8B-MoT-Preview",
   "createdAt": "2026-07-28T08:20:18.000Z",
-  "downloads": 239,
-  "likes": 101,
+  "downloads": 217,
+  "likes": 102,
   "pipeline": "any-to-any",
   "tags": [
    "any-to-any"
@@ -64,8 +73,8 @@
  {
   "id": "sensenova/SenseNova-U1-8B-MoT-Infographic-V3",
   "createdAt": "2026-07-15T17:49:15.000Z",
-  "downloads": 336,
-  "likes": 67,
+  "downloads": 237,
+  "likes": 68,
   "pipeline": "any-to-any",
   "tags": [
    "any-to-any"
@@ -75,7 +84,7 @@
  {
   "id": "sensenova/SenseNova-U1-8B-MoT-Infographic-V2",
   "createdAt": "2026-06-29T22:08:36.000Z",
-  "downloads": 72,
+  "downloads": 68,
   "likes": 29,
   "pipeline": "any-to-any",
   "tags": [
@@ -86,7 +95,7 @@
  {
   "id": "sensenova/SenseNova-Vision-7B-MoT",
   "createdAt": "2026-06-29T11:46:03.000Z",
-  "downloads": 421,
+  "downloads": 449,
   "likes": 116,
   "pipeline": "any-to-any",
   "tags": [
@@ -97,7 +106,7 @@
  {
   "id": "sensenova/SenseNova-U1-8B-MoT-Interleaved",
   "createdAt": "2026-06-10T13:41:46.000Z",
-  "downloads": 66,
+  "downloads": 69,
   "likes": 15,
   "pipeline": "any-to-any",
   "tags": [
@@ -108,7 +117,7 @@
  {
   "id": "sensenova/SenseNova-U1-8B-MoT-Infographic",
   "createdAt": "2026-05-14T09:54:29.000Z",
-  "downloads": 112,
+  "downloads": 122,
   "likes": 56,
   "pipeline": "any-to-any",
   "tags": [
@@ -119,7 +128,7 @@
  {
   "id": "sensenova/SenseNova-U1-A3B-MoT",
   "createdAt": "2026-05-08T06:42:56.000Z",
-  "downloads": 199,
+  "downloads": 207,
   "likes": 18,
   "pipeline": "",
   "tags": [],
@@ -137,7 +146,7 @@
  {
   "id": "sensenova/SenseNova-U1-A3B-MoT-SFT",
   "createdAt": "2026-05-04T11:47:46.000Z",
-  "downloads": 101,
+  "downloads": 93,
   "likes": 10,
   "pipeline": "",
   "tags": [],
@@ -146,7 +155,7 @@
  {
   "id": "sensenova/SenseNova-U1-8B-MoT-8step-preview",
   "createdAt": "2026-04-30T13:43:20.000Z",
-  "downloads": 100,
+  "downloads": 93,
   "likes": 13,
   "pipeline": "any-to-any",
   "tags": [
@@ -157,7 +166,7 @@
  {
   "id": "sensenova/SenseNova-U1-8B-MoT-SFT",
   "createdAt": "2026-04-22T13:32:34.000Z",
-  "downloads": 133,
+  "downloads": 109,
   "likes": 51,
   "pipeline": "any-to-any",
   "tags": [
@@ -168,7 +177,7 @@
  {
   "id": "sensenova/SenseNova-U1-8B-MoT",
   "createdAt": "2026-04-22T04:43:54.000Z",
-  "downloads": 925,
+  "downloads": 763,
   "likes": 294,
   "pipeline": "any-to-any",
   "tags": [
@@ -179,7 +188,7 @@
  {
   "id": "sensenova/SenseNova-SI-1.3-Qwen3-VL-8B",
   "createdAt": "2026-04-10T03:17:53.000Z",
-  "downloads": 140,
+  "downloads": 176,
   "likes": 6,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -191,8 +200,8 @@
  {
   "id": "sensenova/SenseNova-SI-1.5-InternVL3-8B",
   "createdAt": "2026-03-26T07:53:30.000Z",
-  "downloads": 241,
-  "likes": 7,
+  "downloads": 289,
+  "likes": 8,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -203,7 +212,7 @@
  {
   "id": "sensenova/SenseNova-SI-1.4-InternVL3-8B",
   "createdAt": "2026-03-24T09:15:16.000Z",
-  "downloads": 95,
+  "downloads": 79,
   "likes": 4,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -215,7 +224,7 @@
  {
   "id": "sensenova/ConsistCompose-BAGEL-7B-MoT",
   "createdAt": "2026-02-25T08:13:00.000Z",
-  "downloads": 38,
+  "downloads": 30,
   "likes": 7,
   "pipeline": "",
   "tags": [],
@@ -224,7 +233,7 @@
  {
   "id": "sensenova/SenseNova-MARS-32B",
   "createdAt": "2026-01-29T03:36:22.000Z",
-  "downloads": 61,
+  "downloads": 53,
   "likes": 5,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -236,7 +245,7 @@
  {
   "id": "sensenova/SenseNova-SI-1.3-InternVL3-8B",
   "createdAt": "2026-01-08T09:43:02.000Z",
-  "downloads": 297,
+  "downloads": 274,
   "likes": 11,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -248,7 +257,7 @@
  {
   "id": "sensenova/SenseNova-MARS-8B",
   "createdAt": "2025-12-26T14:28:02.000Z",
-  "downloads": 95,
+  "downloads": 107,
   "likes": 8,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -260,7 +269,7 @@
  {
   "id": "sensenova/SenseNova-SI-1.1-BAGEL-7B-MoT",
   "createdAt": "2025-12-24T02:43:02.000Z",
-  "downloads": 36,
+  "downloads": 32,
   "likes": 5,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -273,7 +282,7 @@
  {
   "id": "sensenova/SenseNova-SI-1.1-InternVL3-8B-800K",
   "createdAt": "2025-12-17T07:10:25.000Z",
-  "downloads": 26,
+  "downloads": 30,
   "likes": 4,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -285,7 +294,7 @@
  {
   "id": "sensenova/SenseNova-SI-1.1-Qwen2.5-VL-3B",
   "createdAt": "2025-12-06T08:21:05.000Z",
-  "downloads": 129,
+  "downloads": 103,
   "likes": 5,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -297,7 +306,7 @@
  {
   "id": "sensenova/SenseNova-SI-1.1-Qwen2.5-VL-7B",
   "createdAt": "2025-12-06T08:12:09.000Z",
-  "downloads": 126,
+  "downloads": 125,
   "likes": 5,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -309,7 +318,7 @@
  {
   "id": "sensenova/SenseNova-SI-1.2-InternVL3-8B",
   "createdAt": "2025-12-05T14:12:08.000Z",
-  "downloads": 115,
+  "downloads": 104,
   "likes": 11,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -321,7 +330,7 @@
  {
   "id": "sensenova/SenseNova-SI-1.1-Qwen3-VL-8B",
   "createdAt": "2025-12-05T12:58:16.000Z",
-  "downloads": 104,
+  "downloads": 108,
   "likes": 7,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -333,7 +342,7 @@
  {
   "id": "sensenova/InteractiveOmni-4B",
   "createdAt": "2025-11-29T15:26:57.000Z",
-  "downloads": 189,
+  "downloads": 190,
   "likes": 6,
   "pipeline": "any-to-any",
   "tags": [
@@ -344,7 +353,7 @@
  {
   "id": "sensenova/InteractiveOmni-8B",
   "createdAt": "2025-11-29T15:10:48.000Z",
-  "downloads": 120,
+  "downloads": 107,
   "likes": 11,
   "pipeline": "any-to-any",
   "tags": [
@@ -355,7 +364,7 @@
  {
   "id": "sensenova/SenseNova-SI-1.1-InternVL3-2B",
   "createdAt": "2025-11-15T12:38:15.000Z",
-  "downloads": 95,
+  "downloads": 86,
   "likes": 7,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -367,7 +376,7 @@
  {
   "id": "sensenova/SenseNova-SI-1.1-InternVL3-8B",
   "createdAt": "2025-11-11T13:19:13.000Z",
-  "downloads": 136,
+  "downloads": 131,
   "likes": 16,
   "pipeline": "image-text-to-text",
   "tags": [

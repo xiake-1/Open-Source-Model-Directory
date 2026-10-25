@@ -26,11 +26,11 @@
 - zai-org/GLM-5.3-BF16@2026-08-25
 - zai-org/GLM-5.3-Flash@2026-08-25
 
-## MiniMaxAI（21）
+## MiniMaxAI（22）
 
+- MiniMaxAI/MiniMax-M3.1-Flash@2026-10-17
 - MiniMaxAI/MiniMax-Music3@2026-08-07
 - MiniMaxAI/MiniMax-H3@2026-07-28
-- MiniMaxAI/MiniMax-M3-MXFP8@2026-06-02
 
 ## ByteDance-Seed（59）
 
@@ -44,11 +44,11 @@
 - baidu/NAVA@2026-05-29
 - baidu/ERNIE-Image-Aes@2026-05-18
 
-## inclusionAI（214）
+## inclusionAI（222）
 
-- inclusionAI/Ling-3.1-flash@2026-10-13
-- inclusionAI/LemonDecider@2026-10-05
-- inclusionAI/AI-Transparency@2026-09-24
+- inclusionAI/Ling-3.0-tiny-UBTree@2026-10-21
+- inclusionAI/Ling-3.0-flash-Sante@2026-10-19
+- inclusionAI/Ling-3.0-flash-UBTree@2026-10-14
 
 ## stepfun-ai（52）
 
@@ -56,11 +56,11 @@
 - stepfun-ai/Step-5-Preview-BF16@2026-09-20
 - stepfun-ai/Step-5-Preview@2026-09-20
 
-## tencent（159）
+## tencent（164）
 
-- tencent/Qwen3-8B-DSpine-b16@2026-10-16
-- tencent/Hy-Memory-30B-A3B-FP8@2026-10-16
-- tencent/Hy-Memory-30B-A3B@2026-10-15
+- tencent/Hy-Nomas-Diffusers@2026-10-24
+- tencent/WeVisOne-VL-4B@2026-10-22
+- tencent/WeVisOne-VL-2B@2026-10-22
 
 ## ascend（0）
 
@@ -74,11 +74,11 @@
 ## OpenBMB（0）
 
 
-## internlm（69）
+## internlm（71）
 
+- internlm/Atria-Dawn@2026-10-23
+- internlm/Atria-Dawn-FP8@2026-10-23
 - internlm/AdvancedMathBench-AutoVerifier@2026-09-29
-- internlm/Intern-Decision-4B@2026-09-26
-- internlm/Intern-Decision-2B@2026-09-26
 
 ## Tele-AI（10）
 
@@ -113,11 +113,11 @@
 - IDEA-Research/Rex-Omni@2025-10-09
 - IDEA-Research/Rex-Thinker-GRPO-7B@2025-05-23
 
-## sensenova（34）
+## sensenova（35）
 
+- sensenova/sensenova-roborsi-27b-preview@2026-10-16
 - sensenova/Looped-DiT-B16@2026-09-28
 - sensenova/Looped-DiT-B32@2026-09-28
-- sensenova/SenseNova-U1.5-8B-MoT-LoRAs@2026-08-20
 
 ## OpenDFM（9）
 
@@ -165,35 +165,35 @@
 - openai/circuit-sparsity@2025-12-11
 - openai/gpt-oss-safeguard-20b@2025-09-18
 
-## microsoft（202）
+## microsoft（204）
 
+- microsoft/Sentiment-Analysis-7B@2026-10-17
 - microsoft/scFM-dataselection@2026-10-16
 - microsoft/UserRepGen-4B@2026-10-14
-- microsoft/AesCode-32B@2026-09-29
 
-## nvidia（746）
+## nvidia（789）
 
-- nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-NVFP4@2026-10-16
-- nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-MXFP8@2026-10-16
-- nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-BF16@2026-10-16
+- nvidia/InternVideo2-CLIP-anomaly-detection@2026-10-22
+- nvidia/cosmos3-nano-libero10-sdg-export-S5_2_s43@2026-10-19
+- nvidia/Cosmos3-H-Embodied-Nano@2026-10-19
 
-## ibm-granite（192）
+## ibm-granite（196）
 
+- ibm-granite/granite-switch-4.1-8b-GGUF@2026-10-22
+- ibm-granite/granite-switch-4.1-30b-GGUF@2026-10-22
 - ibm-granite/granite-switch-4.1-8b@2026-10-14
-- ibm-granite/granite-switch-4.1-30b@2026-10-14
-- ibm-granite/ensemble-forecasting-with-ibm-granite-time-series@2026-10-01
 
-## allenai（618）
+## allenai（619）
 
 - allenai/HiRO-ACEv2@2026-10-12
 - allenai/AstaBrief_8B_SFT@2026-09-10
-- allenai/ACE2S-SHiELD-plus-supplemental-checkpoints@2026-09-01
+- allenai/OlmoEarth-v1_3-Base@2026-09-04
 
-## LiquidAI（198）
+## LiquidAI（200）
 
+- LiquidAI/LFM2.5-24B-A2B-DSpark-GGUF@2026-10-20
+- LiquidAI/LFM2.5-24B-A2B-DSpark@2026-10-19
 - LiquidAI/LFM2.5-24B-A2B-FP8@2026-10-12
-- LiquidAI/LFM2.5-24B-A2B-MLX-bf16@2026-10-12
-- LiquidAI/LFM2.5-24B-A2B-MLX-8bit@2026-10-12
 
 ## CohereLabs（34）
 

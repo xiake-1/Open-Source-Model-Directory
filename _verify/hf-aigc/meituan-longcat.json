@@ -2,7 +2,7 @@
  {
   "id": "meituan-longcat/LongCat-Flash-Lite-Sparse",
   "createdAt": "2026-07-31T09:53:45.000Z",
-  "downloads": 1004,
+  "downloads": 923,
   "likes": 90,
   "pipeline": "text-generation",
   "library": "LongCat-Flash-Lite-Sparse",
@@ -18,7 +18,7 @@
  {
   "id": "meituan-longcat/LongCat-2.0",
   "createdAt": "2026-07-05T00:07:44.000Z",
-  "downloads": 2213,
+  "downloads": 2644,
   "likes": 282,
   "pipeline": "text-generation",
   "library": "LongCat-2.0",
@@ -35,7 +35,7 @@
  {
   "id": "meituan-longcat/LongCat-2.0-INT8",
   "createdAt": "2026-07-03T08:56:16.000Z",
-  "downloads": 196,
+  "downloads": 210,
   "likes": 21,
   "pipeline": "text-generation",
   "library": "LongCat-2.0",
@@ -52,7 +52,7 @@
  {
   "id": "meituan-longcat/LongCat-2.0-FP8",
   "createdAt": "2026-07-03T08:47:31.000Z",
-  "downloads": 764,
+  "downloads": 796,
   "likes": 32,
   "pipeline": "text-generation",
   "library": "LongCat-2.0",
@@ -85,8 +85,8 @@
  {
   "id": "meituan-longcat/LongCat-Video-Avatar-1.5",
   "createdAt": "2026-05-21T09:05:55.000Z",
-  "downloads": 2749,
-  "likes": 867,
+  "downloads": 3076,
+  "likes": 876,
   "pipeline": "",
   "library": "longcat-video-avatar-1.5",
   "gated": false,
@@ -108,8 +108,8 @@
  {
   "id": "meituan-longcat/LongCat-AudioDiT-3.5B",
   "createdAt": "2026-03-30T06:03:21.000Z",
-  "downloads": 1300,
-  "likes": 81,
+  "downloads": 1156,
+  "likes": 80,
   "pipeline": "",
   "library": "",
   "gated": false,
@@ -123,7 +123,7 @@
  {
   "id": "meituan-longcat/LongCat-AudioDiT-1B",
   "createdAt": "2026-03-30T03:25:12.000Z",
-  "downloads": 2963,
+  "downloads": 3922,
   "likes": 46,
   "pipeline": "",
   "library": "",
@@ -138,7 +138,7 @@
  {
   "id": "meituan-longcat/LongCat-Next",
   "createdAt": "2026-03-25T13:18:39.000Z",
-  "downloads": 437,
+  "downloads": 469,
   "likes": 213,
   "pipeline": "any-to-any",
   "library": "LongCat-Next",
@@ -157,7 +157,7 @@
  {
   "id": "meituan-longcat/LongCat-Flash-Prover",
   "createdAt": "2026-03-20T04:04:15.000Z",
-  "downloads": 253,
+  "downloads": 281,
   "likes": 35,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -174,7 +174,7 @@
  {
   "id": "meituan-longcat/LongCat-Flash-Lite-FP8",
   "createdAt": "2026-02-06T07:32:27.000Z",
-  "downloads": 5115,
+  "downloads": 3856,
   "likes": 10,
   "pipeline": "text-generation",
   "library": "LongCat-Flash-Lite",
@@ -192,7 +192,7 @@
  {
   "id": "meituan-longcat/LongCat-Image-Edit-Turbo",
   "createdAt": "2026-02-03T09:46:53.000Z",
-  "downloads": 23214,
+  "downloads": 22703,
   "likes": 72,
   "pipeline": "image-to-image",
   "library": "transformers",
@@ -210,8 +210,8 @@
  {
   "id": "meituan-longcat/LongCat-Flash-Lite",
   "createdAt": "2026-01-27T08:03:21.000Z",
-  "downloads": 3214,
-  "likes": 210,
+  "downloads": 2833,
+  "likes": 211,
   "pipeline": "text-generation",
   "library": "LongCat-Flash-Lite",
   "gated": false,
@@ -228,7 +228,7 @@
  {
   "id": "meituan-longcat/LongCat-Flash-Thinking-ZigZag",
   "createdAt": "2026-01-23T02:50:13.000Z",
-  "downloads": 260,
+  "downloads": 265,
   "likes": 32,
   "pipeline": "text-generation",
   "library": "LongCat-Flash-Thinking-ZigZag",
@@ -245,7 +245,7 @@
  {
   "id": "meituan-longcat/LongCat-Flash-Thinking-2601-FP8",
   "createdAt": "2026-01-14T13:47:45.000Z",
-  "downloads": 160,
+  "downloads": 191,
   "likes": 13,
   "pipeline": "text-generation",
   "library": "LongCat-Flash-Thinking-2601",
@@ -263,7 +263,7 @@
  {
   "id": "meituan-longcat/LongCat-HeavyMode-Summary",
   "createdAt": "2026-01-14T10:44:57.000Z",
-  "downloads": 202,
+  "downloads": 219,
   "likes": 13,
   "pipeline": "text-generation",
   "library": "LongCat-HeavyMode-Summary",
@@ -280,7 +280,7 @@
  {
   "id": "meituan-longcat/LongCat-Flash-Thinking-2601",
   "createdAt": "2026-01-14T07:04:05.000Z",
-  "downloads": 1967,
+  "downloads": 1525,
   "likes": 118,
   "pipeline": "text-generation",
   "library": "LongCat-Flash-Thinking-2601",
@@ -298,8 +298,8 @@
  {
   "id": "meituan-longcat/LongCat-Video-Avatar",
   "createdAt": "2025-12-13T09:03:08.000Z",
-  "downloads": 119,
-  "likes": 266,
+  "downloads": 108,
+  "likes": 268,
   "pipeline": "",
   "library": "diffusers",
   "gated": false,
@@ -320,7 +320,7 @@
  {
   "id": "meituan-longcat/LongCat-Image-Edit",
   "createdAt": "2025-12-05T07:34:53.000Z",
-  "downloads": 19855,
+  "downloads": 19458,
   "likes": 187,
   "pipeline": "image-to-image",
   "library": "transformers",
@@ -338,7 +338,7 @@
  {
   "id": "meituan-longcat/LongCat-Image-Dev",
   "createdAt": "2025-12-04T13:02:03.000Z",
-  "downloads": 1774,
+  "downloads": 1748,
   "likes": 50,
   "pipeline": "text-to-image",
   "library": "transformers",
@@ -356,7 +356,7 @@
  {
   "id": "meituan-longcat/LongCat-Image",
   "createdAt": "2025-12-04T12:38:12.000Z",
-  "downloads": 13798,
+  "downloads": 13494,
   "likes": 249,
   "pipeline": "text-to-image",
   "library": "transformers",
@@ -374,8 +374,8 @@
  {
   "id": "meituan-longcat/LongCat-Video",
   "createdAt": "2025-10-24T16:04:08.000Z",
-  "downloads": 2199,
-  "likes": 584,
+  "downloads": 2509,
+  "likes": 587,
   "pipeline": "text-to-video",
   "library": "diffusers",
   "gated": false,
@@ -394,7 +394,7 @@
  {
   "id": "meituan-longcat/LongCat-Flash-Omni-FP8",
   "createdAt": "2025-10-24T00:48:24.000Z",
-  "downloads": 139,
+  "downloads": 162,
   "likes": 16,
   "pipeline": "text-generation",
   "library": "LongCat-Flash-Omni",
@@ -412,7 +412,7 @@
  {
   "id": "meituan-longcat/LongCat-Flash-Omni",
   "createdAt": "2025-10-23T09:42:24.000Z",
-  "downloads": 459,
+  "downloads": 489,
   "likes": 116,
   "pipeline": "any-to-any",
   "library": "transformers",
@@ -439,7 +439,7 @@
  {
   "id": "meituan-longcat/LongCat-Flash-Thinking-FP8",
   "createdAt": "2025-09-21T08:54:31.000Z",
-  "downloads": 79,
+  "downloads": 110,
   "likes": 8,
   "pipeline": "text-generation",
   "library": "LongCat-Flash-Chat",
@@ -457,7 +457,7 @@
  {
   "id": "meituan-longcat/LongCat-Flash-Thinking",
   "createdAt": "2025-09-21T07:46:09.000Z",
-  "downloads": 309,
+  "downloads": 573,
   "likes": 148,
   "pipeline": "text-generation",
   "library": "LongCat-Flash-Chat",
@@ -474,7 +474,7 @@
  {
   "id": "meituan-longcat/LongCat-Flash-Chat-FP8",
   "createdAt": "2025-08-29T09:16:40.000Z",
-  "downloads": 193,
+  "downloads": 258,
   "likes": 25,
   "pipeline": "text-generation",
   "library": "LongCat-Flash-Chat",
@@ -492,7 +492,7 @@
  {
   "id": "meituan-longcat/LongCat-Flash-Chat",
   "createdAt": "2025-08-29T07:39:50.000Z",
-  "downloads": 18671,
+  "downloads": 15815,
   "likes": 540,
   "pipeline": "text-generation",
   "library": "LongCat-Flash-Chat",

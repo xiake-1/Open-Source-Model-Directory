@@ -2,7 +2,7 @@
  {
   "id": "CohereLabs/tiny-aya-base-32K",
   "createdAt": "2026-09-08T15:11:52.000Z",
-  "downloads": 17,
+  "downloads": 15,
   "likes": 4,
   "pipeline": "text-generation",
   "tags": [
@@ -13,7 +13,7 @@
  {
   "id": "CohereLabs/tiny-aya-en-thinker",
   "createdAt": "2026-09-02T15:29:28.000Z",
-  "downloads": 29,
+  "downloads": 12,
   "likes": 12,
   "pipeline": "text-generation",
   "tags": [
@@ -25,7 +25,7 @@
  {
   "id": "CohereLabs/tiny-aya-l2-thinker",
   "createdAt": "2026-09-02T15:22:12.000Z",
-  "downloads": 716,
+  "downloads": 369,
   "likes": 15,
   "pipeline": "text-generation",
   "tags": [
@@ -37,7 +37,7 @@
  {
   "id": "CohereLabs/North-Small-Translate-1.0-w4a16",
   "createdAt": "2026-08-14T18:35:28.000Z",
-  "downloads": 68,
+  "downloads": 76,
   "likes": 9,
   "pipeline": "translation",
   "tags": [
@@ -49,8 +49,8 @@
  {
   "id": "CohereLabs/North-Small-Translate-1.0",
   "createdAt": "2026-08-14T18:35:27.000Z",
-  "downloads": 136,
-  "likes": 61,
+  "downloads": 137,
+  "likes": 65,
   "pipeline": "translation",
   "tags": [
    "text-generation",
@@ -61,7 +61,7 @@
  {
   "id": "CohereLabs/North-Small-Translate-1.0-fp8",
   "createdAt": "2026-08-14T18:35:25.000Z",
-  "downloads": 759,
+  "downloads": 760,
   "likes": 7,
   "pipeline": "translation",
   "tags": [
@@ -73,7 +73,7 @@
  {
   "id": "CohereLabs/North-Micro-Vision-Instruct",
   "createdAt": "2026-08-10T13:20:37.000Z",
-  "downloads": 45760,
+  "downloads": 35947,
   "likes": 154,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -85,7 +85,7 @@
  {
   "id": "CohereLabs/North-Mini-Code-1.0-eagle",
   "createdAt": "2026-07-24T19:12:35.000Z",
-  "downloads": 355,
+  "downloads": 379,
   "likes": 9,
   "pipeline": "",
   "tags": [],
@@ -94,8 +94,8 @@
  {
   "id": "CohereLabs/cohere-transcribe-arabic-07-2026",
   "createdAt": "2026-06-18T19:44:59.000Z",
-  "downloads": 130002,
-  "likes": 226,
+  "downloads": 159538,
+  "likes": 232,
   "pipeline": "automatic-speech-recognition",
   "tags": [],
   "gated": "auto"
@@ -103,7 +103,7 @@
  {
   "id": "CohereLabs/North-Mini-Code-1.0-w4a16",
   "createdAt": "2026-06-16T05:36:51.000Z",
-  "downloads": 1046,
+  "downloads": 982,
   "likes": 61,
   "pipeline": "text-generation",
   "tags": [
@@ -115,7 +115,7 @@
  {
   "id": "CohereLabs/North-Mini-Code-1.0-fp8",
   "createdAt": "2026-06-08T20:52:56.000Z",
-  "downloads": 944,
+  "downloads": 966,
   "likes": 32,
   "pipeline": "text-generation",
   "tags": [
@@ -127,8 +127,8 @@
  {
   "id": "CohereLabs/North-Mini-Code-1.0",
   "createdAt": "2026-06-05T02:38:01.000Z",
-  "downloads": 7366,
-  "likes": 581,
+  "downloads": 7295,
+  "likes": 583,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -139,7 +139,7 @@
  {
   "id": "CohereLabs/command-a-plus-05-2026-w4a4",
   "createdAt": "2026-05-18T04:51:16.000Z",
-  "downloads": 3712,
+  "downloads": 4127,
   "likes": 250,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -151,7 +151,7 @@
  {
   "id": "CohereLabs/command-a-plus-05-2026-fp8",
   "createdAt": "2026-05-18T04:50:57.000Z",
-  "downloads": 1413,
+  "downloads": 1292,
   "likes": 40,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -163,7 +163,7 @@
  {
   "id": "CohereLabs/command-a-plus-05-2026-bf16",
   "createdAt": "2026-05-11T12:31:04.000Z",
-  "downloads": 19707,
+  "downloads": 18391,
   "likes": 146,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -175,8 +175,8 @@
  {
   "id": "CohereLabs/cohere-transcribe-03-2026",
   "createdAt": "2026-03-24T10:35:54.000Z",
-  "downloads": 120580,
-  "likes": 1191,
+  "downloads": 101814,
+  "likes": 1206,
   "pipeline": "automatic-speech-recognition",
   "tags": [],
   "gated": "auto"
@@ -184,7 +184,7 @@
  {
   "id": "CohereLabs/tiny-aya-earth-GGUF",
   "createdAt": "2026-02-16T17:38:18.000Z",
-  "downloads": 576,
+  "downloads": 532,
   "likes": 9,
   "pipeline": "",
   "tags": [
@@ -195,7 +195,7 @@
  {
   "id": "CohereLabs/tiny-aya-fire-GGUF",
   "createdAt": "2026-02-16T17:36:35.000Z",
-  "downloads": 240,
+  "downloads": 463,
   "likes": 9,
   "pipeline": "",
   "tags": [
@@ -206,7 +206,7 @@
  {
   "id": "CohereLabs/tiny-aya-water-GGUF",
   "createdAt": "2026-02-16T17:34:55.000Z",
-  "downloads": 991,
+  "downloads": 527,
   "likes": 19,
   "pipeline": "",
   "tags": [
@@ -217,7 +217,7 @@
  {
   "id": "CohereLabs/tiny-aya-global-GGUF",
   "createdAt": "2026-02-16T17:31:53.000Z",
-  "downloads": 2809,
+  "downloads": 3084,
   "likes": 32,
   "pipeline": "",
   "tags": [
@@ -228,7 +228,7 @@
  {
   "id": "CohereLabs/tiny-aya-fire",
   "createdAt": "2026-02-13T11:39:06.000Z",
-  "downloads": 695,
+  "downloads": 676,
   "likes": 29,
   "pipeline": "text-generation",
   "tags": [
@@ -240,7 +240,7 @@
  {
   "id": "CohereLabs/tiny-aya-earth",
   "createdAt": "2026-02-13T11:39:04.000Z",
-  "downloads": 2639,
+  "downloads": 7833,
   "likes": 29,
   "pipeline": "text-generation",
   "tags": [
@@ -252,8 +252,8 @@
  {
   "id": "CohereLabs/tiny-aya-water",
   "createdAt": "2026-02-13T11:38:57.000Z",
-  "downloads": 518,
-  "likes": 47,
+  "downloads": 667,
+  "likes": 48,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -264,8 +264,8 @@
  {
   "id": "CohereLabs/tiny-aya-global",
   "createdAt": "2026-02-13T09:13:01.000Z",
-  "downloads": 7716,
-  "likes": 178,
+  "downloads": 7948,
+  "likes": 179,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -276,7 +276,7 @@
  {
   "id": "CohereLabs/tiny-aya-base",
   "createdAt": "2026-02-13T02:47:42.000Z",
-  "downloads": 1996,
+  "downloads": 1786,
   "likes": 68,
   "pipeline": "text-generation",
   "tags": [
@@ -287,7 +287,7 @@
  {
   "id": "CohereLabs/command-a-translate-08-2025",
   "createdAt": "2025-08-27T13:15:37.000Z",
-  "downloads": 155,
+  "downloads": 160,
   "likes": 79,
   "pipeline": "text-generation",
   "tags": [
@@ -299,7 +299,7 @@
  {
   "id": "CohereLabs/command-a-reasoning-08-2025",
   "createdAt": "2025-08-12T15:27:10.000Z",
-  "downloads": 1346,
+  "downloads": 1141,
   "likes": 146,
   "pipeline": "text-generation",
   "tags": [
@@ -311,7 +311,7 @@
  {
   "id": "CohereLabs/command-a-vision-07-2025",
   "createdAt": "2025-07-28T07:55:07.000Z",
-  "downloads": 17868,
+  "downloads": 14168,
   "likes": 88,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -323,8 +323,8 @@
  {
   "id": "CohereLabs/c4ai-command-a-03-2025",
   "createdAt": "2025-03-11T09:10:05.000Z",
-  "downloads": 1533,
-  "likes": 397,
+  "downloads": 1516,
+  "likes": 398,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -335,8 +335,8 @@
  {
   "id": "CohereLabs/aya-vision-32b",
   "createdAt": "2025-03-02T21:36:40.000Z",
-  "downloads": 270,
-  "likes": 227,
+  "downloads": 284,
+  "likes": 226,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -347,8 +347,8 @@
  {
   "id": "CohereLabs/aya-vision-8b",
   "createdAt": "2025-03-02T18:06:46.000Z",
-  "downloads": 1380,
-  "likes": 327,
+  "downloads": 1025,
+  "likes": 326,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -359,7 +359,7 @@
  {
   "id": "CohereLabs/c4ai-command-r7b-arabic-02-2025",
   "createdAt": "2025-02-27T08:11:09.000Z",
-  "downloads": 1656,
+  "downloads": 1626,
   "likes": 132,
   "pipeline": "text-generation",
   "tags": [
@@ -380,8 +380,8 @@
  {
   "id": "CohereLabs/c4ai-command-r7b-12-2024",
   "createdAt": "2024-12-11T15:55:05.000Z",
-  "downloads": 6358,
-  "likes": 432,
+  "downloads": 5077,
+  "likes": 435,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",

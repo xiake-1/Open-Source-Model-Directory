@@ -1,15 +1,12 @@
 # HuggingFace AIGC 仓库核对结果（按机构）
 
 > 由 `_verify/aigc-fetch.mjs` 生成，createdAt 为仓库创建时间。
-> **下面「窗口内」这一段是 createdAt ≥ 2026-10-11（近 7 天新建，更新流程的口径） 的仓库**，
+> **下面「窗口内」这一段是 createdAt ≥ 2026-10-18（近 7 天新建，更新流程的口径） 的仓库**，
 > 元数据缓存 `_verify/hf-aigc/<author>.json` 仍是 2024-12 起的全量，供历史核对。
 
-## black-forest-labs（窗口内 4 / 缓存 34）
+## black-forest-labs（窗口内 0 / 缓存 34）
 
-- black-forest-labs/flux-3-image-klein-pup@2026-10-14  likes 50  dl 4279  image-text-to-text
-- black-forest-labs/flux-3-image-klein-comfy@2026-10-14  likes 737  dl 338036  image-to-image
-- black-forest-labs/flux-3-image-klein@2026-10-13  likes 470  dl 52315  image-to-image
-- black-forest-labs/flux-3-image-klein-base@2026-10-13  likes 139  dl 31881  image-to-image
+- （窗口内没有新建仓库）
 
 ## stabilityai（窗口内 0 / 缓存 30）
 
@@ -35,34 +32,26 @@
 
 - （窗口内没有新建仓库）
 
-## tencent（窗口内 3 / 缓存 159）
+## tencent（窗口内 5 / 缓存 164）
 
-- tencent/Qwen3-8B-DSpine-b16@2026-10-16  likes 21  dl 223  -
-- tencent/Hy-Memory-30B-A3B-FP8@2026-10-16  likes 6  dl 32  text-generation
-- tencent/Hy-Memory-30B-A3B@2026-10-15  likes 175  dl 1187  text-generation
+- tencent/Hy-Nomas-Diffusers@2026-10-24  likes 6  dl 49  diffusers
+- tencent/WeVisOne-VL-4B@2026-10-22  likes 36  dl 1052  image-text-to-text
+- tencent/WeVisOne-VL-2B@2026-10-22  likes 32  dl 658  image-text-to-text
+- tencent/Hy-Nomas@2026-10-21  likes 62  dl 0  hy-nomas
+- tencent/Hy-Memory-30B-A3B-GGUF@2026-10-19  likes 25  dl 18814  text-generation
 
-## nvidia（窗口内 15 / 缓存 746）
+## nvidia（窗口内 6 / 缓存 789）
 
-- nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-NVFP4@2026-10-16  likes 6  dl 507  text-generation
-- nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-MXFP8@2026-10-16  likes 4  dl 315  text-generation
-- nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-BF16@2026-10-16  likes 108  dl 1247  text-generation
-- nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-GGUF@2026-10-16  likes 34  dl 2953  text-generation
-- nvidia/Muse-Spark-Open-816B-A42B-DFlash2@2026-10-16  likes 4  dl 521  image-text-to-text
-- nvidia/Nemotron-3.5-Rerank-8B-BF16@2026-10-15  likes 16  dl 944  text-ranking
-- nvidia/ARDY-SOMA-RP-30FPS-KimodoRep-Horizon60@2026-10-13  likes 2  dl 30  ardy
-- nvidia/Kimodo-SOMA-RP-ArdyRep-v1.2@2026-10-13  likes 0  dl 19  kimodo
-- nvidia/Kimodo-SOMA-RP-v1.2@2026-10-13  likes 1  dl 481  kimodo
-- nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4@2026-10-12  likes 142  dl 7599  image-text-to-text
-- nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16@2026-10-12  likes 73  dl 11591  image-text-to-text
-- nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-Base-BF16@2026-10-12  likes 48  dl 705  image-text-to-text
-- nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-LiLiCorr@2026-10-12  likes 14  dl 1366  text-generation
-- nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-LiLiCorr-GGUF@2026-10-12  likes 21  dl 6176  text-generation
-- nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4-LiLiCorr@2026-10-11  likes 8  dl 1964  text-generation
+- nvidia/InternVideo2-CLIP-anomaly-detection@2026-10-22  likes 7  dl 74  tensorrt
+- nvidia/cosmos3-nano-libero10-sdg-export-S5_2_s43@2026-10-19  likes 0  dl 188  robotics
+- nvidia/Cosmos3-H-Embodied-Nano@2026-10-19  likes 2  dl 108  robotics
+- nvidia/Cosmos3-H-Dreams@2026-10-19  likes 8  dl 643  image-to-video
+- nvidia/cosmos3-nano-libero10-sdg-export-D2_s43@2026-10-19  likes 0  dl 162  robotics
+- nvidia/cosmos3-nano-libero10-sdg-export-S2_s43@2026-10-19  likes 1  dl 123  robotics
 
-## microsoft（窗口内 2 / 缓存 202）
+## microsoft（窗口内 0 / 缓存 204）
 
-- microsoft/scFM-dataselection@2026-10-16  likes 1  dl 0  -
-- microsoft/UserRepGen-4B@2026-10-14  likes 10  dl 848  text-generation
+- （窗口内没有新建仓库）
 
 ## Kwai-Kolors（窗口内 0 / 缓存 2）
 
@@ -84,10 +73,10 @@
 
 - （窗口内没有新建仓库）
 
-## lodestones（窗口内 2 / 缓存 18）
+## lodestones（窗口内 2 / 缓存 19）
 
-- lodestones/MOSS-Image-Base-8-steps-dmd@2026-10-18  likes 10  dl 484  diffusers
-- lodestones/MOSS-Image-SFT-8-steps-dmd@2026-10-16  likes 136  dl 30751  diffusers
+- lodestones/Kromoss@2026-10-19  likes 256  dl 23972  text-to-image
+- lodestones/MOSS-Image-Base-8-steps-dmd@2026-10-18  likes 51  dl 15471  diffusers
 
 ## Alpha-VLLM（窗口内 0 / 缓存 6）
 
@@ -97,10 +86,13 @@
 
 - （窗口内没有新建仓库）
 
-## Efficient-Large-Model（窗口内 2 / 缓存 121）
+## Efficient-Large-Model（窗口内 5 / 缓存 126）
 
-- Efficient-Large-Model/Sol-H3-VAE@2026-10-16  likes 0  dl 159  diffusers
-- Efficient-Large-Model/StreamRender-H3@2026-10-11  likes 4  dl 27747  minimax-h3
+- Efficient-Large-Model/Long-WAM-LIBERO-COD-LeRobot@2026-10-20  likes 0  dl 30  robotics
+- Efficient-Large-Model/Long-WAM-LIBERO-IDM-LeRobot@2026-10-20  likes 0  dl 34  robotics
+- Efficient-Large-Model/WORL-Lingbot@2026-10-19  likes 0  dl 28  image-to-video
+- Efficient-Large-Model/WORL-Helios@2026-10-19  likes 0  dl 17  text-to-video
+- Efficient-Large-Model/WORL-NVRM@2026-10-19  likes 0  dl 31  feature-extraction
 
 ## OmniGen（窗口内 0 / 缓存 0）
 
@@ -126,17 +118,17 @@
 
 - （窗口内没有新建仓库）
 
-## stepfun-ai（窗口内 1 / 缓存 52）
+## stepfun-ai（窗口内 0 / 缓存 52）
 
-- stepfun-ai/Step-5-Preview-NVFP4@2026-10-14  likes 16  dl 403  -
+- （窗口内没有新建仓库）
 
 ## OpenBMB（窗口内 0 / 缓存 0）
 
 - （窗口内没有新建仓库）
 
-## Skywork（窗口内 1 / 缓存 65）
+## Skywork（窗口内 0 / 缓存 65）
 
-- Skywork/Matrix-Game-4.0@2026-10-12  likes 36  dl 137  video-to-video
+- （窗口内没有新建仓库）
 
 ## xAI（窗口内 0 / 缓存 0）
 
@@ -198,9 +190,11 @@
 
 - （窗口内没有新建仓库）
 
-## TIGER-Lab（窗口内 0 / 缓存 58）
+## TIGER-Lab（窗口内 3 / 缓存 61）
 
-- （窗口内没有新建仓库）
+- TIGER-Lab/StopLoss-Qwen2.5-Coder-7B-Instruct@2026-10-19  likes 0  dl 16  peft
+- TIGER-Lab/StopLoss-Qwen3-8B@2026-10-19  likes 1  dl 21  peft
+- TIGER-Lab/StopLoss-Qwen2.5-7B-Instruct@2026-10-19  likes 0  dl 24  peft
 
 ## IndexTeam（窗口内 0 / 缓存 50）
 
@@ -222,9 +216,10 @@
 
 - （窗口内没有新建仓库）
 
-## inclusionAI（窗口内 1 / 缓存 214）
+## inclusionAI（窗口内 2 / 缓存 222）
 
-- inclusionAI/Ling-3.1-flash@2026-10-13  likes 119  dl 2191  text-generation
+- inclusionAI/Ling-3.0-tiny-UBTree@2026-10-21  likes 11  dl 303  text-generation
+- inclusionAI/Ling-3.0-flash-Sante@2026-10-19  likes 54  dl 441  text-generation
 
 ## AIDC-AI（窗口内 0 / 缓存 0）
 

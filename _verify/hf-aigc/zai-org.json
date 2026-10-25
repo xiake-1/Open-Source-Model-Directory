@@ -2,8 +2,8 @@
  {
   "id": "zai-org/GLM-5.3-Flash-BF16",
   "createdAt": "2026-08-25T06:45:05.000Z",
-  "downloads": 155275,
-  "likes": 74,
+  "downloads": 160924,
+  "likes": 76,
   "pipeline": "image-text-to-text",
   "library": "transformers",
   "gated": false,
@@ -21,8 +21,8 @@
  {
   "id": "zai-org/GLM-5.3-BF16",
   "createdAt": "2026-08-25T06:43:55.000Z",
-  "downloads": 40765,
-  "likes": 52,
+  "downloads": 25803,
+  "likes": 56,
   "pipeline": "text-generation",
   "library": "transformers",
   "gated": false,
@@ -40,8 +40,8 @@
  {
   "id": "zai-org/GLM-5.3-Flash",
   "createdAt": "2026-08-25T06:43:14.000Z",
-  "downloads": 6549444,
-  "likes": 2881,
+  "downloads": 6352272,
+  "likes": 2945,
   "pipeline": "image-text-to-text",
   "library": "transformers",
   "gated": false,
@@ -61,8 +61,8 @@
  {
   "id": "zai-org/GLM-5.3",
   "createdAt": "2026-08-25T06:42:50.000Z",
-  "downloads": 1834350,
-  "likes": 2252,
+  "downloads": 2074062,
+  "likes": 2306,
   "pipeline": "text-generation",
   "library": "transformers",
   "gated": false,
@@ -82,8 +82,8 @@
  {
   "id": "zai-org/GLM-5.2",
   "createdAt": "2026-06-16T07:39:20.000Z",
-  "downloads": 429881,
-  "likes": 5183,
+  "downloads": 298589,
+  "likes": 5185,
   "pipeline": "text-generation",
   "library": "transformers",
   "gated": false,
@@ -102,7 +102,7 @@
  {
   "id": "zai-org/GLM-5.2-FP8",
   "createdAt": "2026-06-16T07:20:33.000Z",
-  "downloads": 199869,
+  "downloads": 157384,
   "likes": 268,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -122,8 +122,8 @@
  {
   "id": "zai-org/SCAIL-2",
   "createdAt": "2026-06-09T07:18:27.000Z",
-  "downloads": 4406,
-  "likes": 345,
+  "downloads": 5328,
+  "likes": 348,
   "pipeline": "image-to-video",
   "library": "scail-2",
   "gated": false,
@@ -139,7 +139,7 @@
  {
   "id": "zai-org/GLM-5.1-FP8",
   "createdAt": "2026-04-03T09:29:04.000Z",
-  "downloads": 23494,
+  "downloads": 19669,
   "likes": 122,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -160,8 +160,8 @@
  {
   "id": "zai-org/GLM-5.1",
   "createdAt": "2026-04-03T09:28:47.000Z",
-  "downloads": 546896,
-  "likes": 1846,
+  "downloads": 726699,
+  "likes": 1850,
   "pipeline": "text-generation",
   "library": "transformers",
   "gated": false,
@@ -180,8 +180,8 @@
  {
   "id": "zai-org/GLM-5",
   "createdAt": "2026-02-11T04:55:46.000Z",
-  "downloads": 897653,
-  "likes": 2137,
+  "downloads": 1169522,
+  "likes": 2139,
   "pipeline": "text-generation",
   "library": "transformers",
   "gated": false,
@@ -200,7 +200,7 @@
  {
   "id": "zai-org/GLM-5-FP8",
   "createdAt": "2026-02-11T04:05:41.000Z",
-  "downloads": 19953,
+  "downloads": 18674,
   "likes": 183,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -221,8 +221,8 @@
  {
   "id": "zai-org/GLM-OCR",
   "createdAt": "2026-01-30T04:24:21.000Z",
-  "downloads": 1700675,
-  "likes": 2162,
+  "downloads": 1683243,
+  "likes": 2180,
   "pipeline": "image-to-text",
   "library": "transformers",
   "gated": false,
@@ -244,8 +244,8 @@
  {
   "id": "zai-org/GLM-4.7-Flash",
   "createdAt": "2026-01-19T06:28:10.000Z",
-  "downloads": 1175531,
-  "likes": 1880,
+  "downloads": 953714,
+  "likes": 1888,
   "pipeline": "text-generation",
   "library": "transformers",
   "gated": false,
@@ -264,8 +264,8 @@
  {
   "id": "zai-org/GLM-Image",
   "createdAt": "2026-01-08T09:39:56.000Z",
-  "downloads": 2866,
-  "likes": 1121,
+  "downloads": 4997,
+  "likes": 1124,
   "pipeline": "text-to-image",
   "library": "diffusers",
   "gated": false,
@@ -280,7 +280,7 @@
  {
   "id": "zai-org/GLM-4.7-FP8",
   "createdAt": "2025-12-22T13:41:42.000Z",
-  "downloads": 16005,
+  "downloads": 16702,
   "likes": 126,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -301,8 +301,8 @@
  {
   "id": "zai-org/GLM-4.7",
   "createdAt": "2025-12-22T07:45:52.000Z",
-  "downloads": 82754,
-  "likes": 2068,
+  "downloads": 77896,
+  "likes": 2072,
   "pipeline": "text-generation",
   "library": "transformers",
   "gated": false,
@@ -335,7 +335,7 @@
  {
   "id": "zai-org/GLM-TTS",
   "createdAt": "2025-12-10T09:59:48.000Z",
-  "downloads": 707,
+  "downloads": 698,
   "likes": 351,
   "pipeline": "text-to-speech",
   "library": "glm-tts",
@@ -357,7 +357,7 @@
  {
   "id": "zai-org/GLM-ASR-Nano-2512",
   "createdAt": "2025-12-09T09:07:41.000Z",
-  "downloads": 49691,
+  "downloads": 34526,
   "likes": 388,
   "pipeline": "automatic-speech-recognition",
   "library": "transformers",
@@ -377,7 +377,7 @@
  {
   "id": "zai-org/AutoGLM-Phone-9B-Multilingual",
   "createdAt": "2025-12-09T04:16:21.000Z",
-  "downloads": 964,
+  "downloads": 1265,
   "likes": 243,
   "pipeline": "image-text-to-text",
   "library": "transformers",
@@ -406,7 +406,7 @@
  {
   "id": "zai-org/AutoGLM-Phone-9B",
   "createdAt": "2025-12-08T08:20:34.000Z",
-  "downloads": 2411,
+  "downloads": 3488,
   "likes": 446,
   "pipeline": "image-text-to-text",
   "library": "transformers",
@@ -425,7 +425,7 @@
  {
   "id": "zai-org/GLM-4.6V-FP8",
   "createdAt": "2025-12-07T07:21:18.000Z",
-  "downloads": 1795,
+  "downloads": 1699,
   "likes": 32,
   "pipeline": "image-text-to-text",
   "library": "transformers",
@@ -445,7 +445,7 @@
  {
   "id": "zai-org/GLM-4.6V",
   "createdAt": "2025-12-07T07:20:45.000Z",
-  "downloads": 3510,
+  "downloads": 4052,
   "likes": 398,
   "pipeline": "image-text-to-text",
   "library": "transformers",
@@ -464,7 +464,7 @@
  {
   "id": "zai-org/GLM-4.6V-Flash",
   "createdAt": "2025-12-07T06:30:04.000Z",
-  "downloads": 102939,
+  "downloads": 77323,
   "likes": 631,
   "pipeline": "image-text-to-text",
   "library": "transformers",
@@ -494,7 +494,7 @@
  {
   "id": "zai-org/WebVIA-Agent",
   "createdAt": "2025-11-12T04:39:14.000Z",
-  "downloads": 340,
+  "downloads": 414,
   "likes": 21,
   "pipeline": "image-text-to-text",
   "library": "transformers",
@@ -513,7 +513,7 @@
  {
   "id": "zai-org/UI2Code_N",
   "createdAt": "2025-11-11T11:18:32.000Z",
-  "downloads": 376,
+  "downloads": 445,
   "likes": 27,
   "pipeline": "image-text-to-text",
   "library": "transformers",
@@ -544,7 +544,7 @@
  {
   "id": "zai-org/Glyph",
   "createdAt": "2025-10-25T06:19:07.000Z",
-  "downloads": 551,
+  "downloads": 906,
   "likes": 75,
   "pipeline": "image-text-to-text",
   "library": "transformers",
@@ -563,8 +563,8 @@
  {
   "id": "zai-org/GLM-4.6",
   "createdAt": "2025-09-29T18:22:51.000Z",
-  "downloads": 19392,
-  "likes": 1239,
+  "downloads": 22531,
+  "likes": 1246,
   "pipeline": "text-generation",
   "library": "transformers",
   "gated": false,
@@ -583,7 +583,7 @@
  {
   "id": "zai-org/GLM-4.6-FP8",
   "createdAt": "2025-09-29T07:52:20.000Z",
-  "downloads": 6183,
+  "downloads": 6416,
   "likes": 97,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -604,8 +604,8 @@
  {
   "id": "zai-org/GLM-4.5V",
   "createdAt": "2025-08-10T13:55:30.000Z",
-  "downloads": 30787,
-  "likes": 724,
+  "downloads": 24483,
+  "likes": 726,
   "pipeline": "image-text-to-text",
   "library": "transformers",
   "gated": false,
@@ -623,7 +623,7 @@
  {
   "id": "zai-org/GLM-4.5V-FP8",
   "createdAt": "2025-08-10T13:41:24.000Z",
-  "downloads": 2380,
+  "downloads": 2238,
   "likes": 43,
   "pipeline": "image-text-to-text",
   "library": "transformers",
@@ -643,7 +643,7 @@
  {
   "id": "zai-org/GLM-4.5-Base",
   "createdAt": "2025-07-20T05:14:19.000Z",
-  "downloads": 591,
+  "downloads": 683,
   "likes": 61,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -661,7 +661,7 @@
  {
   "id": "zai-org/GLM-4.5-Air-FP8",
   "createdAt": "2025-07-20T03:30:00.000Z",
-  "downloads": 25442,
+  "downloads": 17437,
   "likes": 82,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -684,7 +684,7 @@
  {
   "id": "zai-org/GLM-4.5-FP8",
   "createdAt": "2025-07-20T03:29:41.000Z",
-  "downloads": 3865,
+  "downloads": 3773,
   "likes": 78,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -706,8 +706,8 @@
  {
   "id": "zai-org/GLM-4.5-Air",
   "createdAt": "2025-07-20T03:25:55.000Z",
-  "downloads": 756403,
-  "likes": 646,
+  "downloads": 975369,
+  "likes": 647,
   "pipeline": "text-generation",
   "library": "transformers",
   "gated": false,
@@ -726,8 +726,8 @@
  {
   "id": "zai-org/GLM-4.5",
   "createdAt": "2025-07-20T03:25:36.000Z",
-  "downloads": 119277,
-  "likes": 1417,
+  "downloads": 110756,
+  "likes": 1419,
   "pipeline": "text-generation",
   "library": "transformers",
   "gated": false,
@@ -746,7 +746,7 @@
  {
   "id": "zai-org/GLM-4.5-Air-Base",
   "createdAt": "2025-07-20T03:24:43.000Z",
-  "downloads": 6048,
+  "downloads": 2459,
   "likes": 47,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -764,7 +764,7 @@
  {
   "id": "zai-org/GLM-4.1V-9B-Thinking",
   "createdAt": "2025-06-28T14:24:10.000Z",
-  "downloads": 125404,
+  "downloads": 83775,
   "likes": 791,
   "pipeline": "image-text-to-text",
   "library": "transformers",
@@ -784,7 +784,7 @@
  {
   "id": "zai-org/GLM-4.1V-9B-Base",
   "createdAt": "2025-06-28T14:23:46.000Z",
-  "downloads": 775,
+  "downloads": 1093,
   "likes": 68,
   "pipeline": "image-text-to-text",
   "library": "transformers",
@@ -804,7 +804,7 @@
  {
   "id": "zai-org/androidgen-llama-3-70b",
   "createdAt": "2025-05-28T07:58:34.000Z",
-  "downloads": 111,
+  "downloads": 348,
   "likes": 3,
   "pipeline": "",
   "library": "",
@@ -823,7 +823,7 @@
  {
   "id": "zai-org/androidgen-glm-4-9b",
   "createdAt": "2025-05-28T07:58:17.000Z",
-  "downloads": 206,
+  "downloads": 237,
   "likes": 3,
   "pipeline": "",
   "library": "",
@@ -843,7 +843,7 @@
  {
   "id": "zai-org/GLM-Z1-Rumination-32B-0414",
   "createdAt": "2025-04-13T12:06:04.000Z",
-  "downloads": 681,
+  "downloads": 976,
   "likes": 119,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -862,7 +862,7 @@
  {
   "id": "zai-org/GLM-Z1-32B-0414",
   "createdAt": "2025-04-08T06:57:28.000Z",
-  "downloads": 3470,
+  "downloads": 12306,
   "likes": 196,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -881,7 +881,7 @@
  {
   "id": "zai-org/GLM-Z1-9B-0414",
   "createdAt": "2025-04-08T06:39:51.000Z",
-  "downloads": 1737,
+  "downloads": 1760,
   "likes": 92,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -900,7 +900,7 @@
  {
   "id": "zai-org/GLM-4-32B-Base-0414",
   "createdAt": "2025-04-07T12:53:57.000Z",
-  "downloads": 578,
+  "downloads": 701,
   "likes": 38,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -918,7 +918,7 @@
  {
   "id": "zai-org/GLM-4-32B-0414",
   "createdAt": "2025-04-07T12:53:41.000Z",
-  "downloads": 5263,
+  "downloads": 5322,
   "likes": 489,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -937,7 +937,7 @@
  {
   "id": "zai-org/GLM-4-9B-0414",
   "createdAt": "2025-04-07T11:57:02.000Z",
-  "downloads": 11949,
+  "downloads": 14009,
   "likes": 111,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -956,7 +956,7 @@
  {
   "id": "zai-org/SWE-Dev-9B",
   "createdAt": "2025-04-06T15:01:41.000Z",
-  "downloads": 207,
+  "downloads": 243,
   "likes": 14,
   "pipeline": "",
   "library": "",
@@ -970,7 +970,7 @@
  {
   "id": "zai-org/SWE-Dev-32B",
   "createdAt": "2025-04-06T13:33:41.000Z",
-  "downloads": 274,
+  "downloads": 513,
   "likes": 31,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -988,7 +988,7 @@
  {
   "id": "zai-org/SWE-Dev-7B",
   "createdAt": "2025-04-06T13:33:25.000Z",
-  "downloads": 134,
+  "downloads": 342,
   "likes": 7,
   "pipeline": "",
   "library": "",
@@ -1001,7 +1001,7 @@
  {
   "id": "zai-org/CogView4-6B",
   "createdAt": "2025-03-03T12:19:58.000Z",
-  "downloads": 3249,
+  "downloads": 3836,
   "likes": 258,
   "pipeline": "text-to-image",
   "library": "diffusers",
@@ -1032,7 +1032,7 @@
  {
   "id": "zai-org/glm-4-9b-hf",
   "createdAt": "2025-01-16T06:02:41.000Z",
-  "downloads": 2027,
+  "downloads": 2154,
   "likes": 10,
   "pipeline": "text-generation",
   "library": "",
@@ -1050,7 +1050,7 @@
  {
   "id": "zai-org/cogagent-9b-20241220",
   "createdAt": "2024-12-20T07:14:53.000Z",
-  "downloads": 531,
+  "downloads": 589,
   "likes": 55,
   "pipeline": "image-text-to-text",
   "library": "transformers",
@@ -1084,7 +1084,7 @@
  {
   "id": "zai-org/VisionReward-Video",
   "createdAt": "2024-12-10T09:40:56.000Z",
-  "downloads": 1791,
+  "downloads": 2178,
   "likes": 10,
   "pipeline": "text-generation",
   "library": "",
@@ -1103,7 +1103,7 @@
  {
   "id": "zai-org/webrl-orm-llama-3.1-8b",
   "createdAt": "2024-12-09T02:11:36.000Z",
-  "downloads": 151,
+  "downloads": 158,
   "likes": 2,
   "pipeline": "",
   "library": "",
