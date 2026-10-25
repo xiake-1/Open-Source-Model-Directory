@@ -7,6 +7,7 @@ summary: 约 300 行 PyTorch 复现的「迷你 vLLM」：只保留 PagedAttenti
 tags: []
 license: MIT
 params: 推理引擎教学实现
+status: dead
 links:
   github: https://github.com/GeeeekExplorer/nano-vllm
 ---
@@ -26,3 +27,9 @@ nano-vllm 把实现砍到最小可运行集：块化 KV cache、采样循环、�
 
 - 只覆盖 NVIDIA 上的常见 LLM 结构，量化 / 张量并行 / 多模态一概没有，不能直接上生产。
 - 它是教学实现，性能与 [vLLM](/deploy/vllm/) 不在一个量级，别拿它做吞吐对比。
+
+## 维护状态（2026-10-25 巡检）
+
+最后一次提交是 2026-04-26，已经越过「近 6 个月有提交」这条线，条目按停更标记。
+仓库与代码都还在，它仍是读懂 PagedAttention + 连续批处理骨架最短的一条路径；
+但新的模型结构（MLA、多模态、新的 KV 布局）不会跟进，拿它当魔改基座前先确认范围还在。
