@@ -8,7 +8,10 @@
  *   cardData.license → license 与 commercial 的核对
  * 其余（summary / family / vram / 中文名）由 plan 人工给出。
  *
- * 用法：node _verify/generate.mjs [slug 前缀过滤]
+ * 用法：node _verify/generate.mjs [slug 前缀过滤] [--rewrite]
+ *   默认只写「内容里还不存在」的新 slug；既有条目多已人工定稿（params 按官方声明值钉死、
+ *   简介带「权重实测 X」补语），全量重写会把它们覆盖回 HF 实测值——2026-11-09 周检实际踩到
+ *   （119 条被覆盖，git 还原）。确要按 plans 整体重写口径，加 --rewrite。
  */
 import fs from 'node:fs/promises';
 import path from 'node:path';
@@ -69,11 +72,17 @@ async function enrich(repo) {
 }
 
 const LIMIT = Number(process.env.GEN_LIMIT ?? 0);
-const FILTER = process.argv[2] ?? '';
+const FILTER = process.argv.slice(2).find((a) => !a.startsWith('--')) ?? '';
+const REWRITE = process.argv.includes('--rewrite');
 const CONCURRENCY = Number(process.env.GEN_CONC ?? 4);
 
-const queue = models.filter((m) => !FILTER || m.slug.startsWith(FILTER));
-console.log(`plan=${models.length} todo=${queue.length}${LIMIT ? ` limit=${LIMIT}` : ''}`);
+let skipped = 0;
+const queue = [];
+for (const m of models.filter((m) => !FILTER || m.slug.startsWith(FILTER))) {
+  if (!REWRITE && (await fs.stat(path.join('src/content/llm', `${m.slug}.md`)).then(() => true, () => false))) { skipped++; continue; }
+  queue.push(m);
+}
+console.log(`plan=${models.length} todo=${queue.length}${skipped ? ` skipped=${skipped}（内容里已存在，--rewrite 才重写）` : ''}${LIMIT ? ` limit=${LIMIT}` : ''}`);
 
 const results = [];
 let idx = 0;

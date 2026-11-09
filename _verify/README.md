@@ -16,7 +16,7 @@
 | `hf-config.mjs` | 单个仓库的 `config.json` 关键字段（专家数 / 上下文 / 模型类型）与真实参数量，用来核对存疑型号 |
 | `hf-license.mjs` / `hf-licenses-all.mjs` / `hf-license-inline.mjs` | 抓仓库里的 LICENSE：关键词体检 / 标题落盘到 `licenses.json` / 判断是否夹带了 Apache-2.0、MIT 全文。可用 `LIC_REPOS='owner/a,...'` 只抓指定仓库 |
 | `hf-downloads.mjs` | **生成站点的热度快照** `src/data/hf-downloads.json`：按每个条目的 `links.hf` 拉一次近 30 天下载量与 likes。构建期不联网，只读这份快照，所以想刷新列表页左侧的「热度」分档就跑它（`--dry` 只看覆盖率） |
-| `generate.mjs` | **读 `plans.mjs` 生成 `src/content/llm/*.md`**：补参数量、许可、专家数，与 `released` 交叉核验后打印告警 |
+| `generate.mjs` | **读 `plans.mjs` 生成 `src/content/llm/*.md`**：补参数量、许可、专家数，与 `released` 交叉核验后打印告警。**默认只写内容里还不存在的新 slug**——既有条目多已按「官方声明值」人工定稿（plans 里不少缺 `totalB` 钉值），全量重写会把它们覆盖回 HF 实测值（2026-11-09 踩到 119 条）；要按 plans 整体重写才 `--rewrite`，也可用 `[slug 前缀]` 只跑一批 |
 | `license-policy.mjs` | `license` → `commercial` 的判定（口径见 `docs/项目结构/项目说明.md` 的「商用怎么判」），两个 generate 共用 |
 | `params-check.mjs` / `params-fix.mjs` | 检查（可选 `--apply` 修正）既有条目的 `params` 与 HF 实测参数量是否偏差 ≥5B |
 | `cross-check.mjs` | 与 `final.json`（上一轮带证据链的核实结果）交叉核对关键字段 |
