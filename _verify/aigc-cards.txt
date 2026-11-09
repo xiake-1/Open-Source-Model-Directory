@@ -1,0 +1,45 @@
+
+########## NousResearch/Arete-27B ##########
+# Arete-27B
+We post-trained over Alibaba's Qwen3.8-27B to reinforce western values on a Chinese-trained model. We call this new model Arete-27B.
+Open source models give labs the raw tools to mold intelligence to varied preferences. The values a model ships with should not be the only values its users get to choose from. We observed firsthand refusals, deflections, and CCP-framed answers on politically sensitive topics in Qwen3.8-27B, and post-trained to alter those biases.
+On our evaluation, Arete-27B raised its fact score from 2.32 to 2.98 out of 5 and cut answers containing propaganda from 22% to 0.9%. The improvement held in all seven value categories, without a meaningful regression on the general-capability and agentic benchmarks we ran.
+That is not to claim that we remedied all behaviors associated with the extant viewpoint, but that we have addressed a potential root cause. We believe it's important that labs and researchers continue to create models that align with their values and worldviews, and we are thankful that companies like Alibaba provide the raw materials to do so.
+
+########## ricursiveAI/Ripple-65B-Preview ##########
+# Ripple-65B Preview
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://framerusercontent.com/images/rSaJGoPP1Saln5kpScZNGCw.png" width="30%">
+  <source media="(prefers-color-scheme: light)" srcset="https://framerusercontent.com/images/3rFANSmoZuSBhjRwxZolyEU5guo.png" width="30%">
+  <img alt="Ricursive Logo" src="https://framerusercontent.com/images/3rFANSmoZuSBhjRwxZolyEU5guo.png" width="30%">
+</picture>
+</div>
+<p align="center">
+  <a href="https://huggingface.co/ricursiveAI/Ripple-65B-Preview">BF16</a> |
+  <a href="https://huggingface.co/ricursiveAI/Ripple-65B-Preview-NVFP4">NVFP4</a> |
+  <a href="https://huggingface.co/ricursiveAI/Ripple-65B-Base-Preview">Base Model</a> |
+  <a href="https://huggingface.co/ricursiveAI/Ripple-65B-Preview-DFlash2">DFlash2</a> |
+  <a href="https://www.ricursive.com/ripple">Launch Blog</a> | 
+  License: <a href="https://huggingface.co/ricursiveAI/Ripple-65B-Preview/blob/main/LICENSE">Apache 2.0</a>
+</p>
+Ricursive Intelligence introduces **Ripple-65B Preview**, a 65B parameter dense Transformer model pretrained
+
+########## FusionCow/Sulphur-3 ##########
+!! HTTP 401
+
+########## deep-principle/Hydrogen-1.0 ##########
+!! HTTP 401
+
+########## speridlabs/idol ##########
+<h1 align="center">Idol</h1>
+<p align="center"><b>A single image to a 3D Gaussian splat.</b><br>One picture of an object in, up to a million 3D Gaussians out, including the sides the picture never showed.</p>
+<p align="center">
+  <a href="https://speridlabs.com/research/idol"><img alt="Project Page" src="https://img.shields.io/badge/%F0%9F%8C%90%20Project%20Page-1f6feb?style=for-the-badge"></a>
+  <a href="https://github.com/speridlabs/idol-sdk"><img alt="Code" src="https://img.shields.io/badge/Code-181717?style=for-the-badge&logo=github"></a>
+  <a href="https://huggingface.co/spaces/speridlabs/idol"><img alt="Demo" src="https://img.shields.io/badge/%F0%9F%A4%97%20Demo-ffcc4d?style=for-the-badge"></a>
+</p>
+Idol turns one picture of an object into a 3D Gaussian splat. Give it a render, a generated image or a photo: it removes the background, frames the object and generates up to 1,048,576
+Gaussians, written as a standard 3DGS `.ply`. It runs on consumer GPUs, using 7.2 GB of VRAM and can run in under 2 seconds.
+<div align="center">
+  <video src="https://huggingface.co/speridlabs/idol/r

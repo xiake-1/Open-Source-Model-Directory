@@ -21,6 +21,7 @@ const AUTHORS = [
   'stabilityai', 'Zyphra', 'RWKV', 'databricks', 'LGAI-EXAONE', 'upstage', 'naver',
   'swiss-ai', 'utter-project', 'xai-org', 'amazon', 'Salesforce', 'ServiceNow',
   'togethercomputer', 'SakanaAI', 'RekaAI', 'Nexusflow', 'ZyphraAI', 'KRAFTON', 'RecursiveSI',
+  'ricursiveAI', // Ricursive Intelligence，注意与上一行的 Recursive（RecursiveSI）是两家
 ];
 
 /**

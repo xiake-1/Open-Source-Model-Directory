@@ -8802,5 +8802,130 @@
   "architectures": [
    "NemotronH_Omni_Reasoning_V3"
   ]
+ },
+ "inclusionAI/Ling-3.1-flash-1019": {
+  "repo": "inclusionAI/Ling-3.1-flash-1019",
+  "created": "2026-10-27",
+  "lastModified": "2026-11-04",
+  "license": "mit",
+  "pipeline": "text-generation",
+  "likes": 98,
+  "downloads": 3651,
+  "gated": false,
+  "totalParams": 572120680768,
+  "tags": [
+   "safetensors",
+   "bailing_hybrid",
+   "text-generation",
+   "conversational",
+   "custom_code",
+   "license:mit",
+   "eval-results",
+   "fp8",
+   "region:us"
+  ],
+  "experts": 512,
+  "maxPos": 262144,
+  "modelType": "bailing_hybrid",
+  "hidden": 4096,
+  "layers": 72,
+  "architectures": [
+   "BailingMoeV3ForCausalLM"
+  ]
+ },
+ "sensenova/SenseNova-Loop-9B-Preview": {
+  "repo": "sensenova/SenseNova-Loop-9B-Preview",
+  "created": "2026-10-28",
+  "lastModified": "2026-11-02",
+  "license": "apache-2.0",
+  "pipeline": "image-text-to-text",
+  "likes": 281,
+  "downloads": 3756,
+  "gated": false,
+  "totalParams": 9656250480,
+  "tags": [
+   "transformers",
+   "safetensors",
+   "sensenova_loop",
+   "text-generation",
+   "multimodal",
+   "image-text-to-text",
+   "looped-transformer",
+   "mhc",
+   "custom_code",
+   "conversational",
+   "en",
+   "zh",
+   "license:apache-2.0",
+   "region:us"
+  ],
+  "experts": null,
+  "maxPos": null,
+  "modelType": "sensenova_loop",
+  "hidden": 4096,
+  "layers": null,
+  "architectures": [
+   "SenseNovaLoopForConditionalGeneration"
+  ]
+ },
+ "ricursiveAI/Ripple-65B-Preview": {
+  "repo": "ricursiveAI/Ripple-65B-Preview",
+  "created": "2026-11-04",
+  "lastModified": "2026-11-06",
+  "license": "apache-2.0",
+  "pipeline": "",
+  "likes": 419,
+  "downloads": 5087,
+  "gated": false,
+  "totalParams": 64782689360,
+  "tags": [
+   "safetensors",
+   "ricursive",
+   "custom_code",
+   "license:apache-2.0",
+   "region:us"
+  ],
+  "experts": null,
+  "maxPos": 2097152,
+  "modelType": "ricursive",
+  "hidden": 5120,
+  "layers": 80,
+  "architectures": [
+   "RicursiveForCausalLM"
+  ]
+ },
+ "moonshotai/Kimi-K3.1-Pro": {
+  "repo": "moonshotai/Kimi-K3.1-Pro",
+  "created": "2026-11-02",
+  "lastModified": "2026-11-05",
+  "license": "other",
+  "pipeline": "image-text-to-text",
+  "likes": 1745,
+  "downloads": 25569,
+  "gated": false,
+  "totalParams": 2780110363392,
+  "tags": [
+   "transformers",
+   "safetensors",
+   "kimi_k31",
+   "text-generation",
+   "compressed-tensors",
+   "conversational",
+   "image-text-to-text",
+   "custom_code",
+   "license:other",
+   "eval-results",
+   "endpoints_compatible",
+   "8-bit",
+   "region:us"
+  ],
+  "experts": null,
+  "maxPos": null,
+  "modelType": "kimi_k31",
+  "hidden": null,
+  "layers": null,
+  "architectures": [
+   "KimiK31ForConditionalGeneration"
+  ]
  }
 }
