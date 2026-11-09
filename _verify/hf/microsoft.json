@@ -1,9 +1,21 @@
 [
  {
+  "id": "microsoft/Mage-VL-Cowork",
+  "createdAt": "2026-10-30T12:13:24.000Z",
+  "downloads": 3575,
+  "likes": 215,
+  "pipeline": "image-text-to-text",
+  "tags": [
+   "image-text-to-text",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
   "id": "microsoft/Sentiment-Analysis-7B",
   "createdAt": "2026-10-17T00:51:18.000Z",
-  "downloads": 857,
-  "likes": 22,
+  "downloads": 2639,
+  "likes": 33,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -23,8 +35,8 @@
  {
   "id": "microsoft/UserRepGen-4B",
   "createdAt": "2026-10-14T20:30:00.000Z",
-  "downloads": 1737,
-  "likes": 24,
+  "downloads": 2824,
+  "likes": 28,
   "pipeline": "text-generation",
   "tags": [
    "image-text-to-text",
@@ -34,10 +46,33 @@
   "gated": false
  },
  {
+  "id": "microsoft/UserLM-2.0",
+  "createdAt": "2026-10-01T17:14:05.000Z",
+  "downloads": 705,
+  "likes": 15,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "microsoft/OptiMind-RL",
+  "createdAt": "2026-09-30T01:52:25.000Z",
+  "downloads": 43,
+  "likes": 1,
+  "pipeline": "reinforcement-learning",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
   "id": "microsoft/AesCode-32B",
   "createdAt": "2026-09-29T13:05:36.000Z",
-  "downloads": 1448,
-  "likes": 55,
+  "downloads": 2122,
+  "likes": 59,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -48,8 +83,8 @@
  {
   "id": "microsoft/AesCode-8B",
   "createdAt": "2026-09-29T13:04:44.000Z",
-  "downloads": 1540,
-  "likes": 78,
+  "downloads": 2574,
+  "likes": 81,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -61,7 +96,7 @@
   "id": "microsoft/rho-roboeval",
   "createdAt": "2026-09-21T19:13:53.000Z",
   "downloads": 0,
-  "likes": 4,
+  "likes": 5,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -69,8 +104,8 @@
  {
   "id": "microsoft/FrogNano-4B-2609",
   "createdAt": "2026-09-17T00:13:57.000Z",
-  "downloads": 2375,
-  "likes": 165,
+  "downloads": 2365,
+  "likes": 179,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -78,8 +113,8 @@
  {
   "id": "microsoft/VibeVoice-ASR-Streaming-1.5B",
   "createdAt": "2026-09-02T15:51:38.000Z",
-  "downloads": 1943,
-  "likes": 64,
+  "downloads": 1803,
+  "likes": 66,
   "pipeline": "automatic-speech-recognition",
   "tags": [],
   "gated": false
@@ -87,8 +122,8 @@
  {
   "id": "microsoft/VibeVoice-ASR-Streaming-7B",
   "createdAt": "2026-09-02T15:46:22.000Z",
-  "downloads": 1609,
-  "likes": 265,
+  "downloads": 5131,
+  "likes": 267,
   "pipeline": "automatic-speech-recognition",
   "tags": [],
   "gated": false
@@ -97,7 +132,7 @@
   "id": "microsoft/rho-libero",
   "createdAt": "2026-08-28T23:17:11.000Z",
   "downloads": 0,
-  "likes": 3,
+  "likes": 4,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -106,7 +141,7 @@
   "id": "microsoft/bioemu2",
   "createdAt": "2026-08-27T08:53:53.000Z",
   "downloads": 0,
-  "likes": 17,
+  "likes": 25,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -124,7 +159,7 @@
   "id": "microsoft/rho-yam-box",
   "createdAt": "2026-08-26T21:10:42.000Z",
   "downloads": 0,
-  "likes": 7,
+  "likes": 8,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -133,7 +168,7 @@
   "id": "microsoft/rho-ur-ai-trainer",
   "createdAt": "2026-08-26T21:10:08.000Z",
   "downloads": 0,
-  "likes": 3,
+  "likes": 4,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -142,7 +177,7 @@
   "id": "microsoft/rho-fr3-duo",
   "createdAt": "2026-08-26T21:09:30.000Z",
   "downloads": 0,
-  "likes": 3,
+  "likes": 4,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -150,8 +185,8 @@
  {
   "id": "microsoft/Mage-ViT",
   "createdAt": "2026-07-26T04:22:45.000Z",
-  "downloads": 300,
-  "likes": 44,
+  "downloads": 396,
+  "likes": 47,
   "pipeline": "image-feature-extraction",
   "tags": [],
   "gated": false
@@ -159,8 +194,8 @@
  {
   "id": "microsoft/Mage-VL",
   "createdAt": "2026-07-25T08:29:09.000Z",
-  "downloads": 8197,
-  "likes": 440,
+  "downloads": 6333,
+  "likes": 451,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -171,8 +206,8 @@
  {
   "id": "microsoft/VibeVoice-ASR-BitNet",
   "createdAt": "2026-07-24T06:03:05.000Z",
-  "downloads": 67439,
-  "likes": 209,
+  "downloads": 95786,
+  "likes": 214,
   "pipeline": "automatic-speech-recognition",
   "tags": [
    "conversational"
@@ -182,8 +217,8 @@
  {
   "id": "microsoft/Fara1.5-27B",
   "createdAt": "2026-07-17T20:09:59.000Z",
-  "downloads": 2330,
-  "likes": 297,
+  "downloads": 3364,
+  "likes": 299,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -194,8 +229,8 @@
  {
   "id": "microsoft/Fara1.5-4B",
   "createdAt": "2026-07-17T19:59:47.000Z",
-  "downloads": 1526,
-  "likes": 57,
+  "downloads": 2590,
+  "likes": 60,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -206,8 +241,8 @@
  {
   "id": "microsoft/bitnet-embedding-0.6b",
   "createdAt": "2026-07-15T09:38:59.000Z",
-  "downloads": 1107,
-  "likes": 31,
+  "downloads": 914,
+  "likes": 33,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -215,8 +250,8 @@
  {
   "id": "microsoft/bitnet-embedding-270m",
   "createdAt": "2026-07-15T09:25:12.000Z",
-  "downloads": 867,
-  "likes": 23,
+  "downloads": 843,
+  "likes": 25,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -224,8 +259,8 @@
  {
   "id": "microsoft/HARC-Qwen2.5-7B-Instruct",
   "createdAt": "2026-07-02T05:50:15.000Z",
-  "downloads": 965,
-  "likes": 8,
+  "downloads": 1736,
+  "likes": 9,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -236,8 +271,8 @@
  {
   "id": "microsoft/HARC-Llama-3.1-8B-Instruct",
   "createdAt": "2026-07-02T05:50:14.000Z",
-  "downloads": 916,
-  "likes": 4,
+  "downloads": 1677,
+  "likes": 5,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -261,7 +296,7 @@
   "id": "microsoft/rho-base",
   "createdAt": "2026-06-11T09:48:57.000Z",
   "downloads": 0,
-  "likes": 6,
+  "likes": 7,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -325,8 +360,8 @@
  {
   "id": "microsoft/MagenticBrain",
   "createdAt": "2026-05-12T20:48:55.000Z",
-  "downloads": 1153,
-  "likes": 40,
+  "downloads": 1879,
+  "likes": 42,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -338,7 +373,7 @@
   "id": "microsoft/GridSFM_Open",
   "createdAt": "2026-05-12T19:04:04.000Z",
   "downloads": 0,
-  "likes": 29,
+  "likes": 30,
   "pipeline": "graph-ml",
   "tags": [],
   "gated": false
@@ -346,8 +381,8 @@
  {
   "id": "microsoft/Fara1.5-9B",
   "createdAt": "2026-05-12T16:31:18.000Z",
-  "downloads": 5084,
-  "likes": 60,
+  "downloads": 2765,
+  "likes": 64,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -358,7 +393,7 @@
  {
   "id": "microsoft/Phi-Ground-Any",
   "createdAt": "2026-05-07T05:00:37.000Z",
-  "downloads": 564,
+  "downloads": 1355,
   "likes": 22,
   "pipeline": "",
   "tags": [],
@@ -367,7 +402,7 @@
  {
   "id": "microsoft/Dayhoff-3b-UR90-30000",
   "createdAt": "2026-04-14T00:33:33.000Z",
-  "downloads": 618,
+  "downloads": 887,
   "likes": 4,
   "pipeline": "text-generation",
   "tags": [
@@ -378,8 +413,8 @@
  {
   "id": "microsoft/Dayhoff-3b-UR90-20350",
   "createdAt": "2026-04-14T00:30:50.000Z",
-  "downloads": 644,
-  "likes": 5,
+  "downloads": 914,
+  "likes": 6,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -389,8 +424,8 @@
  {
   "id": "microsoft/Dayhoff-3b-UR90-10000",
   "createdAt": "2026-04-14T00:27:13.000Z",
-  "downloads": 577,
-  "likes": 6,
+  "downloads": 816,
+  "likes": 7,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -400,8 +435,8 @@
  {
   "id": "microsoft/Dayhoff-3b-UR90-10",
   "createdAt": "2026-04-14T00:23:43.000Z",
-  "downloads": 551,
-  "likes": 5,
+  "downloads": 754,
+  "likes": 6,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -411,7 +446,7 @@
  {
   "id": "microsoft/skala-baselines",
   "createdAt": "2026-04-13T09:08:29.000Z",
-  "downloads": 425,
+  "downloads": 1661,
   "likes": 9,
   "pipeline": "",
   "tags": [],
@@ -420,7 +455,7 @@
  {
   "id": "microsoft/skala-1.0",
   "createdAt": "2026-04-13T08:45:00.000Z",
-  "downloads": 5105,
+  "downloads": 8739,
   "likes": 12,
   "pipeline": "",
   "tags": [],
@@ -429,8 +464,8 @@
  {
   "id": "microsoft/skala-1.1",
   "createdAt": "2026-04-13T08:31:48.000Z",
-  "downloads": 19237,
-  "likes": 20,
+  "downloads": 31445,
+  "likes": 22,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -447,8 +482,8 @@
  {
   "id": "microsoft/Dayhoff-170M-GRS-SS-134000",
   "createdAt": "2026-04-03T22:16:56.000Z",
-  "downloads": 459,
-  "likes": 6,
+  "downloads": 667,
+  "likes": 7,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -458,8 +493,8 @@
  {
   "id": "microsoft/Dayhoff-170M-GRS-SS-122000",
   "createdAt": "2026-04-03T22:16:27.000Z",
-  "downloads": 491,
-  "likes": 9,
+  "downloads": 733,
+  "likes": 10,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -469,7 +504,7 @@
  {
   "id": "microsoft/Dayhoff-170M-GRS-SS-110000",
   "createdAt": "2026-04-03T22:15:59.000Z",
-  "downloads": 342,
+  "downloads": 358,
   "likes": 4,
   "pipeline": "text-generation",
   "tags": [
@@ -480,7 +515,7 @@
  {
   "id": "microsoft/Dayhoff-170M-GRS-SS-98000",
   "createdAt": "2026-04-03T22:15:31.000Z",
-  "downloads": 338,
+  "downloads": 364,
   "likes": 3,
   "pipeline": "text-generation",
   "tags": [
@@ -491,8 +526,8 @@
  {
   "id": "microsoft/Dayhoff-170M-GRS-SS-86000",
   "createdAt": "2026-04-03T22:15:01.000Z",
-  "downloads": 495,
-  "likes": 6,
+  "downloads": 732,
+  "likes": 7,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -502,8 +537,8 @@
  {
   "id": "microsoft/Dayhoff-170M-GRS-SS-74000",
   "createdAt": "2026-04-03T22:14:33.000Z",
-  "downloads": 353,
-  "likes": 5,
+  "downloads": 385,
+  "likes": 6,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -513,8 +548,8 @@
  {
   "id": "microsoft/Dayhoff-170M-GRS-SS-62000",
   "createdAt": "2026-04-03T22:14:05.000Z",
-  "downloads": 354,
-  "likes": 3,
+  "downloads": 373,
+  "likes": 4,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -524,8 +559,8 @@
  {
   "id": "microsoft/Dayhoff-170M-GRS-SS-50000",
   "createdAt": "2026-04-03T22:13:36.000Z",
-  "downloads": 340,
-  "likes": 4,
+  "downloads": 386,
+  "likes": 5,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -535,8 +570,8 @@
  {
   "id": "microsoft/Dayhoff-170M-GRS-SS-38000",
   "createdAt": "2026-04-03T22:13:01.000Z",
-  "downloads": 337,
-  "likes": 3,
+  "downloads": 368,
+  "likes": 4,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -546,8 +581,8 @@
  {
   "id": "microsoft/Dayhoff-170M-GRS-SS-26000",
   "createdAt": "2026-04-03T22:12:29.000Z",
-  "downloads": 329,
-  "likes": 2,
+  "downloads": 344,
+  "likes": 3,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -557,7 +592,7 @@
  {
   "id": "microsoft/Dayhoff-170M-GRS-SS-14000",
   "createdAt": "2026-04-03T22:11:59.000Z",
-  "downloads": 493,
+  "downloads": 728,
   "likes": 7,
   "pipeline": "text-generation",
   "tags": [
@@ -568,8 +603,8 @@
  {
   "id": "microsoft/Dayhoff-170M-UR90-HL-48000",
   "createdAt": "2026-04-02T01:46:06.000Z",
-  "downloads": 348,
-  "likes": 5,
+  "downloads": 363,
+  "likes": 6,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -579,8 +614,8 @@
  {
   "id": "microsoft/Dayhoff-170M-UR90-HL-46000",
   "createdAt": "2026-04-02T01:45:34.000Z",
-  "downloads": 347,
-  "likes": 4,
+  "downloads": 396,
+  "likes": 5,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -590,8 +625,8 @@
  {
   "id": "microsoft/Dayhoff-170M-UR90-HL-44000",
   "createdAt": "2026-04-02T01:45:12.000Z",
-  "downloads": 340,
-  "likes": 4,
+  "downloads": 384,
+  "likes": 5,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -601,8 +636,8 @@
  {
   "id": "microsoft/Dayhoff-170M-UR90-HL-42000",
   "createdAt": "2026-04-02T01:44:50.000Z",
-  "downloads": 443,
-  "likes": 5,
+  "downloads": 671,
+  "likes": 6,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -612,7 +647,7 @@
  {
   "id": "microsoft/Dayhoff-170M-UR90-HL-40000",
   "createdAt": "2026-04-02T01:44:28.000Z",
-  "downloads": 344,
+  "downloads": 382,
   "likes": 4,
   "pipeline": "text-generation",
   "tags": [
@@ -623,8 +658,8 @@
  {
   "id": "microsoft/Dayhoff-170M-UR90-HL-38000",
   "createdAt": "2026-04-02T01:44:06.000Z",
-  "downloads": 352,
-  "likes": 4,
+  "downloads": 385,
+  "likes": 5,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -634,8 +669,8 @@
  {
   "id": "microsoft/Dayhoff-170M-UR90-HL-36000",
   "createdAt": "2026-04-02T01:43:42.000Z",
-  "downloads": 431,
-  "likes": 5,
+  "downloads": 666,
+  "likes": 6,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -645,7 +680,7 @@
  {
   "id": "microsoft/Dayhoff-170M-UR90-HL-34000",
   "createdAt": "2026-04-02T01:43:10.000Z",
-  "downloads": 389,
+  "downloads": 607,
   "likes": 6,
   "pipeline": "text-generation",
   "tags": [
@@ -656,8 +691,8 @@
  {
   "id": "microsoft/Dayhoff-170M-UR90-HL-32000",
   "createdAt": "2026-04-02T01:42:38.000Z",
-  "downloads": 545,
-  "likes": 4,
+  "downloads": 774,
+  "likes": 5,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -667,8 +702,8 @@
  {
   "id": "microsoft/Dayhoff-170M-UR90-HL-30000",
   "createdAt": "2026-04-02T01:42:06.000Z",
-  "downloads": 319,
-  "likes": 4,
+  "downloads": 354,
+  "likes": 5,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -678,8 +713,8 @@
  {
   "id": "microsoft/Dayhoff-170M-UR90-HL-28000",
   "createdAt": "2026-04-02T01:41:34.000Z",
-  "downloads": 296,
-  "likes": 2,
+  "downloads": 310,
+  "likes": 3,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -689,8 +724,8 @@
  {
   "id": "microsoft/Dayhoff-170M-UR90-HL-26000",
   "createdAt": "2026-04-02T01:41:12.000Z",
-  "downloads": 314,
-  "likes": 3,
+  "downloads": 334,
+  "likes": 4,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -700,8 +735,8 @@
  {
   "id": "microsoft/Dayhoff-170M-UR90-HL-24000",
   "createdAt": "2026-04-02T01:40:50.000Z",
-  "downloads": 320,
-  "likes": 4,
+  "downloads": 346,
+  "likes": 5,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -711,7 +746,7 @@
  {
   "id": "microsoft/Dayhoff-170M-UR90-HL-22000",
   "createdAt": "2026-04-02T01:40:18.000Z",
-  "downloads": 306,
+  "downloads": 319,
   "likes": 3,
   "pipeline": "text-generation",
   "tags": [
@@ -722,7 +757,7 @@
  {
   "id": "microsoft/Dayhoff-170M-UR90-HL-20000",
   "createdAt": "2026-04-02T01:39:56.000Z",
-  "downloads": 302,
+  "downloads": 343,
   "likes": 4,
   "pipeline": "text-generation",
   "tags": [
@@ -733,8 +768,8 @@
  {
   "id": "microsoft/Dayhoff-170M-UR90-HL-18000",
   "createdAt": "2026-04-02T01:39:34.000Z",
-  "downloads": 311,
-  "likes": 4,
+  "downloads": 333,
+  "likes": 5,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -744,7 +779,7 @@
  {
   "id": "microsoft/Dayhoff-170M-UR90-HL-16000",
   "createdAt": "2026-04-02T01:39:12.000Z",
-  "downloads": 340,
+  "downloads": 372,
   "likes": 5,
   "pipeline": "text-generation",
   "tags": [
@@ -755,8 +790,8 @@
  {
   "id": "microsoft/Dayhoff-170M-UR90-HL-14000",
   "createdAt": "2026-04-02T01:38:40.000Z",
-  "downloads": 336,
-  "likes": 5,
+  "downloads": 358,
+  "likes": 6,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -766,7 +801,7 @@
  {
   "id": "microsoft/Dayhoff-170M-UR90-HL-12000",
   "createdAt": "2026-04-02T01:38:17.000Z",
-  "downloads": 302,
+  "downloads": 318,
   "likes": 3,
   "pipeline": "text-generation",
   "tags": [
@@ -777,8 +812,8 @@
  {
   "id": "microsoft/Dayhoff-170M-UR90-HL-10000",
   "createdAt": "2026-04-02T01:37:55.000Z",
-  "downloads": 315,
-  "likes": 4,
+  "downloads": 333,
+  "likes": 5,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -788,7 +823,7 @@
  {
   "id": "microsoft/Dayhoff-170M-UR90-HL-8000",
   "createdAt": "2026-04-02T01:37:33.000Z",
-  "downloads": 295,
+  "downloads": 321,
   "likes": 4,
   "pipeline": "text-generation",
   "tags": [
@@ -799,7 +834,7 @@
  {
   "id": "microsoft/Dayhoff-170M-UR90-HL-6000",
   "createdAt": "2026-04-02T01:36:59.000Z",
-  "downloads": 356,
+  "downloads": 392,
   "likes": 3,
   "pipeline": "text-generation",
   "tags": [
@@ -810,8 +845,8 @@
  {
   "id": "microsoft/Dayhoff-170M-UR90-HL-4000",
   "createdAt": "2026-04-02T01:36:37.000Z",
-  "downloads": 317,
-  "likes": 6,
+  "downloads": 336,
+  "likes": 7,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -821,8 +856,8 @@
  {
   "id": "microsoft/Dayhoff-170M-UR90-HL-2000",
   "createdAt": "2026-04-02T01:36:05.000Z",
-  "downloads": 302,
-  "likes": 4,
+  "downloads": 339,
+  "likes": 5,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -832,8 +867,8 @@
  {
   "id": "microsoft/harrier-oss-v1-27b",
   "createdAt": "2026-03-30T08:01:43.000Z",
-  "downloads": 5812,
-  "likes": 170,
+  "downloads": 7156,
+  "likes": 172,
   "pipeline": "feature-extraction",
   "tags": [],
   "gated": false
@@ -841,8 +876,8 @@
  {
   "id": "microsoft/harrier-oss-v1-0.6b",
   "createdAt": "2026-03-30T08:00:39.000Z",
-  "downloads": 210894,
-  "likes": 328,
+  "downloads": 226524,
+  "likes": 335,
   "pipeline": "feature-extraction",
   "tags": [],
   "gated": false
@@ -850,8 +885,8 @@
  {
   "id": "microsoft/harrier-oss-v1-270m",
   "createdAt": "2026-03-30T07:20:02.000Z",
-  "downloads": 99261,
-  "likes": 207,
+  "downloads": 108313,
+  "likes": 211,
   "pipeline": "feature-extraction",
   "tags": [],
   "gated": false
@@ -859,8 +894,8 @@
  {
   "id": "microsoft/UniRG-CXR",
   "createdAt": "2026-03-19T23:19:27.000Z",
-  "downloads": 616,
-  "likes": 5,
+  "downloads": 1239,
+  "likes": 6,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -880,8 +915,8 @@
  {
   "id": "microsoft/SchGen",
   "createdAt": "2026-03-18T00:51:15.000Z",
-  "downloads": 327,
-  "likes": 37,
+  "downloads": 303,
+  "likes": 39,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -889,8 +924,8 @@
  {
   "id": "microsoft/VibeVoice-ASR-HF",
   "createdAt": "2026-03-02T02:48:09.000Z",
-  "downloads": 62373,
-  "likes": 188,
+  "downloads": 14184,
+  "likes": 190,
   "pipeline": "audio-text-to-text",
   "tags": [],
   "gated": false
@@ -898,8 +933,8 @@
  {
   "id": "microsoft/Dayhoff-170M-GRS-76000",
   "createdAt": "2026-02-24T01:51:47.000Z",
-  "downloads": 316,
-  "likes": 5,
+  "downloads": 330,
+  "likes": 6,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -909,7 +944,7 @@
  {
   "id": "microsoft/Dayhoff-170M-GRS-50000",
   "createdAt": "2026-02-24T01:51:26.000Z",
-  "downloads": 317,
+  "downloads": 337,
   "likes": 5,
   "pipeline": "text-generation",
   "tags": [
@@ -931,8 +966,8 @@
  {
   "id": "microsoft/Dayhoff-170M-GRS-112000",
   "createdAt": "2026-02-24T01:50:49.000Z",
-  "downloads": 344,
-  "likes": 6,
+  "downloads": 359,
+  "likes": 7,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -942,8 +977,8 @@
  {
   "id": "microsoft/Dayhoff-170M-GRS-2000",
   "createdAt": "2026-02-24T01:50:20.000Z",
-  "downloads": 332,
-  "likes": 5,
+  "downloads": 369,
+  "likes": 6,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -953,8 +988,8 @@
  {
   "id": "microsoft/VibeVoice-AcousticTokenizer",
   "createdAt": "2026-02-06T03:33:31.000Z",
-  "downloads": 1789,
-  "likes": 20,
+  "downloads": 1746,
+  "likes": 22,
   "pipeline": "feature-extraction",
   "tags": [],
   "gated": false
@@ -962,8 +997,8 @@
  {
   "id": "microsoft/Dayhoff-3b-GR-HM-1000",
   "createdAt": "2026-02-04T00:22:48.000Z",
-  "downloads": 299,
-  "likes": 4,
+  "downloads": 361,
+  "likes": 5,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -973,8 +1008,8 @@
  {
   "id": "microsoft/Dayhoff-170M-GR-1000",
   "createdAt": "2026-02-04T00:21:00.000Z",
-  "downloads": 324,
-  "likes": 6,
+  "downloads": 374,
+  "likes": 7,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -984,8 +1019,8 @@
  {
   "id": "microsoft/Dayhoff-170M-UR90-1000",
   "createdAt": "2026-02-04T00:20:41.000Z",
-  "downloads": 314,
-  "likes": 4,
+  "downloads": 380,
+  "likes": 5,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -995,8 +1030,8 @@
  {
   "id": "microsoft/X-Reasoner-7B",
   "createdAt": "2026-02-03T17:48:16.000Z",
-  "downloads": 880,
-  "likes": 14,
+  "downloads": 1581,
+  "likes": 16,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -1008,7 +1043,7 @@
   "id": "microsoft/InfoAgent",
   "createdAt": "2026-01-30T03:06:10.000Z",
   "downloads": 0,
-  "likes": 15,
+  "likes": 16,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -1016,8 +1051,8 @@
  {
   "id": "microsoft/Dayhoff-170M-GR-61000",
   "createdAt": "2026-01-24T19:28:54.000Z",
-  "downloads": 331,
-  "likes": 5,
+  "downloads": 379,
+  "likes": 6,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -1027,7 +1062,7 @@
  {
   "id": "microsoft/Dayhoff-170M-GR-46000",
   "createdAt": "2026-01-24T19:28:32.000Z",
-  "downloads": 331,
+  "downloads": 364,
   "likes": 6,
   "pipeline": "text-generation",
   "tags": [
@@ -1038,7 +1073,7 @@
  {
   "id": "microsoft/Dayhoff-170M-GR-31000",
   "createdAt": "2026-01-24T19:28:13.000Z",
-  "downloads": 349,
+  "downloads": 384,
   "likes": 4,
   "pipeline": "text-generation",
   "tags": [
@@ -1049,7 +1084,7 @@
  {
   "id": "microsoft/Dayhoff-170M-GR-16000",
   "createdAt": "2026-01-24T19:27:52.000Z",
-  "downloads": 333,
+  "downloads": 354,
   "likes": 3,
   "pipeline": "text-generation",
   "tags": [
@@ -1060,7 +1095,7 @@
  {
   "id": "microsoft/Dayhoff-3b-GR-HM-41000",
   "createdAt": "2026-01-24T18:24:36.000Z",
-  "downloads": 345,
+  "downloads": 357,
   "likes": 5,
   "pipeline": "text-generation",
   "tags": [
@@ -1071,8 +1106,8 @@
  {
   "id": "microsoft/Dayhoff-3b-GR-HM-31000",
   "createdAt": "2026-01-24T18:21:28.000Z",
-  "downloads": 319,
-  "likes": 3,
+  "downloads": 344,
+  "likes": 4,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -1082,8 +1117,8 @@
  {
   "id": "microsoft/Dayhoff-3b-GR-HM-21000",
   "createdAt": "2026-01-24T18:18:47.000Z",
-  "downloads": 332,
-  "likes": 4,
+  "downloads": 364,
+  "likes": 5,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -1093,7 +1128,7 @@
  {
   "id": "microsoft/Dayhoff-3b-GR-HM-11000",
   "createdAt": "2026-01-24T18:15:57.000Z",
-  "downloads": 335,
+  "downloads": 351,
   "likes": 7,
   "pipeline": "text-generation",
   "tags": [
@@ -1104,8 +1139,8 @@
  {
   "id": "microsoft/Dayhoff-170M-UR90-61000",
   "createdAt": "2026-01-24T18:14:08.000Z",
-  "downloads": 334,
-  "likes": 4,
+  "downloads": 359,
+  "likes": 5,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -1115,7 +1150,7 @@
  {
   "id": "microsoft/Dayhoff-170M-UR90-46000",
   "createdAt": "2026-01-24T18:13:47.000Z",
-  "downloads": 326,
+  "downloads": 331,
   "likes": 2,
   "pipeline": "text-generation",
   "tags": [
@@ -1126,8 +1161,8 @@
  {
   "id": "microsoft/Dayhoff-170M-UR90-31000",
   "createdAt": "2026-01-24T18:13:26.000Z",
-  "downloads": 452,
-  "likes": 6,
+  "downloads": 677,
+  "likes": 7,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -1137,7 +1172,7 @@
  {
   "id": "microsoft/Dayhoff-170M-UR90-16000",
   "createdAt": "2026-01-24T18:13:04.000Z",
-  "downloads": 322,
+  "downloads": 360,
   "likes": 4,
   "pipeline": "text-generation",
   "tags": [
@@ -1148,7 +1183,7 @@
  {
   "id": "microsoft/Dayhoff-170M-UR-90-31000",
   "createdAt": "2026-01-24T17:55:03.000Z",
-  "downloads": 298,
+  "downloads": 303,
   "likes": 2,
   "pipeline": "text-generation",
   "tags": [
@@ -1159,8 +1194,8 @@
  {
   "id": "microsoft/Phi-4-reasoning-vision-15B",
   "createdAt": "2026-01-23T18:37:34.000Z",
-  "downloads": 3443,
-  "likes": 184,
+  "downloads": 6794,
+  "likes": 185,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -1171,8 +1206,8 @@
  {
   "id": "microsoft/VibeVoice-ASR",
   "createdAt": "2026-01-21T15:04:18.000Z",
-  "downloads": 669371,
-  "likes": 1320,
+  "downloads": 715428,
+  "likes": 1326,
   "pipeline": "automatic-speech-recognition",
   "tags": [],
   "gated": false
@@ -1180,8 +1215,8 @@
  {
   "id": "microsoft/colipri",
   "createdAt": "2026-01-14T10:36:04.000Z",
-  "downloads": 3857,
-  "likes": 73,
+  "downloads": 5421,
+  "likes": 74,
   "pipeline": "zero-shot-image-classification",
   "tags": [],
   "gated": false
@@ -1189,8 +1224,8 @@
  {
   "id": "microsoft/FrogMini-14B-2510",
   "createdAt": "2026-01-09T16:43:09.000Z",
-  "downloads": 636,
-  "likes": 70,
+  "downloads": 1523,
+  "likes": 71,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1201,8 +1236,8 @@
  {
   "id": "microsoft/paza-whisper-large-v3-turbo",
   "createdAt": "2026-01-08T07:41:57.000Z",
-  "downloads": 2418,
-  "likes": 17,
+  "downloads": 2579,
+  "likes": 16,
   "pipeline": "automatic-speech-recognition",
   "tags": [],
   "gated": false
@@ -1210,7 +1245,7 @@
  {
   "id": "microsoft/paza-Phi-4-multimodal-instruct",
   "createdAt": "2026-01-07T13:00:47.000Z",
-  "downloads": 2663,
+  "downloads": 2367,
   "likes": 10,
   "pipeline": "automatic-speech-recognition",
   "tags": [
@@ -1221,8 +1256,8 @@
  {
   "id": "microsoft/FrogBoss-32B-2510",
   "createdAt": "2026-01-05T21:08:54.000Z",
-  "downloads": 759,
-  "likes": 44,
+  "downloads": 1557,
+  "likes": 45,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1234,7 +1269,7 @@
   "id": "microsoft/simpoly",
   "createdAt": "2025-12-18T09:34:16.000Z",
   "downloads": 0,
-  "likes": 1,
+  "likes": 2,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -1242,8 +1277,8 @@
  {
   "id": "microsoft/OptiMind-SFT",
   "createdAt": "2025-12-10T21:02:04.000Z",
-  "downloads": 888,
-  "likes": 111,
+  "downloads": 798,
+  "likes": 112,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1254,8 +1289,8 @@
  {
   "id": "microsoft/VITRA-VLA-3B",
   "createdAt": "2025-12-09T08:05:18.000Z",
-  "downloads": 127,
-  "likes": 21,
+  "downloads": 132,
+  "likes": 22,
   "pipeline": "robotics",
   "tags": [],
   "gated": false
@@ -1263,8 +1298,8 @@
  {
   "id": "microsoft/VibeVoice-Realtime-0.5B",
   "createdAt": "2025-12-04T05:32:08.000Z",
-  "downloads": 314328,
-  "likes": 1306,
+  "downloads": 195145,
+  "likes": 1312,
   "pipeline": "text-to-speech",
   "tags": [],
   "gated": false
@@ -1272,8 +1307,8 @@
  {
   "id": "microsoft/Fara-7B-onnx",
   "createdAt": "2025-12-03T23:38:50.000Z",
-  "downloads": 194,
-  "likes": 5,
+  "downloads": 240,
+  "likes": 7,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text"
@@ -1283,8 +1318,8 @@
  {
   "id": "microsoft/TRELLIS.2-4B",
   "createdAt": "2025-12-01T02:25:40.000Z",
-  "downloads": 2446131,
-  "likes": 1395,
+  "downloads": 2717542,
+  "likes": 1467,
   "pipeline": "image-to-3d",
   "tags": [],
   "gated": false
@@ -1293,7 +1328,7 @@
   "id": "microsoft/SNRAware",
   "createdAt": "2025-11-07T04:04:32.000Z",
   "downloads": 0,
-  "likes": 2,
+  "likes": 3,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -1301,8 +1336,8 @@
  {
   "id": "microsoft/Fara-7B",
   "createdAt": "2025-10-30T18:56:59.000Z",
-  "downloads": 2762,
-  "likes": 624,
+  "downloads": 2993,
+  "likes": 625,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -1313,7 +1348,7 @@
  {
   "id": "microsoft/STELLAR",
   "createdAt": "2025-10-28T18:23:10.000Z",
-  "downloads": 224,
+  "downloads": 182,
   "likes": 16,
   "pipeline": "image-feature-extraction",
   "tags": [],
@@ -1322,8 +1357,8 @@
  {
   "id": "microsoft/UserLM-8b",
   "createdAt": "2025-09-30T20:42:21.000Z",
-  "downloads": 1201,
-  "likes": 398,
+  "downloads": 2214,
+  "likes": 401,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1334,8 +1369,8 @@
  {
   "id": "microsoft/VibeVoice-1.5B",
   "createdAt": "2025-08-25T13:46:48.000Z",
-  "downloads": 324867,
-  "likes": 2506,
+  "downloads": 209399,
+  "likes": 2518,
   "pipeline": "text-to-speech",
   "tags": [],
   "gated": false
@@ -1343,7 +1378,7 @@
  {
   "id": "microsoft/chatbench-mistral-7b",
   "createdAt": "2025-08-23T02:30:35.000Z",
-  "downloads": 24,
+  "downloads": 37,
   "likes": 7,
   "pipeline": "",
   "tags": [],
@@ -1353,7 +1388,7 @@
   "id": "microsoft/chatbench-llama3-8b",
   "createdAt": "2025-08-23T02:10:15.000Z",
   "downloads": 18,
-  "likes": 11,
+  "likes": 12,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -1361,7 +1396,7 @@
  {
   "id": "microsoft/chatbench-distilgpt2",
   "createdAt": "2025-08-23T00:21:56.000Z",
-  "downloads": 716,
+  "downloads": 812,
   "likes": 7,
   "pipeline": "text-generation",
   "tags": [
@@ -1372,8 +1407,8 @@
  {
   "id": "microsoft/Phi-Ground",
   "createdAt": "2025-08-15T02:28:45.000Z",
-  "downloads": 512,
-  "likes": 24,
+  "downloads": 1286,
+  "likes": 25,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -1381,8 +1416,8 @@
  {
   "id": "microsoft/MediPhi-Instruct",
   "createdAt": "2025-07-11T19:28:15.000Z",
-  "downloads": 1696,
-  "likes": 75,
+  "downloads": 2058,
+  "likes": 77,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1394,7 +1429,7 @@
   "id": "microsoft/CAD-Editor",
   "createdAt": "2025-07-09T12:48:04.000Z",
   "downloads": 0,
-  "likes": 17,
+  "likes": 18,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -1402,7 +1437,7 @@
  {
   "id": "microsoft/Dayhoff-170m-UR90",
   "createdAt": "2025-07-04T18:22:54.000Z",
-  "downloads": 335,
+  "downloads": 367,
   "likes": 6,
   "pipeline": "text-generation",
   "tags": [
@@ -1413,7 +1448,7 @@
  {
   "id": "microsoft/Dayhoff-3b-UR90",
   "createdAt": "2025-07-04T18:20:27.000Z",
-  "downloads": 410,
+  "downloads": 645,
   "likes": 6,
   "pipeline": "text-generation",
   "tags": [
@@ -1424,7 +1459,7 @@
  {
   "id": "microsoft/Dayhoff-170m-UR50-BRn",
   "createdAt": "2025-07-04T18:19:55.000Z",
-  "downloads": 344,
+  "downloads": 376,
   "likes": 6,
   "pipeline": "text-generation",
   "tags": [
@@ -1435,8 +1470,8 @@
  {
   "id": "microsoft/Dayhoff-3b-GR-HM",
   "createdAt": "2025-07-04T18:17:24.000Z",
-  "downloads": 325,
-  "likes": 6,
+  "downloads": 363,
+  "likes": 7,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -1446,8 +1481,8 @@
  {
   "id": "microsoft/Dayhoff-170m-UR50-BRu",
   "createdAt": "2025-07-04T18:16:44.000Z",
-  "downloads": 469,
-  "likes": 8,
+  "downloads": 726,
+  "likes": 9,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -1457,7 +1492,7 @@
  {
   "id": "microsoft/Dayhoff-170m-UR50-BRq",
   "createdAt": "2025-07-04T18:16:11.000Z",
-  "downloads": 316,
+  "downloads": 338,
   "likes": 4,
   "pipeline": "text-generation",
   "tags": [
@@ -1468,8 +1503,8 @@
  {
   "id": "microsoft/Dayhoff-170m-GR",
   "createdAt": "2025-07-04T18:15:40.000Z",
-  "downloads": 337,
-  "likes": 6,
+  "downloads": 387,
+  "likes": 7,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -1488,8 +1523,8 @@
  {
   "id": "microsoft/Dayhoff-3b-GR-HM-c",
   "createdAt": "2025-07-04T18:13:18.000Z",
-  "downloads": 916,
-  "likes": 11,
+  "downloads": 1483,
+  "likes": 12,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -1499,8 +1534,8 @@
  {
   "id": "microsoft/Dayhoff-170m-UR50",
   "createdAt": "2025-07-04T18:12:37.000Z",
-  "downloads": 346,
-  "likes": 9,
+  "downloads": 538,
+  "likes": 10,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -1511,7 +1546,7 @@
   "id": "microsoft/villa-x",
   "createdAt": "2025-07-03T07:49:21.000Z",
   "downloads": 0,
-  "likes": 11,
+  "likes": 10,
   "pipeline": "robotics",
   "tags": [],
   "gated": false
@@ -1537,8 +1572,8 @@
  {
   "id": "microsoft/Phi-tiny-MoE-instruct",
   "createdAt": "2025-06-23T00:22:56.000Z",
-  "downloads": 30420,
-  "likes": 48,
+  "downloads": 26388,
+  "likes": 52,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1549,8 +1584,8 @@
  {
   "id": "microsoft/Phi-mini-MoE-instruct",
   "createdAt": "2025-06-23T00:18:08.000Z",
-  "downloads": 13868,
-  "likes": 49,
+  "downloads": 3811,
+  "likes": 52,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1561,8 +1596,8 @@
  {
   "id": "microsoft/Phi-4-mini-flash-reasoning",
   "createdAt": "2025-06-19T23:40:57.000Z",
-  "downloads": 2766,
-  "likes": 291,
+  "downloads": 2635,
+  "likes": 294,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1574,7 +1609,7 @@
   "id": "microsoft/CADFusion",
   "createdAt": "2025-06-13T11:33:06.000Z",
   "downloads": 0,
-  "likes": 50,
+  "likes": 51,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -1582,8 +1617,8 @@
  {
   "id": "microsoft/NatureLM-8x7B-Inst",
   "createdAt": "2025-06-06T02:36:23.000Z",
-  "downloads": 308,
-  "likes": 30,
+  "downloads": 302,
+  "likes": 32,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -1591,8 +1626,8 @@
  {
   "id": "microsoft/NatureLM-8x7B",
   "createdAt": "2025-06-06T02:36:16.000Z",
-  "downloads": 241,
-  "likes": 28,
+  "downloads": 249,
+  "likes": 30,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -1600,8 +1635,8 @@
  {
   "id": "microsoft/GUI-Actor-Verifier-2B",
   "createdAt": "2025-06-03T05:11:36.000Z",
-  "downloads": 524,
-  "likes": 16,
+  "downloads": 759,
+  "likes": 17,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -1612,8 +1647,8 @@
  {
   "id": "microsoft/GUI-Actor-3B-Qwen2.5-VL",
   "createdAt": "2025-06-01T23:25:32.000Z",
-  "downloads": 860,
-  "likes": 14,
+  "downloads": 785,
+  "likes": 17,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -1624,8 +1659,8 @@
  {
   "id": "microsoft/GUI-Actor-2B-Qwen2-VL",
   "createdAt": "2025-06-01T23:23:30.000Z",
-  "downloads": 1151,
-  "likes": 27,
+  "downloads": 1235,
+  "likes": 28,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -1636,7 +1671,7 @@
  {
   "id": "microsoft/GUI-Actor-7B-Qwen2-VL",
   "createdAt": "2025-06-01T22:54:59.000Z",
-  "downloads": 459,
+  "downloads": 515,
   "likes": 44,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -1648,8 +1683,8 @@
  {
   "id": "microsoft/GUI-Actor-7B-Qwen2.5-VL",
   "createdAt": "2025-06-01T22:53:18.000Z",
-  "downloads": 527,
-  "likes": 31,
+  "downloads": 561,
+  "likes": 32,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -1660,7 +1695,7 @@
  {
   "id": "microsoft/MediPhi-MedWiki",
   "createdAt": "2025-05-30T19:27:52.000Z",
-  "downloads": 274,
+  "downloads": 327,
   "likes": 10,
   "pipeline": "text-generation",
   "tags": [
@@ -1672,7 +1707,7 @@
  {
   "id": "microsoft/MediPhi-Guidelines",
   "createdAt": "2025-05-30T14:37:35.000Z",
-  "downloads": 528,
+  "downloads": 713,
   "likes": 16,
   "pipeline": "text-generation",
   "tags": [
@@ -1684,8 +1719,8 @@
  {
   "id": "microsoft/MediPhi-Clinical",
   "createdAt": "2025-05-29T20:40:05.000Z",
-  "downloads": 1529,
-  "likes": 23,
+  "downloads": 1885,
+  "likes": 24,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1696,8 +1731,8 @@
  {
   "id": "microsoft/MediPhi-MedCode",
   "createdAt": "2025-05-29T14:05:30.000Z",
-  "downloads": 543,
-  "likes": 12,
+  "downloads": 752,
+  "likes": 14,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1708,7 +1743,7 @@
  {
   "id": "microsoft/MediPhi-PubMed",
   "createdAt": "2025-05-28T19:37:28.000Z",
-  "downloads": 917,
+  "downloads": 1731,
   "likes": 19,
   "pipeline": "text-generation",
   "tags": [
@@ -1720,7 +1755,7 @@
  {
   "id": "microsoft/elem2design",
   "createdAt": "2025-05-27T10:31:19.000Z",
-  "downloads": 282,
+  "downloads": 318,
   "likes": 10,
   "pipeline": "",
   "tags": [],
@@ -1729,8 +1764,8 @@
  {
   "id": "microsoft/renderformer-v1.1-swin-large",
   "createdAt": "2025-05-15T07:40:29.000Z",
-  "downloads": 1262,
-  "likes": 34,
+  "downloads": 311,
+  "likes": 35,
   "pipeline": "image-to-image",
   "tags": [],
   "gated": false
@@ -1738,8 +1773,8 @@
  {
   "id": "microsoft/renderformer-v1-base",
   "createdAt": "2025-05-15T07:35:48.000Z",
-  "downloads": 157,
-  "likes": 10,
+  "downloads": 753,
+  "likes": 11,
   "pipeline": "image-to-image",
   "tags": [],
   "gated": false
@@ -1747,8 +1782,8 @@
  {
   "id": "microsoft/NextCoder-32B",
   "createdAt": "2025-05-03T08:15:01.000Z",
-  "downloads": 332,
-  "likes": 74,
+  "downloads": 375,
+  "likes": 75,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1759,8 +1794,8 @@
  {
   "id": "microsoft/NextCoder-14B",
   "createdAt": "2025-05-03T07:54:50.000Z",
-  "downloads": 483,
-  "likes": 25,
+  "downloads": 1384,
+  "likes": 26,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1771,7 +1806,7 @@
  {
   "id": "microsoft/NextCoder-7B",
   "createdAt": "2025-05-03T06:34:06.000Z",
-  "downloads": 823,
+  "downloads": 1836,
   "likes": 42,
   "pipeline": "text-generation",
   "tags": [
@@ -1783,7 +1818,7 @@
  {
   "id": "microsoft/Phi-4-reasoning-plus-onnx",
   "createdAt": "2025-05-02T16:49:39.000Z",
-  "downloads": 297,
+  "downloads": 316,
   "likes": 8,
   "pipeline": "",
   "tags": [],
@@ -1792,8 +1827,8 @@
  {
   "id": "microsoft/Phi-4-reasoning-onnx",
   "createdAt": "2025-05-02T16:49:20.000Z",
-  "downloads": 319,
-  "likes": 8,
+  "downloads": 359,
+  "likes": 9,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -1801,8 +1836,8 @@
  {
   "id": "microsoft/Phi-4-mini-reasoning-onnx",
   "createdAt": "2025-05-01T22:26:07.000Z",
-  "downloads": 423,
-  "likes": 11,
+  "downloads": 477,
+  "likes": 12,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -1810,8 +1845,8 @@
  {
   "id": "microsoft/Phi-4-mini-reasoning",
   "createdAt": "2025-04-29T19:15:55.000Z",
-  "downloads": 37970,
-  "likes": 249,
+  "downloads": 36811,
+  "likes": 252,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1822,8 +1857,8 @@
  {
   "id": "microsoft/Phi-4-reasoning-plus",
   "createdAt": "2025-04-17T20:51:32.000Z",
-  "downloads": 4266,
-  "likes": 352,
+  "downloads": 4991,
+  "likes": 354,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1834,8 +1869,8 @@
  {
   "id": "microsoft/MAI-DS-R1-FP8",
   "createdAt": "2025-04-16T22:00:46.000Z",
-  "downloads": 315,
-  "likes": 31,
+  "downloads": 357,
+  "likes": 32,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1846,8 +1881,8 @@
  {
   "id": "microsoft/MAI-DS-R1",
   "createdAt": "2025-04-16T19:37:19.000Z",
-  "downloads": 982,
-  "likes": 314,
+  "downloads": 1777,
+  "likes": 316,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1867,8 +1902,8 @@
  {
   "id": "microsoft/bitnet-b1.58-2B-4T-gguf",
   "createdAt": "2025-04-15T04:25:42.000Z",
-  "downloads": 25408,
-  "likes": 303,
+  "downloads": 23336,
+  "likes": 305,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1879,8 +1914,8 @@
  {
   "id": "microsoft/bitnet-b1.58-2B-4T",
   "createdAt": "2025-04-15T04:25:13.000Z",
-  "downloads": 14619,
-  "likes": 1511,
+  "downloads": 10889,
+  "likes": 1515,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1891,8 +1926,8 @@
  {
   "id": "microsoft/bitnet-b1.58-2B-4T-bf16",
   "createdAt": "2025-04-15T04:23:53.000Z",
-  "downloads": 3276,
-  "likes": 50,
+  "downloads": 3075,
+  "likes": 53,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1903,8 +1938,8 @@
  {
   "id": "microsoft/Phi-4-reasoning",
   "createdAt": "2025-04-09T21:11:28.000Z",
-  "downloads": 29436,
-  "likes": 232,
+  "downloads": 34187,
+  "likes": 234,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1915,8 +1950,8 @@
  {
   "id": "microsoft/TRELLIS-text-xlarge",
   "createdAt": "2025-03-24T12:44:58.000Z",
-  "downloads": 12726,
-  "likes": 87,
+  "downloads": 13032,
+  "likes": 92,
   "pipeline": "text-to-3d",
   "tags": [],
   "gated": false
@@ -1924,7 +1959,7 @@
  {
   "id": "microsoft/TRELLIS-text-large",
   "createdAt": "2025-03-24T12:44:15.000Z",
-  "downloads": 8942,
+  "downloads": 8167,
   "likes": 22,
   "pipeline": "text-to-3d",
   "tags": [],
@@ -1933,8 +1968,8 @@
  {
   "id": "microsoft/TRELLIS-text-base",
   "createdAt": "2025-03-24T12:43:57.000Z",
-  "downloads": 2386,
-  "likes": 26,
+  "downloads": 1876,
+  "likes": 27,
   "pipeline": "text-to-3d",
   "tags": [],
   "gated": false
@@ -1942,7 +1977,7 @@
  {
   "id": "microsoft/llava-rad",
   "createdAt": "2025-03-20T18:38:07.000Z",
-  "downloads": 1031,
+  "downloads": 1166,
   "likes": 33,
   "pipeline": "",
   "tags": [],
@@ -1969,7 +2004,7 @@
  {
   "id": "microsoft/phi-4-onnx",
   "createdAt": "2025-02-25T05:58:14.000Z",
-  "downloads": 375,
+  "downloads": 413,
   "likes": 26,
   "pipeline": "",
   "tags": [],
@@ -1978,7 +2013,7 @@
  {
   "id": "microsoft/Phi-4-multimodal-instruct-onnx",
   "createdAt": "2025-02-25T05:57:33.000Z",
-  "downloads": 158,
+  "downloads": 193,
   "likes": 95,
   "pipeline": "automatic-speech-recognition",
   "tags": [],
@@ -1987,7 +2022,7 @@
  {
   "id": "microsoft/Phi-4-mini-instruct-onnx",
   "createdAt": "2025-02-25T05:57:02.000Z",
-  "downloads": 951,
+  "downloads": 966,
   "likes": 54,
   "pipeline": "",
   "tags": [],
@@ -1996,8 +2031,8 @@
  {
   "id": "microsoft/Phi-4-multimodal-instruct",
   "createdAt": "2025-02-24T22:33:32.000Z",
-  "downloads": 111473,
-  "likes": 1626,
+  "downloads": 76748,
+  "likes": 1627,
   "pipeline": "automatic-speech-recognition",
   "tags": [
    "text-generation"
@@ -2007,8 +2042,8 @@
  {
   "id": "microsoft/Magma-8B",
   "createdAt": "2025-02-23T03:10:37.000Z",
-  "downloads": 1335,
-  "likes": 424,
+  "downloads": 1479,
+  "likes": 425,
   "pipeline": "robotics",
   "tags": [
    "text-generation"
@@ -2027,8 +2062,8 @@
  {
   "id": "microsoft/Phi-4-mini-instruct",
   "createdAt": "2025-02-19T01:00:58.000Z",
-  "downloads": 342842,
-  "likes": 870,
+  "downloads": 337245,
+  "likes": 886,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2039,8 +2074,8 @@
  {
   "id": "microsoft/OmniParser-v2.0",
   "createdAt": "2025-02-12T01:03:38.000Z",
-  "downloads": 2205,
-  "likes": 1375,
+  "downloads": 2828,
+  "likes": 1377,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -2048,8 +2083,8 @@
  {
   "id": "microsoft/wham",
   "createdAt": "2025-02-11T15:09:59.000Z",
-  "downloads": 316,
-  "likes": 276,
+  "downloads": 912,
+  "likes": 277,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -2057,8 +2092,8 @@
  {
   "id": "microsoft/MediPhi",
   "createdAt": "2025-02-03T16:54:41.000Z",
-  "downloads": 989,
-  "likes": 29,
+  "downloads": 1709,
+  "likes": 30,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2087,8 +2122,8 @@
  {
   "id": "microsoft/phi-4-gguf",
   "createdAt": "2025-01-08T19:55:31.000Z",
-  "downloads": 11174,
-  "likes": 209,
+  "downloads": 13118,
+  "likes": 210,
   "pipeline": "text-generation",
   "tags": [
    "conversational",
@@ -2108,8 +2143,8 @@
  {
   "id": "microsoft/phi-4",
   "createdAt": "2024-12-11T11:47:29.000Z",
-  "downloads": 368280,
-  "likes": 2329,
+  "downloads": 279867,
+  "likes": 2340,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2129,8 +2164,8 @@
  {
   "id": "microsoft/TRELLIS-image-large",
   "createdAt": "2024-12-02T13:02:21.000Z",
-  "downloads": 2391045,
-  "likes": 715,
+  "downloads": 2672559,
+  "likes": 722,
   "pipeline": "image-to-3d",
   "tags": [],
   "gated": false

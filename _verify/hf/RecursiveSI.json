@@ -1,0 +1,50 @@
+[
+ {
+  "id": "RecursiveSI/flint",
+  "createdAt": "2026-10-21T14:20:58.000Z",
+  "downloads": 44352,
+  "likes": 1378,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "RecursiveSI/flint-int4-gguf",
+  "createdAt": "2026-10-21T13:51:39.000Z",
+  "downloads": 52570,
+  "likes": 34,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "RecursiveSI/flint-int4",
+  "createdAt": "2026-10-21T13:51:27.000Z",
+  "downloads": 17802,
+  "likes": 30,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "RecursiveSI/flint-nvfp4-gguf",
+  "createdAt": "2026-10-21T13:51:14.000Z",
+  "downloads": 129650,
+  "likes": 38,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ }
+]

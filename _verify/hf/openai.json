@@ -2,8 +2,8 @@
  {
   "id": "openai/privacy-filter",
   "createdAt": "2026-04-17T21:38:35.000Z",
-  "downloads": 173449,
-  "likes": 1813,
+  "downloads": 103656,
+  "likes": 1829,
   "pipeline": "token-classification",
   "tags": [],
   "gated": false
@@ -11,8 +11,8 @@
  {
   "id": "openai/circuit-sparsity",
   "createdAt": "2025-12-11T22:39:34.000Z",
-  "downloads": 1369,
-  "likes": 220,
+  "downloads": 1820,
+  "likes": 221,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -22,8 +22,8 @@
  {
   "id": "openai/gpt-oss-safeguard-20b",
   "createdAt": "2025-09-18T18:51:08.000Z",
-  "downloads": 18018,
-  "likes": 285,
+  "downloads": 22271,
+  "likes": 291,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -34,8 +34,8 @@
  {
   "id": "openai/gpt-oss-safeguard-120b",
   "createdAt": "2025-09-18T18:50:45.000Z",
-  "downloads": 8517,
-  "likes": 120,
+  "downloads": 15451,
+  "likes": 124,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -46,8 +46,8 @@
  {
   "id": "openai/gpt-oss-20b",
   "createdAt": "2025-08-04T22:33:29.000Z",
-  "downloads": 5766151,
-  "likes": 5218,
+  "downloads": 5868863,
+  "likes": 5289,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -58,8 +58,8 @@
  {
   "id": "openai/gpt-oss-120b",
   "createdAt": "2025-08-04T22:33:06.000Z",
-  "downloads": 2871750,
-  "likes": 5440,
+  "downloads": 2429646,
+  "likes": 5500,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",

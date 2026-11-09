@@ -2,8 +2,8 @@
  {
   "id": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
   "createdAt": "2026-10-17T02:40:38.000Z",
-  "downloads": 85275,
-  "likes": 2900,
+  "downloads": 295747,
+  "likes": 5414,
   "pipeline": "image-text-to-text",
   "tags": [
    "text-generation",
@@ -14,8 +14,8 @@
  {
   "id": "deepseek-ai/DeepSeek-V4.1-Flash",
   "createdAt": "2026-09-10T02:17:58.000Z",
-  "downloads": 1640989,
-  "likes": 4734,
+  "downloads": 1842868,
+  "likes": 4912,
   "pipeline": "image-text-to-text",
   "tags": [
    "text-generation",
@@ -27,8 +27,8 @@
  {
   "id": "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
   "createdAt": "2026-08-31T06:16:18.000Z",
-  "downloads": 326391,
-  "likes": 958,
+  "downloads": 151896,
+  "likes": 966,
   "pipeline": "image-text-to-text",
   "tags": [
    "text-generation",
@@ -39,8 +39,8 @@
  {
   "id": "deepseek-ai/DeepSeek-V4-Pro-0813",
   "createdAt": "2026-08-13T03:05:06.000Z",
-  "downloads": 150272,
-  "likes": 899,
+  "downloads": 142678,
+  "likes": 914,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -50,8 +50,8 @@
  {
   "id": "deepseek-ai/DeepSeek-V4-Flash-0731",
   "createdAt": "2026-07-31T07:30:24.000Z",
-  "downloads": 4112191,
-  "likes": 4088,
+  "downloads": 2701813,
+  "likes": 4098,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -61,7 +61,7 @@
  {
   "id": "deepseek-ai/eagle3_gemma4_12b_ttt7",
   "createdAt": "2026-06-28T12:37:17.000Z",
-  "downloads": 653,
+  "downloads": 587,
   "likes": 14,
   "pipeline": "",
   "tags": [],
@@ -70,7 +70,7 @@
  {
   "id": "deepseek-ai/eagle3_qwen3_14b_ttt7",
   "createdAt": "2026-06-28T12:36:20.000Z",
-  "downloads": 453,
+  "downloads": 438,
   "likes": 4,
   "pipeline": "",
   "tags": [],
@@ -79,7 +79,7 @@
  {
   "id": "deepseek-ai/eagle3_qwen3_8b_ttt7",
   "createdAt": "2026-06-28T12:35:29.000Z",
-  "downloads": 665,
+  "downloads": 774,
   "likes": 3,
   "pipeline": "",
   "tags": [],
@@ -88,7 +88,7 @@
  {
   "id": "deepseek-ai/eagle3_qwen3_4b_ttt7",
   "createdAt": "2026-06-28T12:34:59.000Z",
-  "downloads": 670,
+  "downloads": 636,
   "likes": 4,
   "pipeline": "",
   "tags": [],
@@ -97,7 +97,7 @@
  {
   "id": "deepseek-ai/dflash_gemma4_12b_block7",
   "createdAt": "2026-06-28T12:33:24.000Z",
-  "downloads": 476,
+  "downloads": 459,
   "likes": 8,
   "pipeline": "",
   "tags": [],
@@ -106,7 +106,7 @@
  {
   "id": "deepseek-ai/dflash_qwen3_14b_block7",
   "createdAt": "2026-06-28T12:31:30.000Z",
-  "downloads": 706,
+  "downloads": 486,
   "likes": 6,
   "pipeline": "",
   "tags": [],
@@ -115,7 +115,7 @@
  {
   "id": "deepseek-ai/dflash_qwen3_8b_block7",
   "createdAt": "2026-06-28T12:30:07.000Z",
-  "downloads": 703,
+  "downloads": 941,
   "likes": 5,
   "pipeline": "",
   "tags": [],
@@ -124,7 +124,7 @@
  {
   "id": "deepseek-ai/dflash_qwen3_4b_block7",
   "createdAt": "2026-06-28T12:29:12.000Z",
-  "downloads": 1469,
+  "downloads": 3265,
   "likes": 2,
   "pipeline": "",
   "tags": [],
@@ -133,8 +133,8 @@
  {
   "id": "deepseek-ai/dspark_gemma4_12b_block7",
   "createdAt": "2026-06-28T12:27:36.000Z",
-  "downloads": 1515,
-  "likes": 47,
+  "downloads": 1056,
+  "likes": 48,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -142,8 +142,8 @@
  {
   "id": "deepseek-ai/dspark_qwen3_14b_block7",
   "createdAt": "2026-06-28T12:25:33.000Z",
-  "downloads": 8711,
-  "likes": 15,
+  "downloads": 3189,
+  "likes": 17,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -151,8 +151,8 @@
  {
   "id": "deepseek-ai/dspark_qwen3_8b_block7",
   "createdAt": "2026-06-28T12:24:08.000Z",
-  "downloads": 8839,
-  "likes": 16,
+  "downloads": 22361,
+  "likes": 22,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -160,8 +160,8 @@
  {
   "id": "deepseek-ai/dspark_qwen3_4b_block7",
   "createdAt": "2026-06-28T11:29:16.000Z",
-  "downloads": 2996,
-  "likes": 62,
+  "downloads": 3412,
+  "likes": 68,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -169,8 +169,8 @@
  {
   "id": "deepseek-ai/DeepSeek-V4-Pro-DSpark",
   "createdAt": "2026-06-27T03:02:56.000Z",
-  "downloads": 2097,
-  "likes": 559,
+  "downloads": 2055,
+  "likes": 561,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -180,8 +180,8 @@
  {
   "id": "deepseek-ai/DeepSeek-V4-Flash-DSpark",
   "createdAt": "2026-06-27T02:27:36.000Z",
-  "downloads": 148485,
-  "likes": 308,
+  "downloads": 126312,
+  "likes": 309,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -191,8 +191,8 @@
  {
   "id": "deepseek-ai/DeepSeek-V4-Pro",
   "createdAt": "2026-04-22T06:04:45.000Z",
-  "downloads": 360375,
-  "likes": 5677,
+  "downloads": 335063,
+  "likes": 5700,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -202,8 +202,8 @@
  {
   "id": "deepseek-ai/DeepSeek-V4-Pro-Base",
   "createdAt": "2026-04-22T06:04:35.000Z",
-  "downloads": 17067,
-  "likes": 352,
+  "downloads": 21173,
+  "likes": 357,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -211,8 +211,8 @@
  {
   "id": "deepseek-ai/DeepSeek-V4-Flash",
   "createdAt": "2026-04-22T06:04:20.000Z",
-  "downloads": 936089,
-  "likes": 2342,
+  "downloads": 1125876,
+  "likes": 2380,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -222,8 +222,8 @@
  {
   "id": "deepseek-ai/DeepSeek-V4-Flash-Base",
   "createdAt": "2026-04-22T06:03:55.000Z",
-  "downloads": 48552,
-  "likes": 346,
+  "downloads": 26727,
+  "likes": 356,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -231,8 +231,8 @@
  {
   "id": "deepseek-ai/DeepSeek-OCR-2",
   "createdAt": "2026-01-27T02:56:54.000Z",
-  "downloads": 529743,
-  "likes": 1145,
+  "downloads": 352007,
+  "likes": 1151,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text"
@@ -242,8 +242,8 @@
  {
   "id": "deepseek-ai/DeepSeek-V3.2",
   "createdAt": "2025-12-01T02:34:49.000Z",
-  "downloads": 5592300,
-  "likes": 1587,
+  "downloads": 7456221,
+  "likes": 1596,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -253,8 +253,8 @@
  {
   "id": "deepseek-ai/DeepSeek-V3.2-Speciale",
   "createdAt": "2025-11-28T03:00:02.000Z",
-  "downloads": 3245,
-  "likes": 744,
+  "downloads": 3711,
+  "likes": 746,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -264,8 +264,8 @@
  {
   "id": "deepseek-ai/DeepSeek-Math-V2",
   "createdAt": "2025-11-27T09:54:23.000Z",
-  "downloads": 855,
-  "likes": 719,
+  "downloads": 1097,
+  "likes": 721,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -276,8 +276,8 @@
  {
   "id": "deepseek-ai/DeepSeek-OCR",
   "createdAt": "2025-10-17T06:22:05.000Z",
-  "downloads": 2072209,
-  "likes": 3457,
+  "downloads": 1971411,
+  "likes": 3462,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text"
@@ -287,8 +287,8 @@
  {
   "id": "deepseek-ai/DeepSeek-V3.2-Exp",
   "createdAt": "2025-09-29T06:07:26.000Z",
-  "downloads": 39902,
-  "likes": 1024,
+  "downloads": 43350,
+  "likes": 1027,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -299,7 +299,7 @@
  {
   "id": "deepseek-ai/DeepSeek-V3.2-Exp-Base",
   "createdAt": "2025-09-29T02:43:23.000Z",
-  "downloads": 857,
+  "downloads": 979,
   "likes": 68,
   "pipeline": "text-generation",
   "tags": [
@@ -311,8 +311,8 @@
  {
   "id": "deepseek-ai/DeepSeek-V3.1-Terminus",
   "createdAt": "2025-09-22T04:56:04.000Z",
-  "downloads": 12709,
-  "likes": 385,
+  "downloads": 9351,
+  "likes": 386,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -323,8 +323,8 @@
  {
   "id": "deepseek-ai/DeepSeek-V3.1",
   "createdAt": "2025-08-21T02:37:52.000Z",
-  "downloads": 304391,
-  "likes": 863,
+  "downloads": 255788,
+  "likes": 864,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -335,8 +335,8 @@
  {
   "id": "deepseek-ai/DeepSeek-V3.1-Base",
   "createdAt": "2025-08-19T10:01:00.000Z",
-  "downloads": 12691,
-  "likes": 1024,
+  "downloads": 9201,
+  "likes": 1030,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -347,8 +347,8 @@
  {
   "id": "deepseek-ai/DeepSeek-R1-0528-Qwen3-8B",
   "createdAt": "2025-05-29T11:07:47.000Z",
-  "downloads": 355790,
-  "likes": 1124,
+  "downloads": 354904,
+  "likes": 1126,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -359,8 +359,8 @@
  {
   "id": "deepseek-ai/DeepSeek-R1-0528",
   "createdAt": "2025-05-28T09:46:42.000Z",
-  "downloads": 161357,
-  "likes": 2490,
+  "downloads": 121834,
+  "likes": 2496,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -371,8 +371,8 @@
  {
   "id": "deepseek-ai/DeepSeek-Prover-V2-7B",
   "createdAt": "2025-04-30T06:32:28.000Z",
-  "downloads": 6427,
-  "likes": 164,
+  "downloads": 6964,
+  "likes": 166,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -380,8 +380,8 @@
  {
   "id": "deepseek-ai/DeepSeek-Prover-V2-671B",
   "createdAt": "2025-04-30T06:14:35.000Z",
-  "downloads": 1242,
-  "likes": 848,
+  "downloads": 1755,
+  "likes": 849,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -392,8 +392,8 @@
  {
   "id": "deepseek-ai/DeepSeek-V3-0324",
   "createdAt": "2025-03-24T09:28:22.000Z",
-  "downloads": 631701,
-  "likes": 3223,
+  "downloads": 150028,
+  "likes": 3224,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -404,8 +404,8 @@
  {
   "id": "deepseek-ai/Janus-Pro-1B",
   "createdAt": "2025-01-26T12:07:49.000Z",
-  "downloads": 2883,
-  "likes": 506,
+  "downloads": 3410,
+  "likes": 507,
   "pipeline": "any-to-any",
   "tags": [
    "any-to-any"
@@ -415,8 +415,8 @@
  {
   "id": "deepseek-ai/Janus-Pro-7B",
   "createdAt": "2025-01-26T12:05:50.000Z",
-  "downloads": 10215,
-  "likes": 3719,
+  "downloads": 15394,
+  "likes": 3722,
   "pipeline": "any-to-any",
   "tags": [
    "any-to-any"
@@ -426,8 +426,8 @@
  {
   "id": "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
   "createdAt": "2025-01-20T09:19:00.000Z",
-  "downloads": 349301,
-  "likes": 1661,
+  "downloads": 356019,
+  "likes": 1672,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -438,8 +438,8 @@
  {
   "id": "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
   "createdAt": "2025-01-20T09:18:27.000Z",
-  "downloads": 292391,
-  "likes": 727,
+  "downloads": 196942,
+  "likes": 739,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -450,8 +450,8 @@
  {
   "id": "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
   "createdAt": "2025-01-20T09:16:14.000Z",
-  "downloads": 309108,
-  "likes": 943,
+  "downloads": 331208,
+  "likes": 954,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -462,7 +462,7 @@
  {
   "id": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
   "createdAt": "2025-01-20T09:13:33.000Z",
-  "downloads": 35993,
+  "downloads": 28337,
   "likes": 823,
   "pipeline": "text-generation",
   "tags": [
@@ -474,8 +474,8 @@
  {
   "id": "deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
   "createdAt": "2025-01-20T09:09:42.000Z",
-  "downloads": 109377,
-  "likes": 914,
+  "downloads": 75110,
+  "likes": 919,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -486,8 +486,8 @@
  {
   "id": "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
   "createdAt": "2025-01-20T09:04:18.000Z",
-  "downloads": 1274971,
-  "likes": 1646,
+  "downloads": 665551,
+  "likes": 1663,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -498,8 +498,8 @@
  {
   "id": "deepseek-ai/DeepSeek-R1",
   "createdAt": "2025-01-20T03:46:07.000Z",
-  "downloads": 1485789,
-  "likes": 14410,
+  "downloads": 1632231,
+  "likes": 14442,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -510,8 +510,8 @@
  {
   "id": "deepseek-ai/DeepSeek-R1-Zero",
   "createdAt": "2025-01-20T03:35:48.000Z",
-  "downloads": 4556,
-  "likes": 982,
+  "downloads": 3592,
+  "likes": 986,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -522,8 +522,8 @@
  {
   "id": "deepseek-ai/DeepSeek-V3",
   "createdAt": "2024-12-25T12:52:23.000Z",
-  "downloads": 1431735,
-  "likes": 4452,
+  "downloads": 1505410,
+  "likes": 4462,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -534,8 +534,8 @@
  {
   "id": "deepseek-ai/DeepSeek-V3-Base",
   "createdAt": "2024-12-25T12:52:06.000Z",
-  "downloads": 8174,
-  "likes": 1724,
+  "downloads": 39337,
+  "likes": 1725,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -543,8 +543,8 @@
  {
   "id": "deepseek-ai/deepseek-vl2",
   "createdAt": "2024-12-13T09:06:44.000Z",
-  "downloads": 6304,
-  "likes": 408,
+  "downloads": 6030,
+  "likes": 410,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text"
@@ -554,8 +554,8 @@
  {
   "id": "deepseek-ai/deepseek-vl2-small",
   "createdAt": "2024-12-13T09:01:03.000Z",
-  "downloads": 5407,
-  "likes": 194,
+  "downloads": 5389,
+  "likes": 195,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -566,8 +566,8 @@
  {
   "id": "deepseek-ai/deepseek-vl2-tiny",
   "createdAt": "2024-12-13T08:49:22.000Z",
-  "downloads": 127455,
-  "likes": 270,
+  "downloads": 109122,
+  "likes": 273,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text"
@@ -577,8 +577,8 @@
  {
   "id": "deepseek-ai/DeepSeek-V2.5-1210",
   "createdAt": "2024-12-10T05:51:13.000Z",
-  "downloads": 2838,
-  "likes": 274,
+  "downloads": 1691,
+  "likes": 275,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",

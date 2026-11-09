@@ -2,8 +2,8 @@
  {
   "id": "meta-llama/Llama-Prompt-Guard-2-86M",
   "createdAt": "2025-04-28T07:16:35.000Z",
-  "downloads": 101763,
-  "likes": 314,
+  "downloads": 97454,
+  "likes": 367,
   "pipeline": "text-classification",
   "tags": [],
   "gated": "manual"
@@ -11,8 +11,8 @@
  {
   "id": "meta-llama/Llama-Prompt-Guard-2-22M",
   "createdAt": "2025-04-28T07:15:58.000Z",
-  "downloads": 6987,
-  "likes": 77,
+  "downloads": 7266,
+  "likes": 85,
   "pipeline": "text-classification",
   "tags": [],
   "gated": "manual"
@@ -20,8 +20,8 @@
  {
   "id": "meta-llama/Llama-Guard-4-12B",
   "createdAt": "2025-04-23T11:30:25.000Z",
-  "downloads": 42384,
-  "likes": 134,
+  "downloads": 88347,
+  "likes": 138,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -32,7 +32,7 @@
  {
   "id": "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8-Original",
   "createdAt": "2025-04-04T10:03:43.000Z",
-  "downloads": 1,
+  "downloads": 3,
   "likes": 37,
   "pipeline": "",
   "tags": [],
@@ -41,7 +41,7 @@
  {
   "id": "meta-llama/Llama-4-Maverick-17B-128E-Instruct-Original",
   "createdAt": "2025-04-04T08:02:25.000Z",
-  "downloads": 3,
+  "downloads": 4,
   "likes": 40,
   "pipeline": "",
   "tags": [],
@@ -51,7 +51,7 @@
   "id": "meta-llama/Llama-4-Maverick-17B-128E-Original",
   "createdAt": "2025-04-03T15:51:13.000Z",
   "downloads": 4,
-  "likes": 86,
+  "likes": 87,
   "pipeline": "",
   "tags": [],
   "gated": "manual"
@@ -59,7 +59,7 @@
  {
   "id": "meta-llama/Llama-4-Scout-17B-16E-Instruct-Original",
   "createdAt": "2025-04-03T15:39:52.000Z",
-  "downloads": 2,
+  "downloads": 12,
   "likes": 55,
   "pipeline": "",
   "tags": [],
@@ -68,7 +68,7 @@
  {
   "id": "meta-llama/Llama-4-Scout-17B-16E-Original",
   "createdAt": "2025-04-03T15:06:08.000Z",
-  "downloads": 4,
+  "downloads": 6,
   "likes": 62,
   "pipeline": "",
   "tags": [],
@@ -77,8 +77,8 @@
  {
   "id": "meta-llama/Llama-4-Maverick-17B-128E",
   "createdAt": "2025-04-02T17:35:27.000Z",
-  "downloads": 334,
-  "likes": 102,
+  "downloads": 191,
+  "likes": 105,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -89,8 +89,8 @@
  {
   "id": "meta-llama/Llama-4-Scout-17B-16E",
   "createdAt": "2025-04-02T17:03:27.000Z",
-  "downloads": 2283,
-  "likes": 277,
+  "downloads": 2119,
+  "likes": 278,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -101,8 +101,8 @@
  {
   "id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
   "createdAt": "2025-04-02T13:34:17.000Z",
-  "downloads": 133972,
-  "likes": 1379,
+  "downloads": 109454,
+  "likes": 1387,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -113,8 +113,8 @@
  {
   "id": "meta-llama/Llama-4-Maverick-17B-128E-Instruct",
   "createdAt": "2025-04-01T22:17:20.000Z",
-  "downloads": 9730,
-  "likes": 517,
+  "downloads": 11865,
+  "likes": 520,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -125,8 +125,8 @@
  {
   "id": "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
   "createdAt": "2025-04-01T20:47:02.000Z",
-  "downloads": 42388,
-  "likes": 186,
+  "downloads": 41061,
+  "likes": 188,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",

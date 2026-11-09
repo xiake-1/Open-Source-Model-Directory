@@ -1,0 +1,168 @@
+[
+ {
+  "id": "KRAFTON/Raon-1-mini-preview-mlx",
+  "createdAt": "2026-10-21T00:27:43.000Z",
+  "downloads": 2483,
+  "likes": 27,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "KRAFTON/Raon-1-mini-preview",
+  "createdAt": "2026-10-21T00:14:48.000Z",
+  "downloads": 4164,
+  "likes": 236,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "KRAFTON/Raon-1-mini-preview-nvfp4",
+  "createdAt": "2026-10-20T20:15:21.000Z",
+  "downloads": 1418,
+  "likes": 25,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "KRAFTON/Raon-1-mini-preview-gguf",
+  "createdAt": "2026-10-20T11:47:27.000Z",
+  "downloads": 42414,
+  "likes": 74,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "KRAFTON/Raon-1-mini-preview-dflash2",
+  "createdAt": "2026-10-20T03:54:49.000Z",
+  "downloads": 1189,
+  "likes": 21,
+  "pipeline": "text-generation",
+  "tags": [
+   "text-generation"
+  ],
+  "gated": false
+ },
+ {
+  "id": "KRAFTON/A.X-K2-Raon-Speech-21B-A3B",
+  "createdAt": "2026-07-27T05:11:06.000Z",
+  "downloads": 2429,
+  "likes": 113,
+  "pipeline": "any-to-any",
+  "tags": [
+   "any-to-any"
+  ],
+  "gated": false
+ },
+ {
+  "id": "KRAFTON/Raon-OpenTTS-1B",
+  "createdAt": "2026-05-21T06:54:12.000Z",
+  "downloads": 62,
+  "likes": 82,
+  "pipeline": "text-to-speech",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "KRAFTON/Raon-Speech-9B-FP8",
+  "createdAt": "2026-04-01T16:04:43.000Z",
+  "downloads": 132,
+  "likes": 11,
+  "pipeline": "any-to-any",
+  "tags": [
+   "any-to-any"
+  ],
+  "gated": false
+ },
+ {
+  "id": "KRAFTON/Raon-OpenTTS-0.3B",
+  "createdAt": "2026-04-01T11:46:06.000Z",
+  "downloads": 63,
+  "likes": 26,
+  "pipeline": "text-to-speech",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "KRAFTON/Raon-Speech-9B-AWQ-INT4",
+  "createdAt": "2026-04-01T11:07:15.000Z",
+  "downloads": 236,
+  "likes": 12,
+  "pipeline": "any-to-any",
+  "tags": [
+   "any-to-any"
+  ],
+  "gated": false
+ },
+ {
+  "id": "KRAFTON/Raon-VisionEncoder",
+  "createdAt": "2026-04-01T11:01:41.000Z",
+  "downloads": 57,
+  "likes": 25,
+  "pipeline": "feature-extraction",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "KRAFTON/Raon-SpeechChat-9B",
+  "createdAt": "2026-04-01T04:18:47.000Z",
+  "downloads": 3266,
+  "likes": 50,
+  "pipeline": "audio-to-audio",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "KRAFTON/Raon-Speech-9B",
+  "createdAt": "2026-03-30T15:46:24.000Z",
+  "downloads": 2873,
+  "likes": 62,
+  "pipeline": "any-to-any",
+  "tags": [
+   "any-to-any"
+  ],
+  "gated": false
+ },
+ {
+  "id": "KRAFTON/AceReason-Nemotron-1.1-Offline-GRPO-7B",
+  "createdAt": "2025-07-28T01:48:27.000Z",
+  "downloads": 27,
+  "likes": 4,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "KRAFTON/OpenThinker2-Offline-GRPO-7B",
+  "createdAt": "2025-07-28T01:45:50.000Z",
+  "downloads": 32,
+  "likes": 4,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "KRAFTON/OpenThinker3-Offline-GRPO-7B",
+  "createdAt": "2025-07-28T01:41:05.000Z",
+  "downloads": 15,
+  "likes": 7,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ }
+]

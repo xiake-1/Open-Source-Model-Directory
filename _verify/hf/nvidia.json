@@ -1,9 +1,47 @@
 [
  {
+  "id": "nvidia/MetricTrail",
+  "createdAt": "2026-11-05T07:22:55.000Z",
+  "downloads": 225,
+  "likes": 21,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "nvidia/DeepSeek-V4.1-Flash-1017-NVFP4",
+  "createdAt": "2026-10-30T17:37:02.000Z",
+  "downloads": 8200,
+  "likes": 185,
+  "pipeline": "image-text-to-text",
+  "tags": [
+   "image-text-to-text"
+  ],
+  "gated": false
+ },
+ {
+  "id": "nvidia/Metatron-v1",
+  "createdAt": "2026-10-27T21:43:16.000Z",
+  "downloads": 2330,
+  "likes": 14,
+  "pipeline": "reinforcement-learning",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "nvidia/MotionBricks",
+  "createdAt": "2026-10-23T18:49:27.000Z",
+  "downloads": 0,
+  "likes": 133,
+  "pipeline": "robotics",
+  "tags": [],
+  "gated": false
+ },
+ {
   "id": "nvidia/InternVideo2-CLIP-anomaly-detection",
   "createdAt": "2026-10-22T18:23:57.000Z",
-  "downloads": 74,
-  "likes": 7,
+  "downloads": 170,
+  "likes": 22,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -11,7 +49,7 @@
  {
   "id": "nvidia/cosmos3-nano-libero10-sdg-export-S5_2_s43",
   "createdAt": "2026-10-19T21:19:46.000Z",
-  "downloads": 188,
+  "downloads": 330,
   "likes": 0,
   "pipeline": "robotics",
   "tags": [],
@@ -20,8 +58,8 @@
  {
   "id": "nvidia/Cosmos3-H-Embodied-Nano",
   "createdAt": "2026-10-19T12:45:34.000Z",
-  "downloads": 108,
-  "likes": 2,
+  "downloads": 1062,
+  "likes": 4,
   "pipeline": "robotics",
   "tags": [],
   "gated": false
@@ -29,8 +67,8 @@
  {
   "id": "nvidia/Cosmos3-H-Dreams",
   "createdAt": "2026-10-19T12:35:12.000Z",
-  "downloads": 643,
-  "likes": 8,
+  "downloads": 1230,
+  "likes": 9,
   "pipeline": "image-to-video",
   "tags": [],
   "gated": false
@@ -38,7 +76,7 @@
  {
   "id": "nvidia/cosmos3-nano-libero10-sdg-export-D2_s43",
   "createdAt": "2026-10-19T12:33:39.000Z",
-  "downloads": 162,
+  "downloads": 308,
   "likes": 0,
   "pipeline": "robotics",
   "tags": [],
@@ -47,7 +85,7 @@
  {
   "id": "nvidia/cosmos3-nano-libero10-sdg-export-S2_s43",
   "createdAt": "2026-10-19T03:38:29.000Z",
-  "downloads": 123,
+  "downloads": 252,
   "likes": 1,
   "pipeline": "robotics",
   "tags": [],
@@ -56,8 +94,8 @@
  {
   "id": "nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-NVFP4",
   "createdAt": "2026-10-16T18:30:41.000Z",
-  "downloads": 1677,
-  "likes": 9,
+  "downloads": 4582,
+  "likes": 25,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -68,8 +106,8 @@
  {
   "id": "nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-MXFP8",
   "createdAt": "2026-10-16T18:26:53.000Z",
-  "downloads": 1021,
-  "likes": 8,
+  "downloads": 2251,
+  "likes": 9,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -80,8 +118,8 @@
  {
   "id": "nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-BF16",
   "createdAt": "2026-10-16T18:25:29.000Z",
-  "downloads": 4916,
-  "likes": 182,
+  "downloads": 12827,
+  "likes": 244,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -92,8 +130,8 @@
  {
   "id": "nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-GGUF",
   "createdAt": "2026-10-16T16:25:01.000Z",
-  "downloads": 11311,
-  "likes": 64,
+  "downloads": 40038,
+  "likes": 88,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -104,8 +142,8 @@
  {
   "id": "nvidia/Muse-Spark-Open-816B-A42B-DFlash2",
   "createdAt": "2026-10-16T04:40:26.000Z",
-  "downloads": 1309,
-  "likes": 8,
+  "downloads": 2508,
+  "likes": 9,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text"
@@ -115,8 +153,8 @@
  {
   "id": "nvidia/RFD4-Proteina-prep",
   "createdAt": "2026-10-15T15:57:21.000Z",
-  "downloads": 40,
-  "likes": 0,
+  "downloads": 103,
+  "likes": 1,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -124,8 +162,8 @@
  {
   "id": "nvidia/Nemotron-3.5-Rerank-8B-BF16",
   "createdAt": "2026-10-15T08:42:42.000Z",
-  "downloads": 2124,
-  "likes": 40,
+  "downloads": 7042,
+  "likes": 52,
   "pipeline": "text-ranking",
   "tags": [],
   "gated": false
@@ -133,8 +171,8 @@
  {
   "id": "nvidia/RFD4-Proteina-Diffusers",
   "createdAt": "2026-10-15T03:07:08.000Z",
-  "downloads": 150,
-  "likes": 0,
+  "downloads": 338,
+  "likes": 4,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -151,7 +189,7 @@
  {
   "id": "nvidia/GR00T-N1.7-AppleToPlate-cosine40k-checkpoint-15000",
   "createdAt": "2026-10-13T20:23:12.000Z",
-  "downloads": 288,
+  "downloads": 414,
   "likes": 0,
   "pipeline": "robotics",
   "tags": [],
@@ -160,8 +198,8 @@
  {
   "id": "nvidia/ARDY-SOMA-RP-30FPS-KimodoRep-Horizon60",
   "createdAt": "2026-10-13T19:17:25.000Z",
-  "downloads": 100,
-  "likes": 2,
+  "downloads": 303,
+  "likes": 3,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -169,8 +207,8 @@
  {
   "id": "nvidia/Kimodo-SOMA-RP-ArdyRep-v1.2",
   "createdAt": "2026-10-13T18:04:43.000Z",
-  "downloads": 160,
-  "likes": 13,
+  "downloads": 321,
+  "likes": 19,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -178,8 +216,8 @@
  {
   "id": "nvidia/Kimodo-SOMA-RP-v1.2",
   "createdAt": "2026-10-13T18:03:31.000Z",
-  "downloads": 2676,
-  "likes": 10,
+  "downloads": 8593,
+  "likes": 18,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -214,8 +252,8 @@
  {
   "id": "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4",
   "createdAt": "2026-10-12T15:32:30.000Z",
-  "downloads": 17283,
-  "likes": 229,
+  "downloads": 52140,
+  "likes": 264,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -226,8 +264,8 @@
  {
   "id": "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16",
   "createdAt": "2026-10-12T15:32:06.000Z",
-  "downloads": 34316,
-  "likes": 101,
+  "downloads": 71232,
+  "likes": 119,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -238,8 +276,8 @@
  {
   "id": "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-Base-BF16",
   "createdAt": "2026-10-12T15:31:49.000Z",
-  "downloads": 1920,
-  "likes": 54,
+  "downloads": 2940,
+  "likes": 61,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -250,8 +288,8 @@
  {
   "id": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-LiLiCorr",
   "createdAt": "2026-10-12T14:42:40.000Z",
-  "downloads": 3408,
-  "likes": 16,
+  "downloads": 6343,
+  "likes": 17,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -261,8 +299,8 @@
  {
   "id": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-LiLiCorr-GGUF",
   "createdAt": "2026-10-12T14:27:49.000Z",
-  "downloads": 14313,
-  "likes": 22,
+  "downloads": 33153,
+  "likes": 24,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -271,10 +309,28 @@
   "gated": false
  },
  {
+  "id": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-NVFP4",
+  "createdAt": "2026-10-12T13:26:27.000Z",
+  "downloads": 12965,
+  "likes": 33,
+  "pipeline": "automatic-speech-recognition",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-FP8",
+  "createdAt": "2026-10-12T13:26:20.000Z",
+  "downloads": 7776,
+  "likes": 9,
+  "pipeline": "automatic-speech-recognition",
+  "tags": [],
+  "gated": false
+ },
+ {
   "id": "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4-LiLiCorr",
   "createdAt": "2026-10-11T20:20:59.000Z",
-  "downloads": 3823,
-  "likes": 10,
+  "downloads": 6481,
+  "likes": 11,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -284,7 +340,7 @@
  {
   "id": "nvidia/cosmos3-nano-libero10-sdg-export-S5_2",
   "createdAt": "2026-10-10T18:54:08.000Z",
-  "downloads": 97,
+  "downloads": 216,
   "likes": 0,
   "pipeline": "robotics",
   "tags": [],
@@ -293,7 +349,7 @@
  {
   "id": "nvidia/cosmos3-nano-libero10-sdg-export-S5_all",
   "createdAt": "2026-10-10T18:53:19.000Z",
-  "downloads": 103,
+  "downloads": 216,
   "likes": 0,
   "pipeline": "robotics",
   "tags": [],
@@ -302,8 +358,8 @@
  {
   "id": "nvidia/Qwen-Image-NVFP4",
   "createdAt": "2026-10-09T23:37:43.000Z",
-  "downloads": 75,
-  "likes": 8,
+  "downloads": 111,
+  "likes": 10,
   "pipeline": "text-to-image",
   "tags": [],
   "gated": false
@@ -311,7 +367,7 @@
  {
   "id": "nvidia/cosmos3-nano-libero10-sdg-export-D5",
   "createdAt": "2026-10-09T21:31:12.000Z",
-  "downloads": 104,
+  "downloads": 206,
   "likes": 0,
   "pipeline": "robotics",
   "tags": [],
@@ -320,8 +376,8 @@
  {
   "id": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-BF16",
   "createdAt": "2026-10-09T12:45:14.000Z",
-  "downloads": 4731,
-  "likes": 47,
+  "downloads": 8753,
+  "likes": 52,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -332,8 +388,8 @@
  {
   "id": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-BF16-DFlash-NVFP4",
   "createdAt": "2026-10-09T00:18:11.000Z",
-  "downloads": 335,
-  "likes": 6,
+  "downloads": 1080,
+  "likes": 10,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -343,7 +399,7 @@
  {
   "id": "nvidia/cosmos3-nano-libero10-sdg-export-S_best",
   "createdAt": "2026-10-08T18:25:07.000Z",
-  "downloads": 88,
+  "downloads": 187,
   "likes": 0,
   "pipeline": "robotics",
   "tags": [],
@@ -352,7 +408,7 @@
  {
   "id": "nvidia/cosmos3-nano-libero10-sdg-export-S_worst",
   "createdAt": "2026-10-08T18:24:21.000Z",
-  "downloads": 84,
+  "downloads": 178,
   "likes": 0,
   "pipeline": "robotics",
   "tags": [],
@@ -361,8 +417,8 @@
  {
   "id": "nvidia/Qwen3.8-Flash-Next-FP4-Local",
   "createdAt": "2026-10-08T16:20:17.000Z",
-  "downloads": 15014,
-  "likes": 336,
+  "downloads": 34115,
+  "likes": 397,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -373,8 +429,8 @@
  {
   "id": "nvidia/GLM-5.3-Flash-FP4-Local",
   "createdAt": "2026-10-08T16:19:57.000Z",
-  "downloads": 5283,
-  "likes": 122,
+  "downloads": 10627,
+  "likes": 147,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -383,10 +439,30 @@
   "gated": false
  },
  {
+  "id": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-DFlash2",
+  "createdAt": "2026-10-07T23:35:38.000Z",
+  "downloads": 639,
+  "likes": 13,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+  "createdAt": "2026-10-07T22:50:21.000Z",
+  "downloads": 67230,
+  "likes": 3114,
+  "pipeline": "automatic-speech-recognition",
+  "tags": [
+   "text2text-generation"
+  ],
+  "gated": false
+ },
+ {
   "id": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-GGUF",
   "createdAt": "2026-10-07T19:15:58.000Z",
-  "downloads": 132258,
-  "likes": 122,
+  "downloads": 235197,
+  "likes": 131,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -397,8 +473,8 @@
  {
   "id": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
   "createdAt": "2026-10-07T17:50:42.000Z",
-  "downloads": 9614,
-  "likes": 161,
+  "downloads": 16413,
+  "likes": 172,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -409,7 +485,7 @@
  {
   "id": "nvidia/cosmos3-nano-libero10-sdg-export-S_all",
   "createdAt": "2026-10-07T16:51:49.000Z",
-  "downloads": 83,
+  "downloads": 155,
   "likes": 0,
   "pipeline": "robotics",
   "tags": [],
@@ -418,7 +494,7 @@
  {
   "id": "nvidia/cosmos3-nano-libero10-sdg-export-D_half",
   "createdAt": "2026-10-07T16:48:52.000Z",
-  "downloads": 87,
+  "downloads": 153,
   "likes": 0,
   "pipeline": "robotics",
   "tags": [],
@@ -427,7 +503,7 @@
  {
   "id": "nvidia/cosmos3-nano-libero10-sdg-export-D2",
   "createdAt": "2026-10-07T16:46:35.000Z",
-  "downloads": 79,
+  "downloads": 152,
   "likes": 0,
   "pipeline": "robotics",
   "tags": [],
@@ -436,7 +512,7 @@
  {
   "id": "nvidia/cosmos3-nano-libero10-sdg-export-S2",
   "createdAt": "2026-10-07T16:43:30.000Z",
-  "downloads": 80,
+  "downloads": 152,
   "likes": 0,
   "pipeline": "robotics",
   "tags": [],
@@ -445,7 +521,7 @@
  {
   "id": "nvidia/Nemotron-3.5-Embed-1B-NVFP4",
   "createdAt": "2026-10-07T15:16:20.000Z",
-  "downloads": 990,
+  "downloads": 2123,
   "likes": 22,
   "pipeline": "visual-document-retrieval",
   "tags": [],
@@ -454,8 +530,8 @@
  {
   "id": "nvidia/Nemotron-3.5-Embed-8B-BF16",
   "createdAt": "2026-10-07T13:12:32.000Z",
-  "downloads": 2629,
-  "likes": 29,
+  "downloads": 7014,
+  "likes": 38,
   "pipeline": "visual-document-retrieval",
   "tags": [],
   "gated": false
@@ -463,8 +539,8 @@
  {
   "id": "nvidia/Nemotron-3.5-Embed-1B-BF16",
   "createdAt": "2026-10-07T10:46:18.000Z",
-  "downloads": 5085,
-  "likes": 45,
+  "downloads": 20667,
+  "likes": 60,
   "pipeline": "visual-document-retrieval",
   "tags": [],
   "gated": false
@@ -472,7 +548,7 @@
  {
   "id": "nvidia/cosmos3-nano-libero10-sdg-export-D",
   "createdAt": "2026-10-06T21:16:31.000Z",
-  "downloads": 77,
+  "downloads": 148,
   "likes": 0,
   "pipeline": "robotics",
   "tags": [],
@@ -481,7 +557,7 @@
  {
   "id": "nvidia/cosmos3-nano-libero10-sdg-export-R",
   "createdAt": "2026-10-06T21:13:34.000Z",
-  "downloads": 81,
+  "downloads": 150,
   "likes": 0,
   "pipeline": "robotics",
   "tags": [],
@@ -490,8 +566,8 @@
  {
   "id": "nvidia/lidarverse",
   "createdAt": "2026-10-06T19:02:28.000Z",
-  "downloads": 0,
-  "likes": 5,
+  "downloads": 119,
+  "likes": 8,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -499,17 +575,47 @@
  {
   "id": "nvidia/RFD4-Proteina",
   "createdAt": "2026-10-06T05:00:39.000Z",
-  "downloads": 3641,
-  "likes": 27,
+  "downloads": 12313,
+  "likes": 44,
   "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "nvidia/NLD-Uni",
+  "createdAt": "2026-10-05T17:47:03.000Z",
+  "downloads": 759,
+  "likes": 12,
+  "pipeline": "any-to-any",
+  "tags": [
+   "image-text-to-text",
+   "any-to-any"
+  ],
+  "gated": false
+ },
+ {
+  "id": "nvidia/G1-Factory-GR00T-1.7",
+  "createdAt": "2026-10-05T15:33:12.000Z",
+  "downloads": 326,
+  "likes": 3,
+  "pipeline": "robotics",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "nvidia/Isaac-RLPT-GR00T-1.7-G1-Factory-PushButton-DSRL",
+  "createdAt": "2026-10-05T15:33:00.000Z",
+  "downloads": 0,
+  "likes": 1,
+  "pipeline": "reinforcement-learning",
   "tags": [],
   "gated": false
  },
  {
   "id": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB-DFlash",
   "createdAt": "2026-10-05T04:42:02.000Z",
-  "downloads": 2407,
-  "likes": 8,
+  "downloads": 7879,
+  "likes": 18,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -520,8 +626,8 @@
  {
   "id": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
   "createdAt": "2026-10-05T04:26:43.000Z",
-  "downloads": 17599,
-  "likes": 120,
+  "downloads": 127453,
+  "likes": 393,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -532,8 +638,8 @@
  {
   "id": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-BF16",
   "createdAt": "2026-10-05T04:25:48.000Z",
-  "downloads": 2734,
-  "likes": 50,
+  "downloads": 24046,
+  "likes": 67,
   "pipeline": "text-generation",
   "tags": [
    "image-text-to-text",
@@ -545,8 +651,8 @@
  {
   "id": "nvidia/Flora-Rewarder",
   "createdAt": "2026-10-02T18:01:10.000Z",
-  "downloads": 1024,
-  "likes": 17,
+  "downloads": 4285,
+  "likes": 19,
   "pipeline": "video-text-to-text",
   "tags": [
    "image-text-to-text"
@@ -556,8 +662,8 @@
  {
   "id": "nvidia/Flora-TempSeg",
   "createdAt": "2026-10-01T22:24:12.000Z",
-  "downloads": 1037,
-  "likes": 16,
+  "downloads": 2522,
+  "likes": 19,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -565,8 +671,8 @@
  {
   "id": "nvidia/Flora-Captioner",
   "createdAt": "2026-10-01T22:22:57.000Z",
-  "downloads": 1213,
-  "likes": 34,
+  "downloads": 4082,
+  "likes": 40,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -578,7 +684,7 @@
   "id": "nvidia/PixelUMM",
   "createdAt": "2026-10-01T21:40:34.000Z",
   "downloads": 0,
-  "likes": 89,
+  "likes": 87,
   "pipeline": "any-to-any",
   "tags": [
    "any-to-any"
@@ -604,10 +710,39 @@
   "gated": false
  },
  {
+  "id": "nvidia/strata",
+  "createdAt": "2026-09-22T20:05:34.000Z",
+  "downloads": 93,
+  "likes": 14,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "nvidia/video-to-data-GR00T-N1.7-finetuned-tissue-box-lift",
+  "createdAt": "2026-09-21T20:53:18.000Z",
+  "downloads": 68,
+  "likes": 1,
+  "pipeline": "robotics",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "nvidia/NVIDIA-NemotronLabs-AI-for-Media-Sports-Basketball",
+  "createdAt": "2026-09-17T23:33:17.000Z",
+  "downloads": 394,
+  "likes": 8,
+  "pipeline": "any-to-any",
+  "tags": [
+   "any-to-any"
+  ],
+  "gated": false
+ },
+ {
   "id": "nvidia/physical-plausibility-evaluator",
   "createdAt": "2026-09-17T17:57:10.000Z",
   "downloads": 0,
-  "likes": 2,
+  "likes": 3,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -615,8 +750,8 @@
  {
   "id": "nvidia/DeepSeek-V4.1-Flash-NVFP4",
   "createdAt": "2026-09-16T20:37:42.000Z",
-  "downloads": 19126,
-  "likes": 119,
+  "downloads": 33806,
+  "likes": 128,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text"
@@ -626,8 +761,8 @@
  {
   "id": "nvidia/RT-DETR-Hand-Detector-v1",
   "createdAt": "2026-09-15T16:58:11.000Z",
-  "downloads": 0,
-  "likes": 15,
+  "downloads": 3115,
+  "likes": 16,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -635,8 +770,8 @@
  {
   "id": "nvidia/c-foundationstereo-s",
   "createdAt": "2026-09-15T01:25:18.000Z",
-  "downloads": 2325,
-  "likes": 11,
+  "downloads": 2306,
+  "likes": 13,
   "pipeline": "depth-estimation",
   "tags": [],
   "gated": false
@@ -644,7 +779,7 @@
  {
   "id": "nvidia/foundationpose",
   "createdAt": "2026-09-15T01:25:12.000Z",
-  "downloads": 846,
+  "downloads": 909,
   "likes": 15,
   "pipeline": "robotics",
   "tags": [],
@@ -653,8 +788,8 @@
  {
   "id": "nvidia/GLM-5.3-NVFP4",
   "createdAt": "2026-09-14T17:58:21.000Z",
-  "downloads": 50701,
-  "likes": 47,
+  "downloads": 226179,
+  "likes": 48,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -663,9 +798,18 @@
   "gated": false
  },
  {
+  "id": "nvidia/corrdiff-era5-hrrr",
+  "createdAt": "2026-09-10T21:23:51.000Z",
+  "downloads": 99,
+  "likes": 0,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
   "id": "nvidia/DeepSeek-V4-Pro-0813-nvfp4-DSpark",
   "createdAt": "2026-09-09T17:47:04.000Z",
-  "downloads": 821,
+  "downloads": 721,
   "likes": 9,
   "pipeline": "text-generation",
   "tags": [
@@ -676,7 +820,7 @@
  {
   "id": "nvidia/healda-v2",
   "createdAt": "2026-09-09T16:13:55.000Z",
-  "downloads": 50,
+  "downloads": 130,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -685,8 +829,8 @@
  {
   "id": "nvidia/NV-Reason-CT",
   "createdAt": "2026-09-08T05:06:51.000Z",
-  "downloads": 7486,
-  "likes": 82,
+  "downloads": 6027,
+  "likes": 90,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -697,8 +841,8 @@
  {
   "id": "nvidia/Qwen3.8-27B-NVFP4",
   "createdAt": "2026-09-04T21:43:04.000Z",
-  "downloads": 469071,
-  "likes": 213,
+  "downloads": 255192,
+  "likes": 235,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -709,7 +853,7 @@
  {
   "id": "nvidia/NVIDIA-Nemotron-Labs-3-Competitive-Coding-550B-A55B-NVFP4",
   "createdAt": "2026-09-04T14:34:50.000Z",
-  "downloads": 1035,
+  "downloads": 961,
   "likes": 15,
   "pipeline": "text-generation",
   "tags": [
@@ -721,8 +865,8 @@
  {
   "id": "nvidia/Nemotron-3.5-Parse",
   "createdAt": "2026-09-03T06:29:29.000Z",
-  "downloads": 6810,
-  "likes": 109,
+  "downloads": 19392,
+  "likes": 154,
   "pipeline": "image-text-to-text",
   "tags": [
    "text-generation",
@@ -734,8 +878,8 @@
  {
   "id": "nvidia/alpajudge",
   "createdAt": "2026-09-02T23:16:34.000Z",
-  "downloads": 0,
-  "likes": 5,
+  "downloads": 97,
+  "likes": 9,
   "pipeline": "text-classification",
   "tags": [],
   "gated": false
@@ -743,8 +887,8 @@
  {
   "id": "nvidia/EgoHand-v1",
   "createdAt": "2026-09-02T22:03:12.000Z",
-  "downloads": 0,
-  "likes": 16,
+  "downloads": 47060,
+  "likes": 28,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -752,8 +896,8 @@
  {
   "id": "nvidia/GLM-5.3-Flash-NVFP4",
   "createdAt": "2026-09-02T20:37:17.000Z",
-  "downloads": 134907,
-  "likes": 175,
+  "downloads": 114723,
+  "likes": 181,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -764,7 +908,7 @@
  {
   "id": "nvidia/Nemotron-3-Labs-Ultra-Math-RL",
   "createdAt": "2026-09-02T19:11:33.000Z",
-  "downloads": 1150,
+  "downloads": 861,
   "likes": 12,
   "pipeline": "text-generation",
   "tags": [
@@ -776,7 +920,7 @@
  {
   "id": "nvidia/Nemotron-3-Labs-Ultra-Math-SFT",
   "createdAt": "2026-09-02T19:11:32.000Z",
-  "downloads": 1177,
+  "downloads": 806,
   "likes": 12,
   "pipeline": "text-generation",
   "tags": [
@@ -788,8 +932,8 @@
  {
   "id": "nvidia/Qwen3.8-Flash-Next-NVFP4",
   "createdAt": "2026-09-02T04:03:35.000Z",
-  "downloads": 372531,
-  "likes": 387,
+  "downloads": 204056,
+  "likes": 447,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -800,8 +944,8 @@
  {
   "id": "nvidia/NVIDIA-NemotronLabs-AI-for-Media-Sports-Tennis",
   "createdAt": "2026-09-01T19:58:31.000Z",
-  "downloads": 1171,
-  "likes": 23,
+  "downloads": 1688,
+  "likes": 28,
   "pipeline": "any-to-any",
   "tags": [
    "any-to-any"
@@ -811,8 +955,8 @@
  {
   "id": "nvidia/Nemotron-3-Diarization",
   "createdAt": "2026-09-01T13:16:57.000Z",
-  "downloads": 116775,
-  "likes": 808,
+  "downloads": 184757,
+  "likes": 829,
   "pipeline": "voice-activity-detection",
   "tags": [],
   "gated": false
@@ -820,8 +964,8 @@
  {
   "id": "nvidia/NVIDIA-NemotronLabs-RE-USE-laughter",
   "createdAt": "2026-09-01T07:42:16.000Z",
-  "downloads": 4783,
-  "likes": 5,
+  "downloads": 3430,
+  "likes": 15,
   "pipeline": "audio-to-audio",
   "tags": [],
   "gated": false
@@ -829,8 +973,8 @@
  {
   "id": "nvidia/Kumo-Tabular",
   "createdAt": "2026-09-01T07:00:05.000Z",
-  "downloads": 26847,
-  "likes": 153,
+  "downloads": 151811,
+  "likes": 210,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -838,8 +982,8 @@
  {
   "id": "nvidia/Cosmos3-Nano-Sim-Transfer",
   "createdAt": "2026-08-31T19:41:36.000Z",
-  "downloads": 564,
-  "likes": 11,
+  "downloads": 3038,
+  "likes": 16,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -847,8 +991,8 @@
  {
   "id": "nvidia/Cosmos3-Nano-Sim-Auto",
   "createdAt": "2026-08-31T19:41:35.000Z",
-  "downloads": 592,
-  "likes": 10,
+  "downloads": 4089,
+  "likes": 22,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -856,8 +1000,8 @@
  {
   "id": "nvidia/Cosmos3-Nano-Transfer-Auto",
   "createdAt": "2026-08-31T19:41:35.000Z",
-  "downloads": 1484,
-  "likes": 11,
+  "downloads": 2594,
+  "likes": 15,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -865,8 +1009,8 @@
  {
   "id": "nvidia/Muse-Glimmer-30B-NVFP4",
   "createdAt": "2026-08-27T20:37:10.000Z",
-  "downloads": 5036,
-  "likes": 25,
+  "downloads": 3607,
+  "likes": 29,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -877,8 +1021,8 @@
  {
   "id": "nvidia/DeepSeek-V4-Pro-0813-NVFP4",
   "createdAt": "2026-08-27T10:39:25.000Z",
-  "downloads": 1080,
-  "likes": 20,
+  "downloads": 834,
+  "likes": 21,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -886,9 +1030,18 @@
   "gated": false
  },
  {
+  "id": "nvidia/FastGen-AYF",
+  "createdAt": "2026-08-27T01:37:01.000Z",
+  "downloads": 0,
+  "likes": 0,
+  "pipeline": "text-to-image",
+  "tags": [],
+  "gated": false
+ },
+ {
   "id": "nvidia/Qwen3.8-2.4T-A95B-NVFP4",
   "createdAt": "2026-08-25T18:55:42.000Z",
-  "downloads": 10924,
+  "downloads": 3032,
   "likes": 24,
   "pipeline": "text-generation",
   "tags": [
@@ -898,10 +1051,19 @@
   "gated": false
  },
  {
+  "id": "nvidia/nemotron-labs-unified-asr-0.6b",
+  "createdAt": "2026-08-21T09:26:40.000Z",
+  "downloads": 2357,
+  "likes": 35,
+  "pipeline": "automatic-speech-recognition",
+  "tags": [],
+  "gated": false
+ },
+ {
   "id": "nvidia/Cosmos3-Nano-Sim-Bimanual",
   "createdAt": "2026-08-20T21:52:27.000Z",
-  "downloads": 677,
-  "likes": 8,
+  "downloads": 1729,
+  "likes": 12,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -910,7 +1072,7 @@
   "id": "nvidia/so101-reach",
   "createdAt": "2026-08-20T17:41:37.000Z",
   "downloads": 0,
-  "likes": 3,
+  "likes": 4,
   "pipeline": "reinforcement-learning",
   "tags": [],
   "gated": false
@@ -918,8 +1080,8 @@
  {
   "id": "nvidia/DeepSeek-V4-Flash-0731-NVFP4",
   "createdAt": "2026-08-19T17:09:47.000Z",
-  "downloads": 4959,
-  "likes": 55,
+  "downloads": 2324,
+  "likes": 57,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -938,7 +1100,7 @@
  {
   "id": "nvidia/interp-dit-crps-era5",
   "createdAt": "2026-08-14T19:53:24.000Z",
-  "downloads": 121,
+  "downloads": 244,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -947,8 +1109,8 @@
  {
   "id": "nvidia/NVIDIA-Nemotron-Labs-Teacher-Chat",
   "createdAt": "2026-08-14T17:09:11.000Z",
-  "downloads": 623,
-  "likes": 4,
+  "downloads": 603,
+  "likes": 5,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -959,8 +1121,8 @@
  {
   "id": "nvidia/NVIDIA-Nemotron-Labs-Teacher-Competition-Coding",
   "createdAt": "2026-08-14T17:08:58.000Z",
-  "downloads": 706,
-  "likes": 10,
+  "downloads": 653,
+  "likes": 11,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -971,7 +1133,7 @@
  {
   "id": "nvidia/NVIDIA-Nemotron-Labs-Teacher-Instruction-Following",
   "createdAt": "2026-08-14T17:08:45.000Z",
-  "downloads": 581,
+  "downloads": 558,
   "likes": 6,
   "pipeline": "text-generation",
   "tags": [
@@ -983,8 +1145,8 @@
  {
   "id": "nvidia/NVIDIA-Nemotron-Labs-Teacher-General-Reasoning",
   "createdAt": "2026-08-14T17:08:25.000Z",
-  "downloads": 744,
-  "likes": 20,
+  "downloads": 743,
+  "likes": 21,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -995,7 +1157,7 @@
  {
   "id": "nvidia/NVIDIA-Nemotron-Labs-Teacher-STEM",
   "createdAt": "2026-08-14T17:07:48.000Z",
-  "downloads": 637,
+  "downloads": 582,
   "likes": 9,
   "pipeline": "text-generation",
   "tags": [
@@ -1007,7 +1169,7 @@
  {
   "id": "nvidia/Kimi-K3-NVFP4",
   "createdAt": "2026-08-13T19:06:29.000Z",
-  "downloads": 8078,
+  "downloads": 6186,
   "likes": 42,
   "pipeline": "text-generation",
   "tags": [
@@ -1018,7 +1180,7 @@
  {
   "id": "nvidia/cmd",
   "createdAt": "2026-08-13T16:59:36.000Z",
-  "downloads": 225,
+  "downloads": 147,
   "likes": 17,
   "pipeline": "image-to-video",
   "tags": [],
@@ -1027,8 +1189,8 @@
  {
   "id": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-Base-BF16",
   "createdAt": "2026-08-05T22:50:37.000Z",
-  "downloads": 26304,
-  "likes": 28,
+  "downloads": 6298,
+  "likes": 29,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -1038,8 +1200,8 @@
  {
   "id": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4-DSpark",
   "createdAt": "2026-08-05T19:16:50.000Z",
-  "downloads": 134557,
-  "likes": 42,
+  "downloads": 59202,
+  "likes": 43,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -1049,7 +1211,7 @@
  {
   "id": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4-DFlash",
   "createdAt": "2026-08-05T19:12:27.000Z",
-  "downloads": 1428,
+  "downloads": 1627,
   "likes": 23,
   "pipeline": "text-generation",
   "tags": [
@@ -1060,8 +1222,8 @@
  {
   "id": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4",
   "createdAt": "2026-08-04T19:10:45.000Z",
-  "downloads": 985757,
-  "likes": 472,
+  "downloads": 1019458,
+  "likes": 493,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1072,8 +1234,8 @@
  {
   "id": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16",
   "createdAt": "2026-08-01T06:55:21.000Z",
-  "downloads": 861461,
-  "likes": 251,
+  "downloads": 1087949,
+  "likes": 271,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1084,8 +1246,8 @@
  {
   "id": "nvidia/NVIDIA-NemotronLabs-VoiceChat-11B",
   "createdAt": "2026-07-29T17:46:48.000Z",
-  "downloads": 5150,
-  "likes": 545,
+  "downloads": 4467,
+  "likes": 549,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -1093,8 +1255,8 @@
  {
   "id": "nvidia/NVIDIA-NemotronLabs-RE-USE",
   "createdAt": "2026-07-22T12:52:19.000Z",
-  "downloads": 5932,
-  "likes": 18,
+  "downloads": 36607,
+  "likes": 218,
   "pipeline": "audio-to-audio",
   "tags": [],
   "gated": false
@@ -1102,7 +1264,7 @@
  {
   "id": "nvidia/DeepSeek-V4-Pro-nvfp4-DSpark",
   "createdAt": "2026-07-22T12:19:26.000Z",
-  "downloads": 928,
+  "downloads": 682,
   "likes": 7,
   "pipeline": "text-generation",
   "tags": [
@@ -1113,7 +1275,7 @@
  {
   "id": "nvidia/DeepSeek-V4-Flash-nvfp4-DSpark",
   "createdAt": "2026-07-22T11:54:18.000Z",
-  "downloads": 1001,
+  "downloads": 740,
   "likes": 33,
   "pipeline": "text-generation",
   "tags": [
@@ -1124,8 +1286,8 @@
  {
   "id": "nvidia/Cosmos-H-Dreams",
   "createdAt": "2026-07-21T10:50:34.000Z",
-  "downloads": 1565,
-  "likes": 20,
+  "downloads": 666,
+  "likes": 21,
   "pipeline": "image-to-video",
   "tags": [],
   "gated": false
@@ -1133,8 +1295,8 @@
  {
   "id": "nvidia/Kumo-Relational",
   "createdAt": "2026-07-20T14:06:10.000Z",
-  "downloads": 2578,
-  "likes": 37,
+  "downloads": 11208,
+  "likes": 45,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -1169,7 +1331,7 @@
  {
   "id": "nvidia/MiniMax-M3-DSpark",
   "createdAt": "2026-07-15T20:47:13.000Z",
-  "downloads": 896,
+  "downloads": 797,
   "likes": 18,
   "pipeline": "text-generation",
   "tags": [
@@ -1180,7 +1342,7 @@
  {
   "id": "nvidia/Ising-Decoder-ColorCode-1-Fast",
   "createdAt": "2026-07-15T16:22:56.000Z",
-  "downloads": 7,
+  "downloads": 6,
   "likes": 7,
   "pipeline": "",
   "tags": [],
@@ -1198,8 +1360,8 @@
  {
   "id": "nvidia/Nemotron-3-Embed-1B-NVFP4",
   "createdAt": "2026-07-14T07:46:58.000Z",
-  "downloads": 39828,
-  "likes": 81,
+  "downloads": 40192,
+  "likes": 80,
   "pipeline": "sentence-similarity",
   "tags": [],
   "gated": false
@@ -1207,8 +1369,8 @@
  {
   "id": "nvidia/Nemotron-3-Embed-8B-BF16",
   "createdAt": "2026-07-14T07:38:49.000Z",
-  "downloads": 149281,
-  "likes": 110,
+  "downloads": 138181,
+  "likes": 112,
   "pipeline": "sentence-similarity",
   "tags": [],
   "gated": false
@@ -1216,8 +1378,8 @@
  {
   "id": "nvidia/Nemotron-3-Embed-1B-BF16",
   "createdAt": "2026-07-14T07:32:18.000Z",
-  "downloads": 269120,
-  "likes": 171,
+  "downloads": 326473,
+  "likes": 172,
   "pipeline": "sentence-similarity",
   "tags": [],
   "gated": false
@@ -1225,7 +1387,7 @@
  {
   "id": "nvidia/Ising-Calibration-1.5-31B-NVFP4",
   "createdAt": "2026-07-13T21:21:11.000Z",
-  "downloads": 412,
+  "downloads": 424,
   "likes": 5,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -1237,8 +1399,8 @@
  {
   "id": "nvidia/Ising-Calibration-1.5-31B-BF16",
   "createdAt": "2026-07-13T21:21:10.000Z",
-  "downloads": 3433,
-  "likes": 11,
+  "downloads": 2788,
+  "likes": 14,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -1249,7 +1411,7 @@
  {
   "id": "nvidia/stormscope-meteosat",
   "createdAt": "2026-07-09T23:39:57.000Z",
-  "downloads": 92,
+  "downloads": 211,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -1258,8 +1420,8 @@
  {
   "id": "nvidia/Cosmos3-Edge-Policy-DROID",
   "createdAt": "2026-07-09T21:19:56.000Z",
-  "downloads": 2049,
-  "likes": 15,
+  "downloads": 2387,
+  "likes": 18,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -1267,8 +1429,8 @@
  {
   "id": "nvidia/Kimi-K2.7-Code-DFlash",
   "createdAt": "2026-07-08T21:16:29.000Z",
-  "downloads": 697,
-  "likes": 15,
+  "downloads": 570,
+  "likes": 16,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -1287,8 +1449,8 @@
  {
   "id": "nvidia/CWIP-1.0",
   "createdAt": "2026-07-07T20:57:08.000Z",
-  "downloads": 10,
-  "likes": 7,
+  "downloads": 3,
+  "likes": 8,
   "pipeline": "",
   "tags": [],
   "gated": "auto"
@@ -1296,8 +1458,8 @@
  {
   "id": "nvidia/Cosmos3-Super-Image2Video-4Step",
   "createdAt": "2026-07-07T01:00:23.000Z",
-  "downloads": 619,
-  "likes": 35,
+  "downloads": 606,
+  "likes": 36,
   "pipeline": "image-to-video",
   "tags": [],
   "gated": false
@@ -1305,8 +1467,8 @@
  {
   "id": "nvidia/Cosmos3-Super-Text2Image-4Step",
   "createdAt": "2026-07-07T01:00:22.000Z",
-  "downloads": 465,
-  "likes": 20,
+  "downloads": 550,
+  "likes": 22,
   "pipeline": "text-to-image",
   "tags": [],
   "gated": false
@@ -1314,7 +1476,7 @@
  {
   "id": "nvidia/Kimi-K2.7-Code-NVFP4",
   "createdAt": "2026-07-06T19:47:06.000Z",
-  "downloads": 5169,
+  "downloads": 4528,
   "likes": 19,
   "pipeline": "text-generation",
   "tags": [
@@ -1326,7 +1488,7 @@
  {
   "id": "nvidia/corrdiff-cosmo-era5",
   "createdAt": "2026-07-06T18:37:31.000Z",
-  "downloads": 299,
+  "downloads": 267,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -1335,7 +1497,7 @@
  {
   "id": "nvidia/stormcast-conus",
   "createdAt": "2026-07-06T17:38:53.000Z",
-  "downloads": 287,
+  "downloads": 286,
   "likes": 6,
   "pipeline": "",
   "tags": [],
@@ -1344,8 +1506,8 @@
  {
   "id": "nvidia/Nemotron-Labs-Audex-2B",
   "createdAt": "2026-07-06T16:21:07.000Z",
-  "downloads": 1033,
-  "likes": 106,
+  "downloads": 989,
+  "likes": 107,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -1355,7 +1517,7 @@
  {
   "id": "nvidia/Nemotron-Labs-Audex-30B-A3B",
   "createdAt": "2026-07-06T16:20:28.000Z",
-  "downloads": 523,
+  "downloads": 545,
   "likes": 187,
   "pipeline": "text-generation",
   "tags": [
@@ -1366,7 +1528,7 @@
  {
   "id": "nvidia/gr00t17-lerobot-libero_goal-640",
   "createdAt": "2026-07-05T11:56:28.000Z",
-  "downloads": 444,
+  "downloads": 423,
   "likes": 4,
   "pipeline": "robotics",
   "tags": [],
@@ -1375,8 +1537,8 @@
  {
   "id": "nvidia/gr00t17-lerobot-libero_10-640",
   "createdAt": "2026-07-05T06:17:17.000Z",
-  "downloads": 1180,
-  "likes": 6,
+  "downloads": 894,
+  "likes": 7,
   "pipeline": "robotics",
   "tags": [],
   "gated": false
@@ -1384,7 +1546,7 @@
  {
   "id": "nvidia/gr00t17-lerobot-libero_object-640",
   "createdAt": "2026-07-05T06:14:59.000Z",
-  "downloads": 818,
+  "downloads": 935,
   "likes": 11,
   "pipeline": "robotics",
   "tags": [],
@@ -1393,7 +1555,7 @@
  {
   "id": "nvidia/gr00t17-lerobot-libero_spatial-640",
   "createdAt": "2026-07-05T05:57:59.000Z",
-  "downloads": 851,
+  "downloads": 1275,
   "likes": 4,
   "pipeline": "robotics",
   "tags": [],
@@ -1402,7 +1564,7 @@
  {
   "id": "nvidia/SDLLM-EsoLM-1.7B-Base",
   "createdAt": "2026-07-02T19:13:30.000Z",
-  "downloads": 22,
+  "downloads": 38,
   "likes": 3,
   "pipeline": "text-generation",
   "tags": [
@@ -1413,7 +1575,7 @@
  {
   "id": "nvidia/SDLLM-Duo-1.7B-Base",
   "createdAt": "2026-07-02T19:13:09.000Z",
-  "downloads": 41,
+  "downloads": 36,
   "likes": 3,
   "pipeline": "text-generation",
   "tags": [
@@ -1424,7 +1586,7 @@
  {
   "id": "nvidia/SDLLM-AR-1.7B-Base",
   "createdAt": "2026-07-02T19:12:38.000Z",
-  "downloads": 24,
+  "downloads": 37,
   "likes": 2,
   "pipeline": "text-generation",
   "tags": [
@@ -1435,7 +1597,7 @@
  {
   "id": "nvidia/SDLLM-MDLM-1.7B-Base",
   "createdAt": "2026-07-02T19:03:45.000Z",
-  "downloads": 53,
+  "downloads": 37,
   "likes": 2,
   "pipeline": "text-generation",
   "tags": [
@@ -1446,8 +1608,8 @@
  {
   "id": "nvidia/ARDY-G1-RP-25FPS-Horizon8",
   "createdAt": "2026-07-02T15:16:00.000Z",
-  "downloads": 139,
-  "likes": 5,
+  "downloads": 130,
+  "likes": 4,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -1455,7 +1617,7 @@
  {
   "id": "nvidia/ARDY-Core-RP-20FPS-Horizon8",
   "createdAt": "2026-07-02T15:14:37.000Z",
-  "downloads": 376,
+  "downloads": 337,
   "likes": 10,
   "pipeline": "",
   "tags": [],
@@ -1464,8 +1626,8 @@
  {
   "id": "nvidia/Cosmos3-Edge",
   "createdAt": "2026-07-01T21:54:04.000Z",
-  "downloads": 86906,
-  "likes": 236,
+  "downloads": 60396,
+  "likes": 240,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -1473,8 +1635,8 @@
  {
   "id": "nvidia/Qwen-Image-Flash",
   "createdAt": "2026-07-01T20:55:41.000Z",
-  "downloads": 193,
-  "likes": 98,
+  "downloads": 296,
+  "likes": 97,
   "pipeline": "text-to-image",
   "tags": [],
   "gated": false
@@ -1482,8 +1644,8 @@
  {
   "id": "nvidia/ARDY-SOMA-RP-30FPS-Horizon60",
   "createdAt": "2026-07-01T13:45:57.000Z",
-  "downloads": 370,
-  "likes": 1,
+  "downloads": 1236,
+  "likes": 3,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -1491,8 +1653,8 @@
  {
   "id": "nvidia/ARDY-G1-RP-25FPS-Horizon52",
   "createdAt": "2026-07-01T13:43:52.000Z",
-  "downloads": 261,
-  "likes": 14,
+  "downloads": 260,
+  "likes": 13,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -1500,8 +1662,8 @@
  {
   "id": "nvidia/ARDY-Core-RP-20FPS-Horizon40",
   "createdAt": "2026-07-01T13:26:25.000Z",
-  "downloads": 1561,
-  "likes": 50,
+  "downloads": 1455,
+  "likes": 54,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -1509,8 +1671,8 @@
  {
   "id": "nvidia/NVIDIA-Nemotron-Parse-2.0",
   "createdAt": "2026-06-30T20:14:50.000Z",
-  "downloads": 17935,
-  "likes": 131,
+  "downloads": 15904,
+  "likes": 135,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -1521,8 +1683,8 @@
  {
   "id": "nvidia/Mistral-Medium-3.5-128B-NVFP4",
   "createdAt": "2026-06-30T19:32:15.000Z",
-  "downloads": 12525,
-  "likes": 35,
+  "downloads": 28606,
+  "likes": 36,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1533,7 +1695,7 @@
  {
   "id": "nvidia/Qwen3.5-397B-A17B-NVFP4-V2",
   "createdAt": "2026-06-29T06:04:43.000Z",
-  "downloads": 32439,
+  "downloads": 36456,
   "likes": 18,
   "pipeline": "text-generation",
   "tags": [
@@ -1554,7 +1716,7 @@
  {
   "id": "nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-FP8",
   "createdAt": "2026-06-24T15:33:18.000Z",
-  "downloads": 357,
+  "downloads": 361,
   "likes": 17,
   "pipeline": "text-generation",
   "tags": [
@@ -1566,7 +1728,7 @@
  {
   "id": "nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-BF16",
   "createdAt": "2026-06-24T15:32:34.000Z",
-  "downloads": 1249,
+  "downloads": 1735,
   "likes": 72,
   "pipeline": "text-generation",
   "tags": [
@@ -1578,7 +1740,7 @@
  {
   "id": "nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-NVFP4",
   "createdAt": "2026-06-24T15:31:37.000Z",
-  "downloads": 10439,
+  "downloads": 3958,
   "likes": 132,
   "pipeline": "text-generation",
   "tags": [
@@ -1590,8 +1752,8 @@
  {
   "id": "nvidia/MiniMax-M3-NVFP4",
   "createdAt": "2026-06-23T20:48:47.000Z",
-  "downloads": 53579,
-  "likes": 91,
+  "downloads": 28589,
+  "likes": 92,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1602,7 +1764,7 @@
  {
   "id": "nvidia/Kimi-K2.6-DFlash",
   "createdAt": "2026-06-23T20:40:41.000Z",
-  "downloads": 497,
+  "downloads": 472,
   "likes": 27,
   "pipeline": "text-generation",
   "tags": [
@@ -1613,8 +1775,8 @@
  {
   "id": "nvidia/GLM-5.2-NVFP4",
   "createdAt": "2026-06-22T19:55:57.000Z",
-  "downloads": 173197,
-  "likes": 328,
+  "downloads": 46676,
+  "likes": 329,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1625,8 +1787,8 @@
  {
   "id": "nvidia/Qwen3.6-27B-NVFP4",
   "createdAt": "2026-06-22T12:24:08.000Z",
-  "downloads": 783182,
-  "likes": 446,
+  "downloads": 364414,
+  "likes": 447,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1637,7 +1799,7 @@
  {
   "id": "nvidia/dlesym-v0-isccp-era5",
   "createdAt": "2026-06-16T23:14:32.000Z",
-  "downloads": 73,
+  "downloads": 58,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -1646,8 +1808,8 @@
  {
   "id": "nvidia/MiniMax-M2.7-DFlash",
   "createdAt": "2026-06-16T00:08:33.000Z",
-  "downloads": 551,
-  "likes": 15,
+  "downloads": 446,
+  "likes": 16,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -1657,7 +1819,7 @@
  {
   "id": "nvidia/Qwen3-VL-235B-A22B-Instruct-NVFP4-MLPerf-Inference-Closed-V6.1-FP8-KV",
   "createdAt": "2026-06-15T18:30:04.000Z",
-  "downloads": 12496,
+  "downloads": 12656,
   "likes": 3,
   "pipeline": "",
   "tags": [],
@@ -1666,8 +1828,8 @@
  {
   "id": "nvidia/diffusiongemma-26B-A4B-it-NVFP4",
   "createdAt": "2026-06-10T16:00:45.000Z",
-  "downloads": 59889,
-  "likes": 148,
+  "downloads": 27554,
+  "likes": 147,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1687,7 +1849,7 @@
  {
   "id": "nvidia/Privasis-Cleaner-0.6B",
   "createdAt": "2026-06-08T05:54:16.000Z",
-  "downloads": 484,
+  "downloads": 619,
   "likes": 22,
   "pipeline": "text-generation",
   "tags": [
@@ -1699,8 +1861,8 @@
  {
   "id": "nvidia/Privasis-Cleaner-4B",
   "createdAt": "2026-06-08T05:53:52.000Z",
-  "downloads": 808,
-  "likes": 15,
+  "downloads": 1443,
+  "likes": 16,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1711,8 +1873,8 @@
  {
   "id": "nvidia/ArtiFixer",
   "createdAt": "2026-06-04T06:03:25.000Z",
-  "downloads": 326,
-  "likes": 67,
+  "downloads": 393,
+  "likes": 69,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -1720,7 +1882,7 @@
  {
   "id": "nvidia/NL-Diffusion-Image",
   "createdAt": "2026-06-03T16:44:20.000Z",
-  "downloads": 263,
+  "downloads": 216,
   "likes": 13,
   "pipeline": "",
   "tags": [],
@@ -1729,8 +1891,8 @@
  {
   "id": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4",
   "createdAt": "2026-06-03T14:54:33.000Z",
-  "downloads": 43690,
-  "likes": 367,
+  "downloads": 27594,
+  "likes": 378,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1741,8 +1903,8 @@
  {
   "id": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
   "createdAt": "2026-06-03T14:50:04.000Z",
-  "downloads": 1157713,
-  "likes": 372,
+  "downloads": 1074381,
+  "likes": 384,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1753,8 +1915,8 @@
  {
   "id": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-Base-BF16",
   "createdAt": "2026-06-03T14:47:17.000Z",
-  "downloads": 2672,
-  "likes": 40,
+  "downloads": 2941,
+  "likes": 42,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -1764,8 +1926,8 @@
  {
   "id": "nvidia/4D-RGPT-8B",
   "createdAt": "2026-06-02T03:33:43.000Z",
-  "downloads": 195,
-  "likes": 17,
+  "downloads": 158,
+  "likes": 16,
   "pipeline": "video-text-to-text",
   "tags": [],
   "gated": false
@@ -1773,7 +1935,7 @@
  {
   "id": "nvidia/GR00T-H-N1.7",
   "createdAt": "2026-05-30T14:40:32.000Z",
-  "downloads": 517,
+  "downloads": 512,
   "likes": 15,
   "pipeline": "",
   "tags": [],
@@ -1782,8 +1944,8 @@
  {
   "id": "nvidia/dvlt",
   "createdAt": "2026-05-29T19:43:40.000Z",
-  "downloads": 820,
-  "likes": 57,
+  "downloads": 495,
+  "likes": 56,
   "pipeline": "image-to-3d",
   "tags": [],
   "gated": false
@@ -1791,7 +1953,7 @@
  {
   "id": "nvidia/C-RADIOv4-1D-H",
   "createdAt": "2026-05-29T10:01:18.000Z",
-  "downloads": 207,
+  "downloads": 175,
   "likes": 8,
   "pipeline": "image-feature-extraction",
   "tags": [],
@@ -1810,7 +1972,7 @@
   "id": "nvidia/kokoro-82M-onnx-opt",
   "createdAt": "2026-05-28T18:52:47.000Z",
   "downloads": 0,
-  "likes": 37,
+  "likes": 36,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -1818,8 +1980,8 @@
  {
   "id": "nvidia/Cosmos3-Super-Text2Image",
   "createdAt": "2026-05-28T03:49:21.000Z",
-  "downloads": 7764,
-  "likes": 194,
+  "downloads": 4404,
+  "likes": 195,
   "pipeline": "text-to-image",
   "tags": [],
   "gated": false
@@ -1827,8 +1989,8 @@
  {
   "id": "nvidia/Qwen3.6-35B-A3B-NVFP4",
   "createdAt": "2026-05-27T18:09:46.000Z",
-  "downloads": 4141067,
-  "likes": 670,
+  "downloads": 3920318,
+  "likes": 677,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1839,8 +2001,8 @@
  {
   "id": "nvidia/GR00T-N1.5-3B_Assemble_Trocar",
   "createdAt": "2026-05-27T14:49:22.000Z",
-  "downloads": 176,
-  "likes": 4,
+  "downloads": 184,
+  "likes": 5,
   "pipeline": "robotics",
   "tags": [],
   "gated": false
@@ -1848,8 +2010,8 @@
  {
   "id": "nvidia/Alpamayo2-Super",
   "createdAt": "2026-05-27T04:19:33.000Z",
-  "downloads": 26486,
-  "likes": 154,
+  "downloads": 28385,
+  "likes": 155,
   "pipeline": "robotics",
   "tags": [],
   "gated": false
@@ -1857,8 +2019,8 @@
  {
   "id": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-GenRM",
   "createdAt": "2026-05-26T22:42:45.000Z",
-  "downloads": 808,
-  "likes": 17,
+  "downloads": 1434,
+  "likes": 18,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1887,8 +2049,8 @@
  {
   "id": "nvidia/Cosmos-AnomalyGen-PCB-2B",
   "createdAt": "2026-05-25T04:19:40.000Z",
-  "downloads": 58,
-  "likes": 4,
+  "downloads": 50,
+  "likes": 6,
   "pipeline": "image-to-image",
   "tags": [],
   "gated": false
@@ -1896,7 +2058,7 @@
  {
   "id": "nvidia/Nemotron-3-Super-120B-A12B-BF16-MTPv2",
   "createdAt": "2026-05-24T15:40:41.000Z",
-  "downloads": 1591,
+  "downloads": 1416,
   "likes": 15,
   "pipeline": "text-generation",
   "tags": [
@@ -1907,7 +2069,7 @@
  {
   "id": "nvidia/llama-nemotron-rerank-vl-1b-v2-fp8",
   "createdAt": "2026-05-22T14:46:43.000Z",
-  "downloads": 284,
+  "downloads": 248,
   "likes": 7,
   "pipeline": "text-ranking",
   "tags": [],
@@ -1916,8 +2078,8 @@
  {
   "id": "nvidia/Nemotron-3.5-Content-Safety",
   "createdAt": "2026-05-22T02:13:59.000Z",
-  "downloads": 40664,
-  "likes": 66,
+  "downloads": 45579,
+  "likes": 69,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -1925,8 +2087,8 @@
  {
   "id": "nvidia/Cosmos3-Super-Image2Video",
   "createdAt": "2026-05-21T19:21:28.000Z",
-  "downloads": 45576,
-  "likes": 164,
+  "downloads": 21062,
+  "likes": 163,
   "pipeline": "image-to-video",
   "tags": [],
   "gated": false
@@ -1934,8 +2096,8 @@
  {
   "id": "nvidia/Cosmos3-Nano-Policy-DROID",
   "createdAt": "2026-05-21T19:20:17.000Z",
-  "downloads": 1237,
-  "likes": 40,
+  "downloads": 1823,
+  "likes": 39,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -1952,7 +2114,7 @@
  {
   "id": "nvidia/Harmonizer",
   "createdAt": "2026-05-19T16:04:46.000Z",
-  "downloads": 269,
+  "downloads": 272,
   "likes": 23,
   "pipeline": "image-to-image",
   "tags": [],
@@ -1961,7 +2123,7 @@
  {
   "id": "nvidia/CUDA-Autocomplete",
   "createdAt": "2026-05-19T10:18:08.000Z",
-  "downloads": 662,
+  "downloads": 1452,
   "likes": 20,
   "pipeline": "text-generation",
   "tags": [
@@ -1973,7 +2135,7 @@
  {
   "id": "nvidia/DeepSeek-V4-Flash-NVFP4",
   "createdAt": "2026-05-18T00:02:10.000Z",
-  "downloads": 16030,
+  "downloads": 47736,
   "likes": 119,
   "pipeline": "text-generation",
   "tags": [
@@ -1984,8 +2146,8 @@
  {
   "id": "nvidia/nemotron-3.5-asr-streaming-0.6b",
   "createdAt": "2026-05-15T21:52:25.000Z",
-  "downloads": 1090571,
-  "likes": 1233,
+  "downloads": 573133,
+  "likes": 1263,
   "pipeline": "automatic-speech-recognition",
   "tags": [],
   "gated": false
@@ -2002,7 +2164,7 @@
  {
   "id": "nvidia/llama-nemotron-embed-vl-1b-v2-fp8",
   "createdAt": "2026-05-14T23:06:47.000Z",
-  "downloads": 293,
+  "downloads": 261,
   "likes": 15,
   "pipeline": "sentence-similarity",
   "tags": [],
@@ -2011,8 +2173,8 @@
  {
   "id": "nvidia/DeepSeek-V4-Pro-NVFP4",
   "createdAt": "2026-05-14T19:48:36.000Z",
-  "downloads": 24277,
-  "likes": 81,
+  "downloads": 36883,
+  "likes": 80,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -2022,8 +2184,8 @@
  {
   "id": "nvidia/Qwen3.5-122B-A10B-NVFP4",
   "createdAt": "2026-05-13T21:13:54.000Z",
-  "downloads": 280201,
-  "likes": 62,
+  "downloads": 36593,
+  "likes": 65,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2034,7 +2196,7 @@
  {
   "id": "nvidia/AnyFlow-FAR-Wan2.1-14B-Diffusers",
   "createdAt": "2026-05-13T12:34:43.000Z",
-  "downloads": 45,
+  "downloads": 42,
   "likes": 11,
   "pipeline": "text-to-video",
   "tags": [],
@@ -2043,8 +2205,8 @@
  {
   "id": "nvidia/AnyFlow-FAR-Wan2.1-1.3B-Diffusers",
   "createdAt": "2026-05-13T12:33:48.000Z",
-  "downloads": 64,
-  "likes": 11,
+  "downloads": 66,
+  "likes": 12,
   "pipeline": "text-to-video",
   "tags": [],
   "gated": false
@@ -2052,7 +2214,7 @@
  {
   "id": "nvidia/AnyFlow-Wan2.1-T2V-14B-Diffusers",
   "createdAt": "2026-05-13T12:32:03.000Z",
-  "downloads": 46,
+  "downloads": 51,
   "likes": 17,
   "pipeline": "text-to-video",
   "tags": [],
@@ -2061,7 +2223,7 @@
  {
   "id": "nvidia/AnyFlow-Wan2.1-T2V-1.3B-Diffusers",
   "createdAt": "2026-05-13T12:30:23.000Z",
-  "downloads": 69,
+  "downloads": 88,
   "likes": 10,
   "pipeline": "text-to-video",
   "tags": [],
@@ -2080,7 +2242,7 @@
   "id": "nvidia/Wan2.2-T2V-A14B-Diffusers-NVFP4",
   "createdAt": "2026-05-13T07:46:03.000Z",
   "downloads": 0,
-  "likes": 14,
+  "likes": 16,
   "pipeline": "text-to-video",
   "tags": [],
   "gated": false
@@ -2088,7 +2250,7 @@
  {
   "id": "nvidia/instant-nurec",
   "createdAt": "2026-05-12T16:12:08.000Z",
-  "downloads": 317,
+  "downloads": 244,
   "likes": 38,
   "pipeline": "image-to-3d",
   "tags": [],
@@ -2106,7 +2268,7 @@
  {
   "id": "nvidia/Qwen-Image-Edit-NVPCB-OVSL2SL",
   "createdAt": "2026-05-11T18:09:53.000Z",
-  "downloads": 41,
+  "downloads": 39,
   "likes": 2,
   "pipeline": "image-to-image",
   "tags": [],
@@ -2115,7 +2277,7 @@
  {
   "id": "nvidia/Kimi-K2.6-NVFP4",
   "createdAt": "2026-05-11T04:37:55.000Z",
-  "downloads": 52889,
+  "downloads": 158549,
   "likes": 47,
   "pipeline": "text-generation",
   "tags": [
@@ -2127,8 +2289,8 @@
  {
   "id": "nvidia/GLM-5.1-NVFP4",
   "createdAt": "2026-05-09T20:32:52.000Z",
-  "downloads": 2238,
-  "likes": 46,
+  "downloads": 2479,
+  "likes": 47,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2139,8 +2301,8 @@
  {
   "id": "nvidia/Nemotron-Labs-Diffusion-VLM-8B",
   "createdAt": "2026-05-08T17:45:40.000Z",
-  "downloads": 1245,
-  "likes": 37,
+  "downloads": 1268,
+  "likes": 38,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -2151,7 +2313,7 @@
  {
   "id": "nvidia/Kimi-K2.6-Eagle3",
   "createdAt": "2026-05-08T03:33:26.000Z",
-  "downloads": 1125,
+  "downloads": 1116,
   "likes": 17,
   "pipeline": "text-generation",
   "tags": [
@@ -2162,7 +2324,7 @@
  {
   "id": "nvidia/GN1x-Tuned-Arena-G1-Static-PickNPlace",
   "createdAt": "2026-05-06T17:03:49.000Z",
-  "downloads": 413,
+  "downloads": 266,
   "likes": 5,
   "pipeline": "robotics",
   "tags": [],
@@ -2171,7 +2333,7 @@
  {
   "id": "nvidia/SO_ARM_Starter_Gr00tN17",
   "createdAt": "2026-05-05T03:19:55.000Z",
-  "downloads": 189,
+  "downloads": 252,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -2180,8 +2342,8 @@
  {
   "id": "nvidia/Gemma-4-26B-A4B-NVFP4",
   "createdAt": "2026-05-01T01:26:06.000Z",
-  "downloads": 1142470,
-  "likes": 166,
+  "downloads": 1728494,
+  "likes": 169,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2192,8 +2354,8 @@
  {
   "id": "nvidia/Cosmos-Reason2-32B",
   "createdAt": "2026-04-29T23:38:24.000Z",
-  "downloads": 2455,
-  "likes": 17,
+  "downloads": 41716,
+  "likes": 18,
   "pipeline": "image-text-to-text",
   "tags": [
    "conversational",
@@ -2204,7 +2366,7 @@
  {
   "id": "nvidia/figconvnet_drivaerml_surface",
   "createdAt": "2026-04-29T02:53:38.000Z",
-  "downloads": 201,
+  "downloads": 186,
   "likes": 2,
   "pipeline": "",
   "tags": [],
@@ -2213,7 +2375,7 @@
  {
   "id": "nvidia/xmgn_drivaerml_surface",
   "createdAt": "2026-04-29T02:52:42.000Z",
-  "downloads": 190,
+  "downloads": 187,
   "likes": 2,
   "pipeline": "",
   "tags": [],
@@ -2222,8 +2384,8 @@
  {
   "id": "nvidia/domino_drivaerml",
   "createdAt": "2026-04-29T02:51:20.000Z",
-  "downloads": 212,
-  "likes": 2,
+  "downloads": 213,
+  "likes": 4,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -2231,8 +2393,8 @@
  {
   "id": "nvidia/transolver_drivaerml",
   "createdAt": "2026-04-29T02:49:38.000Z",
-  "downloads": 207,
-  "likes": 2,
+  "downloads": 219,
+  "likes": 3,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -2240,7 +2402,7 @@
  {
   "id": "nvidia/geotransolver_drivaerml",
   "createdAt": "2026-04-29T02:37:31.000Z",
-  "downloads": 233,
+  "downloads": 226,
   "likes": 3,
   "pipeline": "",
   "tags": [],
@@ -2249,8 +2411,8 @@
  {
   "id": "nvidia/PiD",
   "createdAt": "2026-04-28T00:41:46.000Z",
-  "downloads": 291,
-  "likes": 418,
+  "downloads": 386,
+  "likes": 421,
   "pipeline": "image-to-image",
   "tags": [],
   "gated": false
@@ -2258,8 +2420,8 @@
  {
   "id": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
   "createdAt": "2026-04-24T16:10:28.000Z",
-  "downloads": 362489,
-  "likes": 75,
+  "downloads": 91537,
+  "likes": 74,
   "pipeline": "any-to-any",
   "tags": [
    "any-to-any"
@@ -2269,8 +2431,8 @@
  {
   "id": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-NVFP4",
   "createdAt": "2026-04-24T16:09:58.000Z",
-  "downloads": 152189,
-  "likes": 204,
+  "downloads": 129973,
+  "likes": 205,
   "pipeline": "any-to-any",
   "tags": [
    "any-to-any"
@@ -2280,7 +2442,7 @@
  {
   "id": "nvidia/Nemotron-Labs-Diffusion-14B-Base",
   "createdAt": "2026-04-23T17:12:08.000Z",
-  "downloads": 350,
+  "downloads": 375,
   "likes": 8,
   "pipeline": "text-generation",
   "tags": [
@@ -2292,8 +2454,8 @@
  {
   "id": "nvidia/Nemotron-Labs-Diffusion-14B",
   "createdAt": "2026-04-22T23:06:08.000Z",
-  "downloads": 14364,
-  "likes": 159,
+  "downloads": 7594,
+  "likes": 157,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2313,7 +2475,7 @@
  {
   "id": "nvidia/omni-dreams-models",
   "createdAt": "2026-04-21T00:07:22.000Z",
-  "downloads": 14984,
+  "downloads": 19853,
   "likes": 49,
   "pipeline": "image-to-video",
   "tags": [],
@@ -2322,8 +2484,8 @@
  {
   "id": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16",
   "createdAt": "2026-04-20T04:40:42.000Z",
-  "downloads": 148554,
-  "likes": 441,
+  "downloads": 124953,
+  "likes": 442,
   "pipeline": "any-to-any",
   "tags": [
    "any-to-any"
@@ -2333,7 +2495,7 @@
  {
   "id": "nvidia/nemotron-labs-audio-visual-flamingo-hf",
   "createdAt": "2026-04-15T19:00:34.000Z",
-  "downloads": 511,
+  "downloads": 650,
   "likes": 19,
   "pipeline": "video-text-to-text",
   "tags": [
@@ -2344,8 +2506,8 @@
  {
   "id": "nvidia/Riva-Translate-4B-Instruct-v2",
   "createdAt": "2026-04-15T07:30:24.000Z",
-  "downloads": 1381,
-  "likes": 23,
+  "downloads": 1834,
+  "likes": 25,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2356,7 +2518,7 @@
  {
   "id": "nvidia/NVIDIA-Nemotron-Labs-3-Elastic-30B-A3B-NVFP4",
   "createdAt": "2026-04-14T16:04:08.000Z",
-  "downloads": 506,
+  "downloads": 565,
   "likes": 22,
   "pipeline": "text-generation",
   "tags": [
@@ -2368,8 +2530,8 @@
  {
   "id": "nvidia/Real-time_RE-USE",
   "createdAt": "2026-04-14T06:15:52.000Z",
-  "downloads": 928,
-  "likes": 47,
+  "downloads": 2795,
+  "likes": 67,
   "pipeline": "audio-to-audio",
   "tags": [],
   "gated": false
@@ -2377,8 +2539,8 @@
  {
   "id": "nvidia/MiniMax-M2.7-NVFP4",
   "createdAt": "2026-04-13T22:04:24.000Z",
-  "downloads": 4882,
-  "likes": 69,
+  "downloads": 4193,
+  "likes": 67,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2389,7 +2551,7 @@
  {
   "id": "nvidia/Nemotron-Labs-TwoTower-30B-A3B-Base-BF16",
   "createdAt": "2026-04-11T00:58:51.000Z",
-  "downloads": 685,
+  "downloads": 867,
   "likes": 148,
   "pipeline": "text-generation",
   "tags": [
@@ -2409,7 +2571,7 @@
  {
   "id": "nvidia/TMR-SOMA-RP-v1",
   "createdAt": "2026-04-08T00:50:19.000Z",
-  "downloads": 532,
+  "downloads": 769,
   "likes": 8,
   "pipeline": "",
   "tags": [],
@@ -2418,7 +2580,7 @@
  {
   "id": "nvidia/Kimodo-SOMA-SEED-v1.1",
   "createdAt": "2026-04-07T23:48:38.000Z",
-  "downloads": 320,
+  "downloads": 513,
   "likes": 11,
   "pipeline": "",
   "tags": [],
@@ -2427,8 +2589,8 @@
  {
   "id": "nvidia/Kimodo-SOMA-RP-v1.1",
   "createdAt": "2026-04-07T23:48:15.000Z",
-  "downloads": 6696,
-  "likes": 84,
+  "downloads": 6381,
+  "likes": 88,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -2437,7 +2599,7 @@
   "id": "nvidia/Kumo-Forecast",
   "createdAt": "2026-04-07T22:29:18.000Z",
   "downloads": 0,
-  "likes": 20,
+  "likes": 25,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -2445,7 +2607,7 @@
  {
   "id": "nvidia/Qwen3-VL-235B-A22B-Instruct-NVFP4-MLPerf-Inference-Closed-V6.1",
   "createdAt": "2026-04-07T18:09:07.000Z",
-  "downloads": 218,
+  "downloads": 226,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -2454,8 +2616,8 @@
  {
   "id": "nvidia/parakeet-unified-en-0.6b",
   "createdAt": "2026-04-07T03:32:04.000Z",
-  "downloads": 5962,
-  "likes": 74,
+  "downloads": 8345,
+  "likes": 78,
   "pipeline": "automatic-speech-recognition",
   "tags": [],
   "gated": false
@@ -2463,7 +2625,7 @@
  {
   "id": "nvidia/Ising-Decoder-SurfaceCode-1-Accurate",
   "createdAt": "2026-04-06T18:36:29.000Z",
-  "downloads": 51,
+  "downloads": 29,
   "likes": 12,
   "pipeline": "",
   "tags": [],
@@ -2472,8 +2634,8 @@
  {
   "id": "nvidia/Ising-Decoder-SurfaceCode-1-Fast",
   "createdAt": "2026-04-06T18:34:48.000Z",
-  "downloads": 458,
-  "likes": 21,
+  "downloads": 527,
+  "likes": 22,
   "pipeline": "",
   "tags": [],
   "gated": "auto"
@@ -2481,8 +2643,8 @@
  {
   "id": "nvidia/Lyra-2.0",
   "createdAt": "2026-04-06T15:14:07.000Z",
-  "downloads": 2223,
-  "likes": 369,
+  "downloads": 2236,
+  "likes": 373,
   "pipeline": "image-to-3d",
   "tags": [],
   "gated": false
@@ -2490,7 +2652,7 @@
  {
   "id": "nvidia/audio-flamingo-next-captioner-hf",
   "createdAt": "2026-04-05T22:23:21.000Z",
-  "downloads": 6784,
+  "downloads": 1515,
   "likes": 25,
   "pipeline": "audio-text-to-text",
   "tags": [
@@ -2501,7 +2663,7 @@
  {
   "id": "nvidia/audio-flamingo-next-think-hf",
   "createdAt": "2026-04-05T22:23:00.000Z",
-  "downloads": 991,
+  "downloads": 898,
   "likes": 12,
   "pipeline": "audio-text-to-text",
   "tags": [
@@ -2512,7 +2674,7 @@
  {
   "id": "nvidia/audio-flamingo-next-hf",
   "createdAt": "2026-04-05T22:22:34.000Z",
-  "downloads": 2597,
+  "downloads": 3956,
   "likes": 67,
   "pipeline": "audio-text-to-text",
   "tags": [
@@ -2541,8 +2703,8 @@
  {
   "id": "nvidia/Gemma-4-31B-IT-NVFP4",
   "createdAt": "2026-04-02T16:47:30.000Z",
-  "downloads": 915351,
-  "likes": 586,
+  "downloads": 1133305,
+  "likes": 587,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2553,7 +2715,7 @@
  {
   "id": "nvidia/EGM-4B-SFT",
   "createdAt": "2026-04-02T12:15:23.000Z",
-  "downloads": 462,
+  "downloads": 1072,
   "likes": 1,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -2565,7 +2727,7 @@
  {
   "id": "nvidia/EGM-8B-SFT",
   "createdAt": "2026-04-02T12:13:32.000Z",
-  "downloads": 231,
+  "downloads": 232,
   "likes": 5,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -2577,7 +2739,7 @@
  {
   "id": "nvidia/EGM-4B",
   "createdAt": "2026-04-02T12:08:41.000Z",
-  "downloads": 368,
+  "downloads": 613,
   "likes": 12,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -2589,7 +2751,7 @@
  {
   "id": "nvidia/NVIDIA-Nemotron-Labs-3-Elastic-30B-A3B-FP8",
   "createdAt": "2026-04-01T21:44:32.000Z",
-  "downloads": 313,
+  "downloads": 347,
   "likes": 9,
   "pipeline": "text-generation",
   "tags": [
@@ -2601,8 +2763,8 @@
  {
   "id": "nvidia/NVIDIA-Nemotron-Labs-3-Elastic-30B-A3B-BF16",
   "createdAt": "2026-04-01T21:44:19.000Z",
-  "downloads": 939,
-  "likes": 35,
+  "downloads": 1483,
+  "likes": 36,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2613,8 +2775,8 @@
  {
   "id": "nvidia/nemotron-ocr-v2",
   "createdAt": "2026-04-01T19:57:09.000Z",
-  "downloads": 1353,
-  "likes": 268,
+  "downloads": 2103,
+  "likes": 270,
   "pipeline": "image-to-text",
   "tags": [],
   "gated": false
@@ -2640,7 +2802,7 @@
  {
   "id": "nvidia/PixelDiT-1300M-1024px",
   "createdAt": "2026-03-30T20:34:47.000Z",
-  "downloads": 220,
+  "downloads": 299,
   "likes": 56,
   "pipeline": "text-to-image",
   "tags": [],
@@ -2658,8 +2820,8 @@
  {
   "id": "nvidia/Ising-Calibration-1-35B-A3B",
   "createdAt": "2026-03-30T08:24:56.000Z",
-  "downloads": 865,
-  "likes": 63,
+  "downloads": 1378,
+  "likes": 62,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -2670,8 +2832,8 @@
  {
   "id": "nvidia/gpt-oss-120b-Eagle3-v3",
   "createdAt": "2026-03-28T03:59:50.000Z",
-  "downloads": 7610,
-  "likes": 16,
+  "downloads": 7275,
+  "likes": 17,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -2681,8 +2843,8 @@
  {
   "id": "nvidia/gpt-oss-puzzle-88B",
   "createdAt": "2026-03-25T08:43:30.000Z",
-  "downloads": 727,
-  "likes": 99,
+  "downloads": 7249,
+  "likes": 96,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2693,7 +2855,7 @@
  {
   "id": "nvidia/nvpanoptix-3d-v1.1-matterport3d",
   "createdAt": "2026-03-23T09:06:35.000Z",
-  "downloads": 246,
+  "downloads": 254,
   "likes": 20,
   "pipeline": "",
   "tags": [],
@@ -2702,7 +2864,7 @@
  {
   "id": "nvidia/nvpanoptix-3d-v1.1-front3d",
   "createdAt": "2026-03-23T09:04:39.000Z",
-  "downloads": 138,
+  "downloads": 161,
   "likes": 6,
   "pipeline": "",
   "tags": [],
@@ -2720,7 +2882,7 @@
  {
   "id": "nvidia/GLM-4.7-NVFP4",
   "createdAt": "2026-03-19T05:08:58.000Z",
-  "downloads": 709,
+  "downloads": 783,
   "likes": 19,
   "pipeline": "text-generation",
   "tags": [
@@ -2732,8 +2894,8 @@
  {
   "id": "nvidia/Nemotron-Cascade-2-30B-A3B",
   "createdAt": "2026-03-18T20:57:41.000Z",
-  "downloads": 9079,
-  "likes": 531,
+  "downloads": 10150,
+  "likes": 530,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2744,8 +2906,8 @@
  {
   "id": "nvidia/Nemotron-Labs-Diffusion-8B",
   "createdAt": "2026-03-18T17:45:13.000Z",
-  "downloads": 7411,
-  "likes": 57,
+  "downloads": 8403,
+  "likes": 59,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2756,8 +2918,8 @@
  {
   "id": "nvidia/GR00T-N1.7-SimplerEnv-Fractal",
   "createdAt": "2026-03-17T16:47:18.000Z",
-  "downloads": 397,
-  "likes": 5,
+  "downloads": 297,
+  "likes": 4,
   "pipeline": "robotics",
   "tags": [],
   "gated": false
@@ -2765,7 +2927,7 @@
  {
   "id": "nvidia/GR00T-N1.7-SimplerEnv-Bridge",
   "createdAt": "2026-03-17T16:45:55.000Z",
-  "downloads": 1880,
+  "downloads": 622,
   "likes": 8,
   "pipeline": "robotics",
   "tags": [],
@@ -2774,8 +2936,8 @@
  {
   "id": "nvidia/GR00T-N1.7-DROID",
   "createdAt": "2026-03-17T16:44:57.000Z",
-  "downloads": 1452,
-  "likes": 11,
+  "downloads": 1647,
+  "likes": 10,
   "pipeline": "robotics",
   "tags": [],
   "gated": false
@@ -2784,7 +2946,7 @@
   "id": "nvidia/GR00T-N1.7-LIBERO",
   "createdAt": "2026-03-17T16:44:14.000Z",
   "downloads": 0,
-  "likes": 10,
+  "likes": 11,
   "pipeline": "robotics",
   "tags": [],
   "gated": false
@@ -2792,8 +2954,8 @@
  {
   "id": "nvidia/RE-USE",
   "createdAt": "2026-03-17T07:15:50.000Z",
-  "downloads": 13062,
-  "likes": 141,
+  "downloads": 11219,
+  "likes": 156,
   "pipeline": "audio-to-audio",
   "tags": [],
   "gated": false
@@ -2801,7 +2963,7 @@
  {
   "id": "nvidia/Kimodo-G1-RP-v1",
   "createdAt": "2026-03-16T19:52:12.000Z",
-  "downloads": 696,
+  "downloads": 749,
   "likes": 20,
   "pipeline": "",
   "tags": [],
@@ -2810,8 +2972,8 @@
  {
   "id": "nvidia/Kimodo-SMPLX-RP-v1",
   "createdAt": "2026-03-16T19:51:52.000Z",
-  "downloads": 459,
-  "likes": 30,
+  "downloads": 568,
+  "likes": 37,
   "pipeline": "",
   "tags": [],
   "gated": "auto"
@@ -2819,8 +2981,8 @@
  {
   "id": "nvidia/Kimodo-SOMA-RP-v1",
   "createdAt": "2026-03-16T19:51:32.000Z",
-  "downloads": 1521,
-  "likes": 66,
+  "downloads": 1762,
+  "likes": 64,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -2828,8 +2990,8 @@
  {
   "id": "nvidia/Kimodo-SOMA-SEED-v1",
   "createdAt": "2026-03-16T19:51:15.000Z",
-  "downloads": 74,
-  "likes": 7,
+  "downloads": 93,
+  "likes": 6,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -2837,7 +2999,7 @@
  {
   "id": "nvidia/Kimodo-G1-SEED-v1",
   "createdAt": "2026-03-16T19:50:48.000Z",
-  "downloads": 121,
+  "downloads": 144,
   "likes": 8,
   "pipeline": "",
   "tags": [],
@@ -2846,8 +3008,8 @@
  {
   "id": "nvidia/UniRelight",
   "createdAt": "2026-03-15T04:13:43.000Z",
-  "downloads": 221,
-  "likes": 19,
+  "downloads": 232,
+  "likes": 21,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -2856,7 +3018,7 @@
   "id": "nvidia/LuxDiT",
   "createdAt": "2026-03-15T04:02:30.000Z",
   "downloads": 0,
-  "likes": 13,
+  "likes": 14,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -2864,8 +3026,8 @@
  {
   "id": "nvidia/GR00T-H",
   "createdAt": "2026-03-14T03:14:00.000Z",
-  "downloads": 725,
-  "likes": 25,
+  "downloads": 734,
+  "likes": 23,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -2873,7 +3035,7 @@
  {
   "id": "nvidia/NVIDIA-Nemotron-3-Nano-4B-FP8",
   "createdAt": "2026-03-12T16:58:39.000Z",
-  "downloads": 19097,
+  "downloads": 27678,
   "likes": 34,
   "pipeline": "text-generation",
   "tags": [
@@ -2885,7 +3047,7 @@
  {
   "id": "nvidia/NV-Generate-MR-Brain",
   "createdAt": "2026-03-12T04:56:25.000Z",
-  "downloads": 1190,
+  "downloads": 1574,
   "likes": 36,
   "pipeline": "unconditional-image-generation",
   "tags": [],
@@ -2894,7 +3056,7 @@
  {
   "id": "nvidia/NVILA-8B-HD-Video",
   "createdAt": "2026-03-11T19:39:38.000Z",
-  "downloads": 53578,
+  "downloads": 1810,
   "likes": 43,
   "pipeline": "",
   "tags": [],
@@ -2903,8 +3065,8 @@
  {
   "id": "nvidia/GEM-X",
   "createdAt": "2026-03-11T19:13:06.000Z",
-  "downloads": 1046,
-  "likes": 31,
+  "downloads": 647,
+  "likes": 41,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -2912,8 +3074,8 @@
  {
   "id": "nvidia/MiniMax-M2.5-NVFP4",
   "createdAt": "2026-03-11T18:15:52.000Z",
-  "downloads": 2199,
-  "likes": 41,
+  "downloads": 30429,
+  "likes": 42,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2924,7 +3086,7 @@
  {
   "id": "nvidia/NV-Proteina-Complexa-AME-160M-v1",
   "createdAt": "2026-03-11T17:40:27.000Z",
-  "downloads": 195,
+  "downloads": 119,
   "likes": 2,
   "pipeline": "",
   "tags": [],
@@ -2933,7 +3095,7 @@
  {
   "id": "nvidia/NV-Proteina-Complexa-Ligand-Target-160M-v1",
   "createdAt": "2026-03-11T17:39:53.000Z",
-  "downloads": 91,
+  "downloads": 448,
   "likes": 3,
   "pipeline": "",
   "tags": [],
@@ -2942,7 +3104,7 @@
  {
   "id": "nvidia/NV-Proteina-Complexa-Protein-Target-160M-v1",
   "createdAt": "2026-03-11T17:35:56.000Z",
-  "downloads": 1741,
+  "downloads": 3706,
   "likes": 9,
   "pipeline": "",
   "tags": [],
@@ -2951,8 +3113,8 @@
  {
   "id": "nvidia/Cosmos3-Nano",
   "createdAt": "2026-03-10T23:01:40.000Z",
-  "downloads": 130425,
-  "likes": 409,
+  "downloads": 598365,
+  "likes": 418,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -2960,8 +3122,8 @@
  {
   "id": "nvidia/Cosmos3-Super",
   "createdAt": "2026-03-10T22:59:21.000Z",
-  "downloads": 54060,
-  "likes": 281,
+  "downloads": 39815,
+  "likes": 286,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -2969,8 +3131,8 @@
  {
   "id": "nvidia/NV-Raw2Insights-US",
   "createdAt": "2026-03-10T22:26:52.000Z",
-  "downloads": 0,
-  "likes": 6,
+  "downloads": 73,
+  "likes": 5,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -2978,8 +3140,8 @@
  {
   "id": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
   "createdAt": "2026-03-10T18:33:04.000Z",
-  "downloads": 535065,
-  "likes": 455,
+  "downloads": 445425,
+  "likes": 454,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -2990,8 +3152,8 @@
  {
   "id": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8",
   "createdAt": "2026-03-10T18:32:42.000Z",
-  "downloads": 58353,
-  "likes": 292,
+  "downloads": 38311,
+  "likes": 291,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -3002,8 +3164,8 @@
  {
   "id": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
   "createdAt": "2026-03-10T18:32:14.000Z",
-  "downloads": 1026145,
-  "likes": 438,
+  "downloads": 1066688,
+  "likes": 439,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -3014,7 +3176,7 @@
  {
   "id": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16",
   "createdAt": "2026-03-10T18:31:50.000Z",
-  "downloads": 8911,
+  "downloads": 9670,
   "likes": 35,
   "pipeline": "text-generation",
   "tags": [
@@ -3025,7 +3187,7 @@
  {
   "id": "nvidia/Kimi-K2.5-Thinking-Eagle3",
   "createdAt": "2026-03-10T18:02:28.000Z",
-  "downloads": 1013,
+  "downloads": 919,
   "likes": 21,
   "pipeline": "text-generation",
   "tags": [
@@ -3036,7 +3198,7 @@
  {
   "id": "nvidia/hebclip-model",
   "createdAt": "2026-03-10T15:35:03.000Z",
-  "downloads": 197,
+  "downloads": 165,
   "likes": 2,
   "pipeline": "",
   "tags": [],
@@ -3045,8 +3207,8 @@
  {
   "id": "nvidia/Cosmos-Embed1-448p-anomaly-detection",
   "createdAt": "2026-03-10T00:33:17.000Z",
-  "downloads": 2036,
-  "likes": 28,
+  "downloads": 2306,
+  "likes": 32,
   "pipeline": "video-classification",
   "tags": [],
   "gated": false
@@ -3055,7 +3217,7 @@
   "id": "nvidia/SOMA-X",
   "createdAt": "2026-03-09T22:37:40.000Z",
   "downloads": 0,
-  "likes": 34,
+  "likes": 36,
   "pipeline": "robotics",
   "tags": [],
   "gated": false
@@ -3063,7 +3225,7 @@
  {
   "id": "nvidia/Kimi-K2-Thinking-Eagle3",
   "createdAt": "2026-03-09T18:03:14.000Z",
-  "downloads": 255,
+  "downloads": 261,
   "likes": 2,
   "pipeline": "text-generation",
   "tags": [
@@ -3083,8 +3245,8 @@
  {
   "id": "nvidia/NVIDIA-Nemotron-3-Nano-4B-GGUF",
   "createdAt": "2026-03-07T02:10:52.000Z",
-  "downloads": 15984,
-  "likes": 223,
+  "downloads": 21622,
+  "likes": 224,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -3095,8 +3257,8 @@
  {
   "id": "nvidia/NVIDIA-Nemotron-3-Nano-4B-BF16",
   "createdAt": "2026-03-07T01:23:35.000Z",
-  "downloads": 1610886,
-  "likes": 140,
+  "downloads": 1876281,
+  "likes": 141,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -3107,7 +3269,7 @@
  {
   "id": "nvidia/Nemotron-3-Content-Safety",
   "createdAt": "2026-03-06T17:28:48.000Z",
-  "downloads": 12224,
+  "downloads": 13743,
   "likes": 22,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -3119,8 +3281,8 @@
  {
   "id": "nvidia/NV-Raw2insights-MRI",
   "createdAt": "2026-03-04T23:07:35.000Z",
-  "downloads": 3556,
-  "likes": 15,
+  "downloads": 1639,
+  "likes": 14,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -3128,8 +3290,8 @@
  {
   "id": "nvidia/Cosmos-H-Surgical",
   "createdAt": "2026-03-03T19:41:39.000Z",
-  "downloads": 8386,
-  "likes": 32,
+  "downloads": 6863,
+  "likes": 31,
   "pipeline": "image-to-video",
   "tags": [],
   "gated": false
@@ -3137,8 +3299,8 @@
  {
   "id": "nvidia/EGM-8B",
   "createdAt": "2026-03-03T15:11:55.000Z",
-  "downloads": 555,
-  "likes": 12,
+  "downloads": 1155,
+  "likes": 13,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -3149,8 +3311,8 @@
  {
   "id": "nvidia/Alpamayo-1.5-10B",
   "createdAt": "2026-03-03T01:37:26.000Z",
-  "downloads": 49231,
-  "likes": 130,
+  "downloads": 62934,
+  "likes": 135,
   "pipeline": "robotics",
   "tags": [],
   "gated": false
@@ -3158,8 +3320,8 @@
  {
   "id": "nvidia/asset-harvester",
   "createdAt": "2026-03-03T01:13:52.000Z",
-  "downloads": 800,
-  "likes": 50,
+  "downloads": 442,
+  "likes": 51,
   "pipeline": "image-to-3d",
   "tags": [],
   "gated": false
@@ -3167,8 +3329,8 @@
  {
   "id": "nvidia/LocateAnything-3B",
   "createdAt": "2026-03-02T20:05:49.000Z",
-  "downloads": 389968,
-  "likes": 3130,
+  "downloads": 179923,
+  "likes": 3180,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -3179,8 +3341,8 @@
  {
   "id": "nvidia/Nemotron-Labs-Diffusion-3B",
   "createdAt": "2026-03-02T17:12:28.000Z",
-  "downloads": 64823,
-  "likes": 49,
+  "downloads": 33768,
+  "likes": 50,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -3191,7 +3353,7 @@
  {
   "id": "nvidia/fourcastnet1",
   "createdAt": "2026-03-02T16:31:44.000Z",
-  "downloads": 447,
+  "downloads": 523,
   "likes": 7,
   "pipeline": "",
   "tags": [],
@@ -3200,7 +3362,7 @@
  {
   "id": "nvidia/Qwen3-Nemotron-235B-A22B-GenRM-2603",
   "createdAt": "2026-03-01T23:12:28.000Z",
-  "downloads": 491,
+  "downloads": 1256,
   "likes": 30,
   "pipeline": "text-generation",
   "tags": [
@@ -3221,8 +3383,8 @@
  {
   "id": "nvidia/GR00T-N1.7-3B",
   "createdAt": "2026-02-25T00:39:18.000Z",
-  "downloads": 78969,
-  "likes": 172,
+  "downloads": 55826,
+  "likes": 186,
   "pipeline": "robotics",
   "tags": [],
   "gated": false
@@ -3230,7 +3392,7 @@
  {
   "id": "nvidia/GLM-5-NVFP4",
   "createdAt": "2026-02-24T23:43:24.000Z",
-  "downloads": 1717,
+  "downloads": 2301,
   "likes": 32,
   "pipeline": "text-generation",
   "tags": [
@@ -3242,7 +3404,7 @@
  {
   "id": "nvidia/Cosmos-H-Surgical-Simulator",
   "createdAt": "2026-02-19T20:58:31.000Z",
-  "downloads": 741,
+  "downloads": 616,
   "likes": 27,
   "pipeline": "image-to-video",
   "tags": [],
@@ -3251,8 +3413,8 @@
  {
   "id": "nvidia/NVIDIA-Nemotron-Parse-v1.2",
   "createdAt": "2026-02-18T19:43:37.000Z",
-  "downloads": 21079,
-  "likes": 77,
+  "downloads": 11583,
+  "likes": 81,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -3263,8 +3425,8 @@
  {
   "id": "nvidia/llama-nv-embed-reasoning-3b",
   "createdAt": "2026-02-18T15:21:59.000Z",
-  "downloads": 8813,
-  "likes": 28,
+  "downloads": 3662,
+  "likes": 31,
   "pipeline": "feature-extraction",
   "tags": [],
   "gated": false
@@ -3272,7 +3434,7 @@
  {
   "id": "nvidia/Nemotron-Terminal-32B",
   "createdAt": "2026-02-17T23:08:29.000Z",
-  "downloads": 626,
+  "downloads": 767,
   "likes": 43,
   "pipeline": "text-generation",
   "tags": [
@@ -3284,8 +3446,8 @@
  {
   "id": "nvidia/Nemotron-Terminal-14B",
   "createdAt": "2026-02-17T23:08:11.000Z",
-  "downloads": 552,
-  "likes": 13,
+  "downloads": 699,
+  "likes": 14,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -3296,8 +3458,8 @@
  {
   "id": "nvidia/Nemotron-Terminal-8B",
   "createdAt": "2026-02-17T23:07:39.000Z",
-  "downloads": 612,
-  "likes": 39,
+  "downloads": 740,
+  "likes": 40,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -3308,8 +3470,8 @@
  {
   "id": "nvidia/Qwen3.5-397B-A17B-NVFP4",
   "createdAt": "2026-02-16T19:27:14.000Z",
-  "downloads": 59978,
-  "likes": 113,
+  "downloads": 14759,
+  "likes": 111,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -3320,7 +3482,7 @@
  {
   "id": "nvidia/music-flamingo-think-2601-hf",
   "createdAt": "2026-02-15T16:28:31.000Z",
-  "downloads": 684,
+  "downloads": 717,
   "likes": 44,
   "pipeline": "audio-text-to-text",
   "tags": [
@@ -3331,7 +3493,7 @@
  {
   "id": "nvidia/DreamDojo",
   "createdAt": "2026-02-14T09:55:25.000Z",
-  "downloads": 217,
+  "downloads": 211,
   "likes": 40,
   "pipeline": "",
   "tags": [],
@@ -3340,8 +3502,8 @@
  {
   "id": "nvidia/GEAR-SONIC",
   "createdAt": "2026-02-12T01:26:21.000Z",
-  "downloads": 2979,
-  "likes": 83,
+  "downloads": 3124,
+  "likes": 88,
   "pipeline": "reinforcement-learning",
   "tags": [],
   "gated": false
@@ -3349,7 +3511,7 @@
  {
   "id": "nvidia/healda",
   "createdAt": "2026-02-11T23:21:23.000Z",
-  "downloads": 488,
+  "downloads": 480,
   "likes": 12,
   "pipeline": "",
   "tags": [],
@@ -3376,7 +3538,7 @@
  {
   "id": "nvidia/Nemotron-Labs-Diffusion-3B-Base",
   "createdAt": "2026-02-04T23:24:06.000Z",
-  "downloads": 1257,
+  "downloads": 1329,
   "likes": 13,
   "pipeline": "text-generation",
   "tags": [
@@ -3388,7 +3550,7 @@
  {
   "id": "nvidia/NVIDIA-Nemotron-Nano-9B-v2-Japanese",
   "createdAt": "2026-02-04T08:48:59.000Z",
-  "downloads": 3073,
+  "downloads": 2724,
   "likes": 146,
   "pipeline": "text-generation",
   "tags": [
@@ -3400,7 +3562,7 @@
  {
   "id": "nvidia/GR00T-N1.6-DROID",
   "createdAt": "2026-02-02T23:22:22.000Z",
-  "downloads": 326,
+  "downloads": 312,
   "likes": 11,
   "pipeline": "robotics",
   "tags": [],
@@ -3409,8 +3571,8 @@
  {
   "id": "nvidia/Kimi-K2.5-NVFP4",
   "createdAt": "2026-01-30T20:18:44.000Z",
-  "downloads": 223704,
-  "likes": 92,
+  "downloads": 192370,
+  "likes": 91,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -3421,7 +3583,7 @@
  {
   "id": "nvidia/GR00T-N1.6-Rheo-PickNPlaceTray",
   "createdAt": "2026-01-28T09:38:00.000Z",
-  "downloads": 167,
+  "downloads": 207,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -3430,7 +3592,7 @@
  {
   "id": "nvidia/Qwen3-VL-235B-A22B-Instruct-NVFP4-MLPerf-Inference-Closed-V6.0",
   "createdAt": "2026-01-27T17:23:48.000Z",
-  "downloads": 212,
+  "downloads": 234,
   "likes": 7,
   "pipeline": "",
   "tags": [],
@@ -3439,8 +3601,8 @@
  {
   "id": "nvidia/C-RADIOv4-SO400M",
   "createdAt": "2026-01-26T14:08:40.000Z",
-  "downloads": 10480,
-  "likes": 50,
+  "downloads": 14815,
+  "likes": 51,
   "pipeline": "feature-extraction",
   "tags": [],
   "gated": false
@@ -3448,8 +3610,8 @@
  {
   "id": "nvidia/C-RADIOv4-H",
   "createdAt": "2026-01-26T14:06:48.000Z",
-  "downloads": 16576,
-  "likes": 89,
+  "downloads": 8816,
+  "likes": 92,
   "pipeline": "feature-extraction",
   "tags": [],
   "gated": false
@@ -3466,7 +3628,7 @@
  {
   "id": "nvidia/atlas-era5",
   "createdAt": "2026-01-20T21:56:36.000Z",
-  "downloads": 530,
+  "downloads": 665,
   "likes": 30,
   "pipeline": "",
   "tags": [],
@@ -3475,8 +3637,8 @@
  {
   "id": "nvidia/AutoGaze",
   "createdAt": "2026-01-20T19:26:03.000Z",
-  "downloads": 28141,
-  "likes": 33,
+  "downloads": 1458,
+  "likes": 34,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -3484,7 +3646,7 @@
  {
   "id": "nvidia/Qwen3-8B-DMS-8x",
   "createdAt": "2026-01-19T20:39:00.000Z",
-  "downloads": 1026,
+  "downloads": 946,
   "likes": 41,
   "pipeline": "",
   "tags": [],
@@ -3493,7 +3655,7 @@
  {
   "id": "nvidia/corrdiff-cmip6-era5",
   "createdAt": "2026-01-16T19:06:57.000Z",
-  "downloads": 248,
+  "downloads": 224,
   "likes": 13,
   "pipeline": "",
   "tags": [],
@@ -3502,8 +3664,8 @@
  {
   "id": "nvidia/nemotron-colembed-vl-8b-v2",
   "createdAt": "2026-01-15T23:54:08.000Z",
-  "downloads": 11614,
-  "likes": 53,
+  "downloads": 1544,
+  "likes": 52,
   "pipeline": "visual-document-retrieval",
   "tags": [],
   "gated": false
@@ -3511,7 +3673,7 @@
  {
   "id": "nvidia/nemotron-colembed-vl-4b-v2",
   "createdAt": "2026-01-15T23:53:44.000Z",
-  "downloads": 1720,
+  "downloads": 1587,
   "likes": 42,
   "pipeline": "visual-document-retrieval",
   "tags": [],
@@ -3520,7 +3682,7 @@
  {
   "id": "nvidia/Qwen3-Coder-480B-A35B-Instruct-NVFP4",
   "createdAt": "2026-01-15T18:29:14.000Z",
-  "downloads": 1452,
+  "downloads": 1108,
   "likes": 22,
   "pipeline": "text-generation",
   "tags": [
@@ -3532,8 +3694,8 @@
  {
   "id": "nvidia/parakeet-ctc-0.6b-Vietnamese",
   "createdAt": "2026-01-15T02:57:07.000Z",
-  "downloads": 685,
-  "likes": 93,
+  "downloads": 2269,
+  "likes": 94,
   "pipeline": "automatic-speech-recognition",
   "tags": [],
   "gated": false
@@ -3541,8 +3703,8 @@
  {
   "id": "nvidia/stormscope-goes-mrms",
   "createdAt": "2026-01-14T22:44:29.000Z",
-  "downloads": 634,
-  "likes": 34,
+  "downloads": 1055,
+  "likes": 33,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -3550,8 +3712,8 @@
  {
   "id": "nvidia/Nemotron-Labs-Diffusion-8B-Base",
   "createdAt": "2026-01-14T18:56:23.000Z",
-  "downloads": 74549,
-  "likes": 11,
+  "downloads": 61256,
+  "likes": 12,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -3562,8 +3724,8 @@
  {
   "id": "nvidia/llama-nemotron-colembed-vl-3b-v2",
   "createdAt": "2026-01-14T15:49:50.000Z",
-  "downloads": 5791,
-  "likes": 28,
+  "downloads": 6555,
+  "likes": 29,
   "pipeline": "visual-document-retrieval",
   "tags": [],
   "gated": false
@@ -3571,8 +3733,8 @@
  {
   "id": "nvidia/Nemotron-Research-GooseReason-4B-Instruct",
   "createdAt": "2026-01-14T01:49:48.000Z",
-  "downloads": 701,
-  "likes": 14,
+  "downloads": 1605,
+  "likes": 15,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -3592,7 +3754,7 @@
  {
   "id": "nvidia/cbottle",
   "createdAt": "2026-01-09T19:25:25.000Z",
-  "downloads": 452,
+  "downloads": 423,
   "likes": 17,
   "pipeline": "",
   "tags": [],
@@ -3601,7 +3763,7 @@
  {
   "id": "nvidia/RNAPro-Public-Best-500M",
   "createdAt": "2026-01-08T23:20:40.000Z",
-  "downloads": 1757,
+  "downloads": 628,
   "likes": 10,
   "pipeline": "",
   "tags": [],
@@ -3610,7 +3772,7 @@
  {
   "id": "nvidia/RNAPro-Private-Best-500M",
   "createdAt": "2026-01-08T23:19:50.000Z",
-  "downloads": 23,
+  "downloads": 49,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -3619,7 +3781,7 @@
  {
   "id": "nvidia/GR00T-N1.5-RL-Rheo-AssembleTrocar",
   "createdAt": "2026-01-06T05:58:04.000Z",
-  "downloads": 298,
+  "downloads": 296,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -3628,7 +3790,7 @@
  {
   "id": "nvidia/GR00T-N1.6-Rheo-Sim-PushCart",
   "createdAt": "2026-01-06T05:52:41.000Z",
-  "downloads": 172,
+  "downloads": 226,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -3637,8 +3799,8 @@
  {
   "id": "nvidia/music-flamingo-2601-hf",
   "createdAt": "2026-01-01T09:33:48.000Z",
-  "downloads": 9570,
-  "likes": 132,
+  "downloads": 6160,
+  "likes": 131,
   "pipeline": "audio-text-to-text",
   "tags": [
    "text2text-generation"
@@ -3648,7 +3810,7 @@
  {
   "id": "nvidia/Qwen2.5-CascadeRL-RM-72B",
   "createdAt": "2026-01-01T07:27:52.000Z",
-  "downloads": 214,
+  "downloads": 227,
   "likes": 13,
   "pipeline": "text-generation",
   "tags": [
@@ -3660,8 +3822,8 @@
  {
   "id": "nvidia/personaplex-7b-v1",
   "createdAt": "2025-12-31T17:01:00.000Z",
-  "downloads": 96232,
-  "likes": 2901,
+  "downloads": 175626,
+  "likes": 2967,
   "pipeline": "audio-to-audio",
   "tags": [],
   "gated": "auto"
@@ -3669,7 +3831,7 @@
  {
   "id": "nvidia/Qwen3-235B-A22B-Instruct-2507-NVFP4",
   "createdAt": "2025-12-30T23:06:33.000Z",
-  "downloads": 2105,
+  "downloads": 1097,
   "likes": 13,
   "pipeline": "text-generation",
   "tags": [
@@ -3681,7 +3843,7 @@
  {
   "id": "nvidia/Qwen3-235B-A22B-Thinking-2507-NVFP4",
   "createdAt": "2025-12-30T23:06:15.000Z",
-  "downloads": 277,
+  "downloads": 269,
   "likes": 8,
   "pipeline": "text-generation",
   "tags": [
@@ -3693,7 +3855,7 @@
  {
   "id": "nvidia/DeepSeek-V3.2-NVFP4",
   "createdAt": "2025-12-30T21:54:44.000Z",
-  "downloads": 3101,
+  "downloads": 2483,
   "likes": 19,
   "pipeline": "text-generation",
   "tags": [
@@ -3704,7 +3866,7 @@
  {
   "id": "nvidia/Qwen3-VL-235B-A22B-Instruct-NVFP4",
   "createdAt": "2025-12-25T00:02:01.000Z",
-  "downloads": 676,
+  "downloads": 672,
   "likes": 9,
   "pipeline": "",
   "tags": [],
@@ -3713,8 +3875,8 @@
  {
   "id": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-NVFP4",
   "createdAt": "2025-12-20T09:12:40.000Z",
-  "downloads": 1338336,
-  "likes": 191,
+  "downloads": 785931,
+  "likes": 190,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -3737,7 +3899,7 @@
   "id": "nvidia/NitroGen",
   "createdAt": "2025-12-18T21:20:08.000Z",
   "downloads": 0,
-  "likes": 577,
+  "likes": 579,
   "pipeline": "reinforcement-learning",
   "tags": [],
   "gated": false
@@ -3754,7 +3916,7 @@
  {
   "id": "nvidia/pi05-arena-gr1-microwave",
   "createdAt": "2025-12-17T23:24:06.000Z",
-  "downloads": 260,
+  "downloads": 309,
   "likes": 1,
   "pipeline": "robotics",
   "tags": [],
@@ -3763,8 +3925,8 @@
  {
   "id": "nvidia/nemotron-speech-streaming-en-0.6b",
   "createdAt": "2025-12-17T01:07:38.000Z",
-  "downloads": 112864,
-  "likes": 644,
+  "downloads": 87575,
+  "likes": 650,
   "pipeline": "automatic-speech-recognition",
   "tags": [],
   "gated": false
@@ -3772,8 +3934,8 @@
  {
   "id": "nvidia/Nemotron-Cascade-8B",
   "createdAt": "2025-12-16T05:34:25.000Z",
-  "downloads": 875,
-  "likes": 70,
+  "downloads": 962,
+  "likes": 71,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -3784,7 +3946,7 @@
  {
   "id": "nvidia/Qwen3-235B-A22B-Thinking-2507-FP4-Eagle3",
   "createdAt": "2025-12-15T21:32:56.000Z",
-  "downloads": 212,
+  "downloads": 216,
   "likes": 1,
   "pipeline": "text-generation",
   "tags": [
@@ -3795,7 +3957,7 @@
  {
   "id": "nvidia/geneformer_V2_316M",
   "createdAt": "2025-12-15T17:30:46.000Z",
-  "downloads": 406,
+  "downloads": 329,
   "likes": 5,
   "pipeline": "fill-mask",
   "tags": [],
@@ -3804,7 +3966,7 @@
  {
   "id": "nvidia/geneformer_V2_104M_CLcancer",
   "createdAt": "2025-12-15T17:20:41.000Z",
-  "downloads": 351,
+  "downloads": 284,
   "likes": 3,
   "pipeline": "fill-mask",
   "tags": [],
@@ -3813,7 +3975,7 @@
  {
   "id": "nvidia/geneformer_V2_104M",
   "createdAt": "2025-12-15T17:19:46.000Z",
-  "downloads": 365,
+  "downloads": 300,
   "likes": 5,
   "pipeline": "fill-mask",
   "tags": [],
@@ -3822,7 +3984,7 @@
  {
   "id": "nvidia/Cosmos-Policy-RoboCasa-Predict2-2B",
   "createdAt": "2025-12-14T07:12:44.000Z",
-  "downloads": 329,
+  "downloads": 359,
   "likes": 4,
   "pipeline": "",
   "tags": [],
@@ -3831,8 +3993,8 @@
  {
   "id": "nvidia/Cosmos-Policy-LIBERO-Predict2-2B",
   "createdAt": "2025-12-14T07:12:41.000Z",
-  "downloads": 779,
-  "likes": 12,
+  "downloads": 941,
+  "likes": 13,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -3840,7 +4002,7 @@
  {
   "id": "nvidia/Cosmos-Policy-ALOHA-Planning-Model-Predict2-2B",
   "createdAt": "2025-12-14T07:12:36.000Z",
-  "downloads": 228,
+  "downloads": 208,
   "likes": 9,
   "pipeline": "",
   "tags": [],
@@ -3849,7 +4011,7 @@
  {
   "id": "nvidia/Cosmos-Policy-ALOHA-Predict2-2B",
   "createdAt": "2025-12-14T07:11:36.000Z",
-  "downloads": 217,
+  "downloads": 247,
   "likes": 8,
   "pipeline": "",
   "tags": [],
@@ -3858,7 +4020,7 @@
  {
   "id": "nvidia/smolvla-arena-gr1-microwave",
   "createdAt": "2025-12-13T19:24:17.000Z",
-  "downloads": 321,
+  "downloads": 260,
   "likes": 1,
   "pipeline": "robotics",
   "tags": [],
@@ -3867,7 +4029,7 @@
  {
   "id": "nvidia/geneformer_V1_10M",
   "createdAt": "2025-12-12T23:57:51.000Z",
-  "downloads": 354,
+  "downloads": 304,
   "likes": 3,
   "pipeline": "fill-mask",
   "tags": [],
@@ -3876,8 +4038,8 @@
  {
   "id": "nvidia/Cosmos-Reason2-2B",
   "createdAt": "2025-12-12T17:50:45.000Z",
-  "downloads": 571428,
-  "likes": 338,
+  "downloads": 584324,
+  "likes": 383,
   "pipeline": "image-text-to-text",
   "tags": [
    "conversational",
@@ -3888,8 +4050,8 @@
  {
   "id": "nvidia/Cosmos-Reason2-8B",
   "createdAt": "2025-12-12T17:50:27.000Z",
-  "downloads": 84651,
-  "likes": 245,
+  "downloads": 68749,
+  "likes": 256,
   "pipeline": "image-text-to-text",
   "tags": [
    "conversational",
@@ -3900,8 +4062,8 @@
  {
   "id": "nvidia/Qwen3-Next-80B-A3B-Thinking-NVFP4",
   "createdAt": "2025-12-11T19:48:53.000Z",
-  "downloads": 960,
-  "likes": 67,
+  "downloads": 1547,
+  "likes": 66,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -3912,8 +4074,8 @@
  {
   "id": "nvidia/magpie_tts_multilingual_357m",
   "createdAt": "2025-12-11T01:23:50.000Z",
-  "downloads": 11147,
-  "likes": 236,
+  "downloads": 15385,
+  "likes": 243,
   "pipeline": "text-to-speech",
   "tags": [],
   "gated": false
@@ -3921,8 +4083,8 @@
  {
   "id": "nvidia/vgg-ttt",
   "createdAt": "2025-12-10T22:23:19.000Z",
-  "downloads": 895,
-  "likes": 31,
+  "downloads": 725,
+  "likes": 33,
   "pipeline": "image-to-3d",
   "tags": [],
   "gated": false
@@ -3930,8 +4092,8 @@
  {
   "id": "nvidia/Cosmos-Tokenizer-Surg",
   "createdAt": "2025-12-10T17:57:24.000Z",
-  "downloads": 145,
-  "likes": 4,
+  "downloads": 141,
+  "likes": 3,
   "pipeline": "image-to-image",
   "tags": [],
   "gated": false
@@ -3939,8 +4101,8 @@
  {
   "id": "nvidia/Qwen3-Next-80B-A3B-Instruct-NVFP4",
   "createdAt": "2025-12-09T22:42:19.000Z",
-  "downloads": 82484,
-  "likes": 46,
+  "downloads": 3633,
+  "likes": 47,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -3951,7 +4113,7 @@
  {
   "id": "nvidia/gpt-oss-120b-Eagle3-throughput",
   "createdAt": "2025-12-09T21:47:10.000Z",
-  "downloads": 655,
+  "downloads": 762,
   "likes": 38,
   "pipeline": "text-generation",
   "tags": [
@@ -3962,7 +4124,7 @@
  {
   "id": "nvidia/GR00T-N1.6-BEHAVIOR1k",
   "createdAt": "2025-12-09T21:33:19.000Z",
-  "downloads": 171,
+  "downloads": 162,
   "likes": 4,
   "pipeline": "robotics",
   "tags": [],
@@ -3971,8 +4133,8 @@
  {
   "id": "nvidia/Nemotron-Cascade-14B-Thinking",
   "createdAt": "2025-12-08T20:35:51.000Z",
-  "downloads": 1275,
-  "likes": 89,
+  "downloads": 1826,
+  "likes": 88,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -3983,7 +4145,7 @@
  {
   "id": "nvidia/Nemotron-Cascade-8B-Thinking",
   "createdAt": "2025-12-08T20:21:47.000Z",
-  "downloads": 1159,
+  "downloads": 847,
   "likes": 45,
   "pipeline": "text-generation",
   "tags": [
@@ -3995,8 +4157,8 @@
  {
   "id": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-FP8",
   "createdAt": "2025-12-06T06:00:45.000Z",
-  "downloads": 244933,
-  "likes": 367,
+  "downloads": 125734,
+  "likes": 366,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -4007,7 +4169,7 @@
  {
   "id": "nvidia/GR00T-N1.6-G1-PnPAppleToPlate",
   "createdAt": "2025-12-06T05:36:06.000Z",
-  "downloads": 302,
+  "downloads": 403,
   "likes": 6,
   "pipeline": "robotics",
   "tags": [],
@@ -4025,7 +4187,7 @@
  {
   "id": "nvidia/GR00T-N1.6-bridge",
   "createdAt": "2025-12-05T05:12:50.000Z",
-  "downloads": 210,
+  "downloads": 649,
   "likes": 2,
   "pipeline": "robotics",
   "tags": [],
@@ -4034,7 +4196,7 @@
  {
   "id": "nvidia/GR00T-N1.6-fractal",
   "createdAt": "2025-12-05T04:51:09.000Z",
-  "downloads": 298,
+  "downloads": 230,
   "likes": 6,
   "pipeline": "robotics",
   "tags": [],
@@ -4043,8 +4205,8 @@
  {
   "id": "nvidia/llama-nemotron-rerank-vl-1b-v2",
   "createdAt": "2025-12-04T18:46:53.000Z",
-  "downloads": 27947,
-  "likes": 73,
+  "downloads": 14664,
+  "likes": 75,
   "pipeline": "text-ranking",
   "tags": [],
   "gated": false
@@ -4052,8 +4214,8 @@
  {
   "id": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16",
   "createdAt": "2025-12-04T03:37:11.000Z",
-  "downloads": 1438724,
-  "likes": 835,
+  "downloads": 1601138,
+  "likes": 840,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -4064,8 +4226,8 @@
  {
   "id": "nvidia/Qwen3-Nemotron-235B-A22B-GenRM",
   "createdAt": "2025-12-03T19:30:41.000Z",
-  "downloads": 644,
-  "likes": 33,
+  "downloads": 1443,
+  "likes": 34,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -4076,8 +4238,8 @@
  {
   "id": "nvidia/llama-nemotron-embed-vl-1b-v2",
   "createdAt": "2025-12-03T17:07:48.000Z",
-  "downloads": 16563,
-  "likes": 109,
+  "downloads": 9228,
+  "likes": 111,
   "pipeline": "sentence-similarity",
   "tags": [],
   "gated": false
@@ -4085,7 +4247,7 @@
  {
   "id": "nvidia/KVzap-mlp-Llama-3.1-8B-Instruct",
   "createdAt": "2025-12-03T07:10:19.000Z",
-  "downloads": 223,
+  "downloads": 119,
   "likes": 4,
   "pipeline": "other",
   "tags": [],
@@ -4094,7 +4256,7 @@
  {
   "id": "nvidia/KVzap-linear-Llama-3.1-8B-Instruct",
   "createdAt": "2025-12-03T07:10:11.000Z",
-  "downloads": 142,
+  "downloads": 129,
   "likes": 1,
   "pipeline": "other",
   "tags": [],
@@ -4103,7 +4265,7 @@
  {
   "id": "nvidia/KVzap-linear-Qwen3-32B",
   "createdAt": "2025-12-03T07:09:17.000Z",
-  "downloads": 130,
+  "downloads": 133,
   "likes": 4,
   "pipeline": "other",
   "tags": [],
@@ -4112,7 +4274,7 @@
  {
   "id": "nvidia/KVzap-mlp-Qwen3-32B",
   "createdAt": "2025-12-03T07:09:07.000Z",
-  "downloads": 121,
+  "downloads": 167,
   "likes": 6,
   "pipeline": "other",
   "tags": [],
@@ -4121,7 +4283,7 @@
  {
   "id": "nvidia/KVzap-mlp-Qwen3-8B",
   "createdAt": "2025-12-03T07:08:36.000Z",
-  "downloads": 455,
+  "downloads": 304,
   "likes": 8,
   "pipeline": "other",
   "tags": [],
@@ -4130,7 +4292,7 @@
  {
   "id": "nvidia/KVzap-linear-Qwen3-8B",
   "createdAt": "2025-12-03T07:01:11.000Z",
-  "downloads": 172,
+  "downloads": 141,
   "likes": 2,
   "pipeline": "other",
   "tags": [],
@@ -4139,7 +4301,7 @@
  {
   "id": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16",
   "createdAt": "2025-12-03T06:17:55.000Z",
-  "downloads": 62906,
+  "downloads": 26319,
   "likes": 137,
   "pipeline": "text-generation",
   "tags": [
@@ -4150,8 +4312,8 @@
  {
   "id": "nvidia/Kimi-K2-Thinking-NVFP4",
   "createdAt": "2025-12-02T18:58:54.000Z",
-  "downloads": 226639,
-  "likes": 40,
+  "downloads": 247830,
+  "likes": 41,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -4162,8 +4324,8 @@
  {
   "id": "nvidia/GR00T-N1.6-3B",
   "createdAt": "2025-12-01T23:33:22.000Z",
-  "downloads": 10074,
-  "likes": 94,
+  "downloads": 7415,
+  "likes": 93,
   "pipeline": "robotics",
   "tags": [],
   "gated": false
@@ -4180,7 +4342,7 @@
  {
   "id": "nvidia/Nemotron-Content-Safety-Reasoning-4B",
   "createdAt": "2025-11-26T11:00:19.000Z",
-  "downloads": 6057,
+  "downloads": 5166,
   "likes": 35,
   "pipeline": "text-generation",
   "tags": [
@@ -4192,8 +4354,8 @@
  {
   "id": "nvidia/Nemotron-Orchestrator-8B",
   "createdAt": "2025-11-25T23:23:02.000Z",
-  "downloads": 2362,
-  "likes": 601,
+  "downloads": 3276,
+  "likes": 600,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -4204,8 +4366,8 @@
  {
   "id": "nvidia/Alpamayo-R1-10B",
   "createdAt": "2025-11-22T02:25:59.000Z",
-  "downloads": 9599,
-  "likes": 445,
+  "downloads": 9488,
+  "likes": 446,
   "pipeline": "robotics",
   "tags": [],
   "gated": false
@@ -4213,7 +4375,7 @@
  {
   "id": "nvidia/DeepSeek-V3.1-NVFP4",
   "createdAt": "2025-11-21T23:50:38.000Z",
-  "downloads": 3455,
+  "downloads": 3093,
   "likes": 17,
   "pipeline": "text-generation",
   "tags": [
@@ -4225,7 +4387,7 @@
  {
   "id": "nvidia/NVIDIA-Nemotron-Parse-v1.1-TC",
   "createdAt": "2025-11-15T19:47:33.000Z",
-  "downloads": 371,
+  "downloads": 398,
   "likes": 13,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -4237,7 +4399,7 @@
  {
   "id": "nvidia/NVIDIA-Nemotron-Parse-v1.1",
   "createdAt": "2025-11-15T15:15:54.000Z",
-  "downloads": 126423,
+  "downloads": 120881,
   "likes": 174,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -4249,7 +4411,7 @@
  {
   "id": "nvidia/ChronoEdit-14B-Diffusers-Paint-Brush-Lora",
   "createdAt": "2025-11-14T22:56:06.000Z",
-  "downloads": 59,
+  "downloads": 83,
   "likes": 23,
   "pipeline": "image-to-image",
   "tags": [],
@@ -4258,7 +4420,7 @@
  {
   "id": "nvidia/nvpanoptix-3d",
   "createdAt": "2025-11-14T01:01:49.000Z",
-  "downloads": 186,
+  "downloads": 169,
   "likes": 17,
   "pipeline": "",
   "tags": [],
@@ -4267,7 +4429,7 @@
  {
   "id": "nvidia/dlesym-v1-era5",
   "createdAt": "2025-11-12T17:33:09.000Z",
-  "downloads": 237,
+  "downloads": 195,
   "likes": 9,
   "pipeline": "",
   "tags": [],
@@ -4276,7 +4438,7 @@
  {
   "id": "nvidia/stormcast-v1-era5-hrrr",
   "createdAt": "2025-11-12T17:16:30.000Z",
-  "downloads": 279,
+  "downloads": 299,
   "likes": 19,
   "pipeline": "",
   "tags": [],
@@ -4285,8 +4447,8 @@
  {
   "id": "nvidia/Llama-3_3-Nemotron-Super-49B-v1_5-NVFP4",
   "createdAt": "2025-11-11T15:47:07.000Z",
-  "downloads": 24589,
-  "likes": 26,
+  "downloads": 22515,
+  "likes": 27,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -4297,7 +4459,7 @@
  {
   "id": "nvidia/ChronoEdit-14B-Diffusers-Upscaler-Lora",
   "createdAt": "2025-11-11T01:03:25.000Z",
-  "downloads": 196,
+  "downloads": 239,
   "likes": 95,
   "pipeline": "image-to-image",
   "tags": [],
@@ -4306,8 +4468,8 @@
  {
   "id": "nvidia/Nemotron-Elastic-12B",
   "createdAt": "2025-11-10T21:47:06.000Z",
-  "downloads": 56,
-  "likes": 70,
+  "downloads": 57,
+  "likes": 69,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -4318,8 +4480,8 @@
  {
   "id": "nvidia/music-flamingo-hf",
   "createdAt": "2025-11-10T19:23:03.000Z",
-  "downloads": 37634,
-  "likes": 115,
+  "downloads": 96759,
+  "likes": 116,
   "pipeline": "audio-text-to-text",
   "tags": [
    "text2text-generation"
@@ -4329,7 +4491,7 @@
  {
   "id": "nvidia/fourcastnet3",
   "createdAt": "2025-11-07T19:18:57.000Z",
-  "downloads": 1022,
+  "downloads": 1047,
   "likes": 47,
   "pipeline": "",
   "tags": [],
@@ -4338,8 +4500,8 @@
  {
   "id": "nvidia/Nemotron-Flash-1B",
   "createdAt": "2025-11-06T17:36:39.000Z",
-  "downloads": 748,
-  "likes": 35,
+  "downloads": 824,
+  "likes": 36,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -4349,7 +4511,7 @@
  {
   "id": "nvidia/Riva-Translate-4B-Instruct-v1.1",
   "createdAt": "2025-11-05T06:13:48.000Z",
-  "downloads": 1316,
+  "downloads": 1736,
   "likes": 34,
   "pipeline": "text-generation",
   "tags": [
@@ -4361,7 +4523,7 @@
  {
   "id": "nvidia/Qwen2.5-VL-7B-Surg-CholecT50",
   "createdAt": "2025-10-28T21:14:49.000Z",
-  "downloads": 724,
+  "downloads": 1521,
   "likes": 14,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -4373,7 +4535,7 @@
  {
   "id": "nvidia/ChronoEdit-14B-Diffusers",
   "createdAt": "2025-10-28T15:32:36.000Z",
-  "downloads": 135,
+  "downloads": 161,
   "likes": 173,
   "pipeline": "other",
   "tags": [],
@@ -4391,8 +4553,8 @@
  {
   "id": "nvidia/audio-flamingo-3-hf",
   "createdAt": "2025-10-24T17:38:40.000Z",
-  "downloads": 68848,
-  "likes": 201,
+  "downloads": 83357,
+  "likes": 200,
   "pipeline": "audio-text-to-text",
   "tags": [
    "text2text-generation"
@@ -4402,8 +4564,8 @@
  {
   "id": "nvidia/NV-Segment-CT",
   "createdAt": "2025-10-23T21:55:29.000Z",
-  "downloads": 821,
-  "likes": 34,
+  "downloads": 1043,
+  "likes": 36,
   "pipeline": "image-segmentation",
   "tags": [],
   "gated": false
@@ -4411,8 +4573,8 @@
  {
   "id": "nvidia/NV-Segment-CTMR",
   "createdAt": "2025-10-23T21:48:59.000Z",
-  "downloads": 1171,
-  "likes": 23,
+  "downloads": 684,
+  "likes": 22,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -4420,8 +4582,8 @@
  {
   "id": "nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL-NVFP4-QAD",
   "createdAt": "2025-10-22T19:41:11.000Z",
-  "downloads": 307126,
-  "likes": 39,
+  "downloads": 104653,
+  "likes": 41,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -4432,8 +4594,8 @@
  {
   "id": "nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL-FP8",
   "createdAt": "2025-10-22T19:11:21.000Z",
-  "downloads": 13100,
-  "likes": 56,
+  "downloads": 3182,
+  "likes": 57,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -4444,7 +4606,7 @@
  {
   "id": "nvidia/diar_streaming_sortformer_4spk-v2.1",
   "createdAt": "2025-10-22T17:54:27.000Z",
-  "downloads": 15268,
+  "downloads": 14316,
   "likes": 121,
   "pipeline": "automatic-speech-recognition",
   "tags": [],
@@ -4453,7 +4615,7 @@
  {
   "id": "nvidia/NV-CodonFM-Encodon-TE-80M-v1",
   "createdAt": "2025-10-22T17:43:28.000Z",
-  "downloads": 295,
+  "downloads": 251,
   "likes": 2,
   "pipeline": "",
   "tags": [],
@@ -4462,7 +4624,7 @@
  {
   "id": "nvidia/NV-CodonFM-Encodon-TE-600M-v1",
   "createdAt": "2025-10-22T17:43:09.000Z",
-  "downloads": 226,
+  "downloads": 206,
   "likes": 2,
   "pipeline": "",
   "tags": [],
@@ -4471,7 +4633,7 @@
  {
   "id": "nvidia/NV-CodonFM-Encodon-TE-1B-v1",
   "createdAt": "2025-10-22T17:42:49.000Z",
-  "downloads": 147,
+  "downloads": 181,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -4480,7 +4642,7 @@
  {
   "id": "nvidia/NV-CodonFM-Encodon-TE-Cdwt-1B-v1",
   "createdAt": "2025-10-22T16:59:44.000Z",
-  "downloads": 216,
+  "downloads": 202,
   "likes": 3,
   "pipeline": "",
   "tags": [],
@@ -4489,8 +4651,8 @@
  {
   "id": "nvidia/NV-Generate-MR",
   "createdAt": "2025-10-22T02:32:53.000Z",
-  "downloads": 255,
-  "likes": 26,
+  "downloads": 212,
+  "likes": 24,
   "pipeline": "unconditional-image-generation",
   "tags": [],
   "gated": false
@@ -4498,7 +4660,7 @@
  {
   "id": "nvidia/Qwen3-Nemotron-14B-BRRM",
   "createdAt": "2025-10-22T00:43:58.000Z",
-  "downloads": 182,
+  "downloads": 196,
   "likes": 13,
   "pipeline": "text-generation",
   "tags": [
@@ -4510,7 +4672,7 @@
  {
   "id": "nvidia/Qwen3-Nemotron-8B-BRRM",
   "createdAt": "2025-10-21T23:15:34.000Z",
-  "downloads": 507,
+  "downloads": 1253,
   "likes": 10,
   "pipeline": "text-generation",
   "tags": [
@@ -4522,8 +4684,8 @@
  {
   "id": "nvidia/nemotron-ocr-v1",
   "createdAt": "2025-10-21T22:35:59.000Z",
-  "downloads": 169,
-  "likes": 121,
+  "downloads": 204,
+  "likes": 120,
   "pipeline": "image-to-text",
   "tags": [],
   "gated": false
@@ -4531,8 +4693,8 @@
  {
   "id": "nvidia/Efficient-DLM-8B",
   "createdAt": "2025-10-21T22:19:39.000Z",
-  "downloads": 851,
-  "likes": 21,
+  "downloads": 1001,
+  "likes": 22,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -4543,7 +4705,7 @@
  {
   "id": "nvidia/Llama-3.3-70B-Instruct-Eagle3",
   "createdAt": "2025-10-21T19:16:15.000Z",
-  "downloads": 492,
+  "downloads": 1088,
   "likes": 5,
   "pipeline": "text-generation",
   "tags": [
@@ -4554,7 +4716,7 @@
  {
   "id": "nvidia/Fixer",
   "createdAt": "2025-10-21T18:39:46.000Z",
-  "downloads": 817,
+  "downloads": 3573,
   "likes": 35,
   "pipeline": "image-to-image",
   "tags": [],
@@ -4563,7 +4725,7 @@
  {
   "id": "nvidia/NV-GenMol-89M-v2",
   "createdAt": "2025-10-21T18:15:45.000Z",
-  "downloads": 345,
+  "downloads": 375,
   "likes": 5,
   "pipeline": "",
   "tags": [],
@@ -4572,7 +4734,7 @@
  {
   "id": "nvidia/NV-GenMol-89M-v1",
   "createdAt": "2025-10-21T18:15:03.000Z",
-  "downloads": 150,
+  "downloads": 169,
   "likes": 3,
   "pipeline": "",
   "tags": [],
@@ -4581,8 +4743,8 @@
  {
   "id": "nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL-BF16",
   "createdAt": "2025-10-21T18:11:05.000Z",
-  "downloads": 15330,
-  "likes": 96,
+  "downloads": 14967,
+  "likes": 95,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -4593,8 +4755,8 @@
  {
   "id": "nvidia/NV-Generate-CT",
   "createdAt": "2025-10-21T05:33:51.000Z",
-  "downloads": 16068,
-  "likes": 33,
+  "downloads": 8669,
+  "likes": 32,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -4602,7 +4764,7 @@
  {
   "id": "nvidia/NV-Megalodon-QM9-v1",
   "createdAt": "2025-10-21T01:44:09.000Z",
-  "downloads": 99,
+  "downloads": 115,
   "likes": 4,
   "pipeline": "",
   "tags": [],
@@ -4611,7 +4773,7 @@
  {
   "id": "nvidia/NV-Megalodon-GEOM-Drugs-v1",
   "createdAt": "2025-10-21T01:43:01.000Z",
-  "downloads": 82,
+  "downloads": 131,
   "likes": 6,
   "pipeline": "",
   "tags": [],
@@ -4620,7 +4782,7 @@
  {
   "id": "nvidia/NV-Proteina-400M-v1",
   "createdAt": "2025-10-21T01:40:16.000Z",
-  "downloads": 29,
+  "downloads": 75,
   "likes": 8,
   "pipeline": "",
   "tags": [],
@@ -4629,7 +4791,7 @@
  {
   "id": "nvidia/NV-Proteina-60M-v1",
   "createdAt": "2025-10-21T01:39:34.000Z",
-  "downloads": 57,
+  "downloads": 72,
   "likes": 2,
   "pipeline": "",
   "tags": [],
@@ -4638,7 +4800,7 @@
  {
   "id": "nvidia/NV-Proteina-200M-v1",
   "createdAt": "2025-10-21T01:38:50.000Z",
-  "downloads": 105,
+  "downloads": 159,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -4647,7 +4809,7 @@
  {
   "id": "nvidia/NV-La-Proteina-Motif-v1",
   "createdAt": "2025-10-21T01:36:54.000Z",
-  "downloads": 159,
+  "downloads": 3190,
   "likes": 3,
   "pipeline": "",
   "tags": [],
@@ -4656,8 +4818,8 @@
  {
   "id": "nvidia/NV-ReaSyn-EB-174M-v2",
   "createdAt": "2025-10-21T01:20:42.000Z",
-  "downloads": 925,
-  "likes": 8,
+  "downloads": 630,
+  "likes": 9,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -4665,8 +4827,8 @@
  {
   "id": "nvidia/NV-ReaSyn-AR-166M-v2",
   "createdAt": "2025-10-21T01:19:03.000Z",
-  "downloads": 777,
-  "likes": 4,
+  "downloads": 522,
+  "likes": 5,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -4674,8 +4836,8 @@
  {
   "id": "nvidia/NV-CodonFM-Encodon-80M-v1",
   "createdAt": "2025-10-20T17:14:09.000Z",
-  "downloads": 12544,
-  "likes": 4,
+  "downloads": 488,
+  "likes": 5,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -4683,7 +4845,7 @@
  {
   "id": "nvidia/NV-CodonFM-Encodon-600M-v1",
   "createdAt": "2025-10-20T17:13:51.000Z",
-  "downloads": 201,
+  "downloads": 209,
   "likes": 2,
   "pipeline": "",
   "tags": [],
@@ -4692,8 +4854,8 @@
  {
   "id": "nvidia/NV-CodonFM-Encodon-1B-v1",
   "createdAt": "2025-10-20T17:13:30.000Z",
-  "downloads": 200,
-  "likes": 4,
+  "downloads": 239,
+  "likes": 5,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -4701,7 +4863,7 @@
  {
   "id": "nvidia/Cosmos-Tokenizer-CI8x8-Lidar",
   "createdAt": "2025-10-20T08:30:26.000Z",
-  "downloads": 81,
+  "downloads": 69,
   "likes": 3,
   "pipeline": "",
   "tags": [],
@@ -4710,8 +4872,8 @@
  {
   "id": "nvidia/Cosmos-Transfer-LidarGen",
   "createdAt": "2025-10-20T08:16:58.000Z",
-  "downloads": 3429,
-  "likes": 8,
+  "downloads": 3847,
+  "likes": 9,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -4719,7 +4881,7 @@
  {
   "id": "nvidia/nemotron-table-structure-v1",
   "createdAt": "2025-10-17T14:19:04.000Z",
-  "downloads": 462,
+  "downloads": 1149,
   "likes": 40,
   "pipeline": "object-detection",
   "tags": [],
@@ -4728,7 +4890,7 @@
  {
   "id": "nvidia/nemotron-graphic-elements-v1",
   "createdAt": "2025-10-17T14:18:36.000Z",
-  "downloads": 1,
+  "downloads": 4,
   "likes": 22,
   "pipeline": "object-detection",
   "tags": [],
@@ -4737,8 +4899,8 @@
  {
   "id": "nvidia/llama-nemotron-rerank-1b-v2",
   "createdAt": "2025-10-16T23:09:22.000Z",
-  "downloads": 607728,
-  "likes": 70,
+  "downloads": 347341,
+  "likes": 71,
   "pipeline": "text-ranking",
   "tags": [],
   "gated": false
@@ -4746,7 +4908,7 @@
  {
   "id": "nvidia/llama-nemotron-embed-1b-v2",
   "createdAt": "2025-10-16T22:44:33.000Z",
-  "downloads": 331640,
+  "downloads": 346577,
   "likes": 72,
   "pipeline": "feature-extraction",
   "tags": [],
@@ -4755,7 +4917,7 @@
  {
   "id": "nvidia/NV-DualBind-1M-v1",
   "createdAt": "2025-10-16T22:37:20.000Z",
-  "downloads": 20,
+  "downloads": 25,
   "likes": 5,
   "pipeline": "",
   "tags": [],
@@ -4764,7 +4926,7 @@
  {
   "id": "nvidia/NV-La-Proteina-Ucond-v1",
   "createdAt": "2025-10-16T22:36:47.000Z",
-  "downloads": 344,
+  "downloads": 4202,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -4773,7 +4935,7 @@
  {
   "id": "nvidia/NV-ReaSyn-AR-166M-v1",
   "createdAt": "2025-10-16T22:36:25.000Z",
-  "downloads": 24,
+  "downloads": 23,
   "likes": 5,
   "pipeline": "",
   "tags": [],
@@ -4782,7 +4944,7 @@
  {
   "id": "nvidia/NV-CodonFM-Encodon-Cdwt-1B-v1",
   "createdAt": "2025-10-16T22:35:16.000Z",
-  "downloads": 142,
+  "downloads": 178,
   "likes": 2,
   "pipeline": "",
   "tags": [],
@@ -4791,7 +4953,7 @@
  {
   "id": "nvidia/nemotron-page-elements-v3",
   "createdAt": "2025-10-16T14:37:36.000Z",
-  "downloads": 8,
+  "downloads": 5,
   "likes": 52,
   "pipeline": "object-detection",
   "tags": [],
@@ -4800,8 +4962,8 @@
  {
   "id": "nvidia/NV-Reason-CXR-3B",
   "createdAt": "2025-10-16T05:15:06.000Z",
-  "downloads": 1297,
-  "likes": 36,
+  "downloads": 2041,
+  "likes": 35,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -4812,8 +4974,8 @@
  {
   "id": "nvidia/multitalker-parakeet-streaming-0.6b-v1",
   "createdAt": "2025-10-15T23:41:41.000Z",
-  "downloads": 1631,
-  "likes": 139,
+  "downloads": 4260,
+  "likes": 143,
   "pipeline": "automatic-speech-recognition",
   "tags": [],
   "gated": false
@@ -4821,7 +4983,7 @@
  {
   "id": "nvidia/Nemotron-Flash-3B-Instruct",
   "createdAt": "2025-10-14T18:44:57.000Z",
-  "downloads": 575,
+  "downloads": 567,
   "likes": 48,
   "pipeline": "text-generation",
   "tags": [
@@ -4832,8 +4994,8 @@
  {
   "id": "nvidia/Qwen3-Nemotron-32B-RLBFF",
   "createdAt": "2025-10-12T05:55:24.000Z",
-  "downloads": 403,
-  "likes": 28,
+  "downloads": 1202,
+  "likes": 29,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -4844,7 +5006,7 @@
  {
   "id": "nvidia/Qwen3-Nemotron-32B-GenRM-Principle",
   "createdAt": "2025-10-12T04:32:57.000Z",
-  "downloads": 745,
+  "downloads": 1458,
   "likes": 23,
   "pipeline": "text-generation",
   "tags": [
@@ -4856,7 +5018,7 @@
  {
   "id": "nvidia/Llama-3.3-Nemotron-70B-Reward-Principle",
   "createdAt": "2025-10-12T01:17:32.000Z",
-  "downloads": 484,
+  "downloads": 1239,
   "likes": 7,
   "pipeline": "text-generation",
   "tags": [
@@ -4868,8 +5030,8 @@
  {
   "id": "nvidia/parakeet_realtime_eou_120m-v1",
   "createdAt": "2025-10-10T16:57:16.000Z",
-  "downloads": 1319,
-  "likes": 161,
+  "downloads": 1733,
+  "likes": 168,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -4877,7 +5039,7 @@
  {
   "id": "nvidia/GN1x-Tuned-Arena-GR1-Manipulation",
   "createdAt": "2025-10-09T23:54:43.000Z",
-  "downloads": 191,
+  "downloads": 152,
   "likes": 5,
   "pipeline": "robotics",
   "tags": [],
@@ -4895,8 +5057,8 @@
  {
   "id": "nvidia/llama-embed-nemotron-8b",
   "createdAt": "2025-10-07T17:05:15.000Z",
-  "downloads": 23110,
-  "likes": 174,
+  "downloads": 9625,
+  "likes": 173,
   "pipeline": "feature-extraction",
   "tags": [],
   "gated": false
@@ -4904,7 +5066,7 @@
  {
   "id": "nvidia/NVIDIA-Nemotron-Nano-9B-v2-NVFP4",
   "createdAt": "2025-10-07T03:12:52.000Z",
-  "downloads": 9515,
+  "downloads": 8604,
   "likes": 29,
   "pipeline": "text-generation",
   "tags": [
@@ -4916,8 +5078,8 @@
  {
   "id": "nvidia/gpt-oss-120b-Eagle3-short-context",
   "createdAt": "2025-10-06T23:47:11.000Z",
-  "downloads": 147620,
-  "likes": 22,
+  "downloads": 195227,
+  "likes": 23,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -4927,7 +5089,7 @@
  {
   "id": "nvidia/GN1x-Tuned-Arena-G1-Loco-Manipulation",
   "createdAt": "2025-10-03T22:57:48.000Z",
-  "downloads": 267,
+  "downloads": 273,
   "likes": 5,
   "pipeline": "robotics",
   "tags": [],
@@ -4936,8 +5098,8 @@
  {
   "id": "nvidia/Llama-3.1-Nemotron-Nano-VL-8B-V1-FP4-QAD",
   "createdAt": "2025-10-01T20:13:39.000Z",
-  "downloads": 518,
-  "likes": 15,
+  "downloads": 1162,
+  "likes": 16,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -4948,8 +5110,8 @@
  {
   "id": "nvidia/omni-embed-nemotron-3b",
   "createdAt": "2025-09-30T13:59:54.000Z",
-  "downloads": 3083,
-  "likes": 133,
+  "downloads": 1980,
+  "likes": 134,
   "pipeline": "sentence-similarity",
   "tags": [],
   "gated": false
@@ -4957,8 +5119,8 @@
  {
   "id": "nvidia/NVIDIA-Nemotron-Nano-9B-v2-FP8",
   "createdAt": "2025-09-22T04:45:16.000Z",
-  "downloads": 70281,
-  "likes": 14,
+  "downloads": 190031,
+  "likes": 15,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -4969,8 +5131,8 @@
  {
   "id": "nvidia/Qwen2.5-VL-7B-Instruct-NVFP4",
   "createdAt": "2025-09-10T03:04:44.000Z",
-  "downloads": 1614100,
-  "likes": 27,
+  "downloads": 1272994,
+  "likes": 28,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -4981,7 +5143,7 @@
  {
   "id": "nvidia/Qwen2.5-VL-7B-Instruct-FP8",
   "createdAt": "2025-09-10T03:03:59.000Z",
-  "downloads": 1584,
+  "downloads": 1836,
   "likes": 10,
   "pipeline": "text-generation",
   "tags": [
@@ -4993,7 +5155,7 @@
  {
   "id": "nvidia/Qwen3-32B-NVFP4",
   "createdAt": "2025-09-09T21:16:30.000Z",
-  "downloads": 9787,
+  "downloads": 9577,
   "likes": 26,
   "pipeline": "text-generation",
   "tags": [
@@ -5005,7 +5167,7 @@
  {
   "id": "nvidia/Qwen3-14B-FP8",
   "createdAt": "2025-09-09T21:16:14.000Z",
-  "downloads": 19976,
+  "downloads": 1542,
   "likes": 10,
   "pipeline": "text-generation",
   "tags": [
@@ -5017,7 +5179,7 @@
  {
   "id": "nvidia/Qwen3-14B-NVFP4",
   "createdAt": "2025-09-09T21:16:04.000Z",
-  "downloads": 6101,
+  "downloads": 36322,
   "likes": 20,
   "pipeline": "text-generation",
   "tags": [
@@ -5029,8 +5191,8 @@
  {
   "id": "nvidia/Qwen3-8B-FP8",
   "createdAt": "2025-09-09T21:15:49.000Z",
-  "downloads": 2257,
-  "likes": 9,
+  "downloads": 3542,
+  "likes": 10,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -5041,8 +5203,8 @@
  {
   "id": "nvidia/Qwen3-8B-NVFP4",
   "createdAt": "2025-09-09T21:15:18.000Z",
-  "downloads": 120704,
-  "likes": 28,
+  "downloads": 117908,
+  "likes": 29,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -5062,7 +5224,7 @@
  {
   "id": "nvidia/Cosmos-Predict2.5-14B",
   "createdAt": "2025-09-05T22:27:05.000Z",
-  "downloads": 207,
+  "downloads": 5568,
   "likes": 35,
   "pipeline": "",
   "tags": [],
@@ -5071,7 +5233,7 @@
  {
   "id": "nvidia/Llama-3.1-8B-Instruct-NVFP4",
   "createdAt": "2025-09-05T05:15:12.000Z",
-  "downloads": 31185,
+  "downloads": 19317,
   "likes": 18,
   "pipeline": "",
   "tags": [],
@@ -5080,7 +5242,7 @@
  {
   "id": "nvidia/Phi-4-reasoning-plus-NVFP4",
   "createdAt": "2025-09-05T05:14:16.000Z",
-  "downloads": 498,
+  "downloads": 549,
   "likes": 14,
   "pipeline": "",
   "tags": [],
@@ -5089,7 +5251,7 @@
  {
   "id": "nvidia/Phi-4-reasoning-plus-FP8",
   "createdAt": "2025-09-05T05:14:06.000Z",
-  "downloads": 198,
+  "downloads": 166,
   "likes": 7,
   "pipeline": "",
   "tags": [],
@@ -5098,7 +5260,7 @@
  {
   "id": "nvidia/Phi-4-multimodal-instruct-FP8",
   "createdAt": "2025-09-05T05:13:38.000Z",
-  "downloads": 430,
+  "downloads": 575,
   "likes": 9,
   "pipeline": "",
   "tags": [],
@@ -5107,7 +5269,7 @@
  {
   "id": "nvidia/Phi-4-multimodal-instruct-NVFP4",
   "createdAt": "2025-09-05T05:12:44.000Z",
-  "downloads": 884,
+  "downloads": 974,
   "likes": 20,
   "pipeline": "",
   "tags": [],
@@ -5116,7 +5278,7 @@
  {
   "id": "nvidia/Qwen3-30B-A3B-Thinking-2507-Eagle3",
   "createdAt": "2025-09-03T07:44:36.000Z",
-  "downloads": 432,
+  "downloads": 435,
   "likes": 7,
   "pipeline": "text-generation",
   "tags": [
@@ -5127,7 +5289,7 @@
  {
   "id": "nvidia/Qwen3-235B-A22B-Thinking-2507-Eagle3",
   "createdAt": "2025-09-03T07:42:30.000Z",
-  "downloads": 226,
+  "downloads": 256,
   "likes": 2,
   "pipeline": "text-generation",
   "tags": [
@@ -5138,7 +5300,7 @@
  {
   "id": "nvidia/Efficient-DLM-4B",
   "createdAt": "2025-09-02T16:54:05.000Z",
-  "downloads": 407,
+  "downloads": 463,
   "likes": 30,
   "pipeline": "text-generation",
   "tags": [
@@ -5150,8 +5312,8 @@
  {
   "id": "nvidia/gliner-PII",
   "createdAt": "2025-08-29T17:49:17.000Z",
-  "downloads": 11888,
-  "likes": 169,
+  "downloads": 12514,
+  "likes": 170,
   "pipeline": "token-classification",
   "tags": [],
   "gated": false
@@ -5159,7 +5321,7 @@
  {
   "id": "nvidia/Lyra",
   "createdAt": "2025-08-27T19:20:23.000Z",
-  "downloads": 254,
+  "downloads": 240,
   "likes": 45,
   "pipeline": "",
   "tags": [],
@@ -5168,7 +5330,7 @@
  {
   "id": "nvidia/omnivinci",
   "createdAt": "2025-08-22T23:07:40.000Z",
-  "downloads": 559,
+  "downloads": 860,
   "likes": 182,
   "pipeline": "feature-extraction",
   "tags": [],
@@ -5177,7 +5339,7 @@
  {
   "id": "nvidia/GR00T-N1.5-3B-WaveHand",
   "createdAt": "2025-08-21T06:19:51.000Z",
-  "downloads": 157,
+  "downloads": 198,
   "likes": 4,
   "pipeline": "",
   "tags": [],
@@ -5186,8 +5348,8 @@
  {
   "id": "nvidia/NVIDIA-Nemotron-Nano-12B-v2",
   "createdAt": "2025-08-21T01:31:50.000Z",
-  "downloads": 9175,
-  "likes": 166,
+  "downloads": 3576,
+  "likes": 165,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -5198,8 +5360,8 @@
  {
   "id": "nvidia/Llama-3.1-Nemotron-Safety-Guard-8B-v3",
   "createdAt": "2025-08-20T10:17:55.000Z",
-  "downloads": 6569,
-  "likes": 29,
+  "downloads": 7915,
+  "likes": 31,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -5210,8 +5372,8 @@
  {
   "id": "nvidia/gpt-oss-120b-Eagle3-long-context",
   "createdAt": "2025-08-18T17:50:05.000Z",
-  "downloads": 1509,
-  "likes": 91,
+  "downloads": 1639,
+  "likes": 93,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -5221,7 +5383,7 @@
  {
   "id": "nvidia/SO_ARM_Starter_Gr00t",
   "createdAt": "2025-08-18T13:18:42.000Z",
-  "downloads": 234,
+  "downloads": 335,
   "likes": 5,
   "pipeline": "",
   "tags": [],
@@ -5230,7 +5392,7 @@
  {
   "id": "nvidia/NVIDIA-Nemotron-Nano-9B-v2-Base",
   "createdAt": "2025-08-14T01:31:31.000Z",
-  "downloads": 1827,
+  "downloads": 2617,
   "likes": 49,
   "pipeline": "text-generation",
   "tags": [
@@ -5241,8 +5403,8 @@
  {
   "id": "nvidia/NVIDIA-Nemotron-Nano-12B-v2-Base",
   "createdAt": "2025-08-14T01:31:02.000Z",
-  "downloads": 4303,
-  "likes": 92,
+  "downloads": 4452,
+  "likes": 93,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -5252,8 +5414,8 @@
  {
   "id": "nvidia/NVIDIA-Nemotron-Nano-9B-v2",
   "createdAt": "2025-08-12T22:43:32.000Z",
-  "downloads": 208094,
-  "likes": 529,
+  "downloads": 104768,
+  "likes": 532,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -5264,7 +5426,7 @@
  {
   "id": "nvidia/DLER-Llama-Nemotron-8B-Merge-Research",
   "createdAt": "2025-08-11T22:26:08.000Z",
-  "downloads": 395,
+  "downloads": 1214,
   "likes": 20,
   "pipeline": "",
   "tags": [],
@@ -5273,7 +5435,7 @@
  {
   "id": "nvidia/DLER-R1-7B-Research",
   "createdAt": "2025-08-11T22:25:49.000Z",
-  "downloads": 316,
+  "downloads": 279,
   "likes": 17,
   "pipeline": "",
   "tags": [],
@@ -5282,7 +5444,7 @@
  {
   "id": "nvidia/DLER-R1-1.5B-Research",
   "createdAt": "2025-08-11T22:25:21.000Z",
-  "downloads": 549,
+  "downloads": 1265,
   "likes": 21,
   "pipeline": "",
   "tags": [],
@@ -5300,7 +5462,7 @@
  {
   "id": "nvidia/Liver_Scan_Gr00t_Cosmos_Rel",
   "createdAt": "2025-08-08T13:03:20.000Z",
-  "downloads": 149,
+  "downloads": 174,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -5309,8 +5471,8 @@
  {
   "id": "nvidia/Audio2Emotion-v3.0",
   "createdAt": "2025-08-07T04:07:00.000Z",
-  "downloads": 102,
-  "likes": 52,
+  "downloads": 113,
+  "likes": 54,
   "pipeline": "",
   "tags": [],
   "gated": "auto"
@@ -5318,7 +5480,7 @@
  {
   "id": "nvidia/nemo-nano-codec-22khz-0.6kbps-12.5fps",
   "createdAt": "2025-08-06T20:57:28.000Z",
-  "downloads": 1165,
+  "downloads": 1171,
   "likes": 21,
   "pipeline": "feature-extraction",
   "tags": [],
@@ -5327,8 +5489,8 @@
  {
   "id": "nvidia/nemo-nano-codec-22khz-1.89kbps-21.5fps",
   "createdAt": "2025-08-06T20:40:32.000Z",
-  "downloads": 10206,
-  "likes": 23,
+  "downloads": 7427,
+  "likes": 24,
   "pipeline": "feature-extraction",
   "tags": [],
   "gated": false
@@ -5336,7 +5498,7 @@
  {
   "id": "nvidia/nemo-nano-codec-22khz-1.78kbps-12.5fps",
   "createdAt": "2025-08-06T19:33:48.000Z",
-  "downloads": 264,
+  "downloads": 337,
   "likes": 14,
   "pipeline": "feature-extraction",
   "tags": [],
@@ -5345,8 +5507,8 @@
  {
   "id": "nvidia/canary-1b-v2",
   "createdAt": "2025-08-04T13:34:41.000Z",
-  "downloads": 206065,
-  "likes": 443,
+  "downloads": 236030,
+  "likes": 451,
   "pipeline": "automatic-speech-recognition",
   "tags": [],
   "gated": false
@@ -5354,8 +5516,8 @@
  {
   "id": "nvidia/parakeet-tdt-0.6b-v3",
   "createdAt": "2025-08-04T13:34:09.000Z",
-  "downloads": 574427,
-  "likes": 1223,
+  "downloads": 548087,
+  "likes": 1268,
   "pipeline": "automatic-speech-recognition",
   "tags": [],
   "gated": false
@@ -5364,7 +5526,7 @@
   "id": "nvidia/audio_to_audio_schrodinger_bridge",
   "createdAt": "2025-08-01T21:32:52.000Z",
   "downloads": 0,
-  "likes": 24,
+  "likes": 25,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -5381,8 +5543,8 @@
  {
   "id": "nvidia/Audio2Emotion-v2.2",
   "createdAt": "2025-08-01T17:30:36.000Z",
-  "downloads": 205,
-  "likes": 40,
+  "downloads": 238,
+  "likes": 43,
   "pipeline": "",
   "tags": [],
   "gated": "auto"
@@ -5390,8 +5552,8 @@
  {
   "id": "nvidia/Llama-3_3-Nemotron-Super-49B-v1_5-FP8",
   "createdAt": "2025-07-31T20:19:22.000Z",
-  "downloads": 51252,
-  "likes": 33,
+  "downloads": 9766,
+  "likes": 34,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -5402,7 +5564,7 @@
  {
   "id": "nvidia/esm2_t48_15B_UR50D",
   "createdAt": "2025-07-30T21:39:48.000Z",
-  "downloads": 928,
+  "downloads": 371,
   "likes": 12,
   "pipeline": "fill-mask",
   "tags": [],
@@ -5411,7 +5573,7 @@
  {
   "id": "nvidia/esm2_t36_3B_UR50D",
   "createdAt": "2025-07-30T20:57:59.000Z",
-  "downloads": 239,
+  "downloads": 220,
   "likes": 5,
   "pipeline": "fill-mask",
   "tags": [],
@@ -5420,8 +5582,8 @@
  {
   "id": "nvidia/esm2_t33_650M_UR50D",
   "createdAt": "2025-07-30T20:53:47.000Z",
-  "downloads": 1155,
-  "likes": 8,
+  "downloads": 452,
+  "likes": 9,
   "pipeline": "fill-mask",
   "tags": [],
   "gated": false
@@ -5429,7 +5591,7 @@
  {
   "id": "nvidia/esm2_t30_150M_UR50D",
   "createdAt": "2025-07-30T20:02:11.000Z",
-  "downloads": 185,
+  "downloads": 176,
   "likes": 3,
   "pipeline": "fill-mask",
   "tags": [],
@@ -5438,7 +5600,7 @@
  {
   "id": "nvidia/esm2_t12_35M_UR50D",
   "createdAt": "2025-07-30T19:52:24.000Z",
-  "downloads": 180,
+  "downloads": 176,
   "likes": 3,
   "pipeline": "fill-mask",
   "tags": [],
@@ -5447,8 +5609,8 @@
  {
   "id": "nvidia/Llama-3_3-Nemotron-Super-49B-v1_5",
   "createdAt": "2025-07-25T18:15:15.000Z",
-  "downloads": 93505,
-  "likes": 241,
+  "downloads": 39778,
+  "likes": 242,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -5459,7 +5621,7 @@
  {
   "id": "nvidia/VILA-HD-8B-PS3-4K-C-RADIOv2",
   "createdAt": "2025-07-24T19:43:19.000Z",
-  "downloads": 235,
+  "downloads": 221,
   "likes": 1,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -5470,7 +5632,7 @@
  {
   "id": "nvidia/VILA-HD-8B-PS3-1.5K-C-RADIOv2",
   "createdAt": "2025-07-24T19:42:41.000Z",
-  "downloads": 233,
+  "downloads": 218,
   "likes": 1,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -5481,7 +5643,7 @@
  {
   "id": "nvidia/VILA-HD-8B-PS3-4K-SigLIP2",
   "createdAt": "2025-07-24T19:42:31.000Z",
-  "downloads": 291,
+  "downloads": 261,
   "likes": 3,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -5492,7 +5654,7 @@
  {
   "id": "nvidia/VILA-HD-8B-PS3-1.5K-SigLIP2",
   "createdAt": "2025-07-24T19:42:18.000Z",
-  "downloads": 248,
+  "downloads": 225,
   "likes": 1,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -5503,7 +5665,7 @@
  {
   "id": "nvidia/PS3-4K-C-RADIOv2",
   "createdAt": "2025-07-24T19:42:06.000Z",
-  "downloads": 109,
+  "downloads": 92,
   "likes": 1,
   "pipeline": "image-feature-extraction",
   "tags": [],
@@ -5512,7 +5674,7 @@
  {
   "id": "nvidia/PS3-1.5K-C-RADIOv2",
   "createdAt": "2025-07-24T19:41:55.000Z",
-  "downloads": 117,
+  "downloads": 100,
   "likes": 1,
   "pipeline": "image-feature-extraction",
   "tags": [],
@@ -5521,7 +5683,7 @@
  {
   "id": "nvidia/PS3_Lang-4K-SigLIP2",
   "createdAt": "2025-07-24T19:41:44.000Z",
-  "downloads": 107,
+  "downloads": 93,
   "likes": 1,
   "pipeline": "image-feature-extraction",
   "tags": [],
@@ -5530,7 +5692,7 @@
  {
   "id": "nvidia/PS3-4K-SigLIP2",
   "createdAt": "2025-07-24T19:41:34.000Z",
-  "downloads": 117,
+  "downloads": 97,
   "likes": 2,
   "pipeline": "image-feature-extraction",
   "tags": [],
@@ -5539,7 +5701,7 @@
  {
   "id": "nvidia/PS3_Lang-1.5K-SigLIP2",
   "createdAt": "2025-07-24T19:41:24.000Z",
-  "downloads": 108,
+  "downloads": 95,
   "likes": 2,
   "pipeline": "image-feature-extraction",
   "tags": [],
@@ -5548,7 +5710,7 @@
  {
   "id": "nvidia/PS3-1.5K-SigLIP2",
   "createdAt": "2025-07-24T19:41:11.000Z",
-  "downloads": 133,
+  "downloads": 122,
   "likes": 3,
   "pipeline": "image-feature-extraction",
   "tags": [],
@@ -5557,7 +5719,7 @@
  {
   "id": "nvidia/Qwen3-235B-A22B-Eagle3",
   "createdAt": "2025-07-23T19:56:54.000Z",
-  "downloads": 563,
+  "downloads": 645,
   "likes": 18,
   "pipeline": "text-generation",
   "tags": [
@@ -5568,8 +5730,8 @@
  {
   "id": "nvidia/Cosmos-Predict2.5-2B",
   "createdAt": "2025-07-23T04:00:09.000Z",
-  "downloads": 5319,
-  "likes": 198,
+  "downloads": 13067,
+  "likes": 207,
   "pipeline": "",
   "tags": [],
   "gated": "auto"
@@ -5577,7 +5739,7 @@
  {
   "id": "nvidia/DeepSeek-R1-NVFP4-v2",
   "createdAt": "2025-07-22T02:35:54.000Z",
-  "downloads": 1625,
+  "downloads": 2195,
   "likes": 10,
   "pipeline": "text-generation",
   "tags": [
@@ -5589,8 +5751,8 @@
  {
   "id": "nvidia/DeepSeek-R1-0528-NVFP4-v2",
   "createdAt": "2025-07-21T21:33:03.000Z",
-  "downloads": 24268,
-  "likes": 27,
+  "downloads": 21596,
+  "likes": 28,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -5601,8 +5763,8 @@
  {
   "id": "nvidia/Cosmos-Transfer2.5-2B",
   "createdAt": "2025-07-18T17:51:53.000Z",
-  "downloads": 10103,
-  "likes": 95,
+  "downloads": 18106,
+  "likes": 101,
   "pipeline": "",
   "tags": [],
   "gated": "auto"
@@ -5610,7 +5772,7 @@
  {
   "id": "nvidia/VideoITG-8B",
   "createdAt": "2025-07-17T06:09:46.000Z",
-  "downloads": 686,
+  "downloads": 393,
   "likes": 12,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -5622,7 +5784,7 @@
  {
   "id": "nvidia/OpenReasoning-Nemotron-1.5B",
   "createdAt": "2025-07-15T21:28:45.000Z",
-  "downloads": 991,
+  "downloads": 2023,
   "likes": 61,
   "pipeline": "text-generation",
   "tags": [
@@ -5634,7 +5796,7 @@
  {
   "id": "nvidia/OpenReasoning-Nemotron-7B",
   "createdAt": "2025-07-15T21:28:36.000Z",
-  "downloads": 1135,
+  "downloads": 1108,
   "likes": 52,
   "pipeline": "text-generation",
   "tags": [
@@ -5646,7 +5808,7 @@
  {
   "id": "nvidia/OpenReasoning-Nemotron-14B",
   "createdAt": "2025-07-15T21:28:27.000Z",
-  "downloads": 1553,
+  "downloads": 2910,
   "likes": 45,
   "pipeline": "text-generation",
   "tags": [
@@ -5658,7 +5820,7 @@
  {
   "id": "nvidia/OpenReasoning-Nemotron-32B",
   "createdAt": "2025-07-15T21:27:58.000Z",
-  "downloads": 937,
+  "downloads": 1138,
   "likes": 128,
   "pipeline": "text-generation",
   "tags": [
@@ -5670,7 +5832,7 @@
  {
   "id": "nvidia/NV-EmbedCode-7b-v1",
   "createdAt": "2025-07-10T23:51:22.000Z",
-  "downloads": 359,
+  "downloads": 605,
   "likes": 26,
   "pipeline": "sentence-similarity",
   "tags": [],
@@ -5679,7 +5841,7 @@
  {
   "id": "nvidia/audio-flamingo-3-chat",
   "createdAt": "2025-07-10T07:48:07.000Z",
-  "downloads": 191,
+  "downloads": 194,
   "likes": 50,
   "pipeline": "",
   "tags": [],
@@ -5688,8 +5850,8 @@
  {
   "id": "nvidia/audio-flamingo-3",
   "createdAt": "2025-07-10T07:47:16.000Z",
-  "downloads": 468,
-  "likes": 162,
+  "downloads": 759,
+  "likes": 163,
   "pipeline": "audio-text-to-text",
   "tags": [],
   "gated": false
@@ -5697,7 +5859,7 @@
  {
   "id": "nvidia/AMPLIFY_120M",
   "createdAt": "2025-07-08T15:55:03.000Z",
-  "downloads": 347,
+  "downloads": 328,
   "likes": 8,
   "pipeline": "fill-mask",
   "tags": [],
@@ -5706,8 +5868,8 @@
  {
   "id": "nvidia/Qwen3-30B-A3B-NVFP4",
   "createdAt": "2025-07-08T01:05:30.000Z",
-  "downloads": 9085,
-  "likes": 41,
+  "downloads": 6752,
+  "likes": 42,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -5718,7 +5880,7 @@
  {
   "id": "nvidia/Qwen3-235B-A22B-NVFP4",
   "createdAt": "2025-07-08T00:47:06.000Z",
-  "downloads": 41485,
+  "downloads": 33910,
   "likes": 28,
   "pipeline": "text-generation",
   "tags": [
@@ -5730,7 +5892,7 @@
  {
   "id": "nvidia/Qwen3-235B-A22B-FP8",
   "createdAt": "2025-07-08T00:46:42.000Z",
-  "downloads": 222,
+  "downloads": 323,
   "likes": 5,
   "pipeline": "text-generation",
   "tags": [
@@ -5742,8 +5904,8 @@
  {
   "id": "nvidia/Audio2Face-3D-v2.3.1-James",
   "createdAt": "2025-07-03T01:51:03.000Z",
-  "downloads": 511,
-  "likes": 11,
+  "downloads": 1435,
+  "likes": 12,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -5751,8 +5913,8 @@
  {
   "id": "nvidia/Audio2Face-3D-v2.3.1-Claire",
   "createdAt": "2025-07-03T01:49:58.000Z",
-  "downloads": 719,
-  "likes": 19,
+  "downloads": 1796,
+  "likes": 22,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -5760,7 +5922,7 @@
  {
   "id": "nvidia/Audio2Face-3D-v2.3-Mark",
   "createdAt": "2025-07-03T01:03:43.000Z",
-  "downloads": 782,
+  "downloads": 1729,
   "likes": 25,
   "pipeline": "",
   "tags": [],
@@ -5769,7 +5931,7 @@
  {
   "id": "nvidia/Cosmos-Predict2-0.6B-Text2Image",
   "createdAt": "2025-06-27T23:03:31.000Z",
-  "downloads": 736,
+  "downloads": 1043,
   "likes": 17,
   "pipeline": "text-to-image",
   "tags": [],
@@ -5778,8 +5940,8 @@
  {
   "id": "nvidia/Audio2Face-3D-v3.0",
   "createdAt": "2025-06-27T06:03:20.000Z",
-  "downloads": 17187,
-  "likes": 102,
+  "downloads": 57702,
+  "likes": 107,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -5787,8 +5949,8 @@
  {
   "id": "nvidia/canary-qwen-2.5b",
   "createdAt": "2025-06-26T16:05:40.000Z",
-  "downloads": 34526,
-  "likes": 472,
+  "downloads": 22206,
+  "likes": 474,
   "pipeline": "automatic-speech-recognition",
   "tags": [],
   "gated": false
@@ -5796,7 +5958,7 @@
  {
   "id": "nvidia/llama-nemoretriever-colembed-3b-v1",
   "createdAt": "2025-06-26T09:29:15.000Z",
-  "downloads": 492,
+  "downloads": 503,
   "likes": 75,
   "pipeline": "visual-document-retrieval",
   "tags": [],
@@ -5805,7 +5967,7 @@
  {
   "id": "nvidia/llama-nemoretriever-colembed-1b-v1",
   "createdAt": "2025-06-26T09:27:41.000Z",
-  "downloads": 1900,
+  "downloads": 531,
   "likes": 29,
   "pipeline": "visual-document-retrieval",
   "tags": [],
@@ -5814,8 +5976,8 @@
  {
   "id": "nvidia/NFT-32B",
   "createdAt": "2025-06-17T00:23:22.000Z",
-  "downloads": 394,
-  "likes": 8,
+  "downloads": 1167,
+  "likes": 9,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -5826,7 +5988,7 @@
  {
   "id": "nvidia/NFT-7B",
   "createdAt": "2025-06-17T00:21:54.000Z",
-  "downloads": 401,
+  "downloads": 1181,
   "likes": 3,
   "pipeline": "text-generation",
   "tags": [
@@ -5838,7 +6000,7 @@
  {
   "id": "nvidia/AceReason-Nemotron-1.1-7B",
   "createdAt": "2025-06-16T23:11:20.000Z",
-  "downloads": 1060,
+  "downloads": 1760,
   "likes": 61,
   "pipeline": "text-generation",
   "tags": [
@@ -5859,8 +6021,8 @@
  {
   "id": "nvidia/Cosmos-Predict2-2B-Sample-Action-Conditioned",
   "createdAt": "2025-06-12T22:28:00.000Z",
-  "downloads": 108,
-  "likes": 10,
+  "downloads": 103,
+  "likes": 11,
   "pipeline": "",
   "tags": [],
   "gated": "auto"
@@ -5868,7 +6030,7 @@
  {
   "id": "nvidia/AMPLIFY_350M",
   "createdAt": "2025-06-12T16:17:52.000Z",
-  "downloads": 176,
+  "downloads": 169,
   "likes": 9,
   "pipeline": "fill-mask",
   "tags": [],
@@ -5877,7 +6039,7 @@
  {
   "id": "nvidia/OpenCodeReasoning-Nemotron-1.1-7B",
   "createdAt": "2025-06-12T16:06:55.000Z",
-  "downloads": 660,
+  "downloads": 854,
   "likes": 19,
   "pipeline": "text-generation",
   "tags": [
@@ -5889,7 +6051,7 @@
  {
   "id": "nvidia/OpenCodeReasoning-Nemotron-1.1-32B",
   "createdAt": "2025-06-12T16:06:40.000Z",
-  "downloads": 369,
+  "downloads": 376,
   "likes": 52,
   "pipeline": "text-generation",
   "tags": [
@@ -5901,7 +6063,7 @@
  {
   "id": "nvidia/OpenCodeReasoning-Nemotron-1.1-14B",
   "createdAt": "2025-06-12T16:06:09.000Z",
-  "downloads": 246,
+  "downloads": 231,
   "likes": 13,
   "pipeline": "text-generation",
   "tags": [
@@ -5913,7 +6075,7 @@
  {
   "id": "nvidia/Diffusion_Renderer_Forward_Cosmos_7B",
   "createdAt": "2025-06-11T20:50:23.000Z",
-  "downloads": 330,
+  "downloads": 370,
   "likes": 7,
   "pipeline": "",
   "tags": [],
@@ -5922,7 +6084,7 @@
  {
   "id": "nvidia/esm2_t6_8M_UR50D",
   "createdAt": "2025-06-11T15:26:55.000Z",
-  "downloads": 374,
+  "downloads": 414,
   "likes": 9,
   "pipeline": "fill-mask",
   "tags": [],
@@ -5967,7 +6129,7 @@
  {
   "id": "nvidia/Diffusion_Renderer_Inverse_Cosmos_7B",
   "createdAt": "2025-06-11T05:09:26.000Z",
-  "downloads": 561,
+  "downloads": 735,
   "likes": 17,
   "pipeline": "",
   "tags": [],
@@ -5976,7 +6138,7 @@
  {
   "id": "nvidia/difix_ref",
   "createdAt": "2025-06-11T04:20:28.000Z",
-  "downloads": 13565,
+  "downloads": 16579,
   "likes": 11,
   "pipeline": "",
   "tags": [],
@@ -5996,8 +6158,8 @@
  {
   "id": "nvidia/Cosmos-Predict2-14B-Sample-GR00T-Dreams-DROID",
   "createdAt": "2025-06-09T04:32:13.000Z",
-  "downloads": 53,
-  "likes": 3,
+  "downloads": 357,
+  "likes": 5,
   "pipeline": "",
   "tags": [],
   "gated": "auto"
@@ -6005,7 +6167,7 @@
  {
   "id": "nvidia/Cosmos-Predict2-14B-Sample-GR00T-Dreams-GR1",
   "createdAt": "2025-06-09T04:31:49.000Z",
-  "downloads": 3391,
+  "downloads": 3401,
   "likes": 7,
   "pipeline": "",
   "tags": [],
@@ -6014,7 +6176,7 @@
  {
   "id": "nvidia/Riva-Translate-4B-Instruct",
   "createdAt": "2025-06-09T00:43:37.000Z",
-  "downloads": 569,
+  "downloads": 1129,
   "likes": 22,
   "pipeline": "text-generation",
   "tags": [
@@ -6053,7 +6215,7 @@
  {
   "id": "nvidia/Nemotron-H-8B-Reasoning-128K-FP8",
   "createdAt": "2025-06-05T16:53:09.000Z",
-  "downloads": 334,
+  "downloads": 410,
   "likes": 14,
   "pipeline": "text-generation",
   "tags": [
@@ -6065,7 +6227,7 @@
  {
   "id": "nvidia/Nemotron-H-8B-Reasoning-128K",
   "createdAt": "2025-06-05T15:17:56.000Z",
-  "downloads": 2287,
+  "downloads": 3696,
   "likes": 32,
   "pipeline": "text-generation",
   "tags": [
@@ -6077,8 +6239,8 @@
  {
   "id": "nvidia/diar_streaming_sortformer_4spk-v2",
   "createdAt": "2025-06-04T20:35:51.000Z",
-  "downloads": 33734,
-  "likes": 149,
+  "downloads": 34472,
+  "likes": 151,
   "pipeline": "automatic-speech-recognition",
   "tags": [],
   "gated": false
@@ -6086,7 +6248,7 @@
  {
   "id": "nvidia/DeepSeek-R1-0528-NVFP4",
   "createdAt": "2025-06-03T23:56:23.000Z",
-  "downloads": 3235,
+  "downloads": 3644,
   "likes": 48,
   "pipeline": "text-generation",
   "tags": [
@@ -6098,7 +6260,7 @@
  {
   "id": "nvidia/difix",
   "createdAt": "2025-06-03T17:04:21.000Z",
-  "downloads": 16345,
+  "downloads": 8749,
   "likes": 37,
   "pipeline": "",
   "tags": [],
@@ -6107,7 +6269,7 @@
  {
   "id": "nvidia/Llama-3.1-Nemotron-Nano-VL-8B-V1",
   "createdAt": "2025-06-03T00:04:22.000Z",
-  "downloads": 82278,
+  "downloads": 66323,
   "likes": 188,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -6118,7 +6280,7 @@
  {
   "id": "nvidia/Nemotron-H-47B-Reasoning-128K-FP8",
   "createdAt": "2025-05-29T21:46:29.000Z",
-  "downloads": 269,
+  "downloads": 310,
   "likes": 6,
   "pipeline": "text-generation",
   "tags": [
@@ -6130,7 +6292,7 @@
  {
   "id": "nvidia/Qwen-3-Nemotron-32B-Reward",
   "createdAt": "2025-05-29T04:43:27.000Z",
-  "downloads": 709,
+  "downloads": 532,
   "likes": 26,
   "pipeline": "text-classification",
   "tags": [],
@@ -6139,8 +6301,8 @@
  {
   "id": "nvidia/GR00T-N1.5-3B",
   "createdAt": "2025-05-28T21:18:10.000Z",
-  "downloads": 1551,
-  "likes": 199,
+  "downloads": 1727,
+  "likes": 198,
   "pipeline": "robotics",
   "tags": [],
   "gated": false
@@ -6148,7 +6310,7 @@
  {
   "id": "nvidia/Qwen-2.5-Nemotron-32B-Reward",
   "createdAt": "2025-05-28T20:29:51.000Z",
-  "downloads": 419,
+  "downloads": 302,
   "likes": 5,
   "pipeline": "text-classification",
   "tags": [],
@@ -6157,8 +6319,8 @@
  {
   "id": "nvidia/Nemotron-Research-Reasoning-Qwen-1.5B",
   "createdAt": "2025-05-28T20:04:32.000Z",
-  "downloads": 1144,
-  "likes": 249,
+  "downloads": 1658,
+  "likes": 248,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -6169,8 +6331,8 @@
  {
   "id": "nvidia/parakeet-rnnt-110m-da-dk",
   "createdAt": "2025-05-28T12:28:24.000Z",
-  "downloads": 673,
-  "likes": 25,
+  "downloads": 914,
+  "likes": 26,
   "pipeline": "automatic-speech-recognition",
   "tags": [],
   "gated": false
@@ -6178,7 +6340,7 @@
  {
   "id": "nvidia/Llama-3.3-Nemotron-70B-Reward-Multilingual",
   "createdAt": "2025-05-28T10:59:50.000Z",
-  "downloads": 214,
+  "downloads": 196,
   "likes": 11,
   "pipeline": "text-generation",
   "tags": [
@@ -6190,8 +6352,8 @@
  {
   "id": "nvidia/Llama-3.3-Nemotron-70B-Reward",
   "createdAt": "2025-05-28T09:57:59.000Z",
-  "downloads": 558,
-  "likes": 5,
+  "downloads": 1346,
+  "likes": 6,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -6202,7 +6364,7 @@
  {
   "id": "nvidia/Llama-3_3-Nemotron-Super-49B-GenRM-Multilingual",
   "createdAt": "2025-05-28T02:47:08.000Z",
-  "downloads": 401,
+  "downloads": 1251,
   "likes": 7,
   "pipeline": "text-generation",
   "tags": [
@@ -6214,7 +6376,7 @@
  {
   "id": "nvidia/Llama-3_3-Nemotron-Super-49B-GenRM",
   "createdAt": "2025-05-28T02:34:56.000Z",
-  "downloads": 800,
+  "downloads": 2102,
   "likes": 22,
   "pipeline": "text-generation",
   "tags": [
@@ -6235,8 +6397,8 @@
  {
   "id": "nvidia/Cosmos-Embed1-448p",
   "createdAt": "2025-05-26T00:52:13.000Z",
-  "downloads": 14415,
-  "likes": 19,
+  "downloads": 18726,
+  "likes": 21,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -6244,8 +6406,8 @@
  {
   "id": "nvidia/Cosmos-Embed1-336p",
   "createdAt": "2025-05-26T00:51:59.000Z",
-  "downloads": 594,
-  "likes": 8,
+  "downloads": 726,
+  "likes": 9,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -6253,8 +6415,8 @@
  {
   "id": "nvidia/Cosmos-Embed1-224p",
   "createdAt": "2025-05-26T00:51:32.000Z",
-  "downloads": 136121,
-  "likes": 20,
+  "downloads": 370402,
+  "likes": 22,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -6262,7 +6424,7 @@
  {
   "id": "nvidia/Nemotron-H-47B-Reasoning-128K",
   "createdAt": "2025-05-22T21:44:47.000Z",
-  "downloads": 922,
+  "downloads": 817,
   "likes": 24,
   "pipeline": "text-generation",
   "tags": [
@@ -6274,7 +6436,7 @@
  {
   "id": "nvidia/AceReason-Nemotron-7B",
   "createdAt": "2025-05-22T15:56:35.000Z",
-  "downloads": 1059,
+  "downloads": 2019,
   "likes": 28,
   "pipeline": "text-generation",
   "tags": [
@@ -6286,7 +6448,7 @@
  {
   "id": "nvidia/GEN3C-Cosmos-7B",
   "createdAt": "2025-05-21T19:15:04.000Z",
-  "downloads": 645,
+  "downloads": 765,
   "likes": 35,
   "pipeline": "",
   "tags": [],
@@ -6295,7 +6457,7 @@
  {
   "id": "nvidia/AceReason-Nemotron-14B",
   "createdAt": "2025-05-20T23:40:47.000Z",
-  "downloads": 758,
+  "downloads": 874,
   "likes": 101,
   "pipeline": "text-generation",
   "tags": [
@@ -6307,7 +6469,7 @@
  {
   "id": "nvidia/Nemotron-Flash-3B",
   "createdAt": "2025-05-20T22:48:28.000Z",
-  "downloads": 541,
+  "downloads": 510,
   "likes": 23,
   "pipeline": "text-generation",
   "tags": [
@@ -6318,7 +6480,7 @@
  {
   "id": "nvidia/VILA-HD-8B-PS3-4K-SigLIP",
   "createdAt": "2025-05-20T22:37:18.000Z",
-  "downloads": 245,
+  "downloads": 234,
   "likes": 2,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -6329,7 +6491,7 @@
  {
   "id": "nvidia/VILA-HD-8B-PS3-1.5K-SigLIP",
   "createdAt": "2025-05-20T22:36:51.000Z",
-  "downloads": 265,
+  "downloads": 236,
   "likes": 4,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -6340,7 +6502,7 @@
  {
   "id": "nvidia/PS3-4K-SigLIP",
   "createdAt": "2025-05-20T22:36:24.000Z",
-  "downloads": 117,
+  "downloads": 103,
   "likes": 4,
   "pipeline": "image-feature-extraction",
   "tags": [],
@@ -6349,7 +6511,7 @@
  {
   "id": "nvidia/PS3-1.5K-SigLIP",
   "createdAt": "2025-05-20T22:35:59.000Z",
-  "downloads": 118,
+  "downloads": 128,
   "likes": 6,
   "pipeline": "image-feature-extraction",
   "tags": [],
@@ -6358,7 +6520,7 @@
  {
   "id": "nvidia/C-RADIOv3-H",
   "createdAt": "2025-05-19T14:12:46.000Z",
-  "downloads": 1207,
+  "downloads": 901,
   "likes": 7,
   "pipeline": "",
   "tags": [],
@@ -6377,7 +6539,7 @@
   "id": "nvidia/PhysicalAI-Robotics-Manipulation-Augmented",
   "createdAt": "2025-05-14T20:49:01.000Z",
   "downloads": 0,
-  "likes": 21,
+  "likes": 25,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -6385,7 +6547,7 @@
  {
   "id": "nvidia/Llama-3_3-Nemotron-Super-49B-v1-FP8",
   "createdAt": "2025-05-13T19:37:07.000Z",
-  "downloads": 753,
+  "downloads": 935,
   "likes": 15,
   "pipeline": "text-generation",
   "tags": [
@@ -6397,7 +6559,7 @@
  {
   "id": "nvidia/GR00T-N1-2B-tuned-Exhaust-Pipe-Sorting-task",
   "createdAt": "2025-05-09T20:12:42.000Z",
-  "downloads": 180,
+  "downloads": 196,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -6406,7 +6568,7 @@
  {
   "id": "nvidia/GR00T-N1-2B-tuned-Nut-Pouring-task",
   "createdAt": "2025-05-09T19:55:38.000Z",
-  "downloads": 245,
+  "downloads": 219,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -6415,8 +6577,8 @@
  {
   "id": "nvidia/Frame_VAD_Multilingual_MarbleNet_v2.0",
   "createdAt": "2025-05-08T16:43:38.000Z",
-  "downloads": 5310,
-  "likes": 49,
+  "downloads": 5245,
+  "likes": 52,
   "pipeline": "voice-activity-detection",
   "tags": [],
   "gated": false
@@ -6424,7 +6586,7 @@
  {
   "id": "nvidia/OpenCodeReasoning-Nemotron-32B-IOI",
   "createdAt": "2025-05-07T16:32:47.000Z",
-  "downloads": 275,
+  "downloads": 272,
   "likes": 26,
   "pipeline": "text-generation",
   "tags": [
@@ -6436,7 +6598,7 @@
  {
   "id": "nvidia/Llama-3.3-70B-Instruct-FP8",
   "createdAt": "2025-05-05T21:25:44.000Z",
-  "downloads": 10534,
+  "downloads": 7019,
   "likes": 32,
   "pipeline": "",
   "tags": [],
@@ -6445,8 +6607,8 @@
  {
   "id": "nvidia/DeepSeek-V3-0324-NVFP4",
   "createdAt": "2025-05-03T21:10:08.000Z",
-  "downloads": 13223,
-  "likes": 22,
+  "downloads": 9259,
+  "likes": 23,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -6457,7 +6619,7 @@
  {
   "id": "nvidia/Llama-3.1-Nemotron-Nano-4B-v1.1",
   "createdAt": "2025-05-03T17:43:43.000Z",
-  "downloads": 5162,
+  "downloads": 5897,
   "likes": 122,
   "pipeline": "text-generation",
   "tags": [
@@ -6469,7 +6631,7 @@
  {
   "id": "nvidia/Llama-4-Maverick-17B-128E-Eagle3",
   "createdAt": "2025-05-02T18:35:26.000Z",
-  "downloads": 8,
+  "downloads": 5,
   "likes": 11,
   "pipeline": "",
   "tags": [],
@@ -6478,7 +6640,7 @@
  {
   "id": "nvidia/Llama-3_1-Nemotron-Ultra-253B-v1-FP8",
   "createdAt": "2025-04-30T17:56:04.000Z",
-  "downloads": 586,
+  "downloads": 828,
   "likes": 16,
   "pipeline": "text-generation",
   "tags": [
@@ -6490,7 +6652,7 @@
  {
   "id": "nvidia/Cosmos-Predict2-14B-Video2World",
   "createdAt": "2025-04-25T22:18:15.000Z",
-  "downloads": 229,
+  "downloads": 110,
   "likes": 31,
   "pipeline": "image-to-video",
   "tags": [],
@@ -6499,8 +6661,8 @@
  {
   "id": "nvidia/Cosmos-Predict2-2B-Video2World",
   "createdAt": "2025-04-25T22:17:22.000Z",
-  "downloads": 15074,
-  "likes": 110,
+  "downloads": 17890,
+  "likes": 115,
   "pipeline": "image-to-video",
   "tags": [],
   "gated": "auto"
@@ -6508,7 +6670,7 @@
  {
   "id": "nvidia/C-RADIOv3-B",
   "createdAt": "2025-04-24T16:36:45.000Z",
-  "downloads": 4990,
+  "downloads": 3860,
   "likes": 17,
   "pipeline": "",
   "tags": [],
@@ -6517,7 +6679,7 @@
  {
   "id": "nvidia/AceMath-RL-Nemotron-7B",
   "createdAt": "2025-04-22T21:41:43.000Z",
-  "downloads": 559,
+  "downloads": 681,
   "likes": 29,
   "pipeline": "text-generation",
   "tags": [
@@ -6529,7 +6691,7 @@
  {
   "id": "nvidia/OpenMath-Nemotron-14B-Kaggle",
   "createdAt": "2025-04-22T17:58:58.000Z",
-  "downloads": 478,
+  "downloads": 1248,
   "likes": 21,
   "pipeline": "text-generation",
   "tags": [
@@ -6541,7 +6703,7 @@
  {
   "id": "nvidia/OpenMath-Nemotron-32B",
   "createdAt": "2025-04-22T17:49:07.000Z",
-  "downloads": 627,
+  "downloads": 776,
   "likes": 35,
   "pipeline": "text-generation",
   "tags": [
@@ -6553,8 +6715,8 @@
  {
   "id": "nvidia/OpenMath-Nemotron-14B",
   "createdAt": "2025-04-22T17:48:43.000Z",
-  "downloads": 1307,
-  "likes": 20,
+  "downloads": 1540,
+  "likes": 21,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -6565,7 +6727,7 @@
  {
   "id": "nvidia/OpenMath-Nemotron-7B",
   "createdAt": "2025-04-22T17:48:28.000Z",
-  "downloads": 638,
+  "downloads": 848,
   "likes": 19,
   "pipeline": "text-generation",
   "tags": [
@@ -6577,7 +6739,7 @@
  {
   "id": "nvidia/OpenMath-Nemotron-1.5B",
   "createdAt": "2025-04-22T17:47:58.000Z",
-  "downloads": 779,
+  "downloads": 1171,
   "likes": 36,
   "pipeline": "text-generation",
   "tags": [
@@ -6589,7 +6751,7 @@
  {
   "id": "nvidia/Cosmos-Transfer1-7B-Sample-AV-Single2MultiView",
   "createdAt": "2025-04-22T17:35:08.000Z",
-  "downloads": 119,
+  "downloads": 1199,
   "likes": 6,
   "pipeline": "",
   "tags": [],
@@ -6598,7 +6760,7 @@
  {
   "id": "nvidia/Cosmos-Predict1-7B-Video2World-Sample-AV-Single2MultiView",
   "createdAt": "2025-04-22T17:34:31.000Z",
-  "downloads": 0,
+  "downloads": 10,
   "likes": 6,
   "pipeline": "",
   "tags": [],
@@ -6607,8 +6769,8 @@
  {
   "id": "nvidia/Cosmos-Predict2-14B-Text2Image",
   "createdAt": "2025-04-22T17:32:18.000Z",
-  "downloads": 33,
-  "likes": 49,
+  "downloads": 31,
+  "likes": 50,
   "pipeline": "text-to-image",
   "tags": [],
   "gated": "auto"
@@ -6616,8 +6778,8 @@
  {
   "id": "nvidia/Cosmos-Predict2-2B-Text2Image",
   "createdAt": "2025-04-22T17:31:58.000Z",
-  "downloads": 222,
-  "likes": 100,
+  "downloads": 276,
+  "likes": 102,
   "pipeline": "text-to-image",
   "tags": [],
   "gated": "auto"
@@ -6625,7 +6787,7 @@
  {
   "id": "nvidia/DAM-3B-Self-Contained",
   "createdAt": "2025-04-21T05:02:51.000Z",
-  "downloads": 624,
+  "downloads": 584,
   "likes": 29,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -6636,8 +6798,8 @@
  {
   "id": "nvidia/DAM-3B-Video",
   "createdAt": "2025-04-21T05:02:23.000Z",
-  "downloads": 5546,
-  "likes": 63,
+  "downloads": 2986,
+  "likes": 64,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text"
@@ -6647,7 +6809,7 @@
  {
   "id": "nvidia/DAM-3B",
   "createdAt": "2025-04-21T05:02:03.000Z",
-  "downloads": 26998,
+  "downloads": 22303,
   "likes": 134,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -6658,8 +6820,8 @@
  {
   "id": "nvidia/Cosmos-Reason1-7B",
   "createdAt": "2025-04-18T17:52:36.000Z",
-  "downloads": 17410,
-  "likes": 248,
+  "downloads": 17707,
+  "likes": 249,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -6670,7 +6832,7 @@
  {
   "id": "nvidia/C-RADIOv2-VLM-H-RC3",
   "createdAt": "2025-04-16T06:42:10.000Z",
-  "downloads": 127,
+  "downloads": 147,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -6679,8 +6841,8 @@
  {
   "id": "nvidia/parakeet-tdt-0.6b-v2",
   "createdAt": "2025-04-15T19:31:12.000Z",
-  "downloads": 182615,
-  "likes": 1582,
+  "downloads": 175216,
+  "likes": 1588,
   "pipeline": "automatic-speech-recognition",
   "tags": [],
   "gated": false
@@ -6688,8 +6850,8 @@
  {
   "id": "nvidia/Nemotron-H-4B-Instruct-128K",
   "createdAt": "2025-04-15T19:24:02.000Z",
-  "downloads": 1346,
-  "likes": 12,
+  "downloads": 1630,
+  "likes": 13,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -6700,7 +6862,7 @@
  {
   "id": "nvidia/OpenCodeReasoning-Nemotron-32B",
   "createdAt": "2025-04-15T01:03:27.000Z",
-  "downloads": 484,
+  "downloads": 693,
   "likes": 76,
   "pipeline": "text-generation",
   "tags": [
@@ -6712,8 +6874,8 @@
  {
   "id": "nvidia/OpenCodeReasoning-Nemotron-14B",
   "createdAt": "2025-04-15T01:03:02.000Z",
-  "downloads": 492,
-  "likes": 24,
+  "downloads": 699,
+  "likes": 25,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -6724,7 +6886,7 @@
  {
   "id": "nvidia/OpenCodeReasoning-Nemotron-7B",
   "createdAt": "2025-04-15T01:02:36.000Z",
-  "downloads": 813,
+  "downloads": 1688,
   "likes": 44,
   "pipeline": "text-generation",
   "tags": [
@@ -6736,7 +6898,7 @@
  {
   "id": "nvidia/Llama-4-Scout-17B-16E-Instruct-FP8",
   "createdAt": "2025-04-14T22:58:55.000Z",
-  "downloads": 7554,
+  "downloads": 4641,
   "likes": 18,
   "pipeline": "",
   "tags": [],
@@ -6745,7 +6907,7 @@
  {
   "id": "nvidia/Llama-4-Maverick-17B-128E-Instruct-FP8",
   "createdAt": "2025-04-14T22:57:36.000Z",
-  "downloads": 15,
+  "downloads": 9,
   "likes": 15,
   "pipeline": "",
   "tags": [],
@@ -6754,7 +6916,7 @@
  {
   "id": "nvidia/C-RADIOv3-g",
   "createdAt": "2025-04-14T21:11:04.000Z",
-  "downloads": 258,
+  "downloads": 243,
   "likes": 13,
   "pipeline": "",
   "tags": [],
@@ -6763,7 +6925,7 @@
  {
   "id": "nvidia/Llama-4-Scout-17B-16E-Instruct-NVFP4",
   "createdAt": "2025-04-14T06:41:18.000Z",
-  "downloads": 1293,
+  "downloads": 494,
   "likes": 37,
   "pipeline": "",
   "tags": [],
@@ -6772,8 +6934,8 @@
  {
   "id": "nvidia/C-RADIOv3-L",
   "createdAt": "2025-04-13T13:04:07.000Z",
-  "downloads": 1632,
-  "likes": 9,
+  "downloads": 4030,
+  "likes": 10,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -6781,7 +6943,7 @@
  {
   "id": "nvidia/Eagle2.5-8B",
   "createdAt": "2025-04-12T04:29:28.000Z",
-  "downloads": 14678,
+  "downloads": 11159,
   "likes": 51,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -6793,8 +6955,8 @@
  {
   "id": "nvidia/Nemotron-H-56B-Base-8K",
   "createdAt": "2025-04-08T17:36:43.000Z",
-  "downloads": 19450,
-  "likes": 36,
+  "downloads": 18008,
+  "likes": 37,
   "pipeline": "text-generation",
   "tags": [
    "text-generation"
@@ -6804,7 +6966,7 @@
  {
   "id": "nvidia/Nemotron-H-47B-Base-8K",
   "createdAt": "2025-04-08T17:36:17.000Z",
-  "downloads": 923,
+  "downloads": 871,
   "likes": 25,
   "pipeline": "text-generation",
   "tags": [
@@ -6815,8 +6977,8 @@
  {
   "id": "nvidia/Llama-3_1-Nemotron-Ultra-253B-CPT-v1",
   "createdAt": "2025-04-08T13:05:39.000Z",
-  "downloads": 553,
-  "likes": 6,
+  "downloads": 1392,
+  "likes": 7,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -6827,8 +6989,8 @@
  {
   "id": "nvidia/Llama-3_1-Nemotron-Ultra-253B-v1",
   "createdAt": "2025-04-07T18:47:10.000Z",
-  "downloads": 1886,
-  "likes": 359,
+  "downloads": 2762,
+  "likes": 360,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -6839,7 +7001,7 @@
  {
   "id": "nvidia/C-RADIOv2-VLM-H",
   "createdAt": "2025-03-24T22:10:23.000Z",
-  "downloads": 197,
+  "downloads": 182,
   "likes": 11,
   "pipeline": "",
   "tags": [],
@@ -6848,7 +7010,7 @@
  {
   "id": "nvidia/MambaVision-L3-256-21K",
   "createdAt": "2025-03-24T06:48:31.000Z",
-  "downloads": 133,
+  "downloads": 171,
   "likes": 8,
   "pipeline": "image-classification",
   "tags": [],
@@ -6857,7 +7019,7 @@
  {
   "id": "nvidia/MambaVision-L3-512-21K",
   "createdAt": "2025-03-24T06:23:53.000Z",
-  "downloads": 178,
+  "downloads": 151,
   "likes": 56,
   "pipeline": "image-classification",
   "tags": [],
@@ -6866,7 +7028,7 @@
  {
   "id": "nvidia/MambaVision-L2-512-21K",
   "createdAt": "2025-03-24T05:55:50.000Z",
-  "downloads": 134,
+  "downloads": 118,
   "likes": 4,
   "pipeline": "image-classification",
   "tags": [],
@@ -6875,7 +7037,7 @@
  {
   "id": "nvidia/MambaVision-L-21K",
   "createdAt": "2025-03-24T05:37:16.000Z",
-  "downloads": 146,
+  "downloads": 132,
   "likes": 5,
   "pipeline": "image-classification",
   "tags": [],
@@ -6884,7 +7046,7 @@
  {
   "id": "nvidia/MambaVision-B-21K",
   "createdAt": "2025-03-24T04:30:41.000Z",
-  "downloads": 939,
+  "downloads": 590,
   "likes": 11,
   "pipeline": "image-classification",
   "tags": [],
@@ -6893,7 +7055,7 @@
  {
   "id": "nvidia/Nemotron-H-4B-Base-8K",
   "createdAt": "2025-03-20T15:20:54.000Z",
-  "downloads": 6585,
+  "downloads": 3525,
   "likes": 10,
   "pipeline": "text-generation",
   "tags": [
@@ -6904,7 +7066,7 @@
  {
   "id": "nvidia/Nemotron-H-8B-Base-8K",
   "createdAt": "2025-03-19T23:37:16.000Z",
-  "downloads": 58612,
+  "downloads": 63602,
   "likes": 63,
   "pipeline": "text-generation",
   "tags": [
@@ -6916,7 +7078,7 @@
  {
   "id": "nvidia/Cosmos-Predict1-7B-WorldInterpolator",
   "createdAt": "2025-03-19T17:14:50.000Z",
-  "downloads": 7,
+  "downloads": 12,
   "likes": 6,
   "pipeline": "",
   "tags": [],
@@ -6925,8 +7087,8 @@
  {
   "id": "nvidia/Cosmos-Transfer1-7B-4KUpscaler",
   "createdAt": "2025-03-19T16:47:35.000Z",
-  "downloads": 28,
-  "likes": 12,
+  "downloads": 17,
+  "likes": 13,
   "pipeline": "",
   "tags": [],
   "gated": "auto"
@@ -6943,8 +7105,8 @@
  {
   "id": "nvidia/Llama-3.1-Nemotron-Nano-8B-v1",
   "createdAt": "2025-03-16T03:13:15.000Z",
-  "downloads": 6119,
-  "likes": 228,
+  "downloads": 7024,
+  "likes": 227,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -6955,7 +7117,7 @@
  {
   "id": "nvidia/Llama-3_3-Nemotron-Super-49B-v1",
   "createdAt": "2025-03-16T01:39:48.000Z",
-  "downloads": 31874,
+  "downloads": 36009,
   "likes": 332,
   "pipeline": "text-generation",
   "tags": [
@@ -6967,7 +7129,7 @@
  {
   "id": "nvidia/Cosmos-Predict1-7B-Decoder-DV8x16x16ToCV8x8x8-720p",
   "createdAt": "2025-03-14T23:36:54.000Z",
-  "downloads": 198,
+  "downloads": 245,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -6976,7 +7138,7 @@
  {
   "id": "nvidia/Cosmos-UpsamplePrompt1-12B-Text2World",
   "createdAt": "2025-03-14T18:51:56.000Z",
-  "downloads": 2002,
+  "downloads": 2037,
   "likes": 5,
   "pipeline": "",
   "tags": [],
@@ -6985,7 +7147,7 @@
  {
   "id": "nvidia/Llama-3.3-Nemotron-70B-Select",
   "createdAt": "2025-03-14T08:52:46.000Z",
-  "downloads": 204,
+  "downloads": 222,
   "likes": 12,
   "pipeline": "text-generation",
   "tags": [
@@ -6997,7 +7159,7 @@
  {
   "id": "nvidia/Llama-3.3-Nemotron-70B-Edit",
   "createdAt": "2025-03-14T08:03:23.000Z",
-  "downloads": 196,
+  "downloads": 213,
   "likes": 5,
   "pipeline": "text-generation",
   "tags": [
@@ -7009,7 +7171,7 @@
  {
   "id": "nvidia/Llama-3.3-Nemotron-70B-Feedback",
   "createdAt": "2025-03-14T07:21:42.000Z",
-  "downloads": 211,
+  "downloads": 226,
   "likes": 10,
   "pipeline": "text-generation",
   "tags": [
@@ -7021,7 +7183,7 @@
  {
   "id": "nvidia/Cosmos-Tokenize1-DV8x16x16-720p",
   "createdAt": "2025-03-14T06:06:00.000Z",
-  "downloads": 332,
+  "downloads": 1103,
   "likes": 3,
   "pipeline": "",
   "tags": [],
@@ -7030,8 +7192,8 @@
  {
   "id": "nvidia/Cosmos-Tokenize1-CV8x8x8-720p",
   "createdAt": "2025-03-14T06:05:47.000Z",
-  "downloads": 5394,
-  "likes": 17,
+  "downloads": 5459,
+  "likes": 18,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -7039,7 +7201,7 @@
  {
   "id": "nvidia/Cosmos-Tokenize1-DV4x8x8-360p",
   "createdAt": "2025-03-14T05:29:02.000Z",
-  "downloads": 194,
+  "downloads": 1023,
   "likes": 2,
   "pipeline": "",
   "tags": [],
@@ -7048,7 +7210,7 @@
  {
   "id": "nvidia/Cosmos-Tokenize1-DI16x16-360p",
   "createdAt": "2025-03-14T05:28:51.000Z",
-  "downloads": 206,
+  "downloads": 1038,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -7057,7 +7219,7 @@
  {
   "id": "nvidia/Cosmos-Tokenize1-DI8x8-360p",
   "createdAt": "2025-03-14T05:28:40.000Z",
-  "downloads": 235,
+  "downloads": 1084,
   "likes": 2,
   "pipeline": "",
   "tags": [],
@@ -7066,7 +7228,7 @@
  {
   "id": "nvidia/Cosmos-Tokenize1-CV4x8x8-360p",
   "createdAt": "2025-03-14T05:28:31.000Z",
-  "downloads": 219,
+  "downloads": 1073,
   "likes": 2,
   "pipeline": "",
   "tags": [],
@@ -7075,7 +7237,7 @@
  {
   "id": "nvidia/Cosmos-Tokenize1-CI16x16-360p",
   "createdAt": "2025-03-14T05:28:20.000Z",
-  "downloads": 214,
+  "downloads": 1055,
   "likes": 2,
   "pipeline": "",
   "tags": [],
@@ -7084,7 +7246,7 @@
  {
   "id": "nvidia/Cosmos-Tokenize1-CI8x8-360p",
   "createdAt": "2025-03-14T05:28:06.000Z",
-  "downloads": 209,
+  "downloads": 1060,
   "likes": 3,
   "pipeline": "",
   "tags": [],
@@ -7093,8 +7255,8 @@
  {
   "id": "nvidia/canary-180m-flash",
   "createdAt": "2025-03-11T23:50:24.000Z",
-  "downloads": 2442,
-  "likes": 122,
+  "downloads": 2652,
+  "likes": 124,
   "pipeline": "automatic-speech-recognition",
   "tags": [],
   "gated": false
@@ -7102,7 +7264,7 @@
  {
   "id": "nvidia/Cosmos-Predict1-5B-Video2World",
   "createdAt": "2025-03-10T09:39:01.000Z",
-  "downloads": 15,
+  "downloads": 22,
   "likes": 5,
   "pipeline": "",
   "tags": [],
@@ -7120,7 +7282,7 @@
  {
   "id": "nvidia/Cosmos-Predict1-12B",
   "createdAt": "2025-03-10T05:48:25.000Z",
-  "downloads": 7,
+  "downloads": 8,
   "likes": 2,
   "pipeline": "",
   "tags": [],
@@ -7129,7 +7291,7 @@
  {
   "id": "nvidia/Cosmos-Predict1-4B",
   "createdAt": "2025-03-10T05:47:47.000Z",
-  "downloads": 108,
+  "downloads": 1098,
   "likes": 4,
   "pipeline": "",
   "tags": [],
@@ -7138,7 +7300,7 @@
  {
   "id": "nvidia/Cosmos-Predict1-14B-Video2World",
   "createdAt": "2025-03-10T05:47:25.000Z",
-  "downloads": 12,
+  "downloads": 8,
   "likes": 6,
   "pipeline": "",
   "tags": [],
@@ -7147,7 +7309,7 @@
  {
   "id": "nvidia/Cosmos-Predict1-14B-Text2World",
   "createdAt": "2025-03-10T05:47:06.000Z",
-  "downloads": 8,
+  "downloads": 7,
   "likes": 6,
   "pipeline": "",
   "tags": [],
@@ -7156,7 +7318,7 @@
  {
   "id": "nvidia/Cosmos-Predict1-7B-Video2World",
   "createdAt": "2025-03-10T05:46:46.000Z",
-  "downloads": 14,
+  "downloads": 16,
   "likes": 4,
   "pipeline": "",
   "tags": [],
@@ -7165,7 +7327,7 @@
  {
   "id": "nvidia/Cosmos-Predict1-7B-Text2World",
   "createdAt": "2025-03-10T05:46:21.000Z",
-  "downloads": 9,
+  "downloads": 8,
   "likes": 6,
   "pipeline": "",
   "tags": [],
@@ -7174,8 +7336,8 @@
  {
   "id": "nvidia/canary-1b-flash",
   "createdAt": "2025-03-07T22:29:17.000Z",
-  "downloads": 3462,
-  "likes": 283,
+  "downloads": 3456,
+  "likes": 284,
   "pipeline": "automatic-speech-recognition",
   "tags": [],
   "gated": false
@@ -7183,8 +7345,8 @@
  {
   "id": "nvidia/Cosmos-Guardrail1",
   "createdAt": "2025-03-07T20:56:40.000Z",
-  "downloads": 1013,
-  "likes": 58,
+  "downloads": 1022,
+  "likes": 69,
   "pipeline": "",
   "tags": [],
   "gated": "auto"
@@ -7192,7 +7354,7 @@
  {
   "id": "nvidia/Cosmos-Predict1-7B-Video2World-Sample-AV-Multiview",
   "createdAt": "2025-03-06T18:33:15.000Z",
-  "downloads": 8,
+  "downloads": 16,
   "likes": 5,
   "pipeline": "",
   "tags": [],
@@ -7201,7 +7363,7 @@
  {
   "id": "nvidia/Cosmos-Predict1-7B-Text2World-Sample-AV-Multiview",
   "createdAt": "2025-03-06T18:32:56.000Z",
-  "downloads": 6,
+  "downloads": 40,
   "likes": 9,
   "pipeline": "",
   "tags": [],
@@ -7210,7 +7372,7 @@
  {
   "id": "nvidia/Cosmos-Transfer1-7B-Sample-AV",
   "createdAt": "2025-03-06T18:30:57.000Z",
-  "downloads": 175,
+  "downloads": 167,
   "likes": 23,
   "pipeline": "",
   "tags": [],
@@ -7219,7 +7381,7 @@
  {
   "id": "nvidia/Cosmos-Transfer1-7B",
   "createdAt": "2025-03-06T16:55:12.000Z",
-  "downloads": 1690,
+  "downloads": 1217,
   "likes": 71,
   "pipeline": "",
   "tags": [],
@@ -7228,8 +7390,8 @@
  {
   "id": "nvidia/GR00T-N1-2B",
   "createdAt": "2025-03-05T08:40:53.000Z",
-  "downloads": 425,
-  "likes": 359,
+  "downloads": 480,
+  "likes": 358,
   "pipeline": "robotics",
   "tags": [],
   "gated": false
@@ -7237,8 +7399,8 @@
  {
   "id": "nvidia/Llama-3.1-Nemotron-8B-UltraLong-4M-Instruct",
   "createdAt": "2025-03-04T21:18:45.000Z",
-  "downloads": 905,
-  "likes": 132,
+  "downloads": 1725,
+  "likes": 134,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -7249,7 +7411,7 @@
  {
   "id": "nvidia/Llama-3.1-Nemotron-8B-UltraLong-2M-Instruct",
   "createdAt": "2025-03-04T21:18:16.000Z",
-  "downloads": 818,
+  "downloads": 1637,
   "likes": 21,
   "pipeline": "text-generation",
   "tags": [
@@ -7261,8 +7423,8 @@
  {
   "id": "nvidia/Llama-3.1-Nemotron-8B-UltraLong-1M-Instruct",
   "createdAt": "2025-03-04T21:17:35.000Z",
-  "downloads": 1729,
-  "likes": 62,
+  "downloads": 2279,
+  "likes": 64,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -7282,8 +7444,8 @@
  {
   "id": "nvidia/DeepSeek-R1-NVFP4",
   "createdAt": "2025-02-21T00:41:17.000Z",
-  "downloads": 2208,
-  "likes": 286,
+  "downloads": 1879,
+  "likes": 287,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -7321,7 +7483,7 @@
  {
   "id": "nvidia/nemocurator-fineweb-nemotron-4-edu-classifier",
   "createdAt": "2025-02-07T18:29:43.000Z",
-  "downloads": 1586,
+  "downloads": 1356,
   "likes": 17,
   "pipeline": "",
   "tags": [],
@@ -7330,8 +7492,8 @@
  {
   "id": "nvidia/nemocurator-fineweb-mixtral-edu-classifier",
   "createdAt": "2025-02-07T18:09:00.000Z",
-  "downloads": 959,
-  "likes": 11,
+  "downloads": 980,
+  "likes": 12,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -7339,7 +7501,7 @@
  {
   "id": "nvidia/QLIP-B-16-256",
   "createdAt": "2025-02-06T08:51:01.000Z",
-  "downloads": 163,
+  "downloads": 167,
   "likes": 5,
   "pipeline": "",
   "tags": [],
@@ -7348,7 +7510,7 @@
  {
   "id": "nvidia/QLIP-B-8-256",
   "createdAt": "2025-02-06T08:49:30.000Z",
-  "downloads": 150,
+  "downloads": 164,
   "likes": 8,
   "pipeline": "",
   "tags": [],
@@ -7357,7 +7519,7 @@
  {
   "id": "nvidia/QLIP-L-14-392",
   "createdAt": "2025-02-06T08:46:41.000Z",
-  "downloads": 221,
+  "downloads": 177,
   "likes": 14,
   "pipeline": "",
   "tags": [],
@@ -7375,7 +7537,7 @@
  {
   "id": "nvidia/RADIOv2-bigG",
   "createdAt": "2025-01-19T17:31:05.000Z",
-  "downloads": 138,
+  "downloads": 118,
   "likes": 2,
   "pipeline": "feature-extraction",
   "tags": [],
@@ -7384,7 +7546,7 @@
  {
   "id": "nvidia/C-RADIOv2-g",
   "createdAt": "2025-01-17T14:43:58.000Z",
-  "downloads": 140,
+  "downloads": 138,
   "likes": 13,
   "pipeline": "image-feature-extraction",
   "tags": [],
@@ -7393,7 +7555,7 @@
  {
   "id": "nvidia/Llama-3.1-405B-Instruct-NVFP4",
   "createdAt": "2025-01-16T00:28:16.000Z",
-  "downloads": 2085,
+  "downloads": 3309,
   "likes": 19,
   "pipeline": "",
   "tags": [],
@@ -7402,7 +7564,7 @@
  {
   "id": "nvidia/Llama-3.3-70B-Instruct-NVFP4",
   "createdAt": "2025-01-16T00:26:53.000Z",
-  "downloads": 12939,
+  "downloads": 7367,
   "likes": 53,
   "pipeline": "",
   "tags": [],
@@ -7411,7 +7573,7 @@
  {
   "id": "nvidia/llama-3.1-nemoguard-8b-content-safety",
   "createdAt": "2025-01-15T23:54:58.000Z",
-  "downloads": 1309,
+  "downloads": 867,
   "likes": 40,
   "pipeline": "text-classification",
   "tags": [],
@@ -7420,7 +7582,7 @@
  {
   "id": "nvidia/AceInstruct-72B",
   "createdAt": "2025-01-15T16:19:55.000Z",
-  "downloads": 306,
+  "downloads": 303,
   "likes": 18,
   "pipeline": "text-generation",
   "tags": [
@@ -7432,7 +7594,7 @@
  {
   "id": "nvidia/AceInstruct-7B",
   "createdAt": "2025-01-15T15:14:20.000Z",
-  "downloads": 580,
+  "downloads": 740,
   "likes": 25,
   "pipeline": "text-generation",
   "tags": [
@@ -7444,7 +7606,7 @@
  {
   "id": "nvidia/AceInstruct-1.5B",
   "createdAt": "2025-01-15T14:05:08.000Z",
-  "downloads": 831,
+  "downloads": 1669,
   "likes": 27,
   "pipeline": "text-generation",
   "tags": [
@@ -7456,7 +7618,7 @@
  {
   "id": "nvidia/llama-3.1-nemoguard-8b-topic-control",
   "createdAt": "2025-01-15T05:02:00.000Z",
-  "downloads": 529,
+  "downloads": 430,
   "likes": 22,
   "pipeline": "text-classification",
   "tags": [],
@@ -7465,8 +7627,8 @@
  {
   "id": "nvidia/NemoGuard-JailbreakDetect",
   "createdAt": "2025-01-14T15:57:15.000Z",
-  "downloads": 450,
-  "likes": 42,
+  "downloads": 418,
+  "likes": 45,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -7474,7 +7636,7 @@
  {
   "id": "nvidia/AceMath-7B-RM",
   "createdAt": "2025-01-14T04:55:30.000Z",
-  "downloads": 493,
+  "downloads": 630,
   "likes": 10,
   "pipeline": "text-generation",
   "tags": [
@@ -7486,7 +7648,7 @@
  {
   "id": "nvidia/AceMath-72B-RM",
   "createdAt": "2025-01-14T04:41:04.000Z",
-  "downloads": 323,
+  "downloads": 322,
   "likes": 10,
   "pipeline": "text-generation",
   "tags": [
@@ -7497,7 +7659,7 @@
  {
   "id": "nvidia/AceMath-72B-Instruct",
   "createdAt": "2025-01-14T02:59:51.000Z",
-  "downloads": 275,
+  "downloads": 280,
   "likes": 22,
   "pipeline": "text-generation",
   "tags": [
@@ -7518,7 +7680,7 @@
  {
   "id": "nvidia/Llama-3.1-8B-Medusa-FP8",
   "createdAt": "2025-01-13T19:39:15.000Z",
-  "downloads": 185,
+  "downloads": 210,
   "likes": 12,
   "pipeline": "",
   "tags": [],
@@ -7527,8 +7689,8 @@
  {
   "id": "nvidia/AceMath-7B-Instruct",
   "createdAt": "2025-01-13T15:33:01.000Z",
-  "downloads": 1018,
-  "likes": 36,
+  "downloads": 1250,
+  "likes": 37,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -7539,7 +7701,7 @@
  {
   "id": "nvidia/AceMath-1.5B-Instruct",
   "createdAt": "2025-01-13T14:47:42.000Z",
-  "downloads": 886,
+  "downloads": 1687,
   "likes": 22,
   "pipeline": "text-generation",
   "tags": [
@@ -7551,7 +7713,7 @@
  {
   "id": "nvidia/C-RADIOv2-L",
   "createdAt": "2025-01-13T09:50:00.000Z",
-  "downloads": 463,
+  "downloads": 482,
   "likes": 6,
   "pipeline": "",
   "tags": [],
@@ -7560,7 +7722,7 @@
  {
   "id": "nvidia/C-RADIOv2-B",
   "createdAt": "2025-01-13T09:46:53.000Z",
-  "downloads": 242,
+  "downloads": 222,
   "likes": 13,
   "pipeline": "image-feature-extraction",
   "tags": [],
@@ -7569,7 +7731,7 @@
  {
   "id": "nvidia/C-RADIOv2-H",
   "createdAt": "2025-01-13T09:24:36.000Z",
-  "downloads": 1803,
+  "downloads": 867,
   "likes": 15,
   "pipeline": "",
   "tags": [],
@@ -7578,7 +7740,7 @@
  {
   "id": "nvidia/Eagle2-1B",
   "createdAt": "2025-01-10T18:47:10.000Z",
-  "downloads": 467,
+  "downloads": 646,
   "likes": 33,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -7590,7 +7752,7 @@
  {
   "id": "nvidia/Eagle2-2B",
   "createdAt": "2025-01-10T18:46:53.000Z",
-  "downloads": 9666,
+  "downloads": 13697,
   "likes": 37,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -7602,7 +7764,7 @@
  {
   "id": "nvidia/Eagle2-9B",
   "createdAt": "2025-01-10T18:46:22.000Z",
-  "downloads": 289,
+  "downloads": 281,
   "likes": 63,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -7614,7 +7776,7 @@
  {
   "id": "nvidia/Cosmos-1.0-Diffusion-7B-Text2World",
   "createdAt": "2025-01-07T04:52:52.000Z",
-  "downloads": 819,
+  "downloads": 1266,
   "likes": 235,
   "pipeline": "text-to-video",
   "tags": [],
@@ -7623,7 +7785,7 @@
  {
   "id": "nvidia/Cosmos-1.0-Autoregressive-4B",
   "createdAt": "2025-01-07T03:10:57.000Z",
-  "downloads": 23,
+  "downloads": 43,
   "likes": 58,
   "pipeline": "",
   "tags": [],
@@ -7641,8 +7803,8 @@
  {
   "id": "nvidia/Cosmos-1.0-Guardrail",
   "createdAt": "2025-01-07T03:10:28.000Z",
-  "downloads": 362,
-  "likes": 88,
+  "downloads": 430,
+  "likes": 95,
   "pipeline": "",
   "tags": [],
   "gated": "auto"
@@ -7650,7 +7812,7 @@
  {
   "id": "nvidia/Cosmos-1.0-Autoregressive-5B-Video2World",
   "createdAt": "2025-01-07T03:09:57.000Z",
-  "downloads": 10,
+  "downloads": 11,
   "likes": 31,
   "pipeline": "",
   "tags": [],
@@ -7659,7 +7821,7 @@
  {
   "id": "nvidia/Cosmos-1.0-Autoregressive-12B",
   "createdAt": "2025-01-07T03:09:35.000Z",
-  "downloads": 21,
+  "downloads": 25,
   "likes": 31,
   "pipeline": "",
   "tags": [],
@@ -7668,7 +7830,7 @@
  {
   "id": "nvidia/Cosmos-1.0-Autoregressive-13B-Video2World",
   "createdAt": "2025-01-07T03:09:20.000Z",
-  "downloads": 8,
+  "downloads": 9,
   "likes": 33,
   "pipeline": "",
   "tags": [],
@@ -7677,7 +7839,7 @@
  {
   "id": "nvidia/Cosmos-1.0-Diffusion-14B-Video2World",
   "createdAt": "2025-01-07T03:08:31.000Z",
-  "downloads": 1880,
+  "downloads": 987,
   "likes": 70,
   "pipeline": "",
   "tags": [],
@@ -7686,7 +7848,7 @@
  {
   "id": "nvidia/Cosmos-1.0-Diffusion-14B-Text2World",
   "createdAt": "2025-01-07T03:08:11.000Z",
-  "downloads": 16,
+  "downloads": 333,
   "likes": 61,
   "pipeline": "",
   "tags": [],
@@ -7695,8 +7857,8 @@
  {
   "id": "nvidia/Cosmos-1.0-Diffusion-7B-Video2World",
   "createdAt": "2025-01-07T03:07:43.000Z",
-  "downloads": 285,
-  "likes": 50,
+  "downloads": 540,
+  "likes": 55,
   "pipeline": "",
   "tags": [],
   "gated": "auto"
@@ -7704,7 +7866,7 @@
  {
   "id": "nvidia/Cosmos-1.0-Prompt-Upsampler-12B-Text2World",
   "createdAt": "2025-01-07T03:07:26.000Z",
-  "downloads": 26,
+  "downloads": 27,
   "likes": 14,
   "pipeline": "",
   "tags": [],
@@ -7713,8 +7875,8 @@
  {
   "id": "nvidia/Cosmos-1.0-Tokenizer-DV8x16x16",
   "createdAt": "2025-01-07T03:03:35.000Z",
-  "downloads": 34,
-  "likes": 20,
+  "downloads": 55,
+  "likes": 21,
   "pipeline": "",
   "tags": [],
   "gated": "auto"
@@ -7722,8 +7884,8 @@
  {
   "id": "nvidia/Cosmos-1.0-Tokenizer-CV8x8x8",
   "createdAt": "2025-01-07T02:59:45.000Z",
-  "downloads": 52,
-  "likes": 27,
+  "downloads": 57,
+  "likes": 28,
   "pipeline": "",
   "tags": [],
   "gated": "auto"
@@ -7731,7 +7893,7 @@
  {
   "id": "nvidia/stt_ar_fastconformer_hybrid_large_pcd_v1.0",
   "createdAt": "2024-12-25T17:03:06.000Z",
-  "downloads": 3262,
+  "downloads": 3653,
   "likes": 46,
   "pipeline": "automatic-speech-recognition",
   "tags": [],
@@ -7740,7 +7902,7 @@
  {
   "id": "nvidia/stt_es_fastconformer_hybrid_large_pc_nc",
   "createdAt": "2024-12-25T09:09:20.000Z",
-  "downloads": 84,
+  "downloads": 195,
   "likes": 2,
   "pipeline": "automatic-speech-recognition",
   "tags": [],
@@ -7749,7 +7911,7 @@
  {
   "id": "nvidia/stt_pt_fastconformer_hybrid_large_pc",
   "createdAt": "2024-12-24T17:18:03.000Z",
-  "downloads": 162,
+  "downloads": 238,
   "likes": 2,
   "pipeline": "automatic-speech-recognition",
   "tags": [],
@@ -7806,8 +7968,8 @@
  {
   "id": "nvidia/prompt-task-and-complexity-classifier",
   "createdAt": "2024-12-11T22:12:53.000Z",
-  "downloads": 13623,
-  "likes": 99,
+  "downloads": 16568,
+  "likes": 102,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -7833,7 +7995,7 @@
  {
   "id": "nvidia/ssl_en_nest_xlarge_v1.0",
   "createdAt": "2024-12-10T21:59:34.000Z",
-  "downloads": 70,
+  "downloads": 96,
   "likes": 8,
   "pipeline": "",
   "tags": [],
@@ -7842,7 +8004,7 @@
  {
   "id": "nvidia/ssl_en_nest_large_v1.0",
   "createdAt": "2024-12-10T21:40:29.000Z",
-  "downloads": 138,
+  "downloads": 104,
   "likes": 10,
   "pipeline": "",
   "tags": [],
@@ -7851,7 +8013,7 @@
  {
   "id": "nvidia/RADIO-g",
   "createdAt": "2024-12-10T16:19:36.000Z",
-  "downloads": 150,
+  "downloads": 171,
   "likes": 8,
   "pipeline": "",
   "tags": [],
@@ -7860,7 +8022,7 @@
  {
   "id": "nvidia/content-type-classifier-deberta",
   "createdAt": "2024-12-09T20:20:23.000Z",
-  "downloads": 1087,
+  "downloads": 875,
   "likes": 22,
   "pipeline": "",
   "tags": [],
@@ -7869,8 +8031,8 @@
  {
   "id": "nvidia/diar_sortformer_4spk-v1",
   "createdAt": "2024-12-09T19:17:22.000Z",
-  "downloads": 98355,
-  "likes": 161,
+  "downloads": 97652,
+  "likes": 163,
   "pipeline": "automatic-speech-recognition",
   "tags": [],
   "gated": false
@@ -7878,7 +8040,7 @@
  {
   "id": "nvidia/mel-codec-44khz",
   "createdAt": "2024-12-06T18:40:22.000Z",
-  "downloads": 43,
+  "downloads": 31,
   "likes": 10,
   "pipeline": "feature-extraction",
   "tags": [],
@@ -7887,7 +8049,7 @@
  {
   "id": "nvidia/mel-codec-22khz",
   "createdAt": "2024-12-06T18:22:43.000Z",
-  "downloads": 73,
+  "downloads": 22,
   "likes": 5,
   "pipeline": "feature-extraction",
   "tags": [],
@@ -7896,7 +8058,7 @@
  {
   "id": "nvidia/audio-codec-44khz",
   "createdAt": "2024-12-06T17:26:16.000Z",
-  "downloads": 252,
+  "downloads": 363,
   "likes": 25,
   "pipeline": "feature-extraction",
   "tags": [],
@@ -7905,7 +8067,7 @@
  {
   "id": "nvidia/audio-codec-22khz",
   "createdAt": "2024-12-04T01:01:52.000Z",
-  "downloads": 394,
+  "downloads": 171,
   "likes": 9,
   "pipeline": "feature-extraction",
   "tags": [],
@@ -7914,8 +8076,8 @@
  {
   "id": "nvidia/multilingual-domain-classifier",
   "createdAt": "2024-12-02T18:29:34.000Z",
-  "downloads": 2515,
-  "likes": 28,
+  "downloads": 1757,
+  "likes": 29,
   "pipeline": "",
   "tags": [],
   "gated": false

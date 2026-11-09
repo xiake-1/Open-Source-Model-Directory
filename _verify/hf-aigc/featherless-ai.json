@@ -42,7 +42,7 @@
  {
   "id": "featherless-ai/kvmpaper_ablation_kvm_no_sink_120M",
   "createdAt": "2026-05-11T16:03:09.000Z",
-  "downloads": 6,
+  "downloads": 9,
   "likes": 0,
   "pipeline": "",
   "library": "",
@@ -56,7 +56,7 @@
  {
   "id": "featherless-ai/kvmpaper_ablation_kvm_no_merge_gate_120M",
   "createdAt": "2026-05-11T16:02:40.000Z",
-  "downloads": 7,
+  "downloads": 5,
   "likes": 0,
   "pipeline": "",
   "library": "",
@@ -70,7 +70,7 @@
  {
   "id": "featherless-ai/kvmpaper_ablation_kvm_no_head_temps_120M",
   "createdAt": "2026-05-11T16:02:02.000Z",
-  "downloads": 8,
+  "downloads": 7,
   "likes": 0,
   "pipeline": "",
   "library": "",
@@ -84,7 +84,7 @@
  {
   "id": "featherless-ai/kvmpaper_ablation_gptalpha_swa256_3Gtok_350M",
   "createdAt": "2026-05-11T16:00:44.000Z",
-  "downloads": 10,
+  "downloads": 11,
   "likes": 0,
   "pipeline": "",
   "library": "",
@@ -98,7 +98,7 @@
  {
   "id": "featherless-ai/kvmpaper_rwkv7_ffn4_120M",
   "createdAt": "2026-05-11T15:57:51.000Z",
-  "downloads": 11,
+  "downloads": 9,
   "likes": 0,
   "pipeline": "",
   "library": "",
@@ -112,7 +112,7 @@
  {
   "id": "featherless-ai/kvmpaper_ovqsat_swa256_120M",
   "createdAt": "2026-05-11T15:57:20.000Z",
-  "downloads": 9,
+  "downloads": 7,
   "likes": 0,
   "pipeline": "",
   "library": "",
@@ -140,7 +140,7 @@
  {
   "id": "featherless-ai/kvmpaper_kvmsat_swa256_350M",
   "createdAt": "2026-05-11T15:56:28.000Z",
-  "downloads": 6,
+  "downloads": 11,
   "likes": 0,
   "pipeline": "",
   "library": "",
@@ -154,7 +154,7 @@
  {
   "id": "featherless-ai/kvmpaper_kvmsat_swa256_120M",
   "createdAt": "2026-05-11T15:56:09.000Z",
-  "downloads": 5,
+  "downloads": 6,
   "likes": 0,
   "pipeline": "",
   "library": "",
@@ -168,7 +168,7 @@
  {
   "id": "featherless-ai/kvmpaper_kvmsqrt16_120M",
   "createdAt": "2026-05-11T15:55:44.000Z",
-  "downloads": 66,
+  "downloads": 10,
   "likes": 0,
   "pipeline": "",
   "library": "",
@@ -182,7 +182,7 @@
  {
   "id": "featherless-ai/kvmpaper_kvmsqrt16_350M",
   "createdAt": "2026-05-11T15:55:23.000Z",
-  "downloads": 9,
+  "downloads": 8,
   "likes": 0,
   "pipeline": "",
   "library": "",
@@ -196,7 +196,7 @@
  {
   "id": "featherless-ai/kvmpaper_kvm256_350M",
   "createdAt": "2026-05-11T15:54:59.000Z",
-  "downloads": 3,
+  "downloads": 12,
   "likes": 0,
   "pipeline": "",
   "library": "",
@@ -210,7 +210,7 @@
  {
   "id": "featherless-ai/kvmpaper_kvm256_120M",
   "createdAt": "2026-05-11T15:54:40.000Z",
-  "downloads": 10,
+  "downloads": 15,
   "likes": 0,
   "pipeline": "",
   "library": "",
@@ -224,7 +224,7 @@
  {
   "id": "featherless-ai/kvmpaper_gptalphaprope_swa256_120M",
   "createdAt": "2026-05-11T15:54:14.000Z",
-  "downloads": 7,
+  "downloads": 9,
   "likes": 0,
   "pipeline": "",
   "library": "",
@@ -238,7 +238,7 @@
  {
   "id": "featherless-ai/kvmpaper_gptalphaprope_swa256_350M",
   "createdAt": "2026-05-11T15:53:45.000Z",
-  "downloads": 4,
+  "downloads": 11,
   "likes": 0,
   "pipeline": "",
   "library": "",
@@ -252,7 +252,7 @@
  {
   "id": "featherless-ai/kvmpaper_gptalpha_swa256_350M",
   "createdAt": "2026-05-11T15:53:20.000Z",
-  "downloads": 6,
+  "downloads": 8,
   "likes": 0,
   "pipeline": "",
   "library": "",
@@ -266,7 +266,7 @@
  {
   "id": "featherless-ai/kvmpaper_gptalpha_swa256_120M",
   "createdAt": "2026-05-11T15:52:56.000Z",
-  "downloads": 7,
+  "downloads": 8,
   "likes": 0,
   "pipeline": "",
   "library": "",
@@ -294,7 +294,7 @@
  {
   "id": "featherless-ai/kvmpaper_bswa_350M",
   "createdAt": "2026-05-11T15:50:32.000Z",
-  "downloads": 3,
+  "downloads": 5,
   "likes": 0,
   "pipeline": "",
   "library": "",
@@ -308,7 +308,7 @@
  {
   "id": "featherless-ai/kvmpaper_gptalpha_350M",
   "createdAt": "2026-05-11T15:49:52.000Z",
-  "downloads": 256,
+  "downloads": 55,
   "likes": 0,
   "pipeline": "",
   "library": "",
@@ -322,7 +322,7 @@
  {
   "id": "featherless-ai/kvmpaper_gptalpha_120M",
   "createdAt": "2026-05-11T15:44:33.000Z",
-  "downloads": 144,
+  "downloads": 48,
   "likes": 0,
   "pipeline": "",
   "library": "",
@@ -336,8 +336,8 @@
  {
   "id": "featherless-ai/QRWKV-72B",
   "createdAt": "2025-03-16T21:20:29.000Z",
-  "downloads": 73,
-  "likes": 69,
+  "downloads": 145,
+  "likes": 70,
   "pipeline": "text-generation",
   "library": "transformers",
   "gated": false,
@@ -353,8 +353,8 @@
  {
   "id": "featherless-ai/QRWKV-QwQ-32B",
   "createdAt": "2025-03-08T20:29:20.000Z",
-  "downloads": 81,
-  "likes": 31,
+  "downloads": 100,
+  "likes": 32,
   "pipeline": "text-generation",
   "library": "transformers",
   "gated": false,

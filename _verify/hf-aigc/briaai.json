@@ -1,0 +1,410 @@
+[
+ {
+  "id": "briaai/Fibo-2.0-edit-turbo",
+  "createdAt": "2026-10-19T13:11:51.000Z",
+  "downloads": 2916,
+  "likes": 173,
+  "pipeline": "image-to-image",
+  "library": "diffusers",
+  "gated": "auto",
+  "tags": [
+   "diffusers",
+   "safetensors",
+   "image-editing",
+   "image-to-image",
+   "inpainting",
+   "multi-reference",
+   "distillation",
+   "structured-prompts",
+   "vgl",
+   "fibo",
+   "en"
+  ]
+ },
+ {
+  "id": "briaai/Fibo-2.0-dev",
+  "createdAt": "2026-10-18T13:44:10.000Z",
+  "downloads": 2404,
+  "likes": 208,
+  "pipeline": "text-to-image",
+  "library": "diffusers",
+  "gated": "auto",
+  "tags": [
+   "diffusers",
+   "safetensors",
+   "image-editing",
+   "text-to-image",
+   "image-to-image",
+   "inpainting",
+   "multi-reference",
+   "fine-tuning",
+   "structured-prompts",
+   "vgl",
+   "fibo",
+   "en"
+  ]
+ },
+ {
+  "id": "briaai/fibo-scene-analyzer-gguf",
+  "createdAt": "2026-10-07T16:14:09.000Z",
+  "downloads": 216,
+  "likes": 2,
+  "pipeline": "image-text-to-text",
+  "library": "gguf",
+  "gated": false,
+  "tags": [
+   "gguf",
+   "llama.cpp",
+   "scene-analyzer",
+   "structured-captioning",
+   "image-text-to-text",
+   "endpoints_compatible",
+   "imatrix",
+   "conversational"
+  ]
+ },
+ {
+  "id": "briaai/fibo-scene-analyzer",
+  "createdAt": "2026-09-10T03:41:10.000Z",
+  "downloads": 314,
+  "likes": 55,
+  "pipeline": "image-text-to-text",
+  "library": "transformers",
+  "gated": false,
+  "tags": [
+   "transformers",
+   "safetensors",
+   "qwen3_5_moe",
+   "image-text-to-text",
+   "image-captioning",
+   "structured-output",
+   "json",
+   "object-detection",
+   "image-segmentation",
+   "keypoint-detection",
+   "ocr",
+   "vision-language"
+  ]
+ },
+ {
+  "id": "briaai/FIBO-edit-gemini-prompt-to-JSON",
+  "createdAt": "2026-08-24T17:23:14.000Z",
+  "downloads": 720,
+  "likes": 2,
+  "pipeline": "",
+  "library": "",
+  "gated": false,
+  "tags": [
+   "custom_code"
+  ]
+ },
+ {
+  "id": "briaai/videoseal",
+  "createdAt": "2026-08-19T14:14:46.000Z",
+  "downloads": 0,
+  "likes": 2,
+  "pipeline": "",
+  "library": "",
+  "gated": false,
+  "tags": []
+ },
+ {
+  "id": "briaai/Fibo-Edit-1.5-turbo",
+  "createdAt": "2026-08-10T10:02:24.000Z",
+  "downloads": 69,
+  "likes": 37,
+  "pipeline": "image-to-image",
+  "library": "diffusers",
+  "gated": "manual",
+  "tags": [
+   "diffusers",
+   "safetensors",
+   "art",
+   "image-to-image",
+   "image-editing",
+   "inpainting",
+   "multi-reference",
+   "distillation",
+   "en"
+  ]
+ },
+ {
+  "id": "briaai/Fibo-Edit-1.5-base",
+  "createdAt": "2026-08-10T09:57:33.000Z",
+  "downloads": 85,
+  "likes": 20,
+  "pipeline": "image-to-image",
+  "library": "diffusers",
+  "gated": "manual",
+  "tags": [
+   "diffusers",
+   "safetensors",
+   "art",
+   "image-to-image",
+   "image-editing",
+   "inpainting",
+   "multi-reference",
+   "en"
+  ]
+ },
+ {
+  "id": "briaai/trustmark-weights",
+  "createdAt": "2026-08-06T12:53:11.000Z",
+  "downloads": 0,
+  "likes": 0,
+  "pipeline": "",
+  "library": "",
+  "gated": false,
+  "tags": []
+ },
+ {
+  "id": "briaai/increase-resolution",
+  "createdAt": "2026-07-16T15:14:30.000Z",
+  "downloads": 0,
+  "likes": 3,
+  "pipeline": "",
+  "library": "",
+  "gated": "manual",
+  "tags": []
+ },
+ {
+  "id": "briaai/erase",
+  "createdAt": "2026-07-15T23:34:33.000Z",
+  "downloads": 0,
+  "likes": 2,
+  "pipeline": "",
+  "library": "diffusers",
+  "gated": "manual",
+  "tags": [
+   "diffusers",
+   "safetensors"
+  ]
+ },
+ {
+  "id": "briaai/Fibo-1.5",
+  "createdAt": "2026-07-13T10:57:51.000Z",
+  "downloads": 296,
+  "likes": 54,
+  "pipeline": "text-to-image",
+  "library": "diffusers",
+  "gated": "manual",
+  "tags": [
+   "diffusers",
+   "safetensors",
+   "art",
+   "text-to-image",
+   "en"
+  ]
+ },
+ {
+  "id": "briaai/VRMBG-3.0",
+  "createdAt": "2026-05-06T17:16:16.000Z",
+  "downloads": 103,
+  "likes": 38,
+  "pipeline": "image-segmentation",
+  "library": "",
+  "gated": "manual",
+  "tags": [
+   "pytorch",
+   "safetensors",
+   "vrmbg3",
+   "video",
+   "background-removal",
+   "video-matting",
+   "temporal-consistency",
+   "realtime",
+   "autoregressive",
+   "vision",
+   "image-segmentation",
+   "custom_code"
+  ]
+ },
+ {
+  "id": "briaai/Fibo-Edit-RMBG",
+  "createdAt": "2026-02-08T14:30:32.000Z",
+  "downloads": 42,
+  "likes": 50,
+  "pipeline": "image-to-image",
+  "library": "diffusers",
+  "gated": "auto",
+  "tags": [
+   "diffusers",
+   "safetensors",
+   "art",
+   "image-to-image",
+   "background-removal",
+   "image-segmentation",
+   "en"
+  ]
+ },
+ {
+  "id": "briaai/FIBO-edit-prompt-to-JSON",
+  "createdAt": "2026-01-19T19:52:37.000Z",
+  "downloads": 23,
+  "likes": 2,
+  "pipeline": "",
+  "library": "",
+  "gated": false,
+  "tags": [
+   "custom_code"
+  ]
+ },
+ {
+  "id": "briaai/FIBO-edit-vlm",
+  "createdAt": "2026-01-08T00:20:29.000Z",
+  "downloads": 116,
+  "likes": 3,
+  "pipeline": "",
+  "library": "",
+  "gated": false,
+  "tags": [
+   "safetensors",
+   "qwen3_vl"
+  ]
+ },
+ {
+  "id": "briaai/Fibo-Edit",
+  "createdAt": "2026-01-04T13:29:03.000Z",
+  "downloads": 1046,
+  "likes": 74,
+  "pipeline": "image-to-image",
+  "library": "diffusers",
+  "gated": "auto",
+  "tags": [
+   "diffusers",
+   "safetensors",
+   "art",
+   "image-to-image",
+   "image-editing",
+   "inpainting",
+   "en"
+  ]
+ },
+ {
+  "id": "briaai/VRMBG-2.0",
+  "createdAt": "2025-12-10T14:23:47.000Z",
+  "downloads": 0,
+  "likes": 9,
+  "pipeline": "",
+  "library": "",
+  "gated": "manual",
+  "tags": [
+   "safetensors",
+   "custom_code"
+  ]
+ },
+ {
+  "id": "briaai/Attribution",
+  "createdAt": "2025-12-03T17:53:21.000Z",
+  "downloads": 0,
+  "likes": 2,
+  "pipeline": "",
+  "library": "",
+  "gated": "manual",
+  "tags": []
+ },
+ {
+  "id": "briaai/Fibo-lite",
+  "createdAt": "2025-11-27T08:43:31.000Z",
+  "downloads": 69,
+  "likes": 10,
+  "pipeline": "text-to-image",
+  "library": "diffusers",
+  "gated": "auto",
+  "tags": [
+   "diffusers",
+   "safetensors",
+   "lora",
+   "guidance-distillation",
+   "scfm",
+   "shortcutting-flow-matching",
+   "text-to-image",
+   "fast-inference",
+   "few-step",
+   "bria",
+   "fibo",
+   "en"
+  ]
+ },
+ {
+  "id": "briaai/Fibo-mlx-8bit",
+  "createdAt": "2025-11-26T13:25:52.000Z",
+  "downloads": 0,
+  "likes": 5,
+  "pipeline": "",
+  "library": "diffusers",
+  "gated": false,
+  "tags": [
+   "diffusers",
+   "MLX",
+   "en"
+  ]
+ },
+ {
+  "id": "briaai/Fibo-mlx-4bit",
+  "createdAt": "2025-11-26T08:03:44.000Z",
+  "downloads": 0,
+  "likes": 7,
+  "pipeline": "",
+  "library": "diffusers",
+  "gated": false,
+  "tags": [
+   "diffusers",
+   "MLX",
+   "en"
+  ]
+ },
+ {
+  "id": "briaai/FIBO-vlm",
+  "createdAt": "2025-10-29T05:17:39.000Z",
+  "downloads": 5308,
+  "likes": 12,
+  "pipeline": "",
+  "library": "",
+  "gated": false,
+  "tags": [
+   "safetensors",
+   "qwen3_vl"
+  ]
+ },
+ {
+  "id": "briaai/FIBO-VLM-prompt-to-JSON",
+  "createdAt": "2025-10-27T09:01:36.000Z",
+  "downloads": 99,
+  "likes": 14,
+  "pipeline": "",
+  "library": "",
+  "gated": false,
+  "tags": [
+   "custom_code"
+  ]
+ },
+ {
+  "id": "briaai/FIBO-gemini-prompt-to-JSON",
+  "createdAt": "2025-10-27T08:35:47.000Z",
+  "downloads": 32,
+  "likes": 8,
+  "pipeline": "",
+  "library": "",
+  "gated": false,
+  "tags": [
+   "custom_code"
+  ]
+ },
+ {
+  "id": "briaai/FIBO",
+  "createdAt": "2025-10-09T11:55:45.000Z",
+  "downloads": 540,
+  "likes": 335,
+  "pipeline": "text-to-image",
+  "library": "diffusers",
+  "gated": "auto",
+  "tags": [
+   "diffusers",
+   "safetensors",
+   "art",
+   "text-to-image",
+   "en"
+  ]
+ }
+]

@@ -1,9 +1,35 @@
 [
  {
+  "id": "stabilityai/sdxl-base-amdnpu-medusa",
+  "createdAt": "2026-10-26T16:26:44.000Z",
+  "downloads": 0,
+  "likes": 1,
+  "pipeline": "",
+  "library": "",
+  "gated": false,
+  "tags": []
+ },
+ {
+  "id": "stabilityai/stable-diffusion-3.5-medium-amdnpu-medusa",
+  "createdAt": "2026-10-26T16:25:13.000Z",
+  "downloads": 0,
+  "likes": 1,
+  "pipeline": "text-to-image",
+  "library": "diffusers",
+  "gated": false,
+  "tags": [
+   "diffusers",
+   "onnx",
+   "text-to-image",
+   "stable-diffusion",
+   "en"
+  ]
+ },
+ {
   "id": "stabilityai/stable-audio-3-optimized",
   "createdAt": "2026-05-18T19:38:34.000Z",
-  "downloads": 44692,
-  "likes": 59,
+  "downloads": 38892,
+  "likes": 63,
   "pipeline": "text-to-audio",
   "library": "stable-audio-3",
   "gated": false,
@@ -22,8 +48,8 @@
  {
   "id": "stabilityai/SAME-L",
   "createdAt": "2026-05-17T02:18:14.000Z",
-  "downloads": 8904,
-  "likes": 29,
+  "downloads": 5808,
+  "likes": 30,
   "pipeline": "",
   "library": "stable-audio-3",
   "gated": false,
@@ -40,8 +66,8 @@
  {
   "id": "stabilityai/SAME-S",
   "createdAt": "2026-05-17T02:17:58.000Z",
-  "downloads": 1982,
-  "likes": 17,
+  "downloads": 1674,
+  "likes": 18,
   "pipeline": "",
   "library": "stable-audio-3",
   "gated": false,
@@ -58,8 +84,8 @@
  {
   "id": "stabilityai/stable-audio-3-small-music",
   "createdAt": "2026-05-17T01:51:33.000Z",
-  "downloads": 36178,
-  "likes": 203,
+  "downloads": 32153,
+  "likes": 230,
   "pipeline": "text-to-audio",
   "library": "stable-audio-3",
   "gated": "auto",
@@ -76,8 +102,8 @@
  {
   "id": "stabilityai/stable-audio-3-small-sfx",
   "createdAt": "2026-05-17T01:51:16.000Z",
-  "downloads": 50403,
-  "likes": 283,
+  "downloads": 61046,
+  "likes": 363,
   "pipeline": "text-to-audio",
   "library": "stable-audio-3",
   "gated": "auto",
@@ -94,8 +120,8 @@
  {
   "id": "stabilityai/stable-audio-3-medium",
   "createdAt": "2026-05-17T01:50:14.000Z",
-  "downloads": 72606,
-  "likes": 496,
+  "downloads": 99671,
+  "likes": 583,
   "pipeline": "text-to-audio",
   "library": "stable-audio-3",
   "gated": "auto",
@@ -113,7 +139,7 @@
  {
   "id": "stabilityai/stable-audio-3-medium-base",
   "createdAt": "2026-05-17T01:44:44.000Z",
-  "downloads": 8359,
+  "downloads": 8257,
   "likes": 27,
   "pipeline": "text-to-audio",
   "library": "stable-audio-3",
@@ -132,8 +158,8 @@
  {
   "id": "stabilityai/stable-audio-3-small-sfx-base",
   "createdAt": "2026-05-17T01:05:35.000Z",
-  "downloads": 2347,
-  "likes": 12,
+  "downloads": 3046,
+  "likes": 15,
   "pipeline": "text-to-audio",
   "library": "stable-audio-3",
   "gated": false,
@@ -150,8 +176,8 @@
  {
   "id": "stabilityai/stable-audio-3-small-music-base",
   "createdAt": "2026-05-16T23:40:30.000Z",
-  "downloads": 1907,
-  "likes": 25,
+  "downloads": 2188,
+  "likes": 26,
   "pipeline": "text-to-audio",
   "library": "stable-audio-3",
   "gated": false,
@@ -184,7 +210,7 @@
  {
   "id": "stabilityai/stable-diffusion-3-medium-amdnpu",
   "createdAt": "2026-05-01T16:08:06.000Z",
-  "downloads": 49,
+  "downloads": 27,
   "likes": 1,
   "pipeline": "text-to-image",
   "library": "diffusion-single-file",
@@ -249,7 +275,7 @@
  {
   "id": "stabilityai/sp4d",
   "createdAt": "2025-11-03T21:43:28.000Z",
-  "downloads": 108,
+  "downloads": 53,
   "likes": 15,
   "pipeline": "",
   "library": "diffusers",
@@ -263,7 +289,7 @@
  {
   "id": "stabilityai/stable-diffusion-3.5-controlnets-tensorrt",
   "createdAt": "2025-08-07T18:36:32.000Z",
-  "downloads": 10,
+  "downloads": 12,
   "likes": 9,
   "pipeline": "text-to-image",
   "library": "tensorrt",
@@ -284,7 +310,7 @@
  {
   "id": "stabilityai/stable-diffusion-3.5-medium-tensorrt",
   "createdAt": "2025-08-07T17:30:35.000Z",
-  "downloads": 7,
+  "downloads": 5,
   "likes": 13,
   "pipeline": "text-to-image",
   "library": "tensorrt",
@@ -300,7 +326,7 @@
  {
   "id": "stabilityai/stable-diffusion-3.5-large-tensorrt",
   "createdAt": "2025-05-16T08:29:43.000Z",
-  "downloads": 74,
+  "downloads": 27,
   "likes": 76,
   "pipeline": "text-to-image",
   "library": "tensorrt",
@@ -319,13 +345,14 @@
  {
   "id": "stabilityai/stable-audio-open-small",
   "createdAt": "2025-05-12T16:04:07.000Z",
-  "downloads": 5240,
-  "likes": 328,
+  "downloads": 7167,
+  "likes": 346,
   "pipeline": "text-to-audio",
   "library": "stable-audio-tools",
   "gated": "auto",
   "tags": [
    "stable-audio-tools",
+   "tflite",
    "safetensors",
    "text-to-audio",
    "en"
@@ -404,8 +431,8 @@
  {
   "id": "stabilityai/sv4d2.0",
   "createdAt": "2025-02-20T17:34:22.000Z",
-  "downloads": 3693,
-  "likes": 74,
+  "downloads": 4937,
+  "likes": 76,
   "pipeline": "",
   "library": "diffusers",
   "gated": false,
@@ -418,7 +445,7 @@
  {
   "id": "stabilityai/stable-virtual-camera",
   "createdAt": "2025-02-19T18:38:59.000Z",
-  "downloads": 13915,
+  "downloads": 29599,
   "likes": 243,
   "pipeline": "image-to-video",
   "library": "",
@@ -432,7 +459,7 @@
  {
   "id": "stabilityai/stable-codec-speech-16k-base",
   "createdAt": "2025-01-14T12:38:27.000Z",
-  "downloads": 4,
+  "downloads": 3,
   "likes": 3,
   "pipeline": "audio-to-audio",
   "library": "stable-audio-tools",
@@ -447,7 +474,7 @@
  {
   "id": "stabilityai/stable-codec-speech-16k",
   "createdAt": "2025-01-10T09:41:05.000Z",
-  "downloads": 98,
+  "downloads": 152,
   "likes": 24,
   "pipeline": "audio-to-audio",
   "library": "stable-audio-tools",
@@ -462,8 +489,8 @@
  {
   "id": "stabilityai/stable-point-aware-3d",
   "createdAt": "2024-12-28T16:19:25.000Z",
-  "downloads": 6553,
-  "likes": 431,
+  "downloads": 5402,
+  "likes": 445,
   "pipeline": "image-to-3d",
   "library": "",
   "gated": "auto",
@@ -475,7 +502,7 @@
  {
   "id": "stabilityai/sdxl-turbo-ryzen-ai",
   "createdAt": "2024-12-06T15:37:37.000Z",
-  "downloads": 318,
+  "downloads": 291,
   "likes": 13,
   "pipeline": "text-to-image",
   "library": "",

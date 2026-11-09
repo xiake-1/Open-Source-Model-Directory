@@ -11,7 +11,7 @@
  {
   "id": "RekaAI/reka-edge-2603",
   "createdAt": "2026-03-11T12:53:50.000Z",
-  "downloads": 913,
+  "downloads": 1171,
   "likes": 134,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -23,7 +23,7 @@
  {
   "id": "RekaAI/reka-flash-3.1-rekaquant-q3_k_s",
   "createdAt": "2025-05-30T14:20:48.000Z",
-  "downloads": 24,
+  "downloads": 26,
   "likes": 24,
   "pipeline": "",
   "tags": [
@@ -34,7 +34,7 @@
  {
   "id": "RekaAI/reka-flash-3.1",
   "createdAt": "2025-05-28T16:16:20.000Z",
-  "downloads": 237,
+  "downloads": 293,
   "likes": 102,
   "pipeline": "",
   "tags": [],
@@ -43,7 +43,7 @@
  {
   "id": "RekaAI/reka-flash-3",
   "createdAt": "2025-03-11T01:03:00.000Z",
-  "downloads": 1000,
+  "downloads": 1437,
   "likes": 390,
   "pipeline": "",
   "tags": [],

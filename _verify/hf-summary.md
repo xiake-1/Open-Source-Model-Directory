@@ -14,11 +14,11 @@
 - Qwen/Qwen-Image-2.1-PE-I2I@2026-09-20
 - Qwen/Qwen-Image-2.1-PE-T2I@2026-09-20
 
-## moonshotai（19）
+## moonshotai（20）
 
+- moonshotai/Kimi-K3.1-Pro@2026-11-02
 - moonshotai/Kimi-K3@2026-06-13
 - moonshotai/Kimi-K2.7-Code@2026-06-11
-- moonshotai/Kimi-K2.6@2026-04-14
 
 ## zai-org（62）
 
@@ -32,23 +32,23 @@
 - MiniMaxAI/MiniMax-Music3@2026-08-07
 - MiniMaxAI/MiniMax-H3@2026-07-28
 
-## ByteDance-Seed（59）
+## ByteDance-Seed（63）
 
-- ByteDance-Seed/PAR@2026-07-03
-- ByteDance-Seed/TaskMem@2026-06-02
-- ByteDance-Seed/SimArt@2026-05-19
+- ByteDance-Seed/Cola2@2026-11-06
+- ByteDance-Seed/Qwen3-30B-A3B-MoE-SAE@2026-11-05
+- ByteDance-Seed/Cross-Layer-TopK-CLT@2026-11-05
 
-## baidu（36）
+## baidu（39）
 
-- baidu/Unlimited-OCR@2026-06-19
-- baidu/NAVA@2026-05-29
-- baidu/ERNIE-Image-Aes@2026-05-18
+- baidu/Unlimited-OCR-2@2026-10-26
+- baidu/ERNIE-5.5-Flash-Base@2026-10-21
+- baidu/ERNIE-5.5-Flash-Base-BF16@2026-10-21
 
-## inclusionAI（222）
+## inclusionAI（234）
 
-- inclusionAI/Ling-3.0-tiny-UBTree@2026-10-21
-- inclusionAI/Ling-3.0-flash-Sante@2026-10-19
-- inclusionAI/Ling-3.0-flash-UBTree@2026-10-14
+- inclusionAI/ZwZ2-27B-GGUF@2026-10-30
+- inclusionAI/ZwZ2-9B-GGUF@2026-10-30
+- inclusionAI/ZwZ2-4B-GGUF@2026-10-30
 
 ## stepfun-ai（52）
 
@@ -56,11 +56,11 @@
 - stepfun-ai/Step-5-Preview-BF16@2026-09-20
 - stepfun-ai/Step-5-Preview@2026-09-20
 
-## tencent（164）
+## tencent（172）
 
+- tencent/Qwen3.8-27B-DSpine-b16@2026-11-07
 - tencent/Hy-Nomas-Diffusers@2026-10-24
 - tencent/WeVisOne-VL-4B@2026-10-22
-- tencent/WeVisOne-VL-2B@2026-10-22
 
 ## ascend（0）
 
@@ -74,11 +74,17 @@
 ## OpenBMB（0）
 
 
-## internlm（71）
+## Nanbeige（16）
 
+- Nanbeige/Nanbeige4.3-33B-INT4@2026-10-31
+- Nanbeige/Nanbeige4.3-33B-INT8@2026-10-31
+- Nanbeige/Nanbeige4.3-33B-FP8@2026-10-31
+
+## internlm（72）
+
+- internlm/Sage-SciPerception@2026-11-06
 - internlm/Atria-Dawn@2026-10-23
 - internlm/Atria-Dawn-FP8@2026-10-23
-- internlm/AdvancedMathBench-AutoVerifier@2026-09-29
 
 ## Tele-AI（10）
 
@@ -113,11 +119,11 @@
 - IDEA-Research/Rex-Omni@2025-10-09
 - IDEA-Research/Rex-Thinker-GRPO-7B@2025-05-23
 
-## sensenova（35）
+## sensenova（38）
 
-- sensenova/sensenova-roborsi-27b-preview@2026-10-16
-- sensenova/Looped-DiT-B16@2026-09-28
-- sensenova/Looped-DiT-B32@2026-09-28
+- sensenova/SenseNova-U1.5-8B-MoT-TailSteer@2026-11-04
+- sensenova/SenseNova-Loop-9B-Preview@2026-10-28
+- sensenova/SenseNova-6.8-Code2Video@2026-10-24
 
 ## OpenDFM（9）
 
@@ -125,11 +131,11 @@
 - OpenDFM/CharTool-3B@2026-07-29
 - OpenDFM/CharTool-7B@2026-07-29
 
-## IndexTeam（50）
+## IndexTeam（62）
 
-- IndexTeam/Index-Echo-S2ST-9B-FP4@2026-10-03
-- IndexTeam/Index-Echo-S2ST-2B-FP4@2026-10-03
-- IndexTeam/Index-Echo-S2TT-9B-FP4@2026-10-03
+- IndexTeam/Index-Translate-omni-35B-GGUF@2026-11-06
+- IndexTeam/Index-Translate-omni-35B-FP8@2026-11-06
+- IndexTeam/Index-Translate-omni-35B-FP4@2026-11-06
 
 ## rednote-hilab（1）
 
@@ -153,11 +159,11 @@
 - google/gnm-v3@2026-09-01
 - google/timesfm-3.0-pytorch@2026-08-24
 
-## mistralai（60）
+## mistralai（62）
 
+- mistralai/Mistral-Large-4-1T-A52B-NVFP4@2026-10-15
 - mistralai/Timestral-123M@2026-10-14
 - mistralai/Timestral-28M@2026-10-14
-- mistralai/Timestral-5M@2026-10-14
 
 ## openai（6）
 
@@ -165,35 +171,35 @@
 - openai/circuit-sparsity@2025-12-11
 - openai/gpt-oss-safeguard-20b@2025-09-18
 
-## microsoft（204）
+## microsoft（207）
 
+- microsoft/Mage-VL-Cowork@2026-10-30
 - microsoft/Sentiment-Analysis-7B@2026-10-17
 - microsoft/scFM-dataselection@2026-10-16
-- microsoft/UserRepGen-4B@2026-10-14
 
-## nvidia（789）
+## nvidia（806）
 
-- nvidia/InternVideo2-CLIP-anomaly-detection@2026-10-22
-- nvidia/cosmos3-nano-libero10-sdg-export-S5_2_s43@2026-10-19
-- nvidia/Cosmos3-H-Embodied-Nano@2026-10-19
+- nvidia/MetricTrail@2026-11-05
+- nvidia/DeepSeek-V4.1-Flash-1017-NVFP4@2026-10-30
+- nvidia/Metatron-v1@2026-10-27
 
-## ibm-granite（196）
+## ibm-granite（197）
 
+- ibm-granite/granite-speech-5.0-2b-ONNX@2026-10-28
 - ibm-granite/granite-switch-4.1-8b-GGUF@2026-10-22
 - ibm-granite/granite-switch-4.1-30b-GGUF@2026-10-22
-- ibm-granite/granite-switch-4.1-8b@2026-10-14
 
-## allenai（619）
+## allenai（622）
 
-- allenai/HiRO-ACEv2@2026-10-12
-- allenai/AstaBrief_8B_SFT@2026-09-10
-- allenai/OlmoEarth-v1_3-Base@2026-09-04
+- allenai/Molmo2-4B-tb@2026-11-05
+- allenai/maniflow-tb@2026-11-05
+- allenai/OlmoEarth-v1_2-FT-LFMC-Base@2026-10-23
 
-## LiquidAI（200）
+## LiquidAI（245）
 
-- LiquidAI/LFM2.5-24B-A2B-DSpark-GGUF@2026-10-20
-- LiquidAI/LFM2.5-24B-A2B-DSpark@2026-10-19
-- LiquidAI/LFM2.5-24B-A2B-FP8@2026-10-12
+- LiquidAI/d1-Omni-2B-GGUF@2026-10-27
+- LiquidAI/d1-2B-GGUF@2026-10-27
+- LiquidAI/LFM3-Audio-2B-GGUF@2026-10-27
 
 ## CohereLabs（34）
 
@@ -225,11 +231,11 @@
 - HuggingFaceTB/nanowhale-100m@2026-04-24
 - HuggingFaceTB/SmolLM3-3B-GSM8K-SFT@2026-04-03
 
-## stabilityai（30）
+## stabilityai（32）
 
+- stabilityai/sdxl-base-amdnpu-medusa@2026-10-26
+- stabilityai/stable-diffusion-3.5-medium-amdnpu-medusa@2026-10-26
 - stabilityai/stable-audio-3-optimized@2026-05-18
-- stabilityai/SAME-L@2026-05-17
-- stabilityai/SAME-S@2026-05-17
 
 ## Zyphra（24）
 
@@ -237,11 +243,11 @@
 - Zyphra/ZUNA1.1@2026-07-13
 - Zyphra/ZAYA1-8B-MXFP4-Experts@2026-07-02
 
-## RWKV（21）
+## RWKV（25）
 
-- RWKV/RWKV7-G1k-1.5B-20260930@2026-09-30
-- RWKV/RWKV7-G1k-13.3B-20260930@2026-09-30
-- RWKV/RWKV7-G1k-7.2B-20260930@2026-09-30
+- RWKV/RWKV7-G1l-13.3B-20261031@2026-10-31
+- RWKV/RWKV7-G1l-7.2B-20261031@2026-10-31
+- RWKV/RWKV7-G1l-2.9B-20261031@2026-10-31
 
 ## databricks（0）
 
@@ -270,11 +276,11 @@
 - swiss-ai/Apertus-v1.5-8B-base@2026-09-23
 - swiss-ai/Apertus-v1.5-70B-RL@2026-08-22
 
-## utter-project（31）
+## utter-project（32）
 
+- utter-project/EuroLLM1.5-9B-SFT@2026-08-29
 - utter-project/EuroLLM-9B-Instruct-2512@2026-01-26
 - utter-project/EuroMoE-2.6B-A0.6B-Instruct-2512@2025-12-15
-- utter-project/EuroLLM-22B-Instruct-2512@2025-12-05
 
 ## xai-org（1）
 
@@ -321,3 +327,15 @@
 
 ## ZyphraAI（0）
 
+
+## KRAFTON（16）
+
+- KRAFTON/Raon-1-mini-preview-mlx@2026-10-21
+- KRAFTON/Raon-1-mini-preview@2026-10-21
+- KRAFTON/Raon-1-mini-preview-nvfp4@2026-10-20
+
+## RecursiveSI（4）
+
+- RecursiveSI/flint@2026-10-21
+- RecursiveSI/flint-int4-gguf@2026-10-21
+- RecursiveSI/flint-int4@2026-10-21

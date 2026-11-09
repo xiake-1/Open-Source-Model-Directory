@@ -2,8 +2,8 @@
  {
   "id": "zai-org/GLM-5.3-Flash-BF16",
   "createdAt": "2026-08-25T06:45:05.000Z",
-  "downloads": 160924,
-  "likes": 76,
+  "downloads": 117710,
+  "likes": 81,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -14,8 +14,8 @@
  {
   "id": "zai-org/GLM-5.3-BF16",
   "createdAt": "2026-08-25T06:43:55.000Z",
-  "downloads": 25803,
-  "likes": 56,
+  "downloads": 41891,
+  "likes": 61,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -26,8 +26,8 @@
  {
   "id": "zai-org/GLM-5.3-Flash",
   "createdAt": "2026-08-25T06:43:14.000Z",
-  "downloads": 6352272,
-  "likes": 2945,
+  "downloads": 6398959,
+  "likes": 3093,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -38,8 +38,8 @@
  {
   "id": "zai-org/GLM-5.3",
   "createdAt": "2026-08-25T06:42:50.000Z",
-  "downloads": 2074062,
-  "likes": 2306,
+  "downloads": 2052042,
+  "likes": 2399,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -50,8 +50,8 @@
  {
   "id": "zai-org/GLM-5.2",
   "createdAt": "2026-06-16T07:39:20.000Z",
-  "downloads": 298589,
-  "likes": 5185,
+  "downloads": 324229,
+  "likes": 5205,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -62,8 +62,8 @@
  {
   "id": "zai-org/GLM-5.2-FP8",
   "createdAt": "2026-06-16T07:20:33.000Z",
-  "downloads": 157384,
-  "likes": 268,
+  "downloads": 133831,
+  "likes": 269,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -74,8 +74,8 @@
  {
   "id": "zai-org/SCAIL-2",
   "createdAt": "2026-06-09T07:18:27.000Z",
-  "downloads": 5328,
-  "likes": 348,
+  "downloads": 8892,
+  "likes": 355,
   "pipeline": "image-to-video",
   "tags": [],
   "gated": false
@@ -83,7 +83,7 @@
  {
   "id": "zai-org/GLM-5.1-FP8",
   "createdAt": "2026-04-03T09:29:04.000Z",
-  "downloads": 19669,
+  "downloads": 17804,
   "likes": 122,
   "pipeline": "text-generation",
   "tags": [
@@ -95,7 +95,7 @@
  {
   "id": "zai-org/GLM-5.1",
   "createdAt": "2026-04-03T09:28:47.000Z",
-  "downloads": 726699,
+  "downloads": 886998,
   "likes": 1850,
   "pipeline": "text-generation",
   "tags": [
@@ -107,8 +107,8 @@
  {
   "id": "zai-org/GLM-5",
   "createdAt": "2026-02-11T04:55:46.000Z",
-  "downloads": 1169522,
-  "likes": 2139,
+  "downloads": 1415305,
+  "likes": 2141,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -119,8 +119,8 @@
  {
   "id": "zai-org/GLM-5-FP8",
   "createdAt": "2026-02-11T04:05:41.000Z",
-  "downloads": 18674,
-  "likes": 183,
+  "downloads": 48314,
+  "likes": 184,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -131,8 +131,8 @@
  {
   "id": "zai-org/GLM-OCR",
   "createdAt": "2026-01-30T04:24:21.000Z",
-  "downloads": 1683243,
-  "likes": 2180,
+  "downloads": 1764536,
+  "likes": 2209,
   "pipeline": "image-to-text",
   "tags": [
    "image-text-to-text",
@@ -143,8 +143,8 @@
  {
   "id": "zai-org/GLM-4.7-Flash",
   "createdAt": "2026-01-19T06:28:10.000Z",
-  "downloads": 953714,
-  "likes": 1888,
+  "downloads": 1033507,
+  "likes": 1897,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -155,8 +155,8 @@
  {
   "id": "zai-org/GLM-Image",
   "createdAt": "2026-01-08T09:39:56.000Z",
-  "downloads": 4997,
-  "likes": 1124,
+  "downloads": 10222,
+  "likes": 1129,
   "pipeline": "text-to-image",
   "tags": [],
   "gated": false
@@ -164,7 +164,7 @@
  {
   "id": "zai-org/GLM-4.7-FP8",
   "createdAt": "2025-12-22T13:41:42.000Z",
-  "downloads": 16702,
+  "downloads": 16161,
   "likes": 126,
   "pipeline": "text-generation",
   "tags": [
@@ -176,8 +176,8 @@
  {
   "id": "zai-org/GLM-4.7",
   "createdAt": "2025-12-22T07:45:52.000Z",
-  "downloads": 77896,
-  "likes": 2072,
+  "downloads": 53287,
+  "likes": 2077,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -199,8 +199,8 @@
  {
   "id": "zai-org/GLM-TTS",
   "createdAt": "2025-12-10T09:59:48.000Z",
-  "downloads": 698,
-  "likes": 351,
+  "downloads": 973,
+  "likes": 352,
   "pipeline": "text-to-speech",
   "tags": [],
   "gated": false
@@ -208,7 +208,7 @@
  {
   "id": "zai-org/GLM-ASR-Nano-2512",
   "createdAt": "2025-12-09T09:07:41.000Z",
-  "downloads": 34526,
+  "downloads": 19792,
   "likes": 388,
   "pipeline": "automatic-speech-recognition",
   "tags": [
@@ -219,8 +219,8 @@
  {
   "id": "zai-org/AutoGLM-Phone-9B-Multilingual",
   "createdAt": "2025-12-09T04:16:21.000Z",
-  "downloads": 1265,
-  "likes": 243,
+  "downloads": 1714,
+  "likes": 244,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -240,8 +240,8 @@
  {
   "id": "zai-org/AutoGLM-Phone-9B",
   "createdAt": "2025-12-08T08:20:34.000Z",
-  "downloads": 3488,
-  "likes": 446,
+  "downloads": 4271,
+  "likes": 447,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -252,7 +252,7 @@
  {
   "id": "zai-org/GLM-4.6V-FP8",
   "createdAt": "2025-12-07T07:21:18.000Z",
-  "downloads": 1699,
+  "downloads": 1292,
   "likes": 32,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -264,7 +264,7 @@
  {
   "id": "zai-org/GLM-4.6V",
   "createdAt": "2025-12-07T07:20:45.000Z",
-  "downloads": 4052,
+  "downloads": 5392,
   "likes": 398,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -276,8 +276,8 @@
  {
   "id": "zai-org/GLM-4.6V-Flash",
   "createdAt": "2025-12-07T06:30:04.000Z",
-  "downloads": 77323,
-  "likes": 631,
+  "downloads": 40476,
+  "likes": 633,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -297,7 +297,7 @@
  {
   "id": "zai-org/WebVIA-Agent",
   "createdAt": "2025-11-12T04:39:14.000Z",
-  "downloads": 414,
+  "downloads": 443,
   "likes": 21,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -309,7 +309,7 @@
  {
   "id": "zai-org/UI2Code_N",
   "createdAt": "2025-11-11T11:18:32.000Z",
-  "downloads": 445,
+  "downloads": 507,
   "likes": 27,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -330,7 +330,7 @@
  {
   "id": "zai-org/Glyph",
   "createdAt": "2025-10-25T06:19:07.000Z",
-  "downloads": 906,
+  "downloads": 1634,
   "likes": 75,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -342,8 +342,8 @@
  {
   "id": "zai-org/GLM-4.6",
   "createdAt": "2025-09-29T18:22:51.000Z",
-  "downloads": 22531,
-  "likes": 1246,
+  "downloads": 27616,
+  "likes": 1247,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -354,7 +354,7 @@
  {
   "id": "zai-org/GLM-4.6-FP8",
   "createdAt": "2025-09-29T07:52:20.000Z",
-  "downloads": 6416,
+  "downloads": 7153,
   "likes": 97,
   "pipeline": "text-generation",
   "tags": [
@@ -366,7 +366,7 @@
  {
   "id": "zai-org/GLM-4.5V",
   "createdAt": "2025-08-10T13:55:30.000Z",
-  "downloads": 24483,
+  "downloads": 15667,
   "likes": 726,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -378,7 +378,7 @@
  {
   "id": "zai-org/GLM-4.5V-FP8",
   "createdAt": "2025-08-10T13:41:24.000Z",
-  "downloads": 2238,
+  "downloads": 1141,
   "likes": 43,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -390,7 +390,7 @@
  {
   "id": "zai-org/GLM-4.5-Base",
   "createdAt": "2025-07-20T05:14:19.000Z",
-  "downloads": 683,
+  "downloads": 671,
   "likes": 61,
   "pipeline": "text-generation",
   "tags": [
@@ -401,7 +401,7 @@
  {
   "id": "zai-org/GLM-4.5-Air-FP8",
   "createdAt": "2025-07-20T03:30:00.000Z",
-  "downloads": 17437,
+  "downloads": 17676,
   "likes": 82,
   "pipeline": "text-generation",
   "tags": [
@@ -413,7 +413,7 @@
  {
   "id": "zai-org/GLM-4.5-FP8",
   "createdAt": "2025-07-20T03:29:41.000Z",
-  "downloads": 3773,
+  "downloads": 4086,
   "likes": 78,
   "pipeline": "text-generation",
   "tags": [
@@ -425,8 +425,8 @@
  {
   "id": "zai-org/GLM-4.5-Air",
   "createdAt": "2025-07-20T03:25:55.000Z",
-  "downloads": 975369,
-  "likes": 647,
+  "downloads": 1263741,
+  "likes": 649,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -437,8 +437,8 @@
  {
   "id": "zai-org/GLM-4.5",
   "createdAt": "2025-07-20T03:25:36.000Z",
-  "downloads": 110756,
-  "likes": 1419,
+  "downloads": 109011,
+  "likes": 1439,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -449,7 +449,7 @@
  {
   "id": "zai-org/GLM-4.5-Air-Base",
   "createdAt": "2025-07-20T03:24:43.000Z",
-  "downloads": 2459,
+  "downloads": 3604,
   "likes": 47,
   "pipeline": "text-generation",
   "tags": [
@@ -460,8 +460,8 @@
  {
   "id": "zai-org/GLM-4.1V-9B-Thinking",
   "createdAt": "2025-06-28T14:24:10.000Z",
-  "downloads": 83775,
-  "likes": 791,
+  "downloads": 49197,
+  "likes": 792,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -472,7 +472,7 @@
  {
   "id": "zai-org/GLM-4.1V-9B-Base",
   "createdAt": "2025-06-28T14:23:46.000Z",
-  "downloads": 1093,
+  "downloads": 2084,
   "likes": 68,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -484,7 +484,7 @@
  {
   "id": "zai-org/androidgen-llama-3-70b",
   "createdAt": "2025-05-28T07:58:34.000Z",
-  "downloads": 348,
+  "downloads": 1167,
   "likes": 3,
   "pipeline": "",
   "tags": [],
@@ -493,7 +493,7 @@
  {
   "id": "zai-org/androidgen-glm-4-9b",
   "createdAt": "2025-05-28T07:58:17.000Z",
-  "downloads": 237,
+  "downloads": 264,
   "likes": 3,
   "pipeline": "",
   "tags": [],
@@ -502,7 +502,7 @@
  {
   "id": "zai-org/GLM-Z1-Rumination-32B-0414",
   "createdAt": "2025-04-13T12:06:04.000Z",
-  "downloads": 976,
+  "downloads": 1762,
   "likes": 119,
   "pipeline": "text-generation",
   "tags": [
@@ -514,7 +514,7 @@
  {
   "id": "zai-org/GLM-Z1-32B-0414",
   "createdAt": "2025-04-08T06:57:28.000Z",
-  "downloads": 12306,
+  "downloads": 36465,
   "likes": 196,
   "pipeline": "text-generation",
   "tags": [
@@ -526,7 +526,7 @@
  {
   "id": "zai-org/GLM-Z1-9B-0414",
   "createdAt": "2025-04-08T06:39:51.000Z",
-  "downloads": 1760,
+  "downloads": 2090,
   "likes": 92,
   "pipeline": "text-generation",
   "tags": [
@@ -538,7 +538,7 @@
  {
   "id": "zai-org/GLM-4-32B-Base-0414",
   "createdAt": "2025-04-07T12:53:57.000Z",
-  "downloads": 701,
+  "downloads": 941,
   "likes": 38,
   "pipeline": "text-generation",
   "tags": [
@@ -549,8 +549,8 @@
  {
   "id": "zai-org/GLM-4-32B-0414",
   "createdAt": "2025-04-07T12:53:41.000Z",
-  "downloads": 5322,
-  "likes": 489,
+  "downloads": 7782,
+  "likes": 490,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -561,7 +561,7 @@
  {
   "id": "zai-org/GLM-4-9B-0414",
   "createdAt": "2025-04-07T11:57:02.000Z",
-  "downloads": 14009,
+  "downloads": 20731,
   "likes": 111,
   "pipeline": "text-generation",
   "tags": [
@@ -573,7 +573,7 @@
  {
   "id": "zai-org/SWE-Dev-9B",
   "createdAt": "2025-04-06T15:01:41.000Z",
-  "downloads": 243,
+  "downloads": 274,
   "likes": 14,
   "pipeline": "",
   "tags": [],
@@ -582,7 +582,7 @@
  {
   "id": "zai-org/SWE-Dev-32B",
   "createdAt": "2025-04-06T13:33:41.000Z",
-  "downloads": 513,
+  "downloads": 1308,
   "likes": 31,
   "pipeline": "text-generation",
   "tags": [
@@ -594,7 +594,7 @@
  {
   "id": "zai-org/SWE-Dev-7B",
   "createdAt": "2025-04-06T13:33:25.000Z",
-  "downloads": 342,
+  "downloads": 1097,
   "likes": 7,
   "pipeline": "",
   "tags": [],
@@ -603,8 +603,8 @@
  {
   "id": "zai-org/CogView4-6B",
   "createdAt": "2025-03-03T12:19:58.000Z",
-  "downloads": 3836,
-  "likes": 258,
+  "downloads": 5848,
+  "likes": 259,
   "pipeline": "text-to-image",
   "tags": [],
   "gated": false
@@ -623,7 +623,7 @@
  {
   "id": "zai-org/glm-4-9b-hf",
   "createdAt": "2025-01-16T06:02:41.000Z",
-  "downloads": 2154,
+  "downloads": 2417,
   "likes": 10,
   "pipeline": "text-generation",
   "tags": [
@@ -634,7 +634,7 @@
  {
   "id": "zai-org/cogagent-9b-20241220",
   "createdAt": "2024-12-20T07:14:53.000Z",
-  "downloads": 589,
+  "downloads": 428,
   "likes": 55,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -656,7 +656,7 @@
  {
   "id": "zai-org/VisionReward-Video",
   "createdAt": "2024-12-10T09:40:56.000Z",
-  "downloads": 2178,
+  "downloads": 2048,
   "likes": 10,
   "pipeline": "text-generation",
   "tags": [
@@ -668,7 +668,7 @@
  {
   "id": "zai-org/webrl-orm-llama-3.1-8b",
   "createdAt": "2024-12-09T02:11:36.000Z",
-  "downloads": 158,
+  "downloads": 196,
   "likes": 2,
   "pipeline": "",
   "tags": [],

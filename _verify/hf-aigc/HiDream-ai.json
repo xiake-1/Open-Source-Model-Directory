@@ -2,7 +2,7 @@
  {
   "id": "HiDream-ai/Prompt-Refine",
   "createdAt": "2026-05-13T18:50:44.000Z",
-  "downloads": 177,
+  "downloads": 96,
   "likes": 18,
   "pipeline": "image-text-to-text",
   "library": "transformers",
@@ -19,8 +19,8 @@
  {
   "id": "HiDream-ai/HiDream-O1-Image-Dev-2604",
   "createdAt": "2026-05-13T15:12:13.000Z",
-  "downloads": 374,
-  "likes": 95,
+  "downloads": 395,
+  "likes": 96,
   "pipeline": "image-text-to-image",
   "library": "transformers",
   "gated": false,
@@ -36,8 +36,8 @@
  {
   "id": "HiDream-ai/HiDream-O1-Image-Dev",
   "createdAt": "2026-05-08T13:09:29.000Z",
-  "downloads": 590,
-  "likes": 128,
+  "downloads": 493,
+  "likes": 129,
   "pipeline": "image-text-to-image",
   "library": "transformers",
   "gated": false,
@@ -53,8 +53,8 @@
  {
   "id": "HiDream-ai/HiDream-O1-Image",
   "createdAt": "2026-05-08T13:06:04.000Z",
-  "downloads": 4514,
-  "likes": 557,
+  "downloads": 12956,
+  "likes": 561,
   "pipeline": "image-text-to-image",
   "library": "transformers",
   "gated": false,
@@ -64,6 +64,7 @@
    "qwen3_vl",
    "image-text-to-text",
    "image-text-to-image",
+   "eval-results",
    "endpoints_compatible"
   ]
  },
@@ -101,7 +102,7 @@
  {
   "id": "HiDream-ai/HiDream-E1-1",
   "createdAt": "2025-07-16T14:27:03.000Z",
-  "downloads": 137,
+  "downloads": 115,
   "likes": 217,
   "pipeline": "any-to-any",
   "library": "diffusers",
@@ -128,7 +129,7 @@
  {
   "id": "HiDream-ai/HiDream-E1-Full",
   "createdAt": "2025-04-27T01:54:09.000Z",
-  "downloads": 184,
+  "downloads": 216,
   "likes": 217,
   "pipeline": "any-to-any",
   "library": "diffusers",
@@ -145,7 +146,7 @@
  {
   "id": "HiDream-ai/HiDream-I1-Fast",
   "createdAt": "2025-04-06T14:18:51.000Z",
-  "downloads": 54879,
+  "downloads": 47253,
   "likes": 108,
   "pipeline": "text-to-image",
   "library": "diffusers",
@@ -162,8 +163,8 @@
  {
   "id": "HiDream-ai/HiDream-I1-Full",
   "createdAt": "2025-04-06T14:18:31.000Z",
-  "downloads": 790,
-  "likes": 1010,
+  "downloads": 770,
+  "likes": 1015,
   "pipeline": "text-to-image",
   "library": "diffusers",
   "gated": false,
@@ -179,7 +180,7 @@
  {
   "id": "HiDream-ai/HiDream-I1-Dev",
   "createdAt": "2025-04-06T07:46:12.000Z",
-  "downloads": 201,
+  "downloads": 216,
   "likes": 173,
   "pipeline": "text-to-image",
   "library": "diffusers",
