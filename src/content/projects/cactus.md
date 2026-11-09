@@ -5,7 +5,7 @@ released: 2025-04-23
 added: 2026-10-03
 summary: 面向手机、手表与机器人的全套端侧栈：量化、CUDA 级内核、运行时与推理引擎一体，把 LLM / Whisper / 扩散模型压进 4GB 内存设备。
 tags: []
-license: 自定义（仓库未标注 SPDX）
+license: Apache-2.0
 params: 端侧推理引擎
 links:
   github: https://github.com/cactus-compute/cactus
@@ -22,7 +22,7 @@ Cactus 把量化、算子库、调度与推理引擎做成同一套 C++ 栈，�
 
 - 产品形态是设备而不是服务器 → 它给的是一套可直接交付的运行时。
 - 已有 llama.cpp 但被「每个平台重新调」拖住 → 用它的统一栈替换。
-- 商用前先看许可：仓库未标注 SPDX，需与作者书面确认。
+- 许可已换成正经 Apache-2.0（2026-11 复核 LICENSE 原文），商用没有门槛。
 
 ## 上手难点
 
