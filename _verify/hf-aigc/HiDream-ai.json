@@ -2,7 +2,7 @@
  {
   "id": "HiDream-ai/Prompt-Refine",
   "createdAt": "2026-05-13T18:50:44.000Z",
-  "downloads": 96,
+  "downloads": 98,
   "likes": 18,
   "pipeline": "image-text-to-text",
   "library": "transformers",
@@ -19,7 +19,7 @@
  {
   "id": "HiDream-ai/HiDream-O1-Image-Dev-2604",
   "createdAt": "2026-05-13T15:12:13.000Z",
-  "downloads": 395,
+  "downloads": 407,
   "likes": 96,
   "pipeline": "image-text-to-image",
   "library": "transformers",
@@ -36,7 +36,7 @@
  {
   "id": "HiDream-ai/HiDream-O1-Image-Dev",
   "createdAt": "2026-05-08T13:09:29.000Z",
-  "downloads": 493,
+  "downloads": 455,
   "likes": 129,
   "pipeline": "image-text-to-image",
   "library": "transformers",
@@ -53,8 +53,8 @@
  {
   "id": "HiDream-ai/HiDream-O1-Image",
   "createdAt": "2026-05-08T13:06:04.000Z",
-  "downloads": 12956,
-  "likes": 561,
+  "downloads": 20742,
+  "likes": 562,
   "pipeline": "image-text-to-image",
   "library": "transformers",
   "gated": false,
@@ -102,7 +102,7 @@
  {
   "id": "HiDream-ai/HiDream-E1-1",
   "createdAt": "2025-07-16T14:27:03.000Z",
-  "downloads": 115,
+  "downloads": 118,
   "likes": 217,
   "pipeline": "any-to-any",
   "library": "diffusers",
@@ -129,7 +129,7 @@
  {
   "id": "HiDream-ai/HiDream-E1-Full",
   "createdAt": "2025-04-27T01:54:09.000Z",
-  "downloads": 216,
+  "downloads": 217,
   "likes": 217,
   "pipeline": "any-to-any",
   "library": "diffusers",
@@ -146,7 +146,7 @@
  {
   "id": "HiDream-ai/HiDream-I1-Fast",
   "createdAt": "2025-04-06T14:18:51.000Z",
-  "downloads": 47253,
+  "downloads": 40108,
   "likes": 108,
   "pipeline": "text-to-image",
   "library": "diffusers",
@@ -163,7 +163,7 @@
  {
   "id": "HiDream-ai/HiDream-I1-Full",
   "createdAt": "2025-04-06T14:18:31.000Z",
-  "downloads": 770,
+  "downloads": 603,
   "likes": 1015,
   "pipeline": "text-to-image",
   "library": "diffusers",
@@ -180,7 +180,7 @@
  {
   "id": "HiDream-ai/HiDream-I1-Dev",
   "createdAt": "2025-04-06T07:46:12.000Z",
-  "downloads": 216,
+  "downloads": 204,
   "likes": 173,
   "pipeline": "text-to-image",
   "library": "diffusers",

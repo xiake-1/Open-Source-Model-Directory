@@ -2,8 +2,8 @@
  {
   "id": "moonshotai/Kimi-K3.1-Pro",
   "createdAt": "2026-11-02T04:13:51.000Z",
-  "downloads": 25569,
-  "likes": 1745,
+  "downloads": 43687,
+  "likes": 2086,
   "pipeline": "image-text-to-text",
   "tags": [
    "text-generation",
@@ -15,8 +15,8 @@
  {
   "id": "moonshotai/Kimi-K3",
   "createdAt": "2026-06-13T06:42:57.000Z",
-  "downloads": 753032,
-  "likes": 11957,
+  "downloads": 804457,
+  "likes": 11994,
   "pipeline": "image-text-to-text",
   "tags": [
    "conversational",
@@ -27,8 +27,8 @@
  {
   "id": "moonshotai/Kimi-K2.7-Code",
   "createdAt": "2026-06-11T07:51:47.000Z",
-  "downloads": 88954,
-  "likes": 1430,
+  "downloads": 241608,
+  "likes": 1428,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -39,8 +39,8 @@
  {
   "id": "moonshotai/Kimi-K2.6",
   "createdAt": "2026-04-14T04:23:36.000Z",
-  "downloads": 231318,
-  "likes": 1641,
+  "downloads": 210850,
+  "likes": 1643,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -51,7 +51,7 @@
  {
   "id": "moonshotai/Kimi-K2.5",
   "createdAt": "2026-01-01T06:06:03.000Z",
-  "downloads": 393523,
+  "downloads": 392889,
   "likes": 2901,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -63,8 +63,8 @@
  {
   "id": "moonshotai/Kimi-K2-Thinking",
   "createdAt": "2025-11-04T08:25:31.000Z",
-  "downloads": 53149,
-  "likes": 1731,
+  "downloads": 55306,
+  "likes": 1733,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -75,7 +75,7 @@
  {
   "id": "moonshotai/Kimi-Linear-48B-A3B-Base",
   "createdAt": "2025-10-30T12:39:14.000Z",
-  "downloads": 2222,
+  "downloads": 1806,
   "likes": 85,
   "pipeline": "text-generation",
   "tags": [
@@ -87,8 +87,8 @@
  {
   "id": "moonshotai/Kimi-Linear-48B-A3B-Instruct",
   "createdAt": "2025-10-30T12:37:31.000Z",
-  "downloads": 48994,
-  "likes": 615,
+  "downloads": 49732,
+  "likes": 617,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -99,7 +99,7 @@
  {
   "id": "moonshotai/Kimi-K2-Instruct-0905",
   "createdAt": "2025-09-03T03:34:36.000Z",
-  "downloads": 9376,
+  "downloads": 9293,
   "likes": 790,
   "pipeline": "text-generation",
   "tags": [
@@ -111,8 +111,8 @@
  {
   "id": "moonshotai/Kimi-K2-Instruct",
   "createdAt": "2025-07-11T00:55:12.000Z",
-  "downloads": 281488,
-  "likes": 3010,
+  "downloads": 247690,
+  "likes": 3007,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -123,7 +123,7 @@
  {
   "id": "moonshotai/Kimi-K2-Base",
   "createdAt": "2025-07-03T12:49:14.000Z",
-  "downloads": 19098,
+  "downloads": 15278,
   "likes": 306,
   "pipeline": "text-generation",
   "tags": [
@@ -135,8 +135,8 @@
  {
   "id": "moonshotai/Kimi-VL-A3B-Thinking-2506",
   "createdAt": "2025-06-21T09:40:28.000Z",
-  "downloads": 11059,
-  "likes": 387,
+  "downloads": 12291,
+  "likes": 388,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -147,7 +147,7 @@
  {
   "id": "moonshotai/Kimi-Dev-72B",
   "createdAt": "2025-06-16T11:40:59.000Z",
-  "downloads": 2586,
+  "downloads": 3368,
   "likes": 393,
   "pipeline": "text-generation",
   "tags": [
@@ -159,7 +159,7 @@
  {
   "id": "moonshotai/Kimi-Audio-7B",
   "createdAt": "2025-04-25T12:22:40.000Z",
-  "downloads": 313,
+  "downloads": 375,
   "likes": 98,
   "pipeline": "text-to-speech",
   "tags": [],
@@ -168,7 +168,7 @@
  {
   "id": "moonshotai/Kimi-Audio-7B-Instruct",
   "createdAt": "2025-04-25T08:05:10.000Z",
-  "downloads": 7449,
+  "downloads": 6239,
   "likes": 421,
   "pipeline": "text-to-speech",
   "tags": [],
@@ -177,7 +177,7 @@
  {
   "id": "moonshotai/MoonViT-SO-400M",
   "createdAt": "2025-04-10T10:02:35.000Z",
-  "downloads": 811,
+  "downloads": 745,
   "likes": 99,
   "pipeline": "image-feature-extraction",
   "tags": [],
@@ -186,8 +186,8 @@
  {
   "id": "moonshotai/Kimi-VL-A3B-Thinking",
   "createdAt": "2025-04-09T08:13:53.000Z",
-  "downloads": 10095,
-  "likes": 457,
+  "downloads": 8633,
+  "likes": 459,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -198,8 +198,8 @@
  {
   "id": "moonshotai/Kimi-VL-A3B-Instruct",
   "createdAt": "2025-04-09T08:07:06.000Z",
-  "downloads": 64629,
-  "likes": 285,
+  "downloads": 43130,
+  "likes": 286,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -210,7 +210,7 @@
  {
   "id": "moonshotai/Moonlight-16B-A3B-Instruct",
   "createdAt": "2025-02-22T04:15:17.000Z",
-  "downloads": 37065,
+  "downloads": 34890,
   "likes": 210,
   "pipeline": "text-generation",
   "tags": [
@@ -222,7 +222,7 @@
  {
   "id": "moonshotai/Moonlight-16B-A3B",
   "createdAt": "2025-02-22T04:14:40.000Z",
-  "downloads": 16859,
+  "downloads": 13956,
   "likes": 118,
   "pipeline": "text-generation",
   "tags": [

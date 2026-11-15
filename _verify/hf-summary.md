@@ -26,11 +26,11 @@
 - zai-org/GLM-5.3-BF16@2026-08-25
 - zai-org/GLM-5.3-Flash@2026-08-25
 
-## MiniMaxAI（22）
+## MiniMaxAI（24）
 
+- MiniMaxAI/MiniMax-H3-Image-PE@2026-11-08
+- MiniMaxAI/MiniMax-H3-Image@2026-11-03
 - MiniMaxAI/MiniMax-M3.1-Flash@2026-10-17
-- MiniMaxAI/MiniMax-Music3@2026-08-07
-- MiniMaxAI/MiniMax-H3@2026-07-28
 
 ## ByteDance-Seed（63）
 
@@ -44,11 +44,11 @@
 - baidu/ERNIE-5.5-Flash-Base@2026-10-21
 - baidu/ERNIE-5.5-Flash-Base-BF16@2026-10-21
 
-## inclusionAI（234）
+## inclusionAI（244）
 
-- inclusionAI/ZwZ2-27B-GGUF@2026-10-30
-- inclusionAI/ZwZ2-9B-GGUF@2026-10-30
-- inclusionAI/ZwZ2-4B-GGUF@2026-10-30
+- inclusionAI/Duo-1.0-distill-quant@2026-11-13
+- inclusionAI/Duo-1.0-causal-base@2026-11-12
+- inclusionAI/Duo-1.0-distill@2026-11-12
 
 ## stepfun-ai（52）
 
@@ -177,13 +177,13 @@
 - microsoft/Sentiment-Analysis-7B@2026-10-17
 - microsoft/scFM-dataselection@2026-10-16
 
-## nvidia（806）
+## nvidia（815）
 
+- nvidia/Kimi-K3.1-Pro-NVFP4@2026-11-11
 - nvidia/MetricTrail@2026-11-05
 - nvidia/DeepSeek-V4.1-Flash-1017-NVFP4@2026-10-30
-- nvidia/Metatron-v1@2026-10-27
 
-## ibm-granite（197）
+## ibm-granite（199）
 
 - ibm-granite/granite-speech-5.0-2b-ONNX@2026-10-28
 - ibm-granite/granite-switch-4.1-8b-GGUF@2026-10-22
@@ -237,11 +237,11 @@
 - stabilityai/stable-diffusion-3.5-medium-amdnpu-medusa@2026-10-26
 - stabilityai/stable-audio-3-optimized@2026-05-18
 
-## Zyphra（24）
+## Zyphra（28）
 
-- Zyphra/ZONOS1-GGUF@2026-07-15
-- Zyphra/ZUNA1.1@2026-07-13
-- Zyphra/ZAYA1-8B-MXFP4-Experts@2026-07-02
+- Zyphra/ZAC-1@2026-11-12
+- Zyphra/ZONOS3-Mini-hf@2026-11-11
+- Zyphra/ZONOS3-Mini@2026-11-09
 
 ## RWKV（25）
 
@@ -328,14 +328,20 @@
 ## ZyphraAI（0）
 
 
-## KRAFTON（16）
+## KRAFTON（20）
 
-- KRAFTON/Raon-1-mini-preview-mlx@2026-10-21
-- KRAFTON/Raon-1-mini-preview@2026-10-21
-- KRAFTON/Raon-1-mini-preview-nvfp4@2026-10-20
+- KRAFTON/Raon-1-nano-litert-lm@2026-11-10
+- KRAFTON/Raon-1-nano-mlx@2026-11-10
+- KRAFTON/Raon-1-nano-gguf@2026-11-10
 
 ## RecursiveSI（4）
 
 - RecursiveSI/flint@2026-10-21
 - RecursiveSI/flint-int4-gguf@2026-10-21
 - RecursiveSI/flint-int4@2026-10-21
+
+## ricursiveAI（4）
+
+- ricursiveAI/Ripple-65B-Preview-NVFP4@2026-11-04
+- ricursiveAI/Ripple-65B-Preview-DFlash2@2026-11-04
+- ricursiveAI/Ripple-65B-Preview@2026-11-04

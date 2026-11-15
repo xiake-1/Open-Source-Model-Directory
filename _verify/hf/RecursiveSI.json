@@ -2,8 +2,8 @@
  {
   "id": "RecursiveSI/flint",
   "createdAt": "2026-10-21T14:20:58.000Z",
-  "downloads": 44352,
-  "likes": 1378,
+  "downloads": 54732,
+  "likes": 1403,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -14,8 +14,8 @@
  {
   "id": "RecursiveSI/flint-int4-gguf",
   "createdAt": "2026-10-21T13:51:39.000Z",
-  "downloads": 52570,
-  "likes": 34,
+  "downloads": 53989,
+  "likes": 35,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -26,7 +26,7 @@
  {
   "id": "RecursiveSI/flint-int4",
   "createdAt": "2026-10-21T13:51:27.000Z",
-  "downloads": 17802,
+  "downloads": 27510,
   "likes": 30,
   "pipeline": "text-generation",
   "tags": [
@@ -38,8 +38,8 @@
  {
   "id": "RecursiveSI/flint-nvfp4-gguf",
   "createdAt": "2026-10-21T13:51:14.000Z",
-  "downloads": 129650,
-  "likes": 38,
+  "downloads": 133995,
+  "likes": 41,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",

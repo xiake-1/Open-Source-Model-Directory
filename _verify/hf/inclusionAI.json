@@ -1,8 +1,109 @@
 [
  {
+  "id": "inclusionAI/Duo-1.0-distill-quant",
+  "createdAt": "2026-11-13T08:09:23.000Z",
+  "downloads": 0,
+  "likes": 4,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "inclusionAI/Duo-1.0-causal-base",
+  "createdAt": "2026-11-12T06:32:52.000Z",
+  "downloads": 0,
+  "likes": 1,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "inclusionAI/Duo-1.0-distill",
+  "createdAt": "2026-11-12T06:32:27.000Z",
+  "downloads": 0,
+  "likes": 4,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "inclusionAI/Duo-1.2-causal-base",
+  "createdAt": "2026-11-12T06:30:46.000Z",
+  "downloads": 0,
+  "likes": 1,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "inclusionAI/SingVL_S1_4B_GGUF",
+  "createdAt": "2026-11-12T02:58:53.000Z",
+  "downloads": 691,
+  "likes": 1,
+  "pipeline": "",
+  "tags": [
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "inclusionAI/SingVL_S1_4B",
+  "createdAt": "2026-11-11T03:58:51.000Z",
+  "downloads": 1053,
+  "likes": 4,
+  "pipeline": "image-text-to-text",
+  "tags": [
+   "image-text-to-text",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "inclusionAI/ZoomGain-9B-GGUF",
+  "createdAt": "2026-11-11T03:16:31.000Z",
+  "downloads": 845,
+  "likes": 1,
+  "pipeline": "image-text-to-text",
+  "tags": [
+   "image-text-to-text",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "inclusionAI/ZoomGain-4B-GGUF",
+  "createdAt": "2026-11-11T03:09:43.000Z",
+  "downloads": 821,
+  "likes": 0,
+  "pipeline": "image-text-to-text",
+  "tags": [
+   "image-text-to-text",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "inclusionAI/ZoomGain-9B",
+  "createdAt": "2026-11-10T11:42:55.000Z",
+  "downloads": 1198,
+  "likes": 10,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "inclusionAI/ZoomGain-4B",
+  "createdAt": "2026-11-10T11:38:15.000Z",
+  "downloads": 716,
+  "likes": 4,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
   "id": "inclusionAI/ZwZ2-27B-GGUF",
   "createdAt": "2026-10-30T10:28:08.000Z",
-  "downloads": 2988,
+  "downloads": 4575,
   "likes": 2,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -14,7 +115,7 @@
  {
   "id": "inclusionAI/ZwZ2-9B-GGUF",
   "createdAt": "2026-10-30T09:55:13.000Z",
-  "downloads": 3590,
+  "downloads": 4203,
   "likes": 2,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -26,7 +127,7 @@
  {
   "id": "inclusionAI/ZwZ2-4B-GGUF",
   "createdAt": "2026-10-30T09:45:18.000Z",
-  "downloads": 2995,
+  "downloads": 4737,
   "likes": 1,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -38,8 +139,8 @@
  {
   "id": "inclusionAI/Ling-3.1-flash-1019",
   "createdAt": "2026-10-27T05:46:51.000Z",
-  "downloads": 3651,
-  "likes": 98,
+  "downloads": 4616,
+  "likes": 100,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -50,7 +151,7 @@
  {
   "id": "inclusionAI/GLM-5.3-Flash-singprobe",
   "createdAt": "2026-10-27T04:47:31.000Z",
-  "downloads": 532,
+  "downloads": 673,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -59,7 +160,7 @@
  {
   "id": "inclusionAI/Qwen3.8-Flash-Next-singprobe",
   "createdAt": "2026-10-27T04:46:49.000Z",
-  "downloads": 650,
+  "downloads": 812,
   "likes": 2,
   "pipeline": "",
   "tags": [],
@@ -68,8 +169,8 @@
  {
   "id": "inclusionAI/Ling-3.0-flash-Sante-fp8",
   "createdAt": "2026-10-27T03:07:47.000Z",
-  "downloads": 343,
-  "likes": 3,
+  "downloads": 535,
+  "likes": 4,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -80,7 +181,7 @@
  {
   "id": "inclusionAI/LBS-27B",
   "createdAt": "2026-10-26T05:36:52.000Z",
-  "downloads": 1315,
+  "downloads": 1568,
   "likes": 16,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -92,7 +193,7 @@
  {
   "id": "inclusionAI/Ling-3.1-flash-base",
   "createdAt": "2026-10-25T02:15:27.000Z",
-  "downloads": 911,
+  "downloads": 1127,
   "likes": 14,
   "pipeline": "text-generation",
   "tags": [
@@ -104,7 +205,7 @@
  {
   "id": "inclusionAI/Ling-3.0-tiny-UBTree",
   "createdAt": "2026-10-21T13:49:29.000Z",
-  "downloads": 1619,
+  "downloads": 1869,
   "likes": 14,
   "pipeline": "text-generation",
   "tags": [
@@ -115,7 +216,7 @@
  {
   "id": "inclusionAI/Ling-3.0-flash-Sante",
   "createdAt": "2026-10-19T17:30:04.000Z",
-  "downloads": 2415,
+  "downloads": 2754,
   "likes": 85,
   "pipeline": "text-generation",
   "tags": [
@@ -127,7 +228,7 @@
  {
   "id": "inclusionAI/ZwZ2-27B",
   "createdAt": "2026-10-16T05:42:32.000Z",
-  "downloads": 946,
+  "downloads": 1233,
   "likes": 15,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -139,7 +240,7 @@
  {
   "id": "inclusionAI/ZwZ2-9B",
   "createdAt": "2026-10-16T03:42:52.000Z",
-  "downloads": 968,
+  "downloads": 1256,
   "likes": 17,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -151,7 +252,7 @@
  {
   "id": "inclusionAI/ZwZ2-4B",
   "createdAt": "2026-10-15T06:11:06.000Z",
-  "downloads": 821,
+  "downloads": 994,
   "likes": 12,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -163,7 +264,7 @@
  {
   "id": "inclusionAI/Ling-3.0-flash-UBTree",
   "createdAt": "2026-10-14T10:39:01.000Z",
-  "downloads": 1311,
+  "downloads": 1402,
   "likes": 12,
   "pipeline": "text-generation",
   "tags": [
@@ -174,7 +275,7 @@
  {
   "id": "inclusionAI/Ming-3.0-asr-tiny",
   "createdAt": "2026-10-14T09:27:09.000Z",
-  "downloads": 4462,
+  "downloads": 7024,
   "likes": 55,
   "pipeline": "automatic-speech-recognition",
   "tags": [
@@ -185,8 +286,8 @@
  {
   "id": "inclusionAI/Ling-3.1-flash",
   "createdAt": "2026-10-13T11:16:41.000Z",
-  "downloads": 7612,
-  "likes": 164,
+  "downloads": 7477,
+  "likes": 171,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -197,8 +298,8 @@
  {
   "id": "inclusionAI/LemonDecider",
   "createdAt": "2026-10-05T04:27:12.000Z",
-  "downloads": 858,
-  "likes": 42,
+  "downloads": 1089,
+  "likes": 54,
   "pipeline": "feature-extraction",
   "tags": [],
   "gated": false
@@ -215,8 +316,8 @@
  {
   "id": "inclusionAI/Ming-3.0-tts-0.5B",
   "createdAt": "2026-09-22T12:46:58.000Z",
-  "downloads": 12883,
-  "likes": 218,
+  "downloads": 16146,
+  "likes": 227,
   "pipeline": "text-to-speech",
   "tags": [
    "text-generation"
@@ -226,8 +327,8 @@
  {
   "id": "inclusionAI/Ming-3.0-tts-tiny",
   "createdAt": "2026-09-22T12:46:28.000Z",
-  "downloads": 8364,
-  "likes": 60,
+  "downloads": 9230,
+  "likes": 61,
   "pipeline": "text-to-speech",
   "tags": [],
   "gated": false
@@ -235,7 +336,7 @@
  {
   "id": "inclusionAI/Ming-Image-0.1-Design-Layer",
   "createdAt": "2026-09-17T11:36:00.000Z",
-  "downloads": 596,
+  "downloads": 599,
   "likes": 113,
   "pipeline": "image-text-to-image",
   "tags": [],
@@ -244,8 +345,8 @@
  {
   "id": "inclusionAI/Ming-Image-0.1-Design",
   "createdAt": "2026-09-17T07:17:31.000Z",
-  "downloads": 1703,
-  "likes": 438,
+  "downloads": 1439,
+  "likes": 441,
   "pipeline": "text-to-image",
   "tags": [],
   "gated": false
@@ -253,8 +354,8 @@
  {
   "id": "inclusionAI/Realtime-Venus",
   "createdAt": "2026-09-16T08:02:28.000Z",
-  "downloads": 1858,
-  "likes": 133,
+  "downloads": 2213,
+  "likes": 135,
   "pipeline": "any-to-any",
   "tags": [
    "any-to-any"
@@ -264,7 +365,7 @@
  {
   "id": "inclusionAI/Step-3.7-Flash-singprobe",
   "createdAt": "2026-09-14T03:20:56.000Z",
-  "downloads": 174,
+  "downloads": 156,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -273,7 +374,7 @@
  {
   "id": "inclusionAI/Qwen3.8-27B-singprobe",
   "createdAt": "2026-09-14T03:17:42.000Z",
-  "downloads": 202,
+  "downloads": 186,
   "likes": 2,
   "pipeline": "",
   "tags": [],
@@ -282,7 +383,7 @@
  {
   "id": "inclusionAI/Qwen3.5-397B-A17B-singprobe",
   "createdAt": "2026-09-14T03:17:29.000Z",
-  "downloads": 148,
+  "downloads": 132,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -291,7 +392,7 @@
  {
   "id": "inclusionAI/gpt-oss-120b-singprobe",
   "createdAt": "2026-09-14T03:17:19.000Z",
-  "downloads": 178,
+  "downloads": 161,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -300,7 +401,7 @@
  {
   "id": "inclusionAI/MiniMax-M2.7-singprobe",
   "createdAt": "2026-09-14T03:15:15.000Z",
-  "downloads": 173,
+  "downloads": 155,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -309,7 +410,7 @@
  {
   "id": "inclusionAI/GLM-5.3-singprobe",
   "createdAt": "2026-09-14T03:15:00.000Z",
-  "downloads": 193,
+  "downloads": 176,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -318,7 +419,7 @@
  {
   "id": "inclusionAI/Qwen3.6-35B-A3B-singprobe",
   "createdAt": "2026-09-14T03:08:41.000Z",
-  "downloads": 237,
+  "downloads": 227,
   "likes": 6,
   "pipeline": "",
   "tags": [],
@@ -327,7 +428,7 @@
  {
   "id": "inclusionAI/Qwen3.6-27B-singprobe",
   "createdAt": "2026-09-14T03:06:28.000Z",
-  "downloads": 180,
+  "downloads": 162,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -336,7 +437,7 @@
  {
   "id": "inclusionAI/Qwen3.5-122B-A10B-singprobe",
   "createdAt": "2026-09-14T03:06:05.000Z",
-  "downloads": 149,
+  "downloads": 134,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -345,7 +446,7 @@
  {
   "id": "inclusionAI/Qwen3.5-35B-A3B-singprobe",
   "createdAt": "2026-09-14T03:05:49.000Z",
-  "downloads": 142,
+  "downloads": 137,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -354,7 +455,7 @@
  {
   "id": "inclusionAI/Qwen3.5-27B-singprobe",
   "createdAt": "2026-09-14T03:02:00.000Z",
-  "downloads": 180,
+  "downloads": 160,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -363,7 +464,7 @@
  {
   "id": "inclusionAI/Qwen3.5-9B-singprobe",
   "createdAt": "2026-09-14T03:01:42.000Z",
-  "downloads": 174,
+  "downloads": 154,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -372,7 +473,7 @@
  {
   "id": "inclusionAI/Qwen3.5-4B-singprobe",
   "createdAt": "2026-09-14T03:01:30.000Z",
-  "downloads": 180,
+  "downloads": 161,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -381,7 +482,7 @@
  {
   "id": "inclusionAI/Qwen3.5-2B-singprobe",
   "createdAt": "2026-09-14T03:01:19.000Z",
-  "downloads": 178,
+  "downloads": 155,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -390,7 +491,7 @@
  {
   "id": "inclusionAI/Qwen3.5-0.8B-singprobe",
   "createdAt": "2026-09-14T03:01:03.000Z",
-  "downloads": 174,
+  "downloads": 158,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -399,7 +500,7 @@
  {
   "id": "inclusionAI/Qwen3-8B-singprobe",
   "createdAt": "2026-09-14T03:00:54.000Z",
-  "downloads": 180,
+  "downloads": 158,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -408,7 +509,7 @@
  {
   "id": "inclusionAI/Qwen3-4B-Instruct-2507-singprobe",
   "createdAt": "2026-09-14T03:00:25.000Z",
-  "downloads": 161,
+  "downloads": 142,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -417,7 +518,7 @@
  {
   "id": "inclusionAI/Qwen3-0.6B-singprobe",
   "createdAt": "2026-09-14T03:00:11.000Z",
-  "downloads": 191,
+  "downloads": 164,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -426,7 +527,7 @@
  {
   "id": "inclusionAI/Llama-3.2-1B-Instruct-singprobe",
   "createdAt": "2026-09-14T02:58:51.000Z",
-  "downloads": 176,
+  "downloads": 161,
   "likes": 3,
   "pipeline": "",
   "tags": [],
@@ -435,7 +536,7 @@
  {
   "id": "inclusionAI/Llama-3.1-8B-Instruct-singprobe",
   "createdAt": "2026-09-14T02:58:38.000Z",
-  "downloads": 153,
+  "downloads": 146,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -444,7 +545,7 @@
  {
   "id": "inclusionAI/Hy3-singprobe",
   "createdAt": "2026-09-14T02:58:17.000Z",
-  "downloads": 74,
+  "downloads": 68,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -453,7 +554,7 @@
  {
   "id": "inclusionAI/gpt-oss-20b-singprobe",
   "createdAt": "2026-09-14T02:57:49.000Z",
-  "downloads": 136,
+  "downloads": 121,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -462,7 +563,7 @@
  {
   "id": "inclusionAI/GLM-5.2-singprobe",
   "createdAt": "2026-09-14T02:56:54.000Z",
-  "downloads": 88,
+  "downloads": 79,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -471,7 +572,7 @@
  {
   "id": "inclusionAI/gemma-4-E4B-it-singprobe",
   "createdAt": "2026-09-14T02:56:37.000Z",
-  "downloads": 132,
+  "downloads": 106,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -480,7 +581,7 @@
  {
   "id": "inclusionAI/gemma-4-31B-it-singprobe",
   "createdAt": "2026-09-14T02:56:06.000Z",
-  "downloads": 76,
+  "downloads": 68,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -489,7 +590,7 @@
  {
   "id": "inclusionAI/gemma-4-26B-A4B-it-singprobe",
   "createdAt": "2026-09-14T02:55:45.000Z",
-  "downloads": 90,
+  "downloads": 85,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -498,7 +599,7 @@
  {
   "id": "inclusionAI/DeepSeek-V4-Flash-0731-singprobe",
   "createdAt": "2026-09-14T02:55:19.000Z",
-  "downloads": 137,
+  "downloads": 123,
   "likes": 2,
   "pipeline": "",
   "tags": [],
@@ -507,7 +608,7 @@
  {
   "id": "inclusionAI/Ling-3.0-flash-Fin-fp4",
   "createdAt": "2026-09-10T05:39:50.000Z",
-  "downloads": 345,
+  "downloads": 300,
   "likes": 5,
   "pipeline": "text-generation",
   "tags": [
@@ -519,7 +620,7 @@
  {
   "id": "inclusionAI/Ling-3.0-flash-Fin-int4",
   "createdAt": "2026-09-09T07:34:36.000Z",
-  "downloads": 214,
+  "downloads": 183,
   "likes": 3,
   "pipeline": "text-generation",
   "tags": [
@@ -531,7 +632,7 @@
  {
   "id": "inclusionAI/Ling-3.0-flash-Fin-fp8",
   "createdAt": "2026-09-09T07:34:01.000Z",
-  "downloads": 235,
+  "downloads": 205,
   "likes": 3,
   "pipeline": "text-generation",
   "tags": [
@@ -543,7 +644,7 @@
  {
   "id": "inclusionAI/Ling-3.0-flash-VL-int4",
   "createdAt": "2026-09-08T10:22:40.000Z",
-  "downloads": 468,
+  "downloads": 455,
   "likes": 20,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -555,7 +656,7 @@
  {
   "id": "inclusionAI/Ling-3.0-flash-VL-fp4",
   "createdAt": "2026-09-08T10:22:02.000Z",
-  "downloads": 1464,
+  "downloads": 1918,
   "likes": 20,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -567,7 +668,7 @@
  {
   "id": "inclusionAI/Ling-3.0-flash-VL-fp8",
   "createdAt": "2026-09-08T10:21:21.000Z",
-  "downloads": 482,
+  "downloads": 462,
   "likes": 23,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -579,7 +680,7 @@
  {
   "id": "inclusionAI/LLaDA-UI",
   "createdAt": "2026-09-06T05:08:15.000Z",
-  "downloads": 437,
+  "downloads": 370,
   "likes": 24,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -591,7 +692,7 @@
  {
   "id": "inclusionAI/LLaDA2.2-mini",
   "createdAt": "2026-09-05T05:16:19.000Z",
-  "downloads": 4053,
+  "downloads": 4025,
   "likes": 39,
   "pipeline": "text-generation",
   "tags": [
@@ -603,7 +704,7 @@
  {
   "id": "inclusionAI/Ling-3.0-flash-VL",
   "createdAt": "2026-09-04T15:24:37.000Z",
-  "downloads": 9864,
+  "downloads": 7586,
   "likes": 127,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -615,8 +716,8 @@
  {
   "id": "inclusionAI/Ming-3.0-audio-flash",
   "createdAt": "2026-09-03T11:49:27.000Z",
-  "downloads": 1760,
-  "likes": 85,
+  "downloads": 2333,
+  "likes": 87,
   "pipeline": "audio-to-audio",
   "tags": [
    "conversational"
@@ -626,8 +727,8 @@
  {
   "id": "inclusionAI/Ming-3.0-audio-tiny",
   "createdAt": "2026-09-03T11:45:27.000Z",
-  "downloads": 4394,
-  "likes": 61,
+  "downloads": 5270,
+  "likes": 63,
   "pipeline": "audio-to-audio",
   "tags": [
    "conversational"
@@ -637,7 +738,7 @@
  {
   "id": "inclusionAI/LLaDA-Image-Turbo-FP8",
   "createdAt": "2026-09-03T08:07:02.000Z",
-  "downloads": 231,
+  "downloads": 77,
   "likes": 30,
   "pipeline": "text-to-image",
   "tags": [],
@@ -646,7 +747,7 @@
  {
   "id": "inclusionAI/LLaDA-Image-FP8",
   "createdAt": "2026-09-03T08:06:39.000Z",
-  "downloads": 141,
+  "downloads": 26,
   "likes": 9,
   "pipeline": "text-to-image",
   "tags": [],
@@ -655,7 +756,7 @@
  {
   "id": "inclusionAI/Ling-3.0-flash-Fin",
   "createdAt": "2026-09-03T06:09:53.000Z",
-  "downloads": 1990,
+  "downloads": 2428,
   "likes": 133,
   "pipeline": "text-generation",
   "tags": [
@@ -667,7 +768,7 @@
  {
   "id": "inclusionAI/Ling-3.0-tiny-singprobe",
   "createdAt": "2026-09-01T07:13:06.000Z",
-  "downloads": 175,
+  "downloads": 149,
   "likes": 8,
   "pipeline": "",
   "tags": [],
@@ -676,7 +777,7 @@
  {
   "id": "inclusionAI/Ling-3.0-flash-singprobe",
   "createdAt": "2026-09-01T07:12:49.000Z",
-  "downloads": 192,
+  "downloads": 175,
   "likes": 7,
   "pipeline": "",
   "tags": [],
@@ -685,7 +786,7 @@
  {
   "id": "inclusionAI/ArmorOCR-GGUF",
   "createdAt": "2026-09-01T06:10:23.000Z",
-  "downloads": 342,
+  "downloads": 313,
   "likes": 4,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -697,7 +798,7 @@
  {
   "id": "inclusionAI/Ling-3.0-flash-GGUF",
   "createdAt": "2026-08-31T03:18:15.000Z",
-  "downloads": 849,
+  "downloads": 12070,
   "likes": 5,
   "pipeline": "text-generation",
   "tags": [
@@ -709,8 +810,8 @@
  {
   "id": "inclusionAI/Ling-3.0-tiny-GGUF",
   "createdAt": "2026-08-30T09:52:42.000Z",
-  "downloads": 13207,
-  "likes": 51,
+  "downloads": 11354,
+  "likes": 56,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -721,7 +822,7 @@
  {
   "id": "inclusionAI/LLaDA-Image-Turbo",
   "createdAt": "2026-08-28T02:18:43.000Z",
-  "downloads": 440,
+  "downloads": 200,
   "likes": 49,
   "pipeline": "text-to-image",
   "tags": [],
@@ -730,8 +831,8 @@
  {
   "id": "inclusionAI/LLaDA-Image",
   "createdAt": "2026-08-28T02:18:25.000Z",
-  "downloads": 8427,
-  "likes": 94,
+  "downloads": 9663,
+  "likes": 95,
   "pipeline": "text-to-image",
   "tags": [],
   "gated": false
@@ -739,8 +840,8 @@
  {
   "id": "inclusionAI/UI-Venus-2-9B",
   "createdAt": "2026-08-26T14:52:03.000Z",
-  "downloads": 9576,
-  "likes": 46,
+  "downloads": 5441,
+  "likes": 49,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -751,7 +852,7 @@
  {
   "id": "inclusionAI/ArmorOCR",
   "createdAt": "2026-08-20T10:54:31.000Z",
-  "downloads": 250,
+  "downloads": 168,
   "likes": 12,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -763,7 +864,7 @@
  {
   "id": "inclusionAI/Ling-3.0-tiny-base",
   "createdAt": "2026-08-11T12:11:35.000Z",
-  "downloads": 1775,
+  "downloads": 2199,
   "likes": 20,
   "pipeline": "",
   "tags": [],
@@ -772,7 +873,7 @@
  {
   "id": "inclusionAI/Ling-3.0-tiny-base-30T",
   "createdAt": "2026-08-11T12:11:22.000Z",
-  "downloads": 299,
+  "downloads": 253,
   "likes": 9,
   "pipeline": "",
   "tags": [],
@@ -781,7 +882,7 @@
  {
   "id": "inclusionAI/Ling-3.0-flash-base",
   "createdAt": "2026-08-11T12:11:08.000Z",
-  "downloads": 396,
+  "downloads": 388,
   "likes": 8,
   "pipeline": "text-generation",
   "tags": [
@@ -793,7 +894,7 @@
  {
   "id": "inclusionAI/Ling-3.0-flash-base-30T",
   "createdAt": "2026-08-11T12:10:59.000Z",
-  "downloads": 283,
+  "downloads": 285,
   "likes": 11,
   "pipeline": "text-generation",
   "tags": [
@@ -804,7 +905,7 @@
  {
   "id": "inclusionAI/Ling-3.0-flash-base-midtrain",
   "createdAt": "2026-08-11T12:10:20.000Z",
-  "downloads": 267,
+  "downloads": 275,
   "likes": 7,
   "pipeline": "text-generation",
   "tags": [
@@ -816,7 +917,7 @@
  {
   "id": "inclusionAI/Ling-3.0-tiny-base-midtrain",
   "createdAt": "2026-08-11T12:07:59.000Z",
-  "downloads": 298,
+  "downloads": 247,
   "likes": 8,
   "pipeline": "",
   "tags": [],
@@ -825,8 +926,8 @@
  {
   "id": "inclusionAI/Ling-3.0-tiny-int4",
   "createdAt": "2026-08-10T02:59:26.000Z",
-  "downloads": 1270,
-  "likes": 35,
+  "downloads": 1197,
+  "likes": 36,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -834,7 +935,7 @@
  {
   "id": "inclusionAI/Ling-3.0-tiny-fp8",
   "createdAt": "2026-08-10T02:48:07.000Z",
-  "downloads": 1636,
+  "downloads": 1646,
   "likes": 32,
   "pipeline": "",
   "tags": [],
@@ -843,8 +944,8 @@
  {
   "id": "inclusionAI/Ling-3.0-tiny",
   "createdAt": "2026-08-10T02:44:06.000Z",
-  "downloads": 14420,
-  "likes": 575,
+  "downloads": 13678,
+  "likes": 584,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -855,7 +956,7 @@
  {
   "id": "inclusionAI/Ling-3.0-flash-dspark",
   "createdAt": "2026-08-09T12:32:20.000Z",
-  "downloads": 848,
+  "downloads": 750,
   "likes": 22,
   "pipeline": "text-generation",
   "tags": [
@@ -866,7 +967,7 @@
  {
   "id": "inclusionAI/Ling-3.0-flash-fp4",
   "createdAt": "2026-08-04T04:33:13.000Z",
-  "downloads": 1190,
+  "downloads": 1011,
   "likes": 26,
   "pipeline": "text-generation",
   "tags": [
@@ -878,7 +979,7 @@
  {
   "id": "inclusionAI/Ling-3.0-flash-int4",
   "createdAt": "2026-08-04T04:31:51.000Z",
-  "downloads": 798,
+  "downloads": 647,
   "likes": 27,
   "pipeline": "text-generation",
   "tags": [
@@ -890,7 +991,7 @@
  {
   "id": "inclusionAI/Ling-3.0-flash-fp8",
   "createdAt": "2026-08-04T03:59:52.000Z",
-  "downloads": 721,
+  "downloads": 590,
   "likes": 36,
   "pipeline": "text-generation",
   "tags": [
@@ -902,8 +1003,8 @@
  {
   "id": "inclusionAI/Ling-3.0-flash",
   "createdAt": "2026-08-02T16:14:41.000Z",
-  "downloads": 9715,
-  "likes": 437,
+  "downloads": 9331,
+  "likes": 439,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -914,7 +1015,7 @@
  {
   "id": "inclusionAI/LLaDA2.2-flash",
   "createdAt": "2026-07-16T03:41:45.000Z",
-  "downloads": 953,
+  "downloads": 871,
   "likes": 96,
   "pipeline": "text-generation",
   "tags": [
@@ -926,7 +1027,7 @@
  {
   "id": "inclusionAI/SingGuard-NSFA-9B-GGUF",
   "createdAt": "2026-07-14T04:06:31.000Z",
-  "downloads": 117,
+  "downloads": 131,
   "likes": 2,
   "pipeline": "",
   "tags": [
@@ -937,7 +1038,7 @@
  {
   "id": "inclusionAI/SingGuard-NSFA-4B-GGUF",
   "createdAt": "2026-07-14T03:55:11.000Z",
-  "downloads": 270,
+  "downloads": 289,
   "likes": 1,
   "pipeline": "",
   "tags": [
@@ -948,7 +1049,7 @@
  {
   "id": "inclusionAI/SingGuard-NSFA-2B-GGUF",
   "createdAt": "2026-07-14T03:46:45.000Z",
-  "downloads": 141,
+  "downloads": 148,
   "likes": 1,
   "pipeline": "",
   "tags": [
@@ -959,7 +1060,7 @@
  {
   "id": "inclusionAI/SingGuard-NSFA-0.8B-GGUF",
   "createdAt": "2026-07-14T03:41:47.000Z",
-  "downloads": 89,
+  "downloads": 100,
   "likes": 3,
   "pipeline": "",
   "tags": [
@@ -970,7 +1071,7 @@
  {
   "id": "inclusionAI/SingGuard-NSFA-9B",
   "createdAt": "2026-07-10T09:59:37.000Z",
-  "downloads": 224,
+  "downloads": 216,
   "likes": 6,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -982,7 +1083,7 @@
  {
   "id": "inclusionAI/SingGuard-NSFA-4B",
   "createdAt": "2026-07-10T09:46:09.000Z",
-  "downloads": 1005,
+  "downloads": 1335,
   "likes": 5,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -994,7 +1095,7 @@
  {
   "id": "inclusionAI/SingGuard-NSFA-2B",
   "createdAt": "2026-07-10T09:35:47.000Z",
-  "downloads": 227,
+  "downloads": 204,
   "likes": 3,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -1006,7 +1107,7 @@
  {
   "id": "inclusionAI/SingGuard-NSFA-0.8B",
   "createdAt": "2026-07-10T09:28:47.000Z",
-  "downloads": 1086,
+  "downloads": 1399,
   "likes": 10,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -1018,7 +1119,7 @@
  {
   "id": "inclusionAI/SingGuard-0.8b-GGUF",
   "createdAt": "2026-06-26T06:18:05.000Z",
-  "downloads": 179,
+  "downloads": 338,
   "likes": 1,
   "pipeline": "",
   "tags": [
@@ -1029,7 +1130,7 @@
  {
   "id": "inclusionAI/SingGuard-0.8b",
   "createdAt": "2026-06-24T01:43:37.000Z",
-  "downloads": 959,
+  "downloads": 1280,
   "likes": 5,
   "pipeline": "",
   "tags": [],
@@ -1038,7 +1139,7 @@
  {
   "id": "inclusionAI/SingGuard-2b-GGUF",
   "createdAt": "2026-06-22T14:03:14.000Z",
-  "downloads": 4450,
+  "downloads": 4512,
   "likes": 4,
   "pipeline": "",
   "tags": [
@@ -1049,7 +1150,7 @@
  {
   "id": "inclusionAI/SingGuard-4b-GGUF",
   "createdAt": "2026-06-22T14:02:50.000Z",
-  "downloads": 637,
+  "downloads": 1341,
   "likes": 3,
   "pipeline": "",
   "tags": [
@@ -1060,7 +1161,7 @@
  {
   "id": "inclusionAI/SingGuard-8b-GGUF",
   "createdAt": "2026-06-22T14:02:35.000Z",
-  "downloads": 252,
+  "downloads": 1777,
   "likes": 4,
   "pipeline": "",
   "tags": [
@@ -1071,7 +1172,7 @@
  {
   "id": "inclusionAI/VISTA-9B",
   "createdAt": "2026-06-12T09:14:21.000Z",
-  "downloads": 1079,
+  "downloads": 1417,
   "likes": 17,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -1083,7 +1184,7 @@
  {
   "id": "inclusionAI/VISTA-4B",
   "createdAt": "2026-06-12T08:59:41.000Z",
-  "downloads": 216,
+  "downloads": 210,
   "likes": 9,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -1095,7 +1196,7 @@
  {
   "id": "inclusionAI/Ling-2.6-1T-base",
   "createdAt": "2026-06-02T11:34:31.000Z",
-  "downloads": 1110,
+  "downloads": 1593,
   "likes": 13,
   "pipeline": "text-generation",
   "tags": [
@@ -1107,7 +1208,7 @@
  {
   "id": "inclusionAI/Ling-2.6-flash-base",
   "createdAt": "2026-06-02T09:55:55.000Z",
-  "downloads": 322,
+  "downloads": 324,
   "likes": 15,
   "pipeline": "text-generation",
   "tags": [
@@ -1119,7 +1220,7 @@
  {
   "id": "inclusionAI/SingGuard-4b",
   "createdAt": "2026-05-25T10:49:15.000Z",
-  "downloads": 967,
+  "downloads": 1298,
   "likes": 10,
   "pipeline": "",
   "tags": [],
@@ -1128,7 +1229,7 @@
  {
   "id": "inclusionAI/SingGuard-8b",
   "createdAt": "2026-05-25T10:48:43.000Z",
-  "downloads": 217,
+  "downloads": 209,
   "likes": 9,
   "pipeline": "",
   "tags": [],
@@ -1137,7 +1238,7 @@
  {
   "id": "inclusionAI/SingGuard-2b",
   "createdAt": "2026-05-25T10:48:25.000Z",
-  "downloads": 1163,
+  "downloads": 1381,
   "likes": 15,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -1149,7 +1250,7 @@
  {
   "id": "inclusionAI/ARGenSeg-8B",
   "createdAt": "2026-05-15T02:33:52.000Z",
-  "downloads": 79,
+  "downloads": 90,
   "likes": 6,
   "pipeline": "",
   "tags": [],
@@ -1158,7 +1259,7 @@
  {
   "id": "inclusionAI/Ring-2.6-1T",
   "createdAt": "2026-05-14T08:10:02.000Z",
-  "downloads": 2187,
+  "downloads": 2335,
   "likes": 107,
   "pipeline": "text-generation",
   "tags": [
@@ -1170,7 +1271,7 @@
  {
   "id": "inclusionAI/LLaDA2.0-Uni-FP8",
   "createdAt": "2026-05-06T08:03:43.000Z",
-  "downloads": 72,
+  "downloads": 73,
   "likes": 5,
   "pipeline": "any-to-any",
   "tags": [
@@ -1181,7 +1282,7 @@
  {
   "id": "inclusionAI/Ling-2.6-1T",
   "createdAt": "2026-04-29T03:19:36.000Z",
-  "downloads": 2205,
+  "downloads": 2892,
   "likes": 508,
   "pipeline": "text-generation",
   "tags": [
@@ -1193,7 +1294,7 @@
  {
   "id": "inclusionAI/Ling-2.6-flash-int4",
   "createdAt": "2026-04-28T09:51:02.000Z",
-  "downloads": 186,
+  "downloads": 127,
   "likes": 17,
   "pipeline": "",
   "tags": [],
@@ -1202,7 +1303,7 @@
  {
   "id": "inclusionAI/Ling-2.6-flash-fp8",
   "createdAt": "2026-04-28T03:50:30.000Z",
-  "downloads": 219,
+  "downloads": 236,
   "likes": 13,
   "pipeline": "",
   "tags": [],
@@ -1211,7 +1312,7 @@
  {
   "id": "inclusionAI/Ling-2.6-flash",
   "createdAt": "2026-04-28T03:27:56.000Z",
-  "downloads": 4008,
+  "downloads": 3405,
   "likes": 506,
   "pipeline": "text-generation",
   "tags": [
@@ -1223,7 +1324,7 @@
  {
   "id": "inclusionAI/DR-Venus-4B-SFT-GGUF",
   "createdAt": "2026-04-24T14:17:30.000Z",
-  "downloads": 256,
+  "downloads": 245,
   "likes": 2,
   "pipeline": "",
   "tags": [
@@ -1234,7 +1335,7 @@
  {
   "id": "inclusionAI/LLaDA2.0-Uni",
   "createdAt": "2026-04-22T17:10:47.000Z",
-  "downloads": 1303,
+  "downloads": 1785,
   "likes": 252,
   "pipeline": "any-to-any",
   "tags": [
@@ -1245,7 +1346,7 @@
  {
   "id": "inclusionAI/DR-Venus-4B-RL-GGUF",
   "createdAt": "2026-04-21T08:25:10.000Z",
-  "downloads": 179,
+  "downloads": 195,
   "likes": 9,
   "pipeline": "",
   "tags": [
@@ -1256,7 +1357,7 @@
  {
   "id": "inclusionAI/DR-Venus-4B-RL",
   "createdAt": "2026-04-21T08:05:38.000Z",
-  "downloads": 1115,
+  "downloads": 1744,
   "likes": 16,
   "pipeline": "",
   "tags": [],
@@ -1265,7 +1366,7 @@
  {
   "id": "inclusionAI/DR-Venus-4B-SFT",
   "createdAt": "2026-04-21T07:29:33.000Z",
-  "downloads": 1132,
+  "downloads": 1729,
   "likes": 7,
   "pipeline": "",
   "tags": [],
@@ -1283,7 +1384,7 @@
  {
   "id": "inclusionAI/AReaL-tau2-merge-sft-235B",
   "createdAt": "2026-03-06T16:14:28.000Z",
-  "downloads": 64,
+  "downloads": 66,
   "likes": 2,
   "pipeline": "",
   "tags": [],
@@ -1292,7 +1393,7 @@
  {
   "id": "inclusionAI/ZwZ-4B-GGUF",
   "createdAt": "2026-03-05T05:56:41.000Z",
-  "downloads": 266,
+  "downloads": 219,
   "likes": 4,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -1304,7 +1405,7 @@
  {
   "id": "inclusionAI/ZwZ-2B-GGUF",
   "createdAt": "2026-03-05T05:56:22.000Z",
-  "downloads": 155,
+  "downloads": 190,
   "likes": 5,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -1316,7 +1417,7 @@
  {
   "id": "inclusionAI/AReaL-tau2-telecom-user-sft-30B",
   "createdAt": "2026-03-05T02:55:27.000Z",
-  "downloads": 1131,
+  "downloads": 1740,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -1325,7 +1426,7 @@
  {
   "id": "inclusionAI/AReaL-tau2-telecom-sft-30B",
   "createdAt": "2026-03-05T02:08:13.000Z",
-  "downloads": 1259,
+  "downloads": 1810,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -1334,7 +1435,7 @@
  {
   "id": "inclusionAI/AReaL-tau2-retail-sft-30B",
   "createdAt": "2026-03-04T16:53:23.000Z",
-  "downloads": 579,
+  "downloads": 468,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -1343,7 +1444,7 @@
  {
   "id": "inclusionAI/AReaL-tau2-airline-sft-30B",
   "createdAt": "2026-03-04T16:30:23.000Z",
-  "downloads": 77,
+  "downloads": 79,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -1352,7 +1453,7 @@
  {
   "id": "inclusionAI/ZwZ-2B",
   "createdAt": "2026-03-04T08:25:43.000Z",
-  "downloads": 734,
+  "downloads": 751,
   "likes": 10,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -1364,8 +1465,8 @@
  {
   "id": "inclusionAI/AReaL-SEA-235B-A22B",
   "createdAt": "2026-03-01T09:56:04.000Z",
-  "downloads": 1128,
-  "likes": 5,
+  "downloads": 1771,
+  "likes": 6,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1376,7 +1477,7 @@
  {
   "id": "inclusionAI/Ling-2.5-1T",
   "createdAt": "2026-02-14T07:48:42.000Z",
-  "downloads": 567,
+  "downloads": 572,
   "likes": 114,
   "pipeline": "text-generation",
   "tags": [
@@ -1388,7 +1489,7 @@
  {
   "id": "inclusionAI/ZwZ-4B",
   "createdAt": "2026-02-12T08:53:01.000Z",
-  "downloads": 1082,
+  "downloads": 1329,
   "likes": 34,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -1400,7 +1501,7 @@
  {
   "id": "inclusionAI/ZwZ-7B",
   "createdAt": "2026-02-12T08:52:48.000Z",
-  "downloads": 1113,
+  "downloads": 1504,
   "likes": 10,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -1412,7 +1513,7 @@
  {
   "id": "inclusionAI/ZwZ-8B",
   "createdAt": "2026-02-12T08:52:34.000Z",
-  "downloads": 381,
+  "downloads": 458,
   "likes": 50,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -1424,7 +1525,7 @@
  {
   "id": "inclusionAI/Ming-omni-tts-tokenizer-12Hz",
   "createdAt": "2026-02-11T03:12:52.000Z",
-  "downloads": 186,
+  "downloads": 189,
   "likes": 10,
   "pipeline": "audio-to-audio",
   "tags": [],
@@ -1433,7 +1534,7 @@
  {
   "id": "inclusionAI/Ming-omni-tts-0.5B",
   "createdAt": "2026-02-11T03:10:23.000Z",
-  "downloads": 14346,
+  "downloads": 13792,
   "likes": 43,
   "pipeline": "text-to-speech",
   "tags": [],
@@ -1442,7 +1543,7 @@
  {
   "id": "inclusionAI/Ming-omni-tts-16.8B-A3B",
   "createdAt": "2026-02-11T02:49:34.000Z",
-  "downloads": 400,
+  "downloads": 268,
   "likes": 56,
   "pipeline": "text-to-speech",
   "tags": [],
@@ -1451,7 +1552,7 @@
  {
   "id": "inclusionAI/Ring-2.5-1T",
   "createdAt": "2026-02-10T12:45:40.000Z",
-  "downloads": 1242,
+  "downloads": 1213,
   "likes": 243,
   "pipeline": "text-generation",
   "tags": [
@@ -1463,8 +1564,8 @@
  {
   "id": "inclusionAI/Ming-flash-omni-2.0",
   "createdAt": "2026-02-10T06:57:15.000Z",
-  "downloads": 8386,
-  "likes": 281,
+  "downloads": 8250,
+  "likes": 282,
   "pipeline": "any-to-any",
   "tags": [
    "any-to-any"
@@ -1474,7 +1575,7 @@
  {
   "id": "inclusionAI/LLaDA2.1-flash",
   "createdAt": "2026-02-09T10:47:26.000Z",
-  "downloads": 1643,
+  "downloads": 2338,
   "likes": 95,
   "pipeline": "text-generation",
   "tags": [
@@ -1486,7 +1587,7 @@
  {
   "id": "inclusionAI/UI-Venus-1.5-30B-A3B",
   "createdAt": "2026-02-09T07:55:59.000Z",
-  "downloads": 1231,
+  "downloads": 550,
   "likes": 37,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -1498,7 +1599,7 @@
  {
   "id": "inclusionAI/UI-Venus-1.5-8B",
   "createdAt": "2026-02-09T07:50:09.000Z",
-  "downloads": 2961,
+  "downloads": 2459,
   "likes": 29,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -1510,7 +1611,7 @@
  {
   "id": "inclusionAI/UI-Venus-1.5-2B",
   "createdAt": "2026-02-09T07:46:22.000Z",
-  "downloads": 3399,
+  "downloads": 3093,
   "likes": 43,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -1522,7 +1623,7 @@
  {
   "id": "inclusionAI/LLaDA2.1-mini",
   "createdAt": "2026-02-09T07:27:07.000Z",
-  "downloads": 25412,
+  "downloads": 28164,
   "likes": 128,
   "pipeline": "text-generation",
   "tags": [
@@ -1534,7 +1635,7 @@
  {
   "id": "inclusionAI/TwinFlow-Z-Image-Turbo",
   "createdAt": "2025-12-23T08:42:21.000Z",
-  "downloads": 35,
+  "downloads": 34,
   "likes": 213,
   "pipeline": "text-to-image",
   "tags": [],
@@ -1543,7 +1644,7 @@
  {
   "id": "inclusionAI/LLaDA2.0-mini-CAP",
   "createdAt": "2025-12-10T13:21:10.000Z",
-  "downloads": 209,
+  "downloads": 178,
   "likes": 8,
   "pipeline": "text-generation",
   "tags": [
@@ -1555,7 +1656,7 @@
  {
   "id": "inclusionAI/LLaDA2.0-flash-CAP",
   "createdAt": "2025-12-10T12:20:56.000Z",
-  "downloads": 155,
+  "downloads": 158,
   "likes": 10,
   "pipeline": "text-generation",
   "tags": [
@@ -1567,8 +1668,8 @@
  {
   "id": "inclusionAI/LLaDA2.0-flash",
   "createdAt": "2025-11-25T14:10:56.000Z",
-  "downloads": 302,
-  "likes": 69,
+  "downloads": 332,
+  "likes": 68,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1579,7 +1680,7 @@
  {
   "id": "inclusionAI/LLaDA2.0-mini",
   "createdAt": "2025-11-25T14:08:45.000Z",
-  "downloads": 18289,
+  "downloads": 13898,
   "likes": 71,
   "pipeline": "text-generation",
   "tags": [
@@ -1591,7 +1692,7 @@
  {
   "id": "inclusionAI/AudioMCQ-Weak-To-Strong",
   "createdAt": "2025-11-14T15:26:31.000Z",
-  "downloads": 55,
+  "downloads": 65,
   "likes": 5,
   "pipeline": "",
   "tags": [],
@@ -1600,7 +1701,7 @@
  {
   "id": "inclusionAI/AudioMCQ-Mixed-To-Strong",
   "createdAt": "2025-11-14T15:25:36.000Z",
-  "downloads": 69,
+  "downloads": 74,
   "likes": 4,
   "pipeline": "",
   "tags": [],
@@ -1609,7 +1710,7 @@
  {
   "id": "inclusionAI/LLaDA-MoE-7B-A1B-Instruct-TD",
   "createdAt": "2025-10-28T07:57:02.000Z",
-  "downloads": 169,
+  "downloads": 203,
   "likes": 11,
   "pipeline": "",
   "tags": [],
@@ -1618,7 +1719,7 @@
  {
   "id": "inclusionAI/LLaDA2.0-flash-preview",
   "createdAt": "2025-10-25T09:22:29.000Z",
-  "downloads": 119,
+  "downloads": 134,
   "likes": 67,
   "pipeline": "text-generation",
   "tags": [
@@ -1630,7 +1731,7 @@
  {
   "id": "inclusionAI/TwinFlow",
   "createdAt": "2025-10-24T07:19:30.000Z",
-  "downloads": 38,
+  "downloads": 35,
   "likes": 125,
   "pipeline": "text-to-image",
   "tags": [],
@@ -1648,7 +1749,7 @@
  {
   "id": "inclusionAI/Ring-flash-linear-2.0-128k",
   "createdAt": "2025-10-21T02:57:09.000Z",
-  "downloads": 192,
+  "downloads": 200,
   "likes": 20,
   "pipeline": "text-generation",
   "tags": [
@@ -1660,8 +1761,8 @@
  {
   "id": "inclusionAI/LLaDA2.0-mini-preview",
   "createdAt": "2025-10-17T07:36:24.000Z",
-  "downloads": 1192,
-  "likes": 88,
+  "downloads": 1710,
+  "likes": 87,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1672,7 +1773,7 @@
  {
   "id": "inclusionAI/Ring-mini-sparse-2.0-exp",
   "createdAt": "2025-10-14T08:59:03.000Z",
-  "downloads": 977,
+  "downloads": 1432,
   "likes": 23,
   "pipeline": "text-generation",
   "tags": [
@@ -1684,8 +1785,8 @@
  {
   "id": "inclusionAI/Ming-flash-omni-Preview",
   "createdAt": "2025-10-14T06:44:27.000Z",
-  "downloads": 3849,
-  "likes": 70,
+  "downloads": 3383,
+  "likes": 71,
   "pipeline": "any-to-any",
   "tags": [
    "any-to-any"
@@ -1695,7 +1796,7 @@
  {
   "id": "inclusionAI/Ring-1T",
   "createdAt": "2025-10-10T16:39:04.000Z",
-  "downloads": 1307,
+  "downloads": 1836,
   "likes": 233,
   "pipeline": "text-generation",
   "tags": [
@@ -1707,7 +1808,7 @@
  {
   "id": "inclusionAI/V2P-7B",
   "createdAt": "2025-10-10T12:13:17.000Z",
-  "downloads": 61,
+  "downloads": 75,
   "likes": 9,
   "pipeline": "",
   "tags": [],
@@ -1716,7 +1817,7 @@
  {
   "id": "inclusionAI/Ling-1T",
   "createdAt": "2025-10-02T13:41:55.000Z",
-  "downloads": 3490,
+  "downloads": 4313,
   "likes": 546,
   "pipeline": "text-generation",
   "tags": [
@@ -1728,7 +1829,7 @@
  {
   "id": "inclusionAI/Ming-UniVision-16B-A3B",
   "createdAt": "2025-09-30T14:24:48.000Z",
-  "downloads": 193,
+  "downloads": 206,
   "likes": 65,
   "pipeline": "any-to-any",
   "tags": [
@@ -1740,7 +1841,7 @@
  {
   "id": "inclusionAI/MingTok-Vision",
   "createdAt": "2025-09-30T14:24:34.000Z",
-  "downloads": 65,
+  "downloads": 63,
   "likes": 31,
   "pipeline": "image-feature-extraction",
   "tags": [],
@@ -1749,7 +1850,7 @@
  {
   "id": "inclusionAI/Ming-UniAudio-16B-A3B-Edit",
   "createdAt": "2025-09-30T07:16:53.000Z",
-  "downloads": 181,
+  "downloads": 178,
   "likes": 29,
   "pipeline": "",
   "tags": [],
@@ -1758,7 +1859,7 @@
  {
   "id": "inclusionAI/Ring-flash-linear-2.0-GPTQ-int4",
   "createdAt": "2025-09-30T04:30:42.000Z",
-  "downloads": 61,
+  "downloads": 80,
   "likes": 8,
   "pipeline": "text-generation",
   "tags": [
@@ -1770,7 +1871,7 @@
  {
   "id": "inclusionAI/Ring-mini-linear-2.0-GPTQ-int4",
   "createdAt": "2025-09-30T03:37:10.000Z",
-  "downloads": 206,
+  "downloads": 196,
   "likes": 11,
   "pipeline": "text-generation",
   "tags": [
@@ -1782,7 +1883,7 @@
  {
   "id": "inclusionAI/MingTok-Audio",
   "createdAt": "2025-09-29T06:19:07.000Z",
-  "downloads": 220,
+  "downloads": 203,
   "likes": 30,
   "pipeline": "",
   "tags": [],
@@ -1791,7 +1892,7 @@
  {
   "id": "inclusionAI/Ming-UniAudio-16B-A3B",
   "createdAt": "2025-09-29T02:59:11.000Z",
-  "downloads": 172,
+  "downloads": 177,
   "likes": 80,
   "pipeline": "any-to-any",
   "tags": [
@@ -1802,7 +1903,7 @@
  {
   "id": "inclusionAI/Ring-flash-linear-2.0",
   "createdAt": "2025-09-25T07:05:17.000Z",
-  "downloads": 459,
+  "downloads": 430,
   "likes": 98,
   "pipeline": "text-generation",
   "tags": [
@@ -1814,7 +1915,7 @@
  {
   "id": "inclusionAI/Ring-mini-2.0-GGUF",
   "createdAt": "2025-09-24T10:30:16.000Z",
-  "downloads": 799,
+  "downloads": 850,
   "likes": 25,
   "pipeline": "",
   "tags": [
@@ -1825,7 +1926,7 @@
  {
   "id": "inclusionAI/Ling-mini-2.0-GGUF",
   "createdAt": "2025-09-24T09:15:09.000Z",
-  "downloads": 1300,
+  "downloads": 1467,
   "likes": 28,
   "pipeline": "",
   "tags": [
@@ -1836,7 +1937,7 @@
  {
   "id": "inclusionAI/Ring-mini-linear-2.0",
   "createdAt": "2025-09-24T09:08:32.000Z",
-  "downloads": 849,
+  "downloads": 914,
   "likes": 89,
   "pipeline": "text-generation",
   "tags": [
@@ -1848,7 +1949,7 @@
  {
   "id": "inclusionAI/Ring-flash-2.0",
   "createdAt": "2025-09-19T07:11:36.000Z",
-  "downloads": 1370,
+  "downloads": 1846,
   "likes": 104,
   "pipeline": "text-generation",
   "tags": [
@@ -1860,7 +1961,7 @@
  {
   "id": "inclusionAI/ASearcher-Web-QwQ-V2",
   "createdAt": "2025-09-18T02:50:03.000Z",
-  "downloads": 58,
+  "downloads": 70,
   "likes": 2,
   "pipeline": "",
   "tags": [],
@@ -1869,7 +1970,7 @@
  {
   "id": "inclusionAI/Ling-flash-base-2.0",
   "createdAt": "2025-09-17T02:48:12.000Z",
-  "downloads": 296,
+  "downloads": 339,
   "likes": 31,
   "pipeline": "text-generation",
   "tags": [
@@ -1881,7 +1982,7 @@
  {
   "id": "inclusionAI/Ling-flash-2.0",
   "createdAt": "2025-09-17T02:40:31.000Z",
-  "downloads": 4460,
+  "downloads": 5022,
   "likes": 222,
   "pipeline": "text-generation",
   "tags": [
@@ -1893,8 +1994,8 @@
  {
   "id": "inclusionAI/LLaDA-MoE-7B-A1B-Instruct",
   "createdAt": "2025-09-10T09:13:14.000Z",
-  "downloads": 12523,
-  "likes": 77,
+  "downloads": 11457,
+  "likes": 76,
   "pipeline": "",
   "tags": [],
   "gated": false
@@ -1902,8 +2003,8 @@
  {
   "id": "inclusionAI/LLaDA-MoE-7B-A1B-Base",
   "createdAt": "2025-09-10T09:12:52.000Z",
-  "downloads": 685,
-  "likes": 37,
+  "downloads": 735,
+  "likes": 38,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1914,7 +2015,7 @@
  {
   "id": "inclusionAI/Ring-mini-2.0",
   "createdAt": "2025-09-08T14:45:03.000Z",
-  "downloads": 1634,
+  "downloads": 2115,
   "likes": 188,
   "pipeline": "text-generation",
   "tags": [
@@ -1926,7 +2027,7 @@
  {
   "id": "inclusionAI/Ling-mini-base-2.0-20T",
   "createdAt": "2025-09-08T14:44:37.000Z",
-  "downloads": 174,
+  "downloads": 192,
   "likes": 14,
   "pipeline": "",
   "tags": [],
@@ -1935,7 +2036,7 @@
  {
   "id": "inclusionAI/Ling-mini-base-2.0-15T",
   "createdAt": "2025-09-08T14:44:19.000Z",
-  "downloads": 103,
+  "downloads": 128,
   "likes": 4,
   "pipeline": "",
   "tags": [],
@@ -1944,7 +2045,7 @@
  {
   "id": "inclusionAI/Ling-mini-base-2.0-10T",
   "createdAt": "2025-09-08T14:43:57.000Z",
-  "downloads": 95,
+  "downloads": 117,
   "likes": 7,
   "pipeline": "",
   "tags": [],
@@ -1953,7 +2054,7 @@
  {
   "id": "inclusionAI/Ling-mini-base-2.0-5T",
   "createdAt": "2025-09-08T14:43:16.000Z",
-  "downloads": 114,
+  "downloads": 149,
   "likes": 7,
   "pipeline": "",
   "tags": [],
@@ -1962,7 +2063,7 @@
  {
   "id": "inclusionAI/Ling-mini-base-2.0",
   "createdAt": "2025-09-08T14:42:49.000Z",
-  "downloads": 1158,
+  "downloads": 1751,
   "likes": 26,
   "pipeline": "",
   "tags": [],
@@ -1971,8 +2072,8 @@
  {
   "id": "inclusionAI/Ling-mini-2.0",
   "createdAt": "2025-09-08T13:43:44.000Z",
-  "downloads": 4549,
-  "likes": 209,
+  "downloads": 4348,
+  "likes": 208,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -1983,7 +2084,7 @@
  {
   "id": "inclusionAI/Qwen3-32B-AWorld",
   "createdAt": "2025-08-29T07:59:59.000Z",
-  "downloads": 1026,
+  "downloads": 1614,
   "likes": 15,
   "pipeline": "text-generation",
   "tags": [
@@ -1995,7 +2096,7 @@
  {
   "id": "inclusionAI/GroveMoE-Base",
   "createdAt": "2025-08-18T12:01:27.000Z",
-  "downloads": 99,
+  "downloads": 113,
   "likes": 3,
   "pipeline": "text-generation",
   "tags": [
@@ -2007,7 +2108,7 @@
  {
   "id": "inclusionAI/Rubicon-Preview",
   "createdAt": "2025-08-18T07:15:14.000Z",
-  "downloads": 1199,
+  "downloads": 1934,
   "likes": 26,
   "pipeline": "text-generation",
   "tags": [
@@ -2019,7 +2120,7 @@
  {
   "id": "inclusionAI/GroveMoE-Inst",
   "createdAt": "2025-08-18T05:28:51.000Z",
-  "downloads": 265,
+  "downloads": 248,
   "likes": 45,
   "pipeline": "text-generation",
   "tags": [
@@ -2031,7 +2132,7 @@
  {
   "id": "inclusionAI/UI-Venus-Navi-72B",
   "createdAt": "2025-08-16T07:27:35.000Z",
-  "downloads": 994,
+  "downloads": 1514,
   "likes": 8,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -2043,7 +2144,7 @@
  {
   "id": "inclusionAI/UI-Venus-Navi-7B",
   "createdAt": "2025-08-16T07:27:20.000Z",
-  "downloads": 121,
+  "downloads": 125,
   "likes": 12,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -2055,7 +2156,7 @@
  {
   "id": "inclusionAI/UI-Venus-Ground-72B",
   "createdAt": "2025-08-16T07:27:06.000Z",
-  "downloads": 1039,
+  "downloads": 1545,
   "likes": 15,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -2067,7 +2168,7 @@
  {
   "id": "inclusionAI/GUI-G2-7B",
   "createdAt": "2025-08-15T14:17:38.000Z",
-  "downloads": 84,
+  "downloads": 99,
   "likes": 11,
   "pipeline": "",
   "tags": [],
@@ -2076,7 +2177,7 @@
  {
   "id": "inclusionAI/GUI-G2-3B",
   "createdAt": "2025-08-15T13:30:20.000Z",
-  "downloads": 69,
+  "downloads": 75,
   "likes": 5,
   "pipeline": "",
   "tags": [],
@@ -2085,7 +2186,7 @@
  {
   "id": "inclusionAI/UI-Venus-Ground-7B",
   "createdAt": "2025-08-15T13:10:44.000Z",
-  "downloads": 1185,
+  "downloads": 1735,
   "likes": 25,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -2097,7 +2198,7 @@
  {
   "id": "inclusionAI/Ling-lite-1.5-2507",
   "createdAt": "2025-08-08T08:07:53.000Z",
-  "downloads": 1362,
+  "downloads": 2015,
   "likes": 77,
   "pipeline": "text-generation",
   "tags": [
@@ -2109,7 +2210,7 @@
  {
   "id": "inclusionAI/Ring-lite-2506",
   "createdAt": "2025-08-06T05:30:17.000Z",
-  "downloads": 900,
+  "downloads": 1361,
   "likes": 36,
   "pipeline": "",
   "tags": [],
@@ -2118,7 +2219,7 @@
  {
   "id": "inclusionAI/ASearcher-Local-7B",
   "createdAt": "2025-08-06T03:01:55.000Z",
-  "downloads": 1227,
+  "downloads": 1944,
   "likes": 24,
   "pipeline": "",
   "tags": [],
@@ -2127,7 +2228,7 @@
  {
   "id": "inclusionAI/ASearcher-Web-7B",
   "createdAt": "2025-08-05T10:51:58.000Z",
-  "downloads": 162,
+  "downloads": 144,
   "likes": 22,
   "pipeline": "",
   "tags": [],
@@ -2136,7 +2237,7 @@
  {
   "id": "inclusionAI/ASearcher-Web-QwQ",
   "createdAt": "2025-08-05T10:35:28.000Z",
-  "downloads": 1236,
+  "downloads": 1955,
   "likes": 23,
   "pipeline": "",
   "tags": [],
@@ -2145,7 +2246,7 @@
  {
   "id": "inclusionAI/ASearcher-Local-14B",
   "createdAt": "2025-08-05T10:28:52.000Z",
-  "downloads": 175,
+  "downloads": 155,
   "likes": 29,
   "pipeline": "",
   "tags": [],
@@ -2154,7 +2255,7 @@
  {
   "id": "inclusionAI/ASearcher-Web-14B",
   "createdAt": "2025-08-05T10:12:16.000Z",
-  "downloads": 158,
+  "downloads": 135,
   "likes": 23,
   "pipeline": "",
   "tags": [],
@@ -2163,7 +2264,7 @@
  {
   "id": "inclusionAI/Ring-lite-2507",
   "createdAt": "2025-08-01T11:40:01.000Z",
-  "downloads": 910,
+  "downloads": 1379,
   "likes": 61,
   "pipeline": "",
   "tags": [],
@@ -2172,7 +2273,7 @@
  {
   "id": "inclusionAI/Ming-lite-omni-1.5-FP8",
   "createdAt": "2025-07-30T10:35:08.000Z",
-  "downloads": 334,
+  "downloads": 301,
   "likes": 21,
   "pipeline": "",
   "tags": [],
@@ -2181,7 +2282,7 @@
  {
   "id": "inclusionAI/Ling-lite-1.5-2506",
   "createdAt": "2025-07-23T10:21:33.000Z",
-  "downloads": 180,
+  "downloads": 182,
   "likes": 52,
   "pipeline": "text-generation",
   "tags": [
@@ -2193,7 +2294,7 @@
  {
   "id": "inclusionAI/Ming-Lite-Omni-1.5",
   "createdAt": "2025-07-15T11:20:28.000Z",
-  "downloads": 683,
+  "downloads": 880,
   "likes": 84,
   "pipeline": "any-to-any",
   "tags": [
@@ -2204,7 +2305,7 @@
  {
   "id": "inclusionAI/M2-Reasoning",
   "createdAt": "2025-07-02T06:49:28.000Z",
-  "downloads": 110,
+  "downloads": 114,
   "likes": 36,
   "pipeline": "",
   "tags": [],
@@ -2213,7 +2314,7 @@
  {
   "id": "inclusionAI/Ring-lite",
   "createdAt": "2025-06-17T04:18:39.000Z",
-  "downloads": 1014,
+  "downloads": 1499,
   "likes": 49,
   "pipeline": "text-generation",
   "tags": [
@@ -2225,7 +2326,7 @@
  {
   "id": "inclusionAI/AReaL-boba-2-32B",
   "createdAt": "2025-06-03T14:30:02.000Z",
-  "downloads": 1268,
+  "downloads": 1985,
   "likes": 19,
   "pipeline": "text-generation",
   "tags": [
@@ -2237,7 +2338,7 @@
  {
   "id": "inclusionAI/AReaL-boba-2-8B",
   "createdAt": "2025-06-03T14:19:54.000Z",
-  "downloads": 1259,
+  "downloads": 1983,
   "likes": 28,
   "pipeline": "text-generation",
   "tags": [
@@ -2249,7 +2350,7 @@
  {
   "id": "inclusionAI/AReaL-boba-2-14B",
   "createdAt": "2025-06-03T14:18:20.000Z",
-  "downloads": 1272,
+  "downloads": 1990,
   "likes": 21,
   "pipeline": "text-generation",
   "tags": [
@@ -2261,7 +2362,7 @@
  {
   "id": "inclusionAI/AReaL-boba-2-14B-Open",
   "createdAt": "2025-06-03T14:10:28.000Z",
-  "downloads": 194,
+  "downloads": 175,
   "likes": 19,
   "pipeline": "text-generation",
   "tags": [
@@ -2273,7 +2374,7 @@
  {
   "id": "inclusionAI/AReaL-boba-2-8B-Open",
   "createdAt": "2025-06-03T13:48:11.000Z",
-  "downloads": 201,
+  "downloads": 177,
   "likes": 19,
   "pipeline": "text-generation",
   "tags": [
@@ -2285,7 +2386,7 @@
  {
   "id": "inclusionAI/ViLaSR",
   "createdAt": "2025-06-01T15:56:01.000Z",
-  "downloads": 1029,
+  "downloads": 1546,
   "likes": 18,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -2297,7 +2398,7 @@
  {
   "id": "inclusionAI/Ling-lite-base-1.5",
   "createdAt": "2025-05-11T05:36:02.000Z",
-  "downloads": 1037,
+  "downloads": 1630,
   "likes": 33,
   "pipeline": "text-generation",
   "tags": [
@@ -2309,7 +2410,7 @@
  {
   "id": "inclusionAI/Ling-lite-1.5",
   "createdAt": "2025-05-11T05:32:38.000Z",
-  "downloads": 1408,
+  "downloads": 1353,
   "likes": 57,
   "pipeline": "text-generation",
   "tags": [
@@ -2332,7 +2433,7 @@
  {
   "id": "inclusionAI/Ming-Lite-Omni",
   "createdAt": "2025-05-02T02:32:18.000Z",
-  "downloads": 199,
+  "downloads": 236,
   "likes": 200,
   "pipeline": "any-to-any",
   "tags": [
@@ -2344,7 +2445,7 @@
  {
   "id": "inclusionAI/Ring-lite-linear-preview",
   "createdAt": "2025-04-24T02:58:46.000Z",
-  "downloads": 207,
+  "downloads": 196,
   "likes": 38,
   "pipeline": "text-generation",
   "tags": [
@@ -2356,7 +2457,7 @@
  {
   "id": "inclusionAI/Ling-Coder-lite-GPTQ-Int8",
   "createdAt": "2025-04-03T07:50:35.000Z",
-  "downloads": 80,
+  "downloads": 71,
   "likes": 16,
   "pipeline": "",
   "tags": [],
@@ -2365,7 +2466,7 @@
  {
   "id": "inclusionAI/Ring-lite-distill-preview",
   "createdAt": "2025-03-29T12:14:00.000Z",
-  "downloads": 951,
+  "downloads": 1420,
   "likes": 46,
   "pipeline": "text-generation",
   "tags": [
@@ -2377,7 +2478,7 @@
  {
   "id": "inclusionAI/AReaL-boba-RL-7B",
   "createdAt": "2025-03-29T09:13:40.000Z",
-  "downloads": 1217,
+  "downloads": 1927,
   "likes": 21,
   "pipeline": "",
   "tags": [],
@@ -2386,7 +2487,7 @@
  {
   "id": "inclusionAI/AReaL-boba-SFT-32B",
   "createdAt": "2025-03-29T06:44:52.000Z",
-  "downloads": 1058,
+  "downloads": 1794,
   "likes": 24,
   "pipeline": "",
   "tags": [],
@@ -2395,7 +2496,7 @@
  {
   "id": "inclusionAI/Ling-Coder-lite-base",
   "createdAt": "2025-03-08T02:07:45.000Z",
-  "downloads": 172,
+  "downloads": 168,
   "likes": 27,
   "pipeline": "text-generation",
   "tags": [
@@ -2406,7 +2507,7 @@
  {
   "id": "inclusionAI/Ling-Coder-lite",
   "createdAt": "2025-03-08T01:47:51.000Z",
-  "downloads": 1338,
+  "downloads": 2030,
   "likes": 55,
   "pipeline": "text-generation",
   "tags": [
@@ -2418,7 +2519,7 @@
  {
   "id": "inclusionAI/Ling-plus",
   "createdAt": "2025-02-28T07:12:07.000Z",
-  "downloads": 1370,
+  "downloads": 1953,
   "likes": 48,
   "pipeline": "text-generation",
   "tags": [
@@ -2430,7 +2531,7 @@
  {
   "id": "inclusionAI/Ling-plus-base",
   "createdAt": "2025-02-28T07:11:07.000Z",
-  "downloads": 1095,
+  "downloads": 1684,
   "likes": 31,
   "pipeline": "text-generation",
   "tags": [
@@ -2442,7 +2543,7 @@
  {
   "id": "inclusionAI/Ling-lite",
   "createdAt": "2025-02-28T07:10:10.000Z",
-  "downloads": 2285,
+  "downloads": 2767,
   "likes": 81,
   "pipeline": "text-generation",
   "tags": [
@@ -2454,7 +2555,7 @@
  {
   "id": "inclusionAI/Ling-lite-base",
   "createdAt": "2025-02-28T07:07:50.000Z",
-  "downloads": 283,
+  "downloads": 266,
   "likes": 29,
   "pipeline": "text-generation",
   "tags": [
@@ -2465,7 +2566,7 @@
  {
   "id": "inclusionAI/AReaL-1.5B-Preview-Stage-3",
   "createdAt": "2025-02-24T08:34:00.000Z",
-  "downloads": 174,
+  "downloads": 149,
   "likes": 18,
   "pipeline": "",
   "tags": [],
@@ -2474,7 +2575,7 @@
  {
   "id": "inclusionAI/AReaL-1.5B-Preview-Stage-2",
   "createdAt": "2025-02-24T08:33:18.000Z",
-  "downloads": 169,
+  "downloads": 145,
   "likes": 18,
   "pipeline": "",
   "tags": [],

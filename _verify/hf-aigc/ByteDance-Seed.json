@@ -2,8 +2,8 @@
  {
   "id": "ByteDance-Seed/Cola2",
   "createdAt": "2026-11-06T06:59:36.000Z",
-  "downloads": 523,
-  "likes": 12,
+  "downloads": 1269,
+  "likes": 15,
   "pipeline": "text-generation",
   "library": "transformers",
   "gated": false,
@@ -41,16 +41,17 @@
  {
   "id": "ByteDance-Seed/Cross-Layer-TopK-CLT",
   "createdAt": "2026-11-05T06:56:16.000Z",
-  "downloads": 325,
+  "downloads": 458,
   "likes": 5,
-  "pipeline": "",
+  "pipeline": "feature-extraction",
   "library": "",
   "gated": false,
   "tags": [
    "interpretability",
    "mechanistic-interpretability",
    "transcoder",
-   "cross-layer-transcoder"
+   "cross-layer-transcoder",
+   "feature-extraction"
   ]
  },
  {
@@ -88,7 +89,7 @@
  {
   "id": "ByteDance-Seed/TaskMem",
   "createdAt": "2026-06-02T03:10:24.000Z",
-  "downloads": 921,
+  "downloads": 1242,
   "likes": 5,
   "pipeline": "",
   "library": "",
@@ -113,7 +114,7 @@
  {
   "id": "ByteDance-Seed/Cola-DLM",
   "createdAt": "2026-05-15T07:55:26.000Z",
-  "downloads": 85,
+  "downloads": 93,
   "likes": 51,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -136,7 +137,7 @@
  {
   "id": "ByteDance-Seed/Stable-DiffCoder-8B-Instruct",
   "createdAt": "2026-01-15T07:49:01.000Z",
-  "downloads": 718,
+  "downloads": 765,
   "likes": 143,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -156,7 +157,7 @@
  {
   "id": "ByteDance-Seed/Stable-DiffCoder-8B-Base",
   "createdAt": "2026-01-15T07:48:10.000Z",
-  "downloads": 653,
+  "downloads": 789,
   "likes": 22,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -185,7 +186,7 @@
  {
   "id": "ByteDance-Seed/cryofm-v2",
   "createdAt": "2025-12-24T03:19:32.000Z",
-  "downloads": 39,
+  "downloads": 36,
   "likes": 7,
   "pipeline": "other",
   "library": "cryofm",
@@ -204,7 +205,7 @@
  {
   "id": "ByteDance-Seed/cryofm-v1",
   "createdAt": "2025-12-23T15:41:52.000Z",
-  "downloads": 17,
+  "downloads": 26,
   "likes": 6,
   "pipeline": "other",
   "library": "cryofm",
@@ -255,7 +256,7 @@
  {
   "id": "ByteDance-Seed/AHN-Mamba2-for-Qwen-2.5-Instruct-14B",
   "createdAt": "2025-10-08T07:23:59.000Z",
-  "downloads": 171,
+  "downloads": 186,
   "likes": 16,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -274,7 +275,7 @@
  {
   "id": "ByteDance-Seed/AHN-Mamba2-for-Qwen-2.5-Instruct-7B",
   "createdAt": "2025-10-08T07:23:28.000Z",
-  "downloads": 174,
+  "downloads": 184,
   "likes": 6,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -293,7 +294,7 @@
  {
   "id": "ByteDance-Seed/AHN-Mamba2-for-Qwen-2.5-Instruct-3B",
   "createdAt": "2025-10-08T07:22:45.000Z",
-  "downloads": 166,
+  "downloads": 169,
   "likes": 9,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -312,7 +313,7 @@
  {
   "id": "ByteDance-Seed/AHN-GDN-for-Qwen-2.5-Instruct-14B",
   "createdAt": "2025-10-08T07:21:07.000Z",
-  "downloads": 154,
+  "downloads": 161,
   "likes": 6,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -331,7 +332,7 @@
  {
   "id": "ByteDance-Seed/AHN-GDN-for-Qwen-2.5-Instruct-7B",
   "createdAt": "2025-10-08T07:20:53.000Z",
-  "downloads": 163,
+  "downloads": 171,
   "likes": 1,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -350,7 +351,7 @@
  {
   "id": "ByteDance-Seed/AHN-GDN-for-Qwen-2.5-Instruct-3B",
   "createdAt": "2025-10-08T07:20:34.000Z",
-  "downloads": 170,
+  "downloads": 179,
   "likes": 1,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -369,7 +370,7 @@
  {
   "id": "ByteDance-Seed/AHN-DN-for-Qwen-2.5-Instruct-14B",
   "createdAt": "2025-10-08T07:20:11.000Z",
-  "downloads": 150,
+  "downloads": 165,
   "likes": 3,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -388,7 +389,7 @@
  {
   "id": "ByteDance-Seed/AHN-DN-for-Qwen-2.5-Instruct-7B",
   "createdAt": "2025-10-08T07:19:54.000Z",
-  "downloads": 167,
+  "downloads": 189,
   "likes": 1,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -407,7 +408,7 @@
  {
   "id": "ByteDance-Seed/AHN-DN-for-Qwen-2.5-Instruct-3B",
   "createdAt": "2025-10-08T07:18:51.000Z",
-  "downloads": 153,
+  "downloads": 156,
   "likes": 1,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -426,7 +427,7 @@
  {
   "id": "ByteDance-Seed/BFS-Prover-V2-7B",
   "createdAt": "2025-10-06T05:22:52.000Z",
-  "downloads": 1637,
+  "downloads": 2452,
   "likes": 7,
   "pipeline": "text-generation",
   "library": "",
@@ -443,7 +444,7 @@
  {
   "id": "ByteDance-Seed/BFS-Prover-V2-32B",
   "createdAt": "2025-09-30T00:05:39.000Z",
-  "downloads": 193,
+  "downloads": 229,
   "likes": 12,
   "pipeline": "text-generation",
   "library": "",
@@ -473,7 +474,7 @@
   "id": "ByteDance-Seed/bamboo_mixer",
   "createdAt": "2025-08-26T00:44:02.000Z",
   "downloads": 0,
-  "likes": 12,
+  "likes": 13,
   "pipeline": "",
   "library": "",
   "gated": false,
@@ -486,7 +487,7 @@
  {
   "id": "ByteDance-Seed/Seed-OSS-36B-Instruct",
   "createdAt": "2025-08-20T15:03:26.000Z",
-  "downloads": 40949,
+  "downloads": 43033,
   "likes": 506,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -505,7 +506,7 @@
  {
   "id": "ByteDance-Seed/Seed-OSS-36B-Base-woSyn",
   "createdAt": "2025-08-20T14:49:52.000Z",
-  "downloads": 584,
+  "downloads": 551,
   "likes": 54,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -524,7 +525,7 @@
  {
   "id": "ByteDance-Seed/Seed-OSS-36B-Base",
   "createdAt": "2025-08-20T13:57:44.000Z",
-  "downloads": 1974,
+  "downloads": 2426,
   "likes": 69,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -543,7 +544,7 @@
  {
   "id": "ByteDance-Seed/M3-Agent-Memorization",
   "createdAt": "2025-08-12T11:06:59.000Z",
-  "downloads": 283,
+  "downloads": 257,
   "likes": 16,
   "pipeline": "",
   "library": "",
@@ -556,7 +557,7 @@
  {
   "id": "ByteDance-Seed/M3-Agent-Control",
   "createdAt": "2025-08-12T11:05:07.000Z",
-  "downloads": 1185,
+  "downloads": 1848,
   "likes": 50,
   "pipeline": "",
   "library": "",
@@ -569,7 +570,7 @@
  {
   "id": "ByteDance-Seed/cudaLLM-8B",
   "createdAt": "2025-08-03T00:40:02.000Z",
-  "downloads": 176,
+  "downloads": 195,
   "likes": 29,
   "pipeline": "text-generation",
   "library": "",
@@ -586,7 +587,7 @@
  {
   "id": "ByteDance-Seed/Seed-X-PPO-7B-AWQ-Int4",
   "createdAt": "2025-07-28T09:37:01.000Z",
-  "downloads": 139,
+  "downloads": 163,
   "likes": 12,
   "pipeline": "translation",
   "library": "",
@@ -609,7 +610,7 @@
  {
   "id": "ByteDance-Seed/Seed-X-PPO-7B-GPTQ-Int8",
   "createdAt": "2025-07-28T09:35:31.000Z",
-  "downloads": 87,
+  "downloads": 111,
   "likes": 11,
   "pipeline": "translation",
   "library": "",
@@ -632,7 +633,7 @@
  {
   "id": "ByteDance-Seed/Seed-X-RM-7B",
   "createdAt": "2025-07-16T13:47:13.000Z",
-  "downloads": 94,
+  "downloads": 101,
   "likes": 32,
   "pipeline": "translation",
   "library": "",
@@ -646,7 +647,7 @@
  {
   "id": "ByteDance-Seed/Seed-X-Instruct-7B",
   "createdAt": "2025-07-16T13:46:09.000Z",
-  "downloads": 3079,
+  "downloads": 2762,
   "likes": 129,
   "pipeline": "translation",
   "library": "",
@@ -669,7 +670,7 @@
  {
   "id": "ByteDance-Seed/Seed-X-PPO-7B",
   "createdAt": "2025-07-16T12:34:59.000Z",
-  "downloads": 1179,
+  "downloads": 1108,
   "likes": 303,
   "pipeline": "translation",
   "library": "",
@@ -692,7 +693,7 @@
  {
   "id": "ByteDance-Seed/VINCIE-3B",
   "createdAt": "2025-07-02T06:09:02.000Z",
-  "downloads": 892,
+  "downloads": 1492,
   "likes": 42,
   "pipeline": "image-to-image",
   "library": "vincie",
@@ -715,7 +716,7 @@
  {
   "id": "ByteDance-Seed/Tar-1.5B",
   "createdAt": "2025-07-02T05:47:40.000Z",
-  "downloads": 903,
+  "downloads": 1325,
   "likes": 23,
   "pipeline": "any-to-any",
   "library": "",
@@ -729,7 +730,7 @@
  {
   "id": "ByteDance-Seed/Tar-7B",
   "createdAt": "2025-07-02T05:45:55.000Z",
-  "downloads": 911,
+  "downloads": 1343,
   "likes": 41,
   "pipeline": "any-to-any",
   "library": "",
@@ -743,7 +744,7 @@
  {
   "id": "ByteDance-Seed/SeedVR-3B",
   "createdAt": "2025-06-11T12:44:21.000Z",
-  "downloads": 379,
+  "downloads": 770,
   "likes": 7,
   "pipeline": "video-to-video",
   "library": "seedvr",
@@ -756,7 +757,7 @@
  {
   "id": "ByteDance-Seed/SeedVR-7B",
   "createdAt": "2025-06-11T12:38:53.000Z",
-  "downloads": 265,
+  "downloads": 728,
   "likes": 13,
   "pipeline": "video-to-video",
   "library": "seedvr",
@@ -769,7 +770,7 @@
  {
   "id": "ByteDance-Seed/SeedVR2-7B",
   "createdAt": "2025-06-11T12:37:31.000Z",
-  "downloads": 28647,
+  "downloads": 28384,
   "likes": 166,
   "pipeline": "video-to-video",
   "library": "seedvr",
@@ -782,8 +783,8 @@
  {
   "id": "ByteDance-Seed/SeedVR2-3B",
   "createdAt": "2025-06-10T15:59:52.000Z",
-  "downloads": 27653,
-  "likes": 148,
+  "downloads": 40435,
+  "likes": 149,
   "pipeline": "video-to-video",
   "library": "seedvr",
   "gated": false,
@@ -808,7 +809,7 @@
  {
   "id": "ByteDance-Seed/BAGEL-7B-MoT",
   "createdAt": "2025-05-19T23:27:50.000Z",
-  "downloads": 7846,
+  "downloads": 8100,
   "likes": 1240,
   "pipeline": "any-to-any",
   "library": "bagel-mot",
@@ -824,7 +825,7 @@
  {
   "id": "ByteDance-Seed/Seed-Coder-8B-Reasoning-bf16",
   "createdAt": "2025-05-13T02:20:17.000Z",
-  "downloads": 1188,
+  "downloads": 1795,
   "likes": 23,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -842,7 +843,7 @@
  {
   "id": "ByteDance-Seed/SAIL-7B",
   "createdAt": "2025-05-07T06:42:31.000Z",
-  "downloads": 257,
+  "downloads": 222,
   "likes": 15,
   "pipeline": "image-text-to-text",
   "library": "transformers",
@@ -861,7 +862,7 @@
  {
   "id": "ByteDance-Seed/Seed-Coder-8B-Reasoning",
   "createdAt": "2025-04-27T07:52:58.000Z",
-  "downloads": 1662,
+  "downloads": 2317,
   "likes": 154,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -879,8 +880,8 @@
  {
   "id": "ByteDance-Seed/Seed-Coder-8B-Instruct",
   "createdAt": "2025-04-27T07:52:37.000Z",
-  "downloads": 4585,
-  "likes": 119,
+  "downloads": 5019,
+  "likes": 120,
   "pipeline": "text-generation",
   "library": "transformers",
   "gated": false,
@@ -897,7 +898,7 @@
  {
   "id": "ByteDance-Seed/Seed-Coder-8B-Base",
   "createdAt": "2025-04-27T03:53:38.000Z",
-  "downloads": 1324,
+  "downloads": 1389,
   "likes": 74,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -914,8 +915,8 @@
  {
   "id": "ByteDance-Seed/UI-TARS-1.5-7B",
   "createdAt": "2025-04-16T09:40:50.000Z",
-  "downloads": 104940,
-  "likes": 621,
+  "downloads": 228652,
+  "likes": 622,
   "pipeline": "image-text-to-text",
   "library": "transformers",
   "gated": false,
@@ -936,7 +937,7 @@
  {
   "id": "ByteDance-Seed/academic-ds-9B",
   "createdAt": "2025-04-09T13:02:51.000Z",
-  "downloads": 10586,
+  "downloads": 12651,
   "likes": 16,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -956,7 +957,7 @@
  {
   "id": "ByteDance-Seed/BFS-Prover-V1-7B",
   "createdAt": "2025-02-23T23:11:13.000Z",
-  "downloads": 1329,
+  "downloads": 2085,
   "likes": 26,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -978,7 +979,7 @@
  {
   "id": "ByteDance-Seed/UI-TARS-72B-DPO",
   "createdAt": "2025-01-22T08:26:41.000Z",
-  "downloads": 1928,
+  "downloads": 2511,
   "likes": 159,
   "pipeline": "image-text-to-text",
   "library": "transformers",
@@ -999,8 +1000,8 @@
  {
   "id": "ByteDance-Seed/UI-TARS-7B-DPO",
   "createdAt": "2025-01-22T08:26:26.000Z",
-  "downloads": 2321,
-  "likes": 235,
+  "downloads": 2639,
+  "likes": 236,
   "pipeline": "image-text-to-text",
   "library": "transformers",
   "gated": false,
@@ -1020,7 +1021,7 @@
  {
   "id": "ByteDance-Seed/UI-TARS-72B-SFT",
   "createdAt": "2025-01-20T03:24:42.000Z",
-  "downloads": 255,
+  "downloads": 266,
   "likes": 25,
   "pipeline": "image-text-to-text",
   "library": "transformers",
@@ -1042,7 +1043,7 @@
  {
   "id": "ByteDance-Seed/UI-TARS-7B-SFT",
   "createdAt": "2025-01-20T03:20:33.000Z",
-  "downloads": 839,
+  "downloads": 924,
   "likes": 181,
   "pipeline": "image-text-to-text",
   "library": "transformers",
@@ -1064,7 +1065,7 @@
  {
   "id": "ByteDance-Seed/UI-TARS-2B-SFT",
   "createdAt": "2025-01-20T02:23:35.000Z",
-  "downloads": 2296,
+  "downloads": 2658,
   "likes": 41,
   "pipeline": "image-text-to-text",
   "library": "transformers",

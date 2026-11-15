@@ -1,0 +1,38 @@
+[
+ {
+  "id": "ricursiveAI/Ripple-65B-Preview-NVFP4",
+  "createdAt": "2026-11-04T11:56:18.000Z",
+  "downloads": 4310,
+  "likes": 42,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "ricursiveAI/Ripple-65B-Preview-DFlash2",
+  "createdAt": "2026-11-04T11:44:14.000Z",
+  "downloads": 6821,
+  "likes": 24,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "ricursiveAI/Ripple-65B-Preview",
+  "createdAt": "2026-11-04T02:41:21.000Z",
+  "downloads": 10328,
+  "likes": 584,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ },
+ {
+  "id": "ricursiveAI/Ripple-65B-Base-Preview",
+  "createdAt": "2026-10-14T22:10:37.000Z",
+  "downloads": 797,
+  "likes": 29,
+  "pipeline": "",
+  "tags": [],
+  "gated": false
+ }
+]

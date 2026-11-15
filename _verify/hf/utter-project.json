@@ -2,8 +2,8 @@
  {
   "id": "utter-project/EuroLLM1.5-9B-SFT",
   "createdAt": "2026-08-29T21:40:27.000Z",
-  "downloads": 71,
-  "likes": 1,
+  "downloads": 230,
+  "likes": 3,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -14,8 +14,8 @@
  {
   "id": "utter-project/EuroLLM-9B-Instruct-2512",
   "createdAt": "2026-01-26T14:21:22.000Z",
-  "downloads": 11500,
-  "likes": 16,
+  "downloads": 6398,
+  "likes": 17,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -26,7 +26,7 @@
  {
   "id": "utter-project/EuroMoE-2.6B-A0.6B-Instruct-2512",
   "createdAt": "2025-12-15T11:43:20.000Z",
-  "downloads": 1291,
+  "downloads": 1113,
   "likes": 14,
   "pipeline": "text-generation",
   "tags": [
@@ -38,7 +38,7 @@
  {
   "id": "utter-project/EuroLLM-22B-Instruct-2512",
   "createdAt": "2025-12-05T02:33:37.000Z",
-  "downloads": 7320,
+  "downloads": 6704,
   "likes": 89,
   "pipeline": "text-generation",
   "tags": [
@@ -50,7 +50,7 @@
  {
   "id": "utter-project/EuroLLM-22B-2512",
   "createdAt": "2025-11-24T20:57:02.000Z",
-  "downloads": 3808,
+  "downloads": 4082,
   "likes": 22,
   "pipeline": "text-generation",
   "tags": [
@@ -151,7 +151,7 @@
  {
   "id": "utter-project/TowerVideo-9B",
   "createdAt": "2025-10-14T09:50:46.000Z",
-  "downloads": 63,
+  "downloads": 55,
   "likes": 5,
   "pipeline": "video-text-to-text",
   "tags": [
@@ -162,7 +162,7 @@
  {
   "id": "utter-project/TowerVideo-2B",
   "createdAt": "2025-10-14T09:31:40.000Z",
-  "downloads": 71,
+  "downloads": 61,
   "likes": 3,
   "pipeline": "video-text-to-text",
   "tags": [
@@ -173,7 +173,7 @@
  {
   "id": "utter-project/TowerVision-9B",
   "createdAt": "2025-08-20T08:59:19.000Z",
-  "downloads": 172,
+  "downloads": 127,
   "likes": 4,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -185,7 +185,7 @@
  {
   "id": "utter-project/TowerVision-2B",
   "createdAt": "2025-08-11T16:10:00.000Z",
-  "downloads": 208,
+  "downloads": 177,
   "likes": 6,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -197,7 +197,7 @@
  {
   "id": "utter-project/EuroLLM-22B-Preview",
   "createdAt": "2025-06-09T20:10:27.000Z",
-  "downloads": 161,
+  "downloads": 129,
   "likes": 8,
   "pipeline": "",
   "tags": [],
@@ -206,7 +206,7 @@
  {
   "id": "utter-project/EuroMoE-2.6B-A0.6B-Instruct-Preview",
   "createdAt": "2025-06-09T20:08:42.000Z",
-  "downloads": 2151,
+  "downloads": 2164,
   "likes": 11,
   "pipeline": "text-generation",
   "tags": [
@@ -218,7 +218,7 @@
  {
   "id": "utter-project/EuroMoE-2.6B-A0.6B-2512",
   "createdAt": "2025-06-09T20:04:07.000Z",
-  "downloads": 750,
+  "downloads": 712,
   "likes": 14,
   "pipeline": "text-generation",
   "tags": [
@@ -229,7 +229,7 @@
  {
   "id": "utter-project/EuroLLM-22B-Instruct-Preview",
   "createdAt": "2025-06-09T19:10:39.000Z",
-  "downloads": 1855,
+  "downloads": 1923,
   "likes": 8,
   "pipeline": "text-generation",
   "tags": [
@@ -241,7 +241,7 @@
  {
   "id": "utter-project/EuroVLM-1.7B-Preview",
   "createdAt": "2025-06-09T12:08:44.000Z",
-  "downloads": 109,
+  "downloads": 108,
   "likes": 7,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -253,7 +253,7 @@
  {
   "id": "utter-project/EuroVLM-9B-Preview",
   "createdAt": "2025-06-09T10:57:09.000Z",
-  "downloads": 972,
+  "downloads": 873,
   "likes": 6,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -265,7 +265,7 @@
  {
   "id": "utter-project/EuroLLM-9B-2512",
   "createdAt": "2025-06-07T15:35:44.000Z",
-  "downloads": 3245,
+  "downloads": 3137,
   "likes": 4,
   "pipeline": "text-generation",
   "tags": [
@@ -285,7 +285,7 @@
  {
   "id": "utter-project/TowerFull",
   "createdAt": "2025-03-11T16:14:09.000Z",
-  "downloads": 50,
+  "downloads": 39,
   "likes": 1,
   "pipeline": "",
   "tags": [],
@@ -294,7 +294,7 @@
  {
   "id": "utter-project/SpireNoPseudo",
   "createdAt": "2025-03-11T16:03:59.000Z",
-  "downloads": 40,
+  "downloads": 34,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -303,7 +303,7 @@
  {
   "id": "utter-project/SpireNoBlocks",
   "createdAt": "2025-03-11T15:51:51.000Z",
-  "downloads": 44,
+  "downloads": 32,
   "likes": 0,
   "pipeline": "",
   "tags": [],
@@ -312,7 +312,7 @@
  {
   "id": "utter-project/SpireBase",
   "createdAt": "2025-03-11T15:42:09.000Z",
-  "downloads": 70,
+  "downloads": 58,
   "likes": 4,
   "pipeline": "",
   "tags": [],
@@ -321,7 +321,7 @@
  {
   "id": "utter-project/SpireFull",
   "createdAt": "2025-03-11T15:19:11.000Z",
-  "downloads": 40,
+  "downloads": 31,
   "likes": 2,
   "pipeline": "",
   "tags": [],

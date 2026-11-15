@@ -1,9 +1,31 @@
 [
  {
+  "id": "MiniMaxAI/MiniMax-H3-Image-PE",
+  "createdAt": "2026-11-08T15:35:23.000Z",
+  "downloads": 2048,
+  "likes": 68,
+  "pipeline": "text-generation",
+  "tags": [
+   "image-text-to-text",
+   "text-generation",
+   "conversational"
+  ],
+  "gated": false
+ },
+ {
+  "id": "MiniMaxAI/MiniMax-H3-Image",
+  "createdAt": "2026-11-03T06:34:36.000Z",
+  "downloads": 517948,
+  "likes": 1136,
+  "pipeline": "text-to-image",
+  "tags": [],
+  "gated": false
+ },
+ {
   "id": "MiniMaxAI/MiniMax-M3.1-Flash",
   "createdAt": "2026-10-17T06:37:50.000Z",
-  "downloads": 51155,
-  "likes": 565,
+  "downloads": 62973,
+  "likes": 590,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -14,8 +36,8 @@
  {
   "id": "MiniMaxAI/MiniMax-Music3",
   "createdAt": "2026-08-07T12:23:29.000Z",
-  "downloads": 5713,
-  "likes": 1508,
+  "downloads": 5548,
+  "likes": 1528,
   "pipeline": "text-to-audio",
   "tags": [],
   "gated": false
@@ -23,8 +45,8 @@
  {
   "id": "MiniMaxAI/MiniMax-H3",
   "createdAt": "2026-07-28T10:45:18.000Z",
-  "downloads": 6429606,
-  "likes": 6672,
+  "downloads": 6314526,
+  "likes": 6935,
   "pipeline": "image-text-to-video",
   "tags": [],
   "gated": false
@@ -32,7 +54,7 @@
  {
   "id": "MiniMaxAI/MiniMax-M3-MXFP8",
   "createdAt": "2026-06-02T07:50:45.000Z",
-  "downloads": 40685,
+  "downloads": 44426,
   "likes": 63,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -44,8 +66,8 @@
  {
   "id": "MiniMaxAI/MiniMax-M3",
   "createdAt": "2026-06-02T07:49:31.000Z",
-  "downloads": 150566,
-  "likes": 1600,
+  "downloads": 134800,
+  "likes": 1603,
   "pipeline": "image-text-to-text",
   "tags": [
    "image-text-to-text",
@@ -56,7 +78,7 @@
  {
   "id": "MiniMaxAI/MiniMax-M2.7",
   "createdAt": "2026-04-09T03:37:12.000Z",
-  "downloads": 303257,
+  "downloads": 231386,
   "likes": 1261,
   "pipeline": "text-generation",
   "tags": [
@@ -68,8 +90,8 @@
  {
   "id": "MiniMaxAI/MiniMax-M2.5",
   "createdAt": "2026-02-12T06:05:24.000Z",
-  "downloads": 1214814,
-  "likes": 1530,
+  "downloads": 1054743,
+  "likes": 1531,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -80,8 +102,8 @@
  {
   "id": "MiniMaxAI/MiniMax-M2.1",
   "createdAt": "2025-12-20T05:45:05.000Z",
-  "downloads": 13076,
-  "likes": 1374,
+  "downloads": 13554,
+  "likes": 1372,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -92,7 +114,7 @@
  {
   "id": "MiniMaxAI/VTP-Large-f16d64",
   "createdAt": "2025-12-16T05:27:29.000Z",
-  "downloads": 295,
+  "downloads": 299,
   "likes": 22,
   "pipeline": "image-feature-extraction",
   "tags": [],
@@ -101,7 +123,7 @@
  {
   "id": "MiniMaxAI/VTP-Base-f16d64",
   "createdAt": "2025-12-16T05:25:29.000Z",
-  "downloads": 180,
+  "downloads": 210,
   "likes": 21,
   "pipeline": "image-feature-extraction",
   "tags": [],
@@ -110,7 +132,7 @@
  {
   "id": "MiniMaxAI/VTP-Small-f16d64",
   "createdAt": "2025-12-16T05:06:02.000Z",
-  "downloads": 201,
+  "downloads": 240,
   "likes": 15,
   "pipeline": "image-feature-extraction",
   "tags": [],
@@ -119,8 +141,8 @@
  {
   "id": "MiniMaxAI/MiniMax-M2",
   "createdAt": "2025-10-22T13:45:10.000Z",
-  "downloads": 108349,
-  "likes": 1514,
+  "downloads": 109410,
+  "likes": 1512,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -131,7 +153,7 @@
  {
   "id": "MiniMaxAI/MiniMax-M1-40k-hf",
   "createdAt": "2025-07-01T16:56:51.000Z",
-  "downloads": 597,
+  "downloads": 595,
   "likes": 12,
   "pipeline": "text-generation",
   "tags": [
@@ -143,7 +165,7 @@
  {
   "id": "MiniMaxAI/MiniMax-M1-80k-hf",
   "createdAt": "2025-07-01T16:52:58.000Z",
-  "downloads": 624,
+  "downloads": 614,
   "likes": 8,
   "pipeline": "text-generation",
   "tags": [
@@ -155,7 +177,7 @@
  {
   "id": "MiniMaxAI/MiniMax-M1-80k",
   "createdAt": "2025-06-13T08:21:14.000Z",
-  "downloads": 1939,
+  "downloads": 2131,
   "likes": 692,
   "pipeline": "text-generation",
   "tags": [
@@ -167,7 +189,7 @@
  {
   "id": "MiniMaxAI/MiniMax-M1-40k",
   "createdAt": "2025-06-05T08:42:49.000Z",
-  "downloads": 28720,
+  "downloads": 31833,
   "likes": 185,
   "pipeline": "text-generation",
   "tags": [
@@ -179,7 +201,7 @@
  {
   "id": "MiniMaxAI/MiniMax-Text-01-hf",
   "createdAt": "2025-06-03T09:38:42.000Z",
-  "downloads": 4001,
+  "downloads": 3479,
   "likes": 11,
   "pipeline": "text-generation",
   "tags": [
@@ -191,7 +213,7 @@
  {
   "id": "MiniMaxAI/SynLogic-7B",
   "createdAt": "2025-06-03T03:00:03.000Z",
-  "downloads": 1543,
+  "downloads": 2054,
   "likes": 29,
   "pipeline": "text-generation",
   "tags": [
@@ -203,7 +225,7 @@
  {
   "id": "MiniMaxAI/SynLogic-Mix-3-32B",
   "createdAt": "2025-05-30T13:32:06.000Z",
-  "downloads": 402,
+  "downloads": 420,
   "likes": 21,
   "pipeline": "text-generation",
   "tags": [
@@ -215,7 +237,7 @@
  {
   "id": "MiniMaxAI/SynLogic-32B",
   "createdAt": "2025-05-30T12:06:34.000Z",
-  "downloads": 772,
+  "downloads": 961,
   "likes": 17,
   "pipeline": "text-generation",
   "tags": [
@@ -227,7 +249,7 @@
  {
   "id": "MiniMaxAI/MiniMax-VL-01",
   "createdAt": "2025-01-12T15:02:13.000Z",
-  "downloads": 6514,
+  "downloads": 4780,
   "likes": 287,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -239,8 +261,8 @@
  {
   "id": "MiniMaxAI/MiniMax-Text-01",
   "createdAt": "2025-01-12T13:48:31.000Z",
-  "downloads": 3189,
-  "likes": 657,
+  "downloads": 3327,
+  "likes": 656,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",

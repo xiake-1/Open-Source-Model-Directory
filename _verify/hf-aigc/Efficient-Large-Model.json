@@ -2,8 +2,8 @@
  {
   "id": "Efficient-Large-Model/Open-H3-Regenerate-2K-IC",
   "createdAt": "2026-11-09T01:50:47.000Z",
-  "downloads": 0,
-  "likes": 8,
+  "downloads": 47550,
+  "likes": 70,
   "pipeline": "video-to-video",
   "library": "minimax-h3",
   "gated": false,
@@ -21,8 +21,8 @@
  {
   "id": "Efficient-Large-Model/Open-H3-Regenerate-2K-LoRA",
   "createdAt": "2026-11-02T06:15:06.000Z",
-  "downloads": 454,
-  "likes": 2,
+  "downloads": 999,
+  "likes": 3,
   "pipeline": "video-to-video",
   "library": "minimax-h3",
   "gated": false,
@@ -53,8 +53,8 @@
  {
   "id": "Efficient-Large-Model/Open-H3-Regenerate-2K",
   "createdAt": "2026-10-26T14:55:57.000Z",
-  "downloads": 744422,
-  "likes": 236,
+  "downloads": 1096407,
+  "likes": 251,
   "pipeline": "video-to-video",
   "library": "minimax-h3",
   "gated": false,
@@ -71,7 +71,7 @@
  {
   "id": "Efficient-Large-Model/Long-WAM-LIBERO-COD-LeRobot",
   "createdAt": "2026-10-20T16:30:56.000Z",
-  "downloads": 58,
+  "downloads": 75,
   "likes": 0,
   "pipeline": "robotics",
   "library": "lerobot",
@@ -87,7 +87,7 @@
  {
   "id": "Efficient-Large-Model/Long-WAM-LIBERO-IDM-LeRobot",
   "createdAt": "2026-10-20T16:30:56.000Z",
-  "downloads": 93,
+  "downloads": 139,
   "likes": 0,
   "pipeline": "robotics",
   "library": "lerobot",
@@ -103,8 +103,8 @@
  {
   "id": "Efficient-Large-Model/Sol-H3-VAE",
   "createdAt": "2026-10-16T17:17:45.000Z",
-  "downloads": 7693,
-  "likes": 10,
+  "downloads": 10014,
+  "likes": 14,
   "pipeline": "",
   "library": "diffusers",
   "gated": false,
@@ -118,7 +118,7 @@
  {
   "id": "Efficient-Large-Model/StreamRender-H3",
   "createdAt": "2026-10-11T12:08:11.000Z",
-  "downloads": 48129,
+  "downloads": 25077,
   "likes": 7,
   "pipeline": "",
   "library": "minimax-h3",
@@ -135,8 +135,8 @@
  {
   "id": "Efficient-Large-Model/Long-WAM-RoboCasa-GR1-19.2s",
   "createdAt": "2026-10-06T09:07:40.000Z",
-  "downloads": 84,
-  "likes": 0,
+  "downloads": 90,
+  "likes": 1,
   "pipeline": "robotics",
   "library": "pytorch",
   "gated": false,
@@ -151,7 +151,7 @@
  {
   "id": "Efficient-Large-Model/Long-WAM-RoboCasa-GR1-0s",
   "createdAt": "2026-10-06T09:07:38.000Z",
-  "downloads": 56,
+  "downloads": 50,
   "likes": 0,
   "pipeline": "robotics",
   "library": "pytorch",
@@ -167,7 +167,7 @@
  {
   "id": "Efficient-Large-Model/Long-WAM-RoboCasa-GR1-2.4s",
   "createdAt": "2026-10-06T09:07:38.000Z",
-  "downloads": 77,
+  "downloads": 64,
   "likes": 0,
   "pipeline": "robotics",
   "library": "pytorch",
@@ -183,7 +183,7 @@
  {
   "id": "Efficient-Large-Model/Long-WAM-RoboCasa-GR1-9.6s",
   "createdAt": "2026-10-06T09:07:38.000Z",
-  "downloads": 65,
+  "downloads": 59,
   "likes": 0,
   "pipeline": "robotics",
   "library": "pytorch",
@@ -199,7 +199,7 @@
  {
   "id": "Efficient-Large-Model/Long-WAM-RoboCasa-GR1-4.8s",
   "createdAt": "2026-10-06T09:05:14.000Z",
-  "downloads": 61,
+  "downloads": 50,
   "likes": 0,
   "pipeline": "robotics",
   "library": "pytorch",
@@ -215,7 +215,7 @@
  {
   "id": "Efficient-Large-Model/Long-WAM-YAM",
   "createdAt": "2026-10-06T08:51:41.000Z",
-  "downloads": 79,
+  "downloads": 90,
   "likes": 1,
   "pipeline": "robotics",
   "library": "pytorch",
@@ -231,7 +231,7 @@
  {
   "id": "Efficient-Large-Model/Long-WAM-RoboCasa365",
   "createdAt": "2026-10-06T08:49:06.000Z",
-  "downloads": 106,
+  "downloads": 104,
   "likes": 0,
   "pipeline": "robotics",
   "library": "pytorch",
@@ -263,7 +263,7 @@
  {
   "id": "Efficient-Large-Model/Long-WAM-LIBERO-COD",
   "createdAt": "2026-10-06T08:48:20.000Z",
-  "downloads": 93,
+  "downloads": 84,
   "likes": 1,
   "pipeline": "robotics",
   "library": "pytorch",
@@ -295,7 +295,7 @@
  {
   "id": "Efficient-Large-Model/Long-WAM-RoboTwin2.0-COD",
   "createdAt": "2026-10-06T08:48:19.000Z",
-  "downloads": 64,
+  "downloads": 53,
   "likes": 1,
   "pipeline": "robotics",
   "library": "pytorch",
@@ -311,7 +311,7 @@
  {
   "id": "Efficient-Large-Model/Long-WAM-LIBERO-IDM",
   "createdAt": "2026-10-06T08:48:19.000Z",
-  "downloads": 257,
+  "downloads": 228,
   "likes": 1,
   "pipeline": "robotics",
   "library": "pytorch",
@@ -327,7 +327,7 @@
  {
   "id": "Efficient-Large-Model/Long-WAM-RoboTwin2.0-IDM",
   "createdAt": "2026-10-06T08:48:19.000Z",
-  "downloads": 189,
+  "downloads": 160,
   "likes": 1,
   "pipeline": "robotics",
   "library": "pytorch",
@@ -343,7 +343,7 @@
  {
   "id": "Efficient-Large-Model/LongLive-Plug-Wan2.2-TI2V-5B-cfg",
   "createdAt": "2026-09-29T16:18:34.000Z",
-  "downloads": 312,
+  "downloads": 323,
   "likes": 0,
   "pipeline": "image-to-video",
   "library": "peft",
@@ -360,7 +360,7 @@
  {
   "id": "Efficient-Large-Model/LongLive-Plug-Wan2.2-TI2V-5B-few-step",
   "createdAt": "2026-09-29T16:18:08.000Z",
-  "downloads": 336,
+  "downloads": 332,
   "likes": 2,
   "pipeline": "text-to-video",
   "library": "peft",
@@ -377,7 +377,7 @@
  {
   "id": "Efficient-Large-Model/LongLive-Plug-Wan2.1-T2V-14B-cfg",
   "createdAt": "2026-09-29T16:17:50.000Z",
-  "downloads": 30,
+  "downloads": 33,
   "likes": 0,
   "pipeline": "text-to-video",
   "library": "peft",
@@ -410,7 +410,7 @@
  {
   "id": "Efficient-Large-Model/LongLive-Plug-MiniMax-H3-cfg",
   "createdAt": "2026-09-29T13:58:44.000Z",
-  "downloads": 44,
+  "downloads": 41,
   "likes": 0,
   "pipeline": "text-to-video",
   "library": "peft",
@@ -427,7 +427,7 @@
  {
   "id": "Efficient-Large-Model/LongLive-Plug-MiniMax-H3-few-step",
   "createdAt": "2026-09-29T13:58:44.000Z",
-  "downloads": 87,
+  "downloads": 68,
   "likes": 3,
   "pipeline": "text-to-video",
   "library": "peft",
@@ -443,7 +443,7 @@
  {
   "id": "Efficient-Large-Model/SoL-Refiner-LTX-2.5-for-MiniMax-H3",
   "createdAt": "2026-09-28T13:04:50.000Z",
-  "downloads": 384,
+  "downloads": 410,
   "likes": 16,
   "pipeline": "",
   "library": "diffusers",
@@ -456,7 +456,7 @@
  {
   "id": "Efficient-Large-Model/SoL-Refiner-LTX-2.3-Multi-Step",
   "createdAt": "2026-09-28T13:03:17.000Z",
-  "downloads": 26,
+  "downloads": 28,
   "likes": 3,
   "pipeline": "",
   "library": "diffusers",
@@ -469,8 +469,8 @@
  {
   "id": "Efficient-Large-Model/SoL-Refiner-LTX-2.3-One-Step",
   "createdAt": "2026-09-28T12:32:56.000Z",
-  "downloads": 115,
-  "likes": 3,
+  "downloads": 104,
+  "likes": 4,
   "pipeline": "",
   "library": "diffusers",
   "gated": false,
@@ -495,7 +495,7 @@
  {
   "id": "Efficient-Large-Model/H3-to-LTX-Latent-Adapter",
   "createdAt": "2026-09-10T01:50:18.000Z",
-  "downloads": 2261,
+  "downloads": 2270,
   "likes": 8,
   "pipeline": "",
   "library": "minimax-h3",
@@ -511,7 +511,7 @@
  {
   "id": "Efficient-Large-Model/SANA-WM_bidirectional-diffusers-refiner",
   "createdAt": "2026-09-09T09:36:43.000Z",
-  "downloads": 26,
+  "downloads": 43,
   "likes": 0,
   "pipeline": "",
   "library": "diffusers",
@@ -524,7 +524,7 @@
  {
   "id": "Efficient-Large-Model/SANA-WM_bidirectional-diffusers",
   "createdAt": "2026-09-09T09:36:41.000Z",
-  "downloads": 70,
+  "downloads": 73,
   "likes": 2,
   "pipeline": "",
   "library": "diffusers",
@@ -537,7 +537,7 @@
  {
   "id": "Efficient-Large-Model/SANA-Video_2.0_5B_720p_4step",
   "createdAt": "2026-08-27T08:11:49.000Z",
-  "downloads": 4396,
+  "downloads": 5295,
   "likes": 6,
   "pipeline": "text-to-video",
   "library": "sana",
@@ -560,7 +560,7 @@
  {
   "id": "Efficient-Large-Model/SANA-Video_2.0_5B_720p",
   "createdAt": "2026-08-20T04:13:34.000Z",
-  "downloads": 6967,
+  "downloads": 7772,
   "likes": 16,
   "pipeline": "text-to-video",
   "library": "sana",
@@ -633,7 +633,7 @@
  {
   "id": "Efficient-Large-Model/Fast-dDrive",
   "createdAt": "2026-05-30T10:21:01.000Z",
-  "downloads": 58,
+  "downloads": 57,
   "likes": 4,
   "pipeline": "image-text-to-text",
   "library": "transformers",
@@ -765,7 +765,7 @@
  {
   "id": "Efficient-Large-Model/Fast_dVLM_3B",
   "createdAt": "2026-04-13T14:22:06.000Z",
-  "downloads": 1191,
+  "downloads": 666,
   "likes": 2,
   "pipeline": "",
   "library": "",
@@ -784,7 +784,7 @@
  {
   "id": "Efficient-Large-Model/SANA-Video_2B_720p",
   "createdAt": "2026-03-16T10:01:28.000Z",
-  "downloads": 24,
+  "downloads": 28,
   "likes": 30,
   "pipeline": "text-to-video",
   "library": "sana, sana-video",
@@ -835,7 +835,7 @@
  {
   "id": "Efficient-Large-Model/EGM-8B-SFT",
   "createdAt": "2026-02-25T02:40:11.000Z",
-  "downloads": 13,
+  "downloads": 14,
   "likes": 2,
   "pipeline": "",
   "library": "",
@@ -858,7 +858,7 @@
  {
   "id": "Efficient-Large-Model/LongSANA_2B_480p_ode",
   "createdAt": "2025-12-05T14:28:52.000Z",
-  "downloads": 17,
+  "downloads": 19,
   "likes": 1,
   "pipeline": "",
   "library": "",
@@ -890,7 +890,7 @@
  {
   "id": "Efficient-Large-Model/EGM-8B",
   "createdAt": "2025-11-26T07:35:07.000Z",
-  "downloads": 16,
+  "downloads": 15,
   "likes": 2,
   "pipeline": "",
   "library": "",
@@ -903,7 +903,7 @@
  {
   "id": "Efficient-Large-Model/SANA-Video_2B_480p_LongLive",
   "createdAt": "2025-11-21T05:13:03.000Z",
-  "downloads": 28,
+  "downloads": 26,
   "likes": 2,
   "pipeline": "",
   "library": "",
@@ -934,8 +934,8 @@
  {
   "id": "Efficient-Large-Model/SANA-Video_2B_480p",
   "createdAt": "2025-10-27T05:17:43.000Z",
-  "downloads": 30,
-  "likes": 18,
+  "downloads": 40,
+  "likes": 19,
   "pipeline": "text-to-video",
   "library": "sana, sana-video",
   "gated": false,
@@ -994,7 +994,7 @@
  {
   "id": "Efficient-Large-Model/nvila_15b_video-plm_tuned",
   "createdAt": "2025-09-24T19:39:13.000Z",
-  "downloads": 9,
+  "downloads": 8,
   "likes": 0,
   "pipeline": "",
   "library": "",
@@ -1007,7 +1007,7 @@
  {
   "id": "Efficient-Large-Model/nvila_15b_video-wolfv2_tuned",
   "createdAt": "2025-09-24T19:36:43.000Z",
-  "downloads": 9,
+  "downloads": 7,
   "likes": 0,
   "pipeline": "",
   "library": "",
@@ -1020,7 +1020,7 @@
  {
   "id": "Efficient-Large-Model/qwen2_5vl-7b-wolfv2-tuned",
   "createdAt": "2025-09-23T23:57:53.000Z",
-  "downloads": 974,
+  "downloads": 1552,
   "likes": 0,
   "pipeline": "image-text-to-text",
   "library": "transformers",
@@ -1041,7 +1041,7 @@
  {
   "id": "Efficient-Large-Model/Fast_dLLM_v2_7B",
   "createdAt": "2025-09-16T09:42:45.000Z",
-  "downloads": 1569,
+  "downloads": 1780,
   "likes": 34,
   "pipeline": "",
   "library": "",
@@ -1056,7 +1056,7 @@
  {
   "id": "Efficient-Large-Model/NVILA-Lite-15B-WolfV2",
   "createdAt": "2025-09-12T17:22:42.000Z",
-  "downloads": 4,
+  "downloads": 5,
   "likes": 0,
   "pipeline": "",
   "library": "",
@@ -1069,7 +1069,7 @@
  {
   "id": "Efficient-Large-Model/NVILA-15B-hf",
   "createdAt": "2025-09-04T07:39:59.000Z",
-  "downloads": 829,
+  "downloads": 1320,
   "likes": 0,
   "pipeline": "",
   "library": "",
@@ -1083,7 +1083,7 @@
  {
   "id": "Efficient-Large-Model/NVILA-8B-hf",
   "createdAt": "2025-09-04T07:39:44.000Z",
-  "downloads": 923,
+  "downloads": 1388,
   "likes": 0,
   "pipeline": "",
   "library": "",
@@ -1097,7 +1097,7 @@
  {
   "id": "Efficient-Large-Model/NVILA-Lite-15B-hf",
   "createdAt": "2025-09-04T07:39:27.000Z",
-  "downloads": 817,
+  "downloads": 1316,
   "likes": 0,
   "pipeline": "",
   "library": "",
@@ -1111,7 +1111,7 @@
  {
   "id": "Efficient-Large-Model/NVILA-Lite-8B-hf",
   "createdAt": "2025-09-04T07:39:10.000Z",
-  "downloads": 24,
+  "downloads": 19,
   "likes": 0,
   "pipeline": "",
   "library": "",
@@ -1125,7 +1125,7 @@
  {
   "id": "Efficient-Large-Model/NVILA-Lite-2B-hf",
   "createdAt": "2025-09-04T07:38:46.000Z",
-  "downloads": 932,
+  "downloads": 1420,
   "likes": 0,
   "pipeline": "",
   "library": "",
@@ -1139,7 +1139,7 @@
  {
   "id": "Efficient-Large-Model/Fast_dLLM_v2_1.5B",
   "createdAt": "2025-09-02T09:19:06.000Z",
-  "downloads": 2044,
+  "downloads": 2038,
   "likes": 15,
   "pipeline": "",
   "library": "",
@@ -1164,7 +1164,7 @@
  {
   "id": "Efficient-Large-Model/LongVILA-R1-7B",
   "createdAt": "2025-07-24T13:31:42.000Z",
-  "downloads": 168,
+  "downloads": 148,
   "likes": 15,
   "pipeline": "",
   "library": "",
@@ -1206,7 +1206,7 @@
  {
   "id": "Efficient-Large-Model/nvila-internal-33b-video-v1",
   "createdAt": "2025-05-16T08:44:02.000Z",
-  "downloads": 8,
+  "downloads": 10,
   "likes": 1,
   "pipeline": "",
   "library": "",
@@ -1233,7 +1233,7 @@
  {
   "id": "Efficient-Large-Model/NVILA-Lite-15B-Video-hf-0626",
   "createdAt": "2025-05-08T01:07:09.000Z",
-  "downloads": 11,
+  "downloads": 8,
   "likes": 0,
   "pipeline": "",
   "library": "",
@@ -1247,7 +1247,7 @@
  {
   "id": "Efficient-Large-Model/NVILA-Lite-15B-hf-0626",
   "createdAt": "2025-05-08T01:06:55.000Z",
-  "downloads": 7,
+  "downloads": 5,
   "likes": 0,
   "pipeline": "",
   "library": "",
@@ -1261,7 +1261,7 @@
  {
   "id": "Efficient-Large-Model/NVILA-Lite-8B-hf-0626",
   "createdAt": "2025-05-08T01:06:30.000Z",
-  "downloads": 8,
+  "downloads": 5,
   "likes": 0,
   "pipeline": "",
   "library": "",
@@ -1306,7 +1306,7 @@
  {
   "id": "Efficient-Large-Model/Sana_Sprint_0.6B_1024px_teacher",
   "createdAt": "2025-03-31T12:40:28.000Z",
-  "downloads": 19,
+  "downloads": 24,
   "likes": 0,
   "pipeline": "text-to-image",
   "library": "sana, sana-sprint",
@@ -1326,7 +1326,7 @@
   "id": "Efficient-Large-Model/Sana_Sprint_0.6B_1024px_diffusers",
   "createdAt": "2025-03-31T09:03:20.000Z",
   "downloads": 0,
-  "likes": 25,
+  "likes": 26,
   "pipeline": "text-to-image",
   "library": "sana, sana-sprint",
   "gated": false,
@@ -1346,7 +1346,7 @@
  {
   "id": "Efficient-Large-Model/Sana_Sprint_0.6B_1024px",
   "createdAt": "2025-03-31T08:37:27.000Z",
-  "downloads": 643,
+  "downloads": 697,
   "likes": 10,
   "pipeline": "text-to-image",
   "library": "sana, sana-sprint",
@@ -1407,7 +1407,7 @@
  {
   "id": "Efficient-Large-Model/Sana_Sprint_1.6B_1024px",
   "createdAt": "2025-03-21T08:11:40.000Z",
-  "downloads": 64,
+  "downloads": 56,
   "likes": 21,
   "pipeline": "text-to-image",
   "library": "sana, sana-sprint",
@@ -1426,7 +1426,7 @@
  {
   "id": "Efficient-Large-Model/NVILA-Lite-2B-Verifier",
   "createdAt": "2025-03-19T07:35:52.000Z",
-  "downloads": 112,
+  "downloads": 115,
   "likes": 8,
   "pipeline": "",
   "library": "",
@@ -1444,7 +1444,7 @@
  {
   "id": "Efficient-Large-Model/Sana_Sprint_1.6B_1024px_teacher",
   "createdAt": "2025-03-19T07:30:43.000Z",
-  "downloads": 17,
+  "downloads": 26,
   "likes": 1,
   "pipeline": "text-to-image",
   "library": "sana, sana-sprint",
@@ -1483,7 +1483,7 @@
  {
   "id": "Efficient-Large-Model/SANA1.5_1.6B_1024px",
   "createdAt": "2025-03-18T08:11:53.000Z",
-  "downloads": 171,
+  "downloads": 167,
   "likes": 7,
   "pipeline": "text-to-image",
   "library": "sana",
@@ -1521,7 +1521,7 @@
  {
   "id": "Efficient-Large-Model/SANA1.5_4.8B_1024px",
   "createdAt": "2025-03-16T06:55:43.000Z",
-  "downloads": 185,
+  "downloads": 166,
   "likes": 26,
   "pipeline": "text-to-image",
   "library": "sana",
@@ -1539,7 +1539,7 @@
  {
   "id": "Efficient-Large-Model/VILA15-40b-hf-preview",
   "createdAt": "2025-02-24T16:38:23.000Z",
-  "downloads": 10,
+  "downloads": 8,
   "likes": 0,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -1558,7 +1558,7 @@
  {
   "id": "Efficient-Large-Model/VILA15-13b-hf-preview",
   "createdAt": "2025-02-24T16:18:54.000Z",
-  "downloads": 13,
+  "downloads": 9,
   "likes": 0,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -1577,7 +1577,7 @@
  {
   "id": "Efficient-Large-Model/Llama-3-VILA15-8B-hf-preview",
   "createdAt": "2025-02-24T16:03:03.000Z",
-  "downloads": 18,
+  "downloads": 11,
   "likes": 0,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -1596,7 +1596,7 @@
  {
   "id": "Efficient-Large-Model/VILA15-3b-hf-preview",
   "createdAt": "2025-02-24T15:50:35.000Z",
-  "downloads": 13,
+  "downloads": 8,
   "likes": 0,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -1625,7 +1625,7 @@
  {
   "id": "Efficient-Large-Model/NVILA-Lite-8B-hf-preview",
   "createdAt": "2025-02-21T15:52:12.000Z",
-  "downloads": 20,
+  "downloads": 43,
   "likes": 0,
   "pipeline": "",
   "library": "",
@@ -1643,7 +1643,7 @@
  {
   "id": "Efficient-Large-Model/NVILA-Lite-2B-hf-preview",
   "createdAt": "2025-02-21T15:42:55.000Z",
-  "downloads": 269,
+  "downloads": 216,
   "likes": 1,
   "pipeline": "",
   "library": "",
@@ -1661,7 +1661,7 @@
  {
   "id": "Efficient-Large-Model/NVILA-Lite-15B-Video",
   "createdAt": "2025-02-18T17:50:02.000Z",
-  "downloads": 54,
+  "downloads": 34,
   "likes": 1,
   "pipeline": "",
   "library": "",
@@ -1674,7 +1674,7 @@
  {
   "id": "Efficient-Large-Model/NVILA-Lite-2B",
   "createdAt": "2025-02-18T05:37:37.000Z",
-  "downloads": 180,
+  "downloads": 203,
   "likes": 8,
   "pipeline": "",
   "library": "",
@@ -1697,7 +1697,7 @@
  {
   "id": "Efficient-Large-Model/Sana_600M_1024px_ControlNet_HED",
   "createdAt": "2025-02-07T09:41:24.000Z",
-  "downloads": 62,
+  "downloads": 48,
   "likes": 3,
   "pipeline": "text-to-image",
   "library": "sana",
@@ -1716,7 +1716,7 @@
  {
   "id": "Efficient-Large-Model/Sana_1600M_1024px_BF16_ControlNet_HED",
   "createdAt": "2025-02-07T07:43:28.000Z",
-  "downloads": 65,
+  "downloads": 52,
   "likes": 1,
   "pipeline": "text-to-image",
   "library": "sana",
@@ -1755,7 +1755,7 @@
  {
   "id": "Efficient-Large-Model/Sana_1600M_4Kpx_BF16",
   "createdAt": "2025-01-08T08:06:27.000Z",
-  "downloads": 90,
+  "downloads": 67,
   "likes": 32,
   "pipeline": "text-to-image",
   "library": "sana",
@@ -1793,7 +1793,7 @@
  {
   "id": "Efficient-Large-Model/Sana_1600M_2Kpx_BF16",
   "createdAt": "2024-12-20T10:30:56.000Z",
-  "downloads": 76,
+  "downloads": 258,
   "likes": 11,
   "pipeline": "text-to-image",
   "library": "sana",
@@ -1811,7 +1811,7 @@
  {
   "id": "Efficient-Large-Model/vila-ewm-qwen2-1.5b",
   "createdAt": "2024-12-16T06:07:40.000Z",
-  "downloads": 154,
+  "downloads": 174,
   "likes": 2,
   "pipeline": "",
   "library": "",
@@ -1924,7 +1924,7 @@
  {
   "id": "Efficient-Large-Model/gemma-2-2b-it",
   "createdAt": "2024-12-12T16:22:42.000Z",
-  "downloads": 56073,
+  "downloads": 65576,
   "likes": 3,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -1962,7 +1962,7 @@
  {
   "id": "Efficient-Large-Model/NVILA-Lite-15B-stage2",
   "createdAt": "2024-12-10T21:21:28.000Z",
-  "downloads": 15,
+  "downloads": 11,
   "likes": 1,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -1980,7 +1980,7 @@
  {
   "id": "Efficient-Large-Model/NVILA-Lite-8B-stage2",
   "createdAt": "2024-12-10T21:16:56.000Z",
-  "downloads": 26,
+  "downloads": 29,
   "likes": 2,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -1998,7 +1998,7 @@
  {
   "id": "Efficient-Large-Model/NVILA-8B",
   "createdAt": "2024-12-10T21:07:49.000Z",
-  "downloads": 187,
+  "downloads": 161,
   "likes": 7,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -2016,7 +2016,7 @@
  {
   "id": "Efficient-Large-Model/Sana_1600M_1024px_BF16",
   "createdAt": "2024-12-10T04:15:40.000Z",
-  "downloads": 124,
+  "downloads": 115,
   "likes": 14,
   "pipeline": "text-to-image",
   "library": "sana",
@@ -2034,7 +2034,7 @@
  {
   "id": "Efficient-Large-Model/VILA15_3b",
   "createdAt": "2024-12-05T01:54:20.000Z",
-  "downloads": 3,
+  "downloads": 4,
   "likes": 0,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -2053,7 +2053,7 @@
  {
   "id": "Efficient-Large-Model/NVILA-15B",
   "createdAt": "2024-12-04T22:57:34.000Z",
-  "downloads": 101,
+  "downloads": 95,
   "likes": 26,
   "pipeline": "text-generation",
   "library": "transformers",

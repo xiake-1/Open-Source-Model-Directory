@@ -2,8 +2,8 @@
  {
   "id": "OpenMOSS-Team/MOSS-Image-SFT",
   "createdAt": "2026-10-11T07:01:17.000Z",
-  "downloads": 20971,
-  "likes": 937,
+  "downloads": 23809,
+  "likes": 960,
   "pipeline": "text-to-image",
   "library": "diffusers",
   "gated": false,
@@ -19,8 +19,8 @@
  {
   "id": "OpenMOSS-Team/MOSS-Image-Base",
   "createdAt": "2026-10-11T06:49:17.000Z",
-  "downloads": 12383,
-  "likes": 644,
+  "downloads": 14042,
+  "likes": 669,
   "pipeline": "text-to-image",
   "library": "diffusers",
   "gated": false,
@@ -148,7 +148,7 @@
  {
   "id": "OpenMOSS-Team/MOSS-VL-Realtime-SGLANG",
   "createdAt": "2026-09-06T15:37:38.000Z",
-  "downloads": 922,
+  "downloads": 1375,
   "likes": 5,
   "pipeline": "video-text-to-text",
   "library": "transformers",
@@ -219,7 +219,7 @@
  {
   "id": "OpenMOSS-Team/Qwen2.5-7B-base-mla-topk8-rank256",
   "createdAt": "2026-08-29T02:55:15.000Z",
-  "downloads": 34,
+  "downloads": 39,
   "likes": 1,
   "pipeline": "",
   "library": "",
@@ -236,7 +236,7 @@
  {
   "id": "OpenMOSS-Team/Qwen2.5-7B-base-mla-topk8-rank128",
   "createdAt": "2026-08-29T02:55:13.000Z",
-  "downloads": 26,
+  "downloads": 30,
   "likes": 0,
   "pipeline": "",
   "library": "",
@@ -253,7 +253,7 @@
  {
   "id": "OpenMOSS-Team/Qwen2.5-7B-base-mla-topk8-rank512",
   "createdAt": "2026-08-29T02:55:12.000Z",
-  "downloads": 32,
+  "downloads": 36,
   "likes": 0,
   "pipeline": "",
   "library": "",
@@ -270,7 +270,7 @@
  {
   "id": "OpenMOSS-Team/SmolLM-1.7B-base-mla-topk4-rank1024",
   "createdAt": "2026-08-29T02:55:11.000Z",
-  "downloads": 26,
+  "downloads": 27,
   "likes": 0,
   "pipeline": "",
   "library": "",
@@ -287,7 +287,7 @@
  {
   "id": "OpenMOSS-Team/SmolLM-1.7B-base-mla-topk2-rank384",
   "createdAt": "2026-08-29T02:55:10.000Z",
-  "downloads": 29,
+  "downloads": 31,
   "likes": 0,
   "pipeline": "",
   "library": "",
@@ -304,7 +304,7 @@
  {
   "id": "OpenMOSS-Team/SmolLM-1.7B-base-mla-topk2-rank640",
   "createdAt": "2026-08-29T02:55:08.000Z",
-  "downloads": 29,
+  "downloads": 30,
   "likes": 0,
   "pipeline": "",
   "library": "",
@@ -321,7 +321,7 @@
  {
   "id": "OpenMOSS-Team/Qwen3-30B-A3B-base-mla-topk8-rank128",
   "createdAt": "2026-08-28T16:03:29.000Z",
-  "downloads": 26,
+  "downloads": 33,
   "likes": 0,
   "pipeline": "",
   "library": "",
@@ -338,7 +338,7 @@
  {
   "id": "OpenMOSS-Team/Qwen3-30B-A3B-base-mla-topk8-rank256",
   "createdAt": "2026-08-28T16:03:28.000Z",
-  "downloads": 28,
+  "downloads": 37,
   "likes": 0,
   "pipeline": "",
   "library": "",
@@ -355,7 +355,7 @@
  {
   "id": "OpenMOSS-Team/Qwen3-30B-A3B-base-mla-topk8-rank512",
   "createdAt": "2026-08-28T16:03:28.000Z",
-  "downloads": 30,
+  "downloads": 38,
   "likes": 0,
   "pipeline": "",
   "library": "",
@@ -372,7 +372,7 @@
  {
   "id": "OpenMOSS-Team/Qwen3-8B-base-mla-topk8-rank256",
   "createdAt": "2026-08-28T16:03:27.000Z",
-  "downloads": 29,
+  "downloads": 30,
   "likes": 0,
   "pipeline": "",
   "library": "",
@@ -404,7 +404,7 @@
  {
   "id": "OpenMOSS-Team/Qwen3-8B-base-mla-topk8-rank1024",
   "createdAt": "2026-08-28T16:03:25.000Z",
-  "downloads": 23,
+  "downloads": 26,
   "likes": 0,
   "pipeline": "",
   "library": "",
@@ -420,7 +420,7 @@
  {
   "id": "OpenMOSS-Team/MOSS-VL-Realtime-FP8",
   "createdAt": "2026-08-11T10:51:05.000Z",
-  "downloads": 75,
+  "downloads": 95,
   "likes": 22,
   "pipeline": "video-text-to-text",
   "library": "transformers",
@@ -443,7 +443,7 @@
  {
   "id": "OpenMOSS-Team/MOSS-VL-Instruct-0708-NF4",
   "createdAt": "2026-08-11T10:48:49.000Z",
-  "downloads": 146,
+  "downloads": 155,
   "likes": 16,
   "pipeline": "video-text-to-text",
   "library": "transformers",
@@ -466,7 +466,7 @@
  {
   "id": "OpenMOSS-Team/MOSS-VL-Realtime-NF4",
   "createdAt": "2026-08-07T09:47:19.000Z",
-  "downloads": 212,
+  "downloads": 241,
   "likes": 16,
   "pipeline": "video-text-to-text",
   "library": "transformers",
@@ -489,7 +489,7 @@
  {
   "id": "OpenMOSS-Team/MOSS-VL-Instruct-0708-FP8",
   "createdAt": "2026-08-07T09:30:03.000Z",
-  "downloads": 1718,
+  "downloads": 1722,
   "likes": 22,
   "pipeline": "video-text-to-text",
   "library": "transformers",
@@ -512,7 +512,7 @@
  {
   "id": "OpenMOSS-Team/OmniVAE",
   "createdAt": "2026-07-26T20:42:15.000Z",
-  "downloads": 20,
+  "downloads": 21,
   "likes": 27,
   "pipeline": "",
   "library": "pytorch",
@@ -534,8 +534,8 @@
  {
   "id": "OpenMOSS-Team/MOSS-VL-Realtime",
   "createdAt": "2026-07-14T06:35:39.000Z",
-  "downloads": 1593,
-  "likes": 116,
+  "downloads": 2023,
+  "likes": 117,
   "pipeline": "video-text-to-text",
   "library": "transformers",
   "gated": false,
@@ -557,7 +557,7 @@
  {
   "id": "OpenMOSS-Team/MOSS-VL-Base-0708",
   "createdAt": "2026-07-13T11:36:58.000Z",
-  "downloads": 92,
+  "downloads": 102,
   "likes": 19,
   "pipeline": "video-text-to-text",
   "library": "transformers",
@@ -580,7 +580,7 @@
  {
   "id": "OpenMOSS-Team/MOSS-VL-Instruct-0708",
   "createdAt": "2026-07-13T11:25:21.000Z",
-  "downloads": 315,
+  "downloads": 348,
   "likes": 34,
   "pipeline": "video-text-to-text",
   "library": "transformers",
@@ -603,7 +603,7 @@
  {
   "id": "OpenMOSS-Team/SciJudge-30B-2605",
   "createdAt": "2026-07-02T02:18:41.000Z",
-  "downloads": 1180,
+  "downloads": 1614,
   "likes": 4,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -624,7 +624,7 @@
  {
   "id": "OpenMOSS-Team/SciJudge-4B-2605",
   "createdAt": "2026-07-02T02:18:17.000Z",
-  "downloads": 89,
+  "downloads": 86,
   "likes": 6,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -646,7 +646,7 @@
  {
   "id": "OpenMOSS-Team/MOSS-Transcribe-preview-2B",
   "createdAt": "2026-06-26T09:22:21.000Z",
-  "downloads": 309,
+  "downloads": 293,
   "likes": 54,
   "pipeline": "automatic-speech-recognition",
   "library": "transformers",
@@ -669,8 +669,8 @@
  {
   "id": "OpenMOSS-Team/MOSS-TTS-Local-Transformer-v1.5",
   "createdAt": "2026-06-04T10:40:50.000Z",
-  "downloads": 86120,
-  "likes": 75,
+  "downloads": 64247,
+  "likes": 77,
   "pipeline": "text-to-speech",
   "library": "transformers",
   "gated": false,
@@ -692,8 +692,8 @@
  {
   "id": "OpenMOSS-Team/MOSS-SoundEffect-v2.0",
   "createdAt": "2026-05-25T14:19:58.000Z",
-  "downloads": 5588,
-  "likes": 158,
+  "downloads": 6381,
+  "likes": 159,
   "pipeline": "text-to-audio",
   "library": "diffusers",
   "gated": false,
@@ -712,7 +712,7 @@
  {
   "id": "OpenMOSS-Team/MOSS-TTS-v1.5",
   "createdAt": "2026-05-25T12:40:42.000Z",
-  "downloads": 80593,
+  "downloads": 81885,
   "likes": 220,
   "pipeline": "text-to-speech",
   "library": "",
@@ -735,8 +735,8 @@
  {
   "id": "OpenMOSS-Team/MOSS-Transcribe-Diarize",
   "createdAt": "2026-05-19T08:19:23.000Z",
-  "downloads": 136479,
-  "likes": 516,
+  "downloads": 127829,
+  "likes": 522,
   "pipeline": "audio-text-to-text",
   "library": "transformers",
   "gated": false,
@@ -758,7 +758,7 @@
  {
   "id": "OpenMOSS-Team/MOSS-Music-8B-Instruct",
   "createdAt": "2026-04-21T09:27:21.000Z",
-  "downloads": 2384,
+  "downloads": 2964,
   "likes": 53,
   "pipeline": "audio-text-to-text",
   "library": "transformers",
@@ -781,7 +781,7 @@
  {
   "id": "OpenMOSS-Team/MOSS-Music-8B-Thinking",
   "createdAt": "2026-04-21T09:25:53.000Z",
-  "downloads": 629,
+  "downloads": 640,
   "likes": 44,
   "pipeline": "audio-text-to-text",
   "library": "transformers",
@@ -843,7 +843,7 @@
  {
   "id": "OpenMOSS-Team/MOSS-Audio-8B-Thinking",
   "createdAt": "2026-04-13T11:55:56.000Z",
-  "downloads": 1487,
+  "downloads": 1641,
   "likes": 93,
   "pipeline": "audio-text-to-text",
   "library": "",
@@ -866,7 +866,7 @@
  {
   "id": "OpenMOSS-Team/MOSS-Audio-8B-Instruct",
   "createdAt": "2026-04-13T11:17:35.000Z",
-  "downloads": 1533,
+  "downloads": 1657,
   "likes": 56,
   "pipeline": "audio-text-to-text",
   "library": "",
@@ -889,7 +889,7 @@
  {
   "id": "OpenMOSS-Team/MOSS-Audio-4B-Thinking",
   "createdAt": "2026-04-11T05:28:01.000Z",
-  "downloads": 547,
+  "downloads": 716,
   "likes": 41,
   "pipeline": "audio-text-to-text",
   "library": "",
@@ -912,7 +912,7 @@
  {
   "id": "OpenMOSS-Team/MOSS-Audio-4B-Instruct",
   "createdAt": "2026-04-10T10:49:34.000Z",
-  "downloads": 2338,
+  "downloads": 2396,
   "likes": 90,
   "pipeline": "audio-text-to-text",
   "library": "",
@@ -935,7 +935,7 @@
  {
   "id": "OpenMOSS-Team/MOSS-VL-Base-0408",
   "createdAt": "2026-04-07T15:28:09.000Z",
-  "downloads": 305,
+  "downloads": 456,
   "likes": 64,
   "pipeline": "video-text-to-text",
   "library": "transformers",
@@ -958,7 +958,7 @@
  {
   "id": "OpenMOSS-Team/MOSS-VL-Instruct-0408",
   "createdAt": "2026-04-07T12:51:07.000Z",
-  "downloads": 185,
+  "downloads": 189,
   "likes": 108,
   "pipeline": "video-text-to-text",
   "library": "transformers",
@@ -981,8 +981,8 @@
  {
   "id": "OpenMOSS-Team/MOSS-TTS-Nano-100M",
   "createdAt": "2026-04-02T15:13:08.000Z",
-  "downloads": 121046,
-  "likes": 251,
+  "downloads": 118947,
+  "likes": 252,
   "pipeline": "text-to-speech",
   "library": "",
   "gated": false,
@@ -1004,7 +1004,7 @@
  {
   "id": "OpenMOSS-Team/MOSS-Audio-Tokenizer-v2",
   "createdAt": "2026-04-02T10:55:51.000Z",
-  "downloads": 23997,
+  "downloads": 26231,
   "likes": 25,
   "pipeline": "feature-extraction",
   "library": "transformers",
@@ -1027,7 +1027,7 @@
  {
   "id": "OpenMOSS-Team/MOSS-Audio-Tokenizer-Nano",
   "createdAt": "2026-04-02T10:54:21.000Z",
-  "downloads": 214657,
+  "downloads": 216037,
   "likes": 30,
   "pipeline": "feature-extraction",
   "library": "transformers",
@@ -1050,7 +1050,7 @@
  {
   "id": "OpenMOSS-Team/moss-video-preview-base",
   "createdAt": "2026-03-17T06:51:36.000Z",
-  "downloads": 43,
+  "downloads": 46,
   "likes": 16,
   "pipeline": "video-text-to-text",
   "library": "transformers",
@@ -1073,8 +1073,8 @@
  {
   "id": "OpenMOSS-Team/moss-video-preview-realtime-sft",
   "createdAt": "2026-03-17T03:55:05.000Z",
-  "downloads": 66,
-  "likes": 28,
+  "downloads": 74,
+  "likes": 30,
   "pipeline": "video-text-to-text",
   "library": "transformers",
   "gated": false,
@@ -1096,7 +1096,7 @@
  {
   "id": "OpenMOSS-Team/SciThinker-4B",
   "createdAt": "2026-03-16T12:08:57.000Z",
-  "downloads": 965,
+  "downloads": 1414,
   "likes": 7,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -1115,7 +1115,7 @@
  {
   "id": "OpenMOSS-Team/SciThinker-30B",
   "createdAt": "2026-03-16T12:08:45.000Z",
-  "downloads": 1124,
+  "downloads": 1575,
   "likes": 17,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -1133,7 +1133,7 @@
  {
   "id": "OpenMOSS-Team/SciJudge-30B",
   "createdAt": "2026-03-15T02:07:40.000Z",
-  "downloads": 1147,
+  "downloads": 1994,
   "likes": 13,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -1153,7 +1153,7 @@
  {
   "id": "OpenMOSS-Team/SciJudge-4B",
   "createdAt": "2026-03-15T02:07:22.000Z",
-  "downloads": 49,
+  "downloads": 52,
   "likes": 6,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -1174,7 +1174,7 @@
  {
   "id": "OpenMOSS-Team/moss-video-preview-sft",
   "createdAt": "2026-03-11T06:17:49.000Z",
-  "downloads": 88,
+  "downloads": 96,
   "likes": 18,
   "pipeline": "video-text-to-text",
   "library": "transformers",
@@ -1216,8 +1216,8 @@
  {
   "id": "OpenMOSS-Team/MOSS-TTS-GGUF",
   "createdAt": "2026-03-04T08:21:42.000Z",
-  "downloads": 590,
-  "likes": 35,
+  "downloads": 556,
+  "likes": 36,
   "pipeline": "text-to-speech",
   "library": "",
   "gated": "auto",
@@ -1259,8 +1259,8 @@
  {
   "id": "OpenMOSS-Team/MOSS-TTS-Realtime",
   "createdAt": "2026-02-09T02:41:24.000Z",
-  "downloads": 19689,
-  "likes": 120,
+  "downloads": 17025,
+  "likes": 121,
   "pipeline": "text-to-speech",
   "library": "transformers",
   "gated": false,
@@ -1282,8 +1282,8 @@
  {
   "id": "OpenMOSS-Team/MOSS-SoundEffect",
   "createdAt": "2026-02-08T17:44:45.000Z",
-  "downloads": 1428,
-  "likes": 58,
+  "downloads": 1499,
+  "likes": 59,
   "pipeline": "text-to-audio",
   "library": "",
   "gated": false,
@@ -1297,7 +1297,7 @@
  {
   "id": "OpenMOSS-Team/MOSS-VoiceGenerator",
   "createdAt": "2026-02-08T15:23:36.000Z",
-  "downloads": 8725,
+  "downloads": 7396,
   "likes": 53,
   "pipeline": "text-to-speech",
   "library": "",
@@ -1312,7 +1312,7 @@
  {
   "id": "OpenMOSS-Team/MOSS-TTSD-v1.0",
   "createdAt": "2026-02-08T14:41:48.000Z",
-  "downloads": 12186,
+  "downloads": 11252,
   "likes": 64,
   "pipeline": "text-to-speech",
   "library": "transformers",
@@ -1335,7 +1335,7 @@
  {
   "id": "OpenMOSS-Team/MOSS-TTS-Local-Transformer",
   "createdAt": "2026-02-08T10:16:42.000Z",
-  "downloads": 151292,
+  "downloads": 203969,
   "likes": 32,
   "pipeline": "text-to-speech",
   "library": "",
@@ -1358,8 +1358,8 @@
  {
   "id": "OpenMOSS-Team/MOSS-TTS",
   "createdAt": "2026-02-06T04:14:06.000Z",
-  "downloads": 4326,
-  "likes": 437,
+  "downloads": 4921,
+  "likes": 438,
   "pipeline": "text-to-speech",
   "library": "",
   "gated": false,
@@ -1381,7 +1381,7 @@
  {
   "id": "OpenMOSS-Team/MOSS-Audio-Tokenizer",
   "createdAt": "2026-02-04T03:56:13.000Z",
-  "downloads": 94249,
+  "downloads": 101510,
   "likes": 47,
   "pipeline": "feature-extraction",
   "library": "transformers",
@@ -1404,7 +1404,7 @@
  {
   "id": "OpenMOSS-Team/MOVA-720p",
   "createdAt": "2026-01-28T19:18:25.000Z",
-  "downloads": 389,
+  "downloads": 636,
   "likes": 134,
   "pipeline": "any-to-any",
   "library": "diffusers",
@@ -1427,7 +1427,7 @@
  {
   "id": "OpenMOSS-Team/MOVA-360p",
   "createdAt": "2026-01-28T07:45:42.000Z",
-  "downloads": 184609,
+  "downloads": 200396,
   "likes": 219,
   "pipeline": "image-to-video",
   "library": "diffusers",
@@ -1449,7 +1449,7 @@
  {
   "id": "OpenMOSS-Team/Qwen3-8B-ABC",
   "createdAt": "2026-01-14T08:44:52.000Z",
-  "downloads": 986,
+  "downloads": 1565,
   "likes": 3,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -1495,7 +1495,7 @@
  {
   "id": "OpenMOSS-Team/MOSS_TTSD_tokenizer_hf",
   "createdAt": "2025-12-04T08:25:05.000Z",
-  "downloads": 45,
+  "downloads": 62,
   "likes": 0,
   "pipeline": "",
   "library": "",
@@ -1526,8 +1526,8 @@
  {
   "id": "OpenMOSS-Team/DiRL-8B-Instruct",
   "createdAt": "2025-11-18T13:55:34.000Z",
-  "downloads": 92,
-  "likes": 14,
+  "downloads": 98,
+  "likes": 15,
   "pipeline": "text-generation",
   "library": "transformers",
   "gated": false,
@@ -1559,7 +1559,7 @@
  {
   "id": "OpenMOSS-Team/MOSS-TTSD-v0.7",
   "createdAt": "2025-10-31T05:51:24.000Z",
-  "downloads": 257,
+  "downloads": 239,
   "likes": 18,
   "pipeline": "text-to-speech",
   "library": "",
@@ -1576,7 +1576,7 @@
  {
   "id": "OpenMOSS-Team/RoboOmni-LIBERO-Long",
   "createdAt": "2025-10-28T12:54:28.000Z",
-  "downloads": 23,
+  "downloads": 25,
   "likes": 1,
   "pipeline": "",
   "library": "",
@@ -1590,7 +1590,7 @@
  {
   "id": "OpenMOSS-Team/RoboOmni-LIBERO-Object",
   "createdAt": "2025-10-28T12:47:50.000Z",
-  "downloads": 24,
+  "downloads": 25,
   "likes": 2,
   "pipeline": "",
   "library": "",
@@ -1604,7 +1604,7 @@
  {
   "id": "OpenMOSS-Team/RoboOmni-LIBERO-Goal",
   "createdAt": "2025-10-28T12:42:58.000Z",
-  "downloads": 31,
+  "downloads": 37,
   "likes": 2,
   "pipeline": "",
   "library": "",
@@ -1636,7 +1636,7 @@
  {
   "id": "OpenMOSS-Team/RoboOmni",
   "createdAt": "2025-10-28T09:12:00.000Z",
-  "downloads": 64,
+  "downloads": 59,
   "likes": 16,
   "pipeline": "robotics",
   "library": "transformers",
@@ -1654,7 +1654,7 @@
  {
   "id": "OpenMOSS-Team/MOSS-Speech-Codec",
   "createdAt": "2025-09-30T09:47:43.000Z",
-  "downloads": 124,
+  "downloads": 139,
   "likes": 7,
   "pipeline": "",
   "library": "",
@@ -1669,7 +1669,7 @@
  {
   "id": "OpenMOSS-Team/MOSS-Speech",
   "createdAt": "2025-09-28T05:28:37.000Z",
-  "downloads": 277,
+  "downloads": 263,
   "likes": 24,
   "pipeline": "",
   "library": "",
@@ -1683,7 +1683,7 @@
  {
   "id": "OpenMOSS-Team/XY_Tokenizer_TTSD_V0_32k_hf",
   "createdAt": "2025-08-25T07:58:17.000Z",
-  "downloads": 159,
+  "downloads": 139,
   "likes": 0,
   "pipeline": "",
   "library": "",
@@ -1706,7 +1706,7 @@
  {
   "id": "OpenMOSS-Team/XY_Tokenizer_TTSD_V0_hf",
   "createdAt": "2025-08-20T12:49:38.000Z",
-  "downloads": 826,
+  "downloads": 886,
   "likes": 1,
   "pipeline": "",
   "library": "",
@@ -1720,7 +1720,7 @@
  {
   "id": "OpenMOSS-Team/MOSS-TTSD-v0.5",
   "createdAt": "2025-07-04T10:11:18.000Z",
-  "downloads": 322,
+  "downloads": 280,
   "likes": 54,
   "pipeline": "text-to-speech",
   "library": "",
@@ -1737,7 +1737,7 @@
  {
   "id": "OpenMOSS-Team/Game-RL-InternVL2.5-8B",
   "createdAt": "2025-07-04T07:05:29.000Z",
-  "downloads": 22,
+  "downloads": 31,
   "likes": 2,
   "pipeline": "image-text-to-text",
   "library": "transformers",
@@ -1755,7 +1755,7 @@
  {
   "id": "OpenMOSS-Team/Embodied_R1-ScienceWorld",
   "createdAt": "2025-06-27T15:06:39.000Z",
-  "downloads": 23,
+  "downloads": 20,
   "likes": 1,
   "pipeline": "",
   "library": "",
@@ -1781,7 +1781,7 @@
  {
   "id": "OpenMOSS-Team/qwen2.5-0_5B-rope8-d_kv_32-refactor",
   "createdAt": "2025-06-25T01:48:41.000Z",
-  "downloads": 1007,
+  "downloads": 1610,
   "likes": 0,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -1799,7 +1799,7 @@
  {
   "id": "OpenMOSS-Team/qwen2-0_5B-rope8-d_kv_16-refactor",
   "createdAt": "2025-06-25T01:46:21.000Z",
-  "downloads": 1005,
+  "downloads": 1611,
   "likes": 0,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -1843,7 +1843,7 @@
  {
   "id": "OpenMOSS-Team/qwen1_5-0_5B-d_kv_32-refactor",
   "createdAt": "2025-06-18T05:56:31.000Z",
-  "downloads": 18,
+  "downloads": 16,
   "likes": 0,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -1861,7 +1861,7 @@
  {
   "id": "OpenMOSS-Team/qwen1_5-0_5B-d_kv_16-refactor",
   "createdAt": "2025-06-18T05:51:20.000Z",
-  "downloads": 21,
+  "downloads": 22,
   "likes": 0,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -1879,7 +1879,7 @@
  {
   "id": "OpenMOSS-Team/qwen1_5-0_5B-d_kv_8-refactor",
   "createdAt": "2025-06-18T05:48:23.000Z",
-  "downloads": 18,
+  "downloads": 16,
   "likes": 0,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -1897,7 +1897,7 @@
  {
   "id": "OpenMOSS-Team/qwen3-0_6B-uniform_r_16-d_kv_64-refactor",
   "createdAt": "2025-06-18T05:15:09.000Z",
-  "downloads": 22,
+  "downloads": 21,
   "likes": 0,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -1915,7 +1915,7 @@
  {
   "id": "OpenMOSS-Team/qwen3-0_6B-uniform_r_16-d_kv_32-refactor",
   "createdAt": "2025-06-18T05:12:02.000Z",
-  "downloads": 956,
+  "downloads": 1535,
   "likes": 0,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -1933,7 +1933,7 @@
  {
   "id": "OpenMOSS-Team/qwen3-0_6B-uniform_r_16-d_kv_16-refactor",
   "createdAt": "2025-06-18T05:08:49.000Z",
-  "downloads": 19,
+  "downloads": 18,
   "likes": 0,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -1951,7 +1951,7 @@
  {
   "id": "OpenMOSS-Team/llama2-7B-d_kv_64-refactor",
   "createdAt": "2025-06-17T03:17:06.000Z",
-  "downloads": 19,
+  "downloads": 22,
   "likes": 0,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -1968,7 +1968,7 @@
  {
   "id": "OpenMOSS-Team/llama2-7B-d_kv_32-refactor",
   "createdAt": "2025-06-17T03:07:23.000Z",
-  "downloads": 21,
+  "downloads": 23,
   "likes": 0,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -1985,7 +1985,7 @@
  {
   "id": "OpenMOSS-Team/smollm1-1B7-d_kv_32-refactor",
   "createdAt": "2025-06-17T02:52:04.000Z",
-  "downloads": 19,
+  "downloads": 18,
   "likes": 0,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -2002,7 +2002,7 @@
  {
   "id": "OpenMOSS-Team/llama2-7B-d_kv_16-refactor",
   "createdAt": "2025-06-17T02:47:21.000Z",
-  "downloads": 20,
+  "downloads": 21,
   "likes": 0,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -2036,7 +2036,7 @@
  {
   "id": "OpenMOSS-Team/smollm1-1B7-d_kv_8-refactor",
   "createdAt": "2025-06-17T02:28:14.000Z",
-  "downloads": 20,
+  "downloads": 19,
   "likes": 0,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -2070,7 +2070,7 @@
  {
   "id": "OpenMOSS-Team/SmolLM-360M-MLA-d_kv_16-refactor",
   "createdAt": "2025-06-17T02:21:02.000Z",
-  "downloads": 21,
+  "downloads": 23,
   "likes": 0,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -2087,7 +2087,7 @@
  {
   "id": "OpenMOSS-Team/SmolLM-360M-MLA-d_kv_8-refactor",
   "createdAt": "2025-06-17T02:19:11.000Z",
-  "downloads": 25,
+  "downloads": 22,
   "likes": 1,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -2104,7 +2104,7 @@
  {
   "id": "OpenMOSS-Team/SmolLM-135M-MLA-d_kv_32-refactor",
   "createdAt": "2025-06-17T02:09:27.000Z",
-  "downloads": 23,
+  "downloads": 20,
   "likes": 1,
   "pipeline": "text-generation",
   "library": "transformers",
@@ -2138,7 +2138,7 @@
  {
   "id": "OpenMOSS-Team/SmolLM-135M-MLA-d_kv_8-refactor",
   "createdAt": "2025-06-17T02:02:38.000Z",
-  "downloads": 28,
+  "downloads": 31,
   "likes": 1,
   "pipeline": "text-generation",
   "library": "",
@@ -2162,7 +2162,7 @@
  {
   "id": "OpenMOSS-Team/Game-RL-LLaVA-OV-7B",
   "createdAt": "2025-05-28T01:59:40.000Z",
-  "downloads": 1030,
+  "downloads": 1728,
   "likes": 1,
   "pipeline": "",
   "library": "",
@@ -2175,7 +2175,7 @@
  {
   "id": "OpenMOSS-Team/Game-RL-Qwen2.5-VL-7B",
   "createdAt": "2025-05-27T18:07:14.000Z",
-  "downloads": 1053,
+  "downloads": 1759,
   "likes": 4,
   "pipeline": "image-text-to-text",
   "library": "transformers",
@@ -2193,7 +2193,7 @@
  {
   "id": "OpenMOSS-Team/Game-RL-InternVL3-8B",
   "createdAt": "2025-05-27T18:01:49.000Z",
-  "downloads": 885,
+  "downloads": 1473,
   "likes": 2,
   "pipeline": "",
   "library": "",
@@ -2237,7 +2237,7 @@
  {
   "id": "OpenMOSS-Team/SmolLM-1B7-MHA-d_kv_128",
   "createdAt": "2025-03-04T12:07:28.000Z",
-  "downloads": 27,
+  "downloads": 32,
   "likes": 0,
   "pipeline": "text-generation",
   "library": "",
@@ -2251,7 +2251,7 @@
  {
   "id": "OpenMOSS-Team/SmolLM-1B7-MLA-d_kv_32",
   "createdAt": "2025-03-04T12:06:54.000Z",
-  "downloads": 38,
+  "downloads": 41,
   "likes": 0,
   "pipeline": "text-generation",
   "library": "",
@@ -2265,7 +2265,7 @@
  {
   "id": "OpenMOSS-Team/SmolLM-1B7-MLA-d_kv_16",
   "createdAt": "2025-03-04T12:04:31.000Z",
-  "downloads": 30,
+  "downloads": 34,
   "likes": 0,
   "pipeline": "text-generation",
   "library": "",
@@ -2279,7 +2279,7 @@
  {
   "id": "OpenMOSS-Team/SmolLM-1B7-MLA-d_kv_8",
   "createdAt": "2025-03-04T12:04:10.000Z",
-  "downloads": 26,
+  "downloads": 31,
   "likes": 0,
   "pipeline": "text-generation",
   "library": "",
@@ -2293,7 +2293,7 @@
  {
   "id": "OpenMOSS-Team/SmolLM-360M-GQA-d_kv_128",
   "createdAt": "2025-03-04T12:03:41.000Z",
-  "downloads": 22,
+  "downloads": 24,
   "likes": 0,
   "pipeline": "text-generation",
   "library": "",
@@ -2307,7 +2307,7 @@
  {
   "id": "OpenMOSS-Team/SmolLM-360M-MLA-d_kv_32",
   "createdAt": "2025-03-04T12:03:18.000Z",
-  "downloads": 19,
+  "downloads": 22,
   "likes": 0,
   "pipeline": "text-generation",
   "library": "",
@@ -2321,7 +2321,7 @@
  {
   "id": "OpenMOSS-Team/SmolLM-360M-MLA-d_kv_16",
   "createdAt": "2025-03-04T11:53:26.000Z",
-  "downloads": 25,
+  "downloads": 35,
   "likes": 0,
   "pipeline": "text-generation",
   "library": "",
@@ -2335,7 +2335,7 @@
  {
   "id": "OpenMOSS-Team/SmolLM-360M-MLA-d_kv_8",
   "createdAt": "2025-03-04T11:37:55.000Z",
-  "downloads": 24,
+  "downloads": 27,
   "likes": 0,
   "pipeline": "text-generation",
   "library": "",
@@ -2349,7 +2349,7 @@
  {
   "id": "OpenMOSS-Team/SmolLM-135M-GQA-d_kv_128",
   "createdAt": "2025-03-04T11:30:23.000Z",
-  "downloads": 23,
+  "downloads": 25,
   "likes": 0,
   "pipeline": "text-generation",
   "library": "",
@@ -2363,7 +2363,7 @@
  {
   "id": "OpenMOSS-Team/SmolLM-135M-MLA-d_kv_32",
   "createdAt": "2025-03-04T11:24:25.000Z",
-  "downloads": 18,
+  "downloads": 21,
   "likes": 0,
   "pipeline": "text-generation",
   "library": "",
@@ -2403,7 +2403,7 @@
  {
   "id": "OpenMOSS-Team/Llama-2-7B-MHA-d_kv_256",
   "createdAt": "2025-03-03T14:43:11.000Z",
-  "downloads": 24,
+  "downloads": 30,
   "likes": 3,
   "pipeline": "text-generation",
   "library": "",
@@ -2417,7 +2417,7 @@
  {
   "id": "OpenMOSS-Team/Llama-2-7B-MLA-d_kv_64",
   "createdAt": "2025-03-03T08:36:24.000Z",
-  "downloads": 34,
+  "downloads": 39,
   "likes": 1,
   "pipeline": "text-generation",
   "library": "",
@@ -2431,7 +2431,7 @@
  {
   "id": "OpenMOSS-Team/Llama-2-7B-MLA-d_kv_32",
   "createdAt": "2025-03-03T05:28:56.000Z",
-  "downloads": 27,
+  "downloads": 31,
   "likes": 1,
   "pipeline": "text-generation",
   "library": "",
@@ -2445,7 +2445,7 @@
  {
   "id": "OpenMOSS-Team/Llama-2-7B-MLA-d_kv_16",
   "createdAt": "2025-03-03T03:27:59.000Z",
-  "downloads": 26,
+  "downloads": 31,
   "likes": 1,
   "pipeline": "text-generation",
   "library": "",
@@ -2479,7 +2479,7 @@
  {
   "id": "OpenMOSS-Team/SpeechGPT-2.0-preview-7B",
   "createdAt": "2025-01-26T12:51:40.000Z",
-  "downloads": 145,
+  "downloads": 132,
   "likes": 13,
   "pipeline": "",
   "library": "",

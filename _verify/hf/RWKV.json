@@ -2,7 +2,7 @@
  {
   "id": "RWKV/RWKV7-G1l-13.3B-20261031",
   "createdAt": "2026-10-31T19:04:42.000Z",
-  "downloads": 461,
+  "downloads": 499,
   "likes": 1,
   "pipeline": "text-generation",
   "tags": [
@@ -14,7 +14,7 @@
  {
   "id": "RWKV/RWKV7-G1l-7.2B-20261031",
   "createdAt": "2026-10-31T16:12:29.000Z",
-  "downloads": 520,
+  "downloads": 581,
   "likes": 2,
   "pipeline": "text-generation",
   "tags": [
@@ -26,7 +26,7 @@
  {
   "id": "RWKV/RWKV7-G1l-2.9B-20261031",
   "createdAt": "2026-10-31T14:15:57.000Z",
-  "downloads": 344,
+  "downloads": 416,
   "likes": 1,
   "pipeline": "text-generation",
   "tags": [
@@ -38,7 +38,7 @@
  {
   "id": "RWKV/RWKV7-G1l-1.5B-20261031",
   "createdAt": "2026-10-31T12:58:33.000Z",
-  "downloads": 470,
+  "downloads": 575,
   "likes": 2,
   "pipeline": "text-generation",
   "tags": [
@@ -50,8 +50,8 @@
  {
   "id": "RWKV/RWKV7-G1k-1.5B-20260930",
   "createdAt": "2026-09-30T15:30:49.000Z",
-  "downloads": 311,
-  "likes": 2,
+  "downloads": 243,
+  "likes": 3,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
@@ -62,7 +62,7 @@
  {
   "id": "RWKV/RWKV7-G1k-13.3B-20260930",
   "createdAt": "2026-09-30T15:12:25.000Z",
-  "downloads": 546,
+  "downloads": 456,
   "likes": 8,
   "pipeline": "text-generation",
   "tags": [
@@ -74,7 +74,7 @@
  {
   "id": "RWKV/RWKV7-G1k-7.2B-20260930",
   "createdAt": "2026-09-30T12:02:42.000Z",
-  "downloads": 338,
+  "downloads": 242,
   "likes": 3,
   "pipeline": "text-generation",
   "tags": [
@@ -86,7 +86,7 @@
  {
   "id": "RWKV/RWKV7-G1k-2.9B-20260930",
   "createdAt": "2026-09-30T11:01:33.000Z",
-  "downloads": 273,
+  "downloads": 240,
   "likes": 1,
   "pipeline": "text-generation",
   "tags": [
@@ -98,7 +98,7 @@
  {
   "id": "RWKV/RWKV7-G1j-13.3B-20260831",
   "createdAt": "2026-09-02T12:01:22.000Z",
-  "downloads": 442,
+  "downloads": 329,
   "likes": 4,
   "pipeline": "text-generation",
   "tags": [
@@ -110,7 +110,7 @@
  {
   "id": "RWKV/RWKV7-G1j-7.2B-20260831",
   "createdAt": "2026-09-02T11:10:04.000Z",
-  "downloads": 274,
+  "downloads": 253,
   "likes": 1,
   "pipeline": "text-generation",
   "tags": [
@@ -122,7 +122,7 @@
  {
   "id": "RWKV/RWKV7-G1j-2.9B-20260831",
   "createdAt": "2026-09-02T09:13:21.000Z",
-  "downloads": 858,
+  "downloads": 819,
   "likes": 3,
   "pipeline": "text-generation",
   "tags": [
@@ -134,7 +134,7 @@
  {
   "id": "RWKV/RWKV7-G1j-1.5B-20260831",
   "createdAt": "2026-09-02T07:54:54.000Z",
-  "downloads": 385,
+  "downloads": 327,
   "likes": 5,
   "pipeline": "text-generation",
   "tags": [
@@ -146,7 +146,7 @@
  {
   "id": "RWKV/RWKV7-13.3B-20260805",
   "createdAt": "2026-08-06T10:36:28.000Z",
-  "downloads": 46,
+  "downloads": 38,
   "likes": 2,
   "pipeline": "text-generation",
   "tags": [
@@ -158,7 +158,7 @@
  {
   "id": "RWKV/RWKV7-7.2B-20260805",
   "createdAt": "2026-08-06T10:35:14.000Z",
-  "downloads": 78,
+  "downloads": 57,
   "likes": 2,
   "pipeline": "text-generation",
   "tags": [
@@ -170,7 +170,7 @@
  {
   "id": "RWKV/RWKV7-2.9B-20260805",
   "createdAt": "2026-08-06T10:34:37.000Z",
-  "downloads": 104,
+  "downloads": 123,
   "likes": 4,
   "pipeline": "text-generation",
   "tags": [
@@ -182,7 +182,7 @@
  {
   "id": "RWKV/RWKV7-1.5B-20260805",
   "createdAt": "2026-08-06T10:34:06.000Z",
-  "downloads": 154,
+  "downloads": 135,
   "likes": 8,
   "pipeline": "text-generation",
   "tags": [
@@ -205,7 +205,7 @@
  {
   "id": "RWKV/RWKV7-Goose-Pile-421M-HF",
   "createdAt": "2025-03-17T00:14:18.000Z",
-  "downloads": 93,
+  "downloads": 98,
   "likes": 0,
   "pipeline": "text-generation",
   "tags": [
@@ -227,7 +227,7 @@
  {
   "id": "RWKV/RWKV7-Goose-World2.8-0.1B-HF",
   "createdAt": "2025-03-17T00:11:49.000Z",
-  "downloads": 182,
+  "downloads": 162,
   "likes": 3,
   "pipeline": "text-generation",
   "tags": [
@@ -239,7 +239,7 @@
  {
   "id": "RWKV/RWKV7-Goose-World2.9-0.4B-HF",
   "createdAt": "2025-03-17T00:10:39.000Z",
-  "downloads": 148,
+  "downloads": 147,
   "likes": 1,
   "pipeline": "text-generation",
   "tags": [
@@ -251,7 +251,7 @@
  {
   "id": "RWKV/RWKV7-Goose-World3-1.5B-HF",
   "createdAt": "2025-03-17T00:09:52.000Z",
-  "downloads": 226,
+  "downloads": 178,
   "likes": 4,
   "pipeline": "text-generation",
   "tags": [
@@ -263,7 +263,7 @@
  {
   "id": "RWKV/RWKV7-Goose-World3-2.9B-HF",
   "createdAt": "2025-03-17T00:06:51.000Z",
-  "downloads": 323,
+  "downloads": 274,
   "likes": 19,
   "pipeline": "text-generation",
   "tags": [
@@ -275,7 +275,7 @@
  {
   "id": "RWKV/RWKV7-Goose-World-PTH",
   "createdAt": "2025-03-16T21:47:09.000Z",
-  "downloads": 190,
+  "downloads": 118,
   "likes": 0,
   "pipeline": "text-generation",
   "tags": [

@@ -2,7 +2,7 @@
  {
   "id": "swiss-ai/Apertus-v1.5-70B-base",
   "createdAt": "2026-09-23T07:09:05.000Z",
-  "downloads": 500,
+  "downloads": 268,
   "likes": 3,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -14,7 +14,7 @@
  {
   "id": "swiss-ai/Apertus-v1.5-8B-base",
   "createdAt": "2026-09-23T07:06:49.000Z",
-  "downloads": 1496,
+  "downloads": 3371,
   "likes": 3,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -26,7 +26,7 @@
  {
   "id": "swiss-ai/Apertus-v1.5-70B-RL",
   "createdAt": "2026-08-22T17:09:40.000Z",
-  "downloads": 25,
+  "downloads": 143,
   "likes": 5,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -39,7 +39,7 @@
  {
   "id": "swiss-ai/Apertus-v1.5-70B-SFT",
   "createdAt": "2026-08-22T17:08:18.000Z",
-  "downloads": 54,
+  "downloads": 72,
   "likes": 2,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -52,7 +52,7 @@
  {
   "id": "swiss-ai/Apertus-v1.5-8B-DPO",
   "createdAt": "2026-08-22T17:06:53.000Z",
-  "downloads": 59,
+  "downloads": 78,
   "likes": 2,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -65,7 +65,7 @@
  {
   "id": "swiss-ai/Apertus-v1.5-8B-RL",
   "createdAt": "2026-08-22T17:05:24.000Z",
-  "downloads": 66,
+  "downloads": 148,
   "likes": 0,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -78,7 +78,7 @@
  {
   "id": "swiss-ai/Apertus-v1.5-8B-SFT",
   "createdAt": "2026-08-22T17:02:01.000Z",
-  "downloads": 2578,
+  "downloads": 2616,
   "likes": 0,
   "pipeline": "image-text-to-text",
   "tags": [
@@ -91,8 +91,8 @@
  {
   "id": "swiss-ai/Apertus-v1.5-70B",
   "createdAt": "2026-07-24T06:07:19.000Z",
-  "downloads": 8230,
-  "likes": 145,
+  "downloads": 8116,
+  "likes": 147,
   "pipeline": "image-text-to-text",
   "tags": [
    "text-generation",
@@ -104,8 +104,8 @@
  {
   "id": "swiss-ai/Apertus-v1.5-8B",
   "createdAt": "2026-07-24T06:03:10.000Z",
-  "downloads": 15490,
-  "likes": 184,
+  "downloads": 9648,
+  "likes": 187,
   "pipeline": "image-text-to-text",
   "tags": [
    "text-generation",
@@ -117,7 +117,7 @@
  {
   "id": "swiss-ai/wavtokenizer-large-unify-40token",
   "createdAt": "2026-07-19T12:10:44.000Z",
-  "downloads": 62,
+  "downloads": 54,
   "likes": 0,
   "pipeline": "feature-extraction",
   "tags": [],
@@ -126,7 +126,7 @@
  {
   "id": "swiss-ai/Apertus-v1.1-1.5B-Instruct-vLLM-NVFP4A16",
   "createdAt": "2026-05-18T12:59:05.000Z",
-  "downloads": 46,
+  "downloads": 42,
   "likes": 0,
   "pipeline": "text-generation",
   "tags": [
@@ -138,7 +138,7 @@
  {
   "id": "swiss-ai/Apertus-v1.1-4B-Instruct-MLX-INT6",
   "createdAt": "2026-05-18T12:44:29.000Z",
-  "downloads": 52,
+  "downloads": 49,
   "likes": 1,
   "pipeline": "text-generation",
   "tags": [
@@ -150,7 +150,7 @@
  {
   "id": "swiss-ai/Apertus-v1.1-4B-Instruct-MLX-INT4",
   "createdAt": "2026-05-18T12:42:40.000Z",
-  "downloads": 74,
+  "downloads": 69,
   "likes": 1,
   "pipeline": "text-generation",
   "tags": [
@@ -174,7 +174,7 @@
  {
   "id": "swiss-ai/Apertus-v1.1-1.5B-Instruct-MLX-INT6",
   "createdAt": "2026-05-18T12:39:35.000Z",
-  "downloads": 31,
+  "downloads": 34,
   "likes": 0,
   "pipeline": "text-generation",
   "tags": [
@@ -186,7 +186,7 @@
  {
   "id": "swiss-ai/Apertus-v1.1-1.5B-Instruct-MLX-INT4",
   "createdAt": "2026-05-18T12:38:27.000Z",
-  "downloads": 39,
+  "downloads": 50,
   "likes": 0,
   "pipeline": "text-generation",
   "tags": [
@@ -198,7 +198,7 @@
  {
   "id": "swiss-ai/Apertus-v1.1-1.5B-Instruct-MLX-INT3",
   "createdAt": "2026-05-18T12:37:23.000Z",
-  "downloads": 32,
+  "downloads": 31,
   "likes": 1,
   "pipeline": "text-generation",
   "tags": [
@@ -210,7 +210,7 @@
  {
   "id": "swiss-ai/Apertus-v1.1-0.5B-Instruct-MLX-INT6",
   "createdAt": "2026-05-18T12:36:07.000Z",
-  "downloads": 33,
+  "downloads": 30,
   "likes": 0,
   "pipeline": "text-generation",
   "tags": [
@@ -222,7 +222,7 @@
  {
   "id": "swiss-ai/Apertus-v1.1-0.5B-Instruct-MLX-INT4",
   "createdAt": "2026-05-18T12:35:08.000Z",
-  "downloads": 38,
+  "downloads": 42,
   "likes": 0,
   "pipeline": "text-generation",
   "tags": [
@@ -234,7 +234,7 @@
  {
   "id": "swiss-ai/Apertus-v1.1-0.5B-Instruct-MLX-INT3",
   "createdAt": "2026-05-18T12:34:06.000Z",
-  "downloads": 35,
+  "downloads": 36,
   "likes": 0,
   "pipeline": "text-generation",
   "tags": [
@@ -246,7 +246,7 @@
  {
   "id": "swiss-ai/Apertus-v1.1-1.5B-Instruct",
   "createdAt": "2026-05-03T09:52:07.000Z",
-  "downloads": 5966,
+  "downloads": 5897,
   "likes": 3,
   "pipeline": "text-generation",
   "tags": [
@@ -258,7 +258,7 @@
  {
   "id": "swiss-ai/Apertus-v1.1-4B-Instruct",
   "createdAt": "2026-05-01T18:38:41.000Z",
-  "downloads": 2987,
+  "downloads": 3597,
   "likes": 2,
   "pipeline": "text-generation",
   "tags": [
@@ -270,7 +270,7 @@
  {
   "id": "swiss-ai/Apertus-v1.1-0.5B-Instruct",
   "createdAt": "2026-05-01T18:09:43.000Z",
-  "downloads": 3142,
+  "downloads": 3336,
   "likes": 1,
   "pipeline": "text-generation",
   "tags": [
@@ -282,7 +282,7 @@
  {
   "id": "swiss-ai/Apertus-v1.1-4B",
   "createdAt": "2026-04-12T16:22:58.000Z",
-  "downloads": 2465,
+  "downloads": 3696,
   "likes": 5,
   "pipeline": "text-generation",
   "tags": [
@@ -293,7 +293,7 @@
  {
   "id": "swiss-ai/Apertus-v1.1-0.5B",
   "createdAt": "2026-03-30T11:02:49.000Z",
-  "downloads": 1754,
+  "downloads": 2842,
   "likes": 12,
   "pipeline": "text-generation",
   "tags": [
@@ -304,7 +304,7 @@
  {
   "id": "swiss-ai/Apertus-v1.1-1.5B",
   "createdAt": "2026-02-18T14:45:40.000Z",
-  "downloads": 578,
+  "downloads": 1499,
   "likes": 1,
   "pipeline": "text-generation",
   "tags": [
@@ -315,7 +315,7 @@
  {
   "id": "swiss-ai/Apertus-8B-2509",
   "createdAt": "2025-09-02T00:50:39.000Z",
-  "downloads": 11725,
+  "downloads": 10146,
   "likes": 175,
   "pipeline": "text-generation",
   "tags": [
@@ -326,7 +326,7 @@
  {
   "id": "swiss-ai/Apertus-70B-2509",
   "createdAt": "2025-09-02T00:50:20.000Z",
-  "downloads": 1242,
+  "downloads": 699,
   "likes": 161,
   "pipeline": "text-generation",
   "tags": [
@@ -337,7 +337,7 @@
  {
   "id": "swiss-ai/Apertus-70B-Instruct-2509",
   "createdAt": "2025-09-01T16:03:48.000Z",
-  "downloads": 10960,
+  "downloads": 7354,
   "likes": 194,
   "pipeline": "text-generation",
   "tags": [
@@ -358,8 +358,8 @@
  {
   "id": "swiss-ai/Apertus-8B-Instruct-2509",
   "createdAt": "2025-08-13T09:30:23.000Z",
-  "downloads": 309193,
-  "likes": 502,
+  "downloads": 204927,
+  "likes": 504,
   "pipeline": "text-generation",
   "tags": [
    "text-generation",
